@@ -43,7 +43,7 @@ function readFilesFromLanguage(lang = "EN"){
         console.log(err);
       }
     };
-    fs.writeFileSync(path.join(__dirname, "../dist/skills.json"), stringify(compiled));
+    fs.writeFileSync(path.join(__dirname, "../dist/skillsVerbose.json"), stringify(compiled));
   });
 
 
@@ -71,6 +71,17 @@ function flatten(dict){
 
   if (arr.length == 0){
     arr = new Array(10).fill(dict.effect_list);
+  }
+
+  //Add time to the skill if possible
+  for (level of arr){
+    for (effect of level){
+      if (effect.arg_list.time === undefined && dict.time !== undefined){
+        if (dict.time != 0){
+          effect.arg_list.time = dict.time;
+        }
+      }
+    }
   }
 
   return arr;

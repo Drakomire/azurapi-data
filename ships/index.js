@@ -75,6 +75,8 @@ function readFilesFromLanguage(lang = "EN") {
         // compiled[ship.group_type].rarity.push(rarity[stat.rarity])
         if (compiled[ship.group_type].nationality !== stat.nationality) continue; // pseudo ship
         compiled[ship.group_type].stars = ship.star_max;
+        compiled[ship.group_type].skill_ids = ship.buff_list_display;
+
 
         // https://github.com/minhducsun2002/boomer/blob/92c21b3624b539068ef3758d7f4c879fc8401952/src/db/al/models/ship_data_statistics.ts
         let [hp, fp, trp, aa, av, rld, _, acc, eva, spd, luk, asw] = stat.attrs;

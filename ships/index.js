@@ -32,6 +32,9 @@ function readFilesFromLanguage(lang = "EN") {
     let ships = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_template.json")).toString());
     let stats = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_statistics.json")).toString());
     let types = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_by_type.json")).toString());
+    let retrofit = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_trans.json")).toString());
+
+
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 17, 18, 19].forEach(type => {
         if (!TYPES[type]) TYPES[type] = {};
         if (!TYPES[type][lang.toLowerCase()]) TYPES[type][lang.toLowerCase()] = types[type].type_name.trim();
@@ -75,7 +78,15 @@ function readFilesFromLanguage(lang = "EN") {
         // compiled[ship.group_type].rarity.push(rarity[stat.rarity])
         if (compiled[ship.group_type].nationality !== stat.nationality) continue; // pseudo ship
         compiled[ship.group_type].stars = ship.star_max;
+        //Add skills
         compiled[ship.group_type].skill_ids = ship.buff_list_display;
+
+        //Add retrofit info
+        try{
+          compiled[ship.group_type].retrofit = retrofit[ship.group_type].transform_list;
+        }catch{
+
+        }
 
 
         // https://github.com/minhducsun2002/boomer/blob/92c21b3624b539068ef3758d7f4c879fc8401952/src/db/al/models/ship_data_statistics.ts

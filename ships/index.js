@@ -31,6 +31,7 @@ function readFilesFromLanguage(lang = "EN") {
     let groups = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_group.json")).toString());
     let ships = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_template.json")).toString());
     let stats = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_statistics.json")).toString());
+    let shipStrengthens = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_strengthen.json")).toString());
     let types = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_by_type.json")).toString());
     let retrofit = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_trans.json")).toString());
 
@@ -62,6 +63,7 @@ function readFilesFromLanguage(lang = "EN") {
         if (id === "all") continue;
         let ship = ships[id];
         let stat = stats[id];
+        let strengthen = shipStrengthens[Math.floor(id/10)]
 
         if (!ship || !stat) continue; // ship not here / not complete
 
@@ -91,8 +93,6 @@ function readFilesFromLanguage(lang = "EN") {
 
         // https://github.com/minhducsun2002/boomer/blob/92c21b3624b539068ef3758d7f4c879fc8401952/src/db/al/models/ship_data_statistics.ts
         let [hp, fp, trp, aa, av, rld, _, acc, eva, spd, luk, asw] = stat.attrs;
-        // let [ghp, gfp, gtrp, gaa, gav, grld, g_, gacc, geva, gspd, gluk, gasw] = stat.attrs_growth;
-        // let [gehp, gefp, getrp, geaa, geav, gerld, ge_, geacc, geeva, gespd, geluk, geasw] = stat.attrs_growth_extra;
 
 
         let specificShip = compiled[ship.group_type].data[ship.id];
@@ -115,7 +115,12 @@ function readFilesFromLanguage(lang = "EN") {
         specificShip.stats_growth = {hp, fp, trp, aa, av, rld, acc, eva, spd, luk, asw};
         [hp, fp, trp, aa, av, rld, _, acc, eva, spd, luk, asw] = stat.attrs_growth_extra;
         specificShip.stats_growth_extra = {hp, fp, trp, aa, av, rld, acc, eva, spd, luk, asw};
-
+        if (strengthen !== undefined){
+          [fp,trp,_,av,rld] = strengthen.durability;
+          specificShip.enhancement = {fp,trp,av,rld};
+        }else{
+          console.log(stat.english_name)
+        }
 
 
         if (specificShip.type !== ship.type) console.log("SHIP TYPE NOT MATCH ", id, ship.group_type, stat.name, lang);

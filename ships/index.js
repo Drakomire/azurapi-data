@@ -91,8 +91,8 @@ function readFilesFromLanguage(lang = "EN") {
 
         // https://github.com/minhducsun2002/boomer/blob/92c21b3624b539068ef3758d7f4c879fc8401952/src/db/al/models/ship_data_statistics.ts
         let [hp, fp, trp, aa, av, rld, _, acc, eva, spd, luk, asw] = stat.attrs;
-        let [ghp, gfp, gtrp, gaa, gav, grld, g_, gacc, geva, gspd, gluk, gasw] = stat.attrs_growth;
-        let [gehp, gefp, getrp, geaa, geav, gerld, ge_, geacc, geeva, gespd, geluk, geasw] = stat.attrs_growth_extra;
+        // let [ghp, gfp, gtrp, gaa, gav, grld, g_, gacc, geva, gspd, gluk, gasw] = stat.attrs_growth;
+        // let [gehp, gefp, getrp, geaa, geav, gerld, ge_, geacc, geeva, gespd, geluk, geasw] = stat.attrs_growth_extra;
 
 
         let specificShip = compiled[ship.group_type].data[ship.id];
@@ -105,10 +105,19 @@ function readFilesFromLanguage(lang = "EN") {
             oil: ship.oil_at_end,
             max_level: ship.max_level,
             stats: {hp, fp, trp, aa, av, rld, acc, eva, spd, luk, asw},
-            stats_growth: {ghp, gfp, gtrp, gaa, gav, grld, gacc, geva, gspd, gluk, gasw},
-            stats_growth_extra: {gehp, gefp, getrp, geaa, geav, gerld, geacc, geeva, gespd, geluk, geasw}
+            // stats_growth: {ghp, gfp, gtrp, gaa, gav, grld, gacc, geva, gspd, gluk, gasw},
+            // stats_growth_extra: {gehp, gefp, getrp, geaa, geav, gerld, geacc, geeva, gespd, geluk, geasw}
 
         };
+
+
+        [hp, fp, trp, aa, av, rld, _, acc, eva, spd, luk, asw] = stat.attrs_growth;
+        specificShip.stats_growth = {hp, fp, trp, aa, av, rld, acc, eva, spd, luk, asw};
+        [hp, fp, trp, aa, av, rld, _, acc, eva, spd, luk, asw] = stat.attrs_growth_extra;
+        specificShip.stats_growth_extra = {hp, fp, trp, aa, av, rld, acc, eva, spd, luk, asw};
+
+
+
         if (specificShip.type !== ship.type) console.log("SHIP TYPE NOT MATCH ", id, ship.group_type, stat.name, lang);
 
         // collapse, maybe the collapse algo can be collapsed later

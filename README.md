@@ -4,3 +4,7 @@ This is the main data collection for my API. The ship stats and stuff are forked
 ## Running the code
 `node index.js`<br>
 The code will update but skills will not parse correctly. Still wip.
+
+## Dependencies
+Python 3.9
+Lua 5.1 (with cjson)

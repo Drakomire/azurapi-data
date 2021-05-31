@@ -117,7 +117,7 @@ function readFilesFromLanguage(lang = "EN") {
         specificShip.stats_growth_extra = {hp, fp, trp, aa, av, rld, acc, eva, spd, luk, asw};
         if (strengthen !== undefined){
           [fp,trp,_,av,rld] = strengthen.durability;
-          specificShip.enhancement = {fp,trp,av,rld};
+          compiled[ship.group_type].enhancement = {fp,trp,av,rld};
         }else{
           console.log(stat.english_name)
         }

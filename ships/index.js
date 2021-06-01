@@ -98,9 +98,11 @@ function readFilesFromLanguage(lang = "EN") {
         if (stat.english_name.length === 0) continue; // unknown ship
         if (FAKE_SHIPS.includes(id)) continue;
 
-        //Add ship to lookup table
-        lookup_table[stat.name.toLowerCase()] = (id-id%10)/10;
-        lookup_table[stat.english_name.toLowerCase()] = (id-id%10)/10;
+        //Add ship to lookup table. Only use first occurance.
+        if (lookup_table[stat.name.toLowerCase()] === undefined){
+          lookup_table[stat.name.toLowerCase()] = (id-id%10)/10;
+          lookup_table[stat.english_name.toLowerCase()] = (id-id%10)/10;
+        }
 
         // compiled[ship.group_type].rarity.push(rarity[stat.rarity])
         if (compiled[ship.group_type].nationality !== stat.nationality) continue; // pseudo ship

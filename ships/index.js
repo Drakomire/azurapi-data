@@ -17,8 +17,20 @@ const NATIONALITY = {
     104: "Kizuna AI", 105: "Hololive", 106: "Venus Vacation"
 };
 
-let TYPES = {};
+const STAT_KEYWORDS = {
+  "durability": "hp",
+  "cannon" : "fp",
+  "antiaircraft" : "aa",
+  "torpedo" : "trp",
+  "air" : "avi",
+  "reload" : "rld",
+  "dodge" : "eva",
+  "hit" : "acc"
+}
 
+let TYPES = {};
+let PR_calculated = false;
+let META_calculated = false;
 let compiled = {};
 
 const HEXAGON_RANK = {
@@ -31,7 +43,15 @@ function readFilesFromLanguage(lang = "EN") {
     let groups = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_group.json")).toString());
     let ships = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_template.json")).toString());
     let stats = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_statistics.json")).toString());
-    let shipStrengthens = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_strengthen.json")).toString());
+    let ship_strengthen = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_strengthen.json")).toString());
+
+    let ship_data_blueprint = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_blueprint.json")).toString());
+    let ship_strengthen_blueprint = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_strengthen_blueprint.json")).toString());
+
+    let ship_meta_repair = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_meta_repair.json")).toString());
+    let ship_meta_repair_effect = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_meta_repair_effect.json")).toString());
+    let ship_strengthen_meta = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_strengthen_meta.json")).toString());
+
     let types = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_by_type.json")).toString());
     let retrofit = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_trans.json")).toString());
 
@@ -63,7 +83,7 @@ function readFilesFromLanguage(lang = "EN") {
         if (id === "all") continue;
         let ship = ships[id];
         let stat = stats[id];
-        let strengthen = shipStrengthens[Math.floor(id/10)]
+        let strengthen = ship_strengthen[Math.floor(id/10)]
 
         if (!ship || !stat) continue; // ship not here / not complete
 
@@ -92,7 +112,7 @@ function readFilesFromLanguage(lang = "EN") {
 
 
         // https://github.com/minhducsun2002/boomer/blob/92c21b3624b539068ef3758d7f4c879fc8401952/src/db/al/models/ship_data_statistics.ts
-        let [hp, fp, trp, aa, av, rld, _, acc, eva, spd, luk, asw] = stat.attrs;
+        let [hp, fp, trp, aa, avi, rld, _, acc, eva, spd, luk, asw] = stat.attrs;
 
 
         let specificShip = compiled[ship.group_type].data[ship.id];
@@ -104,22 +124,77 @@ function readFilesFromLanguage(lang = "EN") {
             stars: ship.star,
             oil: ship.oil_at_end,
             max_level: ship.max_level,
-            stats: {hp, fp, trp, aa, av, rld, acc, eva, spd, luk, asw},
+            stats: {hp, fp, trp, aa, avi, rld, acc, eva, spd, luk, asw},
             // stats_growth: {ghp, gfp, gtrp, gaa, gav, grld, gacc, geva, gspd, gluk, gasw},
             // stats_growth_extra: {gehp, gefp, getrp, geaa, geav, gerld, geacc, geeva, gespd, geluk, geasw}
 
         };
 
+        //Add custom PR and META tags
+        //These make indexing easier
+        if (specificShip.tags !== undefined){
+          if (specificShip.tags.includes("Plan-Class") && !specificShip.tags.includes("Research")){
+            specificShip.tags.push("Research");
+          }
+          if (specificShip.tags.join(" ").includes("META") && !specificShip.tags.includes("META")){
+            specificShip.tags.push("META");
+          }
+        }
 
-        [hp, fp, trp, aa, av, rld, _, acc, eva, spd, luk, asw] = stat.attrs_growth;
-        specificShip.stats_growth = {hp, fp, trp, aa, av, rld, acc, eva, spd, luk, asw};
-        [hp, fp, trp, aa, av, rld, _, acc, eva, spd, luk, asw] = stat.attrs_growth_extra;
-        specificShip.stats_growth_extra = {hp, fp, trp, aa, av, rld, acc, eva, spd, luk, asw};
+        [hp, fp, trp, aa, avi, rld, _, acc, eva, spd, luk, asw] = stat.attrs_growth;
+        specificShip.stats_growth = {hp, fp, trp, aa, avi, rld, acc, eva, spd, luk, asw};
+        [hp, fp, trp, aa, avi, rld, _, acc, eva, spd, luk, asw] = stat.attrs_growth_extra;
+        specificShip.stats_growth_extra = {hp, fp, trp, aa, avi, rld, acc, eva, spd, luk, asw};
+        //Normal ship and PR blueprint strengthening
         if (strengthen !== undefined){
-          [fp,trp,_,av,rld] = strengthen.durability;
-          compiled[ship.group_type].enhancement = {fp,trp,av,rld};
+          [fp,trp,_,avi,rld] = strengthen.durability;
+          compiled[ship.group_type].enhancement = {fp,trp,avi,rld};
         }else{
-          console.log(stat.english_name)
+          // console.log(stat.english_name)
+        }
+
+        if (specificShip.tags !== undefined){
+          //PR limit break strengthening
+          if (specificShip.tags.includes("Research") && !PR_calculated){
+            //Open the PR file
+            blueprints = ship_data_blueprint[ship.group_type].strengthen_effect
+
+            for (let i = 4; i <= ((specificShip.id%10)-1)*10; i+=5){
+              //Every 5 prints has a limit break
+              for (j of ship_strengthen_blueprint[blueprints[i]].effect_attr){
+                specificShip.stats[STAT_KEYWORDS[j[0]]] += j[1]
+              }
+            }
+          }
+
+          if (specificShip.tags.includes("META") && !META_calculated){
+            //Meta ship enhancement was not set before
+            //It is more complicated than normal ships
+            compiled[ship.group_type].enhancement = {"avi":0,"trp":0,"avi":0,"rld":0,"hp":0,"aa":0,"acc":0,"eva":0}
+
+            //Open the META reapir file
+            repair_cannon = ship_strengthen_meta[ship.group_type].repair_cannon || []
+            repair_torpedo = ship_strengthen_meta[ship.group_type].repair_torpedo || []
+            repair_air = ship_strengthen_meta[ship.group_type].repair_air || []
+            repair_reload = ship_strengthen_meta[ship.group_type].repair_reload || []
+
+            repair_all = [...repair_cannon,...repair_torpedo,...repair_air,...repair_reload]
+            for (effect of repair_all){
+                j = ship_meta_repair[effect].effect_attr
+                compiled[ship.group_type].enhancement[STAT_KEYWORDS[j[0]]] += j[1]
+
+            }
+
+            //Get repair effects array
+            repair_effects = ship_strengthen_meta[ship.group_type].repair_effect
+            for (effect of repair_effects){
+              for (j of ship_meta_repair_effect[effect[1]].effect_attr){
+                compiled[ship.group_type].enhancement[STAT_KEYWORDS[j[0]]] += j[1]
+              }
+            }
+
+          }
+
         }
 
 
@@ -154,10 +229,13 @@ function readFilesFromLanguage(lang = "EN") {
 
 function parseShips() {
     readFilesFromLanguage("EN");
+    //Make sure to turn off after first version is parsed
+    PR_calculated = true
+    META_calculated = true
     readFilesFromLanguage("CN");
     readFilesFromLanguage("JP");
-    readFilesFromLanguage("KR");
-    readFilesFromLanguage("TW");
+    // readFilesFromLanguage("KR");
+    // readFilesFromLanguage("TW");
     fs.writeFileSync(path.join(__dirname, "../dist/ships.json"), stringify(compiled));
     fs.writeFileSync(path.join(__dirname, "../dist/types.json"), stringify(TYPES));
 }

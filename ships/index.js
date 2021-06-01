@@ -110,7 +110,14 @@ function readFilesFromLanguage(lang = "EN") {
 
         //Add retrofit info
         try{
-          compiled[ship.group_type].retrofit = retrofit[ship.group_type].transform_list;
+           let l = retrofit[ship.group_type].transform_list;
+           let o = []
+           for (i in l){
+             for (j in l[i]){           console.log(o)
+               o.push(l[i][j][1])
+             }
+           }
+           compiled[ship.group_type].retrofit = o;
         }catch{
 
         }
@@ -244,6 +251,9 @@ function parseShips() {
     fs.writeFileSync(path.join(__dirname, "../dist/ships.json"), stringify(compiled));
     fs.writeFileSync(path.join(__dirname, "../dist/types.json"), stringify(TYPES));
     fs.writeFileSync(path.join(__dirname, "../dist/lookup_table.json"), stringify(lookup_table));
+
+    let retrofit = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", "CN", "sharecfg", "transform_data_template.json")).toString());
+    fs.writeFileSync(path.join(__dirname, "../dist/retrofit.json"), stringify(retrofit));
 
 }
 

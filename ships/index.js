@@ -32,6 +32,7 @@ let TYPES = {};
 let PR_calculated = false;
 let META_calculated = false;
 let compiled = {};
+let lookup_table = {};
 
 const HEXAGON_RANK = {
     'S': 5, 'A': 4, 'B': 3, 'C': 2, 'D': 1, 'E': 0,
@@ -96,6 +97,10 @@ function readFilesFromLanguage(lang = "EN") {
         if (stat.english_name === "simulation") continue; // simulation ship
         if (stat.english_name.length === 0) continue; // unknown ship
         if (FAKE_SHIPS.includes(id)) continue;
+
+        //Add ship to lookup table
+        lookup_table[stat.name.toLowerCase()] = (id-id%10)/10;
+        lookup_table[stat.english_name.toLowerCase()] = (id-id%10)/10;
 
         // compiled[ship.group_type].rarity.push(rarity[stat.rarity])
         if (compiled[ship.group_type].nationality !== stat.nationality) continue; // pseudo ship
@@ -238,6 +243,8 @@ function parseShips() {
     // readFilesFromLanguage("TW");
     fs.writeFileSync(path.join(__dirname, "../dist/ships.json"), stringify(compiled));
     fs.writeFileSync(path.join(__dirname, "../dist/types.json"), stringify(TYPES));
+    fs.writeFileSync(path.join(__dirname, "../dist/lookup_table.json"), stringify(lookup_table));
+
 }
 
 module.exports = {parseShips};

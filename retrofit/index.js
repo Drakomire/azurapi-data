@@ -16,7 +16,7 @@ function readFilesFromLanguage(lang = "EN") {
 
 function parseShips() {
     readFilesFromLanguage("EN");
-    fs.writeFileSync(path.join(__dirname, "../dist/retrofit.json"), stringify(TYPES));
+    fs.writeFileSync(path.join(__dirname, "../dist/ships/retrofit.json"), stringify(TYPES));
 }
 
 module.exports = {parseShips};

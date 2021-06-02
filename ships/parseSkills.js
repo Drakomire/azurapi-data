@@ -29,7 +29,7 @@ function readFilesFromLanguage(lang = "EN"){
       }catch(err){
       }
     };
-    fs.writeFileSync(path.join(__dirname, "../dist/buffs.json"), stringify(compiled));
+    fs.writeFileSync(path.join(__dirname, "../dist/ships/buffs.json"), stringify(compiled));
   });
 
   fs.readdir(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "skill"), (err, files) => {
@@ -43,7 +43,7 @@ function readFilesFromLanguage(lang = "EN"){
         console.log(err);
       }
     };
-    fs.writeFileSync(path.join(__dirname, "../dist/skillsVerbose.json"), stringify(compiled));
+    fs.writeFileSync(path.join(__dirname, "../dist/ships/skillsVerbose.json"), stringify(compiled));
   });
 
 

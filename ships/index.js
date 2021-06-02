@@ -115,7 +115,7 @@ function readFilesFromLanguage(lang = "EN") {
            let l = retrofit[ship.group_type].transform_list;
            let o = []
            for (i in l){
-             for (j in l[i]){           console.log(o)
+             for (j in l[i]){
                o.push(l[i][j][1])
              }
            }

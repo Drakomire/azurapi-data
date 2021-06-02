@@ -2,6 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const stringify = require("json-stringify-pretty-compact");
 
+const {run} = require("./parseSkillsFinal.js");
+
 function readFilesFromLanguage(lang = "EN"){
 
   // let ships = JSON.parse(fs.readFileSync(path.join(".","dist", "ships.json")).toString());
@@ -20,6 +22,10 @@ function readFilesFromLanguage(lang = "EN"){
   //   }
   // }
 
+  var oneRunning = true;
+  var twoRunning = true;
+
+
   fs.readdir(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "buff"), (err, files) => {
     let compiled = {};
     for (let file of files){
@@ -30,6 +36,7 @@ function readFilesFromLanguage(lang = "EN"){
       }
     };
     fs.writeFileSync(path.join(__dirname, "../dist/ships/buffs.json"), stringify(compiled));
+    var oneRunning = false;
   });
 
   fs.readdir(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "skill"), (err, files) => {
@@ -44,7 +51,11 @@ function readFilesFromLanguage(lang = "EN"){
       }
     };
     fs.writeFileSync(path.join(__dirname, "../dist/ships/skillsVerbose.json"), stringify(compiled));
+    var twoRunning = false;
   });
+
+  setTimeout(function(){run()},1000);
+
 
 
 }

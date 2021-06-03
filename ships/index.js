@@ -33,6 +33,7 @@ let PR_calculated = false;
 let META_calculated = false;
 let compiled = {};
 let lookup_table = {};
+let retrofit_id_lookup_table = {};
 
 const HEXAGON_RANK = {
     'S': 5, 'A': 4, 'B': 3, 'C': 2, 'D': 1, 'E': 0,
@@ -55,6 +56,10 @@ function readFilesFromLanguage(lang = "EN") {
 
     let types = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_by_type.json")).toString());
     let retrofit = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_trans.json")).toString());
+    let transform_data_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "transform_data_template.json")).toString());
+
+    let skill_data_display = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "skill_data_display.json")).toString());
+    let skill_data_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "skill_data_template.json")).toString());
 
 
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 17, 18, 19].forEach(type => {
@@ -106,9 +111,22 @@ function readFilesFromLanguage(lang = "EN") {
 
         // compiled[ship.group_type].rarity.push(rarity[stat.rarity])
         if (compiled[ship.group_type].nationality !== stat.nationality) continue; // pseudo ship
-        compiled[ship.group_type].stars = ship.star_max;
+        compiled[ship.group_type].stars = ship.star_max
         //Add skills
-        compiled[ship.group_type].skill_ids = ship.buff_list_display;
+        let skills = [];
+        try {for (i of ship.buff_list_display){
+          skills.push({
+            "id" : i,
+            "name" : skill_data_display[i].name,
+            "desc" : skill_data_template[skill_data_display[i].id].desc,
+            "desc_add" : skill_data_template[skill_data_display[i].id].desc_add
+
+
+          })
+        }}
+        catch {}
+        if (compiled[ship.group_type].skills == undefined)
+        compiled[ship.group_type].skills = skills
 
         //Add retrofit info
         try{
@@ -120,6 +138,17 @@ function readFilesFromLanguage(lang = "EN") {
              }
            }
            compiled[ship.group_type].retrofit = o;
+           let retroArr = o;
+
+           //Get ships retrofit ID
+           for (i of o){
+             let t_data = transform_data_template[i];
+             if (t_data.ship_id.length != 0){
+               let retrofit_id = compiled[ship.group_type].retrofit_id = t_data.ship_id[0][1];
+               retrofit_id_lookup_table[retrofit_id] = (id-id%10)/10;
+             }
+
+           }
         }catch{
 
         }
@@ -253,6 +282,8 @@ function parseShips() {
     fs.writeFileSync(path.join(__dirname, "../dist/ships/ships.json"), stringify(compiled));
     fs.writeFileSync(path.join(__dirname, "../dist/ships/types.json"), stringify(TYPES));
     fs.writeFileSync(path.join(__dirname, "../dist/ships/lookup_table.json"), stringify(lookup_table));
+    fs.writeFileSync(path.join(__dirname, "../dist/ships/retrofit_id_lookup_table.json"), stringify(retrofit_id_lookup_table));
+
 
     let retrofit = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", "CN", "sharecfg", "transform_data_template.json")).toString());
     fs.writeFileSync(path.join(__dirname, "../dist/ships/retrofit.json"), stringify(retrofit));

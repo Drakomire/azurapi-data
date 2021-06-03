@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 let ships = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "dist","ships","ships.json")).toString());
-let buffs = JSON.parse(fs.readFileSync(path.join(__dirname, "..","dist","ships","buffs.json")).toString());
-let skills = JSON.parse(fs.readFileSync(path.join(__dirname, "..","dist","ships","skillsVerbose.json")).toString());
+let buffs = JSON.parse(fs.readFileSync(path.join(__dirname, "..","temp","ships","buffs.json")).toString());
+let skills = JSON.parse(fs.readFileSync(path.join(__dirname, "..","temp","ships","skillsVerbose.json")).toString());
 
 class Skill{
   constructor(ship,number){
@@ -196,8 +196,8 @@ function run(){
   }
 
   fs.writeFileSync(path.join(__dirname, "../dist/ships/skills.json"), JSON.stringify(compiled,null,'\t'));
-  fs.unlinkSync(path.join(__dirname, "..","dist","ships","buffs.json"))
-  fs.unlinkSync(path.join(__dirname, "..","dist","ships","skillsVerbose.json"))
+  fs.unlinkSync(path.join(__dirname, "..","temp","ships","buffs.json"))
+  fs.unlinkSync(path.join(__dirname, "..","temp","ships","skillsVerbose.json"))
 
 }
 

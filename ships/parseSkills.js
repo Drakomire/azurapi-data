@@ -22,10 +22,6 @@ function readFilesFromLanguage(lang = "EN"){
   //   }
   // }
 
-  var oneRunning = true;
-  var twoRunning = true;
-
-
   fs.readdir(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "buff"), (err, files) => {
     let compiled = {};
     for (let file of files){
@@ -35,8 +31,7 @@ function readFilesFromLanguage(lang = "EN"){
       }catch(err){
       }
     };
-    fs.writeFileSync(path.join(__dirname, "../dist/ships/buffs.json"), stringify(compiled));
-    var oneRunning = false;
+    fs.writeFileSync(path.join(__dirname, "../temp/ships/buffs.json"), stringify(compiled));
   });
 
   fs.readdir(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "skill"), (err, files) => {
@@ -50,8 +45,7 @@ function readFilesFromLanguage(lang = "EN"){
         console.log(err);
       }
     };
-    fs.writeFileSync(path.join(__dirname, "../dist/ships/skillsVerbose.json"), stringify(compiled));
-    var twoRunning = false;
+    fs.writeFileSync(path.join(__dirname, "../temp/ships/skillsVerbose.json"), stringify(compiled));
   });
 
   setTimeout(function(){run()},1000);

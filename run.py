@@ -2,6 +2,7 @@ import os
 import hashlib
 import glob
 import json
+import sys
 
 os.system("node .")
 print("Parsing complete!")
@@ -18,3 +19,6 @@ f.write(json.dumps(checksums,indent=4,sort_keys=True))
 f.close()
 
 print("Checksums written!")
+
+if ('final' in sys.argv):
+    os.system('git commit -a -m "database update"')

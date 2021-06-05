@@ -145,7 +145,9 @@ function readFilesFromLanguage(lang = "EN") {
              let t_data = transform_data_template[i];
              if (t_data.ship_id.length != 0){
                let retrofit_id = compiled[ship.group_type].retrofit_id = t_data.ship_id[0][1];
-               retrofit_id_lookup_table[retrofit_id] = (id-id%10)/10;
+               let old_id = t_data.ship_id[0][0];
+
+               retrofit_id_lookup_table[(retrofit_id-retrofit_id%10)/10] = (old_id-old_id%10)/10;
              }
 
            }

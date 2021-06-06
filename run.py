@@ -20,6 +20,6 @@ f.close()
 
 print("Checksums written!")
 
-# if ('final' in sys.argv):
-#     os.system('git commit -m "database update"')
-#     os.system('git push')
+if ('final' in sys.argv):
+    os.system('git commit -m "database update"')
+    os.system('git push')

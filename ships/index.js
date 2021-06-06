@@ -243,21 +243,21 @@ function readFilesFromLanguage(lang = "EN") {
         }
 
         //Add ship images
-        let skin_ids = ship_skin_template["get_id_list_by_ship_group"][(id - id % 10)/10]
-        let skin_portaits = []
+        if (compiled[ship.group_type].skin_thumbnails === undefined){
+          let skin_ids = ship_skin_template["get_id_list_by_ship_group"][(id - id % 10)/10]
+          let skin_portaits = []
 
-        try{
+          if (skin_ids !== undefined)
           for (skin_id of skin_ids){
             //Open the sublist
             let sublist = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_skin_template_sublist",`ship_skin_template_${ship_skin_template.indexs[skin_id]}.json`)).toString());
             let skin = sublist[skin_id]
-            skin_portaits.push(`https://github.com/Drakomire/perseus-data/blob/master/AzurLaneImages/assets/artresource/atlas/squareicon/${skin.painting}.png`)
+            skin_portaits.push(`https://raw.githubusercontent.com/Drakomire/perseus-data/blob/master/AzurLaneImages/assets/artresource/atlas/squareicon/${skin.painting}.png`)
           }
-        }catch{
-
+          compiled[ship.group_type].skin_thumbnails = skin_portaits
         }
 
-        compiled[ship.group_type].skin_thumbnails = skin_portaits
+
 
 
         if (specificShip.type !== ship.type) console.log("SHIP TYPE NOT MATCH ", id, ship.group_type, stat.name, lang);

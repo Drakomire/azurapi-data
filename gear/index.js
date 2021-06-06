@@ -3,88 +3,62 @@ const path = require("path");
 const stringify = require("json-stringify-pretty-compact");
 
 let compiled = {};
+let = MAX_GEAR_LEVEL = 13;
 
 function readFilesFromLanguage(lang = "EN") {
-    let equipTemplateAll = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics.json")).toString());
-    let equipStatsAll = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_template.json")).toString());
-    let weaponPropertyAll = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "weapon_property.json")).toString());
+    let equip_data_statistics = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics.json")).toString());
+    let equip_data_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_template.json")).toString());
 
-    let all = equipStatsAll["all"];
+    let all = equip_data_template["subList"];
 
 
     for (let i of all){
-      const newID = equipStatsAll["indexs"][`${i}`];
       //Open the file for the gear
-      let equipDataStatistics = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics_sublist", `${equipTemplateAll["subList"][newID-1]}.json`)).toString());
-      let equipDataTemplate = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_template_sublist", `${equipStatsAll["subList"][newID-1]}.json`)).toString());
+      let current_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_template_sublist", `${i}.json`)).toString());
 
-      try{
-        //Sanity check to see if gear is real. This is a trash way of doing it.
-        if (i%20 == 0){
-          // const name = `${i}: `+equipDataStatistics[`${i-(i%20)}`]["name"];
-          // const weaponSublistID = weaponPropertyAll['indexs'][`${i}`];
-          // const weaponSublist = weaponPropertyAll['subList'][weaponSublistID];
-          //Only proc on first instance of gear of tier
-          //Get the weapon property
-          // var weaponProperty = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "weapon_property_sublist", `${weaponSublist}.json`)).toString());
 
-          console.log(`${i}`)
-          console.log(equipDataStatistics[`${i-(i%20)}`]["name"]);
-          for (i in weaponProperty){
-            console.log(i);
-            break;
+      for (key in current_template){
+        if (key % 20 == 0){
+          key = parseInt(key)
+
+          if (compiled[key/10] == undefined) compiled[key/10] = {}
+          compiled[key/10].id = key
+
+          let current_statistics = []
+          let weapon_property = []
+
+          for (let g = 0; g<MAX_GEAR_LEVEL; g++){
+            let val = equip_data_statistics["indexs"][key+g]
+            if (val !== undefined)
+            current_statistics.push(JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics_sublist", `equip_data_statistics_${val}.json`)).toString())[key+g]);
           }
-          console.log('\n');
 
-          compiled[`${i}`] = {
-            'name' : equipDataStatistics[`${i}`]["name"],
-            'damage' : weaponProperty[`${i}`]['damage'],
+          let damage = []
+          for (i of current_statistics)
+            if (i.damage !== undefined) damage.push(i.damage)
+
+          compiled[key/10].damage = damage
+          compiled[key/10].rarity = current_statistics[0].rarity
+          compiled[key/10].nationality = current_statistics[0].nationality
+          compiled[key/10].type = current_statistics[0].type
+
+          compiled[key/10][`name_${lang}`] = current_statistics[0]["name"]
 
 
-
-          }
         }
-      }catch{
-
       }
-
     }
+  }
 
 
-    // //Find all the weapons
-    // for (i of weaponPropertyAll['subList']){
-    //    var weaponProperty = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "weapon_property_sublist", `${i}.json`)).toString());
-    //
-    //
-    //    key = Object.keys(weaponProperty)[0];
-    //    id = weaponProperty[key]['id'];
-    //    console.log(id);
-    //
-    //
-    //     compiled[`${id}`] = {
-    //       'name' : weaponProperty[`${id}`]["name"],
-    //       'damage' : weaponProperty[`${id}`]['damage'],
-    //
-    //
-    //
-    //     }
-    //
-    //
-    // }
-
-
-
-
-
-
-
-}
-
-
-function parseShips() {
+function parseGear() {
   readFilesFromLanguage("EN");
-  fs.writeFileSync(path.join(__dirname, "../dist/gear.json"), stringify(compiled));
+  readFilesFromLanguage("CN");
+  readFilesFromLanguage("JP");
+  // readFilesFromLanguage("KR");
+
+  fs.writeFileSync(path.join(__dirname, "../dist/gear/gear.json"), stringify(compiled));
 
 }
 
-module.exports = {parseShips};
+module.exports = {parseGear};

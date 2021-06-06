@@ -9,5 +9,7 @@ const gear = require("./gear");
 
 
 ships.parseShips();
+gear.parseGear();
+
 // parseSkills();
 // gear.parseShips();

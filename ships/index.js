@@ -120,8 +120,6 @@ function readFilesFromLanguage(lang = "EN") {
             "name" : skill_data_display[i].name,
             "desc" : skill_data_template[skill_data_display[i].id].desc,
             "desc_add" : skill_data_template[skill_data_display[i].id].desc_add
-
-
           })
         }}
         catch {}

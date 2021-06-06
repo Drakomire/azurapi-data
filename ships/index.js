@@ -252,7 +252,7 @@ function readFilesFromLanguage(lang = "EN") {
             //Open the sublist
             let sublist = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_skin_template_sublist",`ship_skin_template_${ship_skin_template.indexs[skin_id]}.json`)).toString());
             let skin = sublist[skin_id]
-            skin_portaits.push(`https://raw.githubusercontent.com/Drakomire/perseus-data/blob/master/AzurLaneImages/assets/artresource/atlas/squareicon/${skin.painting}.png`)
+            skin_portaits.push(`https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/squareicon/${skin.painting}.png`)
           }
           compiled[ship.group_type].skin_thumbnails = skin_portaits
         }

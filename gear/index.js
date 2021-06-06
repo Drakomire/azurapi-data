@@ -41,6 +41,7 @@ function readFilesFromLanguage(lang = "EN") {
           compiled[key/10].rarity = current_statistics[0].rarity
           compiled[key/10].nationality = current_statistics[0].nationality
           compiled[key/10].type = current_statistics[0].type
+          compiled[key/10].image = `https://github.com/Drakomire/perseus-data/tree/master/AzurLaneImages/assets/artresource/atlas/equips/${key}.png`
 
           compiled[key/10][`name_${lang}`] = current_statistics[0]["name"]
 

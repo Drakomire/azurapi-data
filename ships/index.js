@@ -61,6 +61,8 @@ function readFilesFromLanguage(lang = "EN") {
     let skill_data_display = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "skill_data_display.json")).toString());
     let skill_data_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "skill_data_template.json")).toString());
 
+    let ship_skin_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_skin_template.json")).toString());
+
 
     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 17, 18, 19].forEach(type => {
         if (!TYPES[type]) TYPES[type] = {};
@@ -239,6 +241,23 @@ function readFilesFromLanguage(lang = "EN") {
           }
 
         }
+
+        //Add ship images
+        let skin_ids = ship_skin_template["get_id_list_by_ship_group"][(id - id % 10)/10]
+        let skin_portaits = []
+
+        try{
+          for (skin_id of skin_ids){
+            //Open the sublist
+            let sublist = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_skin_template_sublist",`ship_skin_template_${ship_skin_template.indexs[skin_id]}.json`)).toString());
+            let skin = sublist[skin_id]
+            skin_portaits.push(`https://github.com/Drakomire/perseus-data/blob/master/AzurLaneImages/assets/artresource/atlas/squareicon/${skin.painting}.png`)
+          }
+        }catch{
+
+        }
+
+        compiled[ship.group_type].skin_thumbnails = skin_portaits
 
 
         if (specificShip.type !== ship.type) console.log("SHIP TYPE NOT MATCH ", id, ship.group_type, stat.name, lang);

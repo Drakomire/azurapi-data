@@ -3,7 +3,9 @@ const path = require("path");
 const stringify = require("json-stringify-pretty-compact");
 
 let compiled = {};
-let = MAX_GEAR_LEVEL = 13;
+let MAX_GEAR_LEVEL = 13;
+let lastKnownName = "";
+let lastKnownImage = "";
 
 function readFilesFromLanguage(lang = "EN") {
     let equip_data_statistics = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics.json")).toString());
@@ -41,9 +43,18 @@ function readFilesFromLanguage(lang = "EN") {
           compiled[key/10].rarity = current_statistics[0].rarity
           compiled[key/10].nationality = current_statistics[0].nationality
           compiled[key/10].type = current_statistics[0].type
-          compiled[key/10].image = `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/equips/${key}.png`
 
           compiled[key/10][`name_${lang}`] = current_statistics[0]["name"]
+
+          //Check if this is the first equip of a certain type. If it is, all gear IDs for this gear will use this image.
+          // if (lastKnownName != current_statistics[0]["name"]){
+          //   lastKnownImage = `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/equips/${key}.png`
+          //   lastKnownName = current_statistics[0]["name"]
+          // }else{
+          //
+          // }
+          // compiled[key/10].image = lastKnownImage
+          compiled[key/10].image = `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/equips/${current_statistics[0]["icon"]}.png`
 
 
         }

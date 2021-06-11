@@ -216,7 +216,7 @@ function readFilesFromLanguage(lang = "EN") {
           if (specificShip.tags.includes("META") && !META_calculated){
             //Meta ship enhancement was not set before
             //It is more complicated than normal ships
-            compiled[ship.group_type].enhancement = {"avi":0,"trp":0,"avi":0,"rld":0,"hp":0,"aa":0,"acc":0,"eva":0}
+            compiled[ship.group_type].enhancement = {"fp":0,"avi":0,"trp":0,"avi":0,"rld":0,"hp":0,"aa":0,"acc":0,"eva":0}
 
             //Open the META reapir file
             repair_cannon = ship_strengthen_meta[ship.group_type].repair_cannon || []

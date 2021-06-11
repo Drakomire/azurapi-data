@@ -98,6 +98,7 @@ function readFilesFromLanguage(lang = "EN") {
         stat.english_name = stat.english_name.trim()
             .replace('Ultra Bulin MKIII', 'Specialized Bulin Custom MKIII')
             .replace('Hiryu.META', 'Hiryuu META')
+            .replace('Helena.META', 'Helena META')
             .replace('Ark Royal.META', 'Ark Royal META')
             .replace('Große', 'Grosse');// special cases
         stat.name = stat.name.trim();

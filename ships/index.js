@@ -172,7 +172,6 @@ function readFilesFromLanguage(lang = "EN") {
         // https://github.com/minhducsun2002/boomer/blob/92c21b3624b539068ef3758d7f4c879fc8401952/src/db/al/models/ship_data_statistics.ts
         let [hp, fp, trp, aa, avi, rld, _, acc, eva, spd, luk, asw] = stat.attrs;
 
-
         let specificShip = compiled[ship.group_type].data[ship.id];
         if (!specificShip) compiled[ship.group_type].data[ship.id] = specificShip = {
             id: ship.id,
@@ -183,6 +182,9 @@ function readFilesFromLanguage(lang = "EN") {
             oil: ship.oil_at_end,
             max_level: ship.max_level,
             stats: {hp, fp, trp, aa, avi, rld, acc, eva, spd, luk, asw},
+            base_list: stat.base_list,
+            efficiency : stat.equipment_proficiency,
+            preloads : stat.preload_count
             // stats_growth: {ghp, gfp, gtrp, gaa, gav, grld, gacc, geva, gspd, gluk, gasw},
             // stats_growth_extra: {gehp, gefp, getrp, geaa, geav, gerld, geacc, geeva, gespd, geluk, geasw}
 

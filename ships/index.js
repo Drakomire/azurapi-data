@@ -147,7 +147,12 @@ function readFilesFromLanguage(lang = "EN") {
            let o = []
            for (i in l){
              for (j in l[i]){
-               o.push(l[i][j][1])
+               o.push({
+                 "node" : l[i][j][1],
+                  "x" : i,
+                  "y" :  l[i][j][0]-2
+               }
+                 )
              }
            }
            compiled[ship.group_type].retrofit = o;

@@ -41,6 +41,18 @@ const HEXAGON_RANK = {
 
 const FAKE_SHIPS = [900042, 900045, 900046, 900162, 900913, 900914].map(i => String(i));
 
+function makeArray(w, h, val) {
+  var arr = [];
+  for(let i = 0; i < h; i++) {
+      arr[i] = [];
+      for(let j = 0; j < w; j++) {
+          arr[i][j] = val;
+      }
+  }
+  return arr;
+}
+
+
 function readFilesFromLanguage(lang = "EN") {
     let groups = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_group.json")).toString());
     let ships = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_template.json")).toString());
@@ -176,6 +188,19 @@ function readFilesFromLanguage(lang = "EN") {
 
         };
 
+        compiled[ship.group_type].data[ship.id].stats.oxy = stat.oxy_max
+
+        hunting_range = makeArray(7,7,-1)
+        stat.hunting_range.forEach((val, index)=>{
+          for (coordnates of val){
+            hunting_range[coordnates[0]+3][coordnates[1]+3] = index+1
+          }
+        })
+        hunting_range[3][3] = 0
+
+
+        compiled[ship.group_type].hunting_range = hunting_range
+
         //Add custom PR and META tags
         //These make indexing easier
         if (specificShip.tags !== undefined){
@@ -218,7 +243,7 @@ function readFilesFromLanguage(lang = "EN") {
             //It is more complicated than normal ships
             compiled[ship.group_type].enhancement = {"fp":0,"avi":0,"trp":0,"avi":0,"rld":0,"hp":0,"aa":0,"acc":0,"eva":0}
 
-            //Open the META reapir file
+            //Open the META reapair file
             repair_cannon = ship_strengthen_meta[ship.group_type].repair_cannon || []
             repair_torpedo = ship_strengthen_meta[ship.group_type].repair_torpedo || []
             repair_air = ship_strengthen_meta[ship.group_type].repair_air || []

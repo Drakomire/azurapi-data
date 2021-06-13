@@ -147,10 +147,9 @@ function readFilesFromLanguage(lang = "EN") {
            let o = []
            for (i in l){
              for (j in l[i]){
-               console.log(transform_data_template[l[i][j][1]])
                o.push({
                  "node" : l[i][j][1],
-                  "x" : i,
+                  "x" : parseInt(i),
                   "y" :  l[i][j][0]-2,
                   "recurrence" :transform_data_template[l[i][j][1]].effect.length,
                   "icon" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/modicon/${transform_data_template[l[i][j][1]].icon}.png`

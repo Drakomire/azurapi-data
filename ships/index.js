@@ -61,6 +61,8 @@ function readFilesFromLanguage(lang = "EN") {
 
     let ship_data_blueprint = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_blueprint.json")).toString());
     let ship_strengthen_blueprint = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_strengthen_blueprint.json")).toString());
+    let ship_data_breakout = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_breakout.json")).toString());
+
 
     let ship_meta_repair = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_meta_repair.json")).toString());
     let ship_meta_repair_effect = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_meta_repair_effect.json")).toString());
@@ -72,7 +74,6 @@ function readFilesFromLanguage(lang = "EN") {
 
     let skill_data_display = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "skill_data_display.json")).toString());
     let skill_data_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "skill_data_template.json")).toString());
-
     let ship_skin_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_skin_template.json")).toString());
 
 
@@ -81,25 +82,29 @@ function readFilesFromLanguage(lang = "EN") {
         if (!TYPES[type][lang.toLowerCase()]) TYPES[type][lang.toLowerCase()] = types[type].type_name.trim();
     })
     for (let id of Object.keys(groups)) {
-        if (id === "all") continue;
+      if (id === "all") continue;
         let group = groups[id];
         let ship = compiled[group.group_type];
         if (!ship) compiled[group.group_type] = ship = {
-            id: group.group_type,
-            code: group.code,
-
-            name: {},
-            property_hexagon: group.property_hexagon.map(char => HEXAGON_RANK[char]),
-
-            type: group.type,
-            armor: null,
-            slots: null,
-            nationality: group.nationality,
-            data: {}
+          id: group.group_type,
+          code: group.code,
+          
+          name: {},
+          property_hexagon: group.property_hexagon.map(char => HEXAGON_RANK[char]),
+          
+          type: group.type,
+          armor: null,
+          slots: null,
+          nationality: group.nationality,
+          data: {}
         };
-    }
+      }
+      
+      
+      for (let id of Object.keys(ships)) {
+        //Break if enemy ship so that code farther down doesn't break. Enemy ships have IDs in 90k.
+        if (Math.floor(id/100000) == 9 ) break
 
-    for (let id of Object.keys(ships)) {
         if (id === "all") continue;
         let ship = ships[id];
         let stat = stats[id];
@@ -152,11 +157,22 @@ function readFilesFromLanguage(lang = "EN") {
                   "x" : parseInt(i),
                   "y" :  l[i][j][0]-2,
                   "recurrence" :transform_data_template[l[i][j][1]].effect.length,
-                  "icon" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/modicon/${transform_data_template[l[i][j][1]].icon}.png`
-               }
-                 )
+                  "icon" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/modicon/${transform_data_template[l[i][j][1]].icon}.png`,
+                  "next_nodes" : [],
+                  "required_nodes" : transform_data_template[l[i][j][1]].condition_id,
+                  "letter" : String.fromCharCode(l[i][j][1]%100 + 64) //Convert number to ascii code for the letter
+               })
              }
            }
+
+           //Calculate the next nodes
+           for (i in o){
+            nodes = o[i].required_nodes
+            for (n of nodes){
+              o[n%100-1].next_nodes.push(o[i].node)
+            }
+           }
+
            compiled[ship.group_type].retrofit = o;
            let retroArr = o;
 
@@ -172,8 +188,10 @@ function readFilesFromLanguage(lang = "EN") {
 
            }
         }catch{
-
+          //Ship doesn't have a retrofit
         }
+
+
 
 
         // https://github.com/minhducsun2002/boomer/blob/92c21b3624b539068ef3758d7f4c879fc8401952/src/db/al/models/ship_data_statistics.ts
@@ -189,26 +207,78 @@ function readFilesFromLanguage(lang = "EN") {
             oil: ship.oil_at_end,
             max_level: ship.max_level,
             stats: {hp, fp, trp, aa, avi, rld, acc, eva, spd, luk, asw},
-            base_list: stat.base_list,
             efficiency : stat.equipment_proficiency,
             preloads : stat.preload_count
-            // stats_growth: {ghp, gfp, gtrp, gaa, gav, grld, gacc, geva, gspd, gluk, gasw},
-            // stats_growth_extra: {gehp, gefp, getrp, geaa, geav, gerld, geacc, geeva, gespd, geluk, geasw}
 
-        };
+        }
+
+        //Gets the amount of baes from either the statistic list or limit break list depending on if it is defined correctly
+        //Make base list dictionary
+        let dict = {}
+        try{
+          ;dict = (getBreakoutID = (breakout_id,dict) => {
+            if (breakout_id == 0) return dict
+            let temp_dict = {}
+            //Add items to dict
+            let this_ship = ship_data_breakout[breakout_id]
+            for (weapon of this_ship.weapon_ids){
+              if (temp_dict[weapon] !== undefined){
+                temp_dict[weapon]++
+              }else{
+                temp_dict[weapon] = 1
+              }
+            }
+            //take the highest value for the weapon in each dictionary
+            dict = Object.assign({},temp_dict,dict)
+            //Call function with pre id
+            return getBreakoutID(this_ship.pre_id,dict)
+          })(ship.id-1,{})
+        }catch{
+
+        }
+        
+        //calculate base list
+        bases = [
+          stat.base_list[0],
+          stat.base_list[1],
+          stat.base_list[2]
+        ]
+
+        //I probably shoudln't repeat 3 times but whatever
+        //Retrofits cant do this so try catch again :yep:
+
+        try{
+          if (ships[ship.id - ship.id%10 + 1].equip_id_1 != 0){
+            bases[0] = dict[ships[ship.id - ship.id%10 + 1].equip_id_1] || bases[0]
+          }
+          if (ships[ship.id - ship.id%10 + 1].equip_id_2 != 0){
+            bases[1] = dict[ships[ship.id - ship.id%10 + 1].equip_id_2] || bases[1]
+          }
+          if (ships[ship.id - ship.id%10 + 1].equip_id_3 != 0){
+            bases[2] = dict[ships[ship.id - ship.id%10 + 1].equip_id_3] || bases[2]
+          }
+        }catch{
+          //Should only catch san diego
+        }
+
+        compiled[ship.group_type].data[ship.id].base_list = bases
 
         compiled[ship.group_type].data[ship.id].stats.oxy = stat.oxy_max
 
-        hunting_range = makeArray(7,7,-1)
-        stat.hunting_range.forEach((val, index)=>{
-          for (coordnates of val){
-            hunting_range[coordnates[0]+3][coordnates[1]+3] = index+1
-          }
-        })
-        hunting_range[3][3] = 0
+        if (stat.hunting_range.length > 1){
+          hunting_range = makeArray(7,7,-1)
+          stat.hunting_range.forEach((val, index)=>{
+            for (coordnates of val){
+              hunting_range[coordnates[0]+3][coordnates[1]+3] = index+1
+            }
+          })
+          hunting_range[3][3] = 0
 
 
-        compiled[ship.group_type].hunting_range = hunting_range
+          compiled[ship.group_type].hunting_range = hunting_range
+        }else{
+          compiled[ship.group_type].hunting_range = null
+        }
 
         //Add custom PR and META tags
         //These make indexing easier
@@ -272,9 +342,7 @@ function readFilesFromLanguage(lang = "EN") {
                 compiled[ship.group_type].enhancement[STAT_KEYWORDS[j[0]]] += j[1]
               }
             }
-
           }
-
         }
 
         //Add ship images

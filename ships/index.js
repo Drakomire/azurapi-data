@@ -103,7 +103,7 @@ function readFilesFromLanguage(lang = "EN") {
       
       for (let id of Object.keys(ships)) {
         //Break if enemy ship so that code farther down doesn't break. Enemy ships have IDs in 90k.
-        if (Math.floor(id/100000) == 9 ) break
+        // if (Math.floor(id/100000) == 9 ) break
 
         if (id === "all") continue;
         let ship = ships[id];

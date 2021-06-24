@@ -34,6 +34,8 @@ let META_calculated = false;
 let compiled = {};
 let lookup_table = {};
 let retrofit_id_lookup_table = {};
+//Ships show up 4 times as actual ships then one or more times as a NPC if they are one
+let ship_reccurence = {};
 
 const HEXAGON_RANK = {
     'S': 5, 'A': 4, 'B': 3, 'C': 2, 'D': 1, 'E': 0,
@@ -98,14 +100,14 @@ function readFilesFromLanguage(lang = "EN") {
           nationality: group.nationality,
           data: {}
         };
+
       }
       
-      
       for (let id of Object.keys(ships)) {
-        //Break if enemy ship so that code farther down doesn't break. Enemy ships have IDs in 90k.
-        // if (Math.floor(id/100000) == 9 ) break
 
         if (id === "all") continue;
+        //Attempt to remove NPCs
+        if (id >= 900000 && id < 1000000) continue
         let ship = ships[id];
         let stat = stats[id];
         let strengthen = ship_strengthen[Math.floor(id/10)]
@@ -114,9 +116,7 @@ function readFilesFromLanguage(lang = "EN") {
 
         stat.english_name = stat.english_name.trim()
             .replace('Ultra Bulin MKIII', 'Specialized Bulin Custom MKIII')
-            .replace('Hiryu.META', 'Hiryuu META')
-            .replace('Helena.META', 'Helena META')
-            .replace('Ark Royal.META', 'Ark Royal META')
+            .replace('.META', ' META')
             .replace('Große', 'Grosse');// special cases
         stat.name = stat.name.trim();
         if (stat.english_name === "simulation") continue; // simulation ship

@@ -1,23 +1,32 @@
 import subprocess
 import os
 import time
-from git import Repo, Actor
+from git import Repo
 
-source_json = Repo("AzurLaneSourceJson")
+source_lua = Repo("AzurLaneSourceLua")
 perseus = Repo(".")
 
-
-index = perseus.index
-new_file_path = os.path.join(perseus.working_tree_dir, 'new-file-name')
-index.add([new_file_path])
-index.commit("Test commit", author=author, committer=author)
+perseus.git.add("dist")
+perseus.git.commit("-m", "Distribution data update", "--allow-empty")
+perseus.git.add("AzurLaneSourceJson")
+perseus.index.commit("JSON data update")
+perseus.remotes.origin.push()
 
 # while True:
-#     out = subprocess.check_output(["git","pull"],cwd="AzurLaneSourceLua")
-#     if (out == b'Already up to date.\n'):
-#         print("Up to date")
+#     #Poll source JSON
+#     res = source_lua.git.pull()
+#     if (res == "Already up to date."):
+#         pass
 #     else:
-#         #Update
+#         #Update everything
+#         print("Repo is not up to date. Updating!")
 #         os.system("./run.sh")
+#         perseus.git.add("dist")
+#         perseus.git.commit("-m", "data update", "--allow-empty")
+#         perseus.git.add("AzurLaneSourceJson")
+#         perseus.index.commit("JSON data update")
+#         perseus.remotes.origin.push("master")
+
+
 
 #     time.sleep(300)

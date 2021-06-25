@@ -8,7 +8,7 @@ Images still have to be done manually but Im working on automating it.
 
 ## Running the code
 `./run.sh`<br>
-WARNING: THIS CAN TAKE A VERY LONG TIME
+WARNING: THIS CAN TAKE A VERY LONG TIME (~3 minutes on my PC, ~10 minutes on my RPI)
 
 `python run.py` will run only the distribution file generator. Sorry its kinda a pepega workflow.
 

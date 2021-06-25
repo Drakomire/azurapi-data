@@ -148,7 +148,7 @@ function readFilesFromLanguage(lang = "EN") {
         compiled[ship.group_type].skills = skills
 
         //Add retrofit info
-        try {
+        if (retrofit[ship.group_type] !== undefined){
            let l = retrofit[ship.group_type].transform_list;
            let o = []
            for (i in l){
@@ -179,7 +179,8 @@ function readFilesFromLanguage(lang = "EN") {
 
            //Get ships retrofit ID
            for (i of o){
-             let t_data = transform_data_template[i];
+             let t_data = transform_data_template[i.node];
+             
              if (t_data.ship_id.length != 0){
                let retrofit_id = compiled[ship.group_type].retrofit_id = t_data.ship_id[0][1];
                let old_id = t_data.ship_id[0][0];
@@ -188,8 +189,6 @@ function readFilesFromLanguage(lang = "EN") {
              }
 
            }
-        }catch{
-
         }
 
 
@@ -408,7 +407,7 @@ function parseShips() {
     PR_calculated = true
     META_calculated = true
     readFilesFromLanguage("CN");
-    // readFilesFromLanguage("JP");
+    readFilesFromLanguage("JP");
     // readFilesFromLanguage("KR");
     // readFilesFromLanguage("TW");
     fs.writeFileSync(path.join(__dirname, "../dist/ships/ships.json"), stringify(compiled));

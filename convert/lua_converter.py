@@ -80,7 +80,5 @@ if __name__ == "__main__":
     convertClients([
         "EN",
         "JP",
-        "CN",
-        "TW",
-        "KR"
+        "CN"
     ])

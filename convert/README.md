@@ -1,0 +1,1 @@
+Both files in the directory were modified from https://github.com/nobbyfix/AzurLaneTools. All credit goes to NobbyFix. The output directory has been changed to what I think is more useful.

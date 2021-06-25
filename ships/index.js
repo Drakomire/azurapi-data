@@ -328,7 +328,16 @@ function readFilesFromLanguage(lang = "EN") {
             repair_air = ship_strengthen_meta[ship.group_type].repair_air || []
             repair_reload = ship_strengthen_meta[ship.group_type].repair_reload || []
 
-            repair_all = [...repair_cannon,...repair_torpedo,...repair_air,...repair_reload]
+            repair_all = []
+            
+            for (i of [repair_cannon,repair_torpedo,repair_air,repair_reload]){
+              try{
+                repair_all.concat(i)
+              }catch{
+                //can be dict if empty
+              }
+            }
+
             for (effect of repair_all){
                 j = ship_meta_repair[effect].effect_attr
                 compiled[ship.group_type].enhancement[STAT_KEYWORDS[j[0]]] += j[1]
@@ -398,7 +407,7 @@ function parseShips() {
     PR_calculated = true
     META_calculated = true
     readFilesFromLanguage("CN");
-    readFilesFromLanguage("JP");
+    // readFilesFromLanguage("JP");
     // readFilesFromLanguage("KR");
     // readFilesFromLanguage("TW");
     fs.writeFileSync(path.join(__dirname, "../dist/ships/ships.json"), stringify(compiled));

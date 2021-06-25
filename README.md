@@ -15,9 +15,9 @@ WARNING: THIS CAN TAKE A VERY LONG TIME (~3 minutes on my PC, ~10 minutes on my 
 ## Dependencies
 ```
 Python 3.9
-  git-python
+  pip install git-python
 Lua 5.1
-  CJson
+  sudo luarocks install lua-cjson
 Nodejs
-  json-stringify-pretty-compact
+  npm install json-stringify-pretty-compact
 ```

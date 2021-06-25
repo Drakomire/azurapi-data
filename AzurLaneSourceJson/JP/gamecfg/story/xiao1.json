@@ -1,479 +1,479 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "ニンジャ暁参上！\n\n<size=45>一　まさかの方向音痴？</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "母港・執務室",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "今日はあの暁が秘書艦を担当するはじめての日。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……のはずだが、予定時刻が過ぎても暁は現れなかった。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "探しに行く",
-          "flag": 1
-        }
-      ],
-      "say": "何かが起きたのだろうか？",
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 301010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0.5,
-          "x": 0
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "あ、指揮官！おはよう！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "ん？暁ちゃんのことね？わかった！",
-      "actor": 301010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "暁ちゃんなら……ええと……数分前にあっちに行ったのを見たよ！",
-      "actor": 301010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 301050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "暁、ですか……？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "say": "綾波、あちらに行った暁を見たです",
-      "actor": 301050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 301170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "暁か？吾輩も今朝見たような気が……ふむふむ……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_105"
-    },
-    {
-      "actor": 301170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "おおお！思い出したぞ！急いであっちに行ったのを見たのじゃ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_105"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "今までの目撃情報からすると、暁、母港を一周してるような……",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "まさか…………？",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "ええと…次はこっちのはず……",
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "あぅ！し、指揮官殿！？",
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "ほえ！？もうこんな時間でござるか！？も、申し訳ないでござる！それがし、朝一で執務室に行こうと思ったでござるが……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0.2,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "執務室までの距離はどうも思ってたより長くて……",
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "やっぱり道に迷っていたようだ。",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "ええええ！！？執務室はあちらでござるか！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "うぅ…かたじけないでござる……つ、次は絶対時間通りに着くでござる！",
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "暁は悔しそうに深々とお辞儀した。",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "どうやらニンジャにとって方向音痴は結構大変らしい。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "今度機会があったら母港の見回りにでも連れて行こうか。",
-      "blackBg": true,
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "XIAO1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u30cb\u30f3\u30b8\u30e3\u6681\u53c2\u4e0a\uff01\n\n<size=45>\u4e00\u3000\u307e\u3055\u304b\u306e\u65b9\u5411\u97f3\u75f4\uff1f</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4eca\u65e5\u306f\u3042\u306e\u6681\u304c\u79d8\u66f8\u8266\u3092\u62c5\u5f53\u3059\u308b\u306f\u3058\u3081\u3066\u306e\u65e5\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\u306e\u306f\u305a\u3060\u304c\u3001\u4e88\u5b9a\u6642\u523b\u304c\u904e\u304e\u3066\u3082\u6681\u306f\u73fe\u308c\u306a\u304b\u3063\u305f\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u63a2\u3057\u306b\u884c\u304f",
+					"flag": 1
+				}
+			],
+			"say": "\u4f55\u304b\u304c\u8d77\u304d\u305f\u306e\u3060\u308d\u3046\u304b\uff1f",
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 301010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0.5,
+					"x": 0
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u3042\u3001\u6307\u63ee\u5b98\uff01\u304a\u306f\u3088\u3046\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u3093\uff1f\u6681\u3061\u3083\u3093\u306e\u3053\u3068\u306d\uff1f\u308f\u304b\u3063\u305f\uff01",
+			"actor": 301010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u6681\u3061\u3083\u3093\u306a\u3089\u2026\u2026\u3048\u3048\u3068\u2026\u2026\u6570\u5206\u524d\u306b\u3042\u3063\u3061\u306b\u884c\u3063\u305f\u306e\u3092\u898b\u305f\u3088\uff01",
+			"actor": 301010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 301050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u6681\u3001\u3067\u3059\u304b\u2026\u2026\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"say": "\u7dbe\u6ce2\u3001\u3042\u3061\u3089\u306b\u884c\u3063\u305f\u6681\u3092\u898b\u305f\u3067\u3059",
+			"actor": 301050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 301170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u6681\u304b\uff1f\u543e\u8f29\u3082\u4eca\u671d\u898b\u305f\u3088\u3046\u306a\u6c17\u304c\u2026\u2026\u3075\u3080\u3075\u3080\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_105"
+		},
+		{
+			"actor": 301170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u304a\u304a\u304a\uff01\u601d\u3044\u51fa\u3057\u305f\u305e\uff01\u6025\u3044\u3067\u3042\u3063\u3061\u306b\u884c\u3063\u305f\u306e\u3092\u898b\u305f\u306e\u3058\u3083\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_105"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u4eca\u307e\u3067\u306e\u76ee\u6483\u60c5\u5831\u304b\u3089\u3059\u308b\u3068\u3001\u6681\u3001\u6bcd\u6e2f\u3092\u4e00\u5468\u3057\u3066\u308b\u3088\u3046\u306a\u2026\u2026",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u307e\u3055\u304b\u2026\u2026\u2026\u2026\uff1f",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3048\u3048\u3068\u2026\u6b21\u306f\u3053\u3063\u3061\u306e\u306f\u305a\u2026\u2026",
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3042\u3045\uff01\u3057\u3001\u6307\u63ee\u5b98\u6bbf\uff01\uff1f",
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u307b\u3048\uff01\uff1f\u3082\u3046\u3053\u3093\u306a\u6642\u9593\u3067\u3054\u3056\u308b\u304b\uff01\uff1f\u3082\u3001\u7533\u3057\u8a33\u306a\u3044\u3067\u3054\u3056\u308b\uff01\u305d\u308c\u304c\u3057\u3001\u671d\u4e00\u3067\u57f7\u52d9\u5ba4\u306b\u884c\u3053\u3046\u3068\u601d\u3063\u305f\u3067\u3054\u3056\u308b\u304c\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0.2,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u57f7\u52d9\u5ba4\u307e\u3067\u306e\u8ddd\u96e2\u306f\u3069\u3046\u3082\u601d\u3063\u3066\u305f\u3088\u308a\u9577\u304f\u3066\u2026\u2026",
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u3084\u3063\u3071\u308a\u9053\u306b\u8ff7\u3063\u3066\u3044\u305f\u3088\u3046\u3060\u3002",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3048\u3048\u3048\u3048\uff01\uff01\uff1f\u57f7\u52d9\u5ba4\u306f\u3042\u3061\u3089\u3067\u3054\u3056\u308b\u304b\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3046\u3045\u2026\u304b\u305f\u3058\u3051\u306a\u3044\u3067\u3054\u3056\u308b\u2026\u2026\u3064\u3001\u6b21\u306f\u7d76\u5bfe\u6642\u9593\u901a\u308a\u306b\u7740\u304f\u3067\u3054\u3056\u308b\uff01",
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u6681\u306f\u6094\u3057\u305d\u3046\u306b\u6df1\u3005\u3068\u304a\u8f9e\u5100\u3057\u305f\u3002",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u3069\u3046\u3084\u3089\u30cb\u30f3\u30b8\u30e3\u306b\u3068\u3063\u3066\u65b9\u5411\u97f3\u75f4\u306f\u7d50\u69cb\u5927\u5909\u3089\u3057\u3044\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4eca\u5ea6\u6a5f\u4f1a\u304c\u3042\u3063\u305f\u3089\u6bcd\u6e2f\u306e\u898b\u56de\u308a\u306b\u3067\u3082\u9023\u308c\u3066\u884c\u3053\u3046\u304b\u3002",
+			"blackBg": true,
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "XIAO1",
+	"once": true
 }

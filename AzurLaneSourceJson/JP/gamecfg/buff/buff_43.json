@@ -1,46 +1,46 @@
 {
-  "picture": "",
-  "id": 43,
-  "effect_list": [
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 48
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "time": 30,
-        "skill_id": 43
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffCancelBuff",
-      "arg_list": {
-        "count": 0,
-        "delay": 31
-      }
-    }
-  ],
-  "desc": "前排全灭30秒后触发绝地反击效果，随后每15秒触发1次，最多可叠加5次",
-  "icon": 43,
-  "last_effect": "",
-  "name": "绝地反击",
-  "color": "绝地反击",
-  "desc_get": "前排全灭30秒后触发绝地反击效果，随后每15秒触发1次，最多可叠加5次",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+	"picture": "",
+	"id": 43,
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"target": "TargetSelf",
+				"buff_id": 48
+			}
+		},
+		{
+			"trigger": [
+				"onUpdate"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"time": 30,
+				"skill_id": 43
+			}
+		},
+		{
+			"trigger": [
+				"onUpdate"
+			],
+			"type": "BattleBuffCancelBuff",
+			"arg_list": {
+				"count": 0,
+				"delay": 31
+			}
+		}
+	],
+	"desc": "\u524d\u6392\u5168\u706d30\u79d2\u540e\u89e6\u53d1\u7edd\u5730\u53cd\u51fb\u6548\u679c\uff0c\u968f\u540e\u6bcf15\u79d2\u89e6\u53d11\u6b21\uff0c\u6700\u591a\u53ef\u53e0\u52a05\u6b21",
+	"icon": 43,
+	"last_effect": "",
+	"name": "\u7edd\u5730\u53cd\u51fb",
+	"color": "\u7edd\u5730\u53cd\u51fb",
+	"desc_get": "\u524d\u6392\u5168\u706d30\u79d2\u540e\u89e6\u53d1\u7edd\u5730\u53cd\u51fb\u6548\u679c\uff0c\u968f\u540e\u6bcf15\u79d2\u89e6\u53d11\u6b21\uff0c\u6700\u591a\u53ef\u53e0\u52a05\u6b21",
+	"stack": 1,
+	"init_effect": "",
+	"time": 0
 }

@@ -1,669 +1,669 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "각자의 설날\n\n<size=45>1. 새해 맞이 폭죽</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": " 어느 날, 모항",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-china",
-      "bgmDelay": 2,
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "say": "조심, 조심……",
-      "actor": 501020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 501020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "좋아. 붙었다! 다들 피해!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 501031,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "우와아아~",
-      "subActors": [
-        {
-          "pos": {
-            "x": 555
-          },
-          "actor": 301162
-        },
-        {
-          "pos": {
-            "x": 1185
-          },
-          "actor": 301323
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "창춘&유키카제&무츠키",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "say": "펑——! 타다다다다닥——! 펑——!",
-      "soundeffect": "event:/battle/firework",
-      "side": 2,
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 301162,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "폭죽에서 작은 불꽃놀이 효과가?!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 301323,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "대단해!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 501020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "푸슌의 특제 폭죽, 안샨 7호! 성공!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "say": "창춘의 기술 지원과 내 실험 덕분에 시대를 앞서 나간 ‘안샨 7호’가 드디어 성공했어!",
-      "actor": 501020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 301323,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "무츠키도 할래!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 301162,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "또 있냐는 것이다! 나도 하고 싶다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "say": "만드는 김에 많이 만들어서 있긴 하지만…",
-      "actor": 501031,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "say": "에헤헤… 그 전에 보여줄 것이 또 있단 말이지…",
-      "actor": 501020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 301323,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "오오?",
-      "subActors": [
-        {
-          "pos": {
-            "x": 1185
-          },
-          "actor": 301162
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "무츠키&유키카제",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 501020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "say": "바로 헤비급 폭죽! ‘슈퍼 안샨 1호’!!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 501031,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "say": "음… 솔직히 말하면 화약을 가득 채운 것뿐이지만… 뭐… 어떤 일이 일어날지 궁금하기도 하고… 헤헤…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "say": "맞아! 연발 폭죽을 아주아주 많이 모아서 만든 거라고! 여기에 불을 붙이면……",
-      "actor": 501020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 501010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "푸——슌——!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "say": "아… 망했다. 안샨 언니야——",
-      "actor": 501020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "say": "핑하이랑 닝하이 만두 빚는 거 도와주러 간 것 아니야? 왜 여기서 놀고 있는 건데!",
-      "actor": 501010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 501020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "아, 알았다구! 지금 가면 되잖아… 귀 잡아당기지 마. 아파아아——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        },
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 1,
-          "delay": 0.5,
-          "x": 2500
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 501031,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "……",
-      "subActors": [
-        {
-          "actor": 301162,
-          "pos": {
-            "x": 585
-          },
-          "expression": 5
-        },
-        {
-          "actor": 301323,
-          "pos": {
-            "x": 1185
-          },
-          "expression": 6
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "창춘&유키카제&무츠키",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "say": "음… 그러니까… 유키카제, 무츠키. 계속할까? ‘안샨 7호'는 아직 있으니까.",
-      "actor": 501031,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "actor": 301323,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "할래!",
-      "subActors": [
-        {
-          "pos": {
-            "x": 1185
-          },
-          "actor": 301162
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "유키카제&무츠키",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_102"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "멀지 않은 곳…",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 403044,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "흥, 폭죽인가… 그래봤자 불꽃 튀는 작은 장난감 같은데.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 404011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "하하. 역시 함포 발사가 더 재미있어 보이는걸! 하지만 마지막 것은 꽤 흥미가 생긴다. 단순무식한 설계에는 원초적인 아름다움이 따르는 법이지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 404011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "볼 수 없어서 아쉽군. 쯧쯧… 하지만 도이칠란트여, 궁금하면 가보지 그래?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 403044,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "expression": 3,
-      "say": "무슨 헛소리지?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "HONGBAORICHANG1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\uac01\uc790\uc758 \uc124\ub0a0\n\n<size=45>1. \uc0c8\ud574 \ub9de\uc774 \ud3ed\uc8fd</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": " \uc5b4\ub290 \ub0a0, \ubaa8\ud56d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-china",
+			"bgmDelay": 2,
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"say": "\uc870\uc2ec, \uc870\uc2ec\u2026\u2026",
+			"actor": 501020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 501020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uc88b\uc544. \ubd99\uc5c8\ub2e4! \ub2e4\ub4e4 \ud53c\ud574!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 501031,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uc6b0\uc640\uc544\uc544~",
+			"subActors": [
+				{
+					"pos": {
+						"x": 555
+					},
+					"actor": 301162
+				},
+				{
+					"pos": {
+						"x": 1185
+					},
+					"actor": 301323
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ucc3d\ucd98&\uc720\ud0a4\uce74\uc81c&\ubb34\uce20\ud0a4",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"say": "\ud391\u2014\u2014! \ud0c0\ub2e4\ub2e4\ub2e4\ub2e4\ub2e5\u2014\u2014! \ud391\u2014\u2014!",
+			"soundeffect": "event:/battle/firework",
+			"side": 2,
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 301162,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\ud3ed\uc8fd\uc5d0\uc11c \uc791\uc740 \ubd88\uaf43\ub180\uc774 \ud6a8\uacfc\uac00?!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 301323,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\ub300\ub2e8\ud574!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 501020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\ud478\uc28c\uc758 \ud2b9\uc81c \ud3ed\uc8fd, \uc548\uc0e8 7\ud638! \uc131\uacf5!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"say": "\ucc3d\ucd98\uc758 \uae30\uc220 \uc9c0\uc6d0\uacfc \ub0b4 \uc2e4\ud5d8 \ub355\ubd84\uc5d0 \uc2dc\ub300\ub97c \uc55e\uc11c \ub098\uac04 \u2018\uc548\uc0e8 7\ud638\u2019\uac00 \ub4dc\ub514\uc5b4 \uc131\uacf5\ud588\uc5b4!",
+			"actor": 501020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 301323,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ubb34\uce20\ud0a4\ub3c4 \ud560\ub798!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 301162,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ub610 \uc788\ub0d0\ub294 \uac83\uc774\ub2e4! \ub098\ub3c4 \ud558\uace0 \uc2f6\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"say": "\ub9cc\ub4dc\ub294 \uae40\uc5d0 \ub9ce\uc774 \ub9cc\ub4e4\uc5b4\uc11c \uc788\uae34 \ud558\uc9c0\ub9cc\u2026",
+			"actor": 501031,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"say": "\uc5d0\ud5e4\ud5e4\u2026 \uadf8 \uc804\uc5d0 \ubcf4\uc5ec\uc904 \uac83\uc774 \ub610 \uc788\ub2e8 \ub9d0\uc774\uc9c0\u2026",
+			"actor": 501020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 301323,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uc624\uc624?",
+			"subActors": [
+				{
+					"pos": {
+						"x": 1185
+					},
+					"actor": 301162
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ubb34\uce20\ud0a4&\uc720\ud0a4\uce74\uc81c",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 501020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"say": "\ubc14\ub85c \ud5e4\ube44\uae09 \ud3ed\uc8fd! \u2018\uc288\ud37c \uc548\uc0e8 1\ud638\u2019!!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 501031,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"say": "\uc74c\u2026 \uc194\uc9c1\ud788 \ub9d0\ud558\uba74 \ud654\uc57d\uc744 \uac00\ub4dd \ucc44\uc6b4 \uac83\ubfd0\uc774\uc9c0\ub9cc\u2026 \ubb50\u2026 \uc5b4\ub5a4 \uc77c\uc774 \uc77c\uc5b4\ub0a0\uc9c0 \uad81\uae08\ud558\uae30\ub3c4 \ud558\uace0\u2026 \ud5e4\ud5e4\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"say": "\ub9de\uc544! \uc5f0\ubc1c \ud3ed\uc8fd\uc744 \uc544\uc8fc\uc544\uc8fc \ub9ce\uc774 \ubaa8\uc544\uc11c \ub9cc\ub4e0 \uac70\ub77c\uace0! \uc5ec\uae30\uc5d0 \ubd88\uc744 \ubd99\uc774\uba74\u2026\u2026",
+			"actor": 501020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 501010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\ud478\u2014\u2014\uc28c\u2014\u2014!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"say": "\uc544\u2026 \ub9dd\ud588\ub2e4. \uc548\uc0e8 \uc5b8\ub2c8\uc57c\u2014\u2014",
+			"actor": 501020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"say": "\ud551\ud558\uc774\ub791 \ub2dd\ud558\uc774 \ub9cc\ub450 \ube5a\ub294 \uac70 \ub3c4\uc640\uc8fc\ub7ec \uac04 \uac83 \uc544\ub2c8\uc57c? \uc65c \uc5ec\uae30\uc11c \ub180\uace0 \uc788\ub294 \uac74\ub370!",
+			"actor": 501010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 501020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uc544, \uc54c\uc558\ub2e4\uad6c! \uc9c0\uae08 \uac00\uba74 \ub418\uc796\uc544\u2026 \uadc0 \uc7a1\uc544\ub2f9\uae30\uc9c0 \ub9c8. \uc544\ud30c\uc544\uc544\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				},
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 1,
+					"delay": 0.5,
+					"x": 2500
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 501031,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u2026\u2026",
+			"subActors": [
+				{
+					"actor": 301162,
+					"pos": {
+						"x": 585
+					},
+					"expression": 5
+				},
+				{
+					"actor": 301323,
+					"pos": {
+						"x": 1185
+					},
+					"expression": 6
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ucc3d\ucd98&\uc720\ud0a4\uce74\uc81c&\ubb34\uce20\ud0a4",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"say": "\uc74c\u2026 \uadf8\ub7ec\ub2c8\uae4c\u2026 \uc720\ud0a4\uce74\uc81c, \ubb34\uce20\ud0a4. \uacc4\uc18d\ud560\uae4c? \u2018\uc548\uc0e8 7\ud638'\ub294 \uc544\uc9c1 \uc788\uc73c\ub2c8\uae4c.",
+			"actor": 501031,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"actor": 301323,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\ud560\ub798!",
+			"subActors": [
+				{
+					"pos": {
+						"x": 1185
+					},
+					"actor": 301162
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc720\ud0a4\uce74\uc81c&\ubb34\uce20\ud0a4",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_102"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uba40\uc9c0 \uc54a\uc740 \uacf3\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 403044,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ud765, \ud3ed\uc8fd\uc778\uac00\u2026 \uadf8\ub798\ubd24\uc790 \ubd88\uaf43 \ud280\ub294 \uc791\uc740 \uc7a5\ub09c\uac10 \uac19\uc740\ub370.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 404011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\ud558\ud558. \uc5ed\uc2dc \ud568\ud3ec \ubc1c\uc0ac\uac00 \ub354 \uc7ac\ubbf8\uc788\uc5b4 \ubcf4\uc774\ub294\uac78! \ud558\uc9c0\ub9cc \ub9c8\uc9c0\ub9c9 \uac83\uc740 \uaf64 \ud765\ubbf8\uac00 \uc0dd\uae34\ub2e4. \ub2e8\uc21c\ubb34\uc2dd\ud55c \uc124\uacc4\uc5d0\ub294 \uc6d0\ucd08\uc801\uc778 \uc544\ub984\ub2e4\uc6c0\uc774 \ub530\ub974\ub294 \ubc95\uc774\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 404011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\ubcfc \uc218 \uc5c6\uc5b4\uc11c \uc544\uc27d\uad70. \ucbe7\ucbe7\u2026 \ud558\uc9c0\ub9cc \ub3c4\uc774\uce60\ub780\ud2b8\uc5ec, \uad81\uae08\ud558\uba74 \uac00\ubcf4\uc9c0 \uadf8\ub798?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 403044,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"expression": 3,
+			"say": "\ubb34\uc2a8 \ud5db\uc18c\ub9ac\uc9c0?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "HONGBAORICHANG1",
+	"once": true
 }

@@ -1,48 +1,48 @@
 {
-  "picture": "",
-  "id": 325,
-  "desc": "持续伤害",
-  "last_effect": "zhuoshao",
-  "time": 6.1,
-  "icon": 325,
-  "effect_list": [
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffDOT",
-      "arg_list": {
-        "attr": "cannonPower",
-        "k": 0.6,
-        "cloakExpose": 36,
-        "exposeGroup": 1,
-        "number": 5,
-        "time": 2,
-        "dotType": 1
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 60
-      }
-    },
-    {
-      "trigger": [
-        "onRemove"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 61
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "起火"
+	"picture": "",
+	"id": 325,
+	"desc": "\u6301\u7eed\u4f24\u5bb3",
+	"last_effect": "zhuoshao",
+	"time": 6.1,
+	"icon": 325,
+	"effect_list": [
+		{
+			"trigger": [
+				"onUpdate"
+			],
+			"type": "BattleBuffDOT",
+			"arg_list": {
+				"attr": "cannonPower",
+				"k": 0.6,
+				"cloakExpose": 36,
+				"exposeGroup": 1,
+				"number": 5,
+				"time": 2,
+				"dotType": 1
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 60
+			}
+		},
+		{
+			"trigger": [
+				"onRemove"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 61
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u8d77\u706b"
 }

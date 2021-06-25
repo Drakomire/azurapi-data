@@ -1,35 +1,35 @@
 {
-  "picture": "",
-  "id": 46,
-  "desc": "每隔15秒触发绝地反击效果",
-  "color": "red",
-  "last_effect": "",
-  "time": 0,
-  "icon": 46,
-  "effect_list": [
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "time": 15,
-        "skill_id": 46
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffCancelBuff",
-      "arg_list": {
-        "count": 0,
-        "delay": 61
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "绝地反击"
+	"picture": "",
+	"id": 46,
+	"desc": "\u6bcf\u969415\u79d2\u89e6\u53d1\u7edd\u5730\u53cd\u51fb\u6548\u679c",
+	"color": "red",
+	"last_effect": "",
+	"time": 0,
+	"icon": 46,
+	"effect_list": [
+		{
+			"trigger": [
+				"onUpdate"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"time": 15,
+				"skill_id": 46
+			}
+		},
+		{
+			"trigger": [
+				"onUpdate"
+			],
+			"type": "BattleBuffCancelBuff",
+			"arg_list": {
+				"count": 0,
+				"delay": 61
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u7edd\u5730\u53cd\u51fb"
 }

@@ -1,263 +1,263 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "Best Pictures!\n\n<size=45>1. 멋진 순간! 옆방의 새러토가</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "say": "항구·지휘실",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "dir": 1,
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "♪～♪～♪",
-      "actor": 107030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "비서함 새러토가는 노래를 들으며 일을 하고 있다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "저번에 “그 물건”을 본다",
-          "flag": 1
-        }
-      ],
-      "say": "...... 아마 일에 너무 집중한 나머지, 이 쪽은 신경쓰지 못하는 듯하다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2
-        }
-      ],
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "현장 체포다냥! 몰래 사진 찍는 건 그렇다쳐도, {namecode:98}의 프린터를 절도하다니, 이건 큰 죄다냥!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 101050,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 1
-        }
-      ],
-      "say": "지휘관 살려줘——! 난 단지 모두에게 무한한 매력의 새러토가를 알려주고 싶었을 뿐이야! ...... 근데 그 프린터가 {namecode:98}꺼였어?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 312010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "그렇다냥! 그러니까 복사본은 {namecode:98}가 전부 몰수하겠다냥! 원본은 지휘관에게 처리를 맡긴다냥!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 101050,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "에에...... (풀썩)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": -30,
-          "type": "shake",
-          "dur": 0.4,
-          "number": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "이렇게 그리들리가 홍보하려고 했던 《새러토가의 Best Pictures vol.1 시험판》을 얻게 되었다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "그리들리의 말에 의하면, 내용물은 새러토가의 일상에서의 멋진 순간들을 담은 사진(몰카)라고 한다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "♪～♪～♪",
-      "actor": 107030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "지휘관~ 나 곧 끝나~ 끝나면 렉싱턴 언니 찾아가자!",
-      "actor": 107030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "....... 새러토가가 아직 눈치채지 못한 틈을 타서, 우선 살펴보자.",
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "SALATUOJIA1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"Best Pictures!\n\n<size=45>1. \uba4b\uc9c4 \uc21c\uac04! \uc606\ubc29\uc758 \uc0c8\ub7ec\ud1a0\uac00</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"say": "\ud56d\uad6c\u00b7\uc9c0\ud718\uc2e4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"dir": 1,
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u266a\uff5e\u266a\uff5e\u266a",
+			"actor": 107030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ube44\uc11c\ud568 \uc0c8\ub7ec\ud1a0\uac00\ub294 \ub178\ub798\ub97c \ub4e4\uc73c\uba70 \uc77c\uc744 \ud558\uace0 \uc788\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\uc800\ubc88\uc5d0 \u201c\uadf8 \ubb3c\uac74\u201d\uc744 \ubcf8\ub2e4",
+					"flag": 1
+				}
+			],
+			"say": "...... \uc544\ub9c8 \uc77c\uc5d0 \ub108\ubb34 \uc9d1\uc911\ud55c \ub098\uba38\uc9c0, \uc774 \ucabd\uc740 \uc2e0\uacbd\uc4f0\uc9c0 \ubabb\ud558\ub294 \ub4ef\ud558\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2
+				}
+			],
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\ud604\uc7a5 \uccb4\ud3ec\ub2e4\ub0e5! \ubab0\ub798 \uc0ac\uc9c4 \ucc0d\ub294 \uac74 \uadf8\ub807\ub2e4\uccd0\ub3c4, {namecode:98}\uc758 \ud504\ub9b0\ud130\ub97c \uc808\ub3c4\ud558\ub2e4\ub2c8, \uc774\uac74 \ud070 \uc8c4\ub2e4\ub0e5!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 101050,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 1
+				}
+			],
+			"say": "\uc9c0\ud718\uad00 \uc0b4\ub824\uc918\u2014\u2014! \ub09c \ub2e8\uc9c0 \ubaa8\ub450\uc5d0\uac8c \ubb34\ud55c\ud55c \ub9e4\ub825\uc758 \uc0c8\ub7ec\ud1a0\uac00\ub97c \uc54c\ub824\uc8fc\uace0 \uc2f6\uc5c8\uc744 \ubfd0\uc774\uc57c! ...... \uadfc\ub370 \uadf8 \ud504\ub9b0\ud130\uac00 {namecode:98}\uaebc\uc600\uc5b4?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 312010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uadf8\ub807\ub2e4\ub0e5! \uadf8\ub7ec\ub2c8\uae4c \ubcf5\uc0ac\ubcf8\uc740 {namecode:98}\uac00 \uc804\ubd80 \ubab0\uc218\ud558\uaca0\ub2e4\ub0e5! \uc6d0\ubcf8\uc740 \uc9c0\ud718\uad00\uc5d0\uac8c \ucc98\ub9ac\ub97c \ub9e1\uae34\ub2e4\ub0e5!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 101050,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc5d0\uc5d0...... (\ud480\uc369)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": -30,
+					"type": "shake",
+					"dur": 0.4,
+					"number": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uc774\ub807\uac8c \uadf8\ub9ac\ub4e4\ub9ac\uac00 \ud64d\ubcf4\ud558\ub824\uace0 \ud588\ub358 \u300a\uc0c8\ub7ec\ud1a0\uac00\uc758 Best Pictures vol.1 \uc2dc\ud5d8\ud310\u300b\uc744 \uc5bb\uac8c \ub418\uc5c8\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uadf8\ub9ac\ub4e4\ub9ac\uc758 \ub9d0\uc5d0 \uc758\ud558\uba74, \ub0b4\uc6a9\ubb3c\uc740 \uc0c8\ub7ec\ud1a0\uac00\uc758 \uc77c\uc0c1\uc5d0\uc11c\uc758 \uba4b\uc9c4 \uc21c\uac04\ub4e4\uc744 \ub2f4\uc740 \uc0ac\uc9c4(\ubab0\uce74)\ub77c\uace0 \ud55c\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u266a\uff5e\u266a\uff5e\u266a",
+			"actor": 107030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\uc9c0\ud718\uad00~ \ub098 \uace7 \ub05d\ub098~ \ub05d\ub098\uba74 \ub809\uc2f1\ud134 \uc5b8\ub2c8 \ucc3e\uc544\uac00\uc790!",
+			"actor": 107030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "....... \uc0c8\ub7ec\ud1a0\uac00\uac00 \uc544\uc9c1 \ub208\uce58\ucc44\uc9c0 \ubabb\ud55c \ud2c8\uc744 \ud0c0\uc11c, \uc6b0\uc120 \uc0b4\ud3b4\ubcf4\uc790.",
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "SALATUOJIA1",
+	"once": true
 }

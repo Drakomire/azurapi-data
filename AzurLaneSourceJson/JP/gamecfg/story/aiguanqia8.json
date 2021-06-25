@@ -1,264 +1,264 @@
 {
-  "scripts": [
-    {
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "アイさんを放してください！行きますよ、雷！"
-    },
-    {
-      "actor": 301110,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "いつでもいけるよ、電！くらえー！"
-    },
-    {
-      "actor": 10400010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "expression": 1,
-      "say": "………！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "ニセキズナアイ",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "subActors": [
-        {
-          "pos": {
-            "x": 1005
-          },
-          "actor": 301110
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "雷＆電",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "「「秘技・雷電乱れ撃ち！」」"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "withoutActorName": true,
-      "expression": 1,
-      "action": [
-        {
-          "y": -2250,
-          "type": "move",
-          "dur": 1,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "say": "（ドカーン！）",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 10400010
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "やりました！アイさんを捕まえてたニセキズナアイを倒しましたよ！"
-    },
-    {
-      "actor": 101170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "キズナアイ、大丈夫？……怪我はない？"
-    },
-    {
-      "actor": 10400020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "う゛え゛え゛ぇ゛ぇ゛ぇ゛あ゛り゛が゛と゛う゛ぅ゛ぅ゛～",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "キズナアイ",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 22.5,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "もうっ、アイちゃん！これからは一人で突っ走っちゃ…めっ！だよ"
-    },
-    {
-      "actor": 10400020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "う゛～、こ゛め゛ん゛な゛さ゛い゛～～～",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "キズナアイ",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 22.5,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 101170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "よしよし、キズナアイ、いい子いい子"
-    }
-  ],
-  "id": "AIGUANQIA8",
-  "mode": 2,
-  "fadein": 1.5,
-  "once": true
+	"scripts": [
+		{
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u30a2\u30a4\u3055\u3093\u3092\u653e\u3057\u3066\u304f\u3060\u3055\u3044\uff01\u884c\u304d\u307e\u3059\u3088\u3001\u96f7\uff01"
+		},
+		{
+			"actor": 301110,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u3044\u3064\u3067\u3082\u3044\u3051\u308b\u3088\u3001\u96fb\uff01\u304f\u3089\u3048\u30fc\uff01"
+		},
+		{
+			"actor": 10400010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"expression": 1,
+			"say": "\u2026\u2026\u2026\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u30cb\u30bb\u30ad\u30ba\u30ca\u30a2\u30a4",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"subActors": [
+				{
+					"pos": {
+						"x": 1005
+					},
+					"actor": 301110
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u96f7\uff06\u96fb",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u300c\u300c\u79d8\u6280\u30fb\u96f7\u96fb\u4e71\u308c\u6483\u3061\uff01\u300d\u300d"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"withoutActorName": true,
+			"expression": 1,
+			"action": [
+				{
+					"y": -2250,
+					"type": "move",
+					"dur": 1,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"say": "\uff08\u30c9\u30ab\u30fc\u30f3\uff01\uff09",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 10400010
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u3084\u308a\u307e\u3057\u305f\uff01\u30a2\u30a4\u3055\u3093\u3092\u6355\u307e\u3048\u3066\u305f\u30cb\u30bb\u30ad\u30ba\u30ca\u30a2\u30a4\u3092\u5012\u3057\u307e\u3057\u305f\u3088\uff01"
+		},
+		{
+			"actor": 101170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u30ad\u30ba\u30ca\u30a2\u30a4\u3001\u5927\u4e08\u592b\uff1f\u2026\u2026\u602a\u6211\u306f\u306a\u3044\uff1f"
+		},
+		{
+			"actor": 10400020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u3046\u309b\u3048\u309b\u3048\u309b\u3047\u309b\u3047\u309b\u3047\u309b\u3042\u309b\u308a\u309b\u304c\u309b\u3068\u309b\u3046\u309b\u3045\u309b\u3045\u309b\uff5e",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u30ad\u30ba\u30ca\u30a2\u30a4",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 22.5,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u3082\u3046\u3063\u3001\u30a2\u30a4\u3061\u3083\u3093\uff01\u3053\u308c\u304b\u3089\u306f\u4e00\u4eba\u3067\u7a81\u3063\u8d70\u3063\u3061\u3083\u2026\u3081\u3063\uff01\u3060\u3088"
+		},
+		{
+			"actor": 10400020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u3046\u309b\uff5e\u3001\u3053\u309b\u3081\u309b\u3093\u309b\u306a\u309b\u3055\u309b\u3044\u309b\uff5e\uff5e\uff5e",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u30ad\u30ba\u30ca\u30a2\u30a4",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 22.5,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 101170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u3088\u3057\u3088\u3057\u3001\u30ad\u30ba\u30ca\u30a2\u30a4\u3001\u3044\u3044\u5b50\u3044\u3044\u5b50"
+		}
+	],
+	"id": "AIGUANQIA8",
+	"mode": 2,
+	"fadein": 1.5,
+	"once": true
 }

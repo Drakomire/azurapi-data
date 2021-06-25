@@ -1,148 +1,148 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "soundeffect": "event:/battle/scan",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "say": "雷達有反應，看起來有兩隻小老鼠跟在我們後面呢~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 403030,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "bsm-1"
-    },
-    {
-      "actor": 203050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "居然被、被發現了！"
-    },
-    {
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 203040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "哇啊啊啊，快，快發電報，發電報！"
-    },
-    {
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "俾斯麥，要陪她們玩玩嗎？"
-    },
-    {
-      "actor": 405010,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "許可交戰，趕走她們。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      }
-    },
-    {
-      "say": "但是不要玩過頭了，對方應該已經發送我們所在的位置訊息了。",
-      "actor": 405010,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 405010,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "要盡力避免繼續糾纏下去。"
-    },
-    {
-      "actor": 403030,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "了解~準備交火！"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "TIEXUEYUYINFU3",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"soundeffect": "event:/battle/scan",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"say": "\u96f7\u9054\u6709\u53cd\u61c9\uff0c\u770b\u8d77\u4f86\u6709\u5169\u96bb\u5c0f\u8001\u9f20\u8ddf\u5728\u6211\u5011\u5f8c\u9762\u5462~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 403030,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "bsm-1"
+		},
+		{
+			"actor": 203050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5c45\u7136\u88ab\u3001\u88ab\u767c\u73fe\u4e86\uff01"
+		},
+		{
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 203040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u54c7\u554a\u554a\u554a\uff0c\u5feb\uff0c\u5feb\u767c\u96fb\u5831\uff0c\u767c\u96fb\u5831\uff01"
+		},
+		{
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u4ffe\u65af\u9ea5\uff0c\u8981\u966a\u5979\u5011\u73a9\u73a9\u55ce\uff1f"
+		},
+		{
+			"actor": 405010,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\u8a31\u53ef\u4ea4\u6230\uff0c\u8d95\u8d70\u5979\u5011\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			}
+		},
+		{
+			"say": "\u4f46\u662f\u4e0d\u8981\u73a9\u904e\u982d\u4e86\uff0c\u5c0d\u65b9\u61c9\u8a72\u5df2\u7d93\u767c\u9001\u6211\u5011\u6240\u5728\u7684\u4f4d\u7f6e\u8a0a\u606f\u4e86\u3002",
+			"actor": 405010,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 405010,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u8981\u76e1\u529b\u907f\u514d\u7e7c\u7e8c\u7cfe\u7e8f\u4e0b\u53bb\u3002"
+		},
+		{
+			"actor": 403030,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u4e86\u89e3~\u6e96\u5099\u4ea4\u706b\uff01"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "TIEXUEYUYINFU3",
+	"once": true
 }

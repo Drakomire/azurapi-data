@@ -1,42 +1,42 @@
 {
-  "1": {
-    "desc": "主炮每进行15次攻击，触发专属弹幕-恶毒μI"
-  },
-  "picture": "",
-  "id": 29621,
-  "effect_list": [
-    {
-      "trigger": [
-        "onFire"
-      ],
-      "type": "BattleBuffCount",
-      "arg_list": {
-        "countTarget": 15,
-        "countType": 29620,
-        "index": [
-          1
-        ]
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "countType": 29620,
-        "skill_id": 29621
-      }
-    }
-  ],
-  "desc": "主炮每进行15次攻击，触发专属弹幕-恶毒μI",
-  "icon": 29620,
-  "last_effect": "",
-  "name": "专属弹幕-恶毒μI",
-  "color": "red",
-  "desc_get": "主炮每进行15次攻击，触发专属弹幕-恶毒μI",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+	"1": {
+		"desc": "\u4e3b\u70ae\u6bcf\u8fdb\u884c15\u6b21\u653b\u51fb\uff0c\u89e6\u53d1\u4e13\u5c5e\u5f39\u5e55-\u6076\u6bd2\u03bcI"
+	},
+	"picture": "",
+	"id": 29621,
+	"effect_list": [
+		{
+			"trigger": [
+				"onFire"
+			],
+			"type": "BattleBuffCount",
+			"arg_list": {
+				"countTarget": 15,
+				"countType": 29620,
+				"index": [
+					1
+				]
+			}
+		},
+		{
+			"trigger": [
+				"onBattleBuffCount"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"countType": 29620,
+				"skill_id": 29621
+			}
+		}
+	],
+	"desc": "\u4e3b\u70ae\u6bcf\u8fdb\u884c15\u6b21\u653b\u51fb\uff0c\u89e6\u53d1\u4e13\u5c5e\u5f39\u5e55-\u6076\u6bd2\u03bcI",
+	"icon": 29620,
+	"last_effect": "",
+	"name": "\u4e13\u5c5e\u5f39\u5e55-\u6076\u6bd2\u03bcI",
+	"color": "red",
+	"desc_get": "\u4e3b\u70ae\u6bcf\u8fdb\u884c15\u6b21\u653b\u51fb\uff0c\u89e6\u53d1\u4e13\u5c5e\u5f39\u5e55-\u6076\u6bd2\u03bcI",
+	"stack": 1,
+	"init_effect": "",
+	"time": 0
 }

@@ -1,313 +1,313 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 900215,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "하아… 하아… 안돼. 더는 못 뛰겠어… 한 발짝도 못 움직이겠어!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "holo-control-inst"
-    },
-    {
-      "say": "미… 미오쨩…… 여기서 멈춰버리면----",
-      "actor": 900209,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "아---- 아악!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 900215
-    },
-    {
-      "actor": 900209,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "세이렌의 포탄이 쏟아질 텐데…"
-    },
-    {
-      "say": "후부키, 어서 방법을 좀 생각해봐. 이렇게 이상한 상황에서 죽고 싶지 않아!",
-      "actor": 900215,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "우리와 적의 실력 차이는 절망적… 응, 방법이 없어.",
-      "actor": 900209,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "actor": 900215,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "포기하지 마, 후부키쨩!!!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "멈춰선 두 사람에게 세이렌 전투기가 폭탄을 투하했다."
-    },
-    {
-      "say": "미오, 마지막까지 너와 함께 있어서---",
-      "actor": 900209,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "sequence": [
-        [
-          "",
-          0
-        ]
-      ],
-      "flashout": {
-        "dur": 1,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "blackBg": true,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "mode": 1,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 1.5,
-        "dur": 1
-      },
-      "stopbgm": true
-    },
-    {
-      "bgm": "nagato-map",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "아직 포기하긴 이르다."
-    },
-    {
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "우미카제형 3번함, 카와카제, 간다!"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "HOLOGUANQIA5",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 900215,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\ud558\uc544\u2026 \ud558\uc544\u2026 \uc548\ub3fc. \ub354\ub294 \ubabb \ub6f0\uaca0\uc5b4\u2026 \ud55c \ubc1c\uc9dd\ub3c4 \ubabb \uc6c0\uc9c1\uc774\uaca0\uc5b4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "holo-control-inst"
+		},
+		{
+			"say": "\ubbf8\u2026 \ubbf8\uc624\uca29\u2026\u2026 \uc5ec\uae30\uc11c \uba48\ucdb0\ubc84\ub9ac\uba74----",
+			"actor": 900209,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\uc544---- \uc544\uc545!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 900215
+		},
+		{
+			"actor": 900209,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc138\uc774\ub80c\uc758 \ud3ec\ud0c4\uc774 \uc3df\uc544\uc9c8 \ud150\ub370\u2026"
+		},
+		{
+			"say": "\ud6c4\ubd80\ud0a4, \uc5b4\uc11c \ubc29\ubc95\uc744 \uc880 \uc0dd\uac01\ud574\ubd10. \uc774\ub807\uac8c \uc774\uc0c1\ud55c \uc0c1\ud669\uc5d0\uc11c \uc8fd\uace0 \uc2f6\uc9c0 \uc54a\uc544!",
+			"actor": 900215,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\uc6b0\ub9ac\uc640 \uc801\uc758 \uc2e4\ub825 \ucc28\uc774\ub294 \uc808\ub9dd\uc801\u2026 \uc751, \ubc29\ubc95\uc774 \uc5c6\uc5b4.",
+			"actor": 900209,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"actor": 900215,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\ud3ec\uae30\ud558\uc9c0 \ub9c8, \ud6c4\ubd80\ud0a4\uca29!!!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uba48\ucdb0\uc120 \ub450 \uc0ac\ub78c\uc5d0\uac8c \uc138\uc774\ub80c \uc804\ud22c\uae30\uac00 \ud3ed\ud0c4\uc744 \ud22c\ud558\ud588\ub2e4."
+		},
+		{
+			"say": "\ubbf8\uc624, \ub9c8\uc9c0\ub9c9\uae4c\uc9c0 \ub108\uc640 \ud568\uaed8 \uc788\uc5b4\uc11c---",
+			"actor": 900209,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"sequence": [
+				[
+					"",
+					0
+				]
+			],
+			"flashout": {
+				"dur": 1,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"blackBg": true,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"mode": 1,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 1.5,
+				"dur": 1
+			},
+			"stopbgm": true
+		},
+		{
+			"bgm": "nagato-map",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc544\uc9c1 \ud3ec\uae30\ud558\uae34 \uc774\ub974\ub2e4."
+		},
+		{
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc6b0\ubbf8\uce74\uc81c\ud615 3\ubc88\ud568, \uce74\uc640\uce74\uc81c, \uac04\ub2e4!"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "HOLOGUANQIA5",
+	"once": true
 }

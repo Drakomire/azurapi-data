@@ -1,410 +1,410 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "前進吧，{namecode:144}！\n\n<size=45>七 約會吧，{namecode:144}！</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-2",
-      "bgmDelay": 2,
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "expression": 5,
-      "say": "（不，不說點什麼的話，嗚嗚……）",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "withoutActorName": true,
-      "expression": 5,
-      "say": "{namecode:144}的臉漲得通紅",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "再不說點什麼的話，這個讓人難以忍受的氣氛就結束不了……",
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "剛要開口時——",
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 6,
-      "say": "指揮官，能，能和我約會嗎！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……",
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 6,
-      "say": "我，我在說什麼呀！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 6,
-      "options": [
-        {
-          "content": "答應約會",
-          "flag": 1
-        }
-      ],
-      "say": "請，請務必忘記我剛剛那奇怪的發言！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "欸",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "對，對不起！剛剛的只是胡言亂語所以——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "表示“想要更加的了解{namecode:144}”",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "啊…我、我也想要更加了解指揮官…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "原本尷尬而慌亂的臉上，露出了微笑。",
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 303090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "嗯！那，那就約好了，在——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "{namecode:63}",
-      "say": "喂，妳們幾個堆在門這裡幹啥？在偷聽嗎？",
-      "bgName": "bg_story_room"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "{namecode:55}",
-      "say": "啊，糟了，是The·風紀委員長·{namecode:63}！",
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 12.75,
-        "number": 2
-      },
-      "say": "門突然被推開了，幾個身影擁擠著倒在了門前",
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 301300,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "嘖，在這關鍵的時候……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "小{namecode:63}……妳這也太不解風情了吧？",
-      "actor": 303080,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "差一點就到手的獨家新聞啊！",
-      "actor": 303030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "欸，我，我做錯了什麼嗎？還有這一地的紙鶴……這，這到底是怎麼回事？",
-      "actor": 303070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "小小的鬧劇就這樣畫上了句號，接下來…要考慮約會的地點了呢",
-      "blackBg": true,
-      "bgName": "bg_story_room"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "ZUBING7",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u524d\u9032\u5427\uff0c{namecode:144}\uff01\n\n<size=45>\u4e03 \u7d04\u6703\u5427\uff0c{namecode:144}\uff01</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-2",
+			"bgmDelay": 2,
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"expression": 5,
+			"say": "\uff08\u4e0d\uff0c\u4e0d\u8aaa\u9ede\u4ec0\u9ebc\u7684\u8a71\uff0c\u55da\u55da\u2026\u2026\uff09",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"withoutActorName": true,
+			"expression": 5,
+			"say": "{namecode:144}\u7684\u81c9\u6f32\u5f97\u901a\u7d05",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u518d\u4e0d\u8aaa\u9ede\u4ec0\u9ebc\u7684\u8a71\uff0c\u9019\u500b\u8b93\u4eba\u96e3\u4ee5\u5fcd\u53d7\u7684\u6c23\u6c1b\u5c31\u7d50\u675f\u4e0d\u4e86\u2026\u2026",
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u525b\u8981\u958b\u53e3\u6642\u2014\u2014",
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 6,
+			"say": "\u6307\u63ee\u5b98\uff0c\u80fd\uff0c\u80fd\u548c\u6211\u7d04\u6703\u55ce\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026",
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 6,
+			"say": "\u6211\uff0c\u6211\u5728\u8aaa\u4ec0\u9ebc\u5440\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 6,
+			"options": [
+				{
+					"content": "\u7b54\u61c9\u7d04\u6703",
+					"flag": 1
+				}
+			],
+			"say": "\u8acb\uff0c\u8acb\u52d9\u5fc5\u5fd8\u8a18\u6211\u525b\u525b\u90a3\u5947\u602a\u7684\u767c\u8a00\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\u6b38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\u5c0d\uff0c\u5c0d\u4e0d\u8d77\uff01\u525b\u525b\u7684\u53ea\u662f\u80e1\u8a00\u4e82\u8a9e\u6240\u4ee5\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u8868\u793a\u201c\u60f3\u8981\u66f4\u52a0\u7684\u4e86\u89e3{namecode:144}\u201d",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u554a\u2026\u6211\u3001\u6211\u4e5f\u60f3\u8981\u66f4\u52a0\u4e86\u89e3\u6307\u63ee\u5b98\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u539f\u672c\u5c37\u5c2c\u800c\u614c\u4e82\u7684\u81c9\u4e0a\uff0c\u9732\u51fa\u4e86\u5fae\u7b11\u3002",
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 303090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u55ef\uff01\u90a3\uff0c\u90a3\u5c31\u7d04\u597d\u4e86\uff0c\u5728\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "{namecode:63}",
+			"say": "\u5582\uff0c\u59b3\u5011\u5e7e\u500b\u5806\u5728\u9580\u9019\u88e1\u5e79\u5565\uff1f\u5728\u5077\u807d\u55ce\uff1f",
+			"bgName": "bg_story_room"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "{namecode:55}",
+			"say": "\u554a\uff0c\u7cdf\u4e86\uff0c\u662fThe\u00b7\u98a8\u7d00\u59d4\u54e1\u9577\u00b7{namecode:63}\uff01",
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 12.75,
+				"number": 2
+			},
+			"say": "\u9580\u7a81\u7136\u88ab\u63a8\u958b\u4e86\uff0c\u5e7e\u500b\u8eab\u5f71\u64c1\u64e0\u8457\u5012\u5728\u4e86\u9580\u524d",
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 301300,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u5616\uff0c\u5728\u9019\u95dc\u9375\u7684\u6642\u5019\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u5c0f{namecode:63}\u2026\u2026\u59b3\u9019\u4e5f\u592a\u4e0d\u89e3\u98a8\u60c5\u4e86\u5427\uff1f",
+			"actor": 303080,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u5dee\u4e00\u9ede\u5c31\u5230\u624b\u7684\u7368\u5bb6\u65b0\u805e\u554a\uff01",
+			"actor": 303030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u6b38\uff0c\u6211\uff0c\u6211\u505a\u932f\u4e86\u4ec0\u9ebc\u55ce\uff1f\u9084\u6709\u9019\u4e00\u5730\u7684\u7d19\u9db4\u2026\u2026\u9019\uff0c\u9019\u5230\u5e95\u662f\u600e\u9ebc\u56de\u4e8b\uff1f",
+			"actor": 303070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5c0f\u5c0f\u7684\u9b27\u5287\u5c31\u9019\u6a23\u756b\u4e0a\u4e86\u53e5\u865f\uff0c\u63a5\u4e0b\u4f86\u2026\u8981\u8003\u616e\u7d04\u6703\u7684\u5730\u9ede\u4e86\u5462",
+			"blackBg": true,
+			"bgName": "bg_story_room"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "ZUBING7",
+	"once": true
 }

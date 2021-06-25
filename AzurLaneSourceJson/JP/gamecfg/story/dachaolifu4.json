@@ -1,544 +1,544 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "シンプルパーティー？\n\n<size=45>四 エンディングは定番の？</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "色々と苦労してそうな子もいるけど、なんだかんだでみんな楽しんでいるようでなによりだ",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "bsm-5",
-      "bgmDelay": 2,
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 403043,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "あはははは！！この完璧な主催っぷりには言葉も出ないぐらい恐れおののいたか？「ちび陛下」～",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 205011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "誰が「ちび陛下」よ！！そっちこそ駆逐艦と比べても大して背が高くないじゃない！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0.5,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 403043,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "なんですって！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        },
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 1,
-          "delay": 0.5,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "ものすごいレベルの低い口喧嘩を見た。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 403053,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "姉ちゃん！やめて！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 202123,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "……仲睦まじいことでベルファスト、感心いたしました",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 403043,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "expression": 4,
-      "say": "誰が！！",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "subActors": [
-        {
-          "actor": 205011,
-          "pos": {
-            "x": 1185
-          },
-          "expression": 1
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "二人",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "options": [
-        {
-          "content": "ポチッとな",
-          "flag": 1
-        }
-      ],
-      "say": "このままでは埒が明かないな……よし、この間作った「例のもの」を使おう",
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 403043,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "今何をした！？",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "subActors": [
-        {
-          "actor": 205011,
-          "pos": {
-            "x": 1185
-          },
-          "expression": 1
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "二人",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "soundeffect": "event:/battle/firework",
-      "side": 2,
-      "dir": 1,
-      "hidePaintObj": true,
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "say": "（ポン！）",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 403043,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "あ、あれは――",
-      "subActors": [
-        {
-          "actor": 205011,
-          "pos": {
-            "x": 1185
-          },
-          "expression": 3
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "二人",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 403043,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "…………ふ、ふふふ、ははははは！どうだ！下等生物が用意してくれた花火は？！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 205011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "ま、まあ…ロイヤルの花火には及ばないけど一応は…ってこれ夏祭りに作ったものじゃない！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 403043,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "ば、バレた！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "花火工房で作った花火を少し残してもらえてよかったな。後で明石の店に行ってお礼を言おう",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "soundeffect": "event:/battle/firework",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "花火を見物しながらのお酒、美味しいわね",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 403033,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 905011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "鉄血も結局これか…まあ、時にはこういう派手さも大事、か",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 408022,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "say": "うるさい……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 499011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "戦場でも美しい花火を見られるといいですね～",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 199011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "あははは…そ、それどういう意味っすか……？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 301143,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "翔鶴！はむはむ…見て！花火だぞ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "actor": 307051,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "もう、しゃべるのは食べ終わってからにしたほうがいいですよ？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_115"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "soundeffect": "event:/battle/firework",
-      "side": 2,
-      "say": "――みんなでパーティーを楽しんだ。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "blackBg": true,
-      "bgName": "star_level_bg_115"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "DACHAOLIFU4",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u30b7\u30f3\u30d7\u30eb\u30d1\u30fc\u30c6\u30a3\u30fc\uff1f\n\n<size=45>\u56db \u30a8\u30f3\u30c7\u30a3\u30f3\u30b0\u306f\u5b9a\u756a\u306e\uff1f</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u8272\u3005\u3068\u82e6\u52b4\u3057\u3066\u305d\u3046\u306a\u5b50\u3082\u3044\u308b\u3051\u3069\u3001\u306a\u3093\u3060\u304b\u3093\u3060\u3067\u307f\u3093\u306a\u697d\u3057\u3093\u3067\u3044\u308b\u3088\u3046\u3067\u306a\u306b\u3088\u308a\u3060",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "bsm-5",
+			"bgmDelay": 2,
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 403043,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3042\u306f\u306f\u306f\u306f\uff01\uff01\u3053\u306e\u5b8c\u74a7\u306a\u4e3b\u50ac\u3063\u3077\u308a\u306b\u306f\u8a00\u8449\u3082\u51fa\u306a\u3044\u3050\u3089\u3044\u6050\u308c\u304a\u306e\u306e\u3044\u305f\u304b\uff1f\u300c\u3061\u3073\u965b\u4e0b\u300d\uff5e",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 205011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u8ab0\u304c\u300c\u3061\u3073\u965b\u4e0b\u300d\u3088\uff01\uff01\u305d\u3063\u3061\u3053\u305d\u99c6\u9010\u8266\u3068\u6bd4\u3079\u3066\u3082\u5927\u3057\u3066\u80cc\u304c\u9ad8\u304f\u306a\u3044\u3058\u3083\u306a\u3044\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0.5,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 403043,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u306a\u3093\u3067\u3059\u3063\u3066\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				},
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 1,
+					"delay": 0.5,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u3082\u306e\u3059\u3054\u3044\u30ec\u30d9\u30eb\u306e\u4f4e\u3044\u53e3\u55a7\u5629\u3092\u898b\u305f\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 403053,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u59c9\u3061\u3083\u3093\uff01\u3084\u3081\u3066\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 202123,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u2026\u2026\u4ef2\u7766\u307e\u3058\u3044\u3053\u3068\u3067\u30d9\u30eb\u30d5\u30a1\u30b9\u30c8\u3001\u611f\u5fc3\u3044\u305f\u3057\u307e\u3057\u305f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 403043,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"expression": 4,
+			"say": "\u8ab0\u304c\uff01\uff01",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"subActors": [
+				{
+					"actor": 205011,
+					"pos": {
+						"x": 1185
+					},
+					"expression": 1
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u4e8c\u4eba",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"options": [
+				{
+					"content": "\u30dd\u30c1\u30c3\u3068\u306a",
+					"flag": 1
+				}
+			],
+			"say": "\u3053\u306e\u307e\u307e\u3067\u306f\u57d2\u304c\u660e\u304b\u306a\u3044\u306a\u2026\u2026\u3088\u3057\u3001\u3053\u306e\u9593\u4f5c\u3063\u305f\u300c\u4f8b\u306e\u3082\u306e\u300d\u3092\u4f7f\u304a\u3046",
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 403043,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u4eca\u4f55\u3092\u3057\u305f\uff01\uff1f",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"subActors": [
+				{
+					"actor": 205011,
+					"pos": {
+						"x": 1185
+					},
+					"expression": 1
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u4e8c\u4eba",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"soundeffect": "event:/battle/firework",
+			"side": 2,
+			"dir": 1,
+			"hidePaintObj": true,
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"say": "\uff08\u30dd\u30f3\uff01\uff09",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 403043,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3042\u3001\u3042\u308c\u306f\u2015\u2015",
+			"subActors": [
+				{
+					"actor": 205011,
+					"pos": {
+						"x": 1185
+					},
+					"expression": 3
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u4e8c\u4eba",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 403043,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u2026\u2026\u2026\u2026\u3075\u3001\u3075\u3075\u3075\u3001\u306f\u306f\u306f\u306f\u306f\uff01\u3069\u3046\u3060\uff01\u4e0b\u7b49\u751f\u7269\u304c\u7528\u610f\u3057\u3066\u304f\u308c\u305f\u82b1\u706b\u306f\uff1f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 205011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u307e\u3001\u307e\u3042\u2026\u30ed\u30a4\u30e4\u30eb\u306e\u82b1\u706b\u306b\u306f\u53ca\u3070\u306a\u3044\u3051\u3069\u4e00\u5fdc\u306f\u2026\u3063\u3066\u3053\u308c\u590f\u796d\u308a\u306b\u4f5c\u3063\u305f\u3082\u306e\u3058\u3083\u306a\u3044\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 403043,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u3070\u3001\u30d0\u30ec\u305f\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u82b1\u706b\u5de5\u623f\u3067\u4f5c\u3063\u305f\u82b1\u706b\u3092\u5c11\u3057\u6b8b\u3057\u3066\u3082\u3089\u3048\u3066\u3088\u304b\u3063\u305f\u306a\u3002\u5f8c\u3067\u660e\u77f3\u306e\u5e97\u306b\u884c\u3063\u3066\u304a\u793c\u3092\u8a00\u304a\u3046",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"soundeffect": "event:/battle/firework",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u82b1\u706b\u3092\u898b\u7269\u3057\u306a\u304c\u3089\u306e\u304a\u9152\u3001\u7f8e\u5473\u3057\u3044\u308f\u306d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 403033,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 905011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u9244\u8840\u3082\u7d50\u5c40\u3053\u308c\u304b\u2026\u307e\u3042\u3001\u6642\u306b\u306f\u3053\u3046\u3044\u3046\u6d3e\u624b\u3055\u3082\u5927\u4e8b\u3001\u304b",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 408022,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"say": "\u3046\u308b\u3055\u3044\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 499011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u6226\u5834\u3067\u3082\u7f8e\u3057\u3044\u82b1\u706b\u3092\u898b\u3089\u308c\u308b\u3068\u3044\u3044\u3067\u3059\u306d\uff5e",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 199011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3042\u306f\u306f\u306f\u2026\u305d\u3001\u305d\u308c\u3069\u3046\u3044\u3046\u610f\u5473\u3063\u3059\u304b\u2026\u2026\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 301143,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\u7fd4\u9db4\uff01\u306f\u3080\u306f\u3080\u2026\u898b\u3066\uff01\u82b1\u706b\u3060\u305e\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"actor": 307051,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u3082\u3046\u3001\u3057\u3083\u3079\u308b\u306e\u306f\u98df\u3079\u7d42\u308f\u3063\u3066\u304b\u3089\u306b\u3057\u305f\u307b\u3046\u304c\u3044\u3044\u3067\u3059\u3088\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_115"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"soundeffect": "event:/battle/firework",
+			"side": 2,
+			"say": "\u2015\u2015\u307f\u3093\u306a\u3067\u30d1\u30fc\u30c6\u30a3\u30fc\u3092\u697d\u3057\u3093\u3060\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"blackBg": true,
+			"bgName": "star_level_bg_115"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "DACHAOLIFU4",
+	"once": true
 }

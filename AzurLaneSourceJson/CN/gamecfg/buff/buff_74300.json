@@ -1,37 +1,37 @@
 {
-  "picture": "",
-  "id": 74300,
-  "desc": "战斗对象对我方舰队造成X次伤害后，下一次伤害会导致我方舰队速度降低X%，持续Y秒",
-  "color": "red",
-  "last_effect": "",
-  "time": 0,
-  "icon": 74300,
-  "effect_list": [
-    {
-      "trigger": [
-        "onBulletHit"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "buff_id": 74302,
-        "index": [
-          1
-        ],
-        "rant": 10000
-      }
-    },
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddTag",
-      "arg_list": {
-        "tag": "A1"
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "干涉"
+	"picture": "",
+	"id": 74300,
+	"desc": "\u6218\u6597\u5bf9\u8c61\u5bf9\u6211\u65b9\u8230\u961f\u9020\u6210X\u6b21\u4f24\u5bb3\u540e\uff0c\u4e0b\u4e00\u6b21\u4f24\u5bb3\u4f1a\u5bfc\u81f4\u6211\u65b9\u8230\u961f\u901f\u5ea6\u964d\u4f4eX%\uff0c\u6301\u7eedY\u79d2",
+	"color": "red",
+	"last_effect": "",
+	"time": 0,
+	"icon": 74300,
+	"effect_list": [
+		{
+			"trigger": [
+				"onBulletHit"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"buff_id": 74302,
+				"index": [
+					1
+				],
+				"rant": 10000
+			}
+		},
+		{
+			"trigger": [
+				"onAttach",
+				"onRemove"
+			],
+			"type": "BattleBuffAddTag",
+			"arg_list": {
+				"tag": "A1"
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u5e72\u6d89"
 }

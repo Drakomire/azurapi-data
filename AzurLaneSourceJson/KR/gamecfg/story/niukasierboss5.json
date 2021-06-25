@@ -1,461 +1,461 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "싸워라! 로열 메이드대\n\n<size=45>연습전 종료</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "모항",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "합동 연습이 무사히 종료되고, 모두 모항에 돌아갔다.",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "역시 주인님의 함대네요. 저희 로열 메이드단의 패배입니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": -45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 1,
-          "delay": 0.2,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 205010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "뭐 어때! 지긴 했지만 로열 메이드대의 실력을 모항의 모두에게 보여줬으니…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "잘했어, 벨파!",
-      "actor": 205010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "송구스럽습니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": -45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 1,
-          "delay": 0.2,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "그럼, 뉴캐슬은 이제 어떡할래?",
-      "actor": 205010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "원래 이번에만 도와주기로 했었지만……",
-      "actor": 205010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "곰곰이 생각해보면 역시 당신은 메이드대와 함께 있는 편이 제일 잘 어울려!",
-      "actor": 205010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "저는 어디에 있어도 상관없습니다만……",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "확실히 메이드대 여러분이 여기서 즐겁게 지내는 모습을 보니, 저도 이 모항 공기를 마시며 지내고 싶어져서 말이죠.",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "성은이 망극하옵니다, 폐하.",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "뉴캐슬은 몸을 돌려 메이드대쪽으로 향했다.",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "뉴캐슬, 지금부터 메이드로서, 로열 메이드대에 복귀하도록 하겠습니다.",
-      "actor": 202190,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202110,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "say": "잘 됐어~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "Yeah~!",
-      "actor": 203030,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 203040,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "expression": 9,
-      "say": "그치만 이제 농땡이 부리긴 더 어려워지겠네요…우으……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "가장 좋은 결과로군요.",
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "폐하, 무례한 제안이옵니다만, 문제가 되지 않는다면 합동 연습전의 무사 종료와,",
-      "actor": 202120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "뉴캐슬씨의 메이드대 복귀 기념으로, 축하 파티를 준비하여도 되겠습니까?",
-      "actor": 202120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "좋아! 그렇게 하도록 해!",
-      "actor": 205010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "알겠습니다. 그럼, 로열 메이드대 여러분, 30분 후 로열 네이비 숙소의 주방으로 모여주십시오.",
-      "actor": 202120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "뒤에서 열심히 준비해준 꼬마 벨파스트도 불러주시고, 다음은 '메이드의 업무' 를 하도록 하지요.",
-      "actor": 202120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "……그럼 여러분, 먼저 실례하겠습니다.",
-      "actor": 202190,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "앞으로도 로열 메이드대의 일원으로서, 잘 부탁드립니다.",
-      "actor": 202190,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "뉴캐슬은 이쪽을 향해서도 우아하게 인사를 올렸다.",
-      "blackBg": true,
-      "bgName": "bg_story_outdoor"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "NIUKASIERBOSS5",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\uc2f8\uc6cc\ub77c! \ub85c\uc5f4 \uba54\uc774\ub4dc\ub300\n\n<size=45>\uc5f0\uc2b5\uc804 \uc885\ub8cc</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\ubaa8\ud56d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ud569\ub3d9 \uc5f0\uc2b5\uc774 \ubb34\uc0ac\ud788 \uc885\ub8cc\ub418\uace0, \ubaa8\ub450 \ubaa8\ud56d\uc5d0 \ub3cc\uc544\uac14\ub2e4.",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc5ed\uc2dc \uc8fc\uc778\ub2d8\uc758 \ud568\ub300\ub124\uc694. \uc800\ud76c \ub85c\uc5f4 \uba54\uc774\ub4dc\ub2e8\uc758 \ud328\ubc30\uc785\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": -45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 1,
+					"delay": 0.2,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 205010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\ubb50 \uc5b4\ub54c! \uc9c0\uae34 \ud588\uc9c0\ub9cc \ub85c\uc5f4 \uba54\uc774\ub4dc\ub300\uc758 \uc2e4\ub825\uc744 \ubaa8\ud56d\uc758 \ubaa8\ub450\uc5d0\uac8c \ubcf4\uc5ec\uc92c\uc73c\ub2c8\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc798\ud588\uc5b4, \ubca8\ud30c!",
+			"actor": 205010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc1a1\uad6c\uc2a4\ub7fd\uc2b5\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": -45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 1,
+					"delay": 0.2,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uadf8\ub7fc, \ub274\uce90\uc2ac\uc740 \uc774\uc81c \uc5b4\ub5a1\ud560\ub798?",
+			"actor": 205010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc6d0\ub798 \uc774\ubc88\uc5d0\ub9cc \ub3c4\uc640\uc8fc\uae30\ub85c \ud588\uc5c8\uc9c0\ub9cc\u2026\u2026",
+			"actor": 205010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uacf0\uacf0\uc774 \uc0dd\uac01\ud574\ubcf4\uba74 \uc5ed\uc2dc \ub2f9\uc2e0\uc740 \uba54\uc774\ub4dc\ub300\uc640 \ud568\uaed8 \uc788\ub294 \ud3b8\uc774 \uc81c\uc77c \uc798 \uc5b4\uc6b8\ub824!",
+			"actor": 205010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc800\ub294 \uc5b4\ub514\uc5d0 \uc788\uc5b4\ub3c4 \uc0c1\uad00\uc5c6\uc2b5\ub2c8\ub2e4\ub9cc\u2026\u2026",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\ud655\uc2e4\ud788 \uba54\uc774\ub4dc\ub300 \uc5ec\ub7ec\ubd84\uc774 \uc5ec\uae30\uc11c \uc990\uac81\uac8c \uc9c0\ub0b4\ub294 \ubaa8\uc2b5\uc744 \ubcf4\ub2c8, \uc800\ub3c4 \uc774 \ubaa8\ud56d \uacf5\uae30\ub97c \ub9c8\uc2dc\uba70 \uc9c0\ub0b4\uace0 \uc2f6\uc5b4\uc838\uc11c \ub9d0\uc774\uc8e0.",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc131\uc740\uc774 \ub9dd\uadf9\ud558\uc635\ub2c8\ub2e4, \ud3d0\ud558.",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub274\uce90\uc2ac\uc740 \ubab8\uc744 \ub3cc\ub824 \uba54\uc774\ub4dc\ub300\ucabd\uc73c\ub85c \ud5a5\ud588\ub2e4.",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\ub274\uce90\uc2ac, \uc9c0\uae08\ubd80\ud130 \uba54\uc774\ub4dc\ub85c\uc11c, \ub85c\uc5f4 \uba54\uc774\ub4dc\ub300\uc5d0 \ubcf5\uadc0\ud558\ub3c4\ub85d \ud558\uaca0\uc2b5\ub2c8\ub2e4.",
+			"actor": 202190,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202110,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"say": "\uc798 \ub410\uc5b4~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "Yeah~!",
+			"actor": 203030,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 203040,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"expression": 9,
+			"say": "\uadf8\uce58\ub9cc \uc774\uc81c \ub18d\ub561\uc774 \ubd80\ub9ac\uae34 \ub354 \uc5b4\ub824\uc6cc\uc9c0\uaca0\ub124\uc694\u2026\uc6b0\uc73c\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uac00\uc7a5 \uc88b\uc740 \uacb0\uacfc\ub85c\uad70\uc694.",
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\ud3d0\ud558, \ubb34\ub840\ud55c \uc81c\uc548\uc774\uc635\ub2c8\ub2e4\ub9cc, \ubb38\uc81c\uac00 \ub418\uc9c0 \uc54a\ub294\ub2e4\uba74 \ud569\ub3d9 \uc5f0\uc2b5\uc804\uc758 \ubb34\uc0ac \uc885\ub8cc\uc640,",
+			"actor": 202120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\ub274\uce90\uc2ac\uc528\uc758 \uba54\uc774\ub4dc\ub300 \ubcf5\uadc0 \uae30\ub150\uc73c\ub85c, \ucd95\ud558 \ud30c\ud2f0\ub97c \uc900\ube44\ud558\uc5ec\ub3c4 \ub418\uaca0\uc2b5\ub2c8\uae4c?",
+			"actor": 202120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc88b\uc544! \uadf8\ub807\uac8c \ud558\ub3c4\ub85d \ud574!",
+			"actor": 205010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc54c\uaca0\uc2b5\ub2c8\ub2e4. \uadf8\ub7fc, \ub85c\uc5f4 \uba54\uc774\ub4dc\ub300 \uc5ec\ub7ec\ubd84, 30\ubd84 \ud6c4 \ub85c\uc5f4 \ub124\uc774\ube44 \uc219\uc18c\uc758 \uc8fc\ubc29\uc73c\ub85c \ubaa8\uc5ec\uc8fc\uc2ed\uc2dc\uc624.",
+			"actor": 202120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\ub4a4\uc5d0\uc11c \uc5f4\uc2ec\ud788 \uc900\ube44\ud574\uc900 \uaf2c\ub9c8 \ubca8\ud30c\uc2a4\ud2b8\ub3c4 \ubd88\ub7ec\uc8fc\uc2dc\uace0, \ub2e4\uc74c\uc740 '\uba54\uc774\ub4dc\uc758 \uc5c5\ubb34' \ub97c \ud558\ub3c4\ub85d \ud558\uc9c0\uc694.",
+			"actor": 202120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u2026\u2026\uadf8\ub7fc \uc5ec\ub7ec\ubd84, \uba3c\uc800 \uc2e4\ub840\ud558\uaca0\uc2b5\ub2c8\ub2e4.",
+			"actor": 202190,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc55e\uc73c\ub85c\ub3c4 \ub85c\uc5f4 \uba54\uc774\ub4dc\ub300\uc758 \uc77c\uc6d0\uc73c\ub85c\uc11c, \uc798 \ubd80\ud0c1\ub4dc\ub9bd\ub2c8\ub2e4.",
+			"actor": 202190,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub274\uce90\uc2ac\uc740 \uc774\ucabd\uc744 \ud5a5\ud574\uc11c\ub3c4 \uc6b0\uc544\ud558\uac8c \uc778\uc0ac\ub97c \uc62c\ub838\ub2e4.",
+			"blackBg": true,
+			"bgName": "bg_story_outdoor"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "NIUKASIERBOSS5",
+	"once": true
 }

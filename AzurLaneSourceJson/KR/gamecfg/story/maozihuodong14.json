@@ -1,377 +1,377 @@
 {
-  "continueBgm": true,
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "dir": 1,
-      "side": 2,
-      "say": "세이렌 함대에게서 벗어나기 위한 전투는 계속 진행 중이다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "bgm-cccp2",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_6"
-    },
-    {
-      "actor": 702020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "아아아—— 귀찮아. 윽… 못 버티겠어!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_6"
-    },
-    {
-      "actor": 702020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "아브로라! 뭔가 돌파할 방법은 없는 거야?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_6"
-    },
-    {
-      "say": "조금만 더 버텨요. 주력 함대가 곧 도착한다는 소식이 도착했어요.",
-      "actor": 702010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_6"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "(도착한다는 소식? 통신기는 분명… 대체 어떻게 들어온 소식이지…)",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_6"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "(그리고 주력 함대라니…? 설마 새러토가 일행이 벌써 벽을 부순건가…?)",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_6"
-    },
-    {
-      "actor": 702020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "알, 알겠어! 하지만 버티는 것도 한계가 있다고! 이제 곧——아!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_6"
-    },
-    {
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "————！！！！！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "soundeffect": "event:/battle/boom2",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_6"
-    },
-    {
-      "actor": 702010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "후후, 드디어 왔군요.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "bgm-cccp",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_6"
-    },
-    {
-      "say": "폭설 속에서 하나의 점이 나타났다—— 눈보다 더 하얗고, 얼음보다 더 차가운 점이었다. 전장이 한 순간에 조용해졌다——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "dur": 0.2,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.2,
-        "dur": 0.2
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "처음에는 점이었지만 선이 되었다. 구축함, 순양함, 전함…",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "눈 앞에 펼쳐진 것은 폭풍우를 뚫고 휘몰아치는 강철의 파도였다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "그 파도 속에서 보이는 수많은 작은 그림자들은, 강철 괴물보다도 더 큰 압박감을 주고 있었다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "새햐안 군모, 새하얀 코트, 그리고…",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "얼음의 바다에서 건져올린 운철로 만든 것 까만 장비들.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "공기 중에 차가운 푸른 화염을 흩뿌리며 강철의 파도를 이끌고 있었다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "options": [
-        {
-          "content": "이, 이건……?!",
-          "flag": 1
-        }
-      ],
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "그들은 앞을 가로막은 적들을 가루로 만들며 전장의 중심으로 향하고 있었다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "…………",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "눈 앞에 나타난 것은 봉쇄를 뚫고 온 이글 유니온의 함대가 아니었다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "극지에서 오랜 시간동안 세이렌을 상대한, 노스 유니온의 주력 함대였다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_cccp_3"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "MAOZIHUODONG14",
-  "once": true
+	"continueBgm": true,
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"dir": 1,
+			"side": 2,
+			"say": "\uc138\uc774\ub80c \ud568\ub300\uc5d0\uac8c\uc11c \ubc97\uc5b4\ub098\uae30 \uc704\ud55c \uc804\ud22c\ub294 \uacc4\uc18d \uc9c4\ud589 \uc911\uc774\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "bgm-cccp2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_6"
+		},
+		{
+			"actor": 702020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\uc544\uc544\uc544\u2014\u2014 \uadc0\ucc2e\uc544. \uc73d\u2026 \ubabb \ubc84\ud2f0\uaca0\uc5b4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_6"
+		},
+		{
+			"actor": 702020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\uc544\ube0c\ub85c\ub77c! \ubb54\uac00 \ub3cc\ud30c\ud560 \ubc29\ubc95\uc740 \uc5c6\ub294 \uac70\uc57c?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_6"
+		},
+		{
+			"say": "\uc870\uae08\ub9cc \ub354 \ubc84\ud168\uc694. \uc8fc\ub825 \ud568\ub300\uac00 \uace7 \ub3c4\ucc29\ud55c\ub2e4\ub294 \uc18c\uc2dd\uc774 \ub3c4\ucc29\ud588\uc5b4\uc694.",
+			"actor": 702010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_6"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "(\ub3c4\ucc29\ud55c\ub2e4\ub294 \uc18c\uc2dd? \ud1b5\uc2e0\uae30\ub294 \ubd84\uba85\u2026 \ub300\uccb4 \uc5b4\ub5bb\uac8c \ub4e4\uc5b4\uc628 \uc18c\uc2dd\uc774\uc9c0\u2026)",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_6"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "(\uadf8\ub9ac\uace0 \uc8fc\ub825 \ud568\ub300\ub77c\ub2c8\u2026? \uc124\ub9c8 \uc0c8\ub7ec\ud1a0\uac00 \uc77c\ud589\uc774 \ubc8c\uc368 \ubcbd\uc744 \ubd80\uc21c\uac74\uac00\u2026?)",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_6"
+		},
+		{
+			"actor": 702020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\uc54c, \uc54c\uaca0\uc5b4! \ud558\uc9c0\ub9cc \ubc84\ud2f0\ub294 \uac83\ub3c4 \ud55c\uacc4\uac00 \uc788\ub2e4\uace0! \uc774\uc81c \uace7\u2014\u2014\uc544!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_6"
+		},
+		{
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u2014\u2014\u2014\u2014\uff01\uff01\uff01\uff01\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"soundeffect": "event:/battle/boom2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_6"
+		},
+		{
+			"actor": 702010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\ud6c4\ud6c4, \ub4dc\ub514\uc5b4 \uc654\uad70\uc694.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "bgm-cccp",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_6"
+		},
+		{
+			"say": "\ud3ed\uc124 \uc18d\uc5d0\uc11c \ud558\ub098\uc758 \uc810\uc774 \ub098\ud0c0\ub0ac\ub2e4\u2014\u2014 \ub208\ubcf4\ub2e4 \ub354 \ud558\uc597\uace0, \uc5bc\uc74c\ubcf4\ub2e4 \ub354 \ucc28\uac00\uc6b4 \uc810\uc774\uc5c8\ub2e4. \uc804\uc7a5\uc774 \ud55c \uc21c\uac04\uc5d0 \uc870\uc6a9\ud574\uc84c\ub2e4\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"dur": 0.2,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.2,
+				"dur": 0.2
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ucc98\uc74c\uc5d0\ub294 \uc810\uc774\uc5c8\uc9c0\ub9cc \uc120\uc774 \ub418\uc5c8\ub2e4. \uad6c\ucd95\ud568, \uc21c\uc591\ud568, \uc804\ud568\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub208 \uc55e\uc5d0 \ud3bc\uccd0\uc9c4 \uac83\uc740 \ud3ed\ud48d\uc6b0\ub97c \ub6ab\uace0 \ud718\ubab0\uc544\uce58\ub294 \uac15\ucca0\uc758 \ud30c\ub3c4\uc600\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uadf8 \ud30c\ub3c4 \uc18d\uc5d0\uc11c \ubcf4\uc774\ub294 \uc218\ub9ce\uc740 \uc791\uc740 \uadf8\ub9bc\uc790\ub4e4\uc740, \uac15\ucca0 \uad34\ubb3c\ubcf4\ub2e4\ub3c4 \ub354 \ud070 \uc555\ubc15\uac10\uc744 \uc8fc\uace0 \uc788\uc5c8\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc0c8\ud590\uc548 \uad70\ubaa8, \uc0c8\ud558\uc580 \ucf54\ud2b8, \uadf8\ub9ac\uace0\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc5bc\uc74c\uc758 \ubc14\ub2e4\uc5d0\uc11c \uac74\uc838\uc62c\ub9b0 \uc6b4\ucca0\ub85c \ub9cc\ub4e0 \uac83 \uae4c\ub9cc \uc7a5\ube44\ub4e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uacf5\uae30 \uc911\uc5d0 \ucc28\uac00\uc6b4 \ud478\ub978 \ud654\uc5fc\uc744 \ud769\ubfcc\ub9ac\uba70 \uac15\ucca0\uc758 \ud30c\ub3c4\ub97c \uc774\ub04c\uace0 \uc788\uc5c8\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"options": [
+				{
+					"content": "\uc774, \uc774\uac74\u2026\u2026?!",
+					"flag": 1
+				}
+			],
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uadf8\ub4e4\uc740 \uc55e\uc744 \uac00\ub85c\ub9c9\uc740 \uc801\ub4e4\uc744 \uac00\ub8e8\ub85c \ub9cc\ub4e4\uba70 \uc804\uc7a5\uc758 \uc911\uc2ec\uc73c\ub85c \ud5a5\ud558\uace0 \uc788\uc5c8\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\u2026\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub208 \uc55e\uc5d0 \ub098\ud0c0\ub09c \uac83\uc740 \ubd09\uc1c4\ub97c \ub6ab\uace0 \uc628 \uc774\uae00 \uc720\ub2c8\uc628\uc758 \ud568\ub300\uac00 \uc544\ub2c8\uc5c8\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uadf9\uc9c0\uc5d0\uc11c \uc624\ub79c \uc2dc\uac04\ub3d9\uc548 \uc138\uc774\ub80c\uc744 \uc0c1\ub300\ud55c, \ub178\uc2a4 \uc720\ub2c8\uc628\uc758 \uc8fc\ub825 \ud568\ub300\uc600\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_cccp_3"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "MAOZIHUODONG14",
+	"once": true
 }

@@ -1,405 +1,405 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "서브마린 트랩!\n\n<size=45>집무실의 올가미</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "모항 - 집무실",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "문을 연다.",
-          "flag": 1
-        }
-      ],
-      "say": "오늘도 여느 때와 같이, 아침 준비를 하고 집무실로 발을 옮겼는데……",
-      "bgName": "bg_story_task"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "dur": 0.3,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 0.3,
-        "dur": 0.3
-      },
-      "blackBg": true,
-      "say": "팡! 드륵드륵드륵드륵…쾅! 따닥따닥따닥따닥……"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "주변을 관찰한다.",
-          "flag": 1
-        }
-      ],
-      "say": "집무실 안쪽에서 뭔가 소리가 들렸다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "주의 깊게 살펴보았지만, 아무런 이상도 발견할 수 없었다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "치, 침착하자, 어제 일어났던 일을 생각하는 거다……",
-      "bgName": "bg_story_task"
-    },
-    {
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "actor": 108020,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.4,
-        "dur": 0.2
-      },
-      "say": "맞아 맞아! 지휘관의 집무실에~아주 살~짝, 서프라이즈를 준비해뒀지!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.2,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "expression": 3,
-      "say": "헤헤헤~! 기대해 줘!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.2,
-        "black": true
-      },
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": false
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.4,
-        "dur": 0.2
-      },
-      "say": "대체 무슨 서프라이즈가……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgName": "bg_story_task"
-    },
-    {
-      "soundeffect": "event:/ui/boat_drag",
-      "side": 2,
-      "say": "(툭)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "줍는다.",
-          "flag": 1
-        }
-      ],
-      "say": "선반에 놔두었던 인형이 떨어졌다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "인형을 줍기 위해 쭈그리고 앉았다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……잠깐! 이건 혹시……피, 피타고라 스위치의……",
-      "bgName": "bg_story_task"
-    },
-    {
-      "soundeffect": "event:/battle/hit",
-      "side": 2,
-      "say": "(솨아~!!)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ]
-        ]
-      },
-      "dir": 1,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "머리 위에서 물이 든 양동이를 뒤집어써 버려, 물에 빠진 생쥐 꼴이 되었다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "지휘관, 굿모닝~!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "모포와 대걸레를 든 알바코어가 내 뒤에서 모습을 드러냈다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "이름하여, '지휘관을 일찍 일어나게 하는 스위치'! 어때? 꽤 효과 있지? 헤헤헤~~",
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "expression": 3,
-      "say": "장치의 타이밍과 위치, 각도는 전부 철저히 계산했으니 지휘관의 머리 말고 다른 데를 적실 염려는 No!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "역시 이 녀석 짓이였나아아아!!!!",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "큭, 어떻게든 이 녀석의 약점을 하나 둘 파악하지 않으면…!",
-      "blackBg": true,
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "DAQINGHUAYU1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\uc11c\ube0c\ub9c8\ub9b0 \ud2b8\ub7a9!\n\n<size=45>\uc9d1\ubb34\uc2e4\uc758 \uc62c\uac00\ubbf8</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\ubaa8\ud56d - \uc9d1\ubb34\uc2e4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\ubb38\uc744 \uc5f0\ub2e4.",
+					"flag": 1
+				}
+			],
+			"say": "\uc624\ub298\ub3c4 \uc5ec\ub290 \ub54c\uc640 \uac19\uc774, \uc544\uce68 \uc900\ube44\ub97c \ud558\uace0 \uc9d1\ubb34\uc2e4\ub85c \ubc1c\uc744 \uc62e\uacbc\ub294\ub370\u2026\u2026",
+			"bgName": "bg_story_task"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"dur": 0.3,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 0.3,
+				"dur": 0.3
+			},
+			"blackBg": true,
+			"say": "\ud321! \ub4dc\ub975\ub4dc\ub975\ub4dc\ub975\ub4dc\ub975\u2026\ucf85! \ub530\ub2e5\ub530\ub2e5\ub530\ub2e5\ub530\ub2e5\u2026\u2026"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\uc8fc\ubcc0\uc744 \uad00\ucc30\ud55c\ub2e4.",
+					"flag": 1
+				}
+			],
+			"say": "\uc9d1\ubb34\uc2e4 \uc548\ucabd\uc5d0\uc11c \ubb54\uac00 \uc18c\ub9ac\uac00 \ub4e4\ub838\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc8fc\uc758 \uae4a\uac8c \uc0b4\ud3b4\ubcf4\uc558\uc9c0\ub9cc, \uc544\ubb34\ub7f0 \uc774\uc0c1\ub3c4 \ubc1c\uacac\ud560 \uc218 \uc5c6\uc5c8\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uce58, \uce68\ucc29\ud558\uc790, \uc5b4\uc81c \uc77c\uc5b4\ub0ac\ub358 \uc77c\uc744 \uc0dd\uac01\ud558\ub294 \uac70\ub2e4\u2026\u2026",
+			"bgName": "bg_story_task"
+		},
+		{
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"actor": 108020,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.4,
+				"dur": 0.2
+			},
+			"say": "\ub9de\uc544 \ub9de\uc544! \uc9c0\ud718\uad00\uc758 \uc9d1\ubb34\uc2e4\uc5d0~\uc544\uc8fc \uc0b4~\uc9dd, \uc11c\ud504\ub77c\uc774\uc988\ub97c \uc900\ube44\ud574\ub480\uc9c0!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.2,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"expression": 3,
+			"say": "\ud5e4\ud5e4\ud5e4~! \uae30\ub300\ud574 \uc918!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.2,
+				"black": true
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.4,
+				"dur": 0.2
+			},
+			"say": "\ub300\uccb4 \ubb34\uc2a8 \uc11c\ud504\ub77c\uc774\uc988\uac00\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgName": "bg_story_task"
+		},
+		{
+			"soundeffect": "event:/ui/boat_drag",
+			"side": 2,
+			"say": "(\ud22d)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\uc90d\ub294\ub2e4.",
+					"flag": 1
+				}
+			],
+			"say": "\uc120\ubc18\uc5d0 \ub194\ub450\uc5c8\ub358 \uc778\ud615\uc774 \ub5a8\uc5b4\uc84c\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc778\ud615\uc744 \uc90d\uae30 \uc704\ud574 \ucb48\uadf8\ub9ac\uace0 \uc549\uc558\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\uc7a0\uae50! \uc774\uac74 \ud639\uc2dc\u2026\u2026\ud53c, \ud53c\ud0c0\uace0\ub77c \uc2a4\uc704\uce58\uc758\u2026\u2026",
+			"bgName": "bg_story_task"
+		},
+		{
+			"soundeffect": "event:/battle/hit",
+			"side": 2,
+			"say": "(\uc1a8\uc544~!!)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					]
+				]
+			},
+			"dir": 1,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uba38\ub9ac \uc704\uc5d0\uc11c \ubb3c\uc774 \ub4e0 \uc591\ub3d9\uc774\ub97c \ub4a4\uc9d1\uc5b4\uc368 \ubc84\ub824, \ubb3c\uc5d0 \ube60\uc9c4 \uc0dd\uc950 \uaf34\uc774 \ub418\uc5c8\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc9c0\ud718\uad00, \uad7f\ubaa8\ub2dd~!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ubaa8\ud3ec\uc640 \ub300\uac78\ub808\ub97c \ub4e0 \uc54c\ubc14\ucf54\uc5b4\uac00 \ub0b4 \ub4a4\uc5d0\uc11c \ubaa8\uc2b5\uc744 \ub4dc\ub7ec\ub0c8\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\uc774\ub984\ud558\uc5ec, '\uc9c0\ud718\uad00\uc744 \uc77c\ucc0d \uc77c\uc5b4\ub098\uac8c \ud558\ub294 \uc2a4\uc704\uce58'! \uc5b4\ub54c? \uaf64 \ud6a8\uacfc \uc788\uc9c0? \ud5e4\ud5e4\ud5e4~~",
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"expression": 3,
+			"say": "\uc7a5\uce58\uc758 \ud0c0\uc774\ubc0d\uacfc \uc704\uce58, \uac01\ub3c4\ub294 \uc804\ubd80 \ucca0\uc800\ud788 \uacc4\uc0b0\ud588\uc73c\ub2c8 \uc9c0\ud718\uad00\uc758 \uba38\ub9ac \ub9d0\uace0 \ub2e4\ub978 \ub370\ub97c \uc801\uc2e4 \uc5fc\ub824\ub294 No!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc5ed\uc2dc \uc774 \ub140\uc11d \uc9d3\uc774\uc600\ub098\uc544\uc544\uc544!!!!",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ud06d, \uc5b4\ub5bb\uac8c\ub4e0 \uc774 \ub140\uc11d\uc758 \uc57d\uc810\uc744 \ud558\ub098 \ub458 \ud30c\uc545\ud558\uc9c0 \uc54a\uc73c\uba74\u2026!",
+			"blackBg": true,
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "DAQINGHUAYU1",
+	"once": true
 }

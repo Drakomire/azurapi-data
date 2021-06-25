@@ -1,101 +1,101 @@
 {
-  "id": "WorldG125",
-  "events": [
-    {
-      "alpha": 0.3,
-      "style": {
-        "char": "1",
-        "posY": 211.02,
-        "dir": 1,
-        "ui": {
-          "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel"
-        },
-        "text": "ナビゲーションが利用可能になりました。エリアの概況はここで表示されます。",
-        "posX": 328.22,
-        "mode": 2
-      }
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 211.02,
-        "dir": -1,
-        "text": "エリアでの艦隊の戦闘回数がここで表示されるわ！スキル発動の参考・確認にでも活用して！",
-        "posX": 328.22,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "sizeDeltaPlus": [
-            40,
-            20
-          ],
-          "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_defeat"
-        }
-      }
-    },
-    {
-      "alpha": 0.3,
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": -43.7,
-          "posX": 56.19,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_order",
-        "triggerType": [
-          1
-        ]
-      }
-    },
-    {
-      "stories": [
-        "GWORLD103C"
-      ],
-      "delay": 1.5,
-      "code": [
-        "playStory"
-      ]
-    },
-    {
-      "alpha": 0.3,
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": 0,
-          "posX": 0,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/fov/type_enable",
-        "triggerType": [
-          1
-        ]
-      }
-    },
-    {
-      "alpha": 0.3,
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": 0,
-          "posX": 0,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "OverlayCamera/Overlay/UIMain/Msgbox/window/button_container/btn_confirm",
-        "triggerType": [
-          1
-        ]
-      }
-    }
-  ]
+	"id": "WorldG125",
+	"events": [
+		{
+			"alpha": 0.3,
+			"style": {
+				"char": "1",
+				"posY": 211.02,
+				"dir": 1,
+				"ui": {
+					"path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel"
+				},
+				"text": "\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3\u304c\u5229\u7528\u53ef\u80fd\u306b\u306a\u308a\u307e\u3057\u305f\u3002\u30a8\u30ea\u30a2\u306e\u6982\u6cc1\u306f\u3053\u3053\u3067\u8868\u793a\u3055\u308c\u307e\u3059\u3002",
+				"posX": 328.22,
+				"mode": 2
+			}
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 211.02,
+				"dir": -1,
+				"text": "\u30a8\u30ea\u30a2\u3067\u306e\u8266\u968a\u306e\u6226\u95d8\u56de\u6570\u304c\u3053\u3053\u3067\u8868\u793a\u3055\u308c\u308b\u308f\uff01\u30b9\u30ad\u30eb\u767a\u52d5\u306e\u53c2\u8003\u30fb\u78ba\u8a8d\u306b\u3067\u3082\u6d3b\u7528\u3057\u3066\uff01",
+				"posX": 328.22,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"sizeDeltaPlus": [
+						40,
+						20
+					],
+					"path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_defeat"
+				}
+			}
+		},
+		{
+			"alpha": 0.3,
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": -43.7,
+					"posX": 56.19,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_order",
+				"triggerType": [
+					1
+				]
+			}
+		},
+		{
+			"stories": [
+				"GWORLD103C"
+			],
+			"delay": 1.5,
+			"code": [
+				"playStory"
+			]
+		},
+		{
+			"alpha": 0.3,
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": 0,
+					"posX": 0,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/fov/type_enable",
+				"triggerType": [
+					1
+				]
+			}
+		},
+		{
+			"alpha": 0.3,
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": 0,
+					"posX": 0,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "OverlayCamera/Overlay/UIMain/Msgbox/window/button_container/btn_confirm",
+				"triggerType": [
+					1
+				]
+			}
+		}
+	]
 }

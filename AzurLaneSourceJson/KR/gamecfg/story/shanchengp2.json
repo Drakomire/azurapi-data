@@ -1,348 +1,348 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "비 온 뒤 맑음\n\n<size=45>2. 고기압? 저기압?</size>",
-          1
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "side": 2,
-      "say": "{namecode:79}와 함께 신사를 청소하기 위해 아침 일찍 약속 장소에 도착했을 때, {namecode:79}는 이미 기다리는 중이었다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "dir": 1,
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 305020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "좋은 아침이에요, 나리! 오늘 잘 부탁해요!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:79}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 305020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "...... 언제 왔냐구요? 음... 아, 아마 30분 전...... 만약에 길을 잃어서 지각하면, 나리가 기다리셔야 하니까요......",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:79}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301150,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "say": "{namecode:79} 언니! ......지휘관 너도 있었구나. 오늘 쉬는 날 아니야? 설마 데이트 중?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:17}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 305020,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "아, 아니야 {namecode:17}! 오늘은 나리랑 신사를 청소하기로 약속했을 뿐이야!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:79}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301150,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "say": "흐흥, 데이트가 아니라면, {namecode:17}도 도와줄게. 헤헤, {namecode:17} 님이 친히 나서주지. 깔끔하게 청소도 해주고~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:17}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301150,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 1,
-          "delay": 0.5,
-          "x": 0
-        }
-      ],
-      "say": "...... 저 바보 지휘관이랑 데이트를 한다고 말하고 싶은 거야? 아이고 머리야!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:17}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 302100,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "say": "{namecode:17}, {namecode:79}랑 지휘관 놀리면서 즐거워하지마. 좋은 아침, {namecode:79}.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:57}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 305020,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "{namecode:57}! {namecode:17}랑 물건 사러 나온 거야?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:79}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 302100,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "say": "응, {namecode:147}네 숙소 비품도 같이 샀어. 항상 {namecode:58}만 시킬 순 없으니까...",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:57}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301150,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "say": "{namecode:20} 녀석네는 또 가격이 올랐어. 항구에 가게를 연 건 걔네 둘 뿐인데 완전히 경쟁이 안돼...",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:17}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 305020,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "응? 뭘 말하는 건지는 몰라도, 나 {namecode:79}에게 맡겨! 다음에 장비 상자를 살 때 내가 주의를 줄게!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:79}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301150,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "say": "{namecode:79} 언니 고마워! ......하지만 괜찮아. 아마 말로 하면 거의 {namecode:79} 언니가 질 걸. 결국에는 여전히 높은 가격에 사게 되겠지...",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:17}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 305020,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "나빴어~!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:79}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 302100,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "say": "하하, {namecode:17}랑 {namecode:79}는 정말 친하네.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:57}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301150,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#92fc63",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 1,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "당연하지! {namecode:79} 언니는 {namecode:17}랑 제일 친해! 나는 {namecode:79} 언니가 제일 좋아!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:17}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 305020,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "blackBg": true,
-      "say": "헤헤, {namecode:17}... 하지만, 오늘은 나리랑 신사를 청소해야해. 다음에 같이 놀자!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:79}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "SHANCHENGP2",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"\ube44 \uc628 \ub4a4 \ub9d1\uc74c\n\n<size=45>2. \uace0\uae30\uc555? \uc800\uae30\uc555?</size>",
+					1
+				]
+			],
+			"mode": 1
+		},
+		{
+			"side": 2,
+			"say": "{namecode:79}\uc640 \ud568\uaed8 \uc2e0\uc0ac\ub97c \uccad\uc18c\ud558\uae30 \uc704\ud574 \uc544\uce68 \uc77c\ucc0d \uc57d\uc18d \uc7a5\uc18c\uc5d0 \ub3c4\ucc29\ud588\uc744 \ub54c, {namecode:79}\ub294 \uc774\ubbf8 \uae30\ub2e4\ub9ac\ub294 \uc911\uc774\uc5c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"dir": 1,
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 305020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc88b\uc740 \uc544\uce68\uc774\uc5d0\uc694, \ub098\ub9ac! \uc624\ub298 \uc798 \ubd80\ud0c1\ud574\uc694!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:79}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 305020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "...... \uc5b8\uc81c \uc654\ub0d0\uad6c\uc694? \uc74c... \uc544, \uc544\ub9c8 30\ubd84 \uc804...... \ub9cc\uc57d\uc5d0 \uae38\uc744 \uc783\uc5b4\uc11c \uc9c0\uac01\ud558\uba74, \ub098\ub9ac\uac00 \uae30\ub2e4\ub9ac\uc154\uc57c \ud558\ub2c8\uae4c\uc694......",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:79}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301150,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"say": "{namecode:79} \uc5b8\ub2c8! ......\uc9c0\ud718\uad00 \ub108\ub3c4 \uc788\uc5c8\uad6c\ub098. \uc624\ub298 \uc26c\ub294 \ub0a0 \uc544\ub2c8\uc57c? \uc124\ub9c8 \ub370\uc774\ud2b8 \uc911?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:17}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 305020,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\uc544, \uc544\ub2c8\uc57c {namecode:17}! \uc624\ub298\uc740 \ub098\ub9ac\ub791 \uc2e0\uc0ac\ub97c \uccad\uc18c\ud558\uae30\ub85c \uc57d\uc18d\ud588\uc744 \ubfd0\uc774\uc57c!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:79}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301150,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"say": "\ud750\ud765, \ub370\uc774\ud2b8\uac00 \uc544\ub2c8\ub77c\uba74, {namecode:17}\ub3c4 \ub3c4\uc640\uc904\uac8c. \ud5e4\ud5e4, {namecode:17} \ub2d8\uc774 \uce5c\ud788 \ub098\uc11c\uc8fc\uc9c0. \uae54\ub054\ud558\uac8c \uccad\uc18c\ub3c4 \ud574\uc8fc\uace0~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:17}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301150,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 1,
+					"delay": 0.5,
+					"x": 0
+				}
+			],
+			"say": "...... \uc800 \ubc14\ubcf4 \uc9c0\ud718\uad00\uc774\ub791 \ub370\uc774\ud2b8\ub97c \ud55c\ub2e4\uace0 \ub9d0\ud558\uace0 \uc2f6\uc740 \uac70\uc57c? \uc544\uc774\uace0 \uba38\ub9ac\uc57c!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:17}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 302100,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"say": "{namecode:17}, {namecode:79}\ub791 \uc9c0\ud718\uad00 \ub180\ub9ac\uba74\uc11c \uc990\uac70\uc6cc\ud558\uc9c0\ub9c8. \uc88b\uc740 \uc544\uce68, {namecode:79}.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:57}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 305020,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "{namecode:57}! {namecode:17}\ub791 \ubb3c\uac74 \uc0ac\ub7ec \ub098\uc628 \uac70\uc57c?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:79}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 302100,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"say": "\uc751, {namecode:147}\ub124 \uc219\uc18c \ube44\ud488\ub3c4 \uac19\uc774 \uc0c0\uc5b4. \ud56d\uc0c1 {namecode:58}\ub9cc \uc2dc\ud0ac \uc21c \uc5c6\uc73c\ub2c8\uae4c...",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:57}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301150,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"say": "{namecode:20} \ub140\uc11d\ub124\ub294 \ub610 \uac00\uaca9\uc774 \uc62c\ub790\uc5b4. \ud56d\uad6c\uc5d0 \uac00\uac8c\ub97c \uc5f0 \uac74 \uac54\ub124 \ub458 \ubfd0\uc778\ub370 \uc644\uc804\ud788 \uacbd\uc7c1\uc774 \uc548\ub3fc...",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:17}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 305020,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc751? \ubb58 \ub9d0\ud558\ub294 \uac74\uc9c0\ub294 \ubab0\ub77c\ub3c4, \ub098 {namecode:79}\uc5d0\uac8c \ub9e1\uaca8! \ub2e4\uc74c\uc5d0 \uc7a5\ube44 \uc0c1\uc790\ub97c \uc0b4 \ub54c \ub0b4\uac00 \uc8fc\uc758\ub97c \uc904\uac8c!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:79}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301150,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"say": "{namecode:79} \uc5b8\ub2c8 \uace0\ub9c8\uc6cc! ......\ud558\uc9c0\ub9cc \uad1c\ucc2e\uc544. \uc544\ub9c8 \ub9d0\ub85c \ud558\uba74 \uac70\uc758 {namecode:79} \uc5b8\ub2c8\uac00 \uc9c8 \uac78. \uacb0\uad6d\uc5d0\ub294 \uc5ec\uc804\ud788 \ub192\uc740 \uac00\uaca9\uc5d0 \uc0ac\uac8c \ub418\uaca0\uc9c0...",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:17}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 305020,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\ub098\ube74\uc5b4~!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:79}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 302100,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"say": "\ud558\ud558, {namecode:17}\ub791 {namecode:79}\ub294 \uc815\ub9d0 \uce5c\ud558\ub124.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:57}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301150,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#92fc63",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 1,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\ub2f9\uc5f0\ud558\uc9c0! {namecode:79} \uc5b8\ub2c8\ub294 {namecode:17}\ub791 \uc81c\uc77c \uce5c\ud574! \ub098\ub294 {namecode:79} \uc5b8\ub2c8\uac00 \uc81c\uc77c \uc88b\uc544!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:17}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 305020,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"blackBg": true,
+			"say": "\ud5e4\ud5e4, {namecode:17}... \ud558\uc9c0\ub9cc, \uc624\ub298\uc740 \ub098\ub9ac\ub791 \uc2e0\uc0ac\ub97c \uccad\uc18c\ud574\uc57c\ud574. \ub2e4\uc74c\uc5d0 \uac19\uc774 \ub180\uc790!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:79}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "SHANCHENGP2",
+	"once": true
 }

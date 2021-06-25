@@ -1,456 +1,456 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "side": 2,
-      "say": "야마다·헤르미온느 격파 후, 한줄기 빛이 그 주위를 감쌌다. 아마도 철수한 것 같다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "holo-control",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "dir": 1
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "어쨌든 모두가 모였다. 일행은 안심하고 기지로 돌아가 푹 쉬면서 다음 계획을 세웠다."
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "그날 밤, 레지스탕스 기지",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "holo-tokiwa",
-      "bgmDelay": 2,
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 10500070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "결국 사라졌어?!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 10500010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "이건 설마…… hololive 서버의 전송 명령!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 900021,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "그 테스트 몬스터가 서버 통제권을 장악하고 있으니 전송 스킬을 사용하는 것도 이상하지는 않아.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "퓨리",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "전투가 길어지면, 우리도 위험해져요.",
-      "actor": 301050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "도망갔지만 크게 상처를 입었으니 얼마간은 전투를 하지 못할 거예요.",
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "거울 해역에서 모두 힘을 합쳐 강적과 싸운 첫 전투네. 다들 수고했어~",
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 10500040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "아야메쨩과 시온, 처음에는 고민하는 것 같더니 결국은 누구보다 신났잖아.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 10500050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "그, 그그그건 적을 상대하는 것이니… 당연히 봐줘서는 안되는 것이다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 10500060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "맞… 맞아. 아쿠아 본인도 신났잖아. 상관 없는걸!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 10500040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "감동스러운 만조의 우정이네.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 10500020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "이런 전투는 여기선 평범한 거니…?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "그래. 세이렌은 우리의 적이니까.",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "세이렌과, 적과 밤낮을 가리지 않고 싸우지. 전투의 끝은 곧 새로운 전투의 시작이야.",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "이미 익숙해졌어.",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 10500020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "미안, 무거운 말을 해버렸군.",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "우리가 장비를 만든지 얼마 지나지 않아서 반대 쪽에도 비슷한 ‘장기말’이 생겼다. 아무래도 너희가 말한 테스트 몬스터는 정말로 테스트를 하고 있는 것 같군.",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "앞으로의 전투는 더 힘들어지겠어. 전장은 상냥하지 않아. 마음의 준비를 단단히 해둬.",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "아하하… 카와카제의 말은 어쨌든 우리는 이길거라는 소리야.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "say": "앞으로 계속 적을 무찌르면서 테스트 몬스터까지 처치하면 서버의 통제권을 손에 넣고 승리할 수 있어!",
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "자자, 모두 그런 얼굴 하지 마. 첫 승리인데다 모두가 모였으니 제대로 축하해야 한다구!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_holosaba1"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "HOLOGUANQIA22",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"side": 2,
+			"say": "\uc57c\ub9c8\ub2e4\u00b7\ud5e4\ub974\ubbf8\uc628\ub290 \uaca9\ud30c \ud6c4, \ud55c\uc904\uae30 \ube5b\uc774 \uadf8 \uc8fc\uc704\ub97c \uac10\uc30c\ub2e4. \uc544\ub9c8\ub3c4 \ucca0\uc218\ud55c \uac83 \uac19\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "holo-control",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"dir": 1
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc5b4\uca0c\ub4e0 \ubaa8\ub450\uac00 \ubaa8\uc600\ub2e4. \uc77c\ud589\uc740 \uc548\uc2ec\ud558\uace0 \uae30\uc9c0\ub85c \ub3cc\uc544\uac00 \ud479 \uc26c\uba74\uc11c \ub2e4\uc74c \uacc4\ud68d\uc744 \uc138\uc6e0\ub2e4."
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uadf8\ub0a0 \ubc24, \ub808\uc9c0\uc2a4\ud0d5\uc2a4 \uae30\uc9c0",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "holo-tokiwa",
+			"bgmDelay": 2,
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 10500070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uacb0\uad6d \uc0ac\ub77c\uc84c\uc5b4?!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 10500010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uc774\uac74 \uc124\ub9c8\u2026\u2026 hololive \uc11c\ubc84\uc758 \uc804\uc1a1 \uba85\ub839!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 900021,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uadf8 \ud14c\uc2a4\ud2b8 \ubaac\uc2a4\ud130\uac00 \uc11c\ubc84 \ud1b5\uc81c\uad8c\uc744 \uc7a5\uc545\ud558\uace0 \uc788\uc73c\ub2c8 \uc804\uc1a1 \uc2a4\ud0ac\uc744 \uc0ac\uc6a9\ud558\ub294 \uac83\ub3c4 \uc774\uc0c1\ud558\uc9c0\ub294 \uc54a\uc544.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ud4e8\ub9ac",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\uc804\ud22c\uac00 \uae38\uc5b4\uc9c0\uba74, \uc6b0\ub9ac\ub3c4 \uc704\ud5d8\ud574\uc838\uc694.",
+			"actor": 301050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\ub3c4\ub9dd\uac14\uc9c0\ub9cc \ud06c\uac8c \uc0c1\ucc98\ub97c \uc785\uc5c8\uc73c\ub2c8 \uc5bc\ub9c8\uac04\uc740 \uc804\ud22c\ub97c \ud558\uc9c0 \ubabb\ud560 \uac70\uc608\uc694.",
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\uac70\uc6b8 \ud574\uc5ed\uc5d0\uc11c \ubaa8\ub450 \ud798\uc744 \ud569\uccd0 \uac15\uc801\uacfc \uc2f8\uc6b4 \uccab \uc804\ud22c\ub124. \ub2e4\ub4e4 \uc218\uace0\ud588\uc5b4~",
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 10500040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uc544\uc57c\uba54\uca29\uacfc \uc2dc\uc628, \ucc98\uc74c\uc5d0\ub294 \uace0\ubbfc\ud558\ub294 \uac83 \uac19\ub354\ub2c8 \uacb0\uad6d\uc740 \ub204\uad6c\ubcf4\ub2e4 \uc2e0\ub0ac\uc796\uc544.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 10500050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\uadf8, \uadf8\uadf8\uadf8\uac74 \uc801\uc744 \uc0c1\ub300\ud558\ub294 \uac83\uc774\ub2c8\u2026 \ub2f9\uc5f0\ud788 \ubd10\uc918\uc11c\ub294 \uc548\ub418\ub294 \uac83\uc774\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 10500060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ub9de\u2026 \ub9de\uc544. \uc544\ucfe0\uc544 \ubcf8\uc778\ub3c4 \uc2e0\ub0ac\uc796\uc544. \uc0c1\uad00 \uc5c6\ub294\uac78!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 10500040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\uac10\ub3d9\uc2a4\ub7ec\uc6b4 \ub9cc\uc870\uc758 \uc6b0\uc815\uc774\ub124.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 10500020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uc774\ub7f0 \uc804\ud22c\ub294 \uc5ec\uae30\uc120 \ud3c9\ubc94\ud55c \uac70\ub2c8\u2026?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\uadf8\ub798. \uc138\uc774\ub80c\uc740 \uc6b0\ub9ac\uc758 \uc801\uc774\ub2c8\uae4c.",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\uc138\uc774\ub80c\uacfc, \uc801\uacfc \ubc24\ub0ae\uc744 \uac00\ub9ac\uc9c0 \uc54a\uace0 \uc2f8\uc6b0\uc9c0. \uc804\ud22c\uc758 \ub05d\uc740 \uace7 \uc0c8\ub85c\uc6b4 \uc804\ud22c\uc758 \uc2dc\uc791\uc774\uc57c.",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\uc774\ubbf8 \uc775\uc219\ud574\uc84c\uc5b4.",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 10500020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\ubbf8\uc548, \ubb34\uac70\uc6b4 \ub9d0\uc744 \ud574\ubc84\ub838\uad70.",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\uc6b0\ub9ac\uac00 \uc7a5\ube44\ub97c \ub9cc\ub4e0\uc9c0 \uc5bc\ub9c8 \uc9c0\ub098\uc9c0 \uc54a\uc544\uc11c \ubc18\ub300 \ucabd\uc5d0\ub3c4 \ube44\uc2b7\ud55c \u2018\uc7a5\uae30\ub9d0\u2019\uc774 \uc0dd\uacbc\ub2e4. \uc544\ubb34\ub798\ub3c4 \ub108\ud76c\uac00 \ub9d0\ud55c \ud14c\uc2a4\ud2b8 \ubaac\uc2a4\ud130\ub294 \uc815\ub9d0\ub85c \ud14c\uc2a4\ud2b8\ub97c \ud558\uace0 \uc788\ub294 \uac83 \uac19\uad70.",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\uc55e\uc73c\ub85c\uc758 \uc804\ud22c\ub294 \ub354 \ud798\ub4e4\uc5b4\uc9c0\uaca0\uc5b4. \uc804\uc7a5\uc740 \uc0c1\ub0e5\ud558\uc9c0 \uc54a\uc544. \ub9c8\uc74c\uc758 \uc900\ube44\ub97c \ub2e8\ub2e8\ud788 \ud574\ub46c.",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uc544\ud558\ud558\u2026 \uce74\uc640\uce74\uc81c\uc758 \ub9d0\uc740 \uc5b4\uca0c\ub4e0 \uc6b0\ub9ac\ub294 \uc774\uae38\uac70\ub77c\ub294 \uc18c\ub9ac\uc57c.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"say": "\uc55e\uc73c\ub85c \uacc4\uc18d \uc801\uc744 \ubb34\ucc0c\ub974\uba74\uc11c \ud14c\uc2a4\ud2b8 \ubaac\uc2a4\ud130\uae4c\uc9c0 \ucc98\uce58\ud558\uba74 \uc11c\ubc84\uc758 \ud1b5\uc81c\uad8c\uc744 \uc190\uc5d0 \ub123\uace0 \uc2b9\ub9ac\ud560 \uc218 \uc788\uc5b4!",
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\uc790\uc790, \ubaa8\ub450 \uadf8\ub7f0 \uc5bc\uad74 \ud558\uc9c0 \ub9c8. \uccab \uc2b9\ub9ac\uc778\ub370\ub2e4 \ubaa8\ub450\uac00 \ubaa8\uc600\uc73c\ub2c8 \uc81c\ub300\ub85c \ucd95\ud558\ud574\uc57c \ud55c\ub2e4\uad6c!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_holosaba1"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "HOLOGUANQIA22",
+	"once": true
 }

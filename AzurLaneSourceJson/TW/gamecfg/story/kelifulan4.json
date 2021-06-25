@@ -1,308 +1,308 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "騎士與獎賞\n\n<size=45>四 比賽開始！</size>",
-          1
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "side": 2,
-      "say": "籃球對抗賽當天·會場",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "dir": 1,
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 102090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "這一天終於來了……指揮官，我們都準備好了！比賽的指揮就靠你了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "沒問題！",
-          "flag": 1
-        },
-        {
-          "content": "大家加油！",
-          "flag": 2
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "say": "克里夫蘭加油哦——！贏了再讓海倫娜給妳做便當哦——！",
-      "actor": 102130,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 102050,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "姐、姐姐！ ！別說了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "say": "啊哈哈……她還是老樣子啊。先不管這些，趁比賽還沒開始，我們再討論一下戰術吧！時間就是金錢♪",
-      "actor": 102090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "第一回合的比賽對手是“正義海狸”隊。",
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 101110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "say": "讓對手見識見識我們的正義吧！小海狸分隊，出擊！ ……咦？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 101140,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "say": "太麻煩了……我做替補就好啦。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 101120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "哈哈哈斯彭斯又差點摔了！ ……啊啊啊要撞上了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 1,
-          "x": 15
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "say": "啊啊啊！要撞上柴契爾了！ ！",
-      "actor": 101150,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "say": "機會來了！大家上啊！",
-      "actor": 102090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "教練唐斯的努力也沒能挽回局面，克里夫蘭隊大獲全勝",
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 102090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "options": [
-        {
-          "content": "拍拍克里夫蘭的肩",
-          "flag": 1
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "好，開局還不錯！一口氣贏下冠軍吧！ ……不會有這麼好的事吧，嘿嘿♪",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 102090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "好！指揮官也睜大眼睛好好看著吧！我們會使出全力的♪",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "KELIFULAN4",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"\u9a0e\u58eb\u8207\u734e\u8cde\n\n<size=45>\u56db \u6bd4\u8cfd\u958b\u59cb\uff01</size>",
+					1
+				]
+			],
+			"mode": 1
+		},
+		{
+			"side": 2,
+			"say": "\u7c43\u7403\u5c0d\u6297\u8cfd\u7576\u5929\u00b7\u6703\u5834",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"dir": 1,
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 102090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u9019\u4e00\u5929\u7d42\u65bc\u4f86\u4e86\u2026\u2026\u6307\u63ee\u5b98\uff0c\u6211\u5011\u90fd\u6e96\u5099\u597d\u4e86\uff01\u6bd4\u8cfd\u7684\u6307\u63ee\u5c31\u9760\u4f60\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u6c92\u554f\u984c\uff01",
+					"flag": 1
+				},
+				{
+					"content": "\u5927\u5bb6\u52a0\u6cb9\uff01",
+					"flag": 2
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"say": "\u514b\u91cc\u592b\u862d\u52a0\u6cb9\u54e6\u2014\u2014\uff01\u8d0f\u4e86\u518d\u8b93\u6d77\u502b\u5a1c\u7d66\u59b3\u505a\u4fbf\u7576\u54e6\u2014\u2014\uff01",
+			"actor": 102130,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 102050,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u59d0\u3001\u59d0\u59d0\uff01 \uff01\u5225\u8aaa\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"say": "\u554a\u54c8\u54c8\u2026\u2026\u5979\u9084\u662f\u8001\u6a23\u5b50\u554a\u3002\u5148\u4e0d\u7ba1\u9019\u4e9b\uff0c\u8d81\u6bd4\u8cfd\u9084\u6c92\u958b\u59cb\uff0c\u6211\u5011\u518d\u8a0e\u8ad6\u4e00\u4e0b\u6230\u8853\u5427\uff01\u6642\u9593\u5c31\u662f\u91d1\u9322\u266a",
+			"actor": 102090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u7b2c\u4e00\u56de\u5408\u7684\u6bd4\u8cfd\u5c0d\u624b\u662f\u201c\u6b63\u7fa9\u6d77\u72f8\u201d\u968a\u3002",
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 101110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"say": "\u8b93\u5c0d\u624b\u898b\u8b58\u898b\u8b58\u6211\u5011\u7684\u6b63\u7fa9\u5427\uff01\u5c0f\u6d77\u72f8\u5206\u968a\uff0c\u51fa\u64ca\uff01 \u2026\u2026\u54a6\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 101140,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"say": "\u592a\u9ebb\u7169\u4e86\u2026\u2026\u6211\u505a\u66ff\u88dc\u5c31\u597d\u5566\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 101120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u54c8\u54c8\u54c8\u65af\u5f6d\u65af\u53c8\u5dee\u9ede\u6454\u4e86\uff01 \u2026\u2026\u554a\u554a\u554a\u8981\u649e\u4e0a\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 1,
+					"x": 15
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"say": "\u554a\u554a\u554a\uff01\u8981\u649e\u4e0a\u67f4\u5951\u723e\u4e86\uff01 \uff01",
+			"actor": 101150,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"say": "\u6a5f\u6703\u4f86\u4e86\uff01\u5927\u5bb6\u4e0a\u554a\uff01",
+			"actor": 102090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u6559\u7df4\u5510\u65af\u7684\u52aa\u529b\u4e5f\u6c92\u80fd\u633d\u56de\u5c40\u9762\uff0c\u514b\u91cc\u592b\u862d\u968a\u5927\u7372\u5168\u52dd",
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 102090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"options": [
+				{
+					"content": "\u62cd\u62cd\u514b\u91cc\u592b\u862d\u7684\u80a9",
+					"flag": 1
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u597d\uff0c\u958b\u5c40\u9084\u4e0d\u932f\uff01\u4e00\u53e3\u6c23\u8d0f\u4e0b\u51a0\u8ecd\u5427\uff01 \u2026\u2026\u4e0d\u6703\u6709\u9019\u9ebc\u597d\u7684\u4e8b\u5427\uff0c\u563f\u563f\u266a",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 102090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\u597d\uff01\u6307\u63ee\u5b98\u4e5f\u775c\u5927\u773c\u775b\u597d\u597d\u770b\u8457\u5427\uff01\u6211\u5011\u6703\u4f7f\u51fa\u5168\u529b\u7684\u266a",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "KELIFULAN4",
+	"once": true
 }

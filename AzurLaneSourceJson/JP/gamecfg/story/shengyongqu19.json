@@ -1,331 +1,331 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 901030,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "expression": 6,
-      "say": "この大型駆逐艦ヴォークラン、簡単にやられるとは思わないことよ！ピーちゃん！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "hunhe-battle"
-    },
-    {
-      "say": "こっちの「マホウ」を完全に回避できたのですね。ですが本番はこれから――！",
-      "actor": 801040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "action": [
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 0.5,
-          "delay": 0.7,
-          "x": -2500
-        }
-      ],
-      "actor": 901030,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "本気を出されちゃ困るよ！ええい、くらえ！"
-    },
-    {
-      "dir": 1,
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "say": "―――！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "say": "ヴォークランちゃん、ずっと距離を取ってぐるぐると回っているから、艤装の動力部を狙いづらいよ！",
-      "actor": 801030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "こちらの意図がバレたのでしょうか。アルジェリーさんもきっとそれを分かっててこの配置を取ったのですね"
-    },
-    {
-      "say": "（バレたからには仕方ありません。量産型を掃討しつつ、ヴォークランを包囲します！）",
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "say": "みんな、損傷状況の報告をお願いします！",
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "ル・テメレール、状態良好！すごく軽微な損傷が何箇所かあるけど大丈夫！",
-      "actor": 801030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "say": "こっちも大丈夫です。戦闘継続に問題ありません",
-      "actor": 801040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.4,
-          "number": 2,
-          "delay": 0,
-          "x": 30
-        }
-      ],
-      "actor": 201120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "ふぉ、フォーチュン、ニ番砲塔にダメージ…動力部も損傷が…"
-    },
-    {
-      "say": "フォーチュンさん……",
-      "actor": 801040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "（今回の作戦、アイリスの子が前衛として前に出ているのに、損傷はロイヤル艦に集中している。つまり…）"
-    },
-    {
-      "actor": 201120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "うぅ……"
-    },
-    {
-      "say": "ヴォークランちゃん、なんで…？",
-      "actor": 801030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "リシュリューさん、すみません――戦闘方針を変えます！急所を外すのに変更はありませんが、兵装を狙ってください！",
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "say": "ロイヤルの子だって傷つけさせちゃダメですからね…！",
-      "actor": 801040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "SHENGYONGQU19",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 901030,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"expression": 6,
+			"say": "\u3053\u306e\u5927\u578b\u99c6\u9010\u8266\u30f4\u30a9\u30fc\u30af\u30e9\u30f3\u3001\u7c21\u5358\u306b\u3084\u3089\u308c\u308b\u3068\u306f\u601d\u308f\u306a\u3044\u3053\u3068\u3088\uff01\u30d4\u30fc\u3061\u3083\u3093\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "hunhe-battle"
+		},
+		{
+			"say": "\u3053\u3063\u3061\u306e\u300c\u30de\u30db\u30a6\u300d\u3092\u5b8c\u5168\u306b\u56de\u907f\u3067\u304d\u305f\u306e\u3067\u3059\u306d\u3002\u3067\u3059\u304c\u672c\u756a\u306f\u3053\u308c\u304b\u3089\u2015\u2015\uff01",
+			"actor": 801040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"action": [
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 0.5,
+					"delay": 0.7,
+					"x": -2500
+				}
+			],
+			"actor": 901030,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u672c\u6c17\u3092\u51fa\u3055\u308c\u3061\u3083\u56f0\u308b\u3088\uff01\u3048\u3048\u3044\u3001\u304f\u3089\u3048\uff01"
+		},
+		{
+			"dir": 1,
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"say": "\u2015\u2015\u2015\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"say": "\u30f4\u30a9\u30fc\u30af\u30e9\u30f3\u3061\u3083\u3093\u3001\u305a\u3063\u3068\u8ddd\u96e2\u3092\u53d6\u3063\u3066\u3050\u308b\u3050\u308b\u3068\u56de\u3063\u3066\u3044\u308b\u304b\u3089\u3001\u8264\u88c5\u306e\u52d5\u529b\u90e8\u3092\u72d9\u3044\u3065\u3089\u3044\u3088\uff01",
+			"actor": 801030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u3053\u3061\u3089\u306e\u610f\u56f3\u304c\u30d0\u30ec\u305f\u306e\u3067\u3057\u3087\u3046\u304b\u3002\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u3055\u3093\u3082\u304d\u3063\u3068\u305d\u308c\u3092\u5206\u304b\u3063\u3066\u3066\u3053\u306e\u914d\u7f6e\u3092\u53d6\u3063\u305f\u306e\u3067\u3059\u306d"
+		},
+		{
+			"say": "\uff08\u30d0\u30ec\u305f\u304b\u3089\u306b\u306f\u4ed5\u65b9\u3042\u308a\u307e\u305b\u3093\u3002\u91cf\u7523\u578b\u3092\u6383\u8a0e\u3057\u3064\u3064\u3001\u30f4\u30a9\u30fc\u30af\u30e9\u30f3\u3092\u5305\u56f2\u3057\u307e\u3059\uff01\uff09",
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"say": "\u307f\u3093\u306a\u3001\u640d\u50b7\u72b6\u6cc1\u306e\u5831\u544a\u3092\u304a\u9858\u3044\u3057\u307e\u3059\uff01",
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u30eb\u30fb\u30c6\u30e1\u30ec\u30fc\u30eb\u3001\u72b6\u614b\u826f\u597d\uff01\u3059\u3054\u304f\u8efd\u5fae\u306a\u640d\u50b7\u304c\u4f55\u7b87\u6240\u304b\u3042\u308b\u3051\u3069\u5927\u4e08\u592b\uff01",
+			"actor": 801030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"say": "\u3053\u3063\u3061\u3082\u5927\u4e08\u592b\u3067\u3059\u3002\u6226\u95d8\u7d99\u7d9a\u306b\u554f\u984c\u3042\u308a\u307e\u305b\u3093",
+			"actor": 801040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.4,
+					"number": 2,
+					"delay": 0,
+					"x": 30
+				}
+			],
+			"actor": 201120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u3075\u3049\u3001\u30d5\u30a9\u30fc\u30c1\u30e5\u30f3\u3001\u30cb\u756a\u7832\u5854\u306b\u30c0\u30e1\u30fc\u30b8\u2026\u52d5\u529b\u90e8\u3082\u640d\u50b7\u304c\u2026"
+		},
+		{
+			"say": "\u30d5\u30a9\u30fc\u30c1\u30e5\u30f3\u3055\u3093\u2026\u2026",
+			"actor": 801040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uff08\u4eca\u56de\u306e\u4f5c\u6226\u3001\u30a2\u30a4\u30ea\u30b9\u306e\u5b50\u304c\u524d\u885b\u3068\u3057\u3066\u524d\u306b\u51fa\u3066\u3044\u308b\u306e\u306b\u3001\u640d\u50b7\u306f\u30ed\u30a4\u30e4\u30eb\u8266\u306b\u96c6\u4e2d\u3057\u3066\u3044\u308b\u3002\u3064\u307e\u308a\u2026\uff09"
+		},
+		{
+			"actor": 201120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u3046\u3045\u2026\u2026"
+		},
+		{
+			"say": "\u30f4\u30a9\u30fc\u30af\u30e9\u30f3\u3061\u3083\u3093\u3001\u306a\u3093\u3067\u2026\uff1f",
+			"actor": 801030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u30ea\u30b7\u30e5\u30ea\u30e5\u30fc\u3055\u3093\u3001\u3059\u307f\u307e\u305b\u3093\u2015\u2015\u6226\u95d8\u65b9\u91dd\u3092\u5909\u3048\u307e\u3059\uff01\u6025\u6240\u3092\u5916\u3059\u306e\u306b\u5909\u66f4\u306f\u3042\u308a\u307e\u305b\u3093\u304c\u3001\u5175\u88c5\u3092\u72d9\u3063\u3066\u304f\u3060\u3055\u3044\uff01",
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"say": "\u30ed\u30a4\u30e4\u30eb\u306e\u5b50\u3060\u3063\u3066\u50b7\u3064\u3051\u3055\u305b\u3061\u3083\u30c0\u30e1\u3067\u3059\u304b\u3089\u306d\u2026\uff01",
+			"actor": 801040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "SHENGYONGQU19",
+	"once": true
 }

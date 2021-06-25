@@ -1,123 +1,123 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 301840,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "大家注意，有一支庞大的敌方舰队出现在航线的前方！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-6",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_mirror"
-    },
-    {
-      "actor": 303180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "现在四面八方的敌人我觉得都算的上“庞大的敌方舰队”哎……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_mirror"
-    },
-    {
-      "actor": 301840,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "不对不对！…是一支比周边所有敌方舰队还要庞大的敌方舰队啦！而且发现了指挥型塞壬的踪迹，应该是塞壬的测试者！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_mirror"
-    },
-    {
-      "say": "居然直接发现了测试者么，侦查辛苦了。",
-      "actor": 305120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_mirror"
-    },
-    {
-      "actor": 305120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "可是……唔…麻烦了，我们现在的情况不适合在镜面海域中与测试者发生正面冲突。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_mirror"
-    },
-    {
-      "actor": 305120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "expression": 4,
-      "say": "还是以{namecode:182}大人的安全为第一位，优先寻找驶离镜面海域的航线！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_mirror"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "DIEHAIMENGHUA7",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 301840,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u5927\u5bb6\u6ce8\u610f\uff0c\u6709\u4e00\u652f\u5e9e\u5927\u7684\u654c\u65b9\u8230\u961f\u51fa\u73b0\u5728\u822a\u7ebf\u7684\u524d\u65b9\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-6",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_mirror"
+		},
+		{
+			"actor": 303180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u73b0\u5728\u56db\u9762\u516b\u65b9\u7684\u654c\u4eba\u6211\u89c9\u5f97\u90fd\u7b97\u7684\u4e0a\u201c\u5e9e\u5927\u7684\u654c\u65b9\u8230\u961f\u201d\u54ce\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_mirror"
+		},
+		{
+			"actor": 301840,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u4e0d\u5bf9\u4e0d\u5bf9\uff01\u2026\u662f\u4e00\u652f\u6bd4\u5468\u8fb9\u6240\u6709\u654c\u65b9\u8230\u961f\u8fd8\u8981\u5e9e\u5927\u7684\u654c\u65b9\u8230\u961f\u5566\uff01\u800c\u4e14\u53d1\u73b0\u4e86\u6307\u6325\u578b\u585e\u58ec\u7684\u8e2a\u8ff9\uff0c\u5e94\u8be5\u662f\u585e\u58ec\u7684\u6d4b\u8bd5\u8005\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_mirror"
+		},
+		{
+			"say": "\u5c45\u7136\u76f4\u63a5\u53d1\u73b0\u4e86\u6d4b\u8bd5\u8005\u4e48\uff0c\u4fa6\u67e5\u8f9b\u82e6\u4e86\u3002",
+			"actor": 305120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_mirror"
+		},
+		{
+			"actor": 305120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u53ef\u662f\u2026\u2026\u5514\u2026\u9ebb\u70e6\u4e86\uff0c\u6211\u4eec\u73b0\u5728\u7684\u60c5\u51b5\u4e0d\u9002\u5408\u5728\u955c\u9762\u6d77\u57df\u4e2d\u4e0e\u6d4b\u8bd5\u8005\u53d1\u751f\u6b63\u9762\u51b2\u7a81\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_mirror"
+		},
+		{
+			"actor": 305120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"expression": 4,
+			"say": "\u8fd8\u662f\u4ee5{namecode:182}\u5927\u4eba\u7684\u5b89\u5168\u4e3a\u7b2c\u4e00\u4f4d\uff0c\u4f18\u5148\u5bfb\u627e\u9a76\u79bb\u955c\u9762\u6d77\u57df\u7684\u822a\u7ebf\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_mirror"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "DIEHAIMENGHUA7",
+	"once": true
 }

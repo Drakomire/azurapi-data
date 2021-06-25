@@ -1,310 +1,310 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "bgm": "battle-boss-1",
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "―――――！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "dir": 1
-    },
-    {
-      "actor": 401190,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "ロイヤルの増援……！"
-    },
-    {
-      "actor": 401180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "違うよ！あれは…うちのティーレちゃん！"
-    },
-    {
-      "actor": 201320,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "そんな！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 401020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "仲間を決して見捨てない。ええ、そういう格好いいセリフも言ってみたかったのですが"
-    },
-    {
-      "say": "これは残念ながら、ええ、ほかに通れる道がなかったから合流した――それだけです",
-      "actor": 401020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 401190,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "そ、そっちですか……"
-    },
-    {
-      "say": "向こうの数のほうが上！こりゃ一人では流石にきついね",
-      "actor": 201320,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "actor": 201320,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "（ウォースパイト様に連絡っと）",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "say": "味方への連絡は済みましたか。ロイヤルの駆逐艦――えっと、名前は…",
-      "actor": 401020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "トライバル級のエスキモーとはわたしのことであーる！",
-      "actor": 201320,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "say": "威勢がいいですね。逃げないのですか？",
-      "actor": 401020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "actor": 201320,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "たかが弾薬尽きかけの駆逐艦数隻、わたし一人でも十分さ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.4,
-          "number": 2,
-          "delay": 0,
-          "x": 30
-        }
-      ]
-    },
-    {
-      "say": "（なんて無理に決まってるよね！ここはウォースパイト様が来るまで時間を稼いで――）",
-      "actor": 201320,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "actor": 401020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "時間を稼がれる前に、ええ、押し通るしかありませんね"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "XIAWANJIANDEFANJI8",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"bgm": "battle-boss-1",
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u2015\u2015\u2015\u2015\u2015\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"dir": 1
+		},
+		{
+			"actor": 401190,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u30ed\u30a4\u30e4\u30eb\u306e\u5897\u63f4\u2026\u2026\uff01"
+		},
+		{
+			"actor": 401180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u9055\u3046\u3088\uff01\u3042\u308c\u306f\u2026\u3046\u3061\u306e\u30c6\u30a3\u30fc\u30ec\u3061\u3083\u3093\uff01"
+		},
+		{
+			"actor": 201320,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u305d\u3093\u306a\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 401020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u4ef2\u9593\u3092\u6c7a\u3057\u3066\u898b\u6368\u3066\u306a\u3044\u3002\u3048\u3048\u3001\u305d\u3046\u3044\u3046\u683c\u597d\u3044\u3044\u30bb\u30ea\u30d5\u3082\u8a00\u3063\u3066\u307f\u305f\u304b\u3063\u305f\u306e\u3067\u3059\u304c"
+		},
+		{
+			"say": "\u3053\u308c\u306f\u6b8b\u5ff5\u306a\u304c\u3089\u3001\u3048\u3048\u3001\u307b\u304b\u306b\u901a\u308c\u308b\u9053\u304c\u306a\u304b\u3063\u305f\u304b\u3089\u5408\u6d41\u3057\u305f\u2015\u2015\u305d\u308c\u3060\u3051\u3067\u3059",
+			"actor": 401020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 401190,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u305d\u3001\u305d\u3063\u3061\u3067\u3059\u304b\u2026\u2026"
+		},
+		{
+			"say": "\u5411\u3053\u3046\u306e\u6570\u306e\u307b\u3046\u304c\u4e0a\uff01\u3053\u308a\u3083\u4e00\u4eba\u3067\u306f\u6d41\u77f3\u306b\u304d\u3064\u3044\u306d",
+			"actor": 201320,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"actor": 201320,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\uff08\u30a6\u30a9\u30fc\u30b9\u30d1\u30a4\u30c8\u69d8\u306b\u9023\u7d61\u3063\u3068\uff09",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"say": "\u5473\u65b9\u3078\u306e\u9023\u7d61\u306f\u6e08\u307f\u307e\u3057\u305f\u304b\u3002\u30ed\u30a4\u30e4\u30eb\u306e\u99c6\u9010\u8266\u2015\u2015\u3048\u3063\u3068\u3001\u540d\u524d\u306f\u2026",
+			"actor": 401020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u30c8\u30e9\u30a4\u30d0\u30eb\u7d1a\u306e\u30a8\u30b9\u30ad\u30e2\u30fc\u3068\u306f\u308f\u305f\u3057\u306e\u3053\u3068\u3067\u3042\u30fc\u308b\uff01",
+			"actor": 201320,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"say": "\u5a01\u52e2\u304c\u3044\u3044\u3067\u3059\u306d\u3002\u9003\u3052\u306a\u3044\u306e\u3067\u3059\u304b\uff1f",
+			"actor": 401020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"actor": 201320,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u305f\u304b\u304c\u5f3e\u85ac\u5c3d\u304d\u304b\u3051\u306e\u99c6\u9010\u8266\u6570\u96bb\u3001\u308f\u305f\u3057\u4e00\u4eba\u3067\u3082\u5341\u5206\u3055\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.4,
+					"number": 2,
+					"delay": 0,
+					"x": 30
+				}
+			]
+		},
+		{
+			"say": "\uff08\u306a\u3093\u3066\u7121\u7406\u306b\u6c7a\u307e\u3063\u3066\u308b\u3088\u306d\uff01\u3053\u3053\u306f\u30a6\u30a9\u30fc\u30b9\u30d1\u30a4\u30c8\u69d8\u304c\u6765\u308b\u307e\u3067\u6642\u9593\u3092\u7a3c\u3044\u3067\u2015\u2015\uff09",
+			"actor": 201320,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"actor": 401020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6642\u9593\u3092\u7a3c\u304c\u308c\u308b\u524d\u306b\u3001\u3048\u3048\u3001\u62bc\u3057\u901a\u308b\u3057\u304b\u3042\u308a\u307e\u305b\u3093\u306d"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "XIAWANJIANDEFANJI8",
+	"once": true
 }

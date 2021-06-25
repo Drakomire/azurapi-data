@@ -1,6 +1,8 @@
 import shutil
 from pathlib import Path
 import multiprocessing as mp
+import os
+import json
 
 from lua_convert import Client, convert_lua
 
@@ -54,6 +56,25 @@ def convertClients(clients):
     for c in clients:
         client = Client[c]
         reconvert_all_files(client)
+        emptyDictToArray(c)
+
+def emptyDictToArray(lang):
+    directory = "../AzurLaneSourceJson/"+lang
+    for root, subdirectories, files in os.walk(directory):
+        for subdirectory in subdirectories:
+            # print(os.path.join(root, subdirectory))
+            pass
+        for file in files:
+            f = open(os.path.join(root, file),"r")
+            content = f.read()
+            f.close()
+            f = open(os.path.join(root, file),"w")
+            content = content.replace("{}","[]")
+            f.write(json.dumps(json.loads(content),indent='\t'))
+            f.close()
+
+            pass
+            
 
 if __name__ == "__main__":
     convertClients([

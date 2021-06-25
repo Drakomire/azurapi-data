@@ -1,40 +1,40 @@
 {
-  "picture": "",
-  "id": 8709,
-  "desc": "",
-  "last_effect": "",
-  "name": "英系V2 U81潜行猎杀",
-  "blink": [
-    1,
-    0,
-    0,
-    0.3,
-    0.3
-  ],
-  "effect_list": [
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 8709
-      }
-    },
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddAttrRatio",
-      "arg_list": {
-        "number": 2000,
-        "attr": "torpedoPower"
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "jinengchufared",
-  "time": 10
+	"picture": "",
+	"id": 8709,
+	"desc": "",
+	"last_effect": "",
+	"name": "\u82f1\u7cfbV2 U81\u6f5c\u884c\u730e\u6740",
+	"blink": [
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	],
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 8709
+			}
+		},
+		{
+			"trigger": [
+				"onAttach",
+				"onRemove"
+			],
+			"type": "BattleBuffAddAttrRatio",
+			"arg_list": {
+				"number": 2000,
+				"attr": "torpedoPower"
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "jinengchufared",
+	"time": 10
 }

@@ -1,467 +1,467 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "半人马与港区的“前辈”们\n\n<size=45>一　尊敬的前辈</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "港区·港口",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "今天就来对着海浪进行抽卡练习吧——",
-      "actor": 206010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "soundeffect": "event:/battle/plane",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "say": "我的回合，抽卡！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 206010,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "say": "竞技神今天也是状态绝佳的样子。",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "options": [
-        {
-          "content": "过去看看",
-          "flag": 1
-        }
-      ],
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "……那边墙后面似乎有人在探头探脑的样子。",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 206040,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "啊，指、指挥官，你好！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 206040,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "那个，我没在做什么可疑的事哦！只是……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "半人马的视线飘向不远处的竞技神。",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "我有个妹妹也叫竞技神，就是继承自这位所有空母的大前辈，所以我一直很想见一见。",
-      "actor": 206040,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "不过实际见到本人就不知道该怎么上去搭话了，只好缩在这里观察。",
-      "actor": 206040,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 206040,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "options": [
-        {
-          "content": "竞技神，过来这边一下！",
-          "flag": 1
-        }
-      ],
-      "say": "指挥官能帮我……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.4,
-          "number": 2,
-          "delay": 0,
-          "x": 22.5
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 206040,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "欸欸欸！！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "怎么了指挥官，想要来一场激动人心的决斗吗？",
-      "actor": 206010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 206040,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "那个，竞技神大前辈……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "你是……我记得是新加入的半人马吧，听说你有个妹妹也叫竞技神是吗？",
-      "actor": 206010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 206040,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "是、是的！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "半人马稍微松了一口气的样子。",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "好吧，那就让我用决斗来试试你灵魂的热度！",
-      "actor": 206010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "指挥官，这孩子我借走了。",
-      "actor": 206010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 206040,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "subActors": [
-        {
-          "pos": {
-            "x": -675
-          },
-          "actor": 206010
-        }
-      ],
-      "say": "欸，欸，欸？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        },
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 1,
-          "delay": 0.5,
-          "x": 2250
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "半人马被竞技神拖走了。",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "她会慢慢习惯这位大前辈的风格吧，大概。",
-      "blackBg": true,
-      "bgName": "bg_story_outdoor"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "BANRENMA1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u534a\u4eba\u9a6c\u4e0e\u6e2f\u533a\u7684\u201c\u524d\u8f88\u201d\u4eec\n\n<size=45>\u4e00\u3000\u5c0a\u656c\u7684\u524d\u8f88</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6e2f\u533a\u00b7\u6e2f\u53e3",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u4eca\u5929\u5c31\u6765\u5bf9\u7740\u6d77\u6d6a\u8fdb\u884c\u62bd\u5361\u7ec3\u4e60\u5427\u2014\u2014",
+			"actor": 206010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"soundeffect": "event:/battle/plane",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"say": "\u6211\u7684\u56de\u5408\uff0c\u62bd\u5361\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 206010,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"say": "\u7ade\u6280\u795e\u4eca\u5929\u4e5f\u662f\u72b6\u6001\u7edd\u4f73\u7684\u6837\u5b50\u3002",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"options": [
+				{
+					"content": "\u8fc7\u53bb\u770b\u770b",
+					"flag": 1
+				}
+			],
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u2026\u2026\u90a3\u8fb9\u5899\u540e\u9762\u4f3c\u4e4e\u6709\u4eba\u5728\u63a2\u5934\u63a2\u8111\u7684\u6837\u5b50\u3002",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 206040,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u554a\uff0c\u6307\u3001\u6307\u6325\u5b98\uff0c\u4f60\u597d\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 206040,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u90a3\u4e2a\uff0c\u6211\u6ca1\u5728\u505a\u4ec0\u4e48\u53ef\u7591\u7684\u4e8b\u54e6\uff01\u53ea\u662f\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u534a\u4eba\u9a6c\u7684\u89c6\u7ebf\u98d8\u5411\u4e0d\u8fdc\u5904\u7684\u7ade\u6280\u795e\u3002",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u6211\u6709\u4e2a\u59b9\u59b9\u4e5f\u53eb\u7ade\u6280\u795e\uff0c\u5c31\u662f\u7ee7\u627f\u81ea\u8fd9\u4f4d\u6240\u6709\u7a7a\u6bcd\u7684\u5927\u524d\u8f88\uff0c\u6240\u4ee5\u6211\u4e00\u76f4\u5f88\u60f3\u89c1\u4e00\u89c1\u3002",
+			"actor": 206040,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u4e0d\u8fc7\u5b9e\u9645\u89c1\u5230\u672c\u4eba\u5c31\u4e0d\u77e5\u9053\u8be5\u600e\u4e48\u4e0a\u53bb\u642d\u8bdd\u4e86\uff0c\u53ea\u597d\u7f29\u5728\u8fd9\u91cc\u89c2\u5bdf\u3002",
+			"actor": 206040,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 206040,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"options": [
+				{
+					"content": "\u7ade\u6280\u795e\uff0c\u8fc7\u6765\u8fd9\u8fb9\u4e00\u4e0b\uff01",
+					"flag": 1
+				}
+			],
+			"say": "\u6307\u6325\u5b98\u80fd\u5e2e\u6211\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.4,
+					"number": 2,
+					"delay": 0,
+					"x": 22.5
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 206040,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u6b38\u6b38\u6b38\uff01\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u600e\u4e48\u4e86\u6307\u6325\u5b98\uff0c\u60f3\u8981\u6765\u4e00\u573a\u6fc0\u52a8\u4eba\u5fc3\u7684\u51b3\u6597\u5417\uff1f",
+			"actor": 206010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 206040,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u90a3\u4e2a\uff0c\u7ade\u6280\u795e\u5927\u524d\u8f88\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u4f60\u662f\u2026\u2026\u6211\u8bb0\u5f97\u662f\u65b0\u52a0\u5165\u7684\u534a\u4eba\u9a6c\u5427\uff0c\u542c\u8bf4\u4f60\u6709\u4e2a\u59b9\u59b9\u4e5f\u53eb\u7ade\u6280\u795e\u662f\u5417\uff1f",
+			"actor": 206010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 206040,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u662f\u3001\u662f\u7684\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u534a\u4eba\u9a6c\u7a0d\u5fae\u677e\u4e86\u4e00\u53e3\u6c14\u7684\u6837\u5b50\u3002",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u597d\u5427\uff0c\u90a3\u5c31\u8ba9\u6211\u7528\u51b3\u6597\u6765\u8bd5\u8bd5\u4f60\u7075\u9b42\u7684\u70ed\u5ea6\uff01",
+			"actor": 206010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u6307\u6325\u5b98\uff0c\u8fd9\u5b69\u5b50\u6211\u501f\u8d70\u4e86\u3002",
+			"actor": 206010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 206040,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"subActors": [
+				{
+					"pos": {
+						"x": -675
+					},
+					"actor": 206010
+				}
+			],
+			"say": "\u6b38\uff0c\u6b38\uff0c\u6b38\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				},
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 1,
+					"delay": 0.5,
+					"x": 2250
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u534a\u4eba\u9a6c\u88ab\u7ade\u6280\u795e\u62d6\u8d70\u4e86\u3002",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5979\u4f1a\u6162\u6162\u4e60\u60ef\u8fd9\u4f4d\u5927\u524d\u8f88\u7684\u98ce\u683c\u5427\uff0c\u5927\u6982\u3002",
+			"blackBg": true,
+			"bgName": "bg_story_outdoor"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "BANRENMA1",
+	"once": true
 }

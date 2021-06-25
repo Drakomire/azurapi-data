@@ -1,455 +1,455 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "bgm": "story-6",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "Is that... Hiryuu? No, something’s not right here..."
-    },
-    {
-      "actor": 9707010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 3,
-      "say": "Why are you all here? Because of Arbiter?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "Arbiter...? Who’s that?"
-    },
-    {
-      "actor": 900284,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "voice": "event:/tb/49/tb-49",
-      "say": "Searching through mainframe database... Entity by the name of “Arbiter” could not be found.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#a9f548"
-    },
-    {
-      "actor": 9707010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 6,
-      "say": "...Slip of the tongue. Forget I said anything.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 9707010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 3,
-      "say": "And what do we have here... You must be the commander who’s the source of “Enterprise’s” suffering.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "The battle-scarred girl who resembles Hiryuu looks at me and makes eye contact."
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "Her gaze is paralyzing, and I find myself unable to move a muscle."
-    },
-    {
-      "actor": 9707010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 6,
-      "say": "You still haven't realized it, have you? Pitiful... I don't know why she cares so much about you, but as long as you stay out of my way, we won't have any trouble.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "You think we're gonna let you walk, just like that?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 9707010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 3,
-      "say": "Damn right you are. You have no idea who you're talking to.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "say": "Wait. I need to ask you some questions.",
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "actor": 307040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashout": {
-        "dur": 0.5,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "We haven't heard from the Royal Navy either. The war is going pretty badly for everyone...",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "hunhe-level",
-      "bgmDelay": 1,
-      "bgName": "bg_banama_2"
-    },
-    {
-      "say": "But even so... Are you sure about this? Allying with the Sirens? I mean, they were originally created to replace us...",
-      "actor": 307040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashout": {
-        "dur": 0.5,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "Who are you? Who are the Ashes? And what’s your relation to the Sirens?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": false
-        }
-      ],
-      "bgmDelay": 1,
-      "bgm": "story-6"
-    },
-    {
-      "actor": 9707010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 2,
-      "say": "Antiochus showed you the logs, huh.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 9707010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 3,
-      "say": "Ask ‘em yourself, if you're so curious. They've taken great interest in you, for whatever reason.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "say": "Interest... in me...? Why?",
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "actor": 9707010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 7,
-      "say": "Don't know, don't care. I don't have time to talk with you people. Out of my way, or I will annihilate every last one of you.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 9707010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 3,
-      "say": "...Word of advice: stay out of Arbiter’s hair if you value your lives.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "The unnamed individual promptly makes off shortly after her final words."
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "She is far too fast for our fleet to ever catch up to her."
-    },
-    {
-      "actor": 105120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "She looked a lot like a member of Ashes... She must be very powerful"
-    },
-    {
-      "actor": 107070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "Yeah, but it’s not like they're unmatchable in strength, based on what the reports say. Commander, if we see her again, we shouldn't just let her leave like that."
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "Hornet has a point; it’s worth trying, at least. That said, it won't be easy to find her if she’s invisible to radar... We need to find a way to track her position."
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "WORLD105E",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"bgm": "story-6",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "Is that... Hiryuu? No, something\u2019s not right here..."
+		},
+		{
+			"actor": 9707010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 3,
+			"say": "Why are you all here? Because of Arbiter?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "Arbiter...? Who\u2019s that?"
+		},
+		{
+			"actor": 900284,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"voice": "event:/tb/49/tb-49",
+			"say": "Searching through mainframe database... Entity by the name of \u201cArbiter\u201d could not be found.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#a9f548"
+		},
+		{
+			"actor": 9707010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 6,
+			"say": "...Slip of the tongue. Forget I said anything.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 9707010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 3,
+			"say": "And what do we have here... You must be the commander who\u2019s the source of \u201cEnterprise\u2019s\u201d suffering.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "The battle-scarred girl who resembles Hiryuu looks at me and makes eye contact."
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "Her gaze is paralyzing, and I find myself unable to move a muscle."
+		},
+		{
+			"actor": 9707010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 6,
+			"say": "You still haven't realized it, have you? Pitiful... I don't know why she cares so much about you, but as long as you stay out of my way, we won't have any trouble.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "You think we're gonna let you walk, just like that?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 9707010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 3,
+			"say": "Damn right you are. You have no idea who you're talking to.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"say": "Wait. I need to ask you some questions.",
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"actor": 307040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashout": {
+				"dur": 0.5,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "We haven't heard from the Royal Navy either. The war is going pretty badly for everyone...",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "hunhe-level",
+			"bgmDelay": 1,
+			"bgName": "bg_banama_2"
+		},
+		{
+			"say": "But even so... Are you sure about this? Allying with the Sirens? I mean, they were originally created to replace us...",
+			"actor": 307040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashout": {
+				"dur": 0.5,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "Who are you? Who are the Ashes? And what\u2019s your relation to the Sirens?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"bgmDelay": 1,
+			"bgm": "story-6"
+		},
+		{
+			"actor": 9707010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 2,
+			"say": "Antiochus showed you the logs, huh.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 9707010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 3,
+			"say": "Ask \u2018em yourself, if you're so curious. They've taken great interest in you, for whatever reason.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"say": "Interest... in me...? Why?",
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"actor": 9707010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 7,
+			"say": "Don't know, don't care. I don't have time to talk with you people. Out of my way, or I will annihilate every last one of you.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 9707010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 3,
+			"say": "...Word of advice: stay out of Arbiter\u2019s hair if you value your lives.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "The unnamed individual promptly makes off shortly after her final words."
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "She is far too fast for our fleet to ever catch up to her."
+		},
+		{
+			"actor": 105120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "She looked a lot like a member of Ashes... She must be very powerful"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "Yeah, but it\u2019s not like they're unmatchable in strength, based on what the reports say. Commander, if we see her again, we shouldn't just let her leave like that."
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "Hornet has a point; it\u2019s worth trying, at least. That said, it won't be easy to find her if she\u2019s invisible to radar... We need to find a way to track her position."
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "WORLD105E",
+	"once": true
 }

@@ -1,41 +1,41 @@
 {
-  "picture": "",
-  "id": 11014,
-  "desc": "受到致命伤害时不会阵亡，5秒内回避所有伤害",
-  "last_effect": "",
-  "time": 0,
-  "icon": 11014,
-  "effect_list": [
-    {
-      "trigger": [
-        "onBeforeFatalDamage"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 11011
-      }
-    },
-    {
-      "trigger": [
-        "onBeforeFatalDamage"
-      ],
-      "type": "BattleBuffCancelBuff",
-      "arg_list": {
-        "count": 1
-      }
-    },
-    {
-      "trigger": [
-        "onRemove"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "buff_id": 11016
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "铁底湾之夜"
+	"picture": "",
+	"id": 11014,
+	"desc": "\u53d7\u5230\u81f4\u547d\u4f24\u5bb3\u65f6\u4e0d\u4f1a\u9635\u4ea1\uff0c5\u79d2\u5185\u56de\u907f\u6240\u6709\u4f24\u5bb3",
+	"last_effect": "",
+	"time": 0,
+	"icon": 11014,
+	"effect_list": [
+		{
+			"trigger": [
+				"onBeforeFatalDamage"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 11011
+			}
+		},
+		{
+			"trigger": [
+				"onBeforeFatalDamage"
+			],
+			"type": "BattleBuffCancelBuff",
+			"arg_list": {
+				"count": 1
+			}
+		},
+		{
+			"trigger": [
+				"onRemove"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"buff_id": 11016
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u94c1\u5e95\u6e7e\u4e4b\u591c"
 }

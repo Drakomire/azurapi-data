@@ -1,35 +1,35 @@
 {
-  "picture": "",
-  "id": 4,
-  "desc": "耐久低于40%时，回复所有耐久",
-  "last_effect": "Health",
-  "time": 0,
-  "icon": 4,
-  "effect_list": [
-    {
-      "trigger": [
-        "onHPRatioUpdate"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 4,
-        "hpUpperBound": 0.45
-      }
-    },
-    {
-      "trigger": [
-        "onHPRatioUpdate"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 5,
-        "hpUpperBound": 0.45
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "损害管制"
+	"picture": "",
+	"id": 4,
+	"desc": "\u8010\u4e45\u4f4e\u4e8e40%\u65f6\uff0c\u56de\u590d\u6240\u6709\u8010\u4e45",
+	"last_effect": "Health",
+	"time": 0,
+	"icon": 4,
+	"effect_list": [
+		{
+			"trigger": [
+				"onHPRatioUpdate"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 4,
+				"hpUpperBound": 0.45
+			}
+		},
+		{
+			"trigger": [
+				"onHPRatioUpdate"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"target": "TargetSelf",
+				"buff_id": 5,
+				"hpUpperBound": 0.45
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u635f\u5bb3\u7ba1\u5236"
 }

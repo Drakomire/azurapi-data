@@ -1,100 +1,100 @@
 {
-  "1": {
-    "addition": [
-      "1.0%(+0.4%)"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升1.0%"
-  },
-  "2": {
-    "addition": [
-      "1.4%(+0.4%)"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升1.4%"
-  },
-  "3": {
-    "addition": [
-      "1.8%(+0.4%)"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升1.8%"
-  },
-  "4": {
-    "addition": [
-      "2.2%(+0.4%)"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升2.2%"
-  },
-  "5": {
-    "addition": [
-      "2.6%(+0.4%)"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升2.6%"
-  },
-  "6": {
-    "addition": [
-      "3.0%(+0.5%)"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升3.0%"
-  },
-  "7": {
-    "addition": [
-      "3.5%(+0.5%)"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升3.5%"
-  },
-  "8": {
-    "addition": [
-      "4.0%(+0.5%)"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升4.0%"
-  },
-  "9": {
-    "addition": [
-      "4.5%(+0.5%)"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升4.5%"
-  },
-  "10": {
-    "addition": [
-      "5.0%"
-    ],
-    "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升5.0%"
-  },
-  "picture": "",
-  "id": 10540,
-  "effect_list": [
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "nationality": 1,
-        "buff_id": 10541,
-        "minTargetNumber": 1,
-        "check_target": "TargetNationalityFriendly",
-        "isBuffStackByCheckTarget": true
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "minTargetNumber": 1,
-        "nationality": 1,
-        "skill_id": 10540,
-        "check_target": "TargetNationalityFriendly"
-      }
-    }
-  ],
-  "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升$1",
-  "icon": 10540,
-  "last_effect": "",
-  "name": "皇家同盟",
-  "color": "red",
-  "desc_get": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、装填、机动属性上升1.0%(满级5.0%)",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+	"1": {
+		"addition": [
+			"1.0%(+0.4%)"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53471.0%"
+	},
+	"2": {
+		"addition": [
+			"1.4%(+0.4%)"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53471.4%"
+	},
+	"3": {
+		"addition": [
+			"1.8%(+0.4%)"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53471.8%"
+	},
+	"4": {
+		"addition": [
+			"2.2%(+0.4%)"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53472.2%"
+	},
+	"5": {
+		"addition": [
+			"2.6%(+0.4%)"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53472.6%"
+	},
+	"6": {
+		"addition": [
+			"3.0%(+0.5%)"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53473.0%"
+	},
+	"7": {
+		"addition": [
+			"3.5%(+0.5%)"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53473.5%"
+	},
+	"8": {
+		"addition": [
+			"4.0%(+0.5%)"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53474.0%"
+	},
+	"9": {
+		"addition": [
+			"4.5%(+0.5%)"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53474.5%"
+	},
+	"10": {
+		"addition": [
+			"5.0%"
+		],
+		"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53475.0%"
+	},
+	"picture": "",
+	"id": 10540,
+	"effect_list": [
+		{
+			"trigger": [
+				"onStartGame"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"nationality": 1,
+				"buff_id": 10541,
+				"minTargetNumber": 1,
+				"check_target": "TargetNationalityFriendly",
+				"isBuffStackByCheckTarget": true
+			}
+		},
+		{
+			"trigger": [
+				"onStartGame"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"minTargetNumber": 1,
+				"nationality": 1,
+				"skill_id": 10540,
+				"check_target": "TargetNationalityFriendly"
+			}
+		}
+	],
+	"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u5347$1",
+	"icon": 10540,
+	"last_effect": "",
+	"name": "\u7687\u5bb6\u540c\u76df",
+	"color": "red",
+	"desc_get": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u89d2\u8272\uff0c\u81ea\u8eab\u70ae\u51fb\u3001\u9632\u7a7a\u3001\u88c5\u586b\u3001\u673a\u52a8\u5c5e\u6027\u4e0a\u53471.0%(\u6ee1\u7ea75.0%)",
+	"stack": 1,
+	"init_effect": "",
+	"time": 0
 }

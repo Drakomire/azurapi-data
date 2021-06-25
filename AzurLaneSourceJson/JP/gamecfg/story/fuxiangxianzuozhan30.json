@@ -1,593 +1,593 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "bgm": "battle-seiren-theme",
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "―――――！！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 406010,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "バリアの撃破を確認した！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 407030,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "さあ、破滅の時間よ！コンパイラー！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": false,
-      "say": "緊急展開。シールド、再起動",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#ff5c5c",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "なっ！？バリアが復活した！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 401240,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 6,
-      "say": "こ、ここまでやるとは………",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 402050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "しかも本体はいまだに無傷…どうして…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 304010,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "重桜艦隊金剛、参りますわ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "まだ諦めるのは早いわよ！私たちも攻撃に参加する！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 307050,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "補給物資を自由に使っていいと言われたからには、少しでも手伝わないと気が済みませんからね",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 305020,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "山城も手伝います！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "―――――！！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 304010,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "バリアが破れましたわ！今がチャンスよ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "expression": 4,
-      "actor": 900230,
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "…………っ！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": false,
-      "nameColor": "#a9f548",
-      "say": "アイゼンくん！全力でぶっ放すわよ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "say": "移動モジュールヒートアップ完了。潜航モード――",
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "はあああ！！ってあわわわわ！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 407030,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "どうした、ハインリヒ！？こちらからコンパイラーの位置を確認できなくなったわ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 402050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "コンパイラーはその…潜水艦みたいに海に潜ったんです！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "水上戦闘用の艤装と潜航艤装両方持ってるっていうの！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "side": 1,
-      "dir": 1,
-      "paintingNoise": true,
-      "nameColor": "#ff5c5c",
-      "say": "さようなら",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "コンパイラー",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "このままじゃあ見失っちゃうよ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "U-37、最後はあなたの出番みたいね。あのセイレーンを足止めできる？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_fuxiangxian_3"
-    },
-    {
-      "actor": 408100,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "blackBg": true,
-      "say": "こっちはもう待ち伏せ位置にいるよ！ふふん、遠洋の狩人の力を見るがいい！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_134"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "FUXIANGXIANZUOZHAN30",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"bgm": "battle-seiren-theme",
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u2015\u2015\u2015\u2015\u2015\uff01\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 406010,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u30d0\u30ea\u30a2\u306e\u6483\u7834\u3092\u78ba\u8a8d\u3057\u305f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 407030,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u3055\u3042\u3001\u7834\u6ec5\u306e\u6642\u9593\u3088\uff01\u30b3\u30f3\u30d1\u30a4\u30e9\u30fc\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": false,
+			"say": "\u7dca\u6025\u5c55\u958b\u3002\u30b7\u30fc\u30eb\u30c9\u3001\u518d\u8d77\u52d5",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#ff5c5c",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u306a\u3063\uff01\uff1f\u30d0\u30ea\u30a2\u304c\u5fa9\u6d3b\u3057\u305f\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 401240,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 6,
+			"say": "\u3053\u3001\u3053\u3053\u307e\u3067\u3084\u308b\u3068\u306f\u2026\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 402050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u3057\u304b\u3082\u672c\u4f53\u306f\u3044\u307e\u3060\u306b\u7121\u50b7\u2026\u3069\u3046\u3057\u3066\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 304010,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u91cd\u685c\u8266\u968a\u91d1\u525b\u3001\u53c2\u308a\u307e\u3059\u308f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u307e\u3060\u8ae6\u3081\u308b\u306e\u306f\u65e9\u3044\u308f\u3088\uff01\u79c1\u305f\u3061\u3082\u653b\u6483\u306b\u53c2\u52a0\u3059\u308b\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 307050,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u88dc\u7d66\u7269\u8cc7\u3092\u81ea\u7531\u306b\u4f7f\u3063\u3066\u3044\u3044\u3068\u8a00\u308f\u308c\u305f\u304b\u3089\u306b\u306f\u3001\u5c11\u3057\u3067\u3082\u624b\u4f1d\u308f\u306a\u3044\u3068\u6c17\u304c\u6e08\u307f\u307e\u305b\u3093\u304b\u3089\u306d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 305020,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u5c71\u57ce\u3082\u624b\u4f1d\u3044\u307e\u3059\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u2015\u2015\u2015\u2015\u2015\uff01\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 304010,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u30d0\u30ea\u30a2\u304c\u7834\u308c\u307e\u3057\u305f\u308f\uff01\u4eca\u304c\u30c1\u30e3\u30f3\u30b9\u3088\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"expression": 4,
+			"actor": 900230,
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u2026\u2026\u2026\u2026\u3063\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": false,
+			"nameColor": "#a9f548",
+			"say": "\u30a2\u30a4\u30bc\u30f3\u304f\u3093\uff01\u5168\u529b\u3067\u3076\u3063\u653e\u3059\u308f\u3088\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"say": "\u79fb\u52d5\u30e2\u30b8\u30e5\u30fc\u30eb\u30d2\u30fc\u30c8\u30a2\u30c3\u30d7\u5b8c\u4e86\u3002\u6f5c\u822a\u30e2\u30fc\u30c9\u2015\u2015",
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u306f\u3042\u3042\u3042\uff01\uff01\u3063\u3066\u3042\u308f\u308f\u308f\u308f\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 407030,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u3069\u3046\u3057\u305f\u3001\u30cf\u30a4\u30f3\u30ea\u30d2\uff01\uff1f\u3053\u3061\u3089\u304b\u3089\u30b3\u30f3\u30d1\u30a4\u30e9\u30fc\u306e\u4f4d\u7f6e\u3092\u78ba\u8a8d\u3067\u304d\u306a\u304f\u306a\u3063\u305f\u308f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 402050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u30b3\u30f3\u30d1\u30a4\u30e9\u30fc\u306f\u305d\u306e\u2026\u6f5c\u6c34\u8266\u307f\u305f\u3044\u306b\u6d77\u306b\u6f5c\u3063\u305f\u3093\u3067\u3059\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u6c34\u4e0a\u6226\u95d8\u7528\u306e\u8264\u88c5\u3068\u6f5c\u822a\u8264\u88c5\u4e21\u65b9\u6301\u3063\u3066\u308b\u3063\u3066\u3044\u3046\u306e\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"side": 1,
+			"dir": 1,
+			"paintingNoise": true,
+			"nameColor": "#ff5c5c",
+			"say": "\u3055\u3088\u3046\u306a\u3089",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u30b3\u30f3\u30d1\u30a4\u30e9\u30fc",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u3053\u306e\u307e\u307e\u3058\u3083\u3042\u898b\u5931\u3063\u3061\u3083\u3046\u3088\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "U-37\u3001\u6700\u5f8c\u306f\u3042\u306a\u305f\u306e\u51fa\u756a\u307f\u305f\u3044\u306d\u3002\u3042\u306e\u30bb\u30a4\u30ec\u30fc\u30f3\u3092\u8db3\u6b62\u3081\u3067\u304d\u308b\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_fuxiangxian_3"
+		},
+		{
+			"actor": 408100,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"blackBg": true,
+			"say": "\u3053\u3063\u3061\u306f\u3082\u3046\u5f85\u3061\u4f0f\u305b\u4f4d\u7f6e\u306b\u3044\u308b\u3088\uff01\u3075\u3075\u3093\u3001\u9060\u6d0b\u306e\u72e9\u4eba\u306e\u529b\u3092\u898b\u308b\u304c\u3044\u3044\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_134"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "FUXIANGXIANZUOZHAN30",
+	"once": true
 }

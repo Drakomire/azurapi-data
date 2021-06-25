@@ -1,76 +1,76 @@
 {
-  "1": {},
-  "2": {},
-  "3": {},
-  "4": {},
-  "5": {},
-  "6": {},
-  "7": {},
-  "8": {},
-  "9": {},
-  "10": {},
-  "picture": "",
-  "id": 11920,
-  "effect_list": [
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "maxTargetNumber": 0,
-        "buff_id": 11923,
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "ship_tag_list": [
-          "KnightPowerUp"
-        ]
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "buff_id": 11924,
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "check_target": [
-          "TargetSelf",
-          "TargetShipTag"
-        ],
-        "ship_tag_list": [
-          "KnightPowerUp"
-        ]
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "check_target": "TargetShipTag",
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "Cleveland-Class"
-        ],
-        "target": "TargetSelf",
-        "skill_id": 11922
-      }
-    }
-  ],
-  "desc": "检查TAG",
-  "icon": 11920,
-  "last_effect": "",
-  "name": "天之骑士·检测PUTAG",
-  "color": "red",
-  "desc_get": "",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+	"1": [],
+	"2": [],
+	"3": [],
+	"4": [],
+	"5": [],
+	"6": [],
+	"7": [],
+	"8": [],
+	"9": [],
+	"10": [],
+	"picture": "",
+	"id": 11920,
+	"effect_list": [
+		{
+			"trigger": [
+				"onStartGame"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"maxTargetNumber": 0,
+				"buff_id": 11923,
+				"target": "TargetSelf",
+				"check_target": [
+					"TargetSelf",
+					"TargetShipTag"
+				],
+				"ship_tag_list": [
+					"KnightPowerUp"
+				]
+			}
+		},
+		{
+			"trigger": [
+				"onStartGame"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"buff_id": 11924,
+				"minTargetNumber": 1,
+				"target": "TargetSelf",
+				"check_target": [
+					"TargetSelf",
+					"TargetShipTag"
+				],
+				"ship_tag_list": [
+					"KnightPowerUp"
+				]
+			}
+		},
+		{
+			"trigger": [
+				"onStartGame"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"check_target": "TargetShipTag",
+				"minTargetNumber": 1,
+				"ship_tag_list": [
+					"Cleveland-Class"
+				],
+				"target": "TargetSelf",
+				"skill_id": 11922
+			}
+		}
+	],
+	"desc": "\u68c0\u67e5TAG",
+	"icon": 11920,
+	"last_effect": "",
+	"name": "\u5929\u4e4b\u9a91\u58eb\u00b7\u68c0\u6d4bPUTAG",
+	"color": "red",
+	"desc_get": "",
+	"stack": 1,
+	"init_effect": "",
+	"time": 0
 }

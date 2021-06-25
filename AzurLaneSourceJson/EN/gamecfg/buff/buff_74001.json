@@ -1,31 +1,31 @@
 {
-  "picture": "",
-  "id": 74001,
-  "color": "red",
-  "desc": "战斗对象在场时，当我方舰队受到治疗时，偷窃治疗恢复自己的X%生命",
-  "blink": [
-    1,
-    0,
-    0,
-    0.3,
-    0.3
-  ],
-  "last_effect": "",
-  "name": "治疗偷窃",
-  "icon": 74000,
-  "effect_list": [
-    {
-      "trigger": [
-        "onTakeHealing"
-      ],
-      "type": "BattleBuffHealingSteal",
-      "arg_list": {
-        "stealingRate": 1,
-        "arsorbRate": 1
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+	"picture": "",
+	"id": 74001,
+	"color": "red",
+	"desc": "\u6218\u6597\u5bf9\u8c61\u5728\u573a\u65f6\uff0c\u5f53\u6211\u65b9\u8230\u961f\u53d7\u5230\u6cbb\u7597\u65f6\uff0c\u5077\u7a83\u6cbb\u7597\u6062\u590d\u81ea\u5df1\u7684X%\u751f\u547d",
+	"blink": [
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	],
+	"last_effect": "",
+	"name": "\u6cbb\u7597\u5077\u7a83",
+	"icon": 74000,
+	"effect_list": [
+		{
+			"trigger": [
+				"onTakeHealing"
+			],
+			"type": "BattleBuffHealingSteal",
+			"arg_list": {
+				"stealingRate": 1,
+				"arsorbRate": 1
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"time": 0
 }

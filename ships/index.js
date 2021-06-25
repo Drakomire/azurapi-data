@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const stringify = require("json-stringify-pretty-compact");
+const { error } = require("console");
 
 const RARITY = {
     2: "Common",
@@ -147,7 +148,7 @@ function readFilesFromLanguage(lang = "EN") {
         compiled[ship.group_type].skills = skills
 
         //Add retrofit info
-        try{
+        try {
            let l = retrofit[ship.group_type].transform_list;
            let o = []
            for (i in l){
@@ -167,7 +168,7 @@ function readFilesFromLanguage(lang = "EN") {
 
            //Calculate the next nodes
            for (i in o){
-            nodes = o[i].required_nodes
+             nodes = o[i].required_nodes
             for (n of nodes){
               o[n%100-1].next_nodes.push(o[i].node)
             }
@@ -188,7 +189,7 @@ function readFilesFromLanguage(lang = "EN") {
 
            }
         }catch{
-          //Ship doesn't have a retrofit
+
         }
 
 

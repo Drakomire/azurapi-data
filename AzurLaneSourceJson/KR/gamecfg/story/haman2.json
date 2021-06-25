@@ -1,367 +1,367 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "허먼 관찰일기\n\n<size=45>2. 기쁘지 않은 이유·상</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "options": [
-        {
-          "content": "창 밖으로 허먼이 어떻게 하는지 보자.",
-          "flag": 1
-        }
-      ],
-      "dir": 1,
-      "side": 2,
-      "say": "허먼에게 지휘실에서 쫓겨난지 1분 뒤——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "그 바보! 허먼이 모처럼 도와준다고 했는데 '너무 무리해도 좋지 않아'라니?!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "일이 바쁘면 비서함이 도와주는게 당연한 거 아니야?!",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "action": [
-        {
-          "y": -15,
-          "type": "shake",
-          "dur": 0.6,
-          "number": 1
-        },
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "delay": 1.2,
-          "number": 3
-        }
-      ],
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……다음 연습 시찰 시간은…… 오후 4시…… 2시간 남았잖아?!",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "options": [
-        {
-          "content": "아, 멍 때린다",
-          "flag": 1
-        }
-      ],
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……우우……",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2
-        }
-      ],
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "흥, 흥! 전부 지휘관이 문서를 늦게 처리해서야!",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "action": [
-        {
-          "y": -15,
-          "type": "shake",
-          "dur": 0.6,
-          "number": 1
-        },
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "delay": 1.2,
-          "number": 3
-        }
-      ],
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……오늘 처리해야하는 건…… 이거 전부?!",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "action": [
-        {
-          "y": -15,
-          "type": "shake",
-          "dur": 0.6,
-          "number": 1
-        },
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "delay": 1.2,
-          "number": 3
-        }
-      ],
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "…시간은… 아침부터 이렇게나 많이?!",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "action": [
-        {
-          "y": -30,
-          "type": "shake",
-          "dur": 1,
-          "number": 1
-        }
-      ],
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "그, 그래서 자료는 내일이라고 한 거구나……",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "options": [
-        {
-          "content": "아, 또 멈췄다",
-          "flag": 1
-        }
-      ],
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "…………우우………………",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "힘, 힘냈구나…… 역시 허먼의 지휘관이야……",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "가끔은 저질스럽긴 하지만 그래도 모두에게는 상냥하니까……",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.6,
-          "number": 1,
-          "x": 15
-        }
-      ],
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "게다가 전장에서는 그렇게 멋있으면서 왜 허먼에게는……",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "아!",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101250,
-      "side": 2,
-      "dir": 1,
-      "blackBg": true,
-      "say": "왜 지휘관을 쫓아낸 거지!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "HAMAN2",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\ud5c8\uba3c \uad00\ucc30\uc77c\uae30\n\n<size=45>2. \uae30\uc058\uc9c0 \uc54a\uc740 \uc774\uc720\u00b7\uc0c1</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"options": [
+				{
+					"content": "\ucc3d \ubc16\uc73c\ub85c \ud5c8\uba3c\uc774 \uc5b4\ub5bb\uac8c \ud558\ub294\uc9c0 \ubcf4\uc790.",
+					"flag": 1
+				}
+			],
+			"dir": 1,
+			"side": 2,
+			"say": "\ud5c8\uba3c\uc5d0\uac8c \uc9c0\ud718\uc2e4\uc5d0\uc11c \ucad3\uaca8\ub09c\uc9c0 1\ubd84 \ub4a4\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uadf8 \ubc14\ubcf4! \ud5c8\uba3c\uc774 \ubaa8\ucc98\ub7fc \ub3c4\uc640\uc900\ub2e4\uace0 \ud588\ub294\ub370 '\ub108\ubb34 \ubb34\ub9ac\ud574\ub3c4 \uc88b\uc9c0 \uc54a\uc544'\ub77c\ub2c8?!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc77c\uc774 \ubc14\uc058\uba74 \ube44\uc11c\ud568\uc774 \ub3c4\uc640\uc8fc\ub294\uac8c \ub2f9\uc5f0\ud55c \uac70 \uc544\ub2c8\uc57c?!",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"action": [
+				{
+					"y": -15,
+					"type": "shake",
+					"dur": 0.6,
+					"number": 1
+				},
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"delay": 1.2,
+					"number": 3
+				}
+			],
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\ub2e4\uc74c \uc5f0\uc2b5 \uc2dc\ucc30 \uc2dc\uac04\uc740\u2026\u2026 \uc624\ud6c4 4\uc2dc\u2026\u2026 2\uc2dc\uac04 \ub0a8\uc558\uc796\uc544?!",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"options": [
+				{
+					"content": "\uc544, \uba4d \ub54c\ub9b0\ub2e4",
+					"flag": 1
+				}
+			],
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\uc6b0\uc6b0\u2026\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2
+				}
+			],
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ud765, \ud765! \uc804\ubd80 \uc9c0\ud718\uad00\uc774 \ubb38\uc11c\ub97c \ub2a6\uac8c \ucc98\ub9ac\ud574\uc11c\uc57c!",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"action": [
+				{
+					"y": -15,
+					"type": "shake",
+					"dur": 0.6,
+					"number": 1
+				},
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"delay": 1.2,
+					"number": 3
+				}
+			],
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\uc624\ub298 \ucc98\ub9ac\ud574\uc57c\ud558\ub294 \uac74\u2026\u2026 \uc774\uac70 \uc804\ubd80?!",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"action": [
+				{
+					"y": -15,
+					"type": "shake",
+					"dur": 0.6,
+					"number": 1
+				},
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"delay": 1.2,
+					"number": 3
+				}
+			],
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\uc2dc\uac04\uc740\u2026 \uc544\uce68\ubd80\ud130 \uc774\ub807\uac8c\ub098 \ub9ce\uc774?!",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"action": [
+				{
+					"y": -30,
+					"type": "shake",
+					"dur": 1,
+					"number": 1
+				}
+			],
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uadf8, \uadf8\ub798\uc11c \uc790\ub8cc\ub294 \ub0b4\uc77c\uc774\ub77c\uace0 \ud55c \uac70\uad6c\ub098\u2026\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"options": [
+				{
+					"content": "\uc544, \ub610 \uba48\ucdc4\ub2e4",
+					"flag": 1
+				}
+			],
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\u2026\u2026\uc6b0\uc6b0\u2026\u2026\u2026\u2026\u2026\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ud798, \ud798\ub0c8\uad6c\ub098\u2026\u2026 \uc5ed\uc2dc \ud5c8\uba3c\uc758 \uc9c0\ud718\uad00\uc774\uc57c\u2026\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uac00\ub054\uc740 \uc800\uc9c8\uc2a4\ub7fd\uae34 \ud558\uc9c0\ub9cc \uadf8\ub798\ub3c4 \ubaa8\ub450\uc5d0\uac8c\ub294 \uc0c1\ub0e5\ud558\ub2c8\uae4c\u2026\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.6,
+					"number": 1,
+					"x": 15
+				}
+			],
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uac8c\ub2e4\uac00 \uc804\uc7a5\uc5d0\uc11c\ub294 \uadf8\ub807\uac8c \uba4b\uc788\uc73c\uba74\uc11c \uc65c \ud5c8\uba3c\uc5d0\uac8c\ub294\u2026\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc544!",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101250,
+			"side": 2,
+			"dir": 1,
+			"blackBg": true,
+			"say": "\uc65c \uc9c0\ud718\uad00\uc744 \ucad3\uc544\ub0b8 \uac70\uc9c0!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "HAMAN2",
+	"once": true
 }

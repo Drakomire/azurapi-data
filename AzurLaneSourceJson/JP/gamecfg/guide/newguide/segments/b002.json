@@ -1,56 +1,56 @@
 {
-  "id": "B002",
-  "events": [
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "主力艦隊の<color=#ff7d36>航空攻撃</color>は準備OKよ！",
-        "posX": 0,
-        "mode": 2
-      },
-      "hideui": [
-        {
-          "ishide": false,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
-        }
-      ],
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill3"
-      ]
-    },
-    {
-      "ui": {
-        "triggerType": [
-          3
-        ],
-        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl"
-      },
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "敵を一掃するわ！<color=#ff7d36>航空攻撃</color>ボタンをタップしてみて！",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill3"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "航空攻撃のちからを見たか！緊急時に使用すると、<color=#ff7d36>敵の弾幕</color>を消す効果もあるわ！",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ReleaseAfter"
-      ]
-    }
-  ]
+	"id": "B002",
+	"events": [
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u4e3b\u529b\u8266\u968a\u306e<color=#ff7d36>\u822a\u7a7a\u653b\u6483</color>\u306f\u6e96\u5099OK\u3088\uff01",
+				"posX": 0,
+				"mode": 2
+			},
+			"hideui": [
+				{
+					"ishide": false,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+				}
+			],
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill3"
+			]
+		},
+		{
+			"ui": {
+				"triggerType": [
+					3
+				],
+				"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl"
+			},
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u6575\u3092\u4e00\u6383\u3059\u308b\u308f\uff01<color=#ff7d36>\u822a\u7a7a\u653b\u6483</color>\u30dc\u30bf\u30f3\u3092\u30bf\u30c3\u30d7\u3057\u3066\u307f\u3066\uff01",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill3"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u822a\u7a7a\u653b\u6483\u306e\u3061\u304b\u3089\u3092\u898b\u305f\u304b\uff01\u7dca\u6025\u6642\u306b\u4f7f\u7528\u3059\u308b\u3068\u3001<color=#ff7d36>\u6575\u306e\u5f3e\u5e55</color>\u3092\u6d88\u3059\u52b9\u679c\u3082\u3042\u308b\u308f\uff01",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ReleaseAfter"
+			]
+		}
+	]
 }

@@ -1,92 +1,92 @@
 {
-  "id": "WorldG190",
-  "events": [
-    {
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": -74.7,
-        "dir": 1,
-        "text": "大型作战中有可能收集到信标数据，这些数据会被记录在信标记录仪中。",
-        "posX": -471.5,
-        "mode": 2
-      }
-    },
-    {
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": 335.5,
-        "dir": 1,
-        "ui": {
-          "path": "OverlayCamera/Overlay/UIMain/top/adapt/top_stage/resources/WorldResPanel(Clone)/res/boss_progress",
-          "lineMode": true
-        },
-        "text": "收集到的信标数据可以点击此处查看。",
-        "posX": 0,
-        "mode": 2
-      }
-    },
-    {
-      "notifies": [
-        {
-          "body": {
-            "line": {
-              "row": 5,
-              "column": 0
-            },
-            "stayTime": 0.1
-          },
-          "notify": "world focus edge"
-        }
-      ],
-      "alpha": 0,
-      "code": [
-        "FocusOnFleet"
-      ]
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": -160,
-        "dir": -1,
-        "text": "刚刚解锁了新的功能，返回主界面查看一下吧",
-        "posX": -460,
-        "mode": 2
-      },
-      "code": [
-        "ShowClickArea"
-      ],
-      "showSign": {
-        "clickArea": [
-          300,
-          200
-        ],
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4,
-            "pos": [
-              -550,
-              150,
-              0
-            ]
-          }
-        ]
-      },
-      "delay": 0.5,
-      "alpha": 0.3
-    },
-    {
-      "notifies": [
-        {
-          "notify": "world open transport pos"
-        }
-      ],
-      "alpha": 0,
-      "code": [
-        "openOverview"
-      ]
-    }
-  ]
+	"id": "WorldG190",
+	"events": [
+		{
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": -74.7,
+				"dir": 1,
+				"text": "\u5927\u578b\u4f5c\u6218\u4e2d\u6709\u53ef\u80fd\u6536\u96c6\u5230\u4fe1\u6807\u6570\u636e\uff0c\u8fd9\u4e9b\u6570\u636e\u4f1a\u88ab\u8bb0\u5f55\u5728\u4fe1\u6807\u8bb0\u5f55\u4eea\u4e2d\u3002",
+				"posX": -471.5,
+				"mode": 2
+			}
+		},
+		{
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": 335.5,
+				"dir": 1,
+				"ui": {
+					"path": "OverlayCamera/Overlay/UIMain/top/adapt/top_stage/resources/WorldResPanel(Clone)/res/boss_progress",
+					"lineMode": true
+				},
+				"text": "\u6536\u96c6\u5230\u7684\u4fe1\u6807\u6570\u636e\u53ef\u4ee5\u70b9\u51fb\u6b64\u5904\u67e5\u770b\u3002",
+				"posX": 0,
+				"mode": 2
+			}
+		},
+		{
+			"notifies": [
+				{
+					"body": {
+						"line": {
+							"row": 5,
+							"column": 0
+						},
+						"stayTime": 0.1
+					},
+					"notify": "world focus edge"
+				}
+			],
+			"alpha": 0,
+			"code": [
+				"FocusOnFleet"
+			]
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": -160,
+				"dir": -1,
+				"text": "\u521a\u521a\u89e3\u9501\u4e86\u65b0\u7684\u529f\u80fd\uff0c\u8fd4\u56de\u4e3b\u754c\u9762\u67e5\u770b\u4e00\u4e0b\u5427",
+				"posX": -460,
+				"mode": 2
+			},
+			"code": [
+				"ShowClickArea"
+			],
+			"showSign": {
+				"clickArea": [
+					300,
+					200
+				],
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4,
+						"pos": [
+							-550,
+							150,
+							0
+						]
+					}
+				]
+			},
+			"delay": 0.5,
+			"alpha": 0.3
+		},
+		{
+			"notifies": [
+				{
+					"notify": "world open transport pos"
+				}
+			],
+			"alpha": 0,
+			"code": [
+				"openOverview"
+			]
+		}
+	]
 }

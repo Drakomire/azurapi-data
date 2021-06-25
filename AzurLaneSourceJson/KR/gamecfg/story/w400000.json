@@ -1,71 +1,71 @@
 {
-  "skipTip": false,
-  "scripts": [
-    {
-      "say": "경고: 지휘관님, 정찰 모듈을 통해 전방 해역의 어떤한 정보도 획득할 수 없습니다. 해역에 미지의 강적이 존재할 확률이 100%에 근접합니다.",
-      "actor": 900284,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#a9f548"
-    },
-    {
-      "actor": 900284,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "세이렌 구역 봉쇄 장치를 제거하고 해역의 깊은 곳으로 이동하시겠습니까?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "확인",
-          "flag": 1
-        },
-        {
-          "content": "작전 설명 확인",
-          "flag": 2
-        },
-        {
-          "content": "이탈",
-          "flag": 3
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#a9f548"
-    },
-    {
-      "actor": 900284,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "optionFlag": 1,
-      "say": "지령 확인: 세이렌 구역 봉쇄 장치 제거 시도 중——————",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#a9f548"
-    }
-  ],
-  "id": "W400000",
-  "mode": 2,
-  "once": true
+	"skipTip": false,
+	"scripts": [
+		{
+			"say": "\uacbd\uace0: \uc9c0\ud718\uad00\ub2d8, \uc815\ucc30 \ubaa8\ub4c8\uc744 \ud1b5\ud574 \uc804\ubc29 \ud574\uc5ed\uc758 \uc5b4\ub5a4\ud55c \uc815\ubcf4\ub3c4 \ud68d\ub4dd\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. \ud574\uc5ed\uc5d0 \ubbf8\uc9c0\uc758 \uac15\uc801\uc774 \uc874\uc7ac\ud560 \ud655\ub960\uc774 100%\uc5d0 \uadfc\uc811\ud569\ub2c8\ub2e4.",
+			"actor": 900284,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#a9f548"
+		},
+		{
+			"actor": 900284,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\uc138\uc774\ub80c \uad6c\uc5ed \ubd09\uc1c4 \uc7a5\uce58\ub97c \uc81c\uac70\ud558\uace0 \ud574\uc5ed\uc758 \uae4a\uc740 \uacf3\uc73c\ub85c \uc774\ub3d9\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\ud655\uc778",
+					"flag": 1
+				},
+				{
+					"content": "\uc791\uc804 \uc124\uba85 \ud655\uc778",
+					"flag": 2
+				},
+				{
+					"content": "\uc774\ud0c8",
+					"flag": 3
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#a9f548"
+		},
+		{
+			"actor": 900284,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"optionFlag": 1,
+			"say": "\uc9c0\ub839 \ud655\uc778: \uc138\uc774\ub80c \uad6c\uc5ed \ubd09\uc1c4 \uc7a5\uce58 \uc81c\uac70 \uc2dc\ub3c4 \uc911\u2014\u2014\u2014\u2014\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#a9f548"
+		}
+	],
+	"id": "W400000",
+	"mode": 2,
+	"once": true
 }

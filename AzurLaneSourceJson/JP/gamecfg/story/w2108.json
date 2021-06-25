@@ -1,43 +1,43 @@
 {
-  "skipTip": false,
-  "scripts": [
-    {
-      "say": "スキャンが完了しました。この装置を起動させることができれば、エリアの詳細情報を確認できるようです",
-      "actor": 900284,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#a9f548"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "options": [
-        {
-          "content": "装置を起動する",
-          "flag": 0
-        },
-        {
-          "content": "装置から離れる",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "「エネルギー貯蔵装置」を1個消費し、装置を起動しますか？"
-    }
-  ],
-  "id": "W2108",
-  "mode": 2,
-  "once": true
+	"skipTip": false,
+	"scripts": [
+		{
+			"say": "\u30b9\u30ad\u30e3\u30f3\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u3002\u3053\u306e\u88c5\u7f6e\u3092\u8d77\u52d5\u3055\u305b\u308b\u3053\u3068\u304c\u3067\u304d\u308c\u3070\u3001\u30a8\u30ea\u30a2\u306e\u8a73\u7d30\u60c5\u5831\u3092\u78ba\u8a8d\u3067\u304d\u308b\u3088\u3046\u3067\u3059",
+			"actor": 900284,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#a9f548"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"options": [
+				{
+					"content": "\u88c5\u7f6e\u3092\u8d77\u52d5\u3059\u308b",
+					"flag": 0
+				},
+				{
+					"content": "\u88c5\u7f6e\u304b\u3089\u96e2\u308c\u308b",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u300c\u30a8\u30cd\u30eb\u30ae\u30fc\u8caf\u8535\u88c5\u7f6e\u300d\u30921\u500b\u6d88\u8cbb\u3057\u3001\u88c5\u7f6e\u3092\u8d77\u52d5\u3057\u307e\u3059\u304b\uff1f"
+		}
+	],
+	"id": "W2108",
+	"mode": 2,
+	"once": true
 }

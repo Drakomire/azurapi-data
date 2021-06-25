@@ -1,112 +1,112 @@
 {
-  "id": "WorldG120",
-  "events": [
-    {
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": -44.8,
-          "posX": 64.54,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_order",
-        "triggerType": [
-          1
-        ]
-      },
-      "style": {
-        "posY": 192.3,
-        "dir": 1,
-        "text": "点击G.M系统左上角的按钮可以进入舰队指令面板。",
-        "posX": 353.1,
-        "mode": 1
-      },
-      "alpha": 0.3,
-      "code": [
-        "ClickOrder"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "舰队部署可以重新部署在大型作战中使用的舰队，并且每次使用后都可以为舰船恢复所有生命值。",
-        "posX": 0,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/redeploy"
-        }
-      },
-      "alpha": 0.3,
-      "code": [
-        "ShowButton1"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "舰队休整可以提高舰队因作战失败而下降的士气。",
-        "posX": 0,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/maintenance"
-        }
-      },
-      "alpha": 0.3,
-      "code": [
-        "ShowButton2"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": -1,
-        "text": "空域侦查可以在有战争迷雾的海域中使用，以打开海域视野。",
-        "posX": 0,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/fov"
-        }
-      },
-      "alpha": 0.3,
-      "code": [
-        "ShowButton3"
-      ]
-    },
-    {
-      "stories": [
-        "WNNG01"
-      ],
-      "alpha": 0,
-      "code": [
-        "playStory"
-      ]
-    }
-  ]
+	"id": "WorldG120",
+	"events": [
+		{
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": -44.8,
+					"posX": 64.54,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_order",
+				"triggerType": [
+					1
+				]
+			},
+			"style": {
+				"posY": 192.3,
+				"dir": 1,
+				"text": "\u70b9\u51fbG.M\u7cfb\u7edf\u5de6\u4e0a\u89d2\u7684\u6309\u94ae\u53ef\u4ee5\u8fdb\u5165\u8230\u961f\u6307\u4ee4\u9762\u677f\u3002",
+				"posX": 353.1,
+				"mode": 1
+			},
+			"alpha": 0.3,
+			"code": [
+				"ClickOrder"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u8230\u961f\u90e8\u7f72\u53ef\u4ee5\u91cd\u65b0\u90e8\u7f72\u5728\u5927\u578b\u4f5c\u6218\u4e2d\u4f7f\u7528\u7684\u8230\u961f\uff0c\u5e76\u4e14\u6bcf\u6b21\u4f7f\u7528\u540e\u90fd\u53ef\u4ee5\u4e3a\u8230\u8239\u6062\u590d\u6240\u6709\u751f\u547d\u503c\u3002",
+				"posX": 0,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/redeploy"
+				}
+			},
+			"alpha": 0.3,
+			"code": [
+				"ShowButton1"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u8230\u961f\u4f11\u6574\u53ef\u4ee5\u63d0\u9ad8\u8230\u961f\u56e0\u4f5c\u6218\u5931\u8d25\u800c\u4e0b\u964d\u7684\u58eb\u6c14\u3002",
+				"posX": 0,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/maintenance"
+				}
+			},
+			"alpha": 0.3,
+			"code": [
+				"ShowButton2"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": -1,
+				"text": "\u7a7a\u57df\u4fa6\u67e5\u53ef\u4ee5\u5728\u6709\u6218\u4e89\u8ff7\u96fe\u7684\u6d77\u57df\u4e2d\u4f7f\u7528\uff0c\u4ee5\u6253\u5f00\u6d77\u57df\u89c6\u91ce\u3002",
+				"posX": 0,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/fov"
+				}
+			},
+			"alpha": 0.3,
+			"code": [
+				"ShowButton3"
+			]
+		},
+		{
+			"stories": [
+				"WNNG01"
+			],
+			"alpha": 0,
+			"code": [
+				"playStory"
+			]
+		}
+	]
 }

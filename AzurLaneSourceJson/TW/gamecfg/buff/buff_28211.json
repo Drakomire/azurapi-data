@@ -1,41 +1,41 @@
 {
-  "1": {
-    "desc": "主炮每进行9次攻击，触发全弹发射-阿尔及利亚I"
-  },
-  "picture": "",
-  "id": 28211,
-  "desc": "主炮每进行9次攻击，触发全弹发射-阿尔及利亚I",
-  "color": "red",
-  "last_effect": "",
-  "time": 0,
-  "icon": 20200,
-  "effect_list": [
-    {
-      "trigger": [
-        "onFire"
-      ],
-      "type": "BattleBuffCount",
-      "arg_list": {
-        "countTarget": 9,
-        "countType": 28210,
-        "index": [
-          1
-        ]
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "countType": 28210,
-        "skill_id": 28211
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "全弹发射"
+	"1": {
+		"desc": "\u4e3b\u70ae\u6bcf\u8fdb\u884c9\u6b21\u653b\u51fb\uff0c\u89e6\u53d1\u5168\u5f39\u53d1\u5c04-\u963f\u5c14\u53ca\u5229\u4e9aI"
+	},
+	"picture": "",
+	"id": 28211,
+	"desc": "\u4e3b\u70ae\u6bcf\u8fdb\u884c9\u6b21\u653b\u51fb\uff0c\u89e6\u53d1\u5168\u5f39\u53d1\u5c04-\u963f\u5c14\u53ca\u5229\u4e9aI",
+	"color": "red",
+	"last_effect": "",
+	"time": 0,
+	"icon": 20200,
+	"effect_list": [
+		{
+			"trigger": [
+				"onFire"
+			],
+			"type": "BattleBuffCount",
+			"arg_list": {
+				"countTarget": 9,
+				"countType": 28210,
+				"index": [
+					1
+				]
+			}
+		},
+		{
+			"trigger": [
+				"onBattleBuffCount"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"countType": 28210,
+				"skill_id": 28211
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u5168\u5f39\u53d1\u5c04"
 }

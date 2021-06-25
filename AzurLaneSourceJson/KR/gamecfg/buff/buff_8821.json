@@ -1,65 +1,65 @@
 {
-  "picture": "",
-  "id": 8821,
-  "desc": "AT·FIELD",
-  "effect_list": [
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddTag",
-      "arg_list": {
-        "tag": "SHIELD"
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate",
-        "onRemove",
-        "onAttach",
-        "onTakeDamage"
-      ],
-      "type": "BattleBuffBarrier",
-      "arg_list": {
-        "durability": 10000,
-        "cld_data": {
-          "offset": [
-            0,
-            4,
-            0
-          ],
-          "box": {
-            "range": 28
-          }
-        }
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 8821
-      }
-    },
-    {
-      "trigger": [
-        "onRemove"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 8823
-      }
-    }
-  ],
-  "last_effect": "ATdun_full",
-  "time": 12.1,
-  "icon": 8821,
-  "last_effect_cld_scale": true,
-  "stack": 1,
-  "init_effect": "",
-  "name": "2020德系活动EX 构建者反击护盾"
+	"picture": "",
+	"id": 8821,
+	"desc": "AT\u00b7FIELD",
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffAddTag",
+			"arg_list": {
+				"tag": "SHIELD"
+			}
+		},
+		{
+			"trigger": [
+				"onUpdate",
+				"onRemove",
+				"onAttach",
+				"onTakeDamage"
+			],
+			"type": "BattleBuffBarrier",
+			"arg_list": {
+				"durability": 10000,
+				"cld_data": {
+					"offset": [
+						0,
+						4,
+						0
+					],
+					"box": {
+						"range": 28
+					}
+				}
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 8821
+			}
+		},
+		{
+			"trigger": [
+				"onRemove"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 8823
+			}
+		}
+	],
+	"last_effect": "ATdun_full",
+	"time": 12.1,
+	"icon": 8821,
+	"last_effect_cld_scale": true,
+	"stack": 1,
+	"init_effect": "",
+	"name": "2020\u5fb7\u7cfb\u6d3b\u52a8EX \u6784\u5efa\u8005\u53cd\u51fb\u62a4\u76fe"
 }

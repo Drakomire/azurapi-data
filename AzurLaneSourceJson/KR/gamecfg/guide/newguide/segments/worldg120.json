@@ -1,112 +1,112 @@
 {
-  "id": "WorldG120",
-  "events": [
-    {
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": -44.8,
-          "posX": 64.54,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_order",
-        "triggerType": [
-          1
-        ]
-      },
-      "style": {
-        "posY": 192.3,
-        "dir": 1,
-        "text": "G.M 시스템 좌측 상단의 버튼으로 함대 지령 진입 가능",
-        "posX": 353.1,
-        "mode": 1
-      },
-      "alpha": 0.3,
-      "code": [
-        "ClickOrder"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "함대 배치에서 대형 작전에서 사용할 함대를 재배치할 수 있으며, 매번 사용 후 함대의 모든 HP 회복 가능",
-        "posX": 0,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/redeploy"
-        }
-      },
-      "alpha": 0.3,
-      "code": [
-        "ShowButton1"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "함대 정비로 작전 실패로 인해 떨어진 사기를 높일 수 있습니다.",
-        "posX": 0,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/maintenance"
-        }
-      },
-      "alpha": 0.3,
-      "code": [
-        "ShowButton2"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": -1,
-        "text": "공역 정찰은 안개가 낀 해역에서 사용하여 해역 시야를 확보할 수 있습니다.",
-        "posX": 0,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/fov"
-        }
-      },
-      "alpha": 0.3,
-      "code": [
-        "ShowButton3"
-      ]
-    },
-    {
-      "stories": [
-        "WNNG01"
-      ],
-      "alpha": 0,
-      "code": [
-        "playStory"
-      ]
-    }
-  ]
+	"id": "WorldG120",
+	"events": [
+		{
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": -44.8,
+					"posX": 64.54,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_order",
+				"triggerType": [
+					1
+				]
+			},
+			"style": {
+				"posY": 192.3,
+				"dir": 1,
+				"text": "G.M \uc2dc\uc2a4\ud15c \uc88c\uce21 \uc0c1\ub2e8\uc758 \ubc84\ud2bc\uc73c\ub85c \ud568\ub300 \uc9c0\ub839 \uc9c4\uc785 \uac00\ub2a5",
+				"posX": 353.1,
+				"mode": 1
+			},
+			"alpha": 0.3,
+			"code": [
+				"ClickOrder"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\ud568\ub300 \ubc30\uce58\uc5d0\uc11c \ub300\ud615 \uc791\uc804\uc5d0\uc11c \uc0ac\uc6a9\ud560 \ud568\ub300\ub97c \uc7ac\ubc30\uce58\ud560 \uc218 \uc788\uc73c\uba70, \ub9e4\ubc88 \uc0ac\uc6a9 \ud6c4 \ud568\ub300\uc758 \ubaa8\ub4e0 HP \ud68c\ubcf5 \uac00\ub2a5",
+				"posX": 0,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/redeploy"
+				}
+			},
+			"alpha": 0.3,
+			"code": [
+				"ShowButton1"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\ud568\ub300 \uc815\ube44\ub85c \uc791\uc804 \uc2e4\ud328\ub85c \uc778\ud574 \ub5a8\uc5b4\uc9c4 \uc0ac\uae30\ub97c \ub192\uc77c \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+				"posX": 0,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/maintenance"
+				}
+			},
+			"alpha": 0.3,
+			"code": [
+				"ShowButton2"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": -1,
+				"text": "\uacf5\uc5ed \uc815\ucc30\uc740 \uc548\uac1c\uac00 \ub080 \ud574\uc5ed\uc5d0\uc11c \uc0ac\uc6a9\ud558\uc5ec \ud574\uc5ed \uc2dc\uc57c\ub97c \ud655\ubcf4\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+				"posX": 0,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/fov"
+				}
+			},
+			"alpha": 0.3,
+			"code": [
+				"ShowButton3"
+			]
+		},
+		{
+			"stories": [
+				"WNNG01"
+			],
+			"alpha": 0,
+			"code": [
+				"playStory"
+			]
+		}
+	]
 }

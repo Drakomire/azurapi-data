@@ -1,70 +1,70 @@
 {
-  "1": {},
-  "2": {},
-  "3": {},
-  "4": {},
-  "5": {},
-  "6": {},
-  "7": {},
-  "8": {},
-  "9": {},
-  "10": {},
-  "picture": "",
-  "id": 12000,
-  "effect_list": [
-    {
-      "trigger": {},
-      "type": "BattleBuffField",
-      "arg_list": {
-        "target": "TargetPlayerByType",
-        "shipType": 6,
-        "buff_id": 12001
-      }
-    },
-    {
-      "trigger": {},
-      "type": "BattleBuffField",
-      "arg_list": {
-        "target": "TargetPlayerByType",
-        "shipType": 7,
-        "buff_id": 12001
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "skill_id": 12000
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "check_target": "TargetTemplate",
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "targetTemplateIDList": [
-          101051,
-          101052,
-          101053,
-          101054
-        ],
-        "skill_id": 12001
-      }
-    }
-  ],
-  "desc": "队伍中(存活)时降低轻母、航母受到的伤害$1",
-  "icon": 12000,
-  "last_effect": "",
-  "name": "远东的羁绊",
-  "color": "yellow",
-  "desc_get": "在队伍中(存活)时降低轻母、航母受到的伤害",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+	"1": [],
+	"2": [],
+	"3": [],
+	"4": [],
+	"5": [],
+	"6": [],
+	"7": [],
+	"8": [],
+	"9": [],
+	"10": [],
+	"picture": "",
+	"id": 12000,
+	"effect_list": [
+		{
+			"trigger": [],
+			"type": "BattleBuffField",
+			"arg_list": {
+				"target": "TargetPlayerByType",
+				"shipType": 6,
+				"buff_id": 12001
+			}
+		},
+		{
+			"trigger": [],
+			"type": "BattleBuffField",
+			"arg_list": {
+				"target": "TargetPlayerByType",
+				"shipType": 7,
+				"buff_id": 12001
+			}
+		},
+		{
+			"trigger": [
+				"onStartGame"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"skill_id": 12000
+			}
+		},
+		{
+			"trigger": [
+				"onStartGame"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"check_target": "TargetTemplate",
+				"minTargetNumber": 1,
+				"target": "TargetSelf",
+				"targetTemplateIDList": [
+					101051,
+					101052,
+					101053,
+					101054
+				],
+				"skill_id": 12001
+			}
+		}
+	],
+	"desc": "\u961f\u4f0d\u4e2d(\u5b58\u6d3b)\u65f6\u964d\u4f4e\u8f7b\u6bcd\u3001\u822a\u6bcd\u53d7\u5230\u7684\u4f24\u5bb3$1",
+	"icon": 12000,
+	"last_effect": "",
+	"name": "\u8fdc\u4e1c\u7684\u7f81\u7eca",
+	"color": "yellow",
+	"desc_get": "\u5728\u961f\u4f0d\u4e2d(\u5b58\u6d3b)\u65f6\u964d\u4f4e\u8f7b\u6bcd\u3001\u822a\u6bcd\u53d7\u5230\u7684\u4f24\u5bb3",
+	"stack": 1,
+	"init_effect": "",
+	"time": 0
 }

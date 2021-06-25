@@ -1,264 +1,264 @@
 {
-  "scripts": [
-    {
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "快放开爱小姐！要上了哦，{namecode:13}！"
-    },
-    {
-      "actor": 301110,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "随时可以，{namecode:14}！去吧！"
-    },
-    {
-      "actor": 10400010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "expression": 1,
-      "say": "………！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "绊爱(伪)",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "subActors": [
-        {
-          "pos": {
-            "x": 1005
-          },
-          "actor": 301110
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:13}＆{namecode:14}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "「「秘技・雷电乱射！」」"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "withoutActorName": true,
-      "expression": 1,
-      "action": [
-        {
-          "y": -2250,
-          "type": "move",
-          "dur": 1,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "say": "咚！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 10400010
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "太好了！打败抓住爱小姐的绊爱(伪)了！"
-    },
-    {
-      "actor": 101170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "绊爱，没事吧？…有受伤吗？"
-    },
-    {
-      "actor": 10400020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "呜呜呜呜呜——谢—谢———",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "绊爱",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 22.5,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "真是的，爱酱！接下来可不能再像这样一个人冲在前面了啊！"
-    },
-    {
-      "actor": 10400020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "呜——对不起～～～～～",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "绊爱",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 22.5,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 101170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "乖乖，绊爱不哭不哭"
-    }
-  ],
-  "id": "AIGUANQIA8",
-  "mode": 2,
-  "fadein": 1.5,
-  "once": true
+	"scripts": [
+		{
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5feb\u653e\u5f00\u7231\u5c0f\u59d0\uff01\u8981\u4e0a\u4e86\u54e6\uff0c{namecode:13}\uff01"
+		},
+		{
+			"actor": 301110,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u968f\u65f6\u53ef\u4ee5\uff0c{namecode:14}\uff01\u53bb\u5427\uff01"
+		},
+		{
+			"actor": 10400010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"expression": 1,
+			"say": "\u2026\u2026\u2026\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u7eca\u7231(\u4f2a)",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"subActors": [
+				{
+					"pos": {
+						"x": 1005
+					},
+					"actor": 301110
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:13}\uff06{namecode:14}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u300c\u300c\u79d8\u6280\u30fb\u96f7\u7535\u4e71\u5c04\uff01\u300d\u300d"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"withoutActorName": true,
+			"expression": 1,
+			"action": [
+				{
+					"y": -2250,
+					"type": "move",
+					"dur": 1,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"say": "\u549a\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 10400010
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u592a\u597d\u4e86\uff01\u6253\u8d25\u6293\u4f4f\u7231\u5c0f\u59d0\u7684\u7eca\u7231(\u4f2a)\u4e86\uff01"
+		},
+		{
+			"actor": 101170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u7eca\u7231\uff0c\u6ca1\u4e8b\u5427\uff1f\u2026\u6709\u53d7\u4f24\u5417\uff1f"
+		},
+		{
+			"actor": 10400020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u545c\u545c\u545c\u545c\u545c\u2014\u2014\u8c22\u2014\u8c22\u2014\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u7eca\u7231",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 22.5,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u771f\u662f\u7684\uff0c\u7231\u9171\uff01\u63a5\u4e0b\u6765\u53ef\u4e0d\u80fd\u518d\u50cf\u8fd9\u6837\u4e00\u4e2a\u4eba\u51b2\u5728\u524d\u9762\u4e86\u554a\uff01"
+		},
+		{
+			"actor": 10400020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u545c\u2014\u2014\u5bf9\u4e0d\u8d77\uff5e\uff5e\uff5e\uff5e\uff5e",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u7eca\u7231",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 22.5,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 101170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u4e56\u4e56\uff0c\u7eca\u7231\u4e0d\u54ed\u4e0d\u54ed"
+		}
+	],
+	"id": "AIGUANQIA8",
+	"mode": 2,
+	"fadein": 1.5,
+	"once": true
 }

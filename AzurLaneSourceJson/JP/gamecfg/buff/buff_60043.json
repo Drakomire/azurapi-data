@@ -1,43 +1,43 @@
 {
-  "picture": "",
-  "id": 60043,
-  "desc": "棱镜光束",
-  "last_effect": "hongsebuff",
-  "time": 10,
-  "icon": 60043,
-  "effect_list": [
-    {
-      "trigger": [
-        "onChargeWeaponBulletCreate"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "bulletTrigger": "onBulletHit",
-        "skill_id": 60024
-      }
-    },
-    {
-      "trigger": [
-        "onChargeWeaponFire"
-      ],
-      "type": "BattleBuffCancelBuff",
-      "arg_list": {
-        "count": 1,
-        "delay": 7
-      }
-    },
-    {
-      "trigger": [
-        "onBulletHit"
-      ],
-      "type": "BattleBuffCancelBuff",
-      "arg_list": {
-        "count": 50
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "测试-随机技能-棱镜光束-发射"
+	"picture": "",
+	"id": 60043,
+	"desc": "\u68f1\u955c\u5149\u675f",
+	"last_effect": "hongsebuff",
+	"time": 10,
+	"icon": 60043,
+	"effect_list": [
+		{
+			"trigger": [
+				"onChargeWeaponBulletCreate"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"bulletTrigger": "onBulletHit",
+				"skill_id": 60024
+			}
+		},
+		{
+			"trigger": [
+				"onChargeWeaponFire"
+			],
+			"type": "BattleBuffCancelBuff",
+			"arg_list": {
+				"count": 1,
+				"delay": 7
+			}
+		},
+		{
+			"trigger": [
+				"onBulletHit"
+			],
+			"type": "BattleBuffCancelBuff",
+			"arg_list": {
+				"count": 50
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u6d4b\u8bd5-\u968f\u673a\u6280\u80fd-\u68f1\u955c\u5149\u675f-\u53d1\u5c04"
 }

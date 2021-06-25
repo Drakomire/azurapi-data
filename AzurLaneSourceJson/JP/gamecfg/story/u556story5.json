@@ -1,701 +1,701 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "誓ってナイト！\n\n<size=45>五　ハッとなった？</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "母港・執務室",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "よぉし！今日の仕事はしゅーりょー！",
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "U-556の仕事の覚えが早くて大変助かる。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "指揮官、明日は非番だよね！この間遊んでくれるって約束したよね！明日海に行ってもいいよね！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "U-556と海に行くことを約束する",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "えへへ、楽しみ♪",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "明日は一日、リラックスしよう。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "…………",
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "waningEffect",
-          "active": true
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "これは……演習している艦隊からの救助信号？",
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "waningEffect",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "今演習海域にいるのは……ビスマルクたちの艦隊に何かあったのか…？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "指揮官…？何かあったの？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "U-556に状況を教える",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "え…？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "待って、ビスマルクのアネキ、もしかして……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "あたし、アネキにどんなことがあっても絶対に守るって約束したの！……指揮官、早く様子を見に行こうよ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "確か無線封止状態の演習だから、直接様子を見に行くしかなさそうだ。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "こういう状況に対応するために即応させておいた艦船たちを連れて、急いでU-556と一緒に信号の発信地に向かった。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "母港周辺海域",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-6",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "ビスマルクのアネキ…無事でいてください…！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 1,
-          "x": 0
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "ってあれ？ビスマルクのアネキ？それとオイゲンさん？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 405010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "指揮官とU-556、それとみんなまで……どうしたの……？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 408040,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "よかったぁ……アネキが無事でよかったぁ……！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 405010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "一体何が起きたの？指揮官、母港に戻りながら説明してもらえる？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "というわけで、みんなと無事に合流できた。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "ふーん、救援信号発信装置の誤作動ね……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-2",
-      "bgmDelay": 2,
-      "bgName": "bg_night"
-    },
-    {
-      "say": "この装置って確か試作だけど自動で状況判断する機能がついてたわね。故障しているのかしら",
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "あとで夕張たちに点検してもらおう。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "そんなことより、ビスマルクのアネキとオイゲンさん！無事でよかったよ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 405010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "ええ…でもU-556、あの約束をしたとはいえ、いきなり駆けつけて来なくてもいいわ",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "指揮官と即応艦隊全員まで出撃させたら…合理的じゃないわ。私のことは心配しなくていいわよ",
-      "actor": 405010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "……",
-      "actor": 403030,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "そ、そんなの……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "そうよね……ビスマルクは鉄血の最強戦艦だもんね…あたし何心配したんだろ……あははは……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "ごめんなさい…あたし、先に帰るね……",
-      "actor": 408040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "弱々しい声だった。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "下手を打ったわね。ビスマルク",
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 405010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "……私は……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "U-556の様子が心配なので、彼女を追いかけることにした。",
-      "blackBg": true,
-      "bgName": "bg_night"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "U556STORY5",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u8a93\u3063\u3066\u30ca\u30a4\u30c8\uff01\n\n<size=45>\u4e94\u3000\u30cf\u30c3\u3068\u306a\u3063\u305f\uff1f</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u3088\u3049\u3057\uff01\u4eca\u65e5\u306e\u4ed5\u4e8b\u306f\u3057\u3085\u30fc\u308a\u3087\u30fc\uff01",
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "U-556\u306e\u4ed5\u4e8b\u306e\u899a\u3048\u304c\u65e9\u304f\u3066\u5927\u5909\u52a9\u304b\u308b\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u6307\u63ee\u5b98\u3001\u660e\u65e5\u306f\u975e\u756a\u3060\u3088\u306d\uff01\u3053\u306e\u9593\u904a\u3093\u3067\u304f\u308c\u308b\u3063\u3066\u7d04\u675f\u3057\u305f\u3088\u306d\uff01\u660e\u65e5\u6d77\u306b\u884c\u3063\u3066\u3082\u3044\u3044\u3088\u306d\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "U-556\u3068\u6d77\u306b\u884c\u304f\u3053\u3068\u3092\u7d04\u675f\u3059\u308b",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u3048\u3078\u3078\u3001\u697d\u3057\u307f\u266a",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u660e\u65e5\u306f\u4e00\u65e5\u3001\u30ea\u30e9\u30c3\u30af\u30b9\u3057\u3088\u3046\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u2026\u2026\u2026\u2026",
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "waningEffect",
+					"active": true
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u3053\u308c\u306f\u2026\u2026\u6f14\u7fd2\u3057\u3066\u3044\u308b\u8266\u968a\u304b\u3089\u306e\u6551\u52a9\u4fe1\u53f7\uff1f",
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "waningEffect",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4eca\u6f14\u7fd2\u6d77\u57df\u306b\u3044\u308b\u306e\u306f\u2026\u2026\u30d3\u30b9\u30de\u30eb\u30af\u305f\u3061\u306e\u8266\u968a\u306b\u4f55\u304b\u3042\u3063\u305f\u306e\u304b\u2026\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u6307\u63ee\u5b98\u2026\uff1f\u4f55\u304b\u3042\u3063\u305f\u306e\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "U-556\u306b\u72b6\u6cc1\u3092\u6559\u3048\u308b",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u3048\u2026\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u5f85\u3063\u3066\u3001\u30d3\u30b9\u30de\u30eb\u30af\u306e\u30a2\u30cd\u30ad\u3001\u3082\u3057\u304b\u3057\u3066\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u3042\u305f\u3057\u3001\u30a2\u30cd\u30ad\u306b\u3069\u3093\u306a\u3053\u3068\u304c\u3042\u3063\u3066\u3082\u7d76\u5bfe\u306b\u5b88\u308b\u3063\u3066\u7d04\u675f\u3057\u305f\u306e\uff01\u2026\u2026\u6307\u63ee\u5b98\u3001\u65e9\u304f\u69d8\u5b50\u3092\u898b\u306b\u884c\u3053\u3046\u3088\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u78ba\u304b\u7121\u7dda\u5c01\u6b62\u72b6\u614b\u306e\u6f14\u7fd2\u3060\u304b\u3089\u3001\u76f4\u63a5\u69d8\u5b50\u3092\u898b\u306b\u884c\u304f\u3057\u304b\u306a\u3055\u305d\u3046\u3060\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u3053\u3046\u3044\u3046\u72b6\u6cc1\u306b\u5bfe\u5fdc\u3059\u308b\u305f\u3081\u306b\u5373\u5fdc\u3055\u305b\u3066\u304a\u3044\u305f\u8266\u8239\u305f\u3061\u3092\u9023\u308c\u3066\u3001\u6025\u3044\u3067U-556\u3068\u4e00\u7dd2\u306b\u4fe1\u53f7\u306e\u767a\u4fe1\u5730\u306b\u5411\u304b\u3063\u305f\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u6bcd\u6e2f\u5468\u8fba\u6d77\u57df",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-6",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u30d3\u30b9\u30de\u30eb\u30af\u306e\u30a2\u30cd\u30ad\u2026\u7121\u4e8b\u3067\u3044\u3066\u304f\u3060\u3055\u3044\u2026\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 1,
+					"x": 0
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u3063\u3066\u3042\u308c\uff1f\u30d3\u30b9\u30de\u30eb\u30af\u306e\u30a2\u30cd\u30ad\uff1f\u305d\u308c\u3068\u30aa\u30a4\u30b2\u30f3\u3055\u3093\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 405010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u6307\u63ee\u5b98\u3068U-556\u3001\u305d\u308c\u3068\u307f\u3093\u306a\u307e\u3067\u2026\u2026\u3069\u3046\u3057\u305f\u306e\u2026\u2026\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 408040,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u3088\u304b\u3063\u305f\u3041\u2026\u2026\u30a2\u30cd\u30ad\u304c\u7121\u4e8b\u3067\u3088\u304b\u3063\u305f\u3041\u2026\u2026\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 405010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u4e00\u4f53\u4f55\u304c\u8d77\u304d\u305f\u306e\uff1f\u6307\u63ee\u5b98\u3001\u6bcd\u6e2f\u306b\u623b\u308a\u306a\u304c\u3089\u8aac\u660e\u3057\u3066\u3082\u3089\u3048\u308b\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u3068\u3044\u3046\u308f\u3051\u3067\u3001\u307f\u3093\u306a\u3068\u7121\u4e8b\u306b\u5408\u6d41\u3067\u304d\u305f\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u3075\u30fc\u3093\u3001\u6551\u63f4\u4fe1\u53f7\u767a\u4fe1\u88c5\u7f6e\u306e\u8aa4\u4f5c\u52d5\u306d\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-2",
+			"bgmDelay": 2,
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u3053\u306e\u88c5\u7f6e\u3063\u3066\u78ba\u304b\u8a66\u4f5c\u3060\u3051\u3069\u81ea\u52d5\u3067\u72b6\u6cc1\u5224\u65ad\u3059\u308b\u6a5f\u80fd\u304c\u3064\u3044\u3066\u305f\u308f\u306d\u3002\u6545\u969c\u3057\u3066\u3044\u308b\u306e\u304b\u3057\u3089",
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u3042\u3068\u3067\u5915\u5f35\u305f\u3061\u306b\u70b9\u691c\u3057\u3066\u3082\u3089\u304a\u3046\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u305d\u3093\u306a\u3053\u3068\u3088\u308a\u3001\u30d3\u30b9\u30de\u30eb\u30af\u306e\u30a2\u30cd\u30ad\u3068\u30aa\u30a4\u30b2\u30f3\u3055\u3093\uff01\u7121\u4e8b\u3067\u3088\u304b\u3063\u305f\u3088\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 405010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u3048\u3048\u2026\u3067\u3082U-556\u3001\u3042\u306e\u7d04\u675f\u3092\u3057\u305f\u3068\u306f\u3044\u3048\u3001\u3044\u304d\u306a\u308a\u99c6\u3051\u3064\u3051\u3066\u6765\u306a\u304f\u3066\u3082\u3044\u3044\u308f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u6307\u63ee\u5b98\u3068\u5373\u5fdc\u8266\u968a\u5168\u54e1\u307e\u3067\u51fa\u6483\u3055\u305b\u305f\u3089\u2026\u5408\u7406\u7684\u3058\u3083\u306a\u3044\u308f\u3002\u79c1\u306e\u3053\u3068\u306f\u5fc3\u914d\u3057\u306a\u304f\u3066\u3044\u3044\u308f\u3088",
+			"actor": 405010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u2026\u2026",
+			"actor": 403030,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u305d\u3001\u305d\u3093\u306a\u306e\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u305d\u3046\u3088\u306d\u2026\u2026\u30d3\u30b9\u30de\u30eb\u30af\u306f\u9244\u8840\u306e\u6700\u5f37\u6226\u8266\u3060\u3082\u3093\u306d\u2026\u3042\u305f\u3057\u4f55\u5fc3\u914d\u3057\u305f\u3093\u3060\u308d\u2026\u2026\u3042\u306f\u306f\u306f\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u3054\u3081\u3093\u306a\u3055\u3044\u2026\u3042\u305f\u3057\u3001\u5148\u306b\u5e30\u308b\u306d\u2026\u2026",
+			"actor": 408040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5f31\u3005\u3057\u3044\u58f0\u3060\u3063\u305f\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u4e0b\u624b\u3092\u6253\u3063\u305f\u308f\u306d\u3002\u30d3\u30b9\u30de\u30eb\u30af",
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 405010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u2026\u2026\u79c1\u306f\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "U-556\u306e\u69d8\u5b50\u304c\u5fc3\u914d\u306a\u306e\u3067\u3001\u5f7c\u5973\u3092\u8ffd\u3044\u304b\u3051\u308b\u3053\u3068\u306b\u3057\u305f\u3002",
+			"blackBg": true,
+			"bgName": "bg_night"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "U556STORY5",
+	"once": true
 }

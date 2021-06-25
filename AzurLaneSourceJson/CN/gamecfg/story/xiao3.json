@@ -1,462 +1,462 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "忍者修行之路？\n\n<size=45>三　第六驱逐队的日常·上</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "港区·指挥室",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "打扰了——",
-      "subActors": [
-        {
-          "pos": {
-            "x": 1125
-          },
-          "actor": 301110
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:13}&{namecode:14}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "{namecode:13}，{namecode:14}？你们怎么来了？",
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "options": [
-        {
-          "content": "向{namecode:14}道谢",
-          "flag": 1
-        }
-      ],
-      "say": "{namecode:11}姐姐，指挥官先生，工作辛苦了。我带了一些饮料过来，要喝吗？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "谢谢！",
-      "actor": 301090,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "那个，{namecode:11}没有给指挥官添麻烦吧？我和{namecode:14}有点担心{namecode:11}的情况，所以就过来看看。",
-      "actor": 301110,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "听说{namecode:11}姐姐在秘书舰工作的第一天就迷路了呢",
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 301090,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "呜……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "对了对了，还有开茶会的那次，只留下一封要去找{namecode:12}的留言信就消失了",
-      "actor": 301110,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 301090,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "啊，那，那件事情……！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "结果后来收到了{namecode:11}姐姐搭着帐篷和白熊先生合拍的照片。白熊先生，真可爱呢…",
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "原来如此，这就是所谓的“路痴属性”吗？",
-      "actor": 301110,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "对了对了！上次{namecode:11}在大家去演习的时候——",
-      "actor": 301110,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "{namecode:13}，我们也该回去了呢。",
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "欸？但是现在才——",
-      "actor": 301110,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "打扰{namecode:11}姐姐和指挥官先生工作不太好呢。既然慰问品也送到了，我们就早点回去吧。",
-      "actor": 301120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "原来如此。那{namecode:11}，指挥官，{namecode:13}和{namecode:14}先走了，ByeBye~",
-      "actor": 301110,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "两人离开了指挥室",
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "得、得救了……",
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "指挥官刚刚的全听到了吧！呜呜，让你看到了不成器的一面，真是太羞愧了…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.4,
-          "number": 2,
-          "delay": 0.4,
-          "x": 22.5
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "但是，以忍者之名起誓，迷路和怕黑这样的事情不会再发生了！我一定能克服的！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0.5,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 301090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "say": "唔哦哦，总觉得现在精神百倍！有什么任务都交给我把！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "刚刚还备受打击的样子，现在精神似乎完全恢复了。",
-      "blackBg": true,
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "XIAO3",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u5fcd\u8005\u4fee\u884c\u4e4b\u8def\uff1f\n\n<size=45>\u4e09\u3000\u7b2c\u516d\u9a71\u9010\u961f\u7684\u65e5\u5e38\u00b7\u4e0a</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6e2f\u533a\u00b7\u6307\u6325\u5ba4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u6253\u6270\u4e86\u2014\u2014",
+			"subActors": [
+				{
+					"pos": {
+						"x": 1125
+					},
+					"actor": 301110
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:13}&{namecode:14}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "{namecode:13}\uff0c{namecode:14}\uff1f\u4f60\u4eec\u600e\u4e48\u6765\u4e86\uff1f",
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"options": [
+				{
+					"content": "\u5411{namecode:14}\u9053\u8c22",
+					"flag": 1
+				}
+			],
+			"say": "{namecode:11}\u59d0\u59d0\uff0c\u6307\u6325\u5b98\u5148\u751f\uff0c\u5de5\u4f5c\u8f9b\u82e6\u4e86\u3002\u6211\u5e26\u4e86\u4e00\u4e9b\u996e\u6599\u8fc7\u6765\uff0c\u8981\u559d\u5417\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u8c22\u8c22\uff01",
+			"actor": 301090,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u90a3\u4e2a\uff0c{namecode:11}\u6ca1\u6709\u7ed9\u6307\u6325\u5b98\u6dfb\u9ebb\u70e6\u5427\uff1f\u6211\u548c{namecode:14}\u6709\u70b9\u62c5\u5fc3{namecode:11}\u7684\u60c5\u51b5\uff0c\u6240\u4ee5\u5c31\u8fc7\u6765\u770b\u770b\u3002",
+			"actor": 301110,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u542c\u8bf4{namecode:11}\u59d0\u59d0\u5728\u79d8\u4e66\u8230\u5de5\u4f5c\u7684\u7b2c\u4e00\u5929\u5c31\u8ff7\u8def\u4e86\u5462",
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 301090,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u545c\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u5bf9\u4e86\u5bf9\u4e86\uff0c\u8fd8\u6709\u5f00\u8336\u4f1a\u7684\u90a3\u6b21\uff0c\u53ea\u7559\u4e0b\u4e00\u5c01\u8981\u53bb\u627e{namecode:12}\u7684\u7559\u8a00\u4fe1\u5c31\u6d88\u5931\u4e86",
+			"actor": 301110,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 301090,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u554a\uff0c\u90a3\uff0c\u90a3\u4ef6\u4e8b\u60c5\u2026\u2026\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u7ed3\u679c\u540e\u6765\u6536\u5230\u4e86{namecode:11}\u59d0\u59d0\u642d\u7740\u5e10\u7bf7\u548c\u767d\u718a\u5148\u751f\u5408\u62cd\u7684\u7167\u7247\u3002\u767d\u718a\u5148\u751f\uff0c\u771f\u53ef\u7231\u5462\u2026",
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u539f\u6765\u5982\u6b64\uff0c\u8fd9\u5c31\u662f\u6240\u8c13\u7684\u201c\u8def\u75f4\u5c5e\u6027\u201d\u5417\uff1f",
+			"actor": 301110,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u5bf9\u4e86\u5bf9\u4e86\uff01\u4e0a\u6b21{namecode:11}\u5728\u5927\u5bb6\u53bb\u6f14\u4e60\u7684\u65f6\u5019\u2014\u2014",
+			"actor": 301110,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "{namecode:13}\uff0c\u6211\u4eec\u4e5f\u8be5\u56de\u53bb\u4e86\u5462\u3002",
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u6b38\uff1f\u4f46\u662f\u73b0\u5728\u624d\u2014\u2014",
+			"actor": 301110,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u6253\u6270{namecode:11}\u59d0\u59d0\u548c\u6307\u6325\u5b98\u5148\u751f\u5de5\u4f5c\u4e0d\u592a\u597d\u5462\u3002\u65e2\u7136\u6170\u95ee\u54c1\u4e5f\u9001\u5230\u4e86\uff0c\u6211\u4eec\u5c31\u65e9\u70b9\u56de\u53bb\u5427\u3002",
+			"actor": 301120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u539f\u6765\u5982\u6b64\u3002\u90a3{namecode:11}\uff0c\u6307\u6325\u5b98\uff0c{namecode:13}\u548c{namecode:14}\u5148\u8d70\u4e86\uff0cByeBye~",
+			"actor": 301110,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4e24\u4eba\u79bb\u5f00\u4e86\u6307\u6325\u5ba4",
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u5f97\u3001\u5f97\u6551\u4e86\u2026\u2026",
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u6307\u6325\u5b98\u521a\u521a\u7684\u5168\u542c\u5230\u4e86\u5427\uff01\u545c\u545c\uff0c\u8ba9\u4f60\u770b\u5230\u4e86\u4e0d\u6210\u5668\u7684\u4e00\u9762\uff0c\u771f\u662f\u592a\u7f9e\u6127\u4e86\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.4,
+					"number": 2,
+					"delay": 0.4,
+					"x": 22.5
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u4f46\u662f\uff0c\u4ee5\u5fcd\u8005\u4e4b\u540d\u8d77\u8a93\uff0c\u8ff7\u8def\u548c\u6015\u9ed1\u8fd9\u6837\u7684\u4e8b\u60c5\u4e0d\u4f1a\u518d\u53d1\u751f\u4e86\uff01\u6211\u4e00\u5b9a\u80fd\u514b\u670d\u7684\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0.5,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 301090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"say": "\u5514\u54e6\u54e6\uff0c\u603b\u89c9\u5f97\u73b0\u5728\u7cbe\u795e\u767e\u500d\uff01\u6709\u4ec0\u4e48\u4efb\u52a1\u90fd\u4ea4\u7ed9\u6211\u628a\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u521a\u521a\u8fd8\u5907\u53d7\u6253\u51fb\u7684\u6837\u5b50\uff0c\u73b0\u5728\u7cbe\u795e\u4f3c\u4e4e\u5b8c\u5168\u6062\u590d\u4e86\u3002",
+			"blackBg": true,
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "XIAO3",
+	"once": true
 }

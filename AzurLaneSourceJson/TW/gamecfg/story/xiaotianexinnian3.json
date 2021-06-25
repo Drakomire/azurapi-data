@@ -1,585 +1,585 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "新年的祝福\n\n<size=45>三 雪地大混战！</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "effects": [
-        {
-          "name": "bg_story_outdoor_snow",
-          "delay": 2,
-          "active": true
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "港区·干船坞",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "main-newyear",
-      "bgmDelay": 2,
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "呼嗯？那边那群人是……白鹰和皇家？似乎也在打雪仗的样子？",
-      "actor": 301141,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 102090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "哈！吃我一发雪球齐射！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 205060,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 60,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 1,
-          "delay": 1,
-          "x": 0
-        }
-      ],
-      "say": "不愧是皇家最信赖的盟友，那么，这招如何！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "雪球、哔哩哔哩",
-      "actor": 101260,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201100,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "啊呜呜呜…被、被打中了——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 1,
-          "delay": 0.5,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "大姐头！快躲开！",
-      "actor": 102140,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "海伦娜，掩护克利夫兰，必要的话就用SG吧！",
-      "actor": 102130,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201100,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "诶、诶…？只是打个雪仗而已，连SG都……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "啊哈哈…好象是有点过头了呢",
-      "actor": 102090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 102050,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "克利夫兰…这么用力扔雪球，当心肩膀拉伤哦",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "嘿嘿，没事没事，这点小活动连热身都不算啦！",
-      "actor": 102090,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "嗯…？那是…重樱的各位？",
-      "actor": 102130,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "哇哇，各……各位下午好……",
-      "actor": 201100,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 307022,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "哦？竟然在这里遇到皇家和白鹰啊，呵呵…看来可以享受一场愉快的战斗了",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "（小声）呵呵呵呵，把所有人都排除掉，这样指挥官就只能在我身边了……",
-      "actor": 307012,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "{namecode:91}小姐今天还是一如既往呢…",
-      "actor": 102050,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "找上门的挑战，哪有不接受的道理！哼哼，我们可是没那么好对付的哦",
-      "actor": 205060,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "哈哈，越来越有意思了呢～克利夫兰级，跟着我上吧！",
-      "actor": 102090,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "哼！我们也上吧！{namecode:143}、{namecode:127}、{namecode:128}！",
-      "actor": 301590,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301601,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "subActors": [
-        {
-          "pos": {
-            "x": 555
-          },
-          "actor": 301610
-        },
-        {
-          "pos": {
-            "x": 1125
-          },
-          "actor": 301620
-        }
-      ],
-      "say": "喔！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "众驱逐",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "雪球激战持续了很久。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201100,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "呜……全身都是雪……不知不觉间差点变成雪人了……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.4,
-          "number": 2,
-          "delay": 0,
-          "x": 22.5
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "哎呀，时间已经不早了呢，重樱的诸位，该准备回去了哦，还有贺年卡要发呢～",
-      "actor": 303122,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "对哦对哦！要赶快回去吃荞麦面和年糕咯！",
-      "actor": 301141,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "今天没能分出胜负，或许是我因为思考给指挥官的礼物而分心了吧……",
-      "actor": 307012,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "那么，我们就先告辞了，真是场酣畅淋漓的打雪仗，希望还能和妳们交手！",
-      "actor": 399020,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 205060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "重樱的新年吗……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "XIAOTIANEXINNIAN3",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u65b0\u5e74\u7684\u795d\u798f\n\n<size=45>\u4e09 \u96ea\u5730\u5927\u6df7\u6218\uff01</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"effects": [
+				{
+					"name": "bg_story_outdoor_snow",
+					"delay": 2,
+					"active": true
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6e2f\u533a\u00b7\u5e72\u8239\u575e",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "main-newyear",
+			"bgmDelay": 2,
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u547c\u55ef\uff1f\u90a3\u8fb9\u90a3\u7fa4\u4eba\u662f\u2026\u2026\u767d\u9e70\u548c\u7687\u5bb6\uff1f\u4f3c\u4e4e\u4e5f\u5728\u6253\u96ea\u4ed7\u7684\u6837\u5b50\uff1f",
+			"actor": 301141,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 102090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u54c8\uff01\u5403\u6211\u4e00\u53d1\u96ea\u7403\u9f50\u5c04\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 205060,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 60,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 1,
+					"delay": 1,
+					"x": 0
+				}
+			],
+			"say": "\u4e0d\u6127\u662f\u7687\u5bb6\u6700\u4fe1\u8d56\u7684\u76df\u53cb\uff0c\u90a3\u4e48\uff0c\u8fd9\u62db\u5982\u4f55\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u96ea\u7403\u3001\u54d4\u54e9\u54d4\u54e9",
+			"actor": 101260,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201100,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u554a\u545c\u545c\u545c\u2026\u88ab\u3001\u88ab\u6253\u4e2d\u4e86\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 1,
+					"delay": 0.5,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u5927\u59d0\u5934\uff01\u5feb\u8eb2\u5f00\uff01",
+			"actor": 102140,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u6d77\u4f26\u5a1c\uff0c\u63a9\u62a4\u514b\u5229\u592b\u5170\uff0c\u5fc5\u8981\u7684\u8bdd\u5c31\u7528SG\u5427\uff01",
+			"actor": 102130,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201100,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u8bf6\u3001\u8bf6\u2026\uff1f\u53ea\u662f\u6253\u4e2a\u96ea\u4ed7\u800c\u5df2\uff0c\u8fdeSG\u90fd\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u554a\u54c8\u54c8\u2026\u597d\u8c61\u662f\u6709\u70b9\u8fc7\u5934\u4e86\u5462",
+			"actor": 102090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 102050,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u514b\u5229\u592b\u5170\u2026\u8fd9\u4e48\u7528\u529b\u6254\u96ea\u7403\uff0c\u5f53\u5fc3\u80a9\u8180\u62c9\u4f24\u54e6",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u563f\u563f\uff0c\u6ca1\u4e8b\u6ca1\u4e8b\uff0c\u8fd9\u70b9\u5c0f\u6d3b\u52a8\u8fde\u70ed\u8eab\u90fd\u4e0d\u7b97\u5566\uff01",
+			"actor": 102090,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u55ef\u2026\uff1f\u90a3\u662f\u2026\u91cd\u6a31\u7684\u5404\u4f4d\uff1f",
+			"actor": 102130,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u54c7\u54c7\uff0c\u5404\u2026\u2026\u5404\u4f4d\u4e0b\u5348\u597d\u2026\u2026",
+			"actor": 201100,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 307022,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u54e6\uff1f\u7adf\u7136\u5728\u8fd9\u91cc\u9047\u5230\u7687\u5bb6\u548c\u767d\u9e70\u554a\uff0c\u5475\u5475\u2026\u770b\u6765\u53ef\u4ee5\u4eab\u53d7\u4e00\u573a\u6109\u5feb\u7684\u6218\u6597\u4e86",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uff08\u5c0f\u58f0\uff09\u5475\u5475\u5475\u5475\uff0c\u628a\u6240\u6709\u4eba\u90fd\u6392\u9664\u6389\uff0c\u8fd9\u6837\u6307\u6325\u5b98\u5c31\u53ea\u80fd\u5728\u6211\u8eab\u8fb9\u4e86\u2026\u2026",
+			"actor": 307012,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "{namecode:91}\u5c0f\u59d0\u4eca\u5929\u8fd8\u662f\u4e00\u5982\u65e2\u5f80\u5462\u2026",
+			"actor": 102050,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u627e\u4e0a\u95e8\u7684\u6311\u6218\uff0c\u54ea\u6709\u4e0d\u63a5\u53d7\u7684\u9053\u7406\uff01\u54fc\u54fc\uff0c\u6211\u4eec\u53ef\u662f\u6ca1\u90a3\u4e48\u597d\u5bf9\u4ed8\u7684\u54e6",
+			"actor": 205060,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u54c8\u54c8\uff0c\u8d8a\u6765\u8d8a\u6709\u610f\u601d\u4e86\u5462\uff5e\u514b\u5229\u592b\u5170\u7ea7\uff0c\u8ddf\u7740\u6211\u4e0a\u5427\uff01",
+			"actor": 102090,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u54fc\uff01\u6211\u4eec\u4e5f\u4e0a\u5427\uff01{namecode:143}\u3001{namecode:127}\u3001{namecode:128}\uff01",
+			"actor": 301590,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301601,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"subActors": [
+				{
+					"pos": {
+						"x": 555
+					},
+					"actor": 301610
+				},
+				{
+					"pos": {
+						"x": 1125
+					},
+					"actor": 301620
+				}
+			],
+			"say": "\u5594\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u4f17\u9a71\u9010",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u96ea\u7403\u6fc0\u6218\u6301\u7eed\u4e86\u5f88\u4e45\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201100,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u545c\u2026\u2026\u5168\u8eab\u90fd\u662f\u96ea\u2026\u2026\u4e0d\u77e5\u4e0d\u89c9\u95f4\u5dee\u70b9\u53d8\u6210\u96ea\u4eba\u4e86\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.4,
+					"number": 2,
+					"delay": 0,
+					"x": 22.5
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u54ce\u5440\uff0c\u65f6\u95f4\u5df2\u7ecf\u4e0d\u65e9\u4e86\u5462\uff0c\u91cd\u6a31\u7684\u8bf8\u4f4d\uff0c\u8be5\u51c6\u5907\u56de\u53bb\u4e86\u54e6\uff0c\u8fd8\u6709\u8d3a\u5e74\u5361\u8981\u53d1\u5462\uff5e",
+			"actor": 303122,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u5bf9\u54e6\u5bf9\u54e6\uff01\u8981\u8d76\u5feb\u56de\u53bb\u5403\u835e\u9ea6\u9762\u548c\u5e74\u7cd5\u54af\uff01",
+			"actor": 301141,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u4eca\u5929\u6ca1\u80fd\u5206\u51fa\u80dc\u8d1f\uff0c\u6216\u8bb8\u662f\u6211\u56e0\u4e3a\u601d\u8003\u7ed9\u6307\u6325\u5b98\u7684\u793c\u7269\u800c\u5206\u5fc3\u4e86\u5427\u2026\u2026",
+			"actor": 307012,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u90a3\u4e48\uff0c\u6211\u4eec\u5c31\u5148\u544a\u8f9e\u4e86\uff0c\u771f\u662f\u573a\u9163\u7545\u6dcb\u6f13\u7684\u6253\u96ea\u4ed7\uff0c\u5e0c\u671b\u8fd8\u80fd\u548c\u59b3\u4eec\u4ea4\u624b\uff01",
+			"actor": 399020,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 205060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\u91cd\u6a31\u7684\u65b0\u5e74\u5417\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "XIAOTIANEXINNIAN3",
+	"once": true
 }

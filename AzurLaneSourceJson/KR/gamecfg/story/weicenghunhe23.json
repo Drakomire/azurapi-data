@@ -1,328 +1,328 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 207020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffa500",
-      "expression": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "effects": [
-        {
-          "name": "miwu_01",
-          "active": true
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "엔터프라이즈, 그들이 왔네.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "hunhe-level",
-      "bgmDelay": 1,
-      "bgName": "bg_banama_2"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "어느새 두 ‘불청객’이 대화에 끼어들었다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 10,
-        "number": 2
-      },
-      "say": "세이렌……?!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "soundeffect": "event:/battle/plane",
-      "side": 2,
-      "say": "갑자기 나타난 세이렌을 향해 엔터프라이즈는 조건반사적으로 함재기를 불렀지만, 쏘아진 포탄은 환영을 넘어 안개 속으로 사라졌다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 900232,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffff4d",
-      "say": "「코드-G」, 심판자 님의 인사를 전하지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "옵저버",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "「코드-G」… 심판자…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 900232,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffff4d",
-      "say": "‘라플라스의 도깨비’는 전쟁의 도구가 아닌 인간을 위해 봉사해야 해. 조물주 님도 같은 의견이지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "옵저버",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 900232,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffff4d",
-      "say": "그러니까 우리가 활동 기지를 제공하겠어. 그리고 너희는 이 연구가 인간의 손에 들어가지 않으리라는 것을 보증해야겠지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "옵저버",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 900232,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffff4d",
-      "say": "우리도 우리의 입장이 있으니, 가끔은 마음대로 행동할 수 없거든.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "옵저버",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 900232,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffff4d",
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.25,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.25,
-        "dur": 0.25
-      },
-      "say": "이름은 말하지 마. 코드로 말하는 게 더 신비감이 있잖아? 심판자 님은 그렇게 생각하시거든.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "옵저버",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 900232,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffff4d",
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.25,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.25,
-        "dur": 0.25
-      },
-      "say": "걱정 마. 계획대로 이쪽도 구조 계획에 참여하겠어.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "옵저버",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 900232,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffff4d",
-      "say": "심판자 님과 조물주 님이 원하시기 때문이지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "옵저버",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 900232,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffff4d",
-      "say": "그럼 이렇게 하지. 아비터의 좌표를 너희에게 넘겨주겠어. 알아서 잘 피하도록 해.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "옵저버",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "세이렌과 협력한다고…? 이건… 대체……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "물론, 엔터프라이즈의 질문에 환영들은 아무런-------",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "say": "이건 전부 과거의 조각들이야.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffff4d",
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "WEICENGHUNHE23",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 207020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffa500",
+			"expression": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"effects": [
+				{
+					"name": "miwu_01",
+					"active": true
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uc5d4\ud130\ud504\ub77c\uc774\uc988, \uadf8\ub4e4\uc774 \uc654\ub124.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "hunhe-level",
+			"bgmDelay": 1,
+			"bgName": "bg_banama_2"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc5b4\ub290\uc0c8 \ub450 \u2018\ubd88\uccad\uac1d\u2019\uc774 \ub300\ud654\uc5d0 \ub07c\uc5b4\ub4e4\uc5c8\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 10,
+				"number": 2
+			},
+			"say": "\uc138\uc774\ub80c\u2026\u2026?!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"soundeffect": "event:/battle/plane",
+			"side": 2,
+			"say": "\uac11\uc790\uae30 \ub098\ud0c0\ub09c \uc138\uc774\ub80c\uc744 \ud5a5\ud574 \uc5d4\ud130\ud504\ub77c\uc774\uc988\ub294 \uc870\uac74\ubc18\uc0ac\uc801\uc73c\ub85c \ud568\uc7ac\uae30\ub97c \ubd88\ub800\uc9c0\ub9cc, \uc3d8\uc544\uc9c4 \ud3ec\ud0c4\uc740 \ud658\uc601\uc744 \ub118\uc5b4 \uc548\uac1c \uc18d\uc73c\ub85c \uc0ac\ub77c\uc84c\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 900232,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffff4d",
+			"say": "\u300c\ucf54\ub4dc-G\u300d, \uc2ec\ud310\uc790 \ub2d8\uc758 \uc778\uc0ac\ub97c \uc804\ud558\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc635\uc800\ubc84",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u300c\ucf54\ub4dc-G\u300d\u2026 \uc2ec\ud310\uc790\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 900232,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffff4d",
+			"say": "\u2018\ub77c\ud50c\ub77c\uc2a4\uc758 \ub3c4\uae68\ube44\u2019\ub294 \uc804\uc7c1\uc758 \ub3c4\uad6c\uac00 \uc544\ub2cc \uc778\uac04\uc744 \uc704\ud574 \ubd09\uc0ac\ud574\uc57c \ud574. \uc870\ubb3c\uc8fc \ub2d8\ub3c4 \uac19\uc740 \uc758\uacac\uc774\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc635\uc800\ubc84",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 900232,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffff4d",
+			"say": "\uadf8\ub7ec\ub2c8\uae4c \uc6b0\ub9ac\uac00 \ud65c\ub3d9 \uae30\uc9c0\ub97c \uc81c\uacf5\ud558\uaca0\uc5b4. \uadf8\ub9ac\uace0 \ub108\ud76c\ub294 \uc774 \uc5f0\uad6c\uac00 \uc778\uac04\uc758 \uc190\uc5d0 \ub4e4\uc5b4\uac00\uc9c0 \uc54a\uc73c\ub9ac\ub77c\ub294 \uac83\uc744 \ubcf4\uc99d\ud574\uc57c\uaca0\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc635\uc800\ubc84",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 900232,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffff4d",
+			"say": "\uc6b0\ub9ac\ub3c4 \uc6b0\ub9ac\uc758 \uc785\uc7a5\uc774 \uc788\uc73c\ub2c8, \uac00\ub054\uc740 \ub9c8\uc74c\ub300\ub85c \ud589\ub3d9\ud560 \uc218 \uc5c6\uac70\ub4e0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc635\uc800\ubc84",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 900232,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffff4d",
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.25,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.25,
+				"dur": 0.25
+			},
+			"say": "\uc774\ub984\uc740 \ub9d0\ud558\uc9c0 \ub9c8. \ucf54\ub4dc\ub85c \ub9d0\ud558\ub294 \uac8c \ub354 \uc2e0\ube44\uac10\uc774 \uc788\uc796\uc544? \uc2ec\ud310\uc790 \ub2d8\uc740 \uadf8\ub807\uac8c \uc0dd\uac01\ud558\uc2dc\uac70\ub4e0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc635\uc800\ubc84",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 900232,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffff4d",
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.25,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.25,
+				"dur": 0.25
+			},
+			"say": "\uac71\uc815 \ub9c8. \uacc4\ud68d\ub300\ub85c \uc774\ucabd\ub3c4 \uad6c\uc870 \uacc4\ud68d\uc5d0 \ucc38\uc5ec\ud558\uaca0\uc5b4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc635\uc800\ubc84",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 900232,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffff4d",
+			"say": "\uc2ec\ud310\uc790 \ub2d8\uacfc \uc870\ubb3c\uc8fc \ub2d8\uc774 \uc6d0\ud558\uc2dc\uae30 \ub54c\ubb38\uc774\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc635\uc800\ubc84",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 900232,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffff4d",
+			"say": "\uadf8\ub7fc \uc774\ub807\uac8c \ud558\uc9c0. \uc544\ube44\ud130\uc758 \uc88c\ud45c\ub97c \ub108\ud76c\uc5d0\uac8c \ub118\uaca8\uc8fc\uaca0\uc5b4. \uc54c\uc544\uc11c \uc798 \ud53c\ud558\ub3c4\ub85d \ud574.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc635\uc800\ubc84",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\uc138\uc774\ub80c\uacfc \ud611\ub825\ud55c\ub2e4\uace0\u2026? \uc774\uac74\u2026 \ub300\uccb4\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ubb3c\ub860, \uc5d4\ud130\ud504\ub77c\uc774\uc988\uc758 \uc9c8\ubb38\uc5d0 \ud658\uc601\ub4e4\uc740 \uc544\ubb34\ub7f0-------",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"say": "\uc774\uac74 \uc804\ubd80 \uacfc\uac70\uc758 \uc870\uac01\ub4e4\uc774\uc57c.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffff4d",
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "WEICENGHUNHE23",
+	"once": true
 }

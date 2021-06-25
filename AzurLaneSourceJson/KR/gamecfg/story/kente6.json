@@ -1,594 +1,594 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "GO! 켄트 선수!\n\n<size=45>6 어두운 밤의 빛! </size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "밤이 깊었다. 마침내 해가 지기 전에 보고서는 마지막 한 부만 남았다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "마무리를 시작하려 할 때, 갑자기 서류 한 장이 없어졌다는 걸 발견하였다.... 설마 그때——",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "say": "——그럼 난 네가 말한대로 쉴게! 지휘관 오늘도 수고했어!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "say": "아! 관련 문서는 시킨대로 분류해서 넣어뒀어! 잘자——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "say": "... 사라진 부분은, 아마 다른 문서 속에 분류되어 있겠지.",
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "서류 캐비닛을 잽싸게 뒤졌지만 여전히 그 서류를 찾지 못했다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "오늘 반드시 끝내야 할 일인데… 그녀를 찾아가서 물어보자.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "say": "――다음에는 호랑이를 주제로 얘기하자!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "say": "고양이를 구했을 때 켄트의 말이 스쳐 지나갔다.",
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "설마 정말로 방에서 호랑이를 키우지는 않겠지... 안절부절못하는 심정으로 켄트의 방문 앞에 도착했다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "켄트의 방문을 톡톡 두드렸다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "...... 반응이 없다. 손잡이를 돌려 보니, 의외로 방문을 열 수 있었다."
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "너무 무방비해…방 밖에서 불러봐야겠다…"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "blackBg": true,
-      "say": "――후아... 지휘관?"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "방안에서 켄트의 졸음을 머금은 소리가 들려왔다. 겨우 한숨 돌리고 방안으로 들어가 그녀의 위치를 찾았다."
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "......왜 그래? 이렇게 늦은 시간까지 날...후...",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 1,
-          "number": 2,
-          "delay": 0,
-          "x": 30
-        }
-      ]
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "상황을 설명하면서 벽에 전등 스위치를 만지려고 했지만 닿지 않았다."
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "아, 방안의 유일한 등은 침대 옆에 있는 스탠드 뿐이야. 잠깐만――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.5,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "말이 끝나면서, 방 깊숙한 곳에서 작은 등불이 켜졌다――",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "――?!!",
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 10,
-        "number": 2
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "Wow! 지, 지휘관, 왜 갑자기 그렇게 크게 소리를 질러!?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "불빛 아래에서 드러난 것은 거친 모피, 거대한 이빨, 그리고 예리한 두 눈.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "어떻게 봐도——호랑이였다!",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "Wait! 흥분하지마! 켄트 선수 여기 있어!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "어? 맹수라고..... 아!! 설마 이 아이를 말하는 거야!?",
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "켄트는 이제서야 반응한 듯했다. 공포의 \"호랑이\" 뒤에서 머리를 내밀고, 설명하기 시작했다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "... 이 아이는 내가 이전에 잘 때 안고 자던 인형이야.",
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "정말 진짜처럼 생겨서 이렇게 어두운 곳에서 보면, 놀라는 것도 정상이겠지... 하하......",
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "방의 어둠은 \"호랑이\"를 더 진짜같게 더 무섭게 만들었다.......",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "아직 일을 다 끝내지 못했는데 벌써 지쳤다는 느낌이 든다......",
-      "blackBg": true,
-      "bgName": "bg_night"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "KENTE6",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"GO! \ucf04\ud2b8 \uc120\uc218!\n\n<size=45>6 \uc5b4\ub450\uc6b4 \ubc24\uc758 \ube5b! </size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\ubc24\uc774 \uae4a\uc5c8\ub2e4. \ub9c8\uce68\ub0b4 \ud574\uac00 \uc9c0\uae30 \uc804\uc5d0 \ubcf4\uace0\uc11c\ub294 \ub9c8\uc9c0\ub9c9 \ud55c \ubd80\ub9cc \ub0a8\uc558\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub9c8\ubb34\ub9ac\ub97c \uc2dc\uc791\ud558\ub824 \ud560 \ub54c, \uac11\uc790\uae30 \uc11c\ub958 \ud55c \uc7a5\uc774 \uc5c6\uc5b4\uc84c\ub2e4\ub294 \uac78 \ubc1c\uacac\ud558\uc600\ub2e4.... \uc124\ub9c8 \uadf8\ub54c\u2014\u2014",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"say": "\u2014\u2014\uadf8\ub7fc \ub09c \ub124\uac00 \ub9d0\ud55c\ub300\ub85c \uc274\uac8c! \uc9c0\ud718\uad00 \uc624\ub298\ub3c4 \uc218\uace0\ud588\uc5b4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"say": "\uc544! \uad00\ub828 \ubb38\uc11c\ub294 \uc2dc\ud0a8\ub300\ub85c \ubd84\ub958\ud574\uc11c \ub123\uc5b4\ub480\uc5b4! \uc798\uc790\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"say": "... \uc0ac\ub77c\uc9c4 \ubd80\ubd84\uc740, \uc544\ub9c8 \ub2e4\ub978 \ubb38\uc11c \uc18d\uc5d0 \ubd84\ub958\ub418\uc5b4 \uc788\uaca0\uc9c0.",
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc11c\ub958 \uce90\ube44\ub2db\uc744 \uc7bd\uc2f8\uac8c \ub4a4\uc84c\uc9c0\ub9cc \uc5ec\uc804\ud788 \uadf8 \uc11c\ub958\ub97c \ucc3e\uc9c0 \ubabb\ud588\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc624\ub298 \ubc18\ub4dc\uc2dc \ub05d\ub0b4\uc57c \ud560 \uc77c\uc778\ub370\u2026 \uadf8\ub140\ub97c \ucc3e\uc544\uac00\uc11c \ubb3c\uc5b4\ubcf4\uc790.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"say": "\u2015\u2015\ub2e4\uc74c\uc5d0\ub294 \ud638\ub791\uc774\ub97c \uc8fc\uc81c\ub85c \uc598\uae30\ud558\uc790!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"say": "\uace0\uc591\uc774\ub97c \uad6c\ud588\uc744 \ub54c \ucf04\ud2b8\uc758 \ub9d0\uc774 \uc2a4\uccd0 \uc9c0\ub098\uac14\ub2e4.",
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc124\ub9c8 \uc815\ub9d0\ub85c \ubc29\uc5d0\uc11c \ud638\ub791\uc774\ub97c \ud0a4\uc6b0\uc9c0\ub294 \uc54a\uaca0\uc9c0... \uc548\uc808\ubd80\uc808\ubabb\ud558\ub294 \uc2ec\uc815\uc73c\ub85c \ucf04\ud2b8\uc758 \ubc29\ubb38 \uc55e\uc5d0 \ub3c4\ucc29\ud588\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\ucf04\ud2b8\uc758 \ubc29\ubb38\uc744 \ud1a1\ud1a1 \ub450\ub4dc\ub838\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "...... \ubc18\uc751\uc774 \uc5c6\ub2e4. \uc190\uc7a1\uc774\ub97c \ub3cc\ub824 \ubcf4\ub2c8, \uc758\uc678\ub85c \ubc29\ubb38\uc744 \uc5f4 \uc218 \uc788\uc5c8\ub2e4."
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\ub108\ubb34 \ubb34\ubc29\ube44\ud574\u2026\ubc29 \ubc16\uc5d0\uc11c \ubd88\ub7ec\ubd10\uc57c\uaca0\ub2e4\u2026"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"blackBg": true,
+			"say": "\u2015\u2015\ud6c4\uc544... \uc9c0\ud718\uad00?"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\ubc29\uc548\uc5d0\uc11c \ucf04\ud2b8\uc758 \uc878\uc74c\uc744 \uba38\uae08\uc740 \uc18c\ub9ac\uac00 \ub4e4\ub824\uc654\ub2e4. \uaca8\uc6b0 \ud55c\uc228 \ub3cc\ub9ac\uace0 \ubc29\uc548\uc73c\ub85c \ub4e4\uc5b4\uac00 \uadf8\ub140\uc758 \uc704\uce58\ub97c \ucc3e\uc558\ub2e4."
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "......\uc65c \uadf8\ub798? \uc774\ub807\uac8c \ub2a6\uc740 \uc2dc\uac04\uae4c\uc9c0 \ub0a0...\ud6c4...",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 1,
+					"number": 2,
+					"delay": 0,
+					"x": 30
+				}
+			]
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\uc0c1\ud669\uc744 \uc124\uba85\ud558\uba74\uc11c \ubcbd\uc5d0 \uc804\ub4f1 \uc2a4\uc704\uce58\ub97c \ub9cc\uc9c0\ub824\uace0 \ud588\uc9c0\ub9cc \ub2ff\uc9c0 \uc54a\uc558\ub2e4."
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\uc544, \ubc29\uc548\uc758 \uc720\uc77c\ud55c \ub4f1\uc740 \uce68\ub300 \uc606\uc5d0 \uc788\ub294 \uc2a4\ud0e0\ub4dc \ubfd0\uc774\uc57c. \uc7a0\uae50\ub9cc\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.5,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub9d0\uc774 \ub05d\ub098\uba74\uc11c, \ubc29 \uae4a\uc219\ud55c \uacf3\uc5d0\uc11c \uc791\uc740 \ub4f1\ubd88\uc774 \ucf1c\uc84c\ub2e4\u2015\u2015",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u2015\u2015?!!",
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 10,
+				"number": 2
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "Wow! \uc9c0, \uc9c0\ud718\uad00, \uc65c \uac11\uc790\uae30 \uadf8\ub807\uac8c \ud06c\uac8c \uc18c\ub9ac\ub97c \uc9c8\ub7ec!?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ubd88\ube5b \uc544\ub798\uc5d0\uc11c \ub4dc\ub7ec\ub09c \uac83\uc740 \uac70\uce5c \ubaa8\ud53c, \uac70\ub300\ud55c \uc774\ube68, \uadf8\ub9ac\uace0 \uc608\ub9ac\ud55c \ub450 \ub208.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc5b4\ub5bb\uac8c \ubd10\ub3c4\u2014\u2014\ud638\ub791\uc774\uc600\ub2e4!",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "Wait! \ud765\ubd84\ud558\uc9c0\ub9c8! \ucf04\ud2b8 \uc120\uc218 \uc5ec\uae30 \uc788\uc5b4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\uc5b4? \ub9f9\uc218\ub77c\uace0..... \uc544!! \uc124\ub9c8 \uc774 \uc544\uc774\ub97c \ub9d0\ud558\ub294 \uac70\uc57c!?",
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ucf04\ud2b8\ub294 \uc774\uc81c\uc11c\uc57c \ubc18\uc751\ud55c \ub4ef\ud588\ub2e4. \uacf5\ud3ec\uc758 \"\ud638\ub791\uc774\" \ub4a4\uc5d0\uc11c \uba38\ub9ac\ub97c \ub0b4\ubc00\uace0, \uc124\uba85\ud558\uae30 \uc2dc\uc791\ud588\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "... \uc774 \uc544\uc774\ub294 \ub0b4\uac00 \uc774\uc804\uc5d0 \uc798 \ub54c \uc548\uace0 \uc790\ub358 \uc778\ud615\uc774\uc57c.",
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\uc815\ub9d0 \uc9c4\uc9dc\ucc98\ub7fc \uc0dd\uaca8\uc11c \uc774\ub807\uac8c \uc5b4\ub450\uc6b4 \uacf3\uc5d0\uc11c \ubcf4\uba74, \ub180\ub77c\ub294 \uac83\ub3c4 \uc815\uc0c1\uc774\uaca0\uc9c0... \ud558\ud558......",
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ubc29\uc758 \uc5b4\ub460\uc740 \"\ud638\ub791\uc774\"\ub97c \ub354 \uc9c4\uc9dc\uac19\uac8c \ub354 \ubb34\uc12d\uac8c \ub9cc\ub4e4\uc5c8\ub2e4.......",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc544\uc9c1 \uc77c\uc744 \ub2e4 \ub05d\ub0b4\uc9c0 \ubabb\ud588\ub294\ub370 \ubc8c\uc368 \uc9c0\ucce4\ub2e4\ub294 \ub290\ub08c\uc774 \ub4e0\ub2e4......",
+			"blackBg": true,
+			"bgName": "bg_night"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "KENTE6",
+	"once": true
 }

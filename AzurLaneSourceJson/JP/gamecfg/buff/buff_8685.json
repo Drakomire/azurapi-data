@@ -1,40 +1,40 @@
 {
-  "picture": "",
-  "id": 8685,
-  "desc": "",
-  "last_effect": "",
-  "name": "法系V2加斯科涅技能弹条",
-  "blink": [
-    1,
-    0,
-    0,
-    0.3,
-    0.3
-  ],
-  "effect_list": [
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 8685
-      }
-    },
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddAttrRatio",
-      "arg_list": {
-        "number": 1500,
-        "attr": "attackRating"
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "jinengchufared",
-  "time": 10
+	"picture": "",
+	"id": 8685,
+	"desc": "",
+	"last_effect": "",
+	"name": "\u6cd5\u7cfbV2\u52a0\u65af\u79d1\u6d85\u6280\u80fd\u5f39\u6761",
+	"blink": [
+		1,
+		0,
+		0,
+		0.3,
+		0.3
+	],
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 8685
+			}
+		},
+		{
+			"trigger": [
+				"onAttach",
+				"onRemove"
+			],
+			"type": "BattleBuffAddAttrRatio",
+			"arg_list": {
+				"number": 1500,
+				"attr": "attackRating"
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "jinengchufared",
+	"time": 10
 }

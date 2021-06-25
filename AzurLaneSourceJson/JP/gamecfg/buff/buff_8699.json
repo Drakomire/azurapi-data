@@ -1,52 +1,52 @@
 {
-  "picture": "",
-  "id": 8699,
-  "desc": "",
-  "icon": 8699,
-  "last_effect": "jinengchufablue",
-  "name": "中飞联动阶段转场",
-  "blink": [
-    0,
-    0.7,
-    1,
-    0.3,
-    0.3
-  ],
-  "effect_list": [
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "group": 8699,
-        "attr": "isInvincible",
-        "number": 1
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetHarmFarthest",
-        "skill_id": 8692
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 8698
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "Bossbomb",
-  "time": 2
+	"picture": "",
+	"id": 8699,
+	"desc": "",
+	"icon": 8699,
+	"last_effect": "jinengchufablue",
+	"name": "\u4e2d\u98de\u8054\u52a8\u9636\u6bb5\u8f6c\u573a",
+	"blink": [
+		0,
+		0.7,
+		1,
+		0.3,
+		0.3
+	],
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach",
+				"onRemove"
+			],
+			"type": "BattleBuffAddAttr",
+			"arg_list": {
+				"group": 8699,
+				"attr": "isInvincible",
+				"number": 1
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetHarmFarthest",
+				"skill_id": 8692
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"target": "TargetSelf",
+				"buff_id": 8698
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "Bossbomb",
+	"time": 2
 }

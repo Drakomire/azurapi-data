@@ -1,273 +1,273 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 900284,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "voice": "event:/tb/41/tb-41",
-      "say": "スキャンが完了しました。遠距離に新たなセイレーン反応です。気をつけてください",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "story-richang"
-    },
-    {
-      "say": "バミューダ海域に入ったばかりなのに、セイレーンがわんさか出てきたわね",
-      "actor": 107070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "actor": 105120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "どうやらここだけセイレーンが後退していないという情報は本当だったようですね"
-    },
-    {
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "反撃が激しいというなら、それだけこっちの作戦が敵にとって都合が悪いってことさ。もしかしたら私たちに見つかりたくない秘密を守っているのかもしれないな"
-    },
-    {
-      "say": "バミューダ海域の秘密、か……",
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3,
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "flashout": {
-        "dur": 1,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "映像？この「影」たちのことか？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "hunhe-level",
-      "bgmDelay": 1,
-      "bgName": "bg_banama_2"
-    },
-    {
-      "say": "「キオク」。つまりログ",
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "ログ？記憶？誰の？いつのものだ？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "say": "あなたのも、「彼女」のも。未来でも、過去でも",
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "say": "それは今、あなたのものよ",
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "say": "ログはウソを付かない",
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_2"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "エンタープライズ？どうした？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "dur": 0.5,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "bgmDelay": 0.5,
-      "bgm": "story-richang"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "いや、なんでもない。気を引き締めて進もう"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "WORLD105C",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 900284,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"voice": "event:/tb/41/tb-41",
+			"say": "\u30b9\u30ad\u30e3\u30f3\u304c\u5b8c\u4e86\u3057\u307e\u3057\u305f\u3002\u9060\u8ddd\u96e2\u306b\u65b0\u305f\u306a\u30bb\u30a4\u30ec\u30fc\u30f3\u53cd\u5fdc\u3067\u3059\u3002\u6c17\u3092\u3064\u3051\u3066\u304f\u3060\u3055\u3044",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "story-richang"
+		},
+		{
+			"say": "\u30d0\u30df\u30e5\u30fc\u30c0\u6d77\u57df\u306b\u5165\u3063\u305f\u3070\u304b\u308a\u306a\u306e\u306b\u3001\u30bb\u30a4\u30ec\u30fc\u30f3\u304c\u308f\u3093\u3055\u304b\u51fa\u3066\u304d\u305f\u308f\u306d",
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"actor": 105120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u3069\u3046\u3084\u3089\u3053\u3053\u3060\u3051\u30bb\u30a4\u30ec\u30fc\u30f3\u304c\u5f8c\u9000\u3057\u3066\u3044\u306a\u3044\u3068\u3044\u3046\u60c5\u5831\u306f\u672c\u5f53\u3060\u3063\u305f\u3088\u3046\u3067\u3059\u306d"
+		},
+		{
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u53cd\u6483\u304c\u6fc0\u3057\u3044\u3068\u3044\u3046\u306a\u3089\u3001\u305d\u308c\u3060\u3051\u3053\u3063\u3061\u306e\u4f5c\u6226\u304c\u6575\u306b\u3068\u3063\u3066\u90fd\u5408\u304c\u60aa\u3044\u3063\u3066\u3053\u3068\u3055\u3002\u3082\u3057\u304b\u3057\u305f\u3089\u79c1\u305f\u3061\u306b\u898b\u3064\u304b\u308a\u305f\u304f\u306a\u3044\u79d8\u5bc6\u3092\u5b88\u3063\u3066\u3044\u308b\u306e\u304b\u3082\u3057\u308c\u306a\u3044\u306a"
+		},
+		{
+			"say": "\u30d0\u30df\u30e5\u30fc\u30c0\u6d77\u57df\u306e\u79d8\u5bc6\u3001\u304b\u2026\u2026",
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3,
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"flashout": {
+				"dur": 1,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6620\u50cf\uff1f\u3053\u306e\u300c\u5f71\u300d\u305f\u3061\u306e\u3053\u3068\u304b\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "hunhe-level",
+			"bgmDelay": 1,
+			"bgName": "bg_banama_2"
+		},
+		{
+			"say": "\u300c\u30ad\u30aa\u30af\u300d\u3002\u3064\u307e\u308a\u30ed\u30b0",
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u30ed\u30b0\uff1f\u8a18\u61b6\uff1f\u8ab0\u306e\uff1f\u3044\u3064\u306e\u3082\u306e\u3060\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"say": "\u3042\u306a\u305f\u306e\u3082\u3001\u300c\u5f7c\u5973\u300d\u306e\u3082\u3002\u672a\u6765\u3067\u3082\u3001\u904e\u53bb\u3067\u3082",
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"say": "\u305d\u308c\u306f\u4eca\u3001\u3042\u306a\u305f\u306e\u3082\u306e\u3088",
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"say": "\u30ed\u30b0\u306f\u30a6\u30bd\u3092\u4ed8\u304b\u306a\u3044",
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_2"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba\uff1f\u3069\u3046\u3057\u305f\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"dur": 0.5,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"bgmDelay": 0.5,
+			"bgm": "story-richang"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u3044\u3084\u3001\u306a\u3093\u3067\u3082\u306a\u3044\u3002\u6c17\u3092\u5f15\u304d\u7de0\u3081\u3066\u9032\u3082\u3046"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "WORLD105C",
+	"once": true
 }

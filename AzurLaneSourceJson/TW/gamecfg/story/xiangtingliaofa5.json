@@ -1,311 +1,311 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "這樣就全部結束了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 103160,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "story-6"
-    },
-    {
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 0,
-          "x": 15
-        },
-        {
-          "y": -2000,
-          "type": "move",
-          "dur": 0.7,
-          "delay": 0.5,
-          "x": 0
-        }
-      ],
-      "actor": 107070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "咕——（倒"
-    },
-    {
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 207040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "大黃蜂，振作一點！果然帶著傷戰鬥還是太勉強了…"
-    },
-    {
-      "actor": 107070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "一放鬆下來，疲勞感就…"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "後面就交給我們，安心休息吧。"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "命令驅逐艦護送著受傷的大黃蜂離開了"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "失去了指揮系統的塞壬艦隊開始潰敗，戰鬥雖然還在繼續，徹底解決也只是時間問題。"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "因為本次襲擊，紐波特港及周邊地區遭受了嚴重破壞。"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "指揮官，損傷較輕的主力艦隊正在按照命令護送載有傷員的運輸隊沿長島向紐約港區轉移。"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "設施完備的紐約港足以快速修復本次襲擊造成的艦隊損傷，接下來只要等恢復完畢後向塞壬——"
-    },
-    {
-      "sequence": [
-        [
-          "",
-          0
-        ],
-        [
-          "<size=60>向周邊海域所有艦隊發布通告</size>",
-          0.5
-        ]
-      ],
-      "bgm": "airRaidAlarm",
-      "mode": 1,
-      "effects": [
-        {
-          "name": "UIhuohua",
-          "active": true
-        }
-      ],
-      "bgName": "bg_xiangting_1"
-    },
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "",
-          0
-        ],
-        [
-          "<size=60>此刻，紐約港正在遭受塞壬主力艦隊的圍攻</size>",
-          0.5
-        ]
-      ],
-      "bgName": "bg_xiangting_1"
-    },
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "",
-          0
-        ],
-        [
-          "<size=60>長島防線已經崩潰，紐約司令部即將淪陷</size>",
-          0.5
-        ]
-      ],
-      "bgName": "bg_xiangting_1"
-    },
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "",
-          0
-        ],
-        [
-          "<size=60>重複，長島防線已經崩潰，紐約司令部即將淪陷</size> ",
-          0.5
-        ]
-      ],
-      "bgName": "bg_xiangting_1"
-    },
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "",
-          0
-        ],
-        [
-          "<size=60>任何艦隊在收到此消息後，火速前來支援。</size>",
-          0.5
-        ]
-      ],
-      "bgName": "bg_xiangting_1"
-    },
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "",
-          0
-        ],
-        [
-          "<size=60>火速前來支援-----</size>",
-          0.5
-        ]
-      ],
-      "bgName": "bg_xiangting_1"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "XIANGTINGLIAOFA5",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u9019\u6a23\u5c31\u5168\u90e8\u7d50\u675f\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 103160,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "story-6"
+		},
+		{
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 0,
+					"x": 15
+				},
+				{
+					"y": -2000,
+					"type": "move",
+					"dur": 0.7,
+					"delay": 0.5,
+					"x": 0
+				}
+			],
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5495\u2014\u2014\uff08\u5012"
+		},
+		{
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 207040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5927\u9ec3\u8702\uff0c\u632f\u4f5c\u4e00\u9ede\uff01\u679c\u7136\u5e36\u8457\u50b7\u6230\u9b25\u9084\u662f\u592a\u52c9\u5f37\u4e86\u2026"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u4e00\u653e\u9b06\u4e0b\u4f86\uff0c\u75b2\u52de\u611f\u5c31\u2026"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5f8c\u9762\u5c31\u4ea4\u7d66\u6211\u5011\uff0c\u5b89\u5fc3\u4f11\u606f\u5427\u3002"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u547d\u4ee4\u9a45\u9010\u8266\u8b77\u9001\u8457\u53d7\u50b7\u7684\u5927\u9ec3\u8702\u96e2\u958b\u4e86"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5931\u53bb\u4e86\u6307\u63ee\u7cfb\u7d71\u7684\u585e\u58ec\u8266\u968a\u958b\u59cb\u6f70\u6557\uff0c\u6230\u9b25\u96d6\u7136\u9084\u5728\u7e7c\u7e8c\uff0c\u5fb9\u5e95\u89e3\u6c7a\u4e5f\u53ea\u662f\u6642\u9593\u554f\u984c\u3002"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u56e0\u70ba\u672c\u6b21\u8972\u64ca\uff0c\u7d10\u6ce2\u7279\u6e2f\u53ca\u5468\u908a\u5730\u5340\u906d\u53d7\u4e86\u56b4\u91cd\u7834\u58de\u3002"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6307\u63ee\u5b98\uff0c\u640d\u50b7\u8f03\u8f15\u7684\u4e3b\u529b\u8266\u968a\u6b63\u5728\u6309\u7167\u547d\u4ee4\u8b77\u9001\u8f09\u6709\u50b7\u54e1\u7684\u904b\u8f38\u968a\u6cbf\u9577\u5cf6\u5411\u7d10\u7d04\u6e2f\u5340\u8f49\u79fb\u3002"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u8a2d\u65bd\u5b8c\u5099\u7684\u7d10\u7d04\u6e2f\u8db3\u4ee5\u5feb\u901f\u4fee\u5fa9\u672c\u6b21\u8972\u64ca\u9020\u6210\u7684\u8266\u968a\u640d\u50b7\uff0c\u63a5\u4e0b\u4f86\u53ea\u8981\u7b49\u6062\u5fa9\u5b8c\u7562\u5f8c\u5411\u585e\u58ec\u2014\u2014"
+		},
+		{
+			"sequence": [
+				[
+					"",
+					0
+				],
+				[
+					"<size=60>\u5411\u5468\u908a\u6d77\u57df\u6240\u6709\u8266\u968a\u767c\u5e03\u901a\u544a</size>",
+					0.5
+				]
+			],
+			"bgm": "airRaidAlarm",
+			"mode": 1,
+			"effects": [
+				{
+					"name": "UIhuohua",
+					"active": true
+				}
+			],
+			"bgName": "bg_xiangting_1"
+		},
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"",
+					0
+				],
+				[
+					"<size=60>\u6b64\u523b\uff0c\u7d10\u7d04\u6e2f\u6b63\u5728\u906d\u53d7\u585e\u58ec\u4e3b\u529b\u8266\u968a\u7684\u570d\u653b</size>",
+					0.5
+				]
+			],
+			"bgName": "bg_xiangting_1"
+		},
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"",
+					0
+				],
+				[
+					"<size=60>\u9577\u5cf6\u9632\u7dda\u5df2\u7d93\u5d29\u6f70\uff0c\u7d10\u7d04\u53f8\u4ee4\u90e8\u5373\u5c07\u6dea\u9677</size>",
+					0.5
+				]
+			],
+			"bgName": "bg_xiangting_1"
+		},
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"",
+					0
+				],
+				[
+					"<size=60>\u91cd\u8907\uff0c\u9577\u5cf6\u9632\u7dda\u5df2\u7d93\u5d29\u6f70\uff0c\u7d10\u7d04\u53f8\u4ee4\u90e8\u5373\u5c07\u6dea\u9677</size> ",
+					0.5
+				]
+			],
+			"bgName": "bg_xiangting_1"
+		},
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"",
+					0
+				],
+				[
+					"<size=60>\u4efb\u4f55\u8266\u968a\u5728\u6536\u5230\u6b64\u6d88\u606f\u5f8c\uff0c\u706b\u901f\u524d\u4f86\u652f\u63f4\u3002</size>",
+					0.5
+				]
+			],
+			"bgName": "bg_xiangting_1"
+		},
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"",
+					0
+				],
+				[
+					"<size=60>\u706b\u901f\u524d\u4f86\u652f\u63f4-----</size>",
+					0.5
+				]
+			],
+			"bgName": "bg_xiangting_1"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "XIANGTINGLIAOFA5",
+	"once": true
 }

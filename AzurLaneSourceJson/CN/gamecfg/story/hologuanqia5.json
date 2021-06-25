@@ -1,313 +1,313 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 900215,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "哈啊…哈啊…不行了，咱实在跑不动了…一步都跑不动了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "holo-control-inst"
-    },
-    {
-      "say": "澪…澪酱……如果在这里停下来的话----",
-      "actor": 900209,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "啊----啊啊！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 900215
-    },
-    {
-      "actor": 900209,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "塞壬的炮弹就会像这样打过来的哦…"
-    },
-    {
-      "say": "吹雪快想想办法，咱不想死在这种莫名其妙的状况里啊！",
-      "actor": 900215,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "考虑到敌我双方绝望的实力对比…嗯，万策尽了",
-      "actor": 900209,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "actor": 900215,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "不要放弃啊，吹雪！！！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "在二人停驻之际，一架塞壬战机呼啸着投下了一枚炸弹"
-    },
-    {
-      "say": "澪，最后的时光能和你在一起---",
-      "actor": 900209,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "sequence": [
-        [
-          "",
-          0
-        ]
-      ],
-      "flashout": {
-        "dur": 1,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "blackBg": true,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "mode": 1,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 1.5,
-        "dur": 1
-      },
-      "stopbgm": true
-    },
-    {
-      "bgm": "nagato-map",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "现在放弃还太早了！你们快去避难，这里交给我"
-    },
-    {
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "重樱所属，驱逐舰{namecode:158}，参上！"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "HOLOGUANQIA5",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 900215,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\u54c8\u554a\u2026\u54c8\u554a\u2026\u4e0d\u884c\u4e86\uff0c\u54b1\u5b9e\u5728\u8dd1\u4e0d\u52a8\u4e86\u2026\u4e00\u6b65\u90fd\u8dd1\u4e0d\u52a8\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "holo-control-inst"
+		},
+		{
+			"say": "\u6faa\u2026\u6faa\u9171\u2026\u2026\u5982\u679c\u5728\u8fd9\u91cc\u505c\u4e0b\u6765\u7684\u8bdd----",
+			"actor": 900209,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u554a----\u554a\u554a\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 900215
+		},
+		{
+			"actor": 900209,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u585e\u58ec\u7684\u70ae\u5f39\u5c31\u4f1a\u50cf\u8fd9\u6837\u6253\u8fc7\u6765\u7684\u54e6\u2026"
+		},
+		{
+			"say": "\u5439\u96ea\u5feb\u60f3\u60f3\u529e\u6cd5\uff0c\u54b1\u4e0d\u60f3\u6b7b\u5728\u8fd9\u79cd\u83ab\u540d\u5176\u5999\u7684\u72b6\u51b5\u91cc\u554a\uff01",
+			"actor": 900215,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u8003\u8651\u5230\u654c\u6211\u53cc\u65b9\u7edd\u671b\u7684\u5b9e\u529b\u5bf9\u6bd4\u2026\u55ef\uff0c\u4e07\u7b56\u5c3d\u4e86",
+			"actor": 900209,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"actor": 900215,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u4e0d\u8981\u653e\u5f03\u554a\uff0c\u5439\u96ea\uff01\uff01\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5728\u4e8c\u4eba\u505c\u9a7b\u4e4b\u9645\uff0c\u4e00\u67b6\u585e\u58ec\u6218\u673a\u547c\u5578\u7740\u6295\u4e0b\u4e86\u4e00\u679a\u70b8\u5f39"
+		},
+		{
+			"say": "\u6faa\uff0c\u6700\u540e\u7684\u65f6\u5149\u80fd\u548c\u4f60\u5728\u4e00\u8d77---",
+			"actor": 900209,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"sequence": [
+				[
+					"",
+					0
+				]
+			],
+			"flashout": {
+				"dur": 1,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"blackBg": true,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"mode": 1,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 1.5,
+				"dur": 1
+			},
+			"stopbgm": true
+		},
+		{
+			"bgm": "nagato-map",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u73b0\u5728\u653e\u5f03\u8fd8\u592a\u65e9\u4e86\uff01\u4f60\u4eec\u5feb\u53bb\u907f\u96be\uff0c\u8fd9\u91cc\u4ea4\u7ed9\u6211"
+		},
+		{
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u91cd\u6a31\u6240\u5c5e\uff0c\u9a71\u9010\u8230{namecode:158}\uff0c\u53c2\u4e0a\uff01"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "HOLOGUANQIA5",
+	"once": true
 }

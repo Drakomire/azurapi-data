@@ -1,451 +1,451 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "サブマリン・トラップ！\n\n<size=45>五　二人の海辺・上</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "say": "母港・海辺",
-      "bgmDelay": 2,
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0.6,
-          "x": 0
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.4,
-        "dur": 0.2
-      },
-      "say": "あ！二つ目を思いついた！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.2,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 108020
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "blackBg": true,
-      "say": "明日、海に行きたいんだけど――その時に指揮官があたしと遊んでくれたらいいなあって！"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.2,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.4,
-        "dur": 0.2
-      },
-      "say": "というわけで午後はアルバコアと海辺にやってきた。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 0.6,
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "今日の砂浜はあたしたちの貸し切りらしいよ！へへへ～どんなコトをしようかな～指・揮・官♡",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "海で泳ぐことを提案する",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "あれ？泳ぐだけなの？別に悪くはないけど。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "近くの無人島まで競争することを提案する",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "いいよ！",
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "「潜水艦のプライドを賭けて！指揮官、勝負だあああ！」",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "say": "と、かっこいい決めゼリフを決めて――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "ざばーん！",
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "と見せかけてフライングスタート！バイバイ～！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 0.5,
-          "delay": 0.5,
-          "x": -2250
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "追いかける",
-          "flag": 1
-        }
-      ],
-      "say": "こちらの反応を待たずに、アルバコアは先に海に飛び込んだ。",
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "無人島まで泳いだ（本当）が、アルバコアが着いた痕跡がなかった。",
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "やったぜ。",
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "actorPosition": {
-        "y": -750,
-        "x": 0
-      },
-      "say": "サプライズ！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 750,
-          "type": "move",
-          "dur": 0.3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "あははは！指揮官、びっくりした？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "いやあ実は結構前に着いてたんだよ～この勝負、あたしの勝ち！",
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "じゃあ……第二ラウンド・スタート！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 0.5,
-          "delay": 0.6,
-          "x": -2250
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "アルバコアはまた海に潜った。",
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "今度こそ勝たなきゃ……！",
-      "blackBg": true,
-      "bgName": "star_level_bg_106"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "DAQINGHUAYU5",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u30b5\u30d6\u30de\u30ea\u30f3\u30fb\u30c8\u30e9\u30c3\u30d7\uff01\n\n<size=45>\u4e94\u3000\u4e8c\u4eba\u306e\u6d77\u8fba\u30fb\u4e0a</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"say": "\u6bcd\u6e2f\u30fb\u6d77\u8fba",
+			"bgmDelay": 2,
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0.6,
+					"x": 0
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.4,
+				"dur": 0.2
+			},
+			"say": "\u3042\uff01\u4e8c\u3064\u76ee\u3092\u601d\u3044\u3064\u3044\u305f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.2,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 108020
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"blackBg": true,
+			"say": "\u660e\u65e5\u3001\u6d77\u306b\u884c\u304d\u305f\u3044\u3093\u3060\u3051\u3069\u2015\u2015\u305d\u306e\u6642\u306b\u6307\u63ee\u5b98\u304c\u3042\u305f\u3057\u3068\u904a\u3093\u3067\u304f\u308c\u305f\u3089\u3044\u3044\u306a\u3042\u3063\u3066\uff01"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.2,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.4,
+				"dur": 0.2
+			},
+			"say": "\u3068\u3044\u3046\u308f\u3051\u3067\u5348\u5f8c\u306f\u30a2\u30eb\u30d0\u30b3\u30a2\u3068\u6d77\u8fba\u306b\u3084\u3063\u3066\u304d\u305f\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 0.6,
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u4eca\u65e5\u306e\u7802\u6d5c\u306f\u3042\u305f\u3057\u305f\u3061\u306e\u8cb8\u3057\u5207\u308a\u3089\u3057\u3044\u3088\uff01\u3078\u3078\u3078\uff5e\u3069\u3093\u306a\u30b3\u30c8\u3092\u3057\u3088\u3046\u304b\u306a\uff5e\u6307\u30fb\u63ee\u30fb\u5b98\u2661",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u6d77\u3067\u6cf3\u3050\u3053\u3068\u3092\u63d0\u6848\u3059\u308b",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3042\u308c\uff1f\u6cf3\u3050\u3060\u3051\u306a\u306e\uff1f\u5225\u306b\u60aa\u304f\u306f\u306a\u3044\u3051\u3069\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u8fd1\u304f\u306e\u7121\u4eba\u5cf6\u307e\u3067\u7af6\u4e89\u3059\u308b\u3053\u3068\u3092\u63d0\u6848\u3059\u308b",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u3044\u3044\u3088\uff01",
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u300c\u6f5c\u6c34\u8266\u306e\u30d7\u30e9\u30a4\u30c9\u3092\u8ced\u3051\u3066\uff01\u6307\u63ee\u5b98\u3001\u52dd\u8ca0\u3060\u3042\u3042\u3042\uff01\u300d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"say": "\u3068\u3001\u304b\u3063\u3053\u3044\u3044\u6c7a\u3081\u30bc\u30ea\u30d5\u3092\u6c7a\u3081\u3066\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u3056\u3070\u30fc\u3093\uff01",
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u3068\u898b\u305b\u304b\u3051\u3066\u30d5\u30e9\u30a4\u30f3\u30b0\u30b9\u30bf\u30fc\u30c8\uff01\u30d0\u30a4\u30d0\u30a4\uff5e\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 0.5,
+					"delay": 0.5,
+					"x": -2250
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u8ffd\u3044\u304b\u3051\u308b",
+					"flag": 1
+				}
+			],
+			"say": "\u3053\u3061\u3089\u306e\u53cd\u5fdc\u3092\u5f85\u305f\u305a\u306b\u3001\u30a2\u30eb\u30d0\u30b3\u30a2\u306f\u5148\u306b\u6d77\u306b\u98db\u3073\u8fbc\u3093\u3060\u3002",
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u7121\u4eba\u5cf6\u307e\u3067\u6cf3\u3044\u3060\uff08\u672c\u5f53\uff09\u304c\u3001\u30a2\u30eb\u30d0\u30b3\u30a2\u304c\u7740\u3044\u305f\u75d5\u8de1\u304c\u306a\u304b\u3063\u305f\u3002",
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u3084\u3063\u305f\u305c\u3002",
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"actorPosition": {
+				"y": -750,
+				"x": 0
+			},
+			"say": "\u30b5\u30d7\u30e9\u30a4\u30ba\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 750,
+					"type": "move",
+					"dur": 0.3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3042\u306f\u306f\u306f\uff01\u6307\u63ee\u5b98\u3001\u3073\u3063\u304f\u308a\u3057\u305f\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u3044\u3084\u3042\u5b9f\u306f\u7d50\u69cb\u524d\u306b\u7740\u3044\u3066\u305f\u3093\u3060\u3088\uff5e\u3053\u306e\u52dd\u8ca0\u3001\u3042\u305f\u3057\u306e\u52dd\u3061\uff01",
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3058\u3083\u3042\u2026\u2026\u7b2c\u4e8c\u30e9\u30a6\u30f3\u30c9\u30fb\u30b9\u30bf\u30fc\u30c8\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 0.5,
+					"delay": 0.6,
+					"x": -2250
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u30a2\u30eb\u30d0\u30b3\u30a2\u306f\u307e\u305f\u6d77\u306b\u6f5c\u3063\u305f\u3002",
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4eca\u5ea6\u3053\u305d\u52dd\u305f\u306a\u304d\u3083\u2026\u2026\uff01",
+			"blackBg": true,
+			"bgName": "star_level_bg_106"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "DAQINGHUAYU5",
+	"once": true
 }

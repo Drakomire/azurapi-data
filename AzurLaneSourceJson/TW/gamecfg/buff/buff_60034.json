@@ -1,42 +1,42 @@
 {
-  "picture": "",
-  "id": 60034,
-  "desc": "触发:主炮额外一轮攻击1",
-  "last_effect": "lingxing",
-  "time": 0,
-  "icon": 60034,
-  "effect_list": [
-    {
-      "trigger": [
-        "onBulletKill"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 60033
-      }
-    },
-    {
-      "trigger": [
-        "onBulletKill"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 60016
-      }
-    },
-    {
-      "trigger": [
-        "onBulletKill"
-      ],
-      "type": "BattleBuffWeaponCoolDown",
-      "arg_list": {
-        "weapon": "ChargeWeapon"
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "测试-声望-战神-被动触发"
+	"picture": "",
+	"id": 60034,
+	"desc": "\u89e6\u53d1:\u4e3b\u70ae\u989d\u5916\u4e00\u8f6e\u653b\u51fb1",
+	"last_effect": "lingxing",
+	"time": 0,
+	"icon": 60034,
+	"effect_list": [
+		{
+			"trigger": [
+				"onBulletKill"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"target": "TargetSelf",
+				"buff_id": 60033
+			}
+		},
+		{
+			"trigger": [
+				"onBulletKill"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 60016
+			}
+		},
+		{
+			"trigger": [
+				"onBulletKill"
+			],
+			"type": "BattleBuffWeaponCoolDown",
+			"arg_list": {
+				"weapon": "ChargeWeapon"
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u6d4b\u8bd5-\u58f0\u671b-\u6218\u795e-\u88ab\u52a8\u89e6\u53d1"
 }

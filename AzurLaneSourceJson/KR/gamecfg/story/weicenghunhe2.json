@@ -1,388 +1,388 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "며칠 전, 파나마 요새로 가던 지원 함대가 증원 요청을 남긴 채 연락이 두절됐다."
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "NY 사령부는 사라진 함대를 찾기 위해 긴급히 조사 함대를 모집했다.."
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "파나마 요새 동쪽·외해",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "hunhe-story",
-      "bgmDelay": 2,
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 103240,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "와아, 이게 전설의 파나마 요새?! 직접 와보는 건 처음이야… 엄청난데!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 107110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "브레머튼은 계속 대서양에서만 활약했으니, 이곳을 와본 적이 없겠네.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "say": "파나마 요새는 세이렌에게 대항하기 위한 주요 거점이야. 요새가 지키고 있는 운하는 굉장히 중요한 전략적 통로지.",
-      "actor": 107110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 106550,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "병참 보조에 있어서도 굉장히 중요한 허브라고 할 수 있죠.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "say": "끝없이 이어지는 상선과 수송선이 운히를 따라 두 바다를 연결하죠. 지금처럼 장기전이 일어나는 상황에서 이런 통로는 혈관처럼 중요해요.",
-      "actor": 106550,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 103240,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "에? 중요한 줄만 알았지 이렇게 대단한 줄은 몰랐네! 이곳에서 주둔하는 게 기대되기 시작했어.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 107090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "음… 곧 요새에 도착하지만 세이렌은 물론이고 전투의 흔적조차 발견할 수 없었어요.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "say": "너무나 고요해요. 볼티모어 일행은 정말 징조도 없이 사라졌군요… 골치 아프게 됐어요.",
-      "actor": 107090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 107110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "에식스, 그들이 거울 해역에 말려 들어서 길을 잃었을 가능성은?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "say": "거울 해역에 말려 들어 갔다면 통신이 아예 두절되었겠죠. 마지막 지원 요청을 들을 수 없었을 거예요.",
-      "actor": 107090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 106550,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "실종 당일 근처 항로의 운송 함대에게서는 세이렌 습격으로 인한 손해나 통신 두절에 관한 보고는 들어오지 않았어요.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "say": "하지만 기상 관측대에서는 당일 이 해역에 거대한 바다 안개가 발생했다고 해요. 이것과 관련이 있을까요?",
-      "actor": 106550,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 107110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "바다 안개를 만난 뒤 통신 시스템과 항법 시스템이 모두 고장 났고, 세이렌이 모여있는 해역에 잘못 진입했다… 이런 재수 없는 이유는 아니겠지. 아하하.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "say": "엔터프라이즈 선배, 뭔가 발견하셨나요?",
-      "actor": 107090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "아니. 지금은 아무것도 발견하지 못했다. 하지만 너무 평화로운 게 오히려 이상해.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "모든 것이 정상이라도 안심해서는 안 돼. 볼티모어 일행도 아무런 이유 없이 경고를 보내지는 않았을 거다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    },
-    {
-      "say": "이렇게 하지. 우리의 임무는 실종된 함선을 찾고 요새의 방어를 강화하는 것이다. 먼저 요새를 강화한 뒤, 주둔하면서 수색을 하도록 하자.",
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_banama_1"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "WEICENGHUNHE2",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\uba70\uce60 \uc804, \ud30c\ub098\ub9c8 \uc694\uc0c8\ub85c \uac00\ub358 \uc9c0\uc6d0 \ud568\ub300\uac00 \uc99d\uc6d0 \uc694\uccad\uc744 \ub0a8\uae34 \ucc44 \uc5f0\ub77d\uc774 \ub450\uc808\ub410\ub2e4."
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "NY \uc0ac\ub839\ubd80\ub294 \uc0ac\ub77c\uc9c4 \ud568\ub300\ub97c \ucc3e\uae30 \uc704\ud574 \uae34\uae09\ud788 \uc870\uc0ac \ud568\ub300\ub97c \ubaa8\uc9d1\ud588\ub2e4.."
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\ud30c\ub098\ub9c8 \uc694\uc0c8 \ub3d9\ucabd\u00b7\uc678\ud574",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "hunhe-story",
+			"bgmDelay": 2,
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 103240,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uc640\uc544, \uc774\uac8c \uc804\uc124\uc758 \ud30c\ub098\ub9c8 \uc694\uc0c8?! \uc9c1\uc811 \uc640\ubcf4\ub294 \uac74 \ucc98\uc74c\uc774\uc57c\u2026 \uc5c4\uccad\ub09c\ub370!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 107110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ube0c\ub808\uba38\ud2bc\uc740 \uacc4\uc18d \ub300\uc11c\uc591\uc5d0\uc11c\ub9cc \ud65c\uc57d\ud588\uc73c\ub2c8, \uc774\uacf3\uc744 \uc640\ubcf8 \uc801\uc774 \uc5c6\uaca0\ub124.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"say": "\ud30c\ub098\ub9c8 \uc694\uc0c8\ub294 \uc138\uc774\ub80c\uc5d0\uac8c \ub300\ud56d\ud558\uae30 \uc704\ud55c \uc8fc\uc694 \uac70\uc810\uc774\uc57c. \uc694\uc0c8\uac00 \uc9c0\ud0a4\uace0 \uc788\ub294 \uc6b4\ud558\ub294 \uad49\uc7a5\ud788 \uc911\uc694\ud55c \uc804\ub7b5\uc801 \ud1b5\ub85c\uc9c0.",
+			"actor": 107110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 106550,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ubcd1\ucc38 \ubcf4\uc870\uc5d0 \uc788\uc5b4\uc11c\ub3c4 \uad49\uc7a5\ud788 \uc911\uc694\ud55c \ud5c8\ube0c\ub77c\uace0 \ud560 \uc218 \uc788\uc8e0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"say": "\ub05d\uc5c6\uc774 \uc774\uc5b4\uc9c0\ub294 \uc0c1\uc120\uacfc \uc218\uc1a1\uc120\uc774 \uc6b4\ud788\ub97c \ub530\ub77c \ub450 \ubc14\ub2e4\ub97c \uc5f0\uacb0\ud558\uc8e0. \uc9c0\uae08\ucc98\ub7fc \uc7a5\uae30\uc804\uc774 \uc77c\uc5b4\ub098\ub294 \uc0c1\ud669\uc5d0\uc11c \uc774\ub7f0 \ud1b5\ub85c\ub294 \ud608\uad00\ucc98\ub7fc \uc911\uc694\ud574\uc694.",
+			"actor": 106550,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 103240,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\uc5d0? \uc911\uc694\ud55c \uc904\ub9cc \uc54c\uc558\uc9c0 \uc774\ub807\uac8c \ub300\ub2e8\ud55c \uc904\uc740 \ubab0\ub790\ub124! \uc774\uacf3\uc5d0\uc11c \uc8fc\ub454\ud558\ub294 \uac8c \uae30\ub300\ub418\uae30 \uc2dc\uc791\ud588\uc5b4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 107090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uc74c\u2026 \uace7 \uc694\uc0c8\uc5d0 \ub3c4\ucc29\ud558\uc9c0\ub9cc \uc138\uc774\ub80c\uc740 \ubb3c\ub860\uc774\uace0 \uc804\ud22c\uc758 \ud754\uc801\uc870\ucc28 \ubc1c\uacac\ud560 \uc218 \uc5c6\uc5c8\uc5b4\uc694.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"say": "\ub108\ubb34\ub098 \uace0\uc694\ud574\uc694. \ubcfc\ud2f0\ubaa8\uc5b4 \uc77c\ud589\uc740 \uc815\ub9d0 \uc9d5\uc870\ub3c4 \uc5c6\uc774 \uc0ac\ub77c\uc84c\uad70\uc694\u2026 \uace8\uce58 \uc544\ud504\uac8c \ub410\uc5b4\uc694.",
+			"actor": 107090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 107110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uc5d0\uc2dd\uc2a4, \uadf8\ub4e4\uc774 \uac70\uc6b8 \ud574\uc5ed\uc5d0 \ub9d0\ub824 \ub4e4\uc5b4\uc11c \uae38\uc744 \uc783\uc5c8\uc744 \uac00\ub2a5\uc131\uc740?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"say": "\uac70\uc6b8 \ud574\uc5ed\uc5d0 \ub9d0\ub824 \ub4e4\uc5b4 \uac14\ub2e4\uba74 \ud1b5\uc2e0\uc774 \uc544\uc608 \ub450\uc808\ub418\uc5c8\uaca0\uc8e0. \ub9c8\uc9c0\ub9c9 \uc9c0\uc6d0 \uc694\uccad\uc744 \ub4e4\uc744 \uc218 \uc5c6\uc5c8\uc744 \uac70\uc608\uc694.",
+			"actor": 107090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 106550,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uc2e4\uc885 \ub2f9\uc77c \uadfc\ucc98 \ud56d\ub85c\uc758 \uc6b4\uc1a1 \ud568\ub300\uc5d0\uac8c\uc11c\ub294 \uc138\uc774\ub80c \uc2b5\uaca9\uc73c\ub85c \uc778\ud55c \uc190\ud574\ub098 \ud1b5\uc2e0 \ub450\uc808\uc5d0 \uad00\ud55c \ubcf4\uace0\ub294 \ub4e4\uc5b4\uc624\uc9c0 \uc54a\uc558\uc5b4\uc694.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"say": "\ud558\uc9c0\ub9cc \uae30\uc0c1 \uad00\uce21\ub300\uc5d0\uc11c\ub294 \ub2f9\uc77c \uc774 \ud574\uc5ed\uc5d0 \uac70\ub300\ud55c \ubc14\ub2e4 \uc548\uac1c\uac00 \ubc1c\uc0dd\ud588\ub2e4\uace0 \ud574\uc694. \uc774\uac83\uacfc \uad00\ub828\uc774 \uc788\uc744\uae4c\uc694?",
+			"actor": 106550,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 107110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ubc14\ub2e4 \uc548\uac1c\ub97c \ub9cc\ub09c \ub4a4 \ud1b5\uc2e0 \uc2dc\uc2a4\ud15c\uacfc \ud56d\ubc95 \uc2dc\uc2a4\ud15c\uc774 \ubaa8\ub450 \uace0\uc7a5 \ub0ac\uace0, \uc138\uc774\ub80c\uc774 \ubaa8\uc5ec\uc788\ub294 \ud574\uc5ed\uc5d0 \uc798\ubabb \uc9c4\uc785\ud588\ub2e4\u2026 \uc774\ub7f0 \uc7ac\uc218 \uc5c6\ub294 \uc774\uc720\ub294 \uc544\ub2c8\uaca0\uc9c0. \uc544\ud558\ud558.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"say": "\uc5d4\ud130\ud504\ub77c\uc774\uc988 \uc120\ubc30, \ubb54\uac00 \ubc1c\uacac\ud558\uc168\ub098\uc694?",
+			"actor": 107090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\uc544\ub2c8. \uc9c0\uae08\uc740 \uc544\ubb34\uac83\ub3c4 \ubc1c\uacac\ud558\uc9c0 \ubabb\ud588\ub2e4. \ud558\uc9c0\ub9cc \ub108\ubb34 \ud3c9\ud654\ub85c\uc6b4 \uac8c \uc624\ud788\ub824 \uc774\uc0c1\ud574.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\ubaa8\ub4e0 \uac83\uc774 \uc815\uc0c1\uc774\ub77c\ub3c4 \uc548\uc2ec\ud574\uc11c\ub294 \uc548 \ub3fc. \ubcfc\ud2f0\ubaa8\uc5b4 \uc77c\ud589\ub3c4 \uc544\ubb34\ub7f0 \uc774\uc720 \uc5c6\uc774 \uacbd\uace0\ub97c \ubcf4\ub0b4\uc9c0\ub294 \uc54a\uc558\uc744 \uac70\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		},
+		{
+			"say": "\uc774\ub807\uac8c \ud558\uc9c0. \uc6b0\ub9ac\uc758 \uc784\ubb34\ub294 \uc2e4\uc885\ub41c \ud568\uc120\uc744 \ucc3e\uace0 \uc694\uc0c8\uc758 \ubc29\uc5b4\ub97c \uac15\ud654\ud558\ub294 \uac83\uc774\ub2e4. \uba3c\uc800 \uc694\uc0c8\ub97c \uac15\ud654\ud55c \ub4a4, \uc8fc\ub454\ud558\uba74\uc11c \uc218\uc0c9\uc744 \ud558\ub3c4\ub85d \ud558\uc790.",
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_banama_1"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "WEICENGHUNHE2",
+	"once": true
 }

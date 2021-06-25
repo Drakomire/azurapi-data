@@ -1,378 +1,378 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "dir": 1,
-      "effects": [
-        {
-          "name": "miwu_01",
-          "active": true
-        }
-      ],
-      "side": 2,
-      "say": "要塞东侧外海？·海雾中",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-6",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "白色。放眼望去，视野中只有纯粹的白色",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "可恶……又在耍这些小把戏！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "大家彼此保持距离，小心从浓雾中袭来的攻击！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 103160,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "白鹰舰队在浓烈的海雾中前进着，从四面八方袭来的炮弹和鱼雷来看，潜伏在周边的塞壬数量十分可观",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "海伦娜，雷达索敌的情况怎么样？",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "还是和之前一样，雷达上什么都看不到…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "塞壬的军舰明明到处都是，雷达上居然什么都看不到么…！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "“海雾”本身也许就是塞壬的陷阱，通过某种手段干扰了雷达系统…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "而且它们好像可以透过海雾掌握到我们的动向…这样下去会变成单方面挨打的",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "在收到气象部门有海雾正在蔓延的情报的时候，就在想有没有可能是塞壬的袭击…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "看来猜中了开头，没猜中展开啊…",
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "抱歉…这次直接驶入海雾是我大意了。没想到塞壬可以在镜面海域之外引起这么大规模的气象变化",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "完全被摆了一道呢…接下来怎么办…？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "那还用说？打得过就打，打不过就撤呗~我们应该只是在换防途中恰好撞上塞壬进攻要塞的主力部队了",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "正确的判断~在塞壬主场里白白牺牲可谈不上什么高明的选择",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "海伦娜，拜托妳向巴拿马要塞发出警报，让要塞准备迎接伴随海雾而来的袭击",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "刚刚已经…发送完毕了！海雾好像没有干扰我们的通讯系统",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "expression": 1,
-      "say": "好样的！大家相互掩护继续向要塞前进，和驻防舰队汇合之后依托防御体系收拾它们吧！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "MIWUZHIXIA2",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"dir": 1,
+			"effects": [
+				{
+					"name": "miwu_01",
+					"active": true
+				}
+			],
+			"side": 2,
+			"say": "\u8981\u585e\u4e1c\u4fa7\u5916\u6d77\uff1f\u00b7\u6d77\u96fe\u4e2d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-6",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u767d\u8272\u3002\u653e\u773c\u671b\u53bb\uff0c\u89c6\u91ce\u4e2d\u53ea\u6709\u7eaf\u7cb9\u7684\u767d\u8272",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u53ef\u6076\u2026\u2026\u53c8\u5728\u800d\u8fd9\u4e9b\u5c0f\u628a\u620f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u5927\u5bb6\u5f7c\u6b64\u4fdd\u6301\u8ddd\u79bb\uff0c\u5c0f\u5fc3\u4ece\u6d53\u96fe\u4e2d\u88ad\u6765\u7684\u653b\u51fb\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 103160,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u767d\u9e70\u8230\u961f\u5728\u6d53\u70c8\u7684\u6d77\u96fe\u4e2d\u524d\u8fdb\u7740\uff0c\u4ece\u56db\u9762\u516b\u65b9\u88ad\u6765\u7684\u70ae\u5f39\u548c\u9c7c\u96f7\u6765\u770b\uff0c\u6f5c\u4f0f\u5728\u5468\u8fb9\u7684\u585e\u58ec\u6570\u91cf\u5341\u5206\u53ef\u89c2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u6d77\u4f26\u5a1c\uff0c\u96f7\u8fbe\u7d22\u654c\u7684\u60c5\u51b5\u600e\u4e48\u6837\uff1f",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u8fd8\u662f\u548c\u4e4b\u524d\u4e00\u6837\uff0c\u96f7\u8fbe\u4e0a\u4ec0\u4e48\u90fd\u770b\u4e0d\u5230\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u585e\u58ec\u7684\u519b\u8230\u660e\u660e\u5230\u5904\u90fd\u662f\uff0c\u96f7\u8fbe\u4e0a\u5c45\u7136\u4ec0\u4e48\u90fd\u770b\u4e0d\u5230\u4e48\u2026\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u201c\u6d77\u96fe\u201d\u672c\u8eab\u4e5f\u8bb8\u5c31\u662f\u585e\u58ec\u7684\u9677\u9631\uff0c\u901a\u8fc7\u67d0\u79cd\u624b\u6bb5\u5e72\u6270\u4e86\u96f7\u8fbe\u7cfb\u7edf\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u800c\u4e14\u5b83\u4eec\u597d\u50cf\u53ef\u4ee5\u900f\u8fc7\u6d77\u96fe\u638c\u63e1\u5230\u6211\u4eec\u7684\u52a8\u5411\u2026\u8fd9\u6837\u4e0b\u53bb\u4f1a\u53d8\u6210\u5355\u65b9\u9762\u6328\u6253\u7684",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u5728\u6536\u5230\u6c14\u8c61\u90e8\u95e8\u6709\u6d77\u96fe\u6b63\u5728\u8513\u5ef6\u7684\u60c5\u62a5\u7684\u65f6\u5019\uff0c\u5c31\u5728\u60f3\u6709\u6ca1\u6709\u53ef\u80fd\u662f\u585e\u58ec\u7684\u88ad\u51fb\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u770b\u6765\u731c\u4e2d\u4e86\u5f00\u5934\uff0c\u6ca1\u731c\u4e2d\u5c55\u5f00\u554a\u2026",
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u62b1\u6b49\u2026\u8fd9\u6b21\u76f4\u63a5\u9a76\u5165\u6d77\u96fe\u662f\u6211\u5927\u610f\u4e86\u3002\u6ca1\u60f3\u5230\u585e\u58ec\u53ef\u4ee5\u5728\u955c\u9762\u6d77\u57df\u4e4b\u5916\u5f15\u8d77\u8fd9\u4e48\u5927\u89c4\u6a21\u7684\u6c14\u8c61\u53d8\u5316",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u5b8c\u5168\u88ab\u6446\u4e86\u4e00\u9053\u5462\u2026\u63a5\u4e0b\u6765\u600e\u4e48\u529e\u2026\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u90a3\u8fd8\u7528\u8bf4\uff1f\u6253\u5f97\u8fc7\u5c31\u6253\uff0c\u6253\u4e0d\u8fc7\u5c31\u64a4\u5457~\u6211\u4eec\u5e94\u8be5\u53ea\u662f\u5728\u6362\u9632\u9014\u4e2d\u6070\u597d\u649e\u4e0a\u585e\u58ec\u8fdb\u653b\u8981\u585e\u7684\u4e3b\u529b\u90e8\u961f\u4e86",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u6b63\u786e\u7684\u5224\u65ad~\u5728\u585e\u58ec\u4e3b\u573a\u91cc\u767d\u767d\u727a\u7272\u53ef\u8c08\u4e0d\u4e0a\u4ec0\u4e48\u9ad8\u660e\u7684\u9009\u62e9",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u6d77\u4f26\u5a1c\uff0c\u62dc\u6258\u59b3\u5411\u5df4\u62ff\u9a6c\u8981\u585e\u53d1\u51fa\u8b66\u62a5\uff0c\u8ba9\u8981\u585e\u51c6\u5907\u8fce\u63a5\u4f34\u968f\u6d77\u96fe\u800c\u6765\u7684\u88ad\u51fb",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u521a\u521a\u5df2\u7ecf\u2026\u53d1\u9001\u5b8c\u6bd5\u4e86\uff01\u6d77\u96fe\u597d\u50cf\u6ca1\u6709\u5e72\u6270\u6211\u4eec\u7684\u901a\u8baf\u7cfb\u7edf",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"expression": 1,
+			"say": "\u597d\u6837\u7684\uff01\u5927\u5bb6\u76f8\u4e92\u63a9\u62a4\u7ee7\u7eed\u5411\u8981\u585e\u524d\u8fdb\uff0c\u548c\u9a7b\u9632\u8230\u961f\u6c47\u5408\u4e4b\u540e\u4f9d\u6258\u9632\u5fa1\u4f53\u7cfb\u6536\u62fe\u5b83\u4eec\u5427\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "MIWUZHIXIA2",
+	"once": true
 }

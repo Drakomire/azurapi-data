@@ -1,342 +1,342 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "小さなめいどちょー\n\n<size=45>その一 小さな来訪者？</size>",
-          1
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "side": 2,
-      "say": "ある日・母港",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "dir": 1,
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "うん…ここは「母港」ですか？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "思ったよりずっと広いですね――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 1
-        }
-      ],
-      "say": "よし！明石さんが言ってた「指揮官」に報告しましょー！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 205020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "陛下、指揮官への資料は大丈夫でしょうか？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 205010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "もちろん！この私が間違いをするはずがないわ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "ふん！下僕の分際で私に資料を届けさせるなんて、まったく…あれ？",
-      "actor": 205010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "あっ…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 205020,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "ベルファスト？",
-      "subActors": [
-        {
-          "pos": {
-            "x": 1125
-          },
-          "actor": 205010
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "ウォースパイト&クイーン・エリザベス",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "ごきげんうるわしゅうございます。メイドのベルです。「指揮官」はどこにいらっしゃるか、ご存知ですか？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "ベルファスト？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 205010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "べ、ベルが小さくなったああああああ！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "一体どういうことだ…！？",
-      "actor": 205020,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "えっ…ベルファストは小さくなっていませんよ？",
-      "actor": 202180,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "にゃ！！ここにいたにゃ！もう勝手に出歩いちゃダメにゃ…！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202180,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "あ、明石さん……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "明石！？これはどういうことよ！",
-      "actor": 205010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 312010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "うにゃ！？じ、実は――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "BEIFA1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"\u5c0f\u3055\u306a\u3081\u3044\u3069\u3061\u3087\u30fc\n\n<size=45>\u305d\u306e\u4e00 \u5c0f\u3055\u306a\u6765\u8a2a\u8005\uff1f</size>",
+					1
+				]
+			],
+			"mode": 1
+		},
+		{
+			"side": 2,
+			"say": "\u3042\u308b\u65e5\u30fb\u6bcd\u6e2f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"dir": 1,
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3046\u3093\u2026\u3053\u3053\u306f\u300c\u6bcd\u6e2f\u300d\u3067\u3059\u304b\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u601d\u3063\u305f\u3088\u308a\u305a\u3063\u3068\u5e83\u3044\u3067\u3059\u306d\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 1
+				}
+			],
+			"say": "\u3088\u3057\uff01\u660e\u77f3\u3055\u3093\u304c\u8a00\u3063\u3066\u305f\u300c\u6307\u63ee\u5b98\u300d\u306b\u5831\u544a\u3057\u307e\u3057\u3087\u30fc\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 205020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u965b\u4e0b\u3001\u6307\u63ee\u5b98\u3078\u306e\u8cc7\u6599\u306f\u5927\u4e08\u592b\u3067\u3057\u3087\u3046\u304b\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 205010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3082\u3061\u308d\u3093\uff01\u3053\u306e\u79c1\u304c\u9593\u9055\u3044\u3092\u3059\u308b\u306f\u305a\u304c\u306a\u3044\u308f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3075\u3093\uff01\u4e0b\u50d5\u306e\u5206\u969b\u3067\u79c1\u306b\u8cc7\u6599\u3092\u5c4a\u3051\u3055\u305b\u308b\u306a\u3093\u3066\u3001\u307e\u3063\u305f\u304f\u2026\u3042\u308c\uff1f",
+			"actor": 205010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3042\u3063\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 205020,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u30d9\u30eb\u30d5\u30a1\u30b9\u30c8\uff1f",
+			"subActors": [
+				{
+					"pos": {
+						"x": 1125
+					},
+					"actor": 205010
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u30a6\u30a9\u30fc\u30b9\u30d1\u30a4\u30c8&\u30af\u30a4\u30fc\u30f3\u30fb\u30a8\u30ea\u30b6\u30d9\u30b9",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3054\u304d\u3052\u3093\u3046\u308b\u308f\u3057\u3085\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u30e1\u30a4\u30c9\u306e\u30d9\u30eb\u3067\u3059\u3002\u300c\u6307\u63ee\u5b98\u300d\u306f\u3069\u3053\u306b\u3044\u3089\u3063\u3057\u3083\u308b\u304b\u3001\u3054\u5b58\u77e5\u3067\u3059\u304b\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u30d9\u30eb\u30d5\u30a1\u30b9\u30c8\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 205010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3079\u3001\u30d9\u30eb\u304c\u5c0f\u3055\u304f\u306a\u3063\u305f\u3042\u3042\u3042\u3042\u3042\u3042\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u4e00\u4f53\u3069\u3046\u3044\u3046\u3053\u3068\u3060\u2026\uff01\uff1f",
+			"actor": 205020,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3048\u3063\u2026\u30d9\u30eb\u30d5\u30a1\u30b9\u30c8\u306f\u5c0f\u3055\u304f\u306a\u3063\u3066\u3044\u307e\u305b\u3093\u3088\uff1f",
+			"actor": 202180,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u306b\u3083\uff01\uff01\u3053\u3053\u306b\u3044\u305f\u306b\u3083\uff01\u3082\u3046\u52dd\u624b\u306b\u51fa\u6b69\u3044\u3061\u3083\u30c0\u30e1\u306b\u3083\u2026\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202180,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3042\u3001\u660e\u77f3\u3055\u3093\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u660e\u77f3\uff01\uff1f\u3053\u308c\u306f\u3069\u3046\u3044\u3046\u3053\u3068\u3088\uff01",
+			"actor": 205010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 312010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\u3046\u306b\u3083\uff01\uff1f\u3058\u3001\u5b9f\u306f\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "BEIFA1",
+	"once": true
 }

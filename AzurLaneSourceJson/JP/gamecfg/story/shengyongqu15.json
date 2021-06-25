@@ -1,598 +1,598 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "side": 2,
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "聖堂の島・外周海域",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "level-french2",
-      "bgmDelay": 0.5,
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "――――！！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "say": "主力艦、そのまま敵に砲撃を！小型艦は航空攻撃隊の攻撃目標の指示を！神のご加護のもとに、全艦、前進！",
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "（ごめんなさいアルジェリー、いくら量産艦を強化したとはいえ、正面切って戦ってこちらが負けるはずがありませんわ）",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "イラストリアスさん、ベアルン、先程言った通りアルジェリーの艤装機関部を攻撃し、無力化を狙ってください",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "soundeffect": "event:/battle/plane",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "はい、聖なる光の導きのままに～ふふふ",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 207030,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "soundeffect": "event:/battle/plane",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "善処します。イラストリアス様、護衛は私めにおまかせを",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 807010,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "…！この対空砲火は…！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "actor": 807010,
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "どうやら建物に隠された対空砲によるものですね。一筋縄ではいかないようです",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "say": "なんて恐ろしい相手でしょう…",
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "このまま戦線を押し切ります！勢いはこちらに！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "ヴィシアの艦隊、後退し始めました！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 801030,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "expression": 8,
-      "say": "アルジェリーさん、逃げちゃうの？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 801040,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "本当だ。みんな散り散りに……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 801030,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "expression": 1,
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "よぉし、速力を生かして捕まえちゃおう！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "アルジェリーがそう簡単に撤退するかしら…これは私たちを誘い込む罠ですね",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 801030,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "expression": 4,
-      "say": "そうなの…？こちらが優勢なのに…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 201120,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "イラストリアスさん、私たちはどうします？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "say": "すみません、ちょっと艦載機で確認してみます",
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "say": "撤退にしては整然としすぎていますわ。急いで戦場から離脱しようとするどころか…小艦隊に再編成しているような気がします",
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "say": "こちらの戦力分散を狙っている気もしなくはありませんが…このまま追いますか？",
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "数なら敵のほうが有利です。こちらも戦力を分散するとかえって防衛施設との連携で各個撃破される危険性がありますね",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "say": "では一個ずつ敵艦隊を追撃しますか？聖堂までの距離はそう遠くありませんから、一部を聖堂に向かわせるのも…",
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "リシュリューさん、ご命令を",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "……全艦、進路を聖堂のほうに切り替えて",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "say": "アルジェリーたちの行方を確認できない以上、作戦目標の聖堂を先に確保しましょう",
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "前衛艦隊も後退し、追撃せず本隊と合流してください。これより聖堂を目標に移動を開始します",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "（目的が聖堂を守ることならこっちの動きを無視できないはずです。アルジェリー、話の続きはそこでしましょう）",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_qiongding_1"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "SHENGYONGQU15",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"side": 2,
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u8056\u5802\u306e\u5cf6\u30fb\u5916\u5468\u6d77\u57df",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "level-french2",
+			"bgmDelay": 0.5,
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u2015\u2015\u2015\u2015\uff01\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"say": "\u4e3b\u529b\u8266\u3001\u305d\u306e\u307e\u307e\u6575\u306b\u7832\u6483\u3092\uff01\u5c0f\u578b\u8266\u306f\u822a\u7a7a\u653b\u6483\u968a\u306e\u653b\u6483\u76ee\u6a19\u306e\u6307\u793a\u3092\uff01\u795e\u306e\u3054\u52a0\u8b77\u306e\u3082\u3068\u306b\u3001\u5168\u8266\u3001\u524d\u9032\uff01",
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uff08\u3054\u3081\u3093\u306a\u3055\u3044\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u3001\u3044\u304f\u3089\u91cf\u7523\u8266\u3092\u5f37\u5316\u3057\u305f\u3068\u306f\u3044\u3048\u3001\u6b63\u9762\u5207\u3063\u3066\u6226\u3063\u3066\u3053\u3061\u3089\u304c\u8ca0\u3051\u308b\u306f\u305a\u304c\u3042\u308a\u307e\u305b\u3093\u308f\uff09",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u30a4\u30e9\u30b9\u30c8\u30ea\u30a2\u30b9\u3055\u3093\u3001\u30d9\u30a2\u30eb\u30f3\u3001\u5148\u7a0b\u8a00\u3063\u305f\u901a\u308a\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u306e\u8264\u88c5\u6a5f\u95a2\u90e8\u3092\u653b\u6483\u3057\u3001\u7121\u529b\u5316\u3092\u72d9\u3063\u3066\u304f\u3060\u3055\u3044",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"soundeffect": "event:/battle/plane",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u306f\u3044\u3001\u8056\u306a\u308b\u5149\u306e\u5c0e\u304d\u306e\u307e\u307e\u306b\uff5e\u3075\u3075\u3075",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 207030,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"soundeffect": "event:/battle/plane",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u5584\u51e6\u3057\u307e\u3059\u3002\u30a4\u30e9\u30b9\u30c8\u30ea\u30a2\u30b9\u69d8\u3001\u8b77\u885b\u306f\u79c1\u3081\u306b\u304a\u307e\u304b\u305b\u3092",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 807010,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u2026\uff01\u3053\u306e\u5bfe\u7a7a\u7832\u706b\u306f\u2026\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"actor": 807010,
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u3069\u3046\u3084\u3089\u5efa\u7269\u306b\u96a0\u3055\u308c\u305f\u5bfe\u7a7a\u7832\u306b\u3088\u308b\u3082\u306e\u3067\u3059\u306d\u3002\u4e00\u7b4b\u7e04\u3067\u306f\u3044\u304b\u306a\u3044\u3088\u3046\u3067\u3059",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"say": "\u306a\u3093\u3066\u6050\u308d\u3057\u3044\u76f8\u624b\u3067\u3057\u3087\u3046\u2026",
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3053\u306e\u307e\u307e\u6226\u7dda\u3092\u62bc\u3057\u5207\u308a\u307e\u3059\uff01\u52e2\u3044\u306f\u3053\u3061\u3089\u306b\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u30f4\u30a3\u30b7\u30a2\u306e\u8266\u968a\u3001\u5f8c\u9000\u3057\u59cb\u3081\u307e\u3057\u305f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 801030,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"expression": 8,
+			"say": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u3055\u3093\u3001\u9003\u3052\u3061\u3083\u3046\u306e\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 801040,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u672c\u5f53\u3060\u3002\u307f\u3093\u306a\u6563\u308a\u6563\u308a\u306b\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 801030,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"expression": 1,
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\u3088\u3049\u3057\u3001\u901f\u529b\u3092\u751f\u304b\u3057\u3066\u6355\u307e\u3048\u3061\u3083\u304a\u3046\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u304c\u305d\u3046\u7c21\u5358\u306b\u64a4\u9000\u3059\u308b\u304b\u3057\u3089\u2026\u3053\u308c\u306f\u79c1\u305f\u3061\u3092\u8a98\u3044\u8fbc\u3080\u7f60\u3067\u3059\u306d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 801030,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"expression": 4,
+			"say": "\u305d\u3046\u306a\u306e\u2026\uff1f\u3053\u3061\u3089\u304c\u512a\u52e2\u306a\u306e\u306b\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 201120,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u30a4\u30e9\u30b9\u30c8\u30ea\u30a2\u30b9\u3055\u3093\u3001\u79c1\u305f\u3061\u306f\u3069\u3046\u3057\u307e\u3059\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"say": "\u3059\u307f\u307e\u305b\u3093\u3001\u3061\u3087\u3063\u3068\u8266\u8f09\u6a5f\u3067\u78ba\u8a8d\u3057\u3066\u307f\u307e\u3059",
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"say": "\u64a4\u9000\u306b\u3057\u3066\u306f\u6574\u7136\u3068\u3057\u3059\u304e\u3066\u3044\u307e\u3059\u308f\u3002\u6025\u3044\u3067\u6226\u5834\u304b\u3089\u96e2\u8131\u3057\u3088\u3046\u3068\u3059\u308b\u3069\u3053\u308d\u304b\u2026\u5c0f\u8266\u968a\u306b\u518d\u7de8\u6210\u3057\u3066\u3044\u308b\u3088\u3046\u306a\u6c17\u304c\u3057\u307e\u3059",
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"say": "\u3053\u3061\u3089\u306e\u6226\u529b\u5206\u6563\u3092\u72d9\u3063\u3066\u3044\u308b\u6c17\u3082\u3057\u306a\u304f\u306f\u3042\u308a\u307e\u305b\u3093\u304c\u2026\u3053\u306e\u307e\u307e\u8ffd\u3044\u307e\u3059\u304b\uff1f",
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u6570\u306a\u3089\u6575\u306e\u307b\u3046\u304c\u6709\u5229\u3067\u3059\u3002\u3053\u3061\u3089\u3082\u6226\u529b\u3092\u5206\u6563\u3059\u308b\u3068\u304b\u3048\u3063\u3066\u9632\u885b\u65bd\u8a2d\u3068\u306e\u9023\u643a\u3067\u5404\u500b\u6483\u7834\u3055\u308c\u308b\u5371\u967a\u6027\u304c\u3042\u308a\u307e\u3059\u306d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"say": "\u3067\u306f\u4e00\u500b\u305a\u3064\u6575\u8266\u968a\u3092\u8ffd\u6483\u3057\u307e\u3059\u304b\uff1f\u8056\u5802\u307e\u3067\u306e\u8ddd\u96e2\u306f\u305d\u3046\u9060\u304f\u3042\u308a\u307e\u305b\u3093\u304b\u3089\u3001\u4e00\u90e8\u3092\u8056\u5802\u306b\u5411\u304b\u308f\u305b\u308b\u306e\u3082\u2026",
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u30ea\u30b7\u30e5\u30ea\u30e5\u30fc\u3055\u3093\u3001\u3054\u547d\u4ee4\u3092",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u2026\u2026\u5168\u8266\u3001\u9032\u8def\u3092\u8056\u5802\u306e\u307b\u3046\u306b\u5207\u308a\u66ff\u3048\u3066",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"say": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u305f\u3061\u306e\u884c\u65b9\u3092\u78ba\u8a8d\u3067\u304d\u306a\u3044\u4ee5\u4e0a\u3001\u4f5c\u6226\u76ee\u6a19\u306e\u8056\u5802\u3092\u5148\u306b\u78ba\u4fdd\u3057\u307e\u3057\u3087\u3046",
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u524d\u885b\u8266\u968a\u3082\u5f8c\u9000\u3057\u3001\u8ffd\u6483\u305b\u305a\u672c\u968a\u3068\u5408\u6d41\u3057\u3066\u304f\u3060\u3055\u3044\u3002\u3053\u308c\u3088\u308a\u8056\u5802\u3092\u76ee\u6a19\u306b\u79fb\u52d5\u3092\u958b\u59cb\u3057\u307e\u3059",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\uff08\u76ee\u7684\u304c\u8056\u5802\u3092\u5b88\u308b\u3053\u3068\u306a\u3089\u3053\u3063\u3061\u306e\u52d5\u304d\u3092\u7121\u8996\u3067\u304d\u306a\u3044\u306f\u305a\u3067\u3059\u3002\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u3001\u8a71\u306e\u7d9a\u304d\u306f\u305d\u3053\u3067\u3057\u307e\u3057\u3087\u3046\uff09",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_qiongding_1"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "SHENGYONGQU15",
+	"once": true
 }

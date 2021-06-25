@@ -1,821 +1,821 @@
 {
-  "continueBgm": true,
-  "fadeOut": 0.5,
-  "occlusion": 2,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "side": 2,
-      "say": "……경고：주변 해역에 적 항공 병력이 내습. 각 대원 신속히 전투태세에 이행할 것……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "soundeffect": "event:/ui/alarm",
-      "dir": 1
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……경고：주변 해역에 적 항공 병력이 내습. 각 대원 신속히 전투태세에 이행할 것……",
-      "side": 2,
-      "dir": 1
-    },
-    {
-      "actor": 905010,
-      "side": 0,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "드디어 왔군! '대양 너머의 폭풍'인가 하는 녀석! 참 오래도 기다리게 하는군!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "withoutPainting": true,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_faxi2"
-    },
-    {
-      "dir": 1,
-      "actor": 905010,
-      "side": 0,
-      "say": "……리슐리외 언니, 이게 당신이 원한 결과인가……?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "withoutPainting": true,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_faxi2"
-    },
-    {
-      "side": 2,
-      "bgm": "story-french",
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1.5,
-        "black": true
-      },
-      "effects": [
-        {
-          "name": "rangbaer",
-          "delay": 3,
-          "active": true
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1.5,
-        "dur": 1.5
-      },
-      "say": "비시아의 기사(카발리에)들이여! 성전의 때가 도래했다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "bgmDelay": 3,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "부끄러운 줄도 모르는 외지인들이 우리 조국을 짓밟고,",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "강대한 우리 해군을 손에 넣으려고 몇 번이나 검은 손길을 뻗었는가!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "그 위선자들에겐 기사도도, 신앙도, 도리도, 정의도 없고,",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "있는 것은 배신과 기만뿐이다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "됭케르크, 프로방스, 브리타니아, 그날의 비열한 술수에 당한 우리 동포의 이름을, 우리는 한시도 잊은 적이 없다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "그날, 우리는 맞서지 않았다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "그날, 우리는 저항을 선택하지 않았다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "그것이 우리, 이 아이리스의 정통을 잇는 비시아 성좌가, 외적과 결탁한 자들을 두려워하고 있음을 뜻하는가!?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "아니다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "그날, 우리는 패배했다. 하지만 우리는 이 세계의 구조를 누구보다도, 아플 정도로 통감할 수 있었다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "적은 강했다. 하지만 비시아도 그날의 비시아가 아니다!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "악행으로 천벌이 내렸음에도 불구하고,",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "사악한 자들이 다시 한 번 우리의 조국을 침략하려 하고 있다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "'자유를 주겠다'던가, '선택권을 주겠다'던가, 번지르르한 말을 늘어놓지만……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "'카이사르의 것은 카이사르에게, 신의 것은 신에게'……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "우리의 자유는 신께서 내려주신 것! 결코 타인에게 받은 게 아니다!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "새로운 힘을 손에 넣은 우리는 어떤 상대라도 쳐부술 수 있다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "자! 비시아의 기사들이여! 성전의 때가 드디어 도래했다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "온 세계에 증명하라! 우리야말로 정통한 아이리스, 우리야말로 약속된 영광이라는 것을!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "Que Dieu vous bénisse(신의 가호가 있기를)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "say": "전 함대, 목표에 조준…… 공격하라!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "mode": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 0,
-      "dir": 1,
-      "effects": [
-        {
-          "name": "rangbaer",
-          "active": false
-        }
-      ],
-      "say": "이, 이건…… 비시아 함대가 공격해왔습니다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 101300
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 102030,
-      "side": 1,
-      "say": "막대한 손상 발생! 지원 바랍니다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 102030,
-      "side": 1,
-      "say": "반복합니다! 막대한 손상 발생! 지원 바랍니다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 107040,
-      "side": 1,
-      "say": "평범한 방법으론 안 될 것 같네……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 107040,
-      "side": 1,
-      "say": "주변 해역에서 전개 중인 함재기에게 알립니다. 지금부터 임무를 변경합니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 107040,
-      "side": 1,
-      "say": "연안포 제거를 우선하여, 상륙 엄호에 집중해주세요!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 102090,
-      "side": 1,
-      "say": "역시 싸울 수 밖에 없나…… 적 항공기가 없으면 난 좀처럼 활약하기 힘들겠다만……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 102090,
-      "side": 1,
-      "say": "으와와와! 세이렌의 함재기!?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 103110,
-      "side": 1,
-      "say": "방심하지마! 이 부근의 대공은 너에게 맡긴다! 우린 세이렌의 신형 항공모함을 치겠어!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "FAXI07",
-  "once": true
+	"continueBgm": true,
+	"fadeOut": 0.5,
+	"occlusion": 2,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"side": 2,
+			"say": "\u2026\u2026\uacbd\uace0\uff1a\uc8fc\ubcc0 \ud574\uc5ed\uc5d0 \uc801 \ud56d\uacf5 \ubcd1\ub825\uc774 \ub0b4\uc2b5. \uac01 \ub300\uc6d0 \uc2e0\uc18d\ud788 \uc804\ud22c\ud0dc\uc138\uc5d0 \uc774\ud589\ud560 \uac83\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"soundeffect": "event:/ui/alarm",
+			"dir": 1
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\uacbd\uace0\uff1a\uc8fc\ubcc0 \ud574\uc5ed\uc5d0 \uc801 \ud56d\uacf5 \ubcd1\ub825\uc774 \ub0b4\uc2b5. \uac01 \ub300\uc6d0 \uc2e0\uc18d\ud788 \uc804\ud22c\ud0dc\uc138\uc5d0 \uc774\ud589\ud560 \uac83\u2026\u2026",
+			"side": 2,
+			"dir": 1
+		},
+		{
+			"actor": 905010,
+			"side": 0,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\ub4dc\ub514\uc5b4 \uc654\uad70! '\ub300\uc591 \ub108\uba38\uc758 \ud3ed\ud48d'\uc778\uac00 \ud558\ub294 \ub140\uc11d! \ucc38 \uc624\ub798\ub3c4 \uae30\ub2e4\ub9ac\uac8c \ud558\ub294\uad70!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"withoutPainting": true,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_faxi2"
+		},
+		{
+			"dir": 1,
+			"actor": 905010,
+			"side": 0,
+			"say": "\u2026\u2026\ub9ac\uc290\ub9ac\uc678 \uc5b8\ub2c8, \uc774\uac8c \ub2f9\uc2e0\uc774 \uc6d0\ud55c \uacb0\uacfc\uc778\uac00\u2026\u2026?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"withoutPainting": true,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_faxi2"
+		},
+		{
+			"side": 2,
+			"bgm": "story-french",
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1.5,
+				"black": true
+			},
+			"effects": [
+				{
+					"name": "rangbaer",
+					"delay": 3,
+					"active": true
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1.5,
+				"dur": 1.5
+			},
+			"say": "\ube44\uc2dc\uc544\uc758 \uae30\uc0ac(\uce74\ubc1c\ub9ac\uc5d0)\ub4e4\uc774\uc5ec! \uc131\uc804\uc758 \ub54c\uac00 \ub3c4\ub798\ud588\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"bgmDelay": 3,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\ubd80\ub044\ub7ec\uc6b4 \uc904\ub3c4 \ubaa8\ub974\ub294 \uc678\uc9c0\uc778\ub4e4\uc774 \uc6b0\ub9ac \uc870\uad6d\uc744 \uc9d3\ubc1f\uace0,",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uac15\ub300\ud55c \uc6b0\ub9ac \ud574\uad70\uc744 \uc190\uc5d0 \ub123\uc73c\ub824\uace0 \uba87 \ubc88\uc774\ub098 \uac80\uc740 \uc190\uae38\uc744 \ubed7\uc5c8\ub294\uac00!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uadf8 \uc704\uc120\uc790\ub4e4\uc5d0\uac90 \uae30\uc0ac\ub3c4\ub3c4, \uc2e0\uc559\ub3c4, \ub3c4\ub9ac\ub3c4, \uc815\uc758\ub3c4 \uc5c6\uace0,",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc788\ub294 \uac83\uc740 \ubc30\uc2e0\uacfc \uae30\ub9cc\ubfd0\uc774\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\ub42d\ucf00\ub974\ud06c, \ud504\ub85c\ubc29\uc2a4, \ube0c\ub9ac\ud0c0\ub2c8\uc544, \uadf8\ub0a0\uc758 \ube44\uc5f4\ud55c \uc220\uc218\uc5d0 \ub2f9\ud55c \uc6b0\ub9ac \ub3d9\ud3ec\uc758 \uc774\ub984\uc744, \uc6b0\ub9ac\ub294 \ud55c\uc2dc\ub3c4 \uc78a\uc740 \uc801\uc774 \uc5c6\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uadf8\ub0a0, \uc6b0\ub9ac\ub294 \ub9de\uc11c\uc9c0 \uc54a\uc558\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uadf8\ub0a0, \uc6b0\ub9ac\ub294 \uc800\ud56d\uc744 \uc120\ud0dd\ud558\uc9c0 \uc54a\uc558\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uadf8\uac83\uc774 \uc6b0\ub9ac, \uc774 \uc544\uc774\ub9ac\uc2a4\uc758 \uc815\ud1b5\uc744 \uc787\ub294 \ube44\uc2dc\uc544 \uc131\uc88c\uac00, \uc678\uc801\uacfc \uacb0\ud0c1\ud55c \uc790\ub4e4\uc744 \ub450\ub824\uc6cc\ud558\uace0 \uc788\uc74c\uc744 \ub73b\ud558\ub294\uac00!?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc544\ub2c8\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uadf8\ub0a0, \uc6b0\ub9ac\ub294 \ud328\ubc30\ud588\ub2e4. \ud558\uc9c0\ub9cc \uc6b0\ub9ac\ub294 \uc774 \uc138\uacc4\uc758 \uad6c\uc870\ub97c \ub204\uad6c\ubcf4\ub2e4\ub3c4, \uc544\ud50c \uc815\ub3c4\ub85c \ud1b5\uac10\ud560 \uc218 \uc788\uc5c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc801\uc740 \uac15\ud588\ub2e4. \ud558\uc9c0\ub9cc \ube44\uc2dc\uc544\ub3c4 \uadf8\ub0a0\uc758 \ube44\uc2dc\uc544\uac00 \uc544\ub2c8\ub2e4!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc545\ud589\uc73c\ub85c \ucc9c\ubc8c\uc774 \ub0b4\ub838\uc74c\uc5d0\ub3c4 \ubd88\uad6c\ud558\uace0,",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc0ac\uc545\ud55c \uc790\ub4e4\uc774 \ub2e4\uc2dc \ud55c \ubc88 \uc6b0\ub9ac\uc758 \uc870\uad6d\uc744 \uce68\ub7b5\ud558\ub824 \ud558\uace0 \uc788\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "'\uc790\uc720\ub97c \uc8fc\uaca0\ub2e4'\ub358\uac00, '\uc120\ud0dd\uad8c\uc744 \uc8fc\uaca0\ub2e4'\ub358\uac00, \ubc88\uc9c0\ub974\ub974\ud55c \ub9d0\uc744 \ub298\uc5b4\ub193\uc9c0\ub9cc\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "'\uce74\uc774\uc0ac\ub974\uc758 \uac83\uc740 \uce74\uc774\uc0ac\ub974\uc5d0\uac8c, \uc2e0\uc758 \uac83\uc740 \uc2e0\uc5d0\uac8c'\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc6b0\ub9ac\uc758 \uc790\uc720\ub294 \uc2e0\uaed8\uc11c \ub0b4\ub824\uc8fc\uc2e0 \uac83! \uacb0\ucf54 \ud0c0\uc778\uc5d0\uac8c \ubc1b\uc740 \uac8c \uc544\ub2c8\ub2e4!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc0c8\ub85c\uc6b4 \ud798\uc744 \uc190\uc5d0 \ub123\uc740 \uc6b0\ub9ac\ub294 \uc5b4\ub5a4 \uc0c1\ub300\ub77c\ub3c4 \uccd0\ubd80\uc220 \uc218 \uc788\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc790! \ube44\uc2dc\uc544\uc758 \uae30\uc0ac\ub4e4\uc774\uc5ec! \uc131\uc804\uc758 \ub54c\uac00 \ub4dc\ub514\uc5b4 \ub3c4\ub798\ud588\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc628 \uc138\uacc4\uc5d0 \uc99d\uba85\ud558\ub77c! \uc6b0\ub9ac\uc57c\ub9d0\ub85c \uc815\ud1b5\ud55c \uc544\uc774\ub9ac\uc2a4, \uc6b0\ub9ac\uc57c\ub9d0\ub85c \uc57d\uc18d\ub41c \uc601\uad11\uc774\ub77c\ub294 \uac83\uc744!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "Que Dieu vous b\u00e9nisse(\uc2e0\uc758 \uac00\ud638\uac00 \uc788\uae30\ub97c)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"say": "\uc804 \ud568\ub300, \ubaa9\ud45c\uc5d0 \uc870\uc900\u2026\u2026 \uacf5\uaca9\ud558\ub77c!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"mode": 2,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 0,
+			"dir": 1,
+			"effects": [
+				{
+					"name": "rangbaer",
+					"active": false
+				}
+			],
+			"say": "\uc774, \uc774\uac74\u2026\u2026 \ube44\uc2dc\uc544 \ud568\ub300\uac00 \uacf5\uaca9\ud574\uc654\uc2b5\ub2c8\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 101300
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"actor": 102030,
+			"side": 1,
+			"say": "\ub9c9\ub300\ud55c \uc190\uc0c1 \ubc1c\uc0dd! \uc9c0\uc6d0 \ubc14\ub78d\ub2c8\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"actor": 102030,
+			"side": 1,
+			"say": "\ubc18\ubcf5\ud569\ub2c8\ub2e4! \ub9c9\ub300\ud55c \uc190\uc0c1 \ubc1c\uc0dd! \uc9c0\uc6d0 \ubc14\ub78d\ub2c8\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"actor": 107040,
+			"side": 1,
+			"say": "\ud3c9\ubc94\ud55c \ubc29\ubc95\uc73c\ub860 \uc548 \ub420 \uac83 \uac19\ub124\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"actor": 107040,
+			"side": 1,
+			"say": "\uc8fc\ubcc0 \ud574\uc5ed\uc5d0\uc11c \uc804\uac1c \uc911\uc778 \ud568\uc7ac\uae30\uc5d0\uac8c \uc54c\ub9bd\ub2c8\ub2e4. \uc9c0\uae08\ubd80\ud130 \uc784\ubb34\ub97c \ubcc0\uacbd\ud569\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"actor": 107040,
+			"side": 1,
+			"say": "\uc5f0\uc548\ud3ec \uc81c\uac70\ub97c \uc6b0\uc120\ud558\uc5ec, \uc0c1\ub959 \uc5c4\ud638\uc5d0 \uc9d1\uc911\ud574\uc8fc\uc138\uc694!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"actor": 102090,
+			"side": 1,
+			"say": "\uc5ed\uc2dc \uc2f8\uc6b8 \uc218 \ubc16\uc5d0 \uc5c6\ub098\u2026\u2026 \uc801 \ud56d\uacf5\uae30\uac00 \uc5c6\uc73c\uba74 \ub09c \uc880\ucc98\ub7fc \ud65c\uc57d\ud558\uae30 \ud798\ub4e4\uaca0\ub2e4\ub9cc\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"actor": 102090,
+			"side": 1,
+			"say": "\uc73c\uc640\uc640\uc640! \uc138\uc774\ub80c\uc758 \ud568\uc7ac\uae30!?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"actor": 103110,
+			"side": 1,
+			"say": "\ubc29\uc2ec\ud558\uc9c0\ub9c8! \uc774 \ubd80\uadfc\uc758 \ub300\uacf5\uc740 \ub108\uc5d0\uac8c \ub9e1\uae34\ub2e4! \uc6b0\ub9b0 \uc138\uc774\ub80c\uc758 \uc2e0\ud615 \ud56d\uacf5\ubaa8\ud568\uc744 \uce58\uaca0\uc5b4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "FAXI07",
+	"once": true
 }

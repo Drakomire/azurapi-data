@@ -1,235 +1,235 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "바퀴벌레 발견! 네가 오늘 하루 종일 우리를 귀찮게 한 놈이구나!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "battle-seiren-theme"
-    },
-    {
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "......컴파일러, 컴파일러라고."
-    },
-    {
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "컴파일러...? 아무리 봐도 바퀴벌레인데?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "원형을 말하는 거라면 초기 설계 때 바퀴벌레가 아닌 심해대왕 구족충의 요소를 일부 적용한 것이다."
-    },
-    {
-      "say": "이름 완전 길어... 대왕... 구족... 충.... 아!",
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "dir": 1,
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "say": "펑————————!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "say": "................",
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "시선을 돌리고 도망갈 생각이라면 그만둬! 이미 포위됐어. 투항이냐 침몰이냐 선택해!"
-    },
-    {
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "연합 함대를 혼자 해결하는 것은 조금 귀찮지만, 너 하나라면..."
-    },
-    {
-      "actor": 900230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "기체 방어 모듈 가동, 이동 모듈 출력 하향, 포격 모드 준비————"
-    },
-    {
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 403090,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "드디어 싸우려는 건가! 좋아, 그러면 훈련의 성과를 보여볼까. 프린츠 하인리히, 간다!"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "FUXIANGXIANZUOZHAN28",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\ubc14\ud034\ubc8c\ub808 \ubc1c\uacac! \ub124\uac00 \uc624\ub298 \ud558\ub8e8 \uc885\uc77c \uc6b0\ub9ac\ub97c \uadc0\ucc2e\uac8c \ud55c \ub188\uc774\uad6c\ub098!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "battle-seiren-theme"
+		},
+		{
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "......\ucef4\ud30c\uc77c\ub7ec, \ucef4\ud30c\uc77c\ub7ec\ub77c\uace0."
+		},
+		{
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\ucef4\ud30c\uc77c\ub7ec...? \uc544\ubb34\ub9ac \ubd10\ub3c4 \ubc14\ud034\ubc8c\ub808\uc778\ub370?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc6d0\ud615\uc744 \ub9d0\ud558\ub294 \uac70\ub77c\uba74 \ucd08\uae30 \uc124\uacc4 \ub54c \ubc14\ud034\ubc8c\ub808\uac00 \uc544\ub2cc \uc2ec\ud574\ub300\uc655 \uad6c\uc871\ucda9\uc758 \uc694\uc18c\ub97c \uc77c\ubd80 \uc801\uc6a9\ud55c \uac83\uc774\ub2e4."
+		},
+		{
+			"say": "\uc774\ub984 \uc644\uc804 \uae38\uc5b4... \ub300\uc655... \uad6c\uc871... \ucda9.... \uc544!",
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"dir": 1,
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"say": "\ud391\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"say": "................",
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc2dc\uc120\uc744 \ub3cc\ub9ac\uace0 \ub3c4\ub9dd\uac08 \uc0dd\uac01\uc774\ub77c\uba74 \uadf8\ub9cc\ub46c! \uc774\ubbf8 \ud3ec\uc704\ub410\uc5b4. \ud22c\ud56d\uc774\ub0d0 \uce68\ubab0\uc774\ub0d0 \uc120\ud0dd\ud574!"
+		},
+		{
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc5f0\ud569 \ud568\ub300\ub97c \ud63c\uc790 \ud574\uacb0\ud558\ub294 \uac83\uc740 \uc870\uae08 \uadc0\ucc2e\uc9c0\ub9cc, \ub108 \ud558\ub098\ub77c\uba74..."
+		},
+		{
+			"actor": 900230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uae30\uccb4 \ubc29\uc5b4 \ubaa8\ub4c8 \uac00\ub3d9, \uc774\ub3d9 \ubaa8\ub4c8 \ucd9c\ub825 \ud558\ud5a5, \ud3ec\uaca9 \ubaa8\ub4dc \uc900\ube44\u2014\u2014\u2014\u2014"
+		},
+		{
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 403090,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ub4dc\ub514\uc5b4 \uc2f8\uc6b0\ub824\ub294 \uac74\uac00! \uc88b\uc544, \uadf8\ub7ec\uba74 \ud6c8\ub828\uc758 \uc131\uacfc\ub97c \ubcf4\uc5ec\ubcfc\uae4c. \ud504\ub9b0\uce20 \ud558\uc778\ub9ac\ud788, \uac04\ub2e4!"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "FUXIANGXIANZUOZHAN28",
+	"once": true
 }

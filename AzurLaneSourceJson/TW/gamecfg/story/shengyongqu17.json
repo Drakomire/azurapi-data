@@ -1,364 +1,364 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "side": 2,
-      "say": "维希教廷圣堂·近海",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "hunhe-level",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "dir": 1
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "无视了维希舰队的诱导企图，联合舰队如同射向心脏的利箭一般径直向圣堂的方向行驶着。"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "虽然不可避免的因为各处防御设施而被拖延了速度。不过最终，联合舰队还是抵达了圣堂所在的近海。"
-    },
-    {
-      "actor": 807010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "前方的应该是守护圣堂外围的小型要塞群，我们终于要进入圣堂本身的防御体系内了。"
-    },
-    {
-      "actor": 801030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 9,
-      "say": "居……居然刚刚的那些还不算圣堂本身的防御设施么（倒）",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": -30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "say": "阿尔及利亚她们还是没有任何行动，也没有看到任何接近的维希舰队。因为计划被我们识破了在商量对策么？",
-      "actor": 807010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 8
-    },
-    {
-      "say": "唔……只要我们拿下了圣堂，她们就没有和我们战斗的必要了。",
-      "actor": 801030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 6
-    },
-    {
-      "say": "果然阿尔及利亚姐姐还是不想和我们认真打，所以故意放我们来占领圣堂吧。",
-      "actor": 801030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "say": "这恐怕是不可能的。阿尔及利亚也是教廷骑士，我们有多坚定她们就有多固执。",
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "既然选择效忠维希教廷，她们是绝对不会这么轻易的放弃。"
-    },
-    {
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "难道说让我们这样直接靠近圣堂就是她们的目的么？可是为什么呢……"
-    },
-    {
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "黎塞留，如果我们就这样继续接近圣堂的话，会发生什么不妙的事么？"
-    },
-    {
-      "say": "圣堂的防御体系十分完备，本身就拥有不错的战斗能力，如果试图依靠圣堂防御进行决战也不是不可能。",
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "不过就算这样，现在也该看到迎击舰队了才对……",
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "应该是我们多虑了。黎塞留，前方发现维希教廷的小股舰队，正在沃克兰的带领下向我们驶来。"
-    },
-    {
-      "say": "果然还是坐不住了，打算依靠圣堂防御进行最后的抵抗么？",
-      "actor": 807010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "沃克兰带队？那应该还是骚扰舰队，游击舰队前往迎击，击退对方的骚扰即可，不要深入追击。"
-    },
-    {
-      "say": "主力舰队和航空舰队航线不变，继续向目标前进。早一分钟拿下圣堂，就能早一分钟结束这场无意义的战斗。",
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "赞同。命运女神，妳依然跟随游击舰队前往迎击，之后的战斗就直接听从贞德的指挥吧。"
-    },
-    {
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 201120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "明、明白！命运女神会加油的！"
-    },
-    {
-      "say": "那么，黎塞留，光辉，我们出发了。",
-      "actor": 802020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "注意，小心来自圣堂……没什么。注意安全。"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "SHENGYONGQU17",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"side": 2,
+			"say": "\u7ef4\u5e0c\u6559\u5ef7\u5723\u5802\u00b7\u8fd1\u6d77",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "hunhe-level",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"dir": 1
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u65e0\u89c6\u4e86\u7ef4\u5e0c\u8230\u961f\u7684\u8bf1\u5bfc\u4f01\u56fe\uff0c\u8054\u5408\u8230\u961f\u5982\u540c\u5c04\u5411\u5fc3\u810f\u7684\u5229\u7bad\u4e00\u822c\u5f84\u76f4\u5411\u5723\u5802\u7684\u65b9\u5411\u884c\u9a76\u7740\u3002"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u867d\u7136\u4e0d\u53ef\u907f\u514d\u7684\u56e0\u4e3a\u5404\u5904\u9632\u5fa1\u8bbe\u65bd\u800c\u88ab\u62d6\u5ef6\u4e86\u901f\u5ea6\u3002\u4e0d\u8fc7\u6700\u7ec8\uff0c\u8054\u5408\u8230\u961f\u8fd8\u662f\u62b5\u8fbe\u4e86\u5723\u5802\u6240\u5728\u7684\u8fd1\u6d77\u3002"
+		},
+		{
+			"actor": 807010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u524d\u65b9\u7684\u5e94\u8be5\u662f\u5b88\u62a4\u5723\u5802\u5916\u56f4\u7684\u5c0f\u578b\u8981\u585e\u7fa4\uff0c\u6211\u4eec\u7ec8\u4e8e\u8981\u8fdb\u5165\u5723\u5802\u672c\u8eab\u7684\u9632\u5fa1\u4f53\u7cfb\u5185\u4e86\u3002"
+		},
+		{
+			"actor": 801030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 9,
+			"say": "\u5c45\u2026\u2026\u5c45\u7136\u521a\u521a\u7684\u90a3\u4e9b\u8fd8\u4e0d\u7b97\u5723\u5802\u672c\u8eab\u7684\u9632\u5fa1\u8bbe\u65bd\u4e48\uff08\u5012\uff09",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": -30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"say": "\u963f\u5c14\u53ca\u5229\u4e9a\u5979\u4eec\u8fd8\u662f\u6ca1\u6709\u4efb\u4f55\u884c\u52a8\uff0c\u4e5f\u6ca1\u6709\u770b\u5230\u4efb\u4f55\u63a5\u8fd1\u7684\u7ef4\u5e0c\u8230\u961f\u3002\u56e0\u4e3a\u8ba1\u5212\u88ab\u6211\u4eec\u8bc6\u7834\u4e86\u5728\u5546\u91cf\u5bf9\u7b56\u4e48\uff1f",
+			"actor": 807010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 8
+		},
+		{
+			"say": "\u5514\u2026\u2026\u53ea\u8981\u6211\u4eec\u62ff\u4e0b\u4e86\u5723\u5802\uff0c\u5979\u4eec\u5c31\u6ca1\u6709\u548c\u6211\u4eec\u6218\u6597\u7684\u5fc5\u8981\u4e86\u3002",
+			"actor": 801030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 6
+		},
+		{
+			"say": "\u679c\u7136\u963f\u5c14\u53ca\u5229\u4e9a\u59d0\u59d0\u8fd8\u662f\u4e0d\u60f3\u548c\u6211\u4eec\u8ba4\u771f\u6253\uff0c\u6240\u4ee5\u6545\u610f\u653e\u6211\u4eec\u6765\u5360\u9886\u5723\u5802\u5427\u3002",
+			"actor": 801030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"say": "\u8fd9\u6050\u6015\u662f\u4e0d\u53ef\u80fd\u7684\u3002\u963f\u5c14\u53ca\u5229\u4e9a\u4e5f\u662f\u6559\u5ef7\u9a91\u58eb\uff0c\u6211\u4eec\u6709\u591a\u575a\u5b9a\u5979\u4eec\u5c31\u6709\u591a\u56fa\u6267\u3002",
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u65e2\u7136\u9009\u62e9\u6548\u5fe0\u7ef4\u5e0c\u6559\u5ef7\uff0c\u5979\u4eec\u662f\u7edd\u5bf9\u4e0d\u4f1a\u8fd9\u4e48\u8f7b\u6613\u7684\u653e\u5f03\u3002"
+		},
+		{
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u96be\u9053\u8bf4\u8ba9\u6211\u4eec\u8fd9\u6837\u76f4\u63a5\u9760\u8fd1\u5723\u5802\u5c31\u662f\u5979\u4eec\u7684\u76ee\u7684\u4e48\uff1f\u53ef\u662f\u4e3a\u4ec0\u4e48\u5462\u2026\u2026"
+		},
+		{
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u9ece\u585e\u7559\uff0c\u5982\u679c\u6211\u4eec\u5c31\u8fd9\u6837\u7ee7\u7eed\u63a5\u8fd1\u5723\u5802\u7684\u8bdd\uff0c\u4f1a\u53d1\u751f\u4ec0\u4e48\u4e0d\u5999\u7684\u4e8b\u4e48\uff1f"
+		},
+		{
+			"say": "\u5723\u5802\u7684\u9632\u5fa1\u4f53\u7cfb\u5341\u5206\u5b8c\u5907\uff0c\u672c\u8eab\u5c31\u62e5\u6709\u4e0d\u9519\u7684\u6218\u6597\u80fd\u529b\uff0c\u5982\u679c\u8bd5\u56fe\u4f9d\u9760\u5723\u5802\u9632\u5fa1\u8fdb\u884c\u51b3\u6218\u4e5f\u4e0d\u662f\u4e0d\u53ef\u80fd\u3002",
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u4e0d\u8fc7\u5c31\u7b97\u8fd9\u6837\uff0c\u73b0\u5728\u4e5f\u8be5\u770b\u5230\u8fce\u51fb\u8230\u961f\u4e86\u624d\u5bf9\u2026\u2026",
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5e94\u8be5\u662f\u6211\u4eec\u591a\u8651\u4e86\u3002\u9ece\u585e\u7559\uff0c\u524d\u65b9\u53d1\u73b0\u7ef4\u5e0c\u6559\u5ef7\u7684\u5c0f\u80a1\u8230\u961f\uff0c\u6b63\u5728\u6c83\u514b\u5170\u7684\u5e26\u9886\u4e0b\u5411\u6211\u4eec\u9a76\u6765\u3002"
+		},
+		{
+			"say": "\u679c\u7136\u8fd8\u662f\u5750\u4e0d\u4f4f\u4e86\uff0c\u6253\u7b97\u4f9d\u9760\u5723\u5802\u9632\u5fa1\u8fdb\u884c\u6700\u540e\u7684\u62b5\u6297\u4e48\uff1f",
+			"actor": 807010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6c83\u514b\u5170\u5e26\u961f\uff1f\u90a3\u5e94\u8be5\u8fd8\u662f\u9a9a\u6270\u8230\u961f\uff0c\u6e38\u51fb\u8230\u961f\u524d\u5f80\u8fce\u51fb\uff0c\u51fb\u9000\u5bf9\u65b9\u7684\u9a9a\u6270\u5373\u53ef\uff0c\u4e0d\u8981\u6df1\u5165\u8ffd\u51fb\u3002"
+		},
+		{
+			"say": "\u4e3b\u529b\u8230\u961f\u548c\u822a\u7a7a\u8230\u961f\u822a\u7ebf\u4e0d\u53d8\uff0c\u7ee7\u7eed\u5411\u76ee\u6807\u524d\u8fdb\u3002\u65e9\u4e00\u5206\u949f\u62ff\u4e0b\u5723\u5802\uff0c\u5c31\u80fd\u65e9\u4e00\u5206\u949f\u7ed3\u675f\u8fd9\u573a\u65e0\u610f\u4e49\u7684\u6218\u6597\u3002",
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u8d5e\u540c\u3002\u547d\u8fd0\u5973\u795e\uff0c\u59b3\u4f9d\u7136\u8ddf\u968f\u6e38\u51fb\u8230\u961f\u524d\u5f80\u8fce\u51fb\uff0c\u4e4b\u540e\u7684\u6218\u6597\u5c31\u76f4\u63a5\u542c\u4ece\u8d1e\u5fb7\u7684\u6307\u6325\u5427\u3002"
+		},
+		{
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 201120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u660e\u3001\u660e\u767d\uff01\u547d\u8fd0\u5973\u795e\u4f1a\u52a0\u6cb9\u7684\uff01"
+		},
+		{
+			"say": "\u90a3\u4e48\uff0c\u9ece\u585e\u7559\uff0c\u5149\u8f89\uff0c\u6211\u4eec\u51fa\u53d1\u4e86\u3002",
+			"actor": 802020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6ce8\u610f\uff0c\u5c0f\u5fc3\u6765\u81ea\u5723\u5802\u2026\u2026\u6ca1\u4ec0\u4e48\u3002\u6ce8\u610f\u5b89\u5168\u3002"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "SHENGYONGQU17",
+	"once": true
 }

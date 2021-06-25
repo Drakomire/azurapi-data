@@ -1,87 +1,87 @@
 {
-  "id": "WorldG191_1",
-  "events": [
-    {
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": 370.1,
-        "dir": 1,
-        "ui": {
-          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/rank_panel/cnt",
-          "lineMode": true
-        },
-        "text": "每个信标存在挑战人数上限（最多30人）。",
-        "posX": 545.87,
-        "mode": 2
-      }
-    },
-    {
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": -218.3,
-        "dir": 1,
-        "ui": {
-          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/hp"
-        },
-        "text": "当信标HP归零后，视为战斗胜利。指挥官可以领取对应的信标·META作战奖励。",
-        "posX": 0,
-        "mode": 2
-      }
-    },
-    {
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": -421.9,
-        "dir": 1,
-        "ui": {
-          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/time"
-        },
-        "text": "每个被解析的信标只会存在一定时间，到期后将会消失。记得向其他指挥官请求支援哦。",
-        "posX": -48.1,
-        "mode": 2
-      }
-    },
-    {
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": -20.88,
-          "posX": 123.6,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/btns/start_btn",
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": -398.6,
-        "dir": 1,
-        "text": "点击开始挑战即可开始进行作战。",
-        "posX": 383.9,
-        "mode": 2
-      }
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": -192.03,
-        "dir": 1,
-        "ui": {
-          "path": "OverlayCamera/Overlay/UIMain/PreCombatUI(Clone)/right/start/cost_container/popup/icon"
-        },
-        "text": "对于每处信标的首次挑战不会消耗石油，从第二次开始，每次挑战会消耗少量石油。",
-        "posX": 700.2,
-        "mode": 2
-      },
-      "alpha": 0.4,
-      "waitScene": "WorldBossFormationLayer"
-    }
-  ]
+	"id": "WorldG191_1",
+	"events": [
+		{
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": 370.1,
+				"dir": 1,
+				"ui": {
+					"path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/rank_panel/cnt",
+					"lineMode": true
+				},
+				"text": "\u6bcf\u4e2a\u4fe1\u6807\u5b58\u5728\u6311\u6218\u4eba\u6570\u4e0a\u9650\uff08\u6700\u591a30\u4eba\uff09\u3002",
+				"posX": 545.87,
+				"mode": 2
+			}
+		},
+		{
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": -218.3,
+				"dir": 1,
+				"ui": {
+					"path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/hp"
+				},
+				"text": "\u5f53\u4fe1\u6807HP\u5f52\u96f6\u540e\uff0c\u89c6\u4e3a\u6218\u6597\u80dc\u5229\u3002\u6307\u6325\u5b98\u53ef\u4ee5\u9886\u53d6\u5bf9\u5e94\u7684\u4fe1\u6807\u00b7META\u4f5c\u6218\u5956\u52b1\u3002",
+				"posX": 0,
+				"mode": 2
+			}
+		},
+		{
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": -421.9,
+				"dir": 1,
+				"ui": {
+					"path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/time"
+				},
+				"text": "\u6bcf\u4e2a\u88ab\u89e3\u6790\u7684\u4fe1\u6807\u53ea\u4f1a\u5b58\u5728\u4e00\u5b9a\u65f6\u95f4\uff0c\u5230\u671f\u540e\u5c06\u4f1a\u6d88\u5931\u3002\u8bb0\u5f97\u5411\u5176\u4ed6\u6307\u6325\u5b98\u8bf7\u6c42\u652f\u63f4\u54e6\u3002",
+				"posX": -48.1,
+				"mode": 2
+			}
+		},
+		{
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": -20.88,
+					"posX": 123.6,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossDetailUI(Clone)/btns/start_btn",
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": -398.6,
+				"dir": 1,
+				"text": "\u70b9\u51fb\u5f00\u59cb\u6311\u6218\u5373\u53ef\u5f00\u59cb\u8fdb\u884c\u4f5c\u6218\u3002",
+				"posX": 383.9,
+				"mode": 2
+			}
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": -192.03,
+				"dir": 1,
+				"ui": {
+					"path": "OverlayCamera/Overlay/UIMain/PreCombatUI(Clone)/right/start/cost_container/popup/icon"
+				},
+				"text": "\u5bf9\u4e8e\u6bcf\u5904\u4fe1\u6807\u7684\u9996\u6b21\u6311\u6218\u4e0d\u4f1a\u6d88\u8017\u77f3\u6cb9\uff0c\u4ece\u7b2c\u4e8c\u6b21\u5f00\u59cb\uff0c\u6bcf\u6b21\u6311\u6218\u4f1a\u6d88\u8017\u5c11\u91cf\u77f3\u6cb9\u3002",
+				"posX": 700.2,
+				"mode": 2
+			},
+			"alpha": 0.4,
+			"waitScene": "WorldBossFormationLayer"
+		}
+	]
 }

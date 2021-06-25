@@ -1,357 +1,357 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "自由的天使\n\n<size=45>三 意外的特长</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "港区·指挥室",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 312010,
-      "side": 2,
-      "dir": -1,
-      "action": [
-        {
-          "y": 22.5,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2
-        }
-      ],
-      "say": "指挥官，我又来借埃米尔了喵！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "询问理由",
-          "flag": 1
-        }
-      ],
-      "say": "……{namecode:98}这已经是本周的第三次了",
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 312010,
-      "side": 2,
-      "dir": -1,
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.4,
-          "number": 2,
-          "x": 15
-        }
-      ],
-      "say": "自从埃米尔当了店员，这个月的营收终于…简直是奇迹喵",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 802010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "诶？我有做什么特别的事情吗？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "埃米尔是大好人喵～给大家带来帮助的天使喵～",
-      "actor": 312010,
-      "side": 0,
-      "dir": -1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "嗯～？难道是帮忙看店的时候，顺道给 {namecode:15}带了带路，还有帮黑暗界照看了一会妹妹…这类的？",
-      "actor": 802010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "只是很平常地帮帮需要帮助的伙伴们而已呀，剩下的…就只有跳舞了吧，啊哈哈…",
-      "actor": 802010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "就是这个喵！大家在得到埃米尔帮助，或者看完埃米尔的舞以后，都会来{namecode:98}这里光顾喵！",
-      "actor": 312010,
-      "side": 0,
-      "dir": -1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "诶～是吗？我觉得还挺普通的呢，舰队里的大家平时也会互相帮助不是嘛",
-      "actor": 802010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "因为埃米尔小姐总是能发现大家想要什么，而且总能以不会让人尴尬的方式去满足大家。",
-      "actor": 301180,
-      "side": 2,
-      "dir": -1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:20}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "{namecode:20}不知道什么时候也出现了",
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "哎呀，被人这么一说其实有点害羞呢~",
-      "actor": 802010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 301180,
-      "side": 0,
-      "dir": -1,
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "say": "不用谦虚，毕竟我也是来请你帮忙的",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:20}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "喵！？{namecode:20}从哪里冒出来的喵？不要抢我的埃米尔喵！",
-      "actor": 312010,
-      "side": 1,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "嘁…总之埃米尔小姐的本领是货真价实的，看我们最近的营业额就知道了",
-      "actor": 301180,
-      "side": 0,
-      "dir": -1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:20}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "所谓的治愈系？说实话，在一边看着的我都感觉要被净化成佛了…",
-      "actor": 301180,
-      "side": 0,
-      "dir": -1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:20}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 802010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "啊哈哈…哪有{namecode:20}说的这么夸张啦，不过既然如此，我就两边都帮帮忙好了，指挥官，可以吗？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "答应",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "之后也去店里围观一下身为看板娘的埃米尔吧",
-      "blackBg": true,
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "AIMIER3",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u81ea\u7531\u7684\u5929\u4f7f\n\n<size=45>\u4e09 \u610f\u5916\u7684\u7279\u957f</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6e2f\u533a\u00b7\u6307\u6325\u5ba4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 312010,
+			"side": 2,
+			"dir": -1,
+			"action": [
+				{
+					"y": 22.5,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2
+				}
+			],
+			"say": "\u6307\u6325\u5b98\uff0c\u6211\u53c8\u6765\u501f\u57c3\u7c73\u5c14\u4e86\u55b5\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u8be2\u95ee\u7406\u7531",
+					"flag": 1
+				}
+			],
+			"say": "\u2026\u2026{namecode:98}\u8fd9\u5df2\u7ecf\u662f\u672c\u5468\u7684\u7b2c\u4e09\u6b21\u4e86",
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 312010,
+			"side": 2,
+			"dir": -1,
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.4,
+					"number": 2,
+					"x": 15
+				}
+			],
+			"say": "\u81ea\u4ece\u57c3\u7c73\u5c14\u5f53\u4e86\u5e97\u5458\uff0c\u8fd9\u4e2a\u6708\u7684\u8425\u6536\u7ec8\u4e8e\u2026\u7b80\u76f4\u662f\u5947\u8ff9\u55b5",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 802010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u8bf6\uff1f\u6211\u6709\u505a\u4ec0\u4e48\u7279\u522b\u7684\u4e8b\u60c5\u5417\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u57c3\u7c73\u5c14\u662f\u5927\u597d\u4eba\u55b5\uff5e\u7ed9\u5927\u5bb6\u5e26\u6765\u5e2e\u52a9\u7684\u5929\u4f7f\u55b5\uff5e",
+			"actor": 312010,
+			"side": 0,
+			"dir": -1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u55ef\uff5e\uff1f\u96be\u9053\u662f\u5e2e\u5fd9\u770b\u5e97\u7684\u65f6\u5019\uff0c\u987a\u9053\u7ed9 {namecode:15}\u5e26\u4e86\u5e26\u8def\uff0c\u8fd8\u6709\u5e2e\u9ed1\u6697\u754c\u7167\u770b\u4e86\u4e00\u4f1a\u59b9\u59b9\u2026\u8fd9\u7c7b\u7684\uff1f",
+			"actor": 802010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u53ea\u662f\u5f88\u5e73\u5e38\u5730\u5e2e\u5e2e\u9700\u8981\u5e2e\u52a9\u7684\u4f19\u4f34\u4eec\u800c\u5df2\u5440\uff0c\u5269\u4e0b\u7684\u2026\u5c31\u53ea\u6709\u8df3\u821e\u4e86\u5427\uff0c\u554a\u54c8\u54c8\u2026",
+			"actor": 802010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u5c31\u662f\u8fd9\u4e2a\u55b5\uff01\u5927\u5bb6\u5728\u5f97\u5230\u57c3\u7c73\u5c14\u5e2e\u52a9\uff0c\u6216\u8005\u770b\u5b8c\u57c3\u7c73\u5c14\u7684\u821e\u4ee5\u540e\uff0c\u90fd\u4f1a\u6765{namecode:98}\u8fd9\u91cc\u5149\u987e\u55b5\uff01",
+			"actor": 312010,
+			"side": 0,
+			"dir": -1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u8bf6\uff5e\u662f\u5417\uff1f\u6211\u89c9\u5f97\u8fd8\u633a\u666e\u901a\u7684\u5462\uff0c\u8230\u961f\u91cc\u7684\u5927\u5bb6\u5e73\u65f6\u4e5f\u4f1a\u4e92\u76f8\u5e2e\u52a9\u4e0d\u662f\u561b",
+			"actor": 802010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u56e0\u4e3a\u57c3\u7c73\u5c14\u5c0f\u59d0\u603b\u662f\u80fd\u53d1\u73b0\u5927\u5bb6\u60f3\u8981\u4ec0\u4e48\uff0c\u800c\u4e14\u603b\u80fd\u4ee5\u4e0d\u4f1a\u8ba9\u4eba\u5c34\u5c2c\u7684\u65b9\u5f0f\u53bb\u6ee1\u8db3\u5927\u5bb6\u3002",
+			"actor": 301180,
+			"side": 2,
+			"dir": -1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:20}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "{namecode:20}\u4e0d\u77e5\u9053\u4ec0\u4e48\u65f6\u5019\u4e5f\u51fa\u73b0\u4e86",
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u54ce\u5440\uff0c\u88ab\u4eba\u8fd9\u4e48\u4e00\u8bf4\u5176\u5b9e\u6709\u70b9\u5bb3\u7f9e\u5462~",
+			"actor": 802010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 301180,
+			"side": 0,
+			"dir": -1,
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"say": "\u4e0d\u7528\u8c26\u865a\uff0c\u6bd5\u7adf\u6211\u4e5f\u662f\u6765\u8bf7\u4f60\u5e2e\u5fd9\u7684",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:20}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u55b5\uff01\uff1f{namecode:20}\u4ece\u54ea\u91cc\u5192\u51fa\u6765\u7684\u55b5\uff1f\u4e0d\u8981\u62a2\u6211\u7684\u57c3\u7c73\u5c14\u55b5\uff01",
+			"actor": 312010,
+			"side": 1,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u5601\u2026\u603b\u4e4b\u57c3\u7c73\u5c14\u5c0f\u59d0\u7684\u672c\u9886\u662f\u8d27\u771f\u4ef7\u5b9e\u7684\uff0c\u770b\u6211\u4eec\u6700\u8fd1\u7684\u8425\u4e1a\u989d\u5c31\u77e5\u9053\u4e86",
+			"actor": 301180,
+			"side": 0,
+			"dir": -1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:20}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u6240\u8c13\u7684\u6cbb\u6108\u7cfb\uff1f\u8bf4\u5b9e\u8bdd\uff0c\u5728\u4e00\u8fb9\u770b\u7740\u7684\u6211\u90fd\u611f\u89c9\u8981\u88ab\u51c0\u5316\u6210\u4f5b\u4e86\u2026",
+			"actor": 301180,
+			"side": 0,
+			"dir": -1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:20}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 802010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u554a\u54c8\u54c8\u2026\u54ea\u6709{namecode:20}\u8bf4\u7684\u8fd9\u4e48\u5938\u5f20\u5566\uff0c\u4e0d\u8fc7\u65e2\u7136\u5982\u6b64\uff0c\u6211\u5c31\u4e24\u8fb9\u90fd\u5e2e\u5e2e\u5fd9\u597d\u4e86\uff0c\u6307\u6325\u5b98\uff0c\u53ef\u4ee5\u5417\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u7b54\u5e94",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4e4b\u540e\u4e5f\u53bb\u5e97\u91cc\u56f4\u89c2\u4e00\u4e0b\u8eab\u4e3a\u770b\u677f\u5a18\u7684\u57c3\u7c73\u5c14\u5427",
+			"blackBg": true,
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "AIMIER3",
+	"once": true
 }

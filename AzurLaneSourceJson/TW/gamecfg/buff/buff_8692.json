@@ -1,51 +1,51 @@
 {
-  "picture": "",
-  "id": 8692,
-  "desc": "",
-  "icon": 8691,
-  "last_effect": "jinengchufablue",
-  "name": "2020信浓活动测试者换阶段转场-无特效",
-  "blink": [
-    0,
-    0.7,
-    1,
-    0.3,
-    0.3
-  ],
-  "effect_list": [
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "number": 1,
-        "attr": "isInvincible"
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 8691
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 8698
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 4
+	"picture": "",
+	"id": 8692,
+	"desc": "",
+	"icon": 8691,
+	"last_effect": "jinengchufablue",
+	"name": "2020\u4fe1\u6d53\u6d3b\u52a8\u6d4b\u8bd5\u8005\u6362\u9636\u6bb5\u8f6c\u573a-\u65e0\u7279\u6548",
+	"blink": [
+		0,
+		0.7,
+		1,
+		0.3,
+		0.3
+	],
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach",
+				"onRemove"
+			],
+			"type": "BattleBuffAddAttr",
+			"arg_list": {
+				"number": 1,
+				"attr": "isInvincible"
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 8691
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"target": "TargetSelf",
+				"buff_id": 8698
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"time": 4
 }

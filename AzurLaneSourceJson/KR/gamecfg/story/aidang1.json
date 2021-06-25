@@ -1,257 +1,257 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "누나와의 일일 데이트\n\n<size=45>1. 데이트 신청</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "항구·지휘실",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "당직도 지휘관과 비서함의 업무 중 하나이다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "이는 평상시에 기지 밖에 있는 장교들이 긴급 상황 시에 즉각 대응할 수 있도록 기지에 남아 밤을 새우는 제도이다. 하지만......",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "격일이 휴일이라면, \"지휘관과 비서함은 이틀 동안 공동으로 행동한다\"는 규칙만 준수한다면, 외출하거나 휴식을 취해도 아무런 문제가 없다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "actorName": "{namecode:67}",
-      "say": "지휘관? 벌써 밤 12시야. 자야하지 않겠어?",
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "options": [
-        {
-          "content": "{namecode:67}에게 내일 만나자고 한다.",
-          "flag": 1
-        }
-      ],
-      "say": "내일은 당직 설 필요 없어. 쉬기만 해, 야근은 이 누나한테 맡기렴.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:67}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "어머, 데이트? ...... 농담이야.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:67}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "그런데 “내일 나랑 쇼핑가자”라는 말은, 너무 식상하지 않아? 누나는 다른 말이 듣고 싶은데.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:67}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "어쨌든 내일 특별한 일도 없는 것 같으니까 아무 때나 돌아와도 상관 없겠다. 같이 가줄게.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:67}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "options": [
-        {
-          "content": "미리 준비해둔 쇼핑 리스트를 {namecode:67}에게 보여준다.",
-          "flag": 1
-        }
-      ],
-      "say": "뭐 사고 싶어?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:67}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "흠, 정말 “항구에선 못 구하지만, 멀리까지 찾아갈만하진 않고, 인터넷으로 구매하긴 귀찮은” 것들만 모아놨구나......",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:67}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "정말 꼼꼼히 준비했네. 이러면 누나도 안심하고 같이 가줄 수 있겠어",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:67}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "좋아, 내일 일찍 일어나야 하니까 오늘은 그만 자.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:67}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 303120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "지휘관과 쇼핑이라니 기대되네♪",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:67}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "AIDANG1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\ub204\ub098\uc640\uc758 \uc77c\uc77c \ub370\uc774\ud2b8\n\n<size=45>1. \ub370\uc774\ud2b8 \uc2e0\uccad</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\ud56d\uad6c\u00b7\uc9c0\ud718\uc2e4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub2f9\uc9c1\ub3c4 \uc9c0\ud718\uad00\uacfc \ube44\uc11c\ud568\uc758 \uc5c5\ubb34 \uc911 \ud558\ub098\uc774\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc774\ub294 \ud3c9\uc0c1\uc2dc\uc5d0 \uae30\uc9c0 \ubc16\uc5d0 \uc788\ub294 \uc7a5\uad50\ub4e4\uc774 \uae34\uae09 \uc0c1\ud669 \uc2dc\uc5d0 \uc989\uac01 \ub300\uc751\ud560 \uc218 \uc788\ub3c4\ub85d \uae30\uc9c0\uc5d0 \ub0a8\uc544 \ubc24\uc744 \uc0c8\uc6b0\ub294 \uc81c\ub3c4\uc774\ub2e4. \ud558\uc9c0\ub9cc......",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uaca9\uc77c\uc774 \ud734\uc77c\uc774\ub77c\uba74, \"\uc9c0\ud718\uad00\uacfc \ube44\uc11c\ud568\uc740 \uc774\ud2c0 \ub3d9\uc548 \uacf5\ub3d9\uc73c\ub85c \ud589\ub3d9\ud55c\ub2e4\"\ub294 \uaddc\uce59\ub9cc \uc900\uc218\ud55c\ub2e4\uba74, \uc678\ucd9c\ud558\uac70\ub098 \ud734\uc2dd\uc744 \ucde8\ud574\ub3c4 \uc544\ubb34\ub7f0 \ubb38\uc81c\uac00 \uc5c6\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"actorName": "{namecode:67}",
+			"say": "\uc9c0\ud718\uad00? \ubc8c\uc368 \ubc24 12\uc2dc\uc57c. \uc790\uc57c\ud558\uc9c0 \uc54a\uaca0\uc5b4?",
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"options": [
+				{
+					"content": "{namecode:67}\uc5d0\uac8c \ub0b4\uc77c \ub9cc\ub098\uc790\uace0 \ud55c\ub2e4.",
+					"flag": 1
+				}
+			],
+			"say": "\ub0b4\uc77c\uc740 \ub2f9\uc9c1 \uc124 \ud544\uc694 \uc5c6\uc5b4. \uc26c\uae30\ub9cc \ud574, \uc57c\uadfc\uc740 \uc774 \ub204\ub098\ud55c\ud14c \ub9e1\uae30\ub834.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:67}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc5b4\uba38, \ub370\uc774\ud2b8? ...... \ub18d\ub2f4\uc774\uc57c.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:67}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uadf8\ub7f0\ub370 \u201c\ub0b4\uc77c \ub098\ub791 \uc1fc\ud551\uac00\uc790\u201d\ub77c\ub294 \ub9d0\uc740, \ub108\ubb34 \uc2dd\uc0c1\ud558\uc9c0 \uc54a\uc544? \ub204\ub098\ub294 \ub2e4\ub978 \ub9d0\uc774 \ub4e3\uace0 \uc2f6\uc740\ub370.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:67}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc5b4\uca0c\ub4e0 \ub0b4\uc77c \ud2b9\ubcc4\ud55c \uc77c\ub3c4 \uc5c6\ub294 \uac83 \uac19\uc73c\ub2c8\uae4c \uc544\ubb34 \ub54c\ub098 \ub3cc\uc544\uc640\ub3c4 \uc0c1\uad00 \uc5c6\uaca0\ub2e4. \uac19\uc774 \uac00\uc904\uac8c.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:67}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"options": [
+				{
+					"content": "\ubbf8\ub9ac \uc900\ube44\ud574\ub454 \uc1fc\ud551 \ub9ac\uc2a4\ud2b8\ub97c {namecode:67}\uc5d0\uac8c \ubcf4\uc5ec\uc900\ub2e4.",
+					"flag": 1
+				}
+			],
+			"say": "\ubb50 \uc0ac\uace0 \uc2f6\uc5b4?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:67}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\ud760, \uc815\ub9d0 \u201c\ud56d\uad6c\uc5d0\uc120 \ubabb \uad6c\ud558\uc9c0\ub9cc, \uba40\ub9ac\uae4c\uc9c0 \ucc3e\uc544\uac08\ub9cc\ud558\uc9c4 \uc54a\uace0, \uc778\ud130\ub137\uc73c\ub85c \uad6c\ub9e4\ud558\uae34 \uadc0\ucc2e\uc740\u201d \uac83\ub4e4\ub9cc \ubaa8\uc544\ub1a8\uad6c\ub098......",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:67}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc815\ub9d0 \uaf3c\uaf3c\ud788 \uc900\ube44\ud588\ub124. \uc774\ub7ec\uba74 \ub204\ub098\ub3c4 \uc548\uc2ec\ud558\uace0 \uac19\uc774 \uac00\uc904 \uc218 \uc788\uaca0\uc5b4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:67}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc88b\uc544, \ub0b4\uc77c \uc77c\ucc0d \uc77c\uc5b4\ub098\uc57c \ud558\ub2c8\uae4c \uc624\ub298\uc740 \uadf8\ub9cc \uc790.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:67}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 303120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc9c0\ud718\uad00\uacfc \uc1fc\ud551\uc774\ub77c\ub2c8 \uae30\ub300\ub418\ub124\u266a",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:67}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "AIDANG1",
+	"once": true
 }

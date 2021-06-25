@@ -1,441 +1,441 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "母港脱出作戦！\n\n<size=45>四　ついに終点！</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "ここが埠頭です。出撃や軍事委託のときは皆ここから海に出ますよ",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "ここが……埠頭……",
-      "actor": 304060,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 407020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "こ、コホン！ベルちゃんとやら、ご苦労だった！感謝しよう",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "ほかにご用命がありましたら、いつでもお申し付けください（ペコリ",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": -22.5,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 1,
-          "delay": 0.5,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 304060,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "あの、ええと、ベルちゃん？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "はい、なんでしょうか？",
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "見たところ、卿も我らと同じく、艤装と見比べても体がかなり小さい。",
-      "actor": 407020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "もしや卿もここの指揮官に誘拐されているのなら……",
-      "actor": 407020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 407020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "我らと共にやつの魔の手から、蒼き海に脱出しようではないか！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "はい。私でよろしければ海に出るぐらいは全然問題ございませんけど、でも――",
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "ここにはご主人様、陛下、そして姉さまたちがいます。私にとって、ここが居場所です",
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "それに。ここで皆といるとすごく楽しいですよ？",
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "ベルちゃん……………",
-      "actor": 304060,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 407020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "そ、そんな……………",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "でも大丈夫ですか？ツェッペリンさまと比叡さま、さっき方向を取るのにも苦労していました",
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "お家に帰る道を上手く見つけられるのでしょうか……",
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 407020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "あっ………",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "ヒュー――――と、風が吹いた。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "ここにいましたわ",
-      "actor": 307010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "ふん、余計な世話を焼かせてくれる",
-      "actor": 407010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "そう言わないでくださいませ。ここは大人が面倒を見るべきなのですから",
-      "actor": 304020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "そうだにゃ！明石一人ではとても見つけられないにゃ！",
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 304060,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "あの人たちは――！？",
-      "subActors": [
-        {
-          "pos": {
-            "x": 1125
-          },
-          "actor": 407020
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "ツェッペリンちゃん＆比叡ちゃん",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "GANGQUTAOLI4",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u6bcd\u6e2f\u8131\u51fa\u4f5c\u6226\uff01\n\n<size=45>\u56db\u3000\u3064\u3044\u306b\u7d42\u70b9\uff01</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u3053\u3053\u304c\u57e0\u982d\u3067\u3059\u3002\u51fa\u6483\u3084\u8ecd\u4e8b\u59d4\u8a17\u306e\u3068\u304d\u306f\u7686\u3053\u3053\u304b\u3089\u6d77\u306b\u51fa\u307e\u3059\u3088",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3053\u3053\u304c\u2026\u2026\u57e0\u982d\u2026\u2026",
+			"actor": 304060,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 407020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3053\u3001\u30b3\u30db\u30f3\uff01\u30d9\u30eb\u3061\u3083\u3093\u3068\u3084\u3089\u3001\u3054\u82e6\u52b4\u3060\u3063\u305f\uff01\u611f\u8b1d\u3057\u3088\u3046",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u307b\u304b\u306b\u3054\u7528\u547d\u304c\u3042\u308a\u307e\u3057\u305f\u3089\u3001\u3044\u3064\u3067\u3082\u304a\u7533\u3057\u4ed8\u3051\u304f\u3060\u3055\u3044\uff08\u30da\u30b3\u30ea",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": -22.5,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 1,
+					"delay": 0.5,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 304060,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3042\u306e\u3001\u3048\u3048\u3068\u3001\u30d9\u30eb\u3061\u3083\u3093\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u306f\u3044\u3001\u306a\u3093\u3067\u3057\u3087\u3046\u304b\uff1f",
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u898b\u305f\u3068\u3053\u308d\u3001\u537f\u3082\u6211\u3089\u3068\u540c\u3058\u304f\u3001\u8264\u88c5\u3068\u898b\u6bd4\u3079\u3066\u3082\u4f53\u304c\u304b\u306a\u308a\u5c0f\u3055\u3044\u3002",
+			"actor": 407020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3082\u3057\u3084\u537f\u3082\u3053\u3053\u306e\u6307\u63ee\u5b98\u306b\u8a98\u62d0\u3055\u308c\u3066\u3044\u308b\u306e\u306a\u3089\u2026\u2026",
+			"actor": 407020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 407020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u6211\u3089\u3068\u5171\u306b\u3084\u3064\u306e\u9b54\u306e\u624b\u304b\u3089\u3001\u84bc\u304d\u6d77\u306b\u8131\u51fa\u3057\u3088\u3046\u3067\u306f\u306a\u3044\u304b\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u306f\u3044\u3002\u79c1\u3067\u3088\u308d\u3057\u3051\u308c\u3070\u6d77\u306b\u51fa\u308b\u3050\u3089\u3044\u306f\u5168\u7136\u554f\u984c\u3054\u3056\u3044\u307e\u305b\u3093\u3051\u3069\u3001\u3067\u3082\u2015\u2015",
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3053\u3053\u306b\u306f\u3054\u4e3b\u4eba\u69d8\u3001\u965b\u4e0b\u3001\u305d\u3057\u3066\u59c9\u3055\u307e\u305f\u3061\u304c\u3044\u307e\u3059\u3002\u79c1\u306b\u3068\u3063\u3066\u3001\u3053\u3053\u304c\u5c45\u5834\u6240\u3067\u3059",
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u305d\u308c\u306b\u3002\u3053\u3053\u3067\u7686\u3068\u3044\u308b\u3068\u3059\u3054\u304f\u697d\u3057\u3044\u3067\u3059\u3088\uff1f",
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u30d9\u30eb\u3061\u3083\u3093\u2026\u2026\u2026\u2026\u2026",
+			"actor": 304060,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 407020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u305d\u3001\u305d\u3093\u306a\u2026\u2026\u2026\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3067\u3082\u5927\u4e08\u592b\u3067\u3059\u304b\uff1f\u30c4\u30a7\u30c3\u30da\u30ea\u30f3\u3055\u307e\u3068\u6bd4\u53e1\u3055\u307e\u3001\u3055\u3063\u304d\u65b9\u5411\u3092\u53d6\u308b\u306e\u306b\u3082\u82e6\u52b4\u3057\u3066\u3044\u307e\u3057\u305f",
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u304a\u5bb6\u306b\u5e30\u308b\u9053\u3092\u4e0a\u624b\u304f\u898b\u3064\u3051\u3089\u308c\u308b\u306e\u3067\u3057\u3087\u3046\u304b\u2026\u2026",
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 407020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u3042\u3063\u2026\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u30d2\u30e5\u30fc\u2015\u2015\u2015\u2015\u3068\u3001\u98a8\u304c\u5439\u3044\u305f\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3053\u3053\u306b\u3044\u307e\u3057\u305f\u308f",
+			"actor": 307010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u3075\u3093\u3001\u4f59\u8a08\u306a\u4e16\u8a71\u3092\u713c\u304b\u305b\u3066\u304f\u308c\u308b",
+			"actor": 407010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u305d\u3046\u8a00\u308f\u306a\u3044\u3067\u304f\u3060\u3055\u3044\u307e\u305b\u3002\u3053\u3053\u306f\u5927\u4eba\u304c\u9762\u5012\u3092\u898b\u308b\u3079\u304d\u306a\u306e\u3067\u3059\u304b\u3089",
+			"actor": 304020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u305d\u3046\u3060\u306b\u3083\uff01\u660e\u77f3\u4e00\u4eba\u3067\u306f\u3068\u3066\u3082\u898b\u3064\u3051\u3089\u308c\u306a\u3044\u306b\u3083\uff01",
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 304060,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\u3042\u306e\u4eba\u305f\u3061\u306f\u2015\u2015\uff01\uff1f",
+			"subActors": [
+				{
+					"pos": {
+						"x": 1125
+					},
+					"actor": 407020
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u30c4\u30a7\u30c3\u30da\u30ea\u30f3\u3061\u3083\u3093\uff06\u6bd4\u53e1\u3061\u3083\u3093",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "GANGQUTAOLI4",
+	"once": true
 }

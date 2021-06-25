@@ -1,98 +1,98 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 900284,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "voice": "event:/tb/41/tb-41",
-      "say": "분석 모듈 동기화 중. 메탈 블러드의 함재기로 추정되는 비행 물체가 접근하고 있습니다. 공중전을 준비하십시오.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "bsm-1"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "음, 알고 있다. 메탈 블러드의 양산형 항공모함인가. 아니면..."
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "호넷, 메탈 블러드의 항공모함을 중심으로 다시 한번 정찰을 하도록 해. 그라프 체펠린이 함대에 포함되어 있는지 확인하도록."
-    },
-    {
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 107070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "맡겨줘~!"
-    },
-    {
-      "soundeffect": "event:/battle/plane",
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "전투기, 산개! 적을 맞을 준비를 하라!"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "WORLD108B",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 900284,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"voice": "event:/tb/41/tb-41",
+			"say": "\ubd84\uc11d \ubaa8\ub4c8 \ub3d9\uae30\ud654 \uc911. \uba54\ud0c8 \ube14\ub7ec\ub4dc\uc758 \ud568\uc7ac\uae30\ub85c \ucd94\uc815\ub418\ub294 \ube44\ud589 \ubb3c\uccb4\uac00 \uc811\uadfc\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uacf5\uc911\uc804\uc744 \uc900\ube44\ud558\uc2ed\uc2dc\uc624.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "bsm-1"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc74c, \uc54c\uace0 \uc788\ub2e4. \uba54\ud0c8 \ube14\ub7ec\ub4dc\uc758 \uc591\uc0b0\ud615 \ud56d\uacf5\ubaa8\ud568\uc778\uac00. \uc544\ub2c8\uba74..."
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ud638\ub137, \uba54\ud0c8 \ube14\ub7ec\ub4dc\uc758 \ud56d\uacf5\ubaa8\ud568\uc744 \uc911\uc2ec\uc73c\ub85c \ub2e4\uc2dc \ud55c\ubc88 \uc815\ucc30\uc744 \ud558\ub3c4\ub85d \ud574. \uadf8\ub77c\ud504 \uccb4\ud3a0\ub9b0\uc774 \ud568\ub300\uc5d0 \ud3ec\ud568\ub418\uc5b4 \uc788\ub294\uc9c0 \ud655\uc778\ud558\ub3c4\ub85d."
+		},
+		{
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ub9e1\uaca8\uc918~!"
+		},
+		{
+			"soundeffect": "event:/battle/plane",
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc804\ud22c\uae30, \uc0b0\uac1c! \uc801\uc744 \ub9de\uc744 \uc900\ube44\ub97c \ud558\ub77c!"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "WORLD108B",
+	"once": true
 }

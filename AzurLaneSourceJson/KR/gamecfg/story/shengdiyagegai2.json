@@ -1,469 +1,469 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "빛나라! ☆ 배틀스타~!\n\n<size=45>샌디에이고의 특훈</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "soundeffect": "event:/battle/cannon-main-prepared",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "seDelay": 2.2,
-      "bgm": "story-1",
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "스트라이크 프레임 전개, 최대 출력!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 201219,
-      "bgmDelay": 2,
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 301059,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "say": "귀신의 힘, 느껴봐라…!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:6}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 101179,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "say": "섬멸 형태, 전환 완료………졸려……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.4,
-          "number": 2,
-          "delay": 0,
-          "x": 22.5
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 401239,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "중장 형태, 기동! 라피, 아직 자지 말라고요! 모처럼 모두와 함께 멋진 포즈를 정해보자니까 쫌!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0.2,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "아야나미도, 졸려요…",
-      "actor": 301050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "아야나미까지?!",
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "아하하하……아참 Z23, 이거 포즈 정하는 것도 생각보다 어려운 것 같으니, 좀 쉬는 건 어때?",
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "안 됩니다! 기왕 하는 거면, 적어도 포즈만이라도……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "크, 크흠! 그래서 말입니다만 샌디에이고씨, 몇 초 되진 않았지만…아, 아무튼 '개조' 란 건 이런 느낌인 겁니다!",
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 102080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "오, 오오! 이게 바로 '개조 Feel' 이란 거지?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "그…그렇죠! 필은 중요한 거라고요!",
-      "actor": 401230,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "근데, 갑자기 왜 그렇게 급해하는 거야? 개조에 대해 물어보고 말야.",
-      "actor": 201210,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "아하하하…잘은 모르지만 왠~지 끌려서 말야!",
-      "actor": 102080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "그렇다면 샌디에이고씨, 한마디만 하겠습니다! 개조란 건, 외관만 바뀌는 게 아닙니다!",
-      "actor": 401230,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 102080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "???",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "매일 거듭되는 공부, 더욱 위를 목표로 하는 결심, 그리고 타이밍! 모든 것이 갖춰져야만 할 수 있는 겁니다!",
-      "actor": 401230,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 102080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "오오오! 개조란 거, 굉장한 거였구나!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201210,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "오오오! 개조란 거, 굉장한 거였구나!",
-      "subActors": [
-        {
-          "pos": {
-            "x": 555
-          },
-          "actor": 301050
-        },
-        {
-          "pos": {
-            "x": 1125
-          },
-          "actor": 101170
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "재블린&아야나미&라피",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "그럼요! …가 아니지, 에에에에?!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.12,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "이렇게, 샌디에이고는 개조에 관한 지식을 손에 넣었다……힘내라 샌디에이고! 개조가 널 기다리고 있다!",
-      "blackBg": true,
-      "bgName": "bg_story_outdoor"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "SHENGDIYAGEGAI2",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\ube5b\ub098\ub77c! \u2606 \ubc30\ud2c0\uc2a4\ud0c0~!\n\n<size=45>\uc0cc\ub514\uc5d0\uc774\uace0\uc758 \ud2b9\ud6c8</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"soundeffect": "event:/battle/cannon-main-prepared",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"seDelay": 2.2,
+			"bgm": "story-1",
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uc2a4\ud2b8\ub77c\uc774\ud06c \ud504\ub808\uc784 \uc804\uac1c, \ucd5c\ub300 \ucd9c\ub825!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 201219,
+			"bgmDelay": 2,
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 301059,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"say": "\uadc0\uc2e0\uc758 \ud798, \ub290\uaef4\ubd10\ub77c\u2026!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:6}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 101179,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"say": "\uc12c\uba78 \ud615\ud0dc, \uc804\ud658 \uc644\ub8cc\u2026\u2026\u2026\uc878\ub824\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.4,
+					"number": 2,
+					"delay": 0,
+					"x": 22.5
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 401239,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc911\uc7a5 \ud615\ud0dc, \uae30\ub3d9! \ub77c\ud53c, \uc544\uc9c1 \uc790\uc9c0 \ub9d0\ub77c\uace0\uc694! \ubaa8\ucc98\ub7fc \ubaa8\ub450\uc640 \ud568\uaed8 \uba4b\uc9c4 \ud3ec\uc988\ub97c \uc815\ud574\ubcf4\uc790\ub2c8\uae4c \ucacc!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0.2,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc544\uc57c\ub098\ubbf8\ub3c4, \uc878\ub824\uc694\u2026",
+			"actor": 301050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc544\uc57c\ub098\ubbf8\uae4c\uc9c0?!",
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc544\ud558\ud558\ud558\u2026\u2026\uc544\ucc38 Z23, \uc774\uac70 \ud3ec\uc988 \uc815\ud558\ub294 \uac83\ub3c4 \uc0dd\uac01\ubcf4\ub2e4 \uc5b4\ub824\uc6b4 \uac83 \uac19\uc73c\ub2c8, \uc880 \uc26c\ub294 \uac74 \uc5b4\ub54c?",
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc548 \ub429\ub2c8\ub2e4! \uae30\uc655 \ud558\ub294 \uac70\uba74, \uc801\uc5b4\ub3c4 \ud3ec\uc988\ub9cc\uc774\ub77c\ub3c4\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\ud06c, \ud06c\ud760! \uadf8\ub798\uc11c \ub9d0\uc785\ub2c8\ub2e4\ub9cc \uc0cc\ub514\uc5d0\uc774\uace0\uc528, \uba87 \ucd08 \ub418\uc9c4 \uc54a\uc558\uc9c0\ub9cc\u2026\uc544, \uc544\ubb34\ud2bc '\uac1c\uc870' \ub780 \uac74 \uc774\ub7f0 \ub290\ub08c\uc778 \uac81\ub2c8\ub2e4!",
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 102080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\uc624, \uc624\uc624! \uc774\uac8c \ubc14\ub85c '\uac1c\uc870 Feel' \uc774\ub780 \uac70\uc9c0?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uadf8\u2026\uadf8\ub807\uc8e0! \ud544\uc740 \uc911\uc694\ud55c \uac70\ub77c\uace0\uc694!",
+			"actor": 401230,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uadfc\ub370, \uac11\uc790\uae30 \uc65c \uadf8\ub807\uac8c \uae09\ud574\ud558\ub294 \uac70\uc57c? \uac1c\uc870\uc5d0 \ub300\ud574 \ubb3c\uc5b4\ubcf4\uace0 \ub9d0\uc57c.",
+			"actor": 201210,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uc544\ud558\ud558\ud558\u2026\uc798\uc740 \ubaa8\ub974\uc9c0\ub9cc \uc660~\uc9c0 \ub04c\ub824\uc11c \ub9d0\uc57c!",
+			"actor": 102080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\uadf8\ub807\ub2e4\uba74 \uc0cc\ub514\uc5d0\uc774\uace0\uc528, \ud55c\ub9c8\ub514\ub9cc \ud558\uaca0\uc2b5\ub2c8\ub2e4! \uac1c\uc870\ub780 \uac74, \uc678\uad00\ub9cc \ubc14\ub00c\ub294 \uac8c \uc544\ub2d9\ub2c8\ub2e4!",
+			"actor": 401230,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 102080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "???",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\ub9e4\uc77c \uac70\ub4ed\ub418\ub294 \uacf5\ubd80, \ub354\uc6b1 \uc704\ub97c \ubaa9\ud45c\ub85c \ud558\ub294 \uacb0\uc2ec, \uadf8\ub9ac\uace0 \ud0c0\uc774\ubc0d! \ubaa8\ub4e0 \uac83\uc774 \uac16\ucdb0\uc838\uc57c\ub9cc \ud560 \uc218 \uc788\ub294 \uac81\ub2c8\ub2e4!",
+			"actor": 401230,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 102080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc624\uc624\uc624! \uac1c\uc870\ub780 \uac70, \uad49\uc7a5\ud55c \uac70\uc600\uad6c\ub098!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201210,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\uc624\uc624\uc624! \uac1c\uc870\ub780 \uac70, \uad49\uc7a5\ud55c \uac70\uc600\uad6c\ub098!",
+			"subActors": [
+				{
+					"pos": {
+						"x": 555
+					},
+					"actor": 301050
+				},
+				{
+					"pos": {
+						"x": 1125
+					},
+					"actor": 101170
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc7ac\ube14\ub9b0&\uc544\uc57c\ub098\ubbf8&\ub77c\ud53c",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uadf8\ub7fc\uc694! \u2026\uac00 \uc544\ub2c8\uc9c0, \uc5d0\uc5d0\uc5d0\uc5d0?!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.12,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc774\ub807\uac8c, \uc0cc\ub514\uc5d0\uc774\uace0\ub294 \uac1c\uc870\uc5d0 \uad00\ud55c \uc9c0\uc2dd\uc744 \uc190\uc5d0 \ub123\uc5c8\ub2e4\u2026\u2026\ud798\ub0b4\ub77c \uc0cc\ub514\uc5d0\uc774\uace0! \uac1c\uc870\uac00 \ub110 \uae30\ub2e4\ub9ac\uace0 \uc788\ub2e4!",
+			"blackBg": true,
+			"bgName": "bg_story_outdoor"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "SHENGDIYAGEGAI2",
+	"once": true
 }

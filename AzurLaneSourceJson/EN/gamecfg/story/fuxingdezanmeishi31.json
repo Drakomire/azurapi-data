@@ -1,505 +1,505 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "bgm": "battle-boss-italy",
-      "hidePaintObj": true,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "KABOOM–––––––!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "hidePaintObj": true,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "Weapon output has dropped to 70% – Initiating protocols to speed up acquisition of test results.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 900011,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 602010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 5,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "Tester's strength aside, it's incredibly frustrating not being able to use my full strength because of this accursed jamming...!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 602010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "say": "We're going to be at a severe disadvantage as the battle draws on if we can't destroy that EM weapon!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "The sky's way too hazy for me to operate my planes effectively! Even though there's not much anti-air fire, my bombers can't get a clear visual...!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "(This area's large enough to conceal a large number of mass-produced ships as well as all the transports... Locking onto Tester is going to be almost impossible with all this haze...)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 5,
-      "say": "(Calm down, Veneto... There has to be a way to tip the scales in our favor...)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 4,
-      "say": "Veneto, head down there and see if you can find anything! I'll hold the enemies back!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "Littorio? What are you trying to do...?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 4,
-      "say": "The same thing we always do. Veneto commands, and I take the scene in a blaze of glory! Everyone, don't waste your ammo on shots that won't land, and focus on evasive maneuvers!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 1,
-      "say": "Lead us to victory, Miss Littorio! Lady Veneto!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 7,
-      "say": "Now, let's have a closer look at just what we're dealing with here...!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 1,
-      "say": "(Where is this mist that's interfering with Aquila coming from? Yes, I see it...!)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "Littorio, have everyone aim over there at Tester's position! Make sure to sync your attacks!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 4,
-      "say": "I'm not sure what we're shooting at, but I trust your judgment!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 8,
-      "say": "Everyone, follow our Eternal Flagship's commands! Don't worry about hitting Tester, just aim at her location, and shoot at maximum elevation!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "I see! I can work with this!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 2,
-      "say": "Bombers, fighter-bombers, dive now...!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 7,
-      "say": "I get it now... Instead of trying to disperse the haze, you tried to create a route for Aquila's bombers even if they couldn't see the target...!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "But how can we ensure that her bombs hit the mark? Wait... this is a concentrated bombardment through sheer force...?!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "say": "Follow her lead! Continue to lay down your fire! Don't let Tester escape!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "blackBg": true,
-      "expression": 3,
-      "say": "You shall learn what happens when you attempt to defile the splendor of Sardegna, Siren scum!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "FUXINGDEZANMEISHI31",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"bgm": "battle-boss-italy",
+			"hidePaintObj": true,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "KABOOM\u2013\u2013\u2013\u2013\u2013\u2013\u2013!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"hidePaintObj": true,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "Weapon output has dropped to 70% \u2013\u00a0Initiating protocols to speed up acquisition of test results.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 900011,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 602010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 5,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "Tester's strength aside, it's incredibly frustrating not being able to use my full strength because of this accursed jamming...!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 602010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"say": "We're going to be at a severe disadvantage as the battle draws on if we can't destroy that EM weapon!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "The sky's way too hazy for me to operate my planes effectively! Even though there's not much anti-air fire, my bombers can't get a clear visual...!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "(This area's large enough to conceal a large number of mass-produced ships as well as all the transports... Locking onto Tester is going to be almost impossible with all this haze...)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 5,
+			"say": "(Calm down, Veneto... There has to be a way to tip the scales in our favor...)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 4,
+			"say": "Veneto, head down there and see if you can find anything! I'll hold the enemies back!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "Littorio? What are you trying to do...?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 4,
+			"say": "The same thing we always do. Veneto commands, and I take the scene in a blaze of glory! Everyone, don't waste your ammo on shots that won't land, and focus on evasive maneuvers!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 1,
+			"say": "Lead us to victory, Miss Littorio! Lady Veneto!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 7,
+			"say": "Now, let's have a closer look at just what we're dealing with here...!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 1,
+			"say": "(Where is this mist that's interfering with Aquila coming from? Yes, I see it...!)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "Littorio, have everyone aim over there at Tester's position! Make sure to sync your attacks!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 4,
+			"say": "I'm not sure what we're shooting at, but I trust your judgment!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 8,
+			"say": "Everyone, follow our Eternal Flagship's commands! Don't worry about hitting Tester, just aim at her location, and shoot at maximum elevation!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "I see! I can work with this!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 2,
+			"say": "Bombers, fighter-bombers, dive now...!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 7,
+			"say": "I get it now... Instead of trying to disperse the haze, you tried to create a route for Aquila's bombers even if they couldn't see the target...!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "But how can we ensure that her bombs hit the mark? Wait... this is a concentrated bombardment through sheer force...?!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"say": "Follow her lead! Continue to lay down your fire! Don't let Tester escape!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"blackBg": true,
+			"expression": 3,
+			"say": "You shall learn what happens when you attempt to defile the splendor of Sardegna, Siren scum!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "FUXINGDEZANMEISHI31",
+	"once": true
 }

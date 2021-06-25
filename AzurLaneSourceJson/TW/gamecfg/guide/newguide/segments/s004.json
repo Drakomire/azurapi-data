@@ -1,150 +1,150 @@
 {
-  "id": "S004",
-  "events": [
-    {
-      "ui": {
-        "fingerPos": {
-          "posY": -34.7,
-          "posX": 68.5
-        },
-        "path": "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton",
-        "pathIndex": -1,
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.328,
-      "style": {
-        "posY": -275,
-        "dir": -1,
-        "text": "前往<color=#ff7d36>編隊</color>，將角色編入隊伍",
-        "posX": 348,
-        "mode": 2
-      }
-    },
-    {
-      "style": {
-        "posY": -100,
-        "dir": 1,
-        "text": "但需要注意，<color=#ffde38>驅逐、輕巡、重巡</color>只能編隊到先鋒編隊中",
-        "posX": 300,
-        "mode": 1
-      },
-      "alpha": 0.574,
-      "waitScene": "FormationUI"
-    },
-    {
-      "alpha": 0.321,
-      "style": {
-        "posY": 200,
-        "dir": -1,
-        "text": "<color=#ffde38>航母、戰列艦</color>只能編隊到主力編隊中",
-        "posX": 0,
-        "mode": 1
-      }
-    },
-    {
-      "ui": {
-        "fingerPos": {
-          "posY": -34.7,
-          "posX": 68.5
-        },
-        "path": "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_2/tip",
-        "pathIndex": -1,
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.371,
-      "style": {
-        "posY": 122.82,
-        "dir": -1,
-        "text": "點擊<color=#ff7d36>添加</color>來編入新角色",
-        "posX": 243.5,
-        "mode": 2
-      }
-    },
-    {
-      "ui": {
-        "fingerPos": {
-          "posY": -107.3,
-          "posX": 67.77
-        },
-        "path": "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
-        "pathIndex": 1,
-        "triggerType": [
-          1
-        ],
-        "image": {
-          "target": "content/ship_icon",
-          "isRelative": true,
-          "source": "content/ship_icon",
-          "isChild": true
-        }
-      },
-      "style": {
-        "posY": 0,
-        "dir": -1,
-        "text": "選擇需要上場的角色",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.482,
-      "waitScene": "DockyardScene"
-    },
-    {
-      "ui": {
-        "fingerPos": {
-          "posY": -24.4,
-          "posX": 65.8
-        },
-        "path": "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
-        "pathIndex": -1,
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.363,
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "點擊<color=#ff7d36>確定</color>按鈕",
-        "posX": 0,
-        "mode": 2
-      }
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": -1,
-        "text": "看！新角色成功入隊！艦隊實力大幅度提升！",
-        "posX": 0,
-        "mode": 1
-      },
-      "waitScene": "FormationUI",
-      "alpha": 0.196,
-      "code": -1
-    },
-    {
-      "ui": {
-        "fingerPos": {
-          "posY": -40,
-          "posX": 20
-        },
-        "path": "/UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",
-        "pathIndex": -1,
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.45,
-      "style": {
-        "posY": 215.7,
-        "dir": -1,
-        "text": "讓我們返回到主介面吧！",
-        "posX": -95.62,
-        "mode": 2
-      }
-    }
-  ]
+	"id": "S004",
+	"events": [
+		{
+			"ui": {
+				"fingerPos": {
+					"posY": -34.7,
+					"posX": 68.5
+				},
+				"path": "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton",
+				"pathIndex": -1,
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.328,
+			"style": {
+				"posY": -275,
+				"dir": -1,
+				"text": "\u524d\u5f80<color=#ff7d36>\u7de8\u968a</color>\uff0c\u5c07\u89d2\u8272\u7de8\u5165\u968a\u4f0d",
+				"posX": 348,
+				"mode": 2
+			}
+		},
+		{
+			"style": {
+				"posY": -100,
+				"dir": 1,
+				"text": "\u4f46\u9700\u8981\u6ce8\u610f\uff0c<color=#ffde38>\u9a45\u9010\u3001\u8f15\u5de1\u3001\u91cd\u5de1</color>\u53ea\u80fd\u7de8\u968a\u5230\u5148\u92d2\u7de8\u968a\u4e2d",
+				"posX": 300,
+				"mode": 1
+			},
+			"alpha": 0.574,
+			"waitScene": "FormationUI"
+		},
+		{
+			"alpha": 0.321,
+			"style": {
+				"posY": 200,
+				"dir": -1,
+				"text": "<color=#ffde38>\u822a\u6bcd\u3001\u6230\u5217\u8266</color>\u53ea\u80fd\u7de8\u968a\u5230\u4e3b\u529b\u7de8\u968a\u4e2d",
+				"posX": 0,
+				"mode": 1
+			}
+		},
+		{
+			"ui": {
+				"fingerPos": {
+					"posY": -34.7,
+					"posX": 68.5
+				},
+				"path": "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_2/tip",
+				"pathIndex": -1,
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.371,
+			"style": {
+				"posY": 122.82,
+				"dir": -1,
+				"text": "\u9ede\u64ca<color=#ff7d36>\u6dfb\u52a0</color>\u4f86\u7de8\u5165\u65b0\u89d2\u8272",
+				"posX": 243.5,
+				"mode": 2
+			}
+		},
+		{
+			"ui": {
+				"fingerPos": {
+					"posY": -107.3,
+					"posX": 67.77
+				},
+				"path": "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
+				"pathIndex": 1,
+				"triggerType": [
+					1
+				],
+				"image": {
+					"target": "content/ship_icon",
+					"isRelative": true,
+					"source": "content/ship_icon",
+					"isChild": true
+				}
+			},
+			"style": {
+				"posY": 0,
+				"dir": -1,
+				"text": "\u9078\u64c7\u9700\u8981\u4e0a\u5834\u7684\u89d2\u8272",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.482,
+			"waitScene": "DockyardScene"
+		},
+		{
+			"ui": {
+				"fingerPos": {
+					"posY": -24.4,
+					"posX": 65.8
+				},
+				"path": "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
+				"pathIndex": -1,
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.363,
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u9ede\u64ca<color=#ff7d36>\u78ba\u5b9a</color>\u6309\u9215",
+				"posX": 0,
+				"mode": 2
+			}
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": -1,
+				"text": "\u770b\uff01\u65b0\u89d2\u8272\u6210\u529f\u5165\u968a\uff01\u8266\u968a\u5be6\u529b\u5927\u5e45\u5ea6\u63d0\u5347\uff01",
+				"posX": 0,
+				"mode": 1
+			},
+			"waitScene": "FormationUI",
+			"alpha": 0.196,
+			"code": -1
+		},
+		{
+			"ui": {
+				"fingerPos": {
+					"posY": -40,
+					"posX": 20
+				},
+				"path": "/UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",
+				"pathIndex": -1,
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.45,
+			"style": {
+				"posY": 215.7,
+				"dir": -1,
+				"text": "\u8b93\u6211\u5011\u8fd4\u56de\u5230\u4e3b\u4ecb\u9762\u5427\uff01",
+				"posX": -95.62,
+				"mode": 2
+			}
+		}
+	]
 }

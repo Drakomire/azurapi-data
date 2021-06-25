@@ -1,594 +1,594 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "GO！肯特选手！\n\n<size=45>六 黑夜里的光！ </size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "夜深了，总算在跨天之前把报告处理到只剩下最后一份了。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "就在准备动手解决时，突然发现，文件少了一张。…难道是那时候——",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "say": "——那我就按你说的先去休息啦！指挥官今天也辛苦了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "say": "啊！相关的文件已经按你吩咐的都归档收好了！晚安啦——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "say": "…缺少的部分，大概是混在其他文件里被归档了吧。",
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "快速翻了下文件柜，依然没能找到需要的那份文件。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "姑且是今天必须完成的工作…还是去找她问问吧。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "say": "――下次再来聊关于老虎的话题吧！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "say": "脑海里突然闪过救小猫时肯特的话。",
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "她不会真在房间里养了只老虎吧…怀着忐忑的心情来到了肯特的房门前。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "轻轻敲了敲肯特的房门。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "……没有反应。试着旋了下把手，没想到居然很轻松地就打开了房门。"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "也太没防备了…试着在房间外面喊喊她吧……"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "blackBg": true,
-      "say": "――呼啊……指挥官？"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "很快，从房间里传来了肯特带着睡意的声音。总算松了口气，走进房间找起了她的位置。"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "……怎么了吗？这么晚了还来喊我…呼……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 1,
-          "number": 2,
-          "delay": 0,
-          "x": 30
-        }
-      ]
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "一边说明情况，一边在墙上想摸到电灯开关，不过却一直没摸到。"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "啊，房间里唯一的灯光就是现在床边的台灯。你等一下哦――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.5,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "话音刚落，房间深处亮起了一盏小灯――",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "――？！！",
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 10,
-        "number": 2
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "Wow！指、指挥官，干嘛突然叫那么大声？！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "灯光的照耀下，显现出的是粗糙的毛皮，巨大的獠牙，还有一双锐利的眼瞳。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "怎么看都是——一只老虎！",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "Wait！别激动！肯特选手在这里！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "咦？你说有猛兽……啊！！难道是说这孩子吗？！",
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "肯特似乎终于反应过来，从恐怖的”老虎”身后探出头来，开始解释起来。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "…这孩子是我以前睡觉时经常抱着的玩偶啦。",
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "造型还是挺逼真的，在这么暗的地方看到，被吓一跳也是正常的吧…哈哈……",
-      "actor": 203030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "房间的幽暗使得这只“老虎”更平添了几分逼真和魄力……",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "工作仍然还没有完成，却有种已经筋疲力尽的感觉……",
-      "blackBg": true,
-      "bgName": "bg_night"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "KENTE6",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"GO\uff01\u80af\u7279\u9009\u624b\uff01\n\n<size=45>\u516d \u9ed1\u591c\u91cc\u7684\u5149\uff01 </size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u591c\u6df1\u4e86\uff0c\u603b\u7b97\u5728\u8de8\u5929\u4e4b\u524d\u628a\u62a5\u544a\u5904\u7406\u5230\u53ea\u5269\u4e0b\u6700\u540e\u4e00\u4efd\u4e86\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5c31\u5728\u51c6\u5907\u52a8\u624b\u89e3\u51b3\u65f6\uff0c\u7a81\u7136\u53d1\u73b0\uff0c\u6587\u4ef6\u5c11\u4e86\u4e00\u5f20\u3002\u2026\u96be\u9053\u662f\u90a3\u65f6\u5019\u2014\u2014",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"say": "\u2014\u2014\u90a3\u6211\u5c31\u6309\u4f60\u8bf4\u7684\u5148\u53bb\u4f11\u606f\u5566\uff01\u6307\u6325\u5b98\u4eca\u5929\u4e5f\u8f9b\u82e6\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"say": "\u554a\uff01\u76f8\u5173\u7684\u6587\u4ef6\u5df2\u7ecf\u6309\u4f60\u5429\u5490\u7684\u90fd\u5f52\u6863\u6536\u597d\u4e86\uff01\u665a\u5b89\u5566\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"say": "\u2026\u7f3a\u5c11\u7684\u90e8\u5206\uff0c\u5927\u6982\u662f\u6df7\u5728\u5176\u4ed6\u6587\u4ef6\u91cc\u88ab\u5f52\u6863\u4e86\u5427\u3002",
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5feb\u901f\u7ffb\u4e86\u4e0b\u6587\u4ef6\u67dc\uff0c\u4f9d\u7136\u6ca1\u80fd\u627e\u5230\u9700\u8981\u7684\u90a3\u4efd\u6587\u4ef6\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u59d1\u4e14\u662f\u4eca\u5929\u5fc5\u987b\u5b8c\u6210\u7684\u5de5\u4f5c\u2026\u8fd8\u662f\u53bb\u627e\u5979\u95ee\u95ee\u5427\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"say": "\u2015\u2015\u4e0b\u6b21\u518d\u6765\u804a\u5173\u4e8e\u8001\u864e\u7684\u8bdd\u9898\u5427\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"say": "\u8111\u6d77\u91cc\u7a81\u7136\u95ea\u8fc7\u6551\u5c0f\u732b\u65f6\u80af\u7279\u7684\u8bdd\u3002",
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5979\u4e0d\u4f1a\u771f\u5728\u623f\u95f4\u91cc\u517b\u4e86\u53ea\u8001\u864e\u5427\u2026\u6000\u7740\u5fd0\u5fd1\u7684\u5fc3\u60c5\u6765\u5230\u4e86\u80af\u7279\u7684\u623f\u95e8\u524d\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u8f7b\u8f7b\u6572\u4e86\u6572\u80af\u7279\u7684\u623f\u95e8\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\u2026\u2026\u6ca1\u6709\u53cd\u5e94\u3002\u8bd5\u7740\u65cb\u4e86\u4e0b\u628a\u624b\uff0c\u6ca1\u60f3\u5230\u5c45\u7136\u5f88\u8f7b\u677e\u5730\u5c31\u6253\u5f00\u4e86\u623f\u95e8\u3002"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\u4e5f\u592a\u6ca1\u9632\u5907\u4e86\u2026\u8bd5\u7740\u5728\u623f\u95f4\u5916\u9762\u558a\u558a\u5979\u5427\u2026\u2026"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"blackBg": true,
+			"say": "\u2015\u2015\u547c\u554a\u2026\u2026\u6307\u6325\u5b98\uff1f"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\u5f88\u5feb\uff0c\u4ece\u623f\u95f4\u91cc\u4f20\u6765\u4e86\u80af\u7279\u5e26\u7740\u7761\u610f\u7684\u58f0\u97f3\u3002\u603b\u7b97\u677e\u4e86\u53e3\u6c14\uff0c\u8d70\u8fdb\u623f\u95f4\u627e\u8d77\u4e86\u5979\u7684\u4f4d\u7f6e\u3002"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\u2026\u2026\u600e\u4e48\u4e86\u5417\uff1f\u8fd9\u4e48\u665a\u4e86\u8fd8\u6765\u558a\u6211\u2026\u547c\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 1,
+					"number": 2,
+					"delay": 0,
+					"x": 30
+				}
+			]
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\u4e00\u8fb9\u8bf4\u660e\u60c5\u51b5\uff0c\u4e00\u8fb9\u5728\u5899\u4e0a\u60f3\u6478\u5230\u7535\u706f\u5f00\u5173\uff0c\u4e0d\u8fc7\u5374\u4e00\u76f4\u6ca1\u6478\u5230\u3002"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\u554a\uff0c\u623f\u95f4\u91cc\u552f\u4e00\u7684\u706f\u5149\u5c31\u662f\u73b0\u5728\u5e8a\u8fb9\u7684\u53f0\u706f\u3002\u4f60\u7b49\u4e00\u4e0b\u54e6\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.5,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u8bdd\u97f3\u521a\u843d\uff0c\u623f\u95f4\u6df1\u5904\u4eae\u8d77\u4e86\u4e00\u76cf\u5c0f\u706f\u2015\u2015",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u2015\u2015\uff1f\uff01\uff01",
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 10,
+				"number": 2
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "Wow\uff01\u6307\u3001\u6307\u6325\u5b98\uff0c\u5e72\u561b\u7a81\u7136\u53eb\u90a3\u4e48\u5927\u58f0\uff1f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u706f\u5149\u7684\u7167\u8000\u4e0b\uff0c\u663e\u73b0\u51fa\u7684\u662f\u7c97\u7cd9\u7684\u6bdb\u76ae\uff0c\u5de8\u5927\u7684\u7360\u7259\uff0c\u8fd8\u6709\u4e00\u53cc\u9510\u5229\u7684\u773c\u77b3\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u600e\u4e48\u770b\u90fd\u662f\u2014\u2014\u4e00\u53ea\u8001\u864e\uff01",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "Wait\uff01\u522b\u6fc0\u52a8\uff01\u80af\u7279\u9009\u624b\u5728\u8fd9\u91cc\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u54a6\uff1f\u4f60\u8bf4\u6709\u731b\u517d\u2026\u2026\u554a\uff01\uff01\u96be\u9053\u662f\u8bf4\u8fd9\u5b69\u5b50\u5417\uff1f\uff01",
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u80af\u7279\u4f3c\u4e4e\u7ec8\u4e8e\u53cd\u5e94\u8fc7\u6765\uff0c\u4ece\u6050\u6016\u7684\u201d\u8001\u864e\u201d\u8eab\u540e\u63a2\u51fa\u5934\u6765\uff0c\u5f00\u59cb\u89e3\u91ca\u8d77\u6765\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u2026\u8fd9\u5b69\u5b50\u662f\u6211\u4ee5\u524d\u7761\u89c9\u65f6\u7ecf\u5e38\u62b1\u7740\u7684\u73a9\u5076\u5566\u3002",
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\u9020\u578b\u8fd8\u662f\u633a\u903c\u771f\u7684\uff0c\u5728\u8fd9\u4e48\u6697\u7684\u5730\u65b9\u770b\u5230\uff0c\u88ab\u5413\u4e00\u8df3\u4e5f\u662f\u6b63\u5e38\u7684\u5427\u2026\u54c8\u54c8\u2026\u2026",
+			"actor": 203030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u623f\u95f4\u7684\u5e7d\u6697\u4f7f\u5f97\u8fd9\u53ea\u201c\u8001\u864e\u201d\u66f4\u5e73\u6dfb\u4e86\u51e0\u5206\u903c\u771f\u548c\u9b44\u529b\u2026\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5de5\u4f5c\u4ecd\u7136\u8fd8\u6ca1\u6709\u5b8c\u6210\uff0c\u5374\u6709\u79cd\u5df2\u7ecf\u7b4b\u75b2\u529b\u5c3d\u7684\u611f\u89c9\u2026\u2026",
+			"blackBg": true,
+			"bgName": "bg_night"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "KENTE6",
+	"once": true
 }

@@ -1,379 +1,379 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "귀여운 꼬마 메이드\n\n<size=45>제4장 - 꼬마 동료 참전!</size>",
-          1
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "side": 2,
-      "say": "그 뒤 - 모항 집무실",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-2",
-      "dir": 1,
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "잘 부탁드립니다. 메이드 벨파스트, 착임했습니다!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "베, 벨파스트?!",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 202120,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "저는 여기 있습니다. 이 아이는 저의……아니, 정확히 말하자면 저는 아닙니다만……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "사실은……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "이러이러하고 저러저러해서 말이다냥. 조금 복잡한 사정으로 착임이 늦어졌다냥……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 202180,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "options": [
-        {
-          "content": "다, 당연히 있어도 되지!",
-          "flag": 1
-        },
-        {
-          "content": "꼬마 벨파 귀여워!!!",
-          "flag": 2
-        }
-      ],
-      "say": "벨파스트는…여기 있으면 안 되나요…? 지휘관님?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 202180,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "optionFlag": 1,
-      "say": "다행이다…역시 언니들이 얘기해준 대로, 지휘관님은 자상하신 분이시네요.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 202180,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "optionFlag": 2,
-      "say": "이걸로…괜찮다는 의미인가요? 좀 이해하기 어려운데…그래도 지휘관님은 역시 언니들이 얘기해준 대로 좋은 분이네요.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 312010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "지휘관이라면 꼬마 벨파를 버릴리 없다고 믿고 있었다냥~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "주인님, 감사합니다. 메이드팀의 리더로서, 반드시 이 아이를 우수한 메이드로 키울 수 있도록 약속드리겠습니다.",
-      "actor": 202120,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 202180,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "네! 벨파스트, 열심히 할게요!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "이렇게, 새로운 멤버가 모항에 들어오게 되었다.",
-      "bgName": "bg_night"
-    },
-    {
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "blackBg": true,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "그런데…왜 꼬마 벨파가 여기 나타난 걸까냥……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 312010
-    },
-    {
-      "actor": 302010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "blackBg": true,
-      "say": "성정 큐브…열광선의 발사…닮아있는 두 사람…발사…?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:37}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      }
-    },
-    {
-      "actor": 312010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "blackBg": true,
-      "say": "유바리…뭔가 짚이는 거라도 있는 거냥?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 302010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "blackBg": true,
-      "say": "흐으음…뭔가 있었던 것 같기도 하고…없었던 것 같기도 하고…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:37}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 312010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "blackBg": true,
-      "say": "계속해서 실험해봐야 겠구냥…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:98}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 302010,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "blackBg": true,
-      "say": "응…그럼…257 번째의 실험은…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:37}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "BEIFA4",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"\uadc0\uc5ec\uc6b4 \uaf2c\ub9c8 \uba54\uc774\ub4dc\n\n<size=45>\uc81c4\uc7a5 - \uaf2c\ub9c8 \ub3d9\ub8cc \ucc38\uc804!</size>",
+					1
+				]
+			],
+			"mode": 1
+		},
+		{
+			"side": 2,
+			"say": "\uadf8 \ub4a4 - \ubaa8\ud56d \uc9d1\ubb34\uc2e4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-2",
+			"dir": 1,
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc798 \ubd80\ud0c1\ub4dc\ub9bd\ub2c8\ub2e4. \uba54\uc774\ub4dc \ubca8\ud30c\uc2a4\ud2b8, \ucc29\uc784\ud588\uc2b5\ub2c8\ub2e4!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\ubca0, \ubca8\ud30c\uc2a4\ud2b8?!",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 202120,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc800\ub294 \uc5ec\uae30 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \uc544\uc774\ub294 \uc800\uc758\u2026\u2026\uc544\ub2c8, \uc815\ud655\ud788 \ub9d0\ud558\uc790\uba74 \uc800\ub294 \uc544\ub2d9\ub2c8\ub2e4\ub9cc\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc0ac\uc2e4\uc740\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uc774\ub7ec\uc774\ub7ec\ud558\uace0 \uc800\ub7ec\uc800\ub7ec\ud574\uc11c \ub9d0\uc774\ub2e4\ub0e5. \uc870\uae08 \ubcf5\uc7a1\ud55c \uc0ac\uc815\uc73c\ub85c \ucc29\uc784\uc774 \ub2a6\uc5b4\uc84c\ub2e4\ub0e5\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 202180,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"options": [
+				{
+					"content": "\ub2e4, \ub2f9\uc5f0\ud788 \uc788\uc5b4\ub3c4 \ub418\uc9c0!",
+					"flag": 1
+				},
+				{
+					"content": "\uaf2c\ub9c8 \ubca8\ud30c \uadc0\uc5ec\uc6cc!!!",
+					"flag": 2
+				}
+			],
+			"say": "\ubca8\ud30c\uc2a4\ud2b8\ub294\u2026\uc5ec\uae30 \uc788\uc73c\uba74 \uc548 \ub418\ub098\uc694\u2026? \uc9c0\ud718\uad00\ub2d8?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 202180,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"optionFlag": 1,
+			"say": "\ub2e4\ud589\uc774\ub2e4\u2026\uc5ed\uc2dc \uc5b8\ub2c8\ub4e4\uc774 \uc598\uae30\ud574\uc900 \ub300\ub85c, \uc9c0\ud718\uad00\ub2d8\uc740 \uc790\uc0c1\ud558\uc2e0 \ubd84\uc774\uc2dc\ub124\uc694.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 202180,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"optionFlag": 2,
+			"say": "\uc774\uac78\ub85c\u2026\uad1c\ucc2e\ub2e4\ub294 \uc758\ubbf8\uc778\uac00\uc694? \uc880 \uc774\ud574\ud558\uae30 \uc5b4\ub824\uc6b4\ub370\u2026\uadf8\ub798\ub3c4 \uc9c0\ud718\uad00\ub2d8\uc740 \uc5ed\uc2dc \uc5b8\ub2c8\ub4e4\uc774 \uc598\uae30\ud574\uc900 \ub300\ub85c \uc88b\uc740 \ubd84\uc774\ub124\uc694.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 312010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc9c0\ud718\uad00\uc774\ub77c\uba74 \uaf2c\ub9c8 \ubca8\ud30c\ub97c \ubc84\ub9b4\ub9ac \uc5c6\ub2e4\uace0 \ubbff\uace0 \uc788\uc5c8\ub2e4\ub0e5~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\uc8fc\uc778\ub2d8, \uac10\uc0ac\ud569\ub2c8\ub2e4. \uba54\uc774\ub4dc\ud300\uc758 \ub9ac\ub354\ub85c\uc11c, \ubc18\ub4dc\uc2dc \uc774 \uc544\uc774\ub97c \uc6b0\uc218\ud55c \uba54\uc774\ub4dc\ub85c \ud0a4\uc6b8 \uc218 \uc788\ub3c4\ub85d \uc57d\uc18d\ub4dc\ub9ac\uaca0\uc2b5\ub2c8\ub2e4.",
+			"actor": 202120,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 202180,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\ub124! \ubca8\ud30c\uc2a4\ud2b8, \uc5f4\uc2ec\ud788 \ud560\uac8c\uc694!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc774\ub807\uac8c, \uc0c8\ub85c\uc6b4 \uba64\ubc84\uac00 \ubaa8\ud56d\uc5d0 \ub4e4\uc5b4\uc624\uac8c \ub418\uc5c8\ub2e4.",
+			"bgName": "bg_night"
+		},
+		{
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"blackBg": true,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uadf8\ub7f0\ub370\u2026\uc65c \uaf2c\ub9c8 \ubca8\ud30c\uac00 \uc5ec\uae30 \ub098\ud0c0\ub09c \uac78\uae4c\ub0e5\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 312010
+		},
+		{
+			"actor": 302010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"blackBg": true,
+			"say": "\uc131\uc815 \ud050\ube0c\u2026\uc5f4\uad11\uc120\uc758 \ubc1c\uc0ac\u2026\ub2ee\uc544\uc788\ub294 \ub450 \uc0ac\ub78c\u2026\ubc1c\uc0ac\u2026?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:37}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			}
+		},
+		{
+			"actor": 312010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"blackBg": true,
+			"say": "\uc720\ubc14\ub9ac\u2026\ubb54\uac00 \uc9da\uc774\ub294 \uac70\ub77c\ub3c4 \uc788\ub294 \uac70\ub0e5?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 302010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"blackBg": true,
+			"say": "\ud750\uc73c\uc74c\u2026\ubb54\uac00 \uc788\uc5c8\ub358 \uac83 \uac19\uae30\ub3c4 \ud558\uace0\u2026\uc5c6\uc5c8\ub358 \uac83 \uac19\uae30\ub3c4 \ud558\uace0\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:37}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 312010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"blackBg": true,
+			"say": "\uacc4\uc18d\ud574\uc11c \uc2e4\ud5d8\ud574\ubd10\uc57c \uaca0\uad6c\ub0e5\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:98}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 302010,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"blackBg": true,
+			"say": "\uc751\u2026\uadf8\ub7fc\u2026257 \ubc88\uc9f8\uc758 \uc2e4\ud5d8\uc740\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:37}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "BEIFA4",
+	"once": true
 }

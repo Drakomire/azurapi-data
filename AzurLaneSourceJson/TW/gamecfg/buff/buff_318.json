@@ -1,46 +1,46 @@
 {
-  "picture": "",
-  "id": 318,
-  "desc": "大青花鱼技能鱼雷点燃",
-  "last_effect": "zhuoshao",
-  "time": 15.1,
-  "icon": 318,
-  "effect_list": [
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffDOT",
-      "arg_list": {
-        "attr": "torpedoPower",
-        "k": 0.4,
-        "number": 5,
-        "time": 3,
-        "dotType": 1
-      }
-    },
-    {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 60
-      }
-    },
-    {
-      "trigger": [
-        "onRemove"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 61
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "点燃"
+	"picture": "",
+	"id": 318,
+	"desc": "\u5927\u9752\u82b1\u9c7c\u6280\u80fd\u9c7c\u96f7\u70b9\u71c3",
+	"last_effect": "zhuoshao",
+	"time": 15.1,
+	"icon": 318,
+	"effect_list": [
+		{
+			"trigger": [
+				"onUpdate"
+			],
+			"type": "BattleBuffDOT",
+			"arg_list": {
+				"attr": "torpedoPower",
+				"k": 0.4,
+				"number": 5,
+				"time": 3,
+				"dotType": 1
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 60
+			}
+		},
+		{
+			"trigger": [
+				"onRemove"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"skill_id": 61
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u70b9\u71c3"
 }

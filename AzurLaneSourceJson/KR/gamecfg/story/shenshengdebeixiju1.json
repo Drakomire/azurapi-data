@@ -1,687 +1,687 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "<size=51>우리는 먼 길을 떠났다. 서광이 보이는 줄 알았지만,</size>",
-          1
-        ],
-        [
-          "<size=51>다시 어두운 숲으로 들어가버렸다.</size>",
-          3
-        ],
-        [
-          "<size=51>아! 이 숲은 얼마나 황량하고, 위험하며 어려운지!</size>",
-          5
-        ],
-        [
-          "<size=51>그때 우리는 얼마나 무지했던가.</size> ",
-          7
-        ],
-        [
-          "<size=51>옳은 길을 포기하고, 어디로 가야할지 갈피를 잡을 수 없어——</size>",
-          9
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "stopbgm": true,
-      "flashin": {
-        "1": 5,
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0,
-        "dur": 0.5
-      },
-      "sequence": [
-        [
-          "",
-          1
-        ]
-      ],
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "mode": 1,
-      "blackBg": true,
-      "effects": [
-        {
-          "name": "shenshengdebeixiju",
-          "active": true
-        }
-      ]
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "effects": [
-        {
-          "name": "shenshengdebeixiju",
-          "active": false
-        },
-        {
-          "name": "UIhuohua",
-          "active": true
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "이건… 말도 안돼.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "battle-boss-italy",
-      "bgmDelay": 1,
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "연소, 폭발… 연기로 자욱한 밤의 타란토 항이 새빨갛게 물들었다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 5,
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "어떻게 이럴수가....",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "대공포가 불을 뿜고 있었지만, 소드피쉬의 공습을 막기에는 역부족이었다.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 4,
-      "say": "밤에 함재기로 공습을 가하다니…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "지옥을 방불케 하는 광경이었다. 아니, 이곳이 바로 지옥이겠지.",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "effects": [
-        {
-          "name": "UIhuohua",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "3일 전, ——영원의 성",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-italy",
-      "bgmDelay": 2,
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "이곳은 지중해입니다. 세이렌 함대가 나타나다니요…? 확실히 확인하셨습니까?",
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 601020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "say": "3번 확인했습니다. 제국 해역의 남부에 수많은 세이렌이 집결하고 있습니다! ",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 1,
-      "say": "세이렌이 이 깊은 곳 까지 들어오게 하다니… 메탈 블러드는 대체 무엇을 하고 있는 거죠?!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 1,
-      "say": "여러번 강조했듯, 모든 작전의 전제 조건은 지중해의 안전을 지키는 것입니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 1,
-      "say": "비시아 성좌를 지킨다는 명목으로 세이렌 함대가 경계를 넘더니, 아직도 감히…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "자, 비토리오. 역사가 가르쳐줬지. 타인에게 의지하기만 한다면 결국 쓴 맛을 보게 된다는 사실을 말이야——",
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "자매여, 당신이었군요.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "불평으로는 문제를 해결할 수 없어, ‘총 기함님’.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 6,
-      "say": "한때 제국의 해군력은 뒤쳐진 적이 있었지만, 지금은 그렇지 않지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 8,
-      "say": "우리는 유럽에서 가장 선진화된 무기와 지중해에서 가장 강력한 함대를 가지고 있어.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "이 땅과 바다를 지켜보자고.",
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 2,
-      "say": "생명과 문화, 예술과 전쟁을 모두 탄생시킨 이 영원의 땅은",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "정말로 로물루스의 영광을 다시 재현하게 될거야.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 7,
-      "say": "——진정한 의미의 재현, 말이지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "하지만…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "총 기함으로서 명령을 내려. 네 명령만 떨어지면 제국의 함대는 모두 지중해를 넘보는 적을 섬멸할 거야.",
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 4,
-      "say": "로열 네이비의 태도를 걱정하는 것, 알고 있어. 비시아 성좌의 일로 그 야심이 드러났지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "하지만 계속 앉아서 기다리기만 한다면, 우리도 비시아 성좌의 전함처럼 로열의 도마 위에 오르게 될거야.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 4,
-      "say": "이번 세이렌의 침입, 우리에게 있어서는 위협이지만 기회이기도 해.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "우리를 막던 아이리스 리브레도 이제는 존재하지 않아.",
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 8,
-      "say": "그리고 로열은 우리 자매들에 대해 여전히 추측하는 정도에 머물러 있지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "어때, 차라리…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 8,
-      "say": "우리가 제일 잘 하는 연극, 한번 해보지 않겠어?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "SHENSHENGDEBEIXIJU1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"<size=51>\uc6b0\ub9ac\ub294 \uba3c \uae38\uc744 \ub5a0\ub0ac\ub2e4. \uc11c\uad11\uc774 \ubcf4\uc774\ub294 \uc904 \uc54c\uc558\uc9c0\ub9cc,</size>",
+					1
+				],
+				[
+					"<size=51>\ub2e4\uc2dc \uc5b4\ub450\uc6b4 \uc232\uc73c\ub85c \ub4e4\uc5b4\uac00\ubc84\ub838\ub2e4.</size>",
+					3
+				],
+				[
+					"<size=51>\uc544! \uc774 \uc232\uc740 \uc5bc\ub9c8\ub098 \ud669\ub7c9\ud558\uace0, \uc704\ud5d8\ud558\uba70 \uc5b4\ub824\uc6b4\uc9c0!</size>",
+					5
+				],
+				[
+					"<size=51>\uadf8\ub54c \uc6b0\ub9ac\ub294 \uc5bc\ub9c8\ub098 \ubb34\uc9c0\ud588\ub358\uac00.</size> ",
+					7
+				],
+				[
+					"<size=51>\uc633\uc740 \uae38\uc744 \ud3ec\uae30\ud558\uace0, \uc5b4\ub514\ub85c \uac00\uc57c\ud560\uc9c0 \uac08\ud53c\ub97c \uc7a1\uc744 \uc218 \uc5c6\uc5b4\u2014\u2014</size>",
+					9
+				]
+			],
+			"mode": 1
+		},
+		{
+			"stopbgm": true,
+			"flashin": {
+				"1": 5,
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0,
+				"dur": 0.5
+			},
+			"sequence": [
+				[
+					"",
+					1
+				]
+			],
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"mode": 1,
+			"blackBg": true,
+			"effects": [
+				{
+					"name": "shenshengdebeixiju",
+					"active": true
+				}
+			]
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"effects": [
+				{
+					"name": "shenshengdebeixiju",
+					"active": false
+				},
+				{
+					"name": "UIhuohua",
+					"active": true
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\uc774\uac74\u2026 \ub9d0\ub3c4 \uc548\ub3fc.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "battle-boss-italy",
+			"bgmDelay": 1,
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\uc5f0\uc18c, \ud3ed\ubc1c\u2026 \uc5f0\uae30\ub85c \uc790\uc6b1\ud55c \ubc24\uc758 \ud0c0\ub780\ud1a0 \ud56d\uc774 \uc0c8\ube68\uac1b\uac8c \ubb3c\ub4e4\uc5c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 5,
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\uc5b4\ub5bb\uac8c \uc774\ub7f4\uc218\uac00....",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub300\uacf5\ud3ec\uac00 \ubd88\uc744 \ubfdc\uace0 \uc788\uc5c8\uc9c0\ub9cc, \uc18c\ub4dc\ud53c\uc26c\uc758 \uacf5\uc2b5\uc744 \ub9c9\uae30\uc5d0\ub294 \uc5ed\ubd80\uc871\uc774\uc5c8\ub2e4.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 4,
+			"say": "\ubc24\uc5d0 \ud568\uc7ac\uae30\ub85c \uacf5\uc2b5\uc744 \uac00\ud558\ub2e4\ub2c8\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc9c0\uc625\uc744 \ubc29\ubd88\ucf00 \ud558\ub294 \uad11\uacbd\uc774\uc5c8\ub2e4. \uc544\ub2c8, \uc774\uacf3\uc774 \ubc14\ub85c \uc9c0\uc625\uc774\uaca0\uc9c0.",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"effects": [
+				{
+					"name": "UIhuohua",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "3\uc77c \uc804, \u2014\u2014\uc601\uc6d0\uc758 \uc131",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-italy",
+			"bgmDelay": 2,
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\uc774\uacf3\uc740 \uc9c0\uc911\ud574\uc785\ub2c8\ub2e4. \uc138\uc774\ub80c \ud568\ub300\uac00 \ub098\ud0c0\ub098\ub2e4\ub2c8\uc694\u2026? \ud655\uc2e4\ud788 \ud655\uc778\ud558\uc168\uc2b5\ub2c8\uae4c?",
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 601020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"say": "3\ubc88 \ud655\uc778\ud588\uc2b5\ub2c8\ub2e4. \uc81c\uad6d \ud574\uc5ed\uc758 \ub0a8\ubd80\uc5d0 \uc218\ub9ce\uc740 \uc138\uc774\ub80c\uc774 \uc9d1\uacb0\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4! ",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 1,
+			"say": "\uc138\uc774\ub80c\uc774 \uc774 \uae4a\uc740 \uacf3 \uae4c\uc9c0 \ub4e4\uc5b4\uc624\uac8c \ud558\ub2e4\ub2c8\u2026 \uba54\ud0c8 \ube14\ub7ec\ub4dc\ub294 \ub300\uccb4 \ubb34\uc5c7\uc744 \ud558\uace0 \uc788\ub294 \uac70\uc8e0?!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 1,
+			"say": "\uc5ec\ub7ec\ubc88 \uac15\uc870\ud588\ub4ef, \ubaa8\ub4e0 \uc791\uc804\uc758 \uc804\uc81c \uc870\uac74\uc740 \uc9c0\uc911\ud574\uc758 \uc548\uc804\uc744 \uc9c0\ud0a4\ub294 \uac83\uc785\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 1,
+			"say": "\ube44\uc2dc\uc544 \uc131\uc88c\ub97c \uc9c0\ud0a8\ub2e4\ub294 \uba85\ubaa9\uc73c\ub85c \uc138\uc774\ub80c \ud568\ub300\uac00 \uacbd\uacc4\ub97c \ub118\ub354\ub2c8, \uc544\uc9c1\ub3c4 \uac10\ud788\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\uc790, \ube44\ud1a0\ub9ac\uc624. \uc5ed\uc0ac\uac00 \uac00\ub974\uccd0\uc92c\uc9c0. \ud0c0\uc778\uc5d0\uac8c \uc758\uc9c0\ud558\uae30\ub9cc \ud55c\ub2e4\uba74 \uacb0\uad6d \uc4f4 \ub9db\uc744 \ubcf4\uac8c \ub41c\ub2e4\ub294 \uc0ac\uc2e4\uc744 \ub9d0\uc774\uc57c\u2014\u2014",
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\uc790\ub9e4\uc5ec, \ub2f9\uc2e0\uc774\uc5c8\uad70\uc694.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\ubd88\ud3c9\uc73c\ub85c\ub294 \ubb38\uc81c\ub97c \ud574\uacb0\ud560 \uc218 \uc5c6\uc5b4, \u2018\ucd1d \uae30\ud568\ub2d8\u2019.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 6,
+			"say": "\ud55c\ub54c \uc81c\uad6d\uc758 \ud574\uad70\ub825\uc740 \ub4a4\uccd0\uc9c4 \uc801\uc774 \uc788\uc5c8\uc9c0\ub9cc, \uc9c0\uae08\uc740 \uadf8\ub807\uc9c0 \uc54a\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 8,
+			"say": "\uc6b0\ub9ac\ub294 \uc720\ub7fd\uc5d0\uc11c \uac00\uc7a5 \uc120\uc9c4\ud654\ub41c \ubb34\uae30\uc640 \uc9c0\uc911\ud574\uc5d0\uc11c \uac00\uc7a5 \uac15\ub825\ud55c \ud568\ub300\ub97c \uac00\uc9c0\uace0 \uc788\uc5b4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\uc774 \ub545\uacfc \ubc14\ub2e4\ub97c \uc9c0\ucf1c\ubcf4\uc790\uace0.",
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 2,
+			"say": "\uc0dd\uba85\uacfc \ubb38\ud654, \uc608\uc220\uacfc \uc804\uc7c1\uc744 \ubaa8\ub450 \ud0c4\uc0dd\uc2dc\ud0a8 \uc774 \uc601\uc6d0\uc758 \ub545\uc740",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\uc815\ub9d0\ub85c \ub85c\ubb3c\ub8e8\uc2a4\uc758 \uc601\uad11\uc744 \ub2e4\uc2dc \uc7ac\ud604\ud558\uac8c \ub420\uac70\uc57c.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 7,
+			"say": "\u2014\u2014\uc9c4\uc815\ud55c \uc758\ubbf8\uc758 \uc7ac\ud604, \ub9d0\uc774\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\ud558\uc9c0\ub9cc\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\ucd1d \uae30\ud568\uc73c\ub85c\uc11c \uba85\ub839\uc744 \ub0b4\ub824. \ub124 \uba85\ub839\ub9cc \ub5a8\uc5b4\uc9c0\uba74 \uc81c\uad6d\uc758 \ud568\ub300\ub294 \ubaa8\ub450 \uc9c0\uc911\ud574\ub97c \ub118\ubcf4\ub294 \uc801\uc744 \uc12c\uba78\ud560 \uac70\uc57c.",
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 4,
+			"say": "\ub85c\uc5f4 \ub124\uc774\ube44\uc758 \ud0dc\ub3c4\ub97c \uac71\uc815\ud558\ub294 \uac83, \uc54c\uace0 \uc788\uc5b4. \ube44\uc2dc\uc544 \uc131\uc88c\uc758 \uc77c\ub85c \uadf8 \uc57c\uc2ec\uc774 \ub4dc\ub7ec\ub0ac\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\ud558\uc9c0\ub9cc \uacc4\uc18d \uc549\uc544\uc11c \uae30\ub2e4\ub9ac\uae30\ub9cc \ud55c\ub2e4\uba74, \uc6b0\ub9ac\ub3c4 \ube44\uc2dc\uc544 \uc131\uc88c\uc758 \uc804\ud568\ucc98\ub7fc \ub85c\uc5f4\uc758 \ub3c4\ub9c8 \uc704\uc5d0 \uc624\ub974\uac8c \ub420\uac70\uc57c.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 4,
+			"say": "\uc774\ubc88 \uc138\uc774\ub80c\uc758 \uce68\uc785, \uc6b0\ub9ac\uc5d0\uac8c \uc788\uc5b4\uc11c\ub294 \uc704\ud611\uc774\uc9c0\ub9cc \uae30\ud68c\uc774\uae30\ub3c4 \ud574.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\uc6b0\ub9ac\ub97c \ub9c9\ub358 \uc544\uc774\ub9ac\uc2a4 \ub9ac\ube0c\ub808\ub3c4 \uc774\uc81c\ub294 \uc874\uc7ac\ud558\uc9c0 \uc54a\uc544.",
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 8,
+			"say": "\uadf8\ub9ac\uace0 \ub85c\uc5f4\uc740 \uc6b0\ub9ac \uc790\ub9e4\ub4e4\uc5d0 \ub300\ud574 \uc5ec\uc804\ud788 \ucd94\uce21\ud558\ub294 \uc815\ub3c4\uc5d0 \uba38\ubb3c\ub7ec \uc788\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\uc5b4\ub54c, \ucc28\ub77c\ub9ac\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 8,
+			"say": "\uc6b0\ub9ac\uac00 \uc81c\uc77c \uc798 \ud558\ub294 \uc5f0\uadf9, \ud55c\ubc88 \ud574\ubcf4\uc9c0 \uc54a\uaca0\uc5b4?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "SHENSHENGDEBEIXIJU1",
+	"once": true
 }

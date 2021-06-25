@@ -1,145 +1,145 @@
 {
-  "id": "B001",
-  "events": [
-    {
-      "hideui": [
-        {
-          "ishide": true,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
-        },
-        {
-          "ishide": true,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
-        },
-        {
-          "ishide": true,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
-        }
-      ],
-      "alpha": 0.34,
-      "code": [
-        "HideSkillUI"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "新兵，让我来教你如何控制舰队吧",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowStick"
-      ]
-    },
-    {
-      "ui": {
-        "triggerType": [
-          4
-        ],
-        "path": "/UICamera/Canvas/UIMain/CombatUI(Clone)/Stick/Area"
-      },
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "首先，<color=#ff7d36>拖动摇杆</color>试着让舰队移动起来吧！",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowStick"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "角色会<color=#ff7d36>自动使用武器</color>攻击，但还有更厉害的武器哦~",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_2"
-      ]
-    },
-    {
-      "hideui": [
-        {
-          "ishide": false,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
-        }
-      ],
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_2"
-      ]
-    },
-    {
-      "ui": {
-        "triggerType": [
-          3
-        ],
-        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl"
-      },
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "点击下方按钮<color=#ff7d36>发射鱼雷</color>！",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_2"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "面对敌方护盾防御时，就可以使用主力舰队<color=#ff7d36>主炮跨射</color>",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_1"
-      ]
-    },
-    {
-      "hideui": [
-        {
-          "ishide": false,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
-        }
-      ],
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_1"
-      ]
-    },
-    {
-      "ui": {
-        "triggerType": [
-          3
-        ],
-        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl"
-      },
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "点击主炮按钮发射主炮，<color=#ff7d36>长按主炮并拖动摇杆</color>可调整攻击位置",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_1"
-      ]
-    }
-  ]
+	"id": "B001",
+	"events": [
+		{
+			"hideui": [
+				{
+					"ishide": true,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+				},
+				{
+					"ishide": true,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+				},
+				{
+					"ishide": true,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+				}
+			],
+			"alpha": 0.34,
+			"code": [
+				"HideSkillUI"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u65b0\u5175\uff0c\u8ba9\u6211\u6765\u6559\u4f60\u5982\u4f55\u63a7\u5236\u8230\u961f\u5427",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowStick"
+			]
+		},
+		{
+			"ui": {
+				"triggerType": [
+					4
+				],
+				"path": "/UICamera/Canvas/UIMain/CombatUI(Clone)/Stick/Area"
+			},
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u9996\u5148\uff0c<color=#ff7d36>\u62d6\u52a8\u6447\u6746</color>\u8bd5\u7740\u8ba9\u8230\u961f\u79fb\u52a8\u8d77\u6765\u5427\uff01",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowStick"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u89d2\u8272\u4f1a<color=#ff7d36>\u81ea\u52a8\u4f7f\u7528\u6b66\u5668</color>\u653b\u51fb\uff0c\u4f46\u8fd8\u6709\u66f4\u5389\u5bb3\u7684\u6b66\u5668\u54e6~",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_2"
+			]
+		},
+		{
+			"hideui": [
+				{
+					"ishide": false,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+				}
+			],
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_2"
+			]
+		},
+		{
+			"ui": {
+				"triggerType": [
+					3
+				],
+				"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl"
+			},
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u70b9\u51fb\u4e0b\u65b9\u6309\u94ae<color=#ff7d36>\u53d1\u5c04\u9c7c\u96f7</color>\uff01",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_2"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u9762\u5bf9\u654c\u65b9\u62a4\u76fe\u9632\u5fa1\u65f6\uff0c\u5c31\u53ef\u4ee5\u4f7f\u7528\u4e3b\u529b\u8230\u961f<color=#ff7d36>\u4e3b\u70ae\u8de8\u5c04</color>",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_1"
+			]
+		},
+		{
+			"hideui": [
+				{
+					"ishide": false,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+				}
+			],
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_1"
+			]
+		},
+		{
+			"ui": {
+				"triggerType": [
+					3
+				],
+				"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl"
+			},
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\u70b9\u51fb\u4e3b\u70ae\u6309\u94ae\u53d1\u5c04\u4e3b\u70ae\uff0c<color=#ff7d36>\u957f\u6309\u4e3b\u70ae\u5e76\u62d6\u52a8\u6447\u6746</color>\u53ef\u8c03\u6574\u653b\u51fb\u4f4d\u7f6e",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_1"
+			]
+		}
+	]
 }

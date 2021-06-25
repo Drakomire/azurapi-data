@@ -1,405 +1,405 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "大青花鱼的“陷阱”\n\n<size=45>一　指挥室的陷阱</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "港区·指挥室",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "打开门",
-          "flag": 1
-        }
-      ],
-      "say": "和往常一样，在睡醒洗漱完之后便来到了指挥室。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "dur": 0.3,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 0.3,
-        "dur": 0.3
-      },
-      "blackBg": true,
-      "say": "砰——嘎啦嘎啦嘎啦嘎啦…哐！咯吱咯吱咯吱咯吱……"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "查看门的周围",
-          "flag": 1
-        }
-      ],
-      "say": "听到了什么东西碰撞的声音……",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "什么都没有发现。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "回想起了昨天的一些事。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "actor": 108020,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.4,
-        "dur": 0.2
-      },
-      "say": "对了对了，我在指挥室给指挥官准备了一份惊喜呢！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.2,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "嘿嘿，指挥官你就好好期待一下吧！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.2,
-        "black": true
-      },
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": false
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.4,
-        "dur": 0.2
-      },
-      "say": "到底会是什么惊喜呢……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgName": "bg_story_task"
-    },
-    {
-      "soundeffect": "event:/ui/boat_drag",
-      "side": 2,
-      "say": "啪——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "弯下腰去捡起来",
-          "flag": 1
-        }
-      ],
-      "say": "原本摆在书柜上的一个玩偶（？）落在了地上。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "但是，为什么这个玩偶（？）会突然掉——",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……等下！这个莫非是……连环机关——",
-      "bgName": "bg_story_task"
-    },
-    {
-      "soundeffect": "event:/battle/hit",
-      "side": 2,
-      "say": "哗啦！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ]
-        ]
-      },
-      "dir": 1,
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "毫无征兆地，整个头被水浇了个遍，头发瞬间湿透了。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "指挥官，早上好！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "大青花鱼拿着干毛巾和拖把出现在了门口。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "我发明的“指挥官快速清醒装置”怎么样？是不是很有效呢？嘿嘿~",
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 108020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "机关的时机，位置，角度都精准地把控好了，不会弄湿指挥官的衣服和指挥室的其它东西呢！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "果然是这家伙干的……",
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "可恶…看来这边也得去找出这家伙的弱点才行……！",
-      "blackBg": true,
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "DAQINGHUAYU1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u5927\u9752\u82b1\u9c7c\u7684\u201c\u9677\u9631\u201d\n\n<size=45>\u4e00\u3000\u6307\u6325\u5ba4\u7684\u9677\u9631</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6e2f\u533a\u00b7\u6307\u6325\u5ba4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u6253\u5f00\u95e8",
+					"flag": 1
+				}
+			],
+			"say": "\u548c\u5f80\u5e38\u4e00\u6837\uff0c\u5728\u7761\u9192\u6d17\u6f31\u5b8c\u4e4b\u540e\u4fbf\u6765\u5230\u4e86\u6307\u6325\u5ba4\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"dur": 0.3,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 0.3,
+				"dur": 0.3
+			},
+			"blackBg": true,
+			"say": "\u7830\u2014\u2014\u560e\u5566\u560e\u5566\u560e\u5566\u560e\u5566\u2026\u54d0\uff01\u54af\u5431\u54af\u5431\u54af\u5431\u54af\u5431\u2026\u2026"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u67e5\u770b\u95e8\u7684\u5468\u56f4",
+					"flag": 1
+				}
+			],
+			"say": "\u542c\u5230\u4e86\u4ec0\u4e48\u4e1c\u897f\u78b0\u649e\u7684\u58f0\u97f3\u2026\u2026",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4ec0\u4e48\u90fd\u6ca1\u6709\u53d1\u73b0\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u56de\u60f3\u8d77\u4e86\u6628\u5929\u7684\u4e00\u4e9b\u4e8b\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"actor": 108020,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.4,
+				"dur": 0.2
+			},
+			"say": "\u5bf9\u4e86\u5bf9\u4e86\uff0c\u6211\u5728\u6307\u6325\u5ba4\u7ed9\u6307\u6325\u5b98\u51c6\u5907\u4e86\u4e00\u4efd\u60ca\u559c\u5462\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.2,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u563f\u563f\uff0c\u6307\u6325\u5b98\u4f60\u5c31\u597d\u597d\u671f\u5f85\u4e00\u4e0b\u5427\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.2,
+				"black": true
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.4,
+				"dur": 0.2
+			},
+			"say": "\u5230\u5e95\u4f1a\u662f\u4ec0\u4e48\u60ca\u559c\u5462\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgName": "bg_story_task"
+		},
+		{
+			"soundeffect": "event:/ui/boat_drag",
+			"side": 2,
+			"say": "\u556a\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u5f2f\u4e0b\u8170\u53bb\u6361\u8d77\u6765",
+					"flag": 1
+				}
+			],
+			"say": "\u539f\u672c\u6446\u5728\u4e66\u67dc\u4e0a\u7684\u4e00\u4e2a\u73a9\u5076\uff08\uff1f\uff09\u843d\u5728\u4e86\u5730\u4e0a\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4f46\u662f\uff0c\u4e3a\u4ec0\u4e48\u8fd9\u4e2a\u73a9\u5076\uff08\uff1f\uff09\u4f1a\u7a81\u7136\u6389\u2014\u2014",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\u7b49\u4e0b\uff01\u8fd9\u4e2a\u83ab\u975e\u662f\u2026\u2026\u8fde\u73af\u673a\u5173\u2014\u2014",
+			"bgName": "bg_story_task"
+		},
+		{
+			"soundeffect": "event:/battle/hit",
+			"side": 2,
+			"say": "\u54d7\u5566\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					]
+				]
+			},
+			"dir": 1,
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u6beb\u65e0\u5f81\u5146\u5730\uff0c\u6574\u4e2a\u5934\u88ab\u6c34\u6d47\u4e86\u4e2a\u904d\uff0c\u5934\u53d1\u77ac\u95f4\u6e7f\u900f\u4e86\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u6307\u6325\u5b98\uff0c\u65e9\u4e0a\u597d\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5927\u9752\u82b1\u9c7c\u62ff\u7740\u5e72\u6bdb\u5dfe\u548c\u62d6\u628a\u51fa\u73b0\u5728\u4e86\u95e8\u53e3\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u6211\u53d1\u660e\u7684\u201c\u6307\u6325\u5b98\u5feb\u901f\u6e05\u9192\u88c5\u7f6e\u201d\u600e\u4e48\u6837\uff1f\u662f\u4e0d\u662f\u5f88\u6709\u6548\u5462\uff1f\u563f\u563f~",
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 108020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u673a\u5173\u7684\u65f6\u673a\uff0c\u4f4d\u7f6e\uff0c\u89d2\u5ea6\u90fd\u7cbe\u51c6\u5730\u628a\u63a7\u597d\u4e86\uff0c\u4e0d\u4f1a\u5f04\u6e7f\u6307\u6325\u5b98\u7684\u8863\u670d\u548c\u6307\u6325\u5ba4\u7684\u5176\u5b83\u4e1c\u897f\u5462\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u679c\u7136\u662f\u8fd9\u5bb6\u4f19\u5e72\u7684\u2026\u2026",
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u53ef\u6076\u2026\u770b\u6765\u8fd9\u8fb9\u4e5f\u5f97\u53bb\u627e\u51fa\u8fd9\u5bb6\u4f19\u7684\u5f31\u70b9\u624d\u884c\u2026\u2026\uff01",
+			"blackBg": true,
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "DAQINGHUAYU1",
+	"once": true
 }

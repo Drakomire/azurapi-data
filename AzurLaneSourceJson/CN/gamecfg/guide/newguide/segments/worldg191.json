@@ -1,89 +1,89 @@
 {
-  "id": "WorldG191",
-  "events": [
-    {
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": -42,
-          "posX": 128.2,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "OverlayCamera/Overlay/UIMain/top/adapt/bottom_chapter/button/btn_boss",
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": -279.2,
-        "dir": 1,
-        "text": "信标·META作战已开启。在这个系统中指挥官可以与其他指挥官一同战斗",
-        "posX": 498.7,
-        "mode": 2
-      }
-    },
-    {
-      "stories": [
-        "GWORLD109A"
-      ],
-      "delay": 1,
-      "code": [
-        "playStory"
-      ]
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 294,
-        "dir": 1,
-        "ui": {
-          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
-        },
-        "text": "信标·META作战将会周期性开启，这里显示的是当前信标·META作战的持续时间",
-        "posX": -448.3,
-        "mode": 2
-      },
-      "alpha": 0.4,
-      "waitScene": "WorldBossScene"
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 1.5,
-        "dir": 1,
-        "ui": {
-          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
-        },
-        "text": "时间结束后未解析的信标将会消失，也无法在大型作战中继续获得新的信标数据",
-        "posX": -402.4,
-        "mode": 2
-      }
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": -284,
-        "dir": 1,
-        "text": "点击情报解析按钮，以解析获取的信标数据",
-        "posX": -495,
-        "mode": 2
-      },
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": 0,
-          "posX": 0,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/useItem/list/tpl",
-        "triggerType": [
-          1
-        ]
-      }
-    }
-  ]
+	"id": "WorldG191",
+	"events": [
+		{
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": -42,
+					"posX": 128.2,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "OverlayCamera/Overlay/UIMain/top/adapt/bottom_chapter/button/btn_boss",
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": -279.2,
+				"dir": 1,
+				"text": "\u4fe1\u6807\u00b7META\u4f5c\u6218\u5df2\u5f00\u542f\u3002\u5728\u8fd9\u4e2a\u7cfb\u7edf\u4e2d\u6307\u6325\u5b98\u53ef\u4ee5\u4e0e\u5176\u4ed6\u6307\u6325\u5b98\u4e00\u540c\u6218\u6597",
+				"posX": 498.7,
+				"mode": 2
+			}
+		},
+		{
+			"stories": [
+				"GWORLD109A"
+			],
+			"delay": 1,
+			"code": [
+				"playStory"
+			]
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 294,
+				"dir": 1,
+				"ui": {
+					"path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+				},
+				"text": "\u4fe1\u6807\u00b7META\u4f5c\u6218\u5c06\u4f1a\u5468\u671f\u6027\u5f00\u542f\uff0c\u8fd9\u91cc\u663e\u793a\u7684\u662f\u5f53\u524d\u4fe1\u6807\u00b7META\u4f5c\u6218\u7684\u6301\u7eed\u65f6\u95f4",
+				"posX": -448.3,
+				"mode": 2
+			},
+			"alpha": 0.4,
+			"waitScene": "WorldBossScene"
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 1.5,
+				"dir": 1,
+				"ui": {
+					"path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+				},
+				"text": "\u65f6\u95f4\u7ed3\u675f\u540e\u672a\u89e3\u6790\u7684\u4fe1\u6807\u5c06\u4f1a\u6d88\u5931\uff0c\u4e5f\u65e0\u6cd5\u5728\u5927\u578b\u4f5c\u6218\u4e2d\u7ee7\u7eed\u83b7\u5f97\u65b0\u7684\u4fe1\u6807\u6570\u636e",
+				"posX": -402.4,
+				"mode": 2
+			}
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": -284,
+				"dir": 1,
+				"text": "\u70b9\u51fb\u60c5\u62a5\u89e3\u6790\u6309\u94ae\uff0c\u4ee5\u89e3\u6790\u83b7\u53d6\u7684\u4fe1\u6807\u6570\u636e",
+				"posX": -495,
+				"mode": 2
+			},
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": 0,
+					"posX": 0,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/useItem/list/tpl",
+				"triggerType": [
+					1
+				]
+			}
+		}
+	]
 }

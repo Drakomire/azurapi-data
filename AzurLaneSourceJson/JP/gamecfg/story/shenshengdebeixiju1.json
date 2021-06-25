@@ -1,691 +1,691 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "<size=51>「我らが征く道なかば、求める暁を目にする前に</size>",
-          1
-        ],
-        [
-          "<size=51>気がつけば、暗き森の中をさまよっていた</size>",
-          3
-        ],
-        [
-          "<size=51>鬱蒼とした茨に満ちた闇に脅かされ、恐れおののく</size>",
-          5
-        ],
-        [
-          "<size=51>ただ、己の無知蒙昧に悔やむがばかり</size> ",
-          7
-        ],
-        [
-          "<size=51>ああ、正しき道は、いつ見失ったのだろうか――」</size>",
-          9
-        ],
-        [
-          "<size=51>悲嘆せし焔海の詩</size>",
-          11
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "stopbgm": true,
-      "flashin": {
-        "1": 5,
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0,
-        "dur": 0.5
-      },
-      "sequence": [
-        [
-          "",
-          1
-        ]
-      ],
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "mode": 1,
-      "blackBg": true,
-      "effects": [
-        {
-          "name": "shenshengdebeixiju",
-          "active": true
-        }
-      ]
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "effects": [
-        {
-          "name": "shenshengdebeixiju",
-          "active": false
-        },
-        {
-          "name": "UIhuohua",
-          "active": true
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "そんな…まさか…！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "battle-boss-italy",
-      "bgmDelay": 1,
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "サディア帝国のタラント港が赤く染められていた。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 5,
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "私としたことが…作戦を見破れぬとは…！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "港の対空施設・対空砲が火を噴くも、ロイヤルの艦載機の勢いを阻止するには至らない",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 4,
-      "say": "艦載機による夜間奇襲爆撃、とは――！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "燃え上がる艦（フネ）たちの姿は、見るものに地獄を想起させる光景であった――",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italy_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "effects": [
-        {
-          "name": "UIhuohua",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "三日前、サディア帝都「チッタ エテールナ」",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-italy",
-      "bgmDelay": 2,
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "この地中海にセイレーンが現れるはずがありません。その情報、本当ですか？",
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 601020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "say": "はっ！本当であります！帝国の南部海域にセイレーンの大艦隊が集結しています！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 1,
-      "say": "セイレーンの艦隊をここまで進出させるなんて…鉄血艦隊は一体なにを考え……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 1,
-      "say": "（レッドアクシズへの参加は、地中海の安全を必須条件としました…）",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 1,
-      "say": "（ヴィシアの領域にセイレーンが現れたこと自体不審だと思いましたけど、まさかサディアにまで……）",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "なに、「飼い犬に手を噛まれる」とはそういうことだ。他人に頼りっぱなしでもいいことはないさ",
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "リットリオ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "悩んでいても仕方がないじゃない？「総旗艦殿」？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 6,
-      "say": "なに、対応は簡単だ。帝国海軍、そしてこのリットリオをよく見るがいい",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 8,
-      "say": "エウロパ大陸における最新鋭の艦隊と装備を有する我ら",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "そして、この恵まれた海で生まれた文化（クルトゥーラ）と精神（スピリト）",
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 2,
-      "say": "ヴェネト、貴方の命令一つあればーー",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "サディアの伝説の栄光など、いとも容易く再現できるだろう",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 7,
-      "say": "――それも虚辞でもなく、真にな",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "は、はあ……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "というわけだヴェネト。躊躇う必要などない！帝国海軍、そしてこのリットリオが来る敵を全て駆逐してみせる！",
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 900198,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "……………でも……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 4,
-      "say": "そうか、ロイヤル艦隊の動き、ヴィシアの時のような行動をしないか気がかりかね？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "それならなおさら気にする必要はない！いずれにしてもこっちがレッドアクシズに参加した時点で、対応が決まっているさ",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 4,
-      "say": "セイレーンの進出、私はむしろいいきっかけだと思っている",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "say": "今やアイリスも鉄血もこの海域にうかつには近づけない",
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 8,
-      "say": "ともすれば、彼女らも私たちの出方、そして「ここにいるだけの私たち」の力を測りかねている",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 3,
-      "say": "ならばここは打って出て、セイレーンを叩き力を示し――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ffde38",
-      "expression": 8,
-      "say": "我がサディアの威光を全世界に示す好機を、この一芝居に賭けようではないか？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_italy"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "SHENSHENGDEBEIXIJU1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"<size=51>\u300c\u6211\u3089\u304c\u5f81\u304f\u9053\u306a\u304b\u3070\u3001\u6c42\u3081\u308b\u6681\u3092\u76ee\u306b\u3059\u308b\u524d\u306b</size>",
+					1
+				],
+				[
+					"<size=51>\u6c17\u304c\u3064\u3051\u3070\u3001\u6697\u304d\u68ee\u306e\u4e2d\u3092\u3055\u307e\u3088\u3063\u3066\u3044\u305f</size>",
+					3
+				],
+				[
+					"<size=51>\u9b31\u84bc\u3068\u3057\u305f\u8328\u306b\u6e80\u3061\u305f\u95c7\u306b\u8105\u304b\u3055\u308c\u3001\u6050\u308c\u304a\u306e\u306e\u304f</size>",
+					5
+				],
+				[
+					"<size=51>\u305f\u3060\u3001\u5df1\u306e\u7121\u77e5\u8499\u6627\u306b\u6094\u3084\u3080\u304c\u3070\u304b\u308a</size> ",
+					7
+				],
+				[
+					"<size=51>\u3042\u3042\u3001\u6b63\u3057\u304d\u9053\u306f\u3001\u3044\u3064\u898b\u5931\u3063\u305f\u306e\u3060\u308d\u3046\u304b\u2015\u2015\u300d</size>",
+					9
+				],
+				[
+					"<size=51>\u60b2\u5606\u305b\u3057\u7114\u6d77\u306e\u8a69</size>",
+					11
+				]
+			],
+			"mode": 1
+		},
+		{
+			"stopbgm": true,
+			"flashin": {
+				"1": 5,
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0,
+				"dur": 0.5
+			},
+			"sequence": [
+				[
+					"",
+					1
+				]
+			],
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"mode": 1,
+			"blackBg": true,
+			"effects": [
+				{
+					"name": "shenshengdebeixiju",
+					"active": true
+				}
+			]
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"effects": [
+				{
+					"name": "shenshengdebeixiju",
+					"active": false
+				},
+				{
+					"name": "UIhuohua",
+					"active": true
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u305d\u3093\u306a\u2026\u307e\u3055\u304b\u2026\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "battle-boss-italy",
+			"bgmDelay": 1,
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u30b5\u30c7\u30a3\u30a2\u5e1d\u56fd\u306e\u30bf\u30e9\u30f3\u30c8\u6e2f\u304c\u8d64\u304f\u67d3\u3081\u3089\u308c\u3066\u3044\u305f\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 5,
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u79c1\u3068\u3057\u305f\u3053\u3068\u304c\u2026\u4f5c\u6226\u3092\u898b\u7834\u308c\u306c\u3068\u306f\u2026\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u6e2f\u306e\u5bfe\u7a7a\u65bd\u8a2d\u30fb\u5bfe\u7a7a\u7832\u304c\u706b\u3092\u5674\u304f\u3082\u3001\u30ed\u30a4\u30e4\u30eb\u306e\u8266\u8f09\u6a5f\u306e\u52e2\u3044\u3092\u963b\u6b62\u3059\u308b\u306b\u306f\u81f3\u3089\u306a\u3044",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 4,
+			"say": "\u8266\u8f09\u6a5f\u306b\u3088\u308b\u591c\u9593\u5947\u8972\u7206\u6483\u3001\u3068\u306f\u2015\u2015\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u71c3\u3048\u4e0a\u304c\u308b\u8266\uff08\u30d5\u30cd\uff09\u305f\u3061\u306e\u59ff\u306f\u3001\u898b\u308b\u3082\u306e\u306b\u5730\u7344\u3092\u60f3\u8d77\u3055\u305b\u308b\u5149\u666f\u3067\u3042\u3063\u305f\u2015\u2015",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italy_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"effects": [
+				{
+					"name": "UIhuohua",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u4e09\u65e5\u524d\u3001\u30b5\u30c7\u30a3\u30a2\u5e1d\u90fd\u300c\u30c1\u30c3\u30bf \u30a8\u30c6\u30fc\u30eb\u30ca\u300d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-italy",
+			"bgmDelay": 2,
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\u3053\u306e\u5730\u4e2d\u6d77\u306b\u30bb\u30a4\u30ec\u30fc\u30f3\u304c\u73fe\u308c\u308b\u306f\u305a\u304c\u3042\u308a\u307e\u305b\u3093\u3002\u305d\u306e\u60c5\u5831\u3001\u672c\u5f53\u3067\u3059\u304b\uff1f",
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 601020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"say": "\u306f\u3063\uff01\u672c\u5f53\u3067\u3042\u308a\u307e\u3059\uff01\u5e1d\u56fd\u306e\u5357\u90e8\u6d77\u57df\u306b\u30bb\u30a4\u30ec\u30fc\u30f3\u306e\u5927\u8266\u968a\u304c\u96c6\u7d50\u3057\u3066\u3044\u307e\u3059\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 1,
+			"say": "\u30bb\u30a4\u30ec\u30fc\u30f3\u306e\u8266\u968a\u3092\u3053\u3053\u307e\u3067\u9032\u51fa\u3055\u305b\u308b\u306a\u3093\u3066\u2026\u9244\u8840\u8266\u968a\u306f\u4e00\u4f53\u306a\u306b\u3092\u8003\u3048\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 1,
+			"say": "\uff08\u30ec\u30c3\u30c9\u30a2\u30af\u30b7\u30ba\u3078\u306e\u53c2\u52a0\u306f\u3001\u5730\u4e2d\u6d77\u306e\u5b89\u5168\u3092\u5fc5\u9808\u6761\u4ef6\u3068\u3057\u307e\u3057\u305f\u2026\uff09",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 1,
+			"say": "\uff08\u30f4\u30a3\u30b7\u30a2\u306e\u9818\u57df\u306b\u30bb\u30a4\u30ec\u30fc\u30f3\u304c\u73fe\u308c\u305f\u3053\u3068\u81ea\u4f53\u4e0d\u5be9\u3060\u3068\u601d\u3044\u307e\u3057\u305f\u3051\u3069\u3001\u307e\u3055\u304b\u30b5\u30c7\u30a3\u30a2\u306b\u307e\u3067\u2026\u2026\uff09",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\u306a\u306b\u3001\u300c\u98fc\u3044\u72ac\u306b\u624b\u3092\u565b\u307e\u308c\u308b\u300d\u3068\u306f\u305d\u3046\u3044\u3046\u3053\u3068\u3060\u3002\u4ed6\u4eba\u306b\u983c\u308a\u3063\u3071\u306a\u3057\u3067\u3082\u3044\u3044\u3053\u3068\u306f\u306a\u3044\u3055",
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\u30ea\u30c3\u30c8\u30ea\u30aa\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\u60a9\u3093\u3067\u3044\u3066\u3082\u4ed5\u65b9\u304c\u306a\u3044\u3058\u3083\u306a\u3044\uff1f\u300c\u7dcf\u65d7\u8266\u6bbf\u300d\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 6,
+			"say": "\u306a\u306b\u3001\u5bfe\u5fdc\u306f\u7c21\u5358\u3060\u3002\u5e1d\u56fd\u6d77\u8ecd\u3001\u305d\u3057\u3066\u3053\u306e\u30ea\u30c3\u30c8\u30ea\u30aa\u3092\u3088\u304f\u898b\u308b\u304c\u3044\u3044",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 8,
+			"say": "\u30a8\u30a6\u30ed\u30d1\u5927\u9678\u306b\u304a\u3051\u308b\u6700\u65b0\u92ed\u306e\u8266\u968a\u3068\u88c5\u5099\u3092\u6709\u3059\u308b\u6211\u3089",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\u305d\u3057\u3066\u3001\u3053\u306e\u6075\u307e\u308c\u305f\u6d77\u3067\u751f\u307e\u308c\u305f\u6587\u5316\uff08\u30af\u30eb\u30c8\u30a5\u30fc\u30e9\uff09\u3068\u7cbe\u795e\uff08\u30b9\u30d4\u30ea\u30c8\uff09",
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 2,
+			"say": "\u30f4\u30a7\u30cd\u30c8\u3001\u8cb4\u65b9\u306e\u547d\u4ee4\u4e00\u3064\u3042\u308c\u3070\u30fc\u30fc",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\u30b5\u30c7\u30a3\u30a2\u306e\u4f1d\u8aac\u306e\u6804\u5149\u306a\u3069\u3001\u3044\u3068\u3082\u5bb9\u6613\u304f\u518d\u73fe\u3067\u304d\u308b\u3060\u308d\u3046",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 7,
+			"say": "\u2015\u2015\u305d\u308c\u3082\u865a\u8f9e\u3067\u3082\u306a\u304f\u3001\u771f\u306b\u306a",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\u306f\u3001\u306f\u3042\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\u3068\u3044\u3046\u308f\u3051\u3060\u30f4\u30a7\u30cd\u30c8\u3002\u8e8a\u8e87\u3046\u5fc5\u8981\u306a\u3069\u306a\u3044\uff01\u5e1d\u56fd\u6d77\u8ecd\u3001\u305d\u3057\u3066\u3053\u306e\u30ea\u30c3\u30c8\u30ea\u30aa\u304c\u6765\u308b\u6575\u3092\u5168\u3066\u99c6\u9010\u3057\u3066\u307f\u305b\u308b\uff01",
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 900198,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\u2026\u2026\u2026\u2026\u2026\u3067\u3082\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 4,
+			"say": "\u305d\u3046\u304b\u3001\u30ed\u30a4\u30e4\u30eb\u8266\u968a\u306e\u52d5\u304d\u3001\u30f4\u30a3\u30b7\u30a2\u306e\u6642\u306e\u3088\u3046\u306a\u884c\u52d5\u3092\u3057\u306a\u3044\u304b\u6c17\u304c\u304b\u308a\u304b\u306d\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\u305d\u308c\u306a\u3089\u306a\u304a\u3055\u3089\u6c17\u306b\u3059\u308b\u5fc5\u8981\u306f\u306a\u3044\uff01\u3044\u305a\u308c\u306b\u3057\u3066\u3082\u3053\u3063\u3061\u304c\u30ec\u30c3\u30c9\u30a2\u30af\u30b7\u30ba\u306b\u53c2\u52a0\u3057\u305f\u6642\u70b9\u3067\u3001\u5bfe\u5fdc\u304c\u6c7a\u307e\u3063\u3066\u3044\u308b\u3055",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 4,
+			"say": "\u30bb\u30a4\u30ec\u30fc\u30f3\u306e\u9032\u51fa\u3001\u79c1\u306f\u3080\u3057\u308d\u3044\u3044\u304d\u3063\u304b\u3051\u3060\u3068\u601d\u3063\u3066\u3044\u308b",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"say": "\u4eca\u3084\u30a2\u30a4\u30ea\u30b9\u3082\u9244\u8840\u3082\u3053\u306e\u6d77\u57df\u306b\u3046\u304b\u3064\u306b\u306f\u8fd1\u3065\u3051\u306a\u3044",
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 8,
+			"say": "\u3068\u3082\u3059\u308c\u3070\u3001\u5f7c\u5973\u3089\u3082\u79c1\u305f\u3061\u306e\u51fa\u65b9\u3001\u305d\u3057\u3066\u300c\u3053\u3053\u306b\u3044\u308b\u3060\u3051\u306e\u79c1\u305f\u3061\u300d\u306e\u529b\u3092\u6e2c\u308a\u304b\u306d\u3066\u3044\u308b",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 3,
+			"say": "\u306a\u3089\u3070\u3053\u3053\u306f\u6253\u3063\u3066\u51fa\u3066\u3001\u30bb\u30a4\u30ec\u30fc\u30f3\u3092\u53e9\u304d\u529b\u3092\u793a\u3057\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ffde38",
+			"expression": 8,
+			"say": "\u6211\u304c\u30b5\u30c7\u30a3\u30a2\u306e\u5a01\u5149\u3092\u5168\u4e16\u754c\u306b\u793a\u3059\u597d\u6a5f\u3092\u3001\u3053\u306e\u4e00\u829d\u5c45\u306b\u8ced\u3051\u3088\u3046\u3067\u306f\u306a\u3044\u304b\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_italy"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "SHENSHENGDEBEIXIJU1",
+	"once": true
 }

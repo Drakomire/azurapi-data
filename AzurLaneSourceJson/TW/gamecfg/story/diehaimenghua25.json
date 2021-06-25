@@ -1,284 +1,284 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 307080,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 1,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "遭受雷击？没事，凭借装甲厚度的话……无法进行水密处理？！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "xinnong-4",
-      "bgmDelay": 0.5,
-      "bgName": "bg_xinnong_cg3"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 10,
-        "number": 2
-      },
-      "say": "轰————————————！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg3"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "bsm-2",
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "怎么可能…区区四发鱼雷就………………",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:182}",
-      "bgmDelay": 1,
-      "bgName": "bg_underwater"
-    },
-    {
-      "say": "…舰装没有彻底完工，也没有搭载武装，还要选在这种时候贸然出航……也是必然的结果吧。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "{namecode:182}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_underwater"
-    },
-    {
-      "say": "真是，比醒来时失去应有的力量来还要凄惨的境况……幸好只是梦中之事。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "{namecode:182}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_underwater"
-    },
-    {
-      "say": "…………明明只是梦境而已，为什么妾身的「心」这么痛呢。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "{namecode:182}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_underwater"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashout": {
-        "dur": 1,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "flashin": {
-        "dur": 1,
-        "alpha": [
-          1,
-          0
-        ]
-      },
-      "say": "下沉还在继续，梦境还在持续么…？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:182}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong2_6"
-    },
-    {
-      "say": "意识正在远去，以往的梦境中从未出现如此真实的感觉……这个梦究竟是怎么回事……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "{namecode:182}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong2_6"
-    },
-    {
-      "say": "…嗯？鱼群身上泛起了光亮……?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "{namecode:182}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong2_6"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "那里是……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:182}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong2_6"
-    },
-    {
-      "stopbgm": true,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "soundeffect": "event:/ui/fengling",
-      "flashout": {
-        "dur": 0.5,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "mode": 1,
-      "blackBg": true,
-      "bgName": "bg_white"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "DIEHAIMENGHUA25",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 307080,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 1,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u906d\u53d7\u96f7\u51fb\uff1f\u6ca1\u4e8b\uff0c\u51ed\u501f\u88c5\u7532\u539a\u5ea6\u7684\u8bdd\u2026\u2026\u65e0\u6cd5\u8fdb\u884c\u6c34\u5bc6\u5904\u7406\uff1f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "xinnong-4",
+			"bgmDelay": 0.5,
+			"bgName": "bg_xinnong_cg3"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 10,
+				"number": 2
+			},
+			"say": "\u8f70\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg3"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "bsm-2",
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u600e\u4e48\u53ef\u80fd\u2026\u533a\u533a\u56db\u53d1\u9c7c\u96f7\u5c31\u2026\u2026\u2026\u2026\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:182}",
+			"bgmDelay": 1,
+			"bgName": "bg_underwater"
+		},
+		{
+			"say": "\u2026\u8230\u88c5\u6ca1\u6709\u5f7b\u5e95\u5b8c\u5de5\uff0c\u4e5f\u6ca1\u6709\u642d\u8f7d\u6b66\u88c5\uff0c\u8fd8\u8981\u9009\u5728\u8fd9\u79cd\u65f6\u5019\u8d38\u7136\u51fa\u822a\u2026\u2026\u4e5f\u662f\u5fc5\u7136\u7684\u7ed3\u679c\u5427\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "{namecode:182}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_underwater"
+		},
+		{
+			"say": "\u771f\u662f\uff0c\u6bd4\u9192\u6765\u65f6\u5931\u53bb\u5e94\u6709\u7684\u529b\u91cf\u6765\u8fd8\u8981\u51c4\u60e8\u7684\u5883\u51b5\u2026\u2026\u5e78\u597d\u53ea\u662f\u68a6\u4e2d\u4e4b\u4e8b\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "{namecode:182}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_underwater"
+		},
+		{
+			"say": "\u2026\u2026\u2026\u2026\u660e\u660e\u53ea\u662f\u68a6\u5883\u800c\u5df2\uff0c\u4e3a\u4ec0\u4e48\u59be\u8eab\u7684\u300c\u5fc3\u300d\u8fd9\u4e48\u75db\u5462\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "{namecode:182}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_underwater"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashout": {
+				"dur": 1,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"flashin": {
+				"dur": 1,
+				"alpha": [
+					1,
+					0
+				]
+			},
+			"say": "\u4e0b\u6c89\u8fd8\u5728\u7ee7\u7eed\uff0c\u68a6\u5883\u8fd8\u5728\u6301\u7eed\u4e48\u2026\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:182}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong2_6"
+		},
+		{
+			"say": "\u610f\u8bc6\u6b63\u5728\u8fdc\u53bb\uff0c\u4ee5\u5f80\u7684\u68a6\u5883\u4e2d\u4ece\u672a\u51fa\u73b0\u5982\u6b64\u771f\u5b9e\u7684\u611f\u89c9\u2026\u2026\u8fd9\u4e2a\u68a6\u7a76\u7adf\u662f\u600e\u4e48\u56de\u4e8b\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "{namecode:182}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong2_6"
+		},
+		{
+			"say": "\u2026\u55ef\uff1f\u9c7c\u7fa4\u8eab\u4e0a\u6cdb\u8d77\u4e86\u5149\u4eae\u2026\u2026?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "{namecode:182}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong2_6"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\u90a3\u91cc\u662f\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:182}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong2_6"
+		},
+		{
+			"stopbgm": true,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"soundeffect": "event:/ui/fengling",
+			"flashout": {
+				"dur": 0.5,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"mode": 1,
+			"blackBg": true,
+			"bgName": "bg_white"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "DIEHAIMENGHUA25",
+	"once": true
 }

@@ -1,591 +1,591 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "德意志的忧郁\n\n<size=45>七　一如既往？</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "blackBg": true,
-      "say": "在那次会议之后，过了一段时间。"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "海域·演习海域",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "battle-1",
-      "bgmDelay": 1.5,
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "我又赢了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 404010,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "德意志，不服气吗？",
-      "actor": 404010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.06,
-          "number": 1,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "哼…再来！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 404010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "哈哈，这才像话，除了性能，德意志你更缺乏的是经验，想要变强，就练习，练习，再练习！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "say": "不用你说我也知道！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 403040,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.7,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.7,
-        "dur": 0.7
-      },
-      "say": "港区·指挥室",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "喂，仆人，你看看这些公文这么处理是对的吗？",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "options": [
-        {
-          "content": "表扬",
-          "flag": 1
-        }
-      ],
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "withoutActorName": true,
-      "say": "……虽然有些错误，不过看得出十分努力。",
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "嘁，为什么我身为你的主人要被你这个仆人表扬……",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "算了，对了就好。",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.7,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.7,
-        "dur": 0.7
-      },
-      "say": "港区·广场",
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 301320,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "德意志，你是不是有另一个名字呀？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:33}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 403040,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "啊……是啊，我曾经有过另一个名字，那个名字叫做“吕佐夫”。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "听起来感觉还挺威风的呢~能用这个名字来叫你吗？",
-      "actor": 301410,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 301330,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "{namecode:126}，要是德意志不喜欢的话……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "哼，你想的话就随你高兴吧。",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "反正我就是我这件事是不会改变的。",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……就是这样，在那之后不久，德意志又恢复了把低等动物挂在嘴边的性格。",
-      "bgName": "bg_story_school"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "但那只是表象，舰队里的每一个人都能感觉到她变得坦率了许多。",
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "我说，仆人你在那一脸女儿长大了的表情看着我是怎么回事？",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "区区一个低等动物，脑子里该不会又在想着什么下流的事吧？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "啧，身为我唯一的仆人，你也要努力成为配得上我的人才行，明白了吗！",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "当然，指挥官的仆人地位也并没有得到改善。",
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "总之别在那发呆了，赶紧过来，要开始捉迷藏了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "不过这样就好。",
-      "blackBg": true,
-      "bgName": "bg_story_school"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "DEYIZHI7",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u5fb7\u610f\u5fd7\u7684\u5fe7\u90c1\n\n<size=45>\u4e03\u3000\u4e00\u5982\u65e2\u5f80\uff1f</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"blackBg": true,
+			"say": "\u5728\u90a3\u6b21\u4f1a\u8bae\u4e4b\u540e\uff0c\u8fc7\u4e86\u4e00\u6bb5\u65f6\u95f4\u3002"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u6d77\u57df\u00b7\u6f14\u4e60\u6d77\u57df",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "battle-1",
+			"bgmDelay": 1.5,
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\u6211\u53c8\u8d62\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 404010,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u5fb7\u610f\u5fd7\uff0c\u4e0d\u670d\u6c14\u5417\uff1f",
+			"actor": 404010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.06,
+					"number": 1,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\u54fc\u2026\u518d\u6765\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 404010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u54c8\u54c8\uff0c\u8fd9\u624d\u50cf\u8bdd\uff0c\u9664\u4e86\u6027\u80fd\uff0c\u5fb7\u610f\u5fd7\u4f60\u66f4\u7f3a\u4e4f\u7684\u662f\u7ecf\u9a8c\uff0c\u60f3\u8981\u53d8\u5f3a\uff0c\u5c31\u7ec3\u4e60\uff0c\u7ec3\u4e60\uff0c\u518d\u7ec3\u4e60\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"say": "\u4e0d\u7528\u4f60\u8bf4\u6211\u4e5f\u77e5\u9053\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 403040,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.7,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.7,
+				"dur": 0.7
+			},
+			"say": "\u6e2f\u533a\u00b7\u6307\u6325\u5ba4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u5582\uff0c\u4ec6\u4eba\uff0c\u4f60\u770b\u770b\u8fd9\u4e9b\u516c\u6587\u8fd9\u4e48\u5904\u7406\u662f\u5bf9\u7684\u5417\uff1f",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"options": [
+				{
+					"content": "\u8868\u626c",
+					"flag": 1
+				}
+			],
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"withoutActorName": true,
+			"say": "\u2026\u2026\u867d\u7136\u6709\u4e9b\u9519\u8bef\uff0c\u4e0d\u8fc7\u770b\u5f97\u51fa\u5341\u5206\u52aa\u529b\u3002",
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u5601\uff0c\u4e3a\u4ec0\u4e48\u6211\u8eab\u4e3a\u4f60\u7684\u4e3b\u4eba\u8981\u88ab\u4f60\u8fd9\u4e2a\u4ec6\u4eba\u8868\u626c\u2026\u2026",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u7b97\u4e86\uff0c\u5bf9\u4e86\u5c31\u597d\u3002",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.7,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.7,
+				"dur": 0.7
+			},
+			"say": "\u6e2f\u533a\u00b7\u5e7f\u573a",
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 301320,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u5fb7\u610f\u5fd7\uff0c\u4f60\u662f\u4e0d\u662f\u6709\u53e6\u4e00\u4e2a\u540d\u5b57\u5440\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:33}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 403040,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u554a\u2026\u2026\u662f\u554a\uff0c\u6211\u66fe\u7ecf\u6709\u8fc7\u53e6\u4e00\u4e2a\u540d\u5b57\uff0c\u90a3\u4e2a\u540d\u5b57\u53eb\u505a\u201c\u5415\u4f50\u592b\u201d\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u542c\u8d77\u6765\u611f\u89c9\u8fd8\u633a\u5a01\u98ce\u7684\u5462~\u80fd\u7528\u8fd9\u4e2a\u540d\u5b57\u6765\u53eb\u4f60\u5417\uff1f",
+			"actor": 301410,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 301330,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "{namecode:126}\uff0c\u8981\u662f\u5fb7\u610f\u5fd7\u4e0d\u559c\u6b22\u7684\u8bdd\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u54fc\uff0c\u4f60\u60f3\u7684\u8bdd\u5c31\u968f\u4f60\u9ad8\u5174\u5427\u3002",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u53cd\u6b63\u6211\u5c31\u662f\u6211\u8fd9\u4ef6\u4e8b\u662f\u4e0d\u4f1a\u6539\u53d8\u7684\u3002",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\u5c31\u662f\u8fd9\u6837\uff0c\u5728\u90a3\u4e4b\u540e\u4e0d\u4e45\uff0c\u5fb7\u610f\u5fd7\u53c8\u6062\u590d\u4e86\u628a\u4f4e\u7b49\u52a8\u7269\u6302\u5728\u5634\u8fb9\u7684\u6027\u683c\u3002",
+			"bgName": "bg_story_school"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4f46\u90a3\u53ea\u662f\u8868\u8c61\uff0c\u8230\u961f\u91cc\u7684\u6bcf\u4e00\u4e2a\u4eba\u90fd\u80fd\u611f\u89c9\u5230\u5979\u53d8\u5f97\u5766\u7387\u4e86\u8bb8\u591a\u3002",
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u6211\u8bf4\uff0c\u4ec6\u4eba\u4f60\u5728\u90a3\u4e00\u8138\u5973\u513f\u957f\u5927\u4e86\u7684\u8868\u60c5\u770b\u7740\u6211\u662f\u600e\u4e48\u56de\u4e8b\uff1f",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u533a\u533a\u4e00\u4e2a\u4f4e\u7b49\u52a8\u7269\uff0c\u8111\u5b50\u91cc\u8be5\u4e0d\u4f1a\u53c8\u5728\u60f3\u7740\u4ec0\u4e48\u4e0b\u6d41\u7684\u4e8b\u5427\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u5567\uff0c\u8eab\u4e3a\u6211\u552f\u4e00\u7684\u4ec6\u4eba\uff0c\u4f60\u4e5f\u8981\u52aa\u529b\u6210\u4e3a\u914d\u5f97\u4e0a\u6211\u7684\u4eba\u624d\u884c\uff0c\u660e\u767d\u4e86\u5417\uff01",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5f53\u7136\uff0c\u6307\u6325\u5b98\u7684\u4ec6\u4eba\u5730\u4f4d\u4e5f\u5e76\u6ca1\u6709\u5f97\u5230\u6539\u5584\u3002",
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u603b\u4e4b\u522b\u5728\u90a3\u53d1\u5446\u4e86\uff0c\u8d76\u7d27\u8fc7\u6765\uff0c\u8981\u5f00\u59cb\u6349\u8ff7\u85cf\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4e0d\u8fc7\u8fd9\u6837\u5c31\u597d\u3002",
+			"blackBg": true,
+			"bgName": "bg_story_school"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "DEYIZHI7",
+	"once": true
 }

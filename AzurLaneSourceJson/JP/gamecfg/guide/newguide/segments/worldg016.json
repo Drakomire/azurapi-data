@@ -1,125 +1,125 @@
 {
-  "id": "WorldG016",
-  "events": [
-    {
-      "stories": [
-        "WNG08"
-      ],
-      "alpha": 0,
-      "code": [
-        "playStory"
-      ]
-    },
-    {
-      "notifies": [
-        {
-          "body": {
-            "row": 2,
-            "column": 2
-          },
-          "notify": "world get slg tile pos"
-        }
-      ],
-      "delay": 0.2,
-      "alpha": 0.3,
-      "code": [
-        "getSlgTilePos"
-      ]
-    },
-    {
-      "style": {
-        "posY": -320,
-        "dir": -1,
-        "text": "长按对象可以切换分析模式",
-        "posX": 9.1,
-        "mode": 2
-      },
-      "showSign": {
-        "clickArea": [
-          160,
-          140
-        ],
-        "longPress": 1,
-        "signList": [
-          {
-            "signType": 4,
-            "pos": "useCachePos"
-          }
-        ],
-        "type": 2
-      },
-      "alpha": 0.3,
-      "code": [
-        "ShowClickArea"
-      ]
-    },
-    {
-      "notifies": [
-        {
-          "body": {
-            "column": 2,
-            "row": 2,
-            "open": 1
-          },
-          "notify": "world scanner display"
-        }
-      ],
-      "alpha": 0,
-      "code": [
-        "openDetail"
-      ]
-    },
-    {
-      "notifies": [
-        {
-          "notify": "world get scanner pos"
-        }
-      ],
-      "delay": 0.4,
-      "alpha": 0.3,
-      "code": [
-        "getCompassDangerousPos"
-      ]
-    },
-    {
-      "style": {
-        "posY": -200,
-        "dir": 1,
-        "text": "玩家可以在分析仪模式下查看战斗对象的情报或者调查点的信息.",
-        "posX": 357,
-        "mode": 2
-      },
-      "showSign": {
-        "clickArea": [
-          548,
-          561
-        ],
-        "type": 3,
-        "signList": [
-          {
-            "signType": 5,
-            "pos": "useCachePos"
-          }
-        ]
-      },
-      "alpha": 0.3,
-      "code": [
-        "explainDetail"
-      ]
-    },
-    {
-      "notifies": [
-        {
-          "body": {
-            "open": 0
-          },
-          "notify": "world scanner display"
-        }
-      ],
-      "alpha": 0,
-      "code": [
-        "closeDetail"
-      ]
-    }
-  ]
+	"id": "WorldG016",
+	"events": [
+		{
+			"stories": [
+				"WNG08"
+			],
+			"alpha": 0,
+			"code": [
+				"playStory"
+			]
+		},
+		{
+			"notifies": [
+				{
+					"body": {
+						"row": 2,
+						"column": 2
+					},
+					"notify": "world get slg tile pos"
+				}
+			],
+			"delay": 0.2,
+			"alpha": 0.3,
+			"code": [
+				"getSlgTilePos"
+			]
+		},
+		{
+			"style": {
+				"posY": -320,
+				"dir": -1,
+				"text": "\u957f\u6309\u5bf9\u8c61\u53ef\u4ee5\u5207\u6362\u5206\u6790\u6a21\u5f0f",
+				"posX": 9.1,
+				"mode": 2
+			},
+			"showSign": {
+				"clickArea": [
+					160,
+					140
+				],
+				"longPress": 1,
+				"signList": [
+					{
+						"signType": 4,
+						"pos": "useCachePos"
+					}
+				],
+				"type": 2
+			},
+			"alpha": 0.3,
+			"code": [
+				"ShowClickArea"
+			]
+		},
+		{
+			"notifies": [
+				{
+					"body": {
+						"column": 2,
+						"row": 2,
+						"open": 1
+					},
+					"notify": "world scanner display"
+				}
+			],
+			"alpha": 0,
+			"code": [
+				"openDetail"
+			]
+		},
+		{
+			"notifies": [
+				{
+					"notify": "world get scanner pos"
+				}
+			],
+			"delay": 0.4,
+			"alpha": 0.3,
+			"code": [
+				"getCompassDangerousPos"
+			]
+		},
+		{
+			"style": {
+				"posY": -200,
+				"dir": 1,
+				"text": "\u73a9\u5bb6\u53ef\u4ee5\u5728\u5206\u6790\u4eea\u6a21\u5f0f\u4e0b\u67e5\u770b\u6218\u6597\u5bf9\u8c61\u7684\u60c5\u62a5\u6216\u8005\u8c03\u67e5\u70b9\u7684\u4fe1\u606f.",
+				"posX": 357,
+				"mode": 2
+			},
+			"showSign": {
+				"clickArea": [
+					548,
+					561
+				],
+				"type": 3,
+				"signList": [
+					{
+						"signType": 5,
+						"pos": "useCachePos"
+					}
+				]
+			},
+			"alpha": 0.3,
+			"code": [
+				"explainDetail"
+			]
+		},
+		{
+			"notifies": [
+				{
+					"body": {
+						"open": 0
+					},
+					"notify": "world scanner display"
+				}
+			],
+			"alpha": 0,
+			"code": [
+				"closeDetail"
+			]
+		}
+	]
 }

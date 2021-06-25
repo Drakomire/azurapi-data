@@ -1,298 +1,298 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "妹妹的變化\n\n<size=45>三 妹妹的想法</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "港區·白鷹宿舍",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "從第一次受到邀請到現在，與文森尼斯相處已經過了一段時間，和她的關係也親密了起來。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "指揮官，今天也來一起發呆嗎？",
-      "actor": 103100,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "雖然對文森尼斯來說，一起玩似乎只有睡覺和發呆兩個選項就是了。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "（敲門聲）",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "啊，來了——咦，印第醬？哦…又是躲妳家姐姐嗎？",
-      "actor": 103100,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 103070,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "options": [
-        {
-          "content": "詢問文森尼斯和印第的關係",
-          "flag": 1
-        }
-      ],
-      "say": "…………嗯",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "紐奧良級和波特蘭級關係很近哦？而且我和印第很合得來。",
-      "actor": 103100,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "………………嗯。",
-      "actor": 103070,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "都喜歡不說話，也都有…稍微有些麻煩的姐姐。",
-      "actor": 103100,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 103100,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "雖然和印第比起來，我家的姐姐們要普通一些就是了",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "詢問對姐姐們的想法",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "從以前開始，姐姐們就什麼都搶著幫我做，到最後…好像我什麼都不做也沒什麼關係了……",
-      "actor": 103100,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "……做姐姐的都有點太愛操心了",
-      "actor": 103070,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "嗯，不過，這大概就是作為姐姐的關愛…吧…印第也是不討厭波特蘭姐姐的吧？",
-      "actor": 103100,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "……嗯。",
-      "actor": 103070,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "看起來，身為妹妹，雖然對姐姐的做法有些微詞，結果還是喜歡姐姐的。",
-      "blackBg": true,
-      "bgName": "bg_story_room"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "WENSENSI3",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u59b9\u59b9\u7684\u8b8a\u5316\n\n<size=45>\u4e09 \u59b9\u59b9\u7684\u60f3\u6cd5</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6e2f\u5340\u00b7\u767d\u9df9\u5bbf\u820d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5f9e\u7b2c\u4e00\u6b21\u53d7\u5230\u9080\u8acb\u5230\u73fe\u5728\uff0c\u8207\u6587\u68ee\u5c3c\u65af\u76f8\u8655\u5df2\u7d93\u904e\u4e86\u4e00\u6bb5\u6642\u9593\uff0c\u548c\u5979\u7684\u95dc\u4fc2\u4e5f\u89aa\u5bc6\u4e86\u8d77\u4f86\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u6307\u63ee\u5b98\uff0c\u4eca\u5929\u4e5f\u4f86\u4e00\u8d77\u767c\u5446\u55ce\uff1f",
+			"actor": 103100,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u96d6\u7136\u5c0d\u6587\u68ee\u5c3c\u65af\u4f86\u8aaa\uff0c\u4e00\u8d77\u73a9\u4f3c\u4e4e\u53ea\u6709\u7761\u89ba\u548c\u767c\u5446\u5169\u500b\u9078\u9805\u5c31\u662f\u4e86\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uff08\u6572\u9580\u8072\uff09",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u554a\uff0c\u4f86\u4e86\u2014\u2014\u54a6\uff0c\u5370\u7b2c\u91ac\uff1f\u54e6\u2026\u53c8\u662f\u8eb2\u59b3\u5bb6\u59d0\u59d0\u55ce\uff1f",
+			"actor": 103100,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 103070,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"options": [
+				{
+					"content": "\u8a62\u554f\u6587\u68ee\u5c3c\u65af\u548c\u5370\u7b2c\u7684\u95dc\u4fc2",
+					"flag": 1
+				}
+			],
+			"say": "\u2026\u2026\u2026\u2026\u55ef",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u7d10\u5967\u826f\u7d1a\u548c\u6ce2\u7279\u862d\u7d1a\u95dc\u4fc2\u5f88\u8fd1\u54e6\uff1f\u800c\u4e14\u6211\u548c\u5370\u7b2c\u5f88\u5408\u5f97\u4f86\u3002",
+			"actor": 103100,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u2026\u2026\u2026\u2026\u2026\u2026\u55ef\u3002",
+			"actor": 103070,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u90fd\u559c\u6b61\u4e0d\u8aaa\u8a71\uff0c\u4e5f\u90fd\u6709\u2026\u7a0d\u5fae\u6709\u4e9b\u9ebb\u7169\u7684\u59d0\u59d0\u3002",
+			"actor": 103100,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 103100,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u96d6\u7136\u548c\u5370\u7b2c\u6bd4\u8d77\u4f86\uff0c\u6211\u5bb6\u7684\u59d0\u59d0\u5011\u8981\u666e\u901a\u4e00\u4e9b\u5c31\u662f\u4e86",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u8a62\u554f\u5c0d\u59d0\u59d0\u5011\u7684\u60f3\u6cd5",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u5f9e\u4ee5\u524d\u958b\u59cb\uff0c\u59d0\u59d0\u5011\u5c31\u4ec0\u9ebc\u90fd\u6436\u8457\u5e6b\u6211\u505a\uff0c\u5230\u6700\u5f8c\u2026\u597d\u50cf\u6211\u4ec0\u9ebc\u90fd\u4e0d\u505a\u4e5f\u6c92\u4ec0\u9ebc\u95dc\u4fc2\u4e86\u2026\u2026",
+			"actor": 103100,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u2026\u2026\u505a\u59d0\u59d0\u7684\u90fd\u6709\u9ede\u592a\u611b\u64cd\u5fc3\u4e86",
+			"actor": 103070,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u55ef\uff0c\u4e0d\u904e\uff0c\u9019\u5927\u6982\u5c31\u662f\u4f5c\u70ba\u59d0\u59d0\u7684\u95dc\u611b\u2026\u5427\u2026\u5370\u7b2c\u4e5f\u662f\u4e0d\u8a0e\u53ad\u6ce2\u7279\u862d\u59d0\u59d0\u7684\u5427\uff1f",
+			"actor": 103100,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u2026\u2026\u55ef\u3002",
+			"actor": 103070,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u770b\u8d77\u4f86\uff0c\u8eab\u70ba\u59b9\u59b9\uff0c\u96d6\u7136\u5c0d\u59d0\u59d0\u7684\u505a\u6cd5\u6709\u4e9b\u5fae\u8a5e\uff0c\u7d50\u679c\u9084\u662f\u559c\u6b61\u59d0\u59d0\u7684\u3002",
+			"blackBg": true,
+			"bgName": "bg_story_room"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "WENSENSI3",
+	"once": true
 }

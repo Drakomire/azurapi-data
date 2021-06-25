@@ -1,389 +1,389 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "행복의 패러다임\n\n<size=45>1 이전보다 더…</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "모항·지휘관실",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "bgmDelay": 2,
-      "bgName": "bg_main_day"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "현재의 비서함·히퍼의 동생이자 히퍼 해군 대장급 3호함인 프린츠 오이겐이 지휘관실 앞에 서 있다.",
-      "bgName": "bg_main_day"
-    },
-    {
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "아앗, 좋은 아침이야, 지휘관. 오늘은 정말 늦게 일어났네? 언니는 이미 화가 잔뜩 나있어. 쭉 기다리고 있었다구~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "프린츠 오이겐",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_main_day"
-    },
-    {
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 3,
-          "delay": 1.5,
-          "x": 3750
-        }
-      ],
-      "say": "하하, 지휘관에게 비서함으로서의 훌륭한 모습을 보여주고 싶어 하던데? 그럼 나는 먼저 가볼 테니, 언니를 잘 부탁해~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "프린츠 오이겐",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_main_day"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "지휘관실에 들어서자마자 분노하는 표정이 눈에 선하구나…마음 단단히 먹고 문을 열어본다——",
-      "bgName": "bg_main_day"
-    },
-    {
-      "actor": 403010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 0.1,
-          "x": 0
-        }
-      ],
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": false
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": false,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "…하!! 늦, 늦어도 너무 늦잖아. 이 잠꾸러기! 나를 얼마나 오래 기다리게 하려고!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "아드미랄 히퍼",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 403010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "하아? 나보고 잠을 깨우라고? 바, 바보 멍청이! 비서함한테 무슨 바보 같은 소리야!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "아드미랄 히퍼",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "히퍼의 한결같은 반응에 안도하면서도 자리에 앉았다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 403010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.3,
-          "number": 2,
-          "delay": 0,
-          "x": 15
-        }
-      ],
-      "say": "…………(훔쳐보기)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "아드미랄 히퍼",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "누군가 빤히 쳐다보고 있는듯한 이 기분은…",
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 403010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "뭐, 뭐야? 일에 집중하게 해줘! 아니면… 발표할만한 중대한 사항이라도 있는 거야...?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "아드미랄 히퍼",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 403010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "…하, 하아!? 안 쳐다봤거든! 누가 너 따위 인간을 쳐다보겠어! 너야말로 아무 일도 없었던 것처럼 구는데! 분명히 이쪽은 계속...",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "아드미랄 히퍼",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 403010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        },
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 0.6,
-          "delay": 1.5,
-          "x": 2000
-        }
-      ],
-      "say": "아아 진짜, 모처럼 집중했던 정신 상태가 엉망이야! 나는 신선한 공기를 마시러 잠깐 나갔다 올게! 이건 게으름 피우는 게 아니라고 미리 말해두지!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "아드미랄 히퍼",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "속사포로 말하더니 히퍼는 지휘관실을 뛰쳐나갔다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "options": [
-        {
-          "content": "「모르겠다」",
-          "flag": 1
-        },
-        {
-          "content": "「그녀를 화나게 했나？」",
-          "flag": 2
-        }
-      ],
-      "say": "어휴…보고서를 가지러 왔다가, 히퍼가 뛰쳐나가는 걸 봤는데… 지휘관? 무슨 상황인 거지?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "프린츠 오이겐",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "하하, 상황 파악이 안 되는 표정이라니, 역시 지휘관에게나 있을 법한 반응이네.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "프린츠 오이겐",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 403030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "언니 저래 보여도 부끄러워할 땐 부끄러워할걸?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "프린츠 오이겐",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "마음에서 우러나온 저 오이겐의 미소. 대체 무슨 상황인 거야…?",
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "XIPEIER1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\ud589\ubcf5\uc758 \ud328\ub7ec\ub2e4\uc784\n\n<size=45>1 \uc774\uc804\ubcf4\ub2e4 \ub354\u2026</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\ubaa8\ud56d\u00b7\uc9c0\ud718\uad00\uc2e4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_main_day"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ud604\uc7ac\uc758 \ube44\uc11c\ud568\u00b7\ud788\ud37c\uc758 \ub3d9\uc0dd\uc774\uc790 \ud788\ud37c \ud574\uad70 \ub300\uc7a5\uae09 3\ud638\ud568\uc778 \ud504\ub9b0\uce20 \uc624\uc774\uac90\uc774 \uc9c0\ud718\uad00\uc2e4 \uc55e\uc5d0 \uc11c \uc788\ub2e4.",
+			"bgName": "bg_main_day"
+		},
+		{
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uc544\uc557, \uc88b\uc740 \uc544\uce68\uc774\uc57c, \uc9c0\ud718\uad00. \uc624\ub298\uc740 \uc815\ub9d0 \ub2a6\uac8c \uc77c\uc5b4\ub0ac\ub124? \uc5b8\ub2c8\ub294 \uc774\ubbf8 \ud654\uac00 \uc794\ub729 \ub098\uc788\uc5b4. \ucb49 \uae30\ub2e4\ub9ac\uace0 \uc788\uc5c8\ub2e4\uad6c~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ud504\ub9b0\uce20 \uc624\uc774\uac90",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_main_day"
+		},
+		{
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 3,
+					"delay": 1.5,
+					"x": 3750
+				}
+			],
+			"say": "\ud558\ud558, \uc9c0\ud718\uad00\uc5d0\uac8c \ube44\uc11c\ud568\uc73c\ub85c\uc11c\uc758 \ud6cc\ub96d\ud55c \ubaa8\uc2b5\uc744 \ubcf4\uc5ec\uc8fc\uace0 \uc2f6\uc5b4 \ud558\ub358\ub370? \uadf8\ub7fc \ub098\ub294 \uba3c\uc800 \uac00\ubcfc \ud14c\ub2c8, \uc5b8\ub2c8\ub97c \uc798 \ubd80\ud0c1\ud574~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ud504\ub9b0\uce20 \uc624\uc774\uac90",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_main_day"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc9c0\ud718\uad00\uc2e4\uc5d0 \ub4e4\uc5b4\uc11c\uc790\ub9c8\uc790 \ubd84\ub178\ud558\ub294 \ud45c\uc815\uc774 \ub208\uc5d0 \uc120\ud558\uad6c\ub098\u2026\ub9c8\uc74c \ub2e8\ub2e8\ud788 \uba39\uace0 \ubb38\uc744 \uc5f4\uc5b4\ubcf8\ub2e4\u2014\u2014",
+			"bgName": "bg_main_day"
+		},
+		{
+			"actor": 403010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 0.1,
+					"x": 0
+				}
+			],
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": false
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": false,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u2026\ud558!! \ub2a6, \ub2a6\uc5b4\ub3c4 \ub108\ubb34 \ub2a6\uc796\uc544. \uc774 \uc7a0\uafb8\ub7ec\uae30! \ub098\ub97c \uc5bc\ub9c8\ub098 \uc624\ub798 \uae30\ub2e4\ub9ac\uac8c \ud558\ub824\uace0!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc544\ub4dc\ubbf8\ub784 \ud788\ud37c",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 403010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\ud558\uc544? \ub098\ubcf4\uace0 \uc7a0\uc744 \uae68\uc6b0\ub77c\uace0? \ubc14, \ubc14\ubcf4 \uba4d\uccad\uc774! \ube44\uc11c\ud568\ud55c\ud14c \ubb34\uc2a8 \ubc14\ubcf4 \uac19\uc740 \uc18c\ub9ac\uc57c!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc544\ub4dc\ubbf8\ub784 \ud788\ud37c",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ud788\ud37c\uc758 \ud55c\uacb0\uac19\uc740 \ubc18\uc751\uc5d0 \uc548\ub3c4\ud558\uba74\uc11c\ub3c4 \uc790\ub9ac\uc5d0 \uc549\uc558\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 403010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.3,
+					"number": 2,
+					"delay": 0,
+					"x": 15
+				}
+			],
+			"say": "\u2026\u2026\u2026\u2026(\ud6d4\uccd0\ubcf4\uae30)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc544\ub4dc\ubbf8\ub784 \ud788\ud37c",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub204\uad70\uac00 \ube64\ud788 \uccd0\ub2e4\ubcf4\uace0 \uc788\ub294\ub4ef\ud55c \uc774 \uae30\ubd84\uc740\u2026",
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 403010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\ubb50, \ubb50\uc57c? \uc77c\uc5d0 \uc9d1\uc911\ud558\uac8c \ud574\uc918! \uc544\ub2c8\uba74\u2026 \ubc1c\ud45c\ud560\ub9cc\ud55c \uc911\ub300\ud55c \uc0ac\ud56d\uc774\ub77c\ub3c4 \uc788\ub294 \uac70\uc57c...?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc544\ub4dc\ubbf8\ub784 \ud788\ud37c",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 403010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "\u2026\ud558, \ud558\uc544!? \uc548 \uccd0\ub2e4\ubd24\uac70\ub4e0! \ub204\uac00 \ub108 \ub530\uc704 \uc778\uac04\uc744 \uccd0\ub2e4\ubcf4\uaca0\uc5b4! \ub108\uc57c\ub9d0\ub85c \uc544\ubb34 \uc77c\ub3c4 \uc5c6\uc5c8\ub358 \uac83\ucc98\ub7fc \uad6c\ub294\ub370! \ubd84\uba85\ud788 \uc774\ucabd\uc740 \uacc4\uc18d...",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc544\ub4dc\ubbf8\ub784 \ud788\ud37c",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 403010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				},
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 0.6,
+					"delay": 1.5,
+					"x": 2000
+				}
+			],
+			"say": "\uc544\uc544 \uc9c4\uc9dc, \ubaa8\ucc98\ub7fc \uc9d1\uc911\ud588\ub358 \uc815\uc2e0 \uc0c1\ud0dc\uac00 \uc5c9\ub9dd\uc774\uc57c! \ub098\ub294 \uc2e0\uc120\ud55c \uacf5\uae30\ub97c \ub9c8\uc2dc\ub7ec \uc7a0\uae50 \ub098\uac14\ub2e4 \uc62c\uac8c! \uc774\uac74 \uac8c\uc73c\ub984 \ud53c\uc6b0\ub294 \uac8c \uc544\ub2c8\ub77c\uace0 \ubbf8\ub9ac \ub9d0\ud574\ub450\uc9c0!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc544\ub4dc\ubbf8\ub784 \ud788\ud37c",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc18d\uc0ac\ud3ec\ub85c \ub9d0\ud558\ub354\ub2c8 \ud788\ud37c\ub294 \uc9c0\ud718\uad00\uc2e4\uc744 \ub6f0\uccd0\ub098\uac14\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"options": [
+				{
+					"content": "\u300c\ubaa8\ub974\uaca0\ub2e4\u300d",
+					"flag": 1
+				},
+				{
+					"content": "\u300c\uadf8\ub140\ub97c \ud654\ub098\uac8c \ud588\ub098\uff1f\u300d",
+					"flag": 2
+				}
+			],
+			"say": "\uc5b4\ud734\u2026\ubcf4\uace0\uc11c\ub97c \uac00\uc9c0\ub7ec \uc654\ub2e4\uac00, \ud788\ud37c\uac00 \ub6f0\uccd0\ub098\uac00\ub294 \uac78 \ubd24\ub294\ub370\u2026 \uc9c0\ud718\uad00? \ubb34\uc2a8 \uc0c1\ud669\uc778 \uac70\uc9c0?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ud504\ub9b0\uce20 \uc624\uc774\uac90",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\ud558\ud558, \uc0c1\ud669 \ud30c\uc545\uc774 \uc548 \ub418\ub294 \ud45c\uc815\uc774\ub77c\ub2c8, \uc5ed\uc2dc \uc9c0\ud718\uad00\uc5d0\uac8c\ub098 \uc788\uc744 \ubc95\ud55c \ubc18\uc751\uc774\ub124.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ud504\ub9b0\uce20 \uc624\uc774\uac90",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 403030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uc5b8\ub2c8 \uc800\ub798 \ubcf4\uc5ec\ub3c4 \ubd80\ub044\ub7ec\uc6cc\ud560 \ub550 \ubd80\ub044\ub7ec\uc6cc\ud560\uac78?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ud504\ub9b0\uce20 \uc624\uc774\uac90",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub9c8\uc74c\uc5d0\uc11c \uc6b0\ub7ec\ub098\uc628 \uc800 \uc624\uc774\uac90\uc758 \ubbf8\uc18c. \ub300\uccb4 \ubb34\uc2a8 \uc0c1\ud669\uc778 \uac70\uc57c\u2026?",
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "XIPEIER1",
+	"once": true
 }

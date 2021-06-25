@@ -1,119 +1,119 @@
 {
-  "id": "WorldG007",
-  "events": [
-    {
-      "ui": {
-        "fingerPos": {
-          "posY": -22.1,
-          "posX": 122.17
-        },
-        "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/port_button",
-        "pathIndex": -1,
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.3,
-      "code": [
-        "EnterPort"
-      ]
-    },
-    {
-      "stories": [
-        "GWORLDX007A"
-      ],
-      "code": [
-        "playStory"
-      ],
-      "alpha": 0,
-      "waitScene": "WorldPortLayer"
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 191.87,
-        "dir": 1,
-        "text": "작전을 터치하여 모항의 배포된 임무 목록 확인 가능. 작전 진도에 따라, 모항에서 배포하는 임무 유형 및 수량 증가",
-        "posX": 9.1,
-        "mode": 2
-      },
-      "code": [
-        "clickOpreation"
-      ],
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/operation"
-        }
-      },
-      "delay": 2,
-      "alpha": 0.3
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 191.87,
-        "dir": 1,
-        "text": "보급 상점에서 각종 작전 보급 물자가 판매됩니다. 판매 물품은 시간에 따라 주기적으로 갱신됩니다.",
-        "posX": 9.1,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/supply"
-        }
-      },
-      "alpha": 0.3,
-      "code": [
-        "clickShop"
-      ]
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 191.87,
-        "dir": 1,
-        "text": "도크에서 정박 함선을 수리하고, 함대를 변경할 수 있습니다.",
-        "posX": 9.1,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/dockyard"
-        }
-      },
-      "alpha": 0.3,
-      "code": [
-        "clickDockyard"
-      ]
-    },
-    {
-      "alpha": 0,
-      "notifies": [
-        {
-          "body": {
-            "storyId": "WorldG007"
-          },
-          "notify": "story update"
-        }
-      ]
-    }
-  ]
+	"id": "WorldG007",
+	"events": [
+		{
+			"ui": {
+				"fingerPos": {
+					"posY": -22.1,
+					"posX": 122.17
+				},
+				"path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/port_button",
+				"pathIndex": -1,
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.3,
+			"code": [
+				"EnterPort"
+			]
+		},
+		{
+			"stories": [
+				"GWORLDX007A"
+			],
+			"code": [
+				"playStory"
+			],
+			"alpha": 0,
+			"waitScene": "WorldPortLayer"
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 191.87,
+				"dir": 1,
+				"text": "\uc791\uc804\uc744 \ud130\uce58\ud558\uc5ec \ubaa8\ud56d\uc758 \ubc30\ud3ec\ub41c \uc784\ubb34 \ubaa9\ub85d \ud655\uc778 \uac00\ub2a5. \uc791\uc804 \uc9c4\ub3c4\uc5d0 \ub530\ub77c, \ubaa8\ud56d\uc5d0\uc11c \ubc30\ud3ec\ud558\ub294 \uc784\ubb34 \uc720\ud615 \ubc0f \uc218\ub7c9 \uc99d\uac00",
+				"posX": 9.1,
+				"mode": 2
+			},
+			"code": [
+				"clickOpreation"
+			],
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/operation"
+				}
+			},
+			"delay": 2,
+			"alpha": 0.3
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 191.87,
+				"dir": 1,
+				"text": "\ubcf4\uae09 \uc0c1\uc810\uc5d0\uc11c \uac01\uc885 \uc791\uc804 \ubcf4\uae09 \ubb3c\uc790\uac00 \ud310\ub9e4\ub429\ub2c8\ub2e4. \ud310\ub9e4 \ubb3c\ud488\uc740 \uc2dc\uac04\uc5d0 \ub530\ub77c \uc8fc\uae30\uc801\uc73c\ub85c \uac31\uc2e0\ub429\ub2c8\ub2e4.",
+				"posX": 9.1,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/supply"
+				}
+			},
+			"alpha": 0.3,
+			"code": [
+				"clickShop"
+			]
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 191.87,
+				"dir": 1,
+				"text": "\ub3c4\ud06c\uc5d0\uc11c \uc815\ubc15 \ud568\uc120\uc744 \uc218\ub9ac\ud558\uace0, \ud568\ub300\ub97c \ubcc0\uacbd\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+				"posX": 9.1,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/blur_panel/adapt/top/bottom_stage/btn/dockyard"
+				}
+			},
+			"alpha": 0.3,
+			"code": [
+				"clickDockyard"
+			]
+		},
+		{
+			"alpha": 0,
+			"notifies": [
+				{
+					"body": {
+						"storyId": "WorldG007"
+					},
+					"notify": "story update"
+				}
+			]
+		}
+	]
 }

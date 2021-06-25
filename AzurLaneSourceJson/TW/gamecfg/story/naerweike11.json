@@ -1,320 +1,320 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "battle-boss-1",
-      "side": 0,
-      "say": "结束了！",
-      "nameColor": "#a9f548",
-      "actorName": "勇敢",
-      "dir": 1,
-      "bgName": "bg_story_naerweike"
-    },
-    {
-      "actor": 401020,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "……可惜。"
-    },
-    {
-      "actor": 201200,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "勇敢！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 0.5,
-          "delay": 0,
-          "x": 2250
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actorPosition": {
-        "y": 0,
-        "x": -1500
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "say": "呀啊啊！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 201200
-    },
-    {
-      "say": "猎人！！",
-      "actor": 201160,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 201160,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "可恶…是增援吗！？先、先撤——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 0.5,
-          "delay": 0.5,
-          "x": -1500
-        }
-      ]
-    },
-    {
-      "actor": 401020,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "expression": 2,
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "呼，真是难缠的对手……要是没有增援的话，这次可要一败涂地了呢……"
-    },
-    {
-      "actor": 401190,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "Z2，不追了吗？"
-    },
-    {
-      "actor": 401020,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "…从峡湾外带着其他人赶回来，又进行了这样一场激烈的战斗，我们也需要进行补给了。"
-    },
-    {
-      "actor": 401180,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "抱歉，都是因为我……"
-    },
-    {
-      "say": "不怪妳，Z18妳的选择是对的……保存实力比无谓的勇敢要更重要。",
-      "actor": 401020,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "actor": 401020,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "对方逃了三个回去，我们的规模已经被对方了解了……"
-    },
-    {
-      "say": "不出意外的话，对方的下一波攻势马上就会到来的，我们要快点回去做好准备才行。",
-      "actor": 401020,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 401190,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "可是……"
-    },
-    {
-      "actor": 401180,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "Z19，听Z2的话，我们先去照顾Z21。"
-    },
-    {
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 401190,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "好吧……哼，等她们的下一波攻势我再让她们好看！"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "NAERWEIKE11",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "battle-boss-1",
+			"side": 0,
+			"say": "\u7ed3\u675f\u4e86\uff01",
+			"nameColor": "#a9f548",
+			"actorName": "\u52c7\u6562",
+			"dir": 1,
+			"bgName": "bg_story_naerweike"
+		},
+		{
+			"actor": 401020,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u2026\u2026\u53ef\u60dc\u3002"
+		},
+		{
+			"actor": 201200,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u52c7\u6562\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 0.5,
+					"delay": 0,
+					"x": 2250
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actorPosition": {
+				"y": 0,
+				"x": -1500
+			}
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"say": "\u5440\u554a\u554a\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 201200
+		},
+		{
+			"say": "\u730e\u4eba\uff01\uff01",
+			"actor": 201160,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 201160,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u53ef\u6076\u2026\u662f\u589e\u63f4\u5417\uff01\uff1f\u5148\u3001\u5148\u64a4\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 0.5,
+					"delay": 0.5,
+					"x": -1500
+				}
+			]
+		},
+		{
+			"actor": 401020,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"expression": 2,
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u547c\uff0c\u771f\u662f\u96be\u7f20\u7684\u5bf9\u624b\u2026\u2026\u8981\u662f\u6ca1\u6709\u589e\u63f4\u7684\u8bdd\uff0c\u8fd9\u6b21\u53ef\u8981\u4e00\u8d25\u6d82\u5730\u4e86\u5462\u2026\u2026"
+		},
+		{
+			"actor": 401190,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "Z2\uff0c\u4e0d\u8ffd\u4e86\u5417\uff1f"
+		},
+		{
+			"actor": 401020,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u2026\u4ece\u5ce1\u6e7e\u5916\u5e26\u7740\u5176\u4ed6\u4eba\u8d76\u56de\u6765\uff0c\u53c8\u8fdb\u884c\u4e86\u8fd9\u6837\u4e00\u573a\u6fc0\u70c8\u7684\u6218\u6597\uff0c\u6211\u4eec\u4e5f\u9700\u8981\u8fdb\u884c\u8865\u7ed9\u4e86\u3002"
+		},
+		{
+			"actor": 401180,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u62b1\u6b49\uff0c\u90fd\u662f\u56e0\u4e3a\u6211\u2026\u2026"
+		},
+		{
+			"say": "\u4e0d\u602a\u59b3\uff0cZ18\u59b3\u7684\u9009\u62e9\u662f\u5bf9\u7684\u2026\u2026\u4fdd\u5b58\u5b9e\u529b\u6bd4\u65e0\u8c13\u7684\u52c7\u6562\u8981\u66f4\u91cd\u8981\u3002",
+			"actor": 401020,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"actor": 401020,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5bf9\u65b9\u9003\u4e86\u4e09\u4e2a\u56de\u53bb\uff0c\u6211\u4eec\u7684\u89c4\u6a21\u5df2\u7ecf\u88ab\u5bf9\u65b9\u4e86\u89e3\u4e86\u2026\u2026"
+		},
+		{
+			"say": "\u4e0d\u51fa\u610f\u5916\u7684\u8bdd\uff0c\u5bf9\u65b9\u7684\u4e0b\u4e00\u6ce2\u653b\u52bf\u9a6c\u4e0a\u5c31\u4f1a\u5230\u6765\u7684\uff0c\u6211\u4eec\u8981\u5feb\u70b9\u56de\u53bb\u505a\u597d\u51c6\u5907\u624d\u884c\u3002",
+			"actor": 401020,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 401190,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u53ef\u662f\u2026\u2026"
+		},
+		{
+			"actor": 401180,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "Z19\uff0c\u542cZ2\u7684\u8bdd\uff0c\u6211\u4eec\u5148\u53bb\u7167\u987eZ21\u3002"
+		},
+		{
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 401190,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u597d\u5427\u2026\u2026\u54fc\uff0c\u7b49\u5979\u4eec\u7684\u4e0b\u4e00\u6ce2\u653b\u52bf\u6211\u518d\u8ba9\u5979\u4eec\u597d\u770b\uff01"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "NAERWEIKE11",
+	"once": true
 }

@@ -1,98 +1,98 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 900284,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "voice": "event:/tb/41/tb-41",
-      "say": "敵艦載機を確認しました。鉄血の艦載機と同じタイプと思われます",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "bsm-1"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "量産型の艦載機だな。しかも攻撃態勢の"
-    },
-    {
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "ホーネット、偵察機はまだ周辺海域にいるか？できるだけ近くに寄って、グラーフ・ツェッペリン…いや、艦船の空母がいないか確認してくれ！"
-    },
-    {
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 107070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "任せて！"
-    },
-    {
-      "soundeffect": "event:/battle/plane",
-      "actor": 107060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "直掩隊、迎撃用意！"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "WORLD108B",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 900284,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"voice": "event:/tb/41/tb-41",
+			"say": "\u6575\u8266\u8f09\u6a5f\u3092\u78ba\u8a8d\u3057\u307e\u3057\u305f\u3002\u9244\u8840\u306e\u8266\u8f09\u6a5f\u3068\u540c\u3058\u30bf\u30a4\u30d7\u3068\u601d\u308f\u308c\u307e\u3059",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "bsm-1"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u91cf\u7523\u578b\u306e\u8266\u8f09\u6a5f\u3060\u306a\u3002\u3057\u304b\u3082\u653b\u6483\u614b\u52e2\u306e"
+		},
+		{
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u30db\u30fc\u30cd\u30c3\u30c8\u3001\u5075\u5bdf\u6a5f\u306f\u307e\u3060\u5468\u8fba\u6d77\u57df\u306b\u3044\u308b\u304b\uff1f\u3067\u304d\u308b\u3060\u3051\u8fd1\u304f\u306b\u5bc4\u3063\u3066\u3001\u30b0\u30e9\u30fc\u30d5\u30fb\u30c4\u30a7\u30c3\u30da\u30ea\u30f3\u2026\u3044\u3084\u3001\u8266\u8239\u306e\u7a7a\u6bcd\u304c\u3044\u306a\u3044\u304b\u78ba\u8a8d\u3057\u3066\u304f\u308c\uff01"
+		},
+		{
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u4efb\u305b\u3066\uff01"
+		},
+		{
+			"soundeffect": "event:/battle/plane",
+			"actor": 107060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u76f4\u63a9\u968a\u3001\u8fce\u6483\u7528\u610f\uff01"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "WORLD108B",
+	"once": true
 }

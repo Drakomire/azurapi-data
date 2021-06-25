@@ -1,27 +1,27 @@
 {
-  "picture": "",
-  "id": 73700,
-  "desc": "战斗对象的血量下降到X%时，每Y秒回复自身Z%血量，持续M秒",
-  "color": "blue",
-  "last_effect": "",
-  "time": 0,
-  "icon": 73700,
-  "effect_list": [
-    {
-      "trigger": [
-        "onHPRatioUpdate"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "hpLowerBound": 0.3,
-        "buff_id": 73701,
-        "target": "TargetSelf",
-        "hpOutInterval": true,
-        "quota": 1
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "濒死再生"
+	"picture": "",
+	"id": 73700,
+	"desc": "\u6218\u6597\u5bf9\u8c61\u7684\u8840\u91cf\u4e0b\u964d\u5230X%\u65f6\uff0c\u6bcfY\u79d2\u56de\u590d\u81ea\u8eabZ%\u8840\u91cf\uff0c\u6301\u7eedM\u79d2",
+	"color": "blue",
+	"last_effect": "",
+	"time": 0,
+	"icon": 73700,
+	"effect_list": [
+		{
+			"trigger": [
+				"onHPRatioUpdate"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"hpLowerBound": 0.3,
+				"buff_id": 73701,
+				"target": "TargetSelf",
+				"hpOutInterval": true,
+				"quota": 1
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u6fd2\u6b7b\u518d\u751f"
 }

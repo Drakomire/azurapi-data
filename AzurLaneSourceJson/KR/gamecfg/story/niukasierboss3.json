@@ -1,402 +1,402 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "싸워라! 로열 메이드대\n\n<size=45>빛나는 셰필드</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "연습 해역 - 남쪽 방어선",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "level",
-      "bgmDelay": 2,
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "이걸로 청소는 전부 끝난 것 같군요. ",
-      "actor": 202080,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "적의 공세는 중앙에 집중되어 있는 것 같군요.",
-      "actor": 202080,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "전력을 고려하면 중앙에 집중하는 편이 더 좋은 책략인 것처럼 보이지만…",
-      "actor": 202080,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "actorShadow": true,
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "say": "셰피, 혼자 있어서 좀 적적해졌나요?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "?!… 뉴캐슬씨, 오랜만입니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 1,
-          "delay": 0.1,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "벨파스트가 말한 분은 바로 당신이었군요.",
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "네, 오랜만이네요.",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "벨파스트 일행이 어떤지 한 번 보고 왔는데, 셰피는 어떤가요?",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "아직은 괜찮습니다. 뉴캐슬씨를 다시 만나게 되어 기쁘기 그지없습니다.",
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "후후, 여전히 이렇게 무뚝뚝하다니, 셰피도 참 한결같네요.",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "……언제까지고 옛날의 저라고 생각하진 말아 주셨으면 합니다만",
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "그렇군요……그러고 보니, 셰피는 왜 폐하가 이번 연습전의 적군 역할을 메이드대에 맡겼는지 알고 있나요?",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "동료에게 과시하기 위함이 아닐까, 하고 생각합니다만",
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "폐하가 이 함대에 착임한 뒤로, 이글 유니온의 엔터프라이즈님 뿐만 아니라, 사쿠라 엠파이어, 메탈 블러드 분들과도 좋은 관계를 쌓을 수 있게 되었습니다.",
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "……직접 말씀은 안 하시겠지만, 아마 마음속에선 이미 친구라고 생각하고 계시겠죠.",
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "그래서, 이번 연습전에선 친구들에게 폐하가 다스리는 로열 네이비와, 폐하를 모시고 있는 저희 메이드대를 자랑하고자 하는 목적이 아닐까요.",
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "그렇군요……셰피는 어떤가요? 폐하처럼 즐겁게 지내고 있나요?",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "……비록 지휘관님도 썩 믿음직스럽진 않지만, 모두와 함께 지내고, 함께 싸울 수 있어 나쁜 생각은 굳이 들지 않습니다만……",
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "그말은, 잘 지내고 있단 말이군요. 다행입니다.",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "어머, 슬슬 갈 시간이 다 되었네요. 이제 정면 방위선으로 돌아가야 하니, 또 뵙도록 하죠.",
-      "actor": 202190,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 202080,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "blackBg": true,
-      "say": "네…또 뵙겠습니다. 뉴캐슬씨.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "NIUKASIERBOSS3",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\uc2f8\uc6cc\ub77c! \ub85c\uc5f4 \uba54\uc774\ub4dc\ub300\n\n<size=45>\ube5b\ub098\ub294 \uc170\ud544\ub4dc</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uc5f0\uc2b5 \ud574\uc5ed - \ub0a8\ucabd \ubc29\uc5b4\uc120",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "level",
+			"bgmDelay": 2,
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\uc774\uac78\ub85c \uccad\uc18c\ub294 \uc804\ubd80 \ub05d\ub09c \uac83 \uac19\uad70\uc694. ",
+			"actor": 202080,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\uc801\uc758 \uacf5\uc138\ub294 \uc911\uc559\uc5d0 \uc9d1\uc911\ub418\uc5b4 \uc788\ub294 \uac83 \uac19\uad70\uc694.",
+			"actor": 202080,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\uc804\ub825\uc744 \uace0\ub824\ud558\uba74 \uc911\uc559\uc5d0 \uc9d1\uc911\ud558\ub294 \ud3b8\uc774 \ub354 \uc88b\uc740 \ucc45\ub7b5\uc778 \uac83\ucc98\ub7fc \ubcf4\uc774\uc9c0\ub9cc\u2026",
+			"actor": 202080,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"actorShadow": true,
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"say": "\uc170\ud53c, \ud63c\uc790 \uc788\uc5b4\uc11c \uc880 \uc801\uc801\ud574\uc84c\ub098\uc694?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "?!\u2026 \ub274\uce90\uc2ac\uc528, \uc624\ub79c\ub9cc\uc785\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 1,
+					"delay": 0.1,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\ubca8\ud30c\uc2a4\ud2b8\uac00 \ub9d0\ud55c \ubd84\uc740 \ubc14\ub85c \ub2f9\uc2e0\uc774\uc5c8\uad70\uc694.",
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\ub124, \uc624\ub79c\ub9cc\uc774\ub124\uc694.",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\ubca8\ud30c\uc2a4\ud2b8 \uc77c\ud589\uc774 \uc5b4\ub5a4\uc9c0 \ud55c \ubc88 \ubcf4\uace0 \uc654\ub294\ub370, \uc170\ud53c\ub294 \uc5b4\ub5a4\uac00\uc694?",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\uc544\uc9c1\uc740 \uad1c\ucc2e\uc2b5\ub2c8\ub2e4. \ub274\uce90\uc2ac\uc528\ub97c \ub2e4\uc2dc \ub9cc\ub098\uac8c \ub418\uc5b4 \uae30\uc058\uae30 \uadf8\uc9c0\uc5c6\uc2b5\ub2c8\ub2e4.",
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\ud6c4\ud6c4, \uc5ec\uc804\ud788 \uc774\ub807\uac8c \ubb34\ub69d\ub69d\ud558\ub2e4\ub2c8, \uc170\ud53c\ub3c4 \ucc38 \ud55c\uacb0\uac19\ub124\uc694.",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u2026\u2026\uc5b8\uc81c\uae4c\uc9c0\uace0 \uc61b\ub0a0\uc758 \uc800\ub77c\uace0 \uc0dd\uac01\ud558\uc9c4 \ub9d0\uc544 \uc8fc\uc168\uc73c\uba74 \ud569\ub2c8\ub2e4\ub9cc",
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\uadf8\ub807\uad70\uc694\u2026\u2026\uadf8\ub7ec\uace0 \ubcf4\ub2c8, \uc170\ud53c\ub294 \uc65c \ud3d0\ud558\uac00 \uc774\ubc88 \uc5f0\uc2b5\uc804\uc758 \uc801\uad70 \uc5ed\ud560\uc744 \uba54\uc774\ub4dc\ub300\uc5d0 \ub9e1\uacbc\ub294\uc9c0 \uc54c\uace0 \uc788\ub098\uc694?",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\ub3d9\ub8cc\uc5d0\uac8c \uacfc\uc2dc\ud558\uae30 \uc704\ud568\uc774 \uc544\ub2d0\uae4c, \ud558\uace0 \uc0dd\uac01\ud569\ub2c8\ub2e4\ub9cc",
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\ud3d0\ud558\uac00 \uc774 \ud568\ub300\uc5d0 \ucc29\uc784\ud55c \ub4a4\ub85c, \uc774\uae00 \uc720\ub2c8\uc628\uc758 \uc5d4\ud130\ud504\ub77c\uc774\uc988\ub2d8 \ubfd0\ub9cc \uc544\ub2c8\ub77c, \uc0ac\ucfe0\ub77c \uc5e0\ud30c\uc774\uc5b4, \uba54\ud0c8 \ube14\ub7ec\ub4dc \ubd84\ub4e4\uacfc\ub3c4 \uc88b\uc740 \uad00\uacc4\ub97c \uc313\uc744 \uc218 \uc788\uac8c \ub418\uc5c8\uc2b5\ub2c8\ub2e4.",
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u2026\u2026\uc9c1\uc811 \ub9d0\uc500\uc740 \uc548 \ud558\uc2dc\uaca0\uc9c0\ub9cc, \uc544\ub9c8 \ub9c8\uc74c\uc18d\uc5d0\uc120 \uc774\ubbf8 \uce5c\uad6c\ub77c\uace0 \uc0dd\uac01\ud558\uace0 \uacc4\uc2dc\uaca0\uc8e0.",
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\uadf8\ub798\uc11c, \uc774\ubc88 \uc5f0\uc2b5\uc804\uc5d0\uc120 \uce5c\uad6c\ub4e4\uc5d0\uac8c \ud3d0\ud558\uac00 \ub2e4\uc2a4\ub9ac\ub294 \ub85c\uc5f4 \ub124\uc774\ube44\uc640, \ud3d0\ud558\ub97c \ubaa8\uc2dc\uace0 \uc788\ub294 \uc800\ud76c \uba54\uc774\ub4dc\ub300\ub97c \uc790\ub791\ud558\uace0\uc790 \ud558\ub294 \ubaa9\uc801\uc774 \uc544\ub2d0\uae4c\uc694.",
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\uadf8\ub807\uad70\uc694\u2026\u2026\uc170\ud53c\ub294 \uc5b4\ub5a4\uac00\uc694? \ud3d0\ud558\ucc98\ub7fc \uc990\uac81\uac8c \uc9c0\ub0b4\uace0 \uc788\ub098\uc694?",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u2026\u2026\ube44\ub85d \uc9c0\ud718\uad00\ub2d8\ub3c4 \uc369 \ubbff\uc74c\uc9c1\uc2a4\ub7fd\uc9c4 \uc54a\uc9c0\ub9cc, \ubaa8\ub450\uc640 \ud568\uaed8 \uc9c0\ub0b4\uace0, \ud568\uaed8 \uc2f8\uc6b8 \uc218 \uc788\uc5b4 \ub098\uc05c \uc0dd\uac01\uc740 \uad73\uc774 \ub4e4\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4\ub9cc\u2026\u2026",
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\uadf8\ub9d0\uc740, \uc798 \uc9c0\ub0b4\uace0 \uc788\ub2e8 \ub9d0\uc774\uad70\uc694. \ub2e4\ud589\uc785\ub2c8\ub2e4.",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\uc5b4\uba38, \uc2ac\uc2ac \uac08 \uc2dc\uac04\uc774 \ub2e4 \ub418\uc5c8\ub124\uc694. \uc774\uc81c \uc815\uba74 \ubc29\uc704\uc120\uc73c\ub85c \ub3cc\uc544\uac00\uc57c \ud558\ub2c8, \ub610 \ubd59\ub3c4\ub85d \ud558\uc8e0.",
+			"actor": 202190,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 202080,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"blackBg": true,
+			"say": "\ub124\u2026\ub610 \ubd59\uaca0\uc2b5\ub2c8\ub2e4. \ub274\uce90\uc2ac\uc528.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "NIUKASIERBOSS3",
+	"once": true
 }

@@ -1,89 +1,89 @@
 {
-  "id": "WorldG191",
-  "events": [
-    {
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": -42,
-          "posX": 128.2,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "OverlayCamera/Overlay/UIMain/top/adapt/bottom_chapter/button/btn_boss",
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": -279.2,
-        "dir": 1,
-        "text": "비콘·애쉬 작전 오픈. 다른 유저들과 함께 전투를 진행할 수 있습니다.",
-        "posX": 498.7,
-        "mode": 2
-      }
-    },
-    {
-      "stories": [
-        "GWORLD109A"
-      ],
-      "delay": 1,
-      "code": [
-        "playStory"
-      ]
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 294,
-        "dir": 1,
-        "ui": {
-          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
-        },
-        "text": "비콘·애쉬 작전은 주기적으로 개방되며, 여기에 현재 비콘·애쉬 작전 지속 시간이 나타납니다.",
-        "posX": -448.3,
-        "mode": 2
-      },
-      "alpha": 0.4,
-      "waitScene": "WorldBossScene"
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 1.5,
-        "dir": 1,
-        "ui": {
-          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
-        },
-        "text": "기간 종료 후 분석하지 않은 비콘은 사라지며, 대형 작전에서 새로운 비콘 데이터를 획득할 수 없습니다.",
-        "posX": -402.4,
-        "mode": 2
-      }
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": -284,
-        "dir": 1,
-        "text": "정보 분석 버튼 터치. 분석하여 획득한 애쉬 비콘 데이터",
-        "posX": -495,
-        "mode": 2
-      },
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": 0,
-          "posX": 0,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/useItem/list/tpl",
-        "triggerType": [
-          1
-        ]
-      }
-    }
-  ]
+	"id": "WorldG191",
+	"events": [
+		{
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": -42,
+					"posX": 128.2,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "OverlayCamera/Overlay/UIMain/top/adapt/bottom_chapter/button/btn_boss",
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": -279.2,
+				"dir": 1,
+				"text": "\ube44\ucf58\u00b7\uc560\uc26c \uc791\uc804 \uc624\ud508. \ub2e4\ub978 \uc720\uc800\ub4e4\uacfc \ud568\uaed8 \uc804\ud22c\ub97c \uc9c4\ud589\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+				"posX": 498.7,
+				"mode": 2
+			}
+		},
+		{
+			"stories": [
+				"GWORLD109A"
+			],
+			"delay": 1,
+			"code": [
+				"playStory"
+			]
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 294,
+				"dir": 1,
+				"ui": {
+					"path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+				},
+				"text": "\ube44\ucf58\u00b7\uc560\uc26c \uc791\uc804\uc740 \uc8fc\uae30\uc801\uc73c\ub85c \uac1c\ubc29\ub418\uba70, \uc5ec\uae30\uc5d0 \ud604\uc7ac \ube44\ucf58\u00b7\uc560\uc26c \uc791\uc804 \uc9c0\uc18d \uc2dc\uac04\uc774 \ub098\ud0c0\ub0a9\ub2c8\ub2e4.",
+				"posX": -448.3,
+				"mode": 2
+			},
+			"alpha": 0.4,
+			"waitScene": "WorldBossScene"
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 1.5,
+				"dir": 1,
+				"ui": {
+					"path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+				},
+				"text": "\uae30\uac04 \uc885\ub8cc \ud6c4 \ubd84\uc11d\ud558\uc9c0 \uc54a\uc740 \ube44\ucf58\uc740 \uc0ac\ub77c\uc9c0\uba70, \ub300\ud615 \uc791\uc804\uc5d0\uc11c \uc0c8\ub85c\uc6b4 \ube44\ucf58 \ub370\uc774\ud130\ub97c \ud68d\ub4dd\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.",
+				"posX": -402.4,
+				"mode": 2
+			}
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": -284,
+				"dir": 1,
+				"text": "\uc815\ubcf4 \ubd84\uc11d \ubc84\ud2bc \ud130\uce58. \ubd84\uc11d\ud558\uc5ec \ud68d\ub4dd\ud55c \uc560\uc26c \ube44\ucf58 \ub370\uc774\ud130",
+				"posX": -495,
+				"mode": 2
+			},
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": 0,
+					"posX": 0,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/useItem/list/tpl",
+				"triggerType": [
+					1
+				]
+			}
+		}
+	]
 }

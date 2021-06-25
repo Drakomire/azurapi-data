@@ -1,1175 +1,1175 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "story-1",
-      "side": 2,
-      "say": "数日后·天岩岛",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "bgmDelay": 1,
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "庭院中央，{namecode:96}、{namecode:158}、{namecode:50}、{namecode:181}正在互相交流剑法",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "dir": 1,
-      "soundeffect": "event:/ui/minigame_sword",
-      "side": 2,
-      "say": "竹剑之间不断地发出碰撞的打击声",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 3
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 306070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "{namecode:82}大人，早！又在看着她们修行啊~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 305110,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "是啊，这次事件虽然对我们来说损失惨重，甚至还让那个神秘人给逃脱了...",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "但是这事也让这群孩子直视到了差距，激起了不少斗志，也算是种因祸得福了吧…哈哈",
-      "actor": 305110,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "……"
-    },
-    {
-      "soundeffect": "event:/ui/minigame_sword",
-      "side": 2,
-      "say": "哐—— 哐——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "呃…不愧是传说中的重樱第一高手，剑法凌厉，在下甘拜下风",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 307060,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "承让了，不过那什么重樱第一高手的称号还是算了吧，在面对神秘人的时候我这剑法根本扛不下几招",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 307060,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "除此之外，海对面还有灰色幽灵、蓝色幽灵之类的家伙存在…这个世界，真是太太太有趣了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 307050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "大家修行辛苦了，来吃点点心吧~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "{namecode:95}提着一篮海军馒头从里屋走了出来，刚才还在修行的人们一下子就围了上去——",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "{namecode:95}姐~前几天是我修行不足才让妳又受伤了的，对不起！",
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 307050,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "withoutActorName": true,
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "say": "{namecode:96}向{namecode:95}摆出深深的鞠躬道歉状",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 307050,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "啊啦啦，这不怪{namecode:96}哦，毕竟是对手太强了嘛，妳倒是应该要感谢对方没有对我们下死手哦",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 30
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 307050,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "而且，受伤什么的~人家早就习惯了嘛呵呵呵~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "呜——确实是我的不足才…",
-      "actor": 307060,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "身为姐姐哦，只要看到妹妹能够那么正直、那么努力便心满意足了~",
-      "actor": 307050,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "迟早有一天，妳也要为了自己而努力活着...",
-      "actor": 307050,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 307060,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "{namecode:95}姐，不要立这种Flag啊！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "{namecode:158}看了一眼坐在玄关边上喝着麦茶的{namecode:74}",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "main-newyear",
-      "bgmDelay": 2,
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "{namecode:74}大人，我也…",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "在下因为修行不足让您两次受惊了！",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "在下自知将来无法胜任侍卫这一职责，希望请辞，望{namecode:74}大人——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": -2500,
-          "type": "move",
-          "dur": 1,
-          "delay": 1.5,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "{namecode:158}向{namecode:74}行了跪礼，用尽力气说道",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "可以哦",
-      "actor": 305050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "……",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "如果能找到比{namecode:158}更忠心、更勇敢、更了解我的侍卫的话，可以哦",
-      "actor": 305050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "诶？…",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "但是，这样的侍卫这个世界上也许再也找不到了，所以…",
-      "actor": 305050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 305050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "驳回妳的请辞！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "呜——",
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "{namecode:158}默默低下头，擦了下眼角的泪水，不想让人看见",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "在下…在下定会精进武艺，不辜负{namecode:74}大人的期待的！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 305050,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "withoutActorName": true,
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 30
-        }
-      ],
-      "say": "{namecode:74}笑着摸了摸{namecode:158}的头顶~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 306070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 6,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "哇…这样的气氛…一下子变得好厉害啊",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 305110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "啊哈哈哈，这就是青春的气息啊~真好啊真好",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "不知不觉也让我想到了以前并肩作战的姐妹们了…呵呵呵",
-      "actor": 305110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "……",
-      "actor": 305110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 306070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "神秘人的事暂且不说，在神石找回来之前，天宇启户祭看来暂时是得停办了",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 306070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "有一点我一直想不明白，神石究竟是在什么时候被调包了",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "在现场的人里，塞壬由于没有重樱的血脉无法触碰神石，除了我们之外，就只有{namecode:91}一行了吧",
-      "actor": 305110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "估计就是在神秘人朝观察者开炮后产生烟雾混乱的时候被她们给调包了…",
-      "actor": 305110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "看来神秘人这次也是被塞壬给利用了啊",
-      "actor": 305110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 306070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "！！{namecode:91}大人？可是…为什么不在现场揭穿她？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "神秘人的目的是摧毁神石，如果当场揭穿的话，以{namecode:91}这孩子的性格，也许真的会以命相护的吧",
-      "actor": 305110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 306070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "{namecode:82}大人居然想到了这个份上…真是令在下敬佩",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 306070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "原来如此，怪不得神秘人一走，{namecode:91}她们就立刻急着离开",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "say": "{namecode:91}这孩子，目的很单纯，只不过就是用错了手段，希望她能有迷途知返的一天吧…",
-      "actor": 305110,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 301810,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "啊啊啊！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 60,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 4,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 302210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "{namecode:180}..怎么了？突然从楼梯上大惊小叫地跑下来？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 301810,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "{namecode:182}...{namecode:182}..{namecode:182}大人…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "actor": 301810,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "醒来了！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_xinnong_cg1"
-    },
-    {
-      "stopbgm": true,
-      "mode": 1,
-      "sequence": [
-        [
-          "<size=51>花虽芬芳终须落</size>",
-          1
-        ],
-        [
-          "<size=51>人生无常岂奈何</size>",
-          3
-        ],
-        [
-          "<size=51>俗世凡尘今朝脱</size>",
-          5
-        ],
-        [
-          "<size=51>不恋醉梦免蹉跎</size>",
-          7
-        ]
-      ],
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ]
-    },
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "",
-          2
-        ]
-      ],
-      "signDate": [
-        "————终",
-        3,
-        [
-          900,
-          -400
-        ]
-      ],
-      "mode": 1,
-      "blackBg": true,
-      "effects": [
-        {
-          "name": "logo_sakura",
-          "active": true
-        }
-      ]
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "FUYINGYINGHUA28",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "story-1",
+			"side": 2,
+			"say": "\u6570\u65e5\u540e\u00b7\u5929\u5ca9\u5c9b",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"bgmDelay": 1,
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5ead\u9662\u4e2d\u592e\uff0c{namecode:96}\u3001{namecode:158}\u3001{namecode:50}\u3001{namecode:181}\u6b63\u5728\u4e92\u76f8\u4ea4\u6d41\u5251\u6cd5",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"dir": 1,
+			"soundeffect": "event:/ui/minigame_sword",
+			"side": 2,
+			"say": "\u7af9\u5251\u4e4b\u95f4\u4e0d\u65ad\u5730\u53d1\u51fa\u78b0\u649e\u7684\u6253\u51fb\u58f0",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 3
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 306070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "{namecode:82}\u5927\u4eba\uff0c\u65e9\uff01\u53c8\u5728\u770b\u7740\u5979\u4eec\u4fee\u884c\u554a~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 305110,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u662f\u554a\uff0c\u8fd9\u6b21\u4e8b\u4ef6\u867d\u7136\u5bf9\u6211\u4eec\u6765\u8bf4\u635f\u5931\u60e8\u91cd\uff0c\u751a\u81f3\u8fd8\u8ba9\u90a3\u4e2a\u795e\u79d8\u4eba\u7ed9\u9003\u8131\u4e86...",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u4f46\u662f\u8fd9\u4e8b\u4e5f\u8ba9\u8fd9\u7fa4\u5b69\u5b50\u76f4\u89c6\u5230\u4e86\u5dee\u8ddd\uff0c\u6fc0\u8d77\u4e86\u4e0d\u5c11\u6597\u5fd7\uff0c\u4e5f\u7b97\u662f\u79cd\u56e0\u7978\u5f97\u798f\u4e86\u5427\u2026\u54c8\u54c8",
+			"actor": 305110,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u2026\u2026"
+		},
+		{
+			"soundeffect": "event:/ui/minigame_sword",
+			"side": 2,
+			"say": "\u54d0\u2014\u2014 \u54d0\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u5443\u2026\u4e0d\u6127\u662f\u4f20\u8bf4\u4e2d\u7684\u91cd\u6a31\u7b2c\u4e00\u9ad8\u624b\uff0c\u5251\u6cd5\u51cc\u5389\uff0c\u5728\u4e0b\u7518\u62dc\u4e0b\u98ce",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 307060,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u627f\u8ba9\u4e86\uff0c\u4e0d\u8fc7\u90a3\u4ec0\u4e48\u91cd\u6a31\u7b2c\u4e00\u9ad8\u624b\u7684\u79f0\u53f7\u8fd8\u662f\u7b97\u4e86\u5427\uff0c\u5728\u9762\u5bf9\u795e\u79d8\u4eba\u7684\u65f6\u5019\u6211\u8fd9\u5251\u6cd5\u6839\u672c\u625b\u4e0d\u4e0b\u51e0\u62db",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 307060,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u9664\u6b64\u4e4b\u5916\uff0c\u6d77\u5bf9\u9762\u8fd8\u6709\u7070\u8272\u5e7d\u7075\u3001\u84dd\u8272\u5e7d\u7075\u4e4b\u7c7b\u7684\u5bb6\u4f19\u5b58\u5728\u2026\u8fd9\u4e2a\u4e16\u754c\uff0c\u771f\u662f\u592a\u592a\u592a\u6709\u8da3\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 307050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u5927\u5bb6\u4fee\u884c\u8f9b\u82e6\u4e86\uff0c\u6765\u5403\u70b9\u70b9\u5fc3\u5427~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "{namecode:95}\u63d0\u7740\u4e00\u7bee\u6d77\u519b\u9992\u5934\u4ece\u91cc\u5c4b\u8d70\u4e86\u51fa\u6765\uff0c\u521a\u624d\u8fd8\u5728\u4fee\u884c\u7684\u4eba\u4eec\u4e00\u4e0b\u5b50\u5c31\u56f4\u4e86\u4e0a\u53bb\u2014\u2014",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "{namecode:95}\u59d0~\u524d\u51e0\u5929\u662f\u6211\u4fee\u884c\u4e0d\u8db3\u624d\u8ba9\u59b3\u53c8\u53d7\u4f24\u4e86\u7684\uff0c\u5bf9\u4e0d\u8d77\uff01",
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 307050,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"withoutActorName": true,
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"say": "{namecode:96}\u5411{namecode:95}\u6446\u51fa\u6df1\u6df1\u7684\u97a0\u8eac\u9053\u6b49\u72b6",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 307050,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u554a\u5566\u5566\uff0c\u8fd9\u4e0d\u602a{namecode:96}\u54e6\uff0c\u6bd5\u7adf\u662f\u5bf9\u624b\u592a\u5f3a\u4e86\u561b\uff0c\u59b3\u5012\u662f\u5e94\u8be5\u8981\u611f\u8c22\u5bf9\u65b9\u6ca1\u6709\u5bf9\u6211\u4eec\u4e0b\u6b7b\u624b\u54e6",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 30
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 307050,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u800c\u4e14\uff0c\u53d7\u4f24\u4ec0\u4e48\u7684~\u4eba\u5bb6\u65e9\u5c31\u4e60\u60ef\u4e86\u561b\u5475\u5475\u5475~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u545c\u2014\u2014\u786e\u5b9e\u662f\u6211\u7684\u4e0d\u8db3\u624d\u2026",
+			"actor": 307060,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u8eab\u4e3a\u59d0\u59d0\u54e6\uff0c\u53ea\u8981\u770b\u5230\u59b9\u59b9\u80fd\u591f\u90a3\u4e48\u6b63\u76f4\u3001\u90a3\u4e48\u52aa\u529b\u4fbf\u5fc3\u6ee1\u610f\u8db3\u4e86~",
+			"actor": 307050,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u8fdf\u65e9\u6709\u4e00\u5929\uff0c\u59b3\u4e5f\u8981\u4e3a\u4e86\u81ea\u5df1\u800c\u52aa\u529b\u6d3b\u7740...",
+			"actor": 307050,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 307060,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "{namecode:95}\u59d0\uff0c\u4e0d\u8981\u7acb\u8fd9\u79cdFlag\u554a\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "{namecode:158}\u770b\u4e86\u4e00\u773c\u5750\u5728\u7384\u5173\u8fb9\u4e0a\u559d\u7740\u9ea6\u8336\u7684{namecode:74}",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "main-newyear",
+			"bgmDelay": 2,
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "{namecode:74}\u5927\u4eba\uff0c\u6211\u4e5f\u2026",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u5728\u4e0b\u56e0\u4e3a\u4fee\u884c\u4e0d\u8db3\u8ba9\u60a8\u4e24\u6b21\u53d7\u60ca\u4e86\uff01",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u5728\u4e0b\u81ea\u77e5\u5c06\u6765\u65e0\u6cd5\u80dc\u4efb\u4f8d\u536b\u8fd9\u4e00\u804c\u8d23\uff0c\u5e0c\u671b\u8bf7\u8f9e\uff0c\u671b{namecode:74}\u5927\u4eba\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": -2500,
+					"type": "move",
+					"dur": 1,
+					"delay": 1.5,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "{namecode:158}\u5411{namecode:74}\u884c\u4e86\u8dea\u793c\uff0c\u7528\u5c3d\u529b\u6c14\u8bf4\u9053",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u53ef\u4ee5\u54e6",
+			"actor": 305050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u2026\u2026",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u5982\u679c\u80fd\u627e\u5230\u6bd4{namecode:158}\u66f4\u5fe0\u5fc3\u3001\u66f4\u52c7\u6562\u3001\u66f4\u4e86\u89e3\u6211\u7684\u4f8d\u536b\u7684\u8bdd\uff0c\u53ef\u4ee5\u54e6",
+			"actor": 305050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u8bf6\uff1f\u2026",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u4f46\u662f\uff0c\u8fd9\u6837\u7684\u4f8d\u536b\u8fd9\u4e2a\u4e16\u754c\u4e0a\u4e5f\u8bb8\u518d\u4e5f\u627e\u4e0d\u5230\u4e86\uff0c\u6240\u4ee5\u2026",
+			"actor": 305050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 305050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u9a73\u56de\u59b3\u7684\u8bf7\u8f9e\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u545c\u2014\u2014",
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "{namecode:158}\u9ed8\u9ed8\u4f4e\u4e0b\u5934\uff0c\u64e6\u4e86\u4e0b\u773c\u89d2\u7684\u6cea\u6c34\uff0c\u4e0d\u60f3\u8ba9\u4eba\u770b\u89c1",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u5728\u4e0b\u2026\u5728\u4e0b\u5b9a\u4f1a\u7cbe\u8fdb\u6b66\u827a\uff0c\u4e0d\u8f9c\u8d1f{namecode:74}\u5927\u4eba\u7684\u671f\u5f85\u7684\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 305050,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"withoutActorName": true,
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 30
+				}
+			],
+			"say": "{namecode:74}\u7b11\u7740\u6478\u4e86\u6478{namecode:158}\u7684\u5934\u9876~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 306070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 6,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u54c7\u2026\u8fd9\u6837\u7684\u6c14\u6c1b\u2026\u4e00\u4e0b\u5b50\u53d8\u5f97\u597d\u5389\u5bb3\u554a",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 305110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u554a\u54c8\u54c8\u54c8\uff0c\u8fd9\u5c31\u662f\u9752\u6625\u7684\u6c14\u606f\u554a~\u771f\u597d\u554a\u771f\u597d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u4e0d\u77e5\u4e0d\u89c9\u4e5f\u8ba9\u6211\u60f3\u5230\u4e86\u4ee5\u524d\u5e76\u80a9\u4f5c\u6218\u7684\u59d0\u59b9\u4eec\u4e86\u2026\u5475\u5475\u5475",
+			"actor": 305110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u2026\u2026",
+			"actor": 305110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 306070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u795e\u79d8\u4eba\u7684\u4e8b\u6682\u4e14\u4e0d\u8bf4\uff0c\u5728\u795e\u77f3\u627e\u56de\u6765\u4e4b\u524d\uff0c\u5929\u5b87\u542f\u6237\u796d\u770b\u6765\u6682\u65f6\u662f\u5f97\u505c\u529e\u4e86",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 306070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u6709\u4e00\u70b9\u6211\u4e00\u76f4\u60f3\u4e0d\u660e\u767d\uff0c\u795e\u77f3\u7a76\u7adf\u662f\u5728\u4ec0\u4e48\u65f6\u5019\u88ab\u8c03\u5305\u4e86",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u5728\u73b0\u573a\u7684\u4eba\u91cc\uff0c\u585e\u58ec\u7531\u4e8e\u6ca1\u6709\u91cd\u6a31\u7684\u8840\u8109\u65e0\u6cd5\u89e6\u78b0\u795e\u77f3\uff0c\u9664\u4e86\u6211\u4eec\u4e4b\u5916\uff0c\u5c31\u53ea\u6709{namecode:91}\u4e00\u884c\u4e86\u5427",
+			"actor": 305110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u4f30\u8ba1\u5c31\u662f\u5728\u795e\u79d8\u4eba\u671d\u89c2\u5bdf\u8005\u5f00\u70ae\u540e\u4ea7\u751f\u70df\u96fe\u6df7\u4e71\u7684\u65f6\u5019\u88ab\u5979\u4eec\u7ed9\u8c03\u5305\u4e86\u2026",
+			"actor": 305110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u770b\u6765\u795e\u79d8\u4eba\u8fd9\u6b21\u4e5f\u662f\u88ab\u585e\u58ec\u7ed9\u5229\u7528\u4e86\u554a",
+			"actor": 305110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 306070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\uff01\uff01{namecode:91}\u5927\u4eba\uff1f\u53ef\u662f\u2026\u4e3a\u4ec0\u4e48\u4e0d\u5728\u73b0\u573a\u63ed\u7a7f\u5979\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "\u795e\u79d8\u4eba\u7684\u76ee\u7684\u662f\u6467\u6bc1\u795e\u77f3\uff0c\u5982\u679c\u5f53\u573a\u63ed\u7a7f\u7684\u8bdd\uff0c\u4ee5{namecode:91}\u8fd9\u5b69\u5b50\u7684\u6027\u683c\uff0c\u4e5f\u8bb8\u771f\u7684\u4f1a\u4ee5\u547d\u76f8\u62a4\u7684\u5427",
+			"actor": 305110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 306070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "{namecode:82}\u5927\u4eba\u5c45\u7136\u60f3\u5230\u4e86\u8fd9\u4e2a\u4efd\u4e0a\u2026\u771f\u662f\u4ee4\u5728\u4e0b\u656c\u4f69",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 306070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u539f\u6765\u5982\u6b64\uff0c\u602a\u4e0d\u5f97\u795e\u79d8\u4eba\u4e00\u8d70\uff0c{namecode:91}\u5979\u4eec\u5c31\u7acb\u523b\u6025\u7740\u79bb\u5f00",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"say": "{namecode:91}\u8fd9\u5b69\u5b50\uff0c\u76ee\u7684\u5f88\u5355\u7eaf\uff0c\u53ea\u4e0d\u8fc7\u5c31\u662f\u7528\u9519\u4e86\u624b\u6bb5\uff0c\u5e0c\u671b\u5979\u80fd\u6709\u8ff7\u9014\u77e5\u8fd4\u7684\u4e00\u5929\u5427\u2026",
+			"actor": 305110,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 301810,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u554a\u554a\u554a\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 60,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 4,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 302210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "{namecode:180}..\u600e\u4e48\u4e86\uff1f\u7a81\u7136\u4ece\u697c\u68af\u4e0a\u5927\u60ca\u5c0f\u53eb\u5730\u8dd1\u4e0b\u6765\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 301810,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "{namecode:182}...{namecode:182}..{namecode:182}\u5927\u4eba\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"actor": 301810,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u9192\u6765\u4e86\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_xinnong_cg1"
+		},
+		{
+			"stopbgm": true,
+			"mode": 1,
+			"sequence": [
+				[
+					"<size=51>\u82b1\u867d\u82ac\u82b3\u7ec8\u987b\u843d</size>",
+					1
+				],
+				[
+					"<size=51>\u4eba\u751f\u65e0\u5e38\u5c82\u5948\u4f55</size>",
+					3
+				],
+				[
+					"<size=51>\u4fd7\u4e16\u51e1\u5c18\u4eca\u671d\u8131</size>",
+					5
+				],
+				[
+					"<size=51>\u4e0d\u604b\u9189\u68a6\u514d\u8e49\u8dce</size>",
+					7
+				]
+			],
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			]
+		},
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"",
+					2
+				]
+			],
+			"signDate": [
+				"\u2014\u2014\u2014\u2014\u7ec8",
+				3,
+				[
+					900,
+					-400
+				]
+			],
+			"mode": 1,
+			"blackBg": true,
+			"effects": [
+				{
+					"name": "logo_sakura",
+					"active": true
+				}
+			]
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "FUYINGYINGHUA28",
+	"once": true
 }

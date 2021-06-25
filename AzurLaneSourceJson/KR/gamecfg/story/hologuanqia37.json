@@ -1,445 +1,445 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "blackBg": true,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "테스트는 성공이네.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "테스트 몬스터",
-      "bgmDelay": 2,
-      "actor": 900011
-    },
-    {
-      "actor": 10500010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "blackBg": true,
-      "say": "시간 제한이라는 단점이 있지만, 사용자의 전투력이 크게 올라갔네요.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "군사",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 900011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "blackBg": true,
-      "say": "조금만 더 손을 본다면 내 군단이 곧 이 서버를 점령할 수 있겠어.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "테스트 몬스터",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 10500010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "blackBg": true,
-      "say": "서버 통제권을 점차 장악하고 계시다는 증거입니다. 최종 권한만 손에 넣으신다면 레지스탕스들이 무슨 짓을 해도 소용 없을겁니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "군사",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 900011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "blackBg": true,
-      "say": "그래. 나는 해야할 일이 있으니 그들과 조금 더 놀아주도록 해.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "테스트 몬스터",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "잠시 뒤, 미나토 아쿠아는 순조롭게 전망대의 지도에서 본사 건물의 위치를 확인할 수 있었다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgmDelay": 2,
-      "bgm": "holo-inochi-inst"
-    },
-    {
-      "actor": 10500030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "하↑하하하, 하↑하하하! 드디어… 드디어 본사 건물의 위치를 찾았다! hololive 레지스탕스! 모두 출발!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 4,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "아쿠아, 완전히 회복했네."
-    },
-    {
-      "actor": 301050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "본사 건물, 여전히 멀리 있네요…"
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "용암으로 덮인 해수면이 점점 더 많아지고 있어요. 분명 배리어 다음으로 세이렌이 준비한 신형 방어 장치일 거예요."
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "설마 세이렌은 이 해역을 전부 용암으로 덮을 생각인가?!"
-    },
-    {
-      "say": "불가능하진 않지만… 만약 용암으로 전부 덮이면 본사 건물에 갈 수 없어져.",
-      "actor": 10500010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "say": "저쪽은 건설 모드, 우리는 서바이벌 모드라는 거네.",
-      "actor": 10500040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "보세요! 전망대 뒤쪽에 있는 작은 섬에 TNT가 잔뜩 있어요!"
-    },
-    {
-      "actor": 10500030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "20상자, TNT 20상자가 있어! 우리가 지금까지 모은 양과 더하면 holo 서버 절반을 날려버릴 수 있을 거야!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "say": "에? 예전에 이렇게 많았던가……",
-      "actor": 10500060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "Z23, 왜 그래요? 고민이 있는 것 같은데."
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "아니요…… 그저 모두 준비가 끝났으니 용암을 넘을 수 있는 안전한 항로를 찾으면 되니까……"
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "저기, 방금 전부터 신경쓰인 건데… 저기 구름 너머로 슬쩍슬쩍 보이는 검은 선은 대체 뭐야?"
-    },
-    {
-      "say": "아? 저건 나와 시온이 함께 만든 제트 코스터야. 이름은 미오시오 코스터!",
-      "actor": 10500070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 6
-    },
-    {
-      "say": "짐도 다른 동료들과 같이 개조에 참여했지. 날씨가 좋은 날 타면 hololive 서버의 전경을 볼 수 있다고~",
-      "actor": 10500050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.3,
-          "number": 2,
-          "delay": 0,
-          "x": 30
-        }
-      ],
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "에?! 이렇게 큰 제트 코스터라니, 에헤헤, 지휘관님과 꼭 한번 타보고 싶네요~"
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "재블린, 집중하세요… 공중에서 이동할 수 있다면 확실히 용암과 적을 빗겨갈 수 있겠지만…"
-    },
-    {
-      "say": "전망대 근처에 입구가 있을거야. 시온이 찾아볼게!",
-      "actor": 10500060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "HOLOGUANQIA37",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"blackBg": true,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\ud14c\uc2a4\ud2b8\ub294 \uc131\uacf5\uc774\ub124.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ud14c\uc2a4\ud2b8 \ubaac\uc2a4\ud130",
+			"bgmDelay": 2,
+			"actor": 900011
+		},
+		{
+			"actor": 10500010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"blackBg": true,
+			"say": "\uc2dc\uac04 \uc81c\ud55c\uc774\ub77c\ub294 \ub2e8\uc810\uc774 \uc788\uc9c0\ub9cc, \uc0ac\uc6a9\uc790\uc758 \uc804\ud22c\ub825\uc774 \ud06c\uac8c \uc62c\ub77c\uac14\ub124\uc694.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uad70\uc0ac",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 900011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"blackBg": true,
+			"say": "\uc870\uae08\ub9cc \ub354 \uc190\uc744 \ubcf8\ub2e4\uba74 \ub0b4 \uad70\ub2e8\uc774 \uace7 \uc774 \uc11c\ubc84\ub97c \uc810\ub839\ud560 \uc218 \uc788\uaca0\uc5b4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ud14c\uc2a4\ud2b8 \ubaac\uc2a4\ud130",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 10500010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"blackBg": true,
+			"say": "\uc11c\ubc84 \ud1b5\uc81c\uad8c\uc744 \uc810\ucc28 \uc7a5\uc545\ud558\uace0 \uacc4\uc2dc\ub2e4\ub294 \uc99d\uac70\uc785\ub2c8\ub2e4. \ucd5c\uc885 \uad8c\ud55c\ub9cc \uc190\uc5d0 \ub123\uc73c\uc2e0\ub2e4\uba74 \ub808\uc9c0\uc2a4\ud0d5\uc2a4\ub4e4\uc774 \ubb34\uc2a8 \uc9d3\uc744 \ud574\ub3c4 \uc18c\uc6a9 \uc5c6\uc744\uac81\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uad70\uc0ac",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 900011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"blackBg": true,
+			"say": "\uadf8\ub798. \ub098\ub294 \ud574\uc57c\ud560 \uc77c\uc774 \uc788\uc73c\ub2c8 \uadf8\ub4e4\uacfc \uc870\uae08 \ub354 \ub180\uc544\uc8fc\ub3c4\ub85d \ud574.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\ud14c\uc2a4\ud2b8 \ubaac\uc2a4\ud130",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uc7a0\uc2dc \ub4a4, \ubbf8\ub098\ud1a0 \uc544\ucfe0\uc544\ub294 \uc21c\uc870\ub86d\uac8c \uc804\ub9dd\ub300\uc758 \uc9c0\ub3c4\uc5d0\uc11c \ubcf8\uc0ac \uac74\ubb3c\uc758 \uc704\uce58\ub97c \ud655\uc778\ud560 \uc218 \uc788\uc5c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgmDelay": 2,
+			"bgm": "holo-inochi-inst"
+		},
+		{
+			"actor": 10500030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\ud558\u2191\ud558\ud558\ud558, \ud558\u2191\ud558\ud558\ud558! \ub4dc\ub514\uc5b4\u2026 \ub4dc\ub514\uc5b4 \ubcf8\uc0ac \uac74\ubb3c\uc758 \uc704\uce58\ub97c \ucc3e\uc558\ub2e4! hololive \ub808\uc9c0\uc2a4\ud0d5\uc2a4! \ubaa8\ub450 \ucd9c\ubc1c!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 4,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc544\ucfe0\uc544, \uc644\uc804\ud788 \ud68c\ubcf5\ud588\ub124."
+		},
+		{
+			"actor": 301050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ubcf8\uc0ac \uac74\ubb3c, \uc5ec\uc804\ud788 \uba40\ub9ac \uc788\ub124\uc694\u2026"
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc6a9\uc554\uc73c\ub85c \ub36e\uc778 \ud574\uc218\uba74\uc774 \uc810\uc810 \ub354 \ub9ce\uc544\uc9c0\uace0 \uc788\uc5b4\uc694. \ubd84\uba85 \ubc30\ub9ac\uc5b4 \ub2e4\uc74c\uc73c\ub85c \uc138\uc774\ub80c\uc774 \uc900\ube44\ud55c \uc2e0\ud615 \ubc29\uc5b4 \uc7a5\uce58\uc77c \uac70\uc608\uc694."
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc124\ub9c8 \uc138\uc774\ub80c\uc740 \uc774 \ud574\uc5ed\uc744 \uc804\ubd80 \uc6a9\uc554\uc73c\ub85c \ub36e\uc744 \uc0dd\uac01\uc778\uac00?!"
+		},
+		{
+			"say": "\ubd88\uac00\ub2a5\ud558\uc9c4 \uc54a\uc9c0\ub9cc\u2026 \ub9cc\uc57d \uc6a9\uc554\uc73c\ub85c \uc804\ubd80 \ub36e\uc774\uba74 \ubcf8\uc0ac \uac74\ubb3c\uc5d0 \uac08 \uc218 \uc5c6\uc5b4\uc838.",
+			"actor": 10500010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"say": "\uc800\ucabd\uc740 \uac74\uc124 \ubaa8\ub4dc, \uc6b0\ub9ac\ub294 \uc11c\ubc14\uc774\ubc8c \ubaa8\ub4dc\ub77c\ub294 \uac70\ub124.",
+			"actor": 10500040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ubcf4\uc138\uc694! \uc804\ub9dd\ub300 \ub4a4\ucabd\uc5d0 \uc788\ub294 \uc791\uc740 \uc12c\uc5d0 TNT\uac00 \uc794\ub729 \uc788\uc5b4\uc694!"
+		},
+		{
+			"actor": 10500030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "20\uc0c1\uc790, TNT 20\uc0c1\uc790\uac00 \uc788\uc5b4! \uc6b0\ub9ac\uac00 \uc9c0\uae08\uae4c\uc9c0 \ubaa8\uc740 \uc591\uacfc \ub354\ud558\uba74 holo \uc11c\ubc84 \uc808\ubc18\uc744 \ub0a0\ub824\ubc84\ub9b4 \uc218 \uc788\uc744 \uac70\uc57c!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"say": "\uc5d0? \uc608\uc804\uc5d0 \uc774\ub807\uac8c \ub9ce\uc558\ub358\uac00\u2026\u2026",
+			"actor": 10500060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "Z23, \uc65c \uadf8\ub798\uc694? \uace0\ubbfc\uc774 \uc788\ub294 \uac83 \uac19\uc740\ub370."
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc544\ub2c8\uc694\u2026\u2026 \uadf8\uc800 \ubaa8\ub450 \uc900\ube44\uac00 \ub05d\ub0ac\uc73c\ub2c8 \uc6a9\uc554\uc744 \ub118\uc744 \uc218 \uc788\ub294 \uc548\uc804\ud55c \ud56d\ub85c\ub97c \ucc3e\uc73c\uba74 \ub418\ub2c8\uae4c\u2026\u2026"
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc800\uae30, \ubc29\uae08 \uc804\ubd80\ud130 \uc2e0\uacbd\uc4f0\uc778 \uac74\ub370\u2026 \uc800\uae30 \uad6c\ub984 \ub108\uba38\ub85c \uc2ac\uca4d\uc2ac\uca4d \ubcf4\uc774\ub294 \uac80\uc740 \uc120\uc740 \ub300\uccb4 \ubb50\uc57c?"
+		},
+		{
+			"say": "\uc544? \uc800\uac74 \ub098\uc640 \uc2dc\uc628\uc774 \ud568\uaed8 \ub9cc\ub4e0 \uc81c\ud2b8 \ucf54\uc2a4\ud130\uc57c. \uc774\ub984\uc740 \ubbf8\uc624\uc2dc\uc624 \ucf54\uc2a4\ud130!",
+			"actor": 10500070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 6
+		},
+		{
+			"say": "\uc9d0\ub3c4 \ub2e4\ub978 \ub3d9\ub8cc\ub4e4\uacfc \uac19\uc774 \uac1c\uc870\uc5d0 \ucc38\uc5ec\ud588\uc9c0. \ub0a0\uc528\uac00 \uc88b\uc740 \ub0a0 \ud0c0\uba74 hololive \uc11c\ubc84\uc758 \uc804\uacbd\uc744 \ubcfc \uc218 \uc788\ub2e4\uace0~",
+			"actor": 10500050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.3,
+					"number": 2,
+					"delay": 0,
+					"x": 30
+				}
+			],
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc5d0?! \uc774\ub807\uac8c \ud070 \uc81c\ud2b8 \ucf54\uc2a4\ud130\ub77c\ub2c8, \uc5d0\ud5e4\ud5e4, \uc9c0\ud718\uad00\ub2d8\uacfc \uaf2d \ud55c\ubc88 \ud0c0\ubcf4\uace0 \uc2f6\ub124\uc694~"
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc7ac\ube14\ub9b0, \uc9d1\uc911\ud558\uc138\uc694\u2026 \uacf5\uc911\uc5d0\uc11c \uc774\ub3d9\ud560 \uc218 \uc788\ub2e4\uba74 \ud655\uc2e4\ud788 \uc6a9\uc554\uacfc \uc801\uc744 \ube57\uaca8\uac08 \uc218 \uc788\uaca0\uc9c0\ub9cc\u2026"
+		},
+		{
+			"say": "\uc804\ub9dd\ub300 \uadfc\ucc98\uc5d0 \uc785\uad6c\uac00 \uc788\uc744\uac70\uc57c. \uc2dc\uc628\uc774 \ucc3e\uc544\ubcfc\uac8c!",
+			"actor": 10500060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "HOLOGUANQIA37",
+	"once": true
 }

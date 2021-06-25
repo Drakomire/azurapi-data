@@ -1,33 +1,33 @@
 {
-  "picture": "",
-  "id": 14322,
-  "desc": "准备速度提高一轮-25%",
-  "last_effect": "",
-  "time": 0,
-  "icon": 14320,
-  "effect_list": [
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddReloadRequirement",
-      "arg_list": {
-        "number": -0.4,
-        "type": 23
-      }
-    },
-    {
-      "trigger": [
-        "onChargeWeaponReady"
-      ],
-      "type": "BattleBuffCancelBuff",
-      "arg_list": {
-        "count": 1
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": ""
+	"picture": "",
+	"id": 14322,
+	"desc": "\u51c6\u5907\u901f\u5ea6\u63d0\u9ad8\u4e00\u8f6e-25%",
+	"last_effect": "",
+	"time": 0,
+	"icon": 14320,
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach",
+				"onRemove"
+			],
+			"type": "BattleBuffAddReloadRequirement",
+			"arg_list": {
+				"number": -0.4,
+				"type": 23
+			}
+		},
+		{
+			"trigger": [
+				"onChargeWeaponReady"
+			],
+			"type": "BattleBuffCancelBuff",
+			"arg_list": {
+				"count": 1
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": ""
 }

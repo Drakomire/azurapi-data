@@ -1,398 +1,398 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "融冰\n\n<size=45>三　演習</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "港區·演習海域",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "battle-1",
-      "bgmDelay": 2,
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "今天是鐵血演習的日子。",
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "options": [
-        {
-          "content": "漂亮！",
-          "flag": 1
-        }
-      ],
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "say": "鐵必制精準地命中了蠻啾駕駛的目標艦。整個過程中，表情甚至沒有一絲變化。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dir": 1,
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "謝謝。",
-      "actor": 405020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 403030,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "鐵必制真厲害啊。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "歐根嗎…這點程度沒什麼值得誇耀的，妳和希佩爾也做得很好不是嗎？",
-      "actor": 405020,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "呵呵，鐵必制真是謙遜呢，希佩爾，妳看到了嗎，妳也要好好向人家學習哦。",
-      "actor": 403030,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 403010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "哈？為什麼我要向鐵必制學習？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "因為妳看，鐵必制那~麼厲害，卻一點也不驕傲，跟某個只是完成任務就迫不及待地向指揮官邀功的金毛笨蛋完全不同呢。",
-      "actor": 403030,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "歐根，不要這麼說，希佩爾也有希佩爾的優點……",
-      "actor": 405020,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 403010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "哈？！我的性格就是這樣還真是對不起啊！歐根我看妳今天是皮癢了……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 403030,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "options": [
-        {
-          "content": "勸希佩爾消氣",
-          "flag": 1
-        }
-      ],
-      "say": "啊哈哈——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 0,
-          "x": 1500,
-          "dur": 1,
-          "type": "move"
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "actor": 403010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "指揮官你不要管，嘖，歐根，給我站住，不要跑！今天我就要讓妳明白我這個姐姐不是白當的！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        },
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 1,
-          "delay": 0.2,
-          "x": 2250
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "………姐妹嗎",
-      "actor": 405020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "鐵必制？",
-          "flag": 1
-        }
-      ],
-      "say": "鐵必制看向希佩爾和歐根離開的方向，露出若有所思的表情",
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "…………嗯？",
-      "actor": 405020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "say": "沒什麼，我只是在想，姐妹之間，原來是這樣的感覺啊……",
-      "actor": 405020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_nepu1"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "鐵必制的臉上，浮現出了明顯的寂寞感。",
-      "blackBg": true,
-      "bgName": "bg_story_nepu1"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "TIERBICI3",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u878d\u51b0\n\n<size=45>\u4e09\u3000\u6f14\u7fd2</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6e2f\u5340\u00b7\u6f14\u7fd2\u6d77\u57df",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "battle-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4eca\u5929\u662f\u9435\u8840\u6f14\u7fd2\u7684\u65e5\u5b50\u3002",
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"options": [
+				{
+					"content": "\u6f02\u4eae\uff01",
+					"flag": 1
+				}
+			],
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"say": "\u9435\u5fc5\u5236\u7cbe\u6e96\u5730\u547d\u4e2d\u4e86\u883b\u557e\u99d5\u99db\u7684\u76ee\u6a19\u8266\u3002\u6574\u500b\u904e\u7a0b\u4e2d\uff0c\u8868\u60c5\u751a\u81f3\u6c92\u6709\u4e00\u7d72\u8b8a\u5316\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dir": 1,
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u8b1d\u8b1d\u3002",
+			"actor": 405020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 403030,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u9435\u5fc5\u5236\u771f\u53b2\u5bb3\u554a\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u6b50\u6839\u55ce\u2026\u9019\u9ede\u7a0b\u5ea6\u6c92\u4ec0\u9ebc\u503c\u5f97\u8a87\u8000\u7684\uff0c\u59b3\u548c\u5e0c\u4f69\u723e\u4e5f\u505a\u5f97\u5f88\u597d\u4e0d\u662f\u55ce\uff1f",
+			"actor": 405020,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u5475\u5475\uff0c\u9435\u5fc5\u5236\u771f\u662f\u8b19\u905c\u5462\uff0c\u5e0c\u4f69\u723e\uff0c\u59b3\u770b\u5230\u4e86\u55ce\uff0c\u59b3\u4e5f\u8981\u597d\u597d\u5411\u4eba\u5bb6\u5b78\u7fd2\u54e6\u3002",
+			"actor": 403030,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 403010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u54c8\uff1f\u70ba\u4ec0\u9ebc\u6211\u8981\u5411\u9435\u5fc5\u5236\u5b78\u7fd2\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u56e0\u70ba\u59b3\u770b\uff0c\u9435\u5fc5\u5236\u90a3~\u9ebc\u53b2\u5bb3\uff0c\u537b\u4e00\u9ede\u4e5f\u4e0d\u9a55\u50b2\uff0c\u8ddf\u67d0\u500b\u53ea\u662f\u5b8c\u6210\u4efb\u52d9\u5c31\u8feb\u4e0d\u53ca\u5f85\u5730\u5411\u6307\u63ee\u5b98\u9080\u529f\u7684\u91d1\u6bdb\u7b28\u86cb\u5b8c\u5168\u4e0d\u540c\u5462\u3002",
+			"actor": 403030,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u6b50\u6839\uff0c\u4e0d\u8981\u9019\u9ebc\u8aaa\uff0c\u5e0c\u4f69\u723e\u4e5f\u6709\u5e0c\u4f69\u723e\u7684\u512a\u9ede\u2026\u2026",
+			"actor": 405020,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 403010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u54c8\uff1f\uff01\u6211\u7684\u6027\u683c\u5c31\u662f\u9019\u6a23\u9084\u771f\u662f\u5c0d\u4e0d\u8d77\u554a\uff01\u6b50\u6839\u6211\u770b\u59b3\u4eca\u5929\u662f\u76ae\u7662\u4e86\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 403030,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"options": [
+				{
+					"content": "\u52f8\u5e0c\u4f69\u723e\u6d88\u6c23",
+					"flag": 1
+				}
+			],
+			"say": "\u554a\u54c8\u54c8\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 0,
+					"x": 1500,
+					"dur": 1,
+					"type": "move"
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"actor": 403010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u6307\u63ee\u5b98\u4f60\u4e0d\u8981\u7ba1\uff0c\u5616\uff0c\u6b50\u6839\uff0c\u7d66\u6211\u7ad9\u4f4f\uff0c\u4e0d\u8981\u8dd1\uff01\u4eca\u5929\u6211\u5c31\u8981\u8b93\u59b3\u660e\u767d\u6211\u9019\u500b\u59d0\u59d0\u4e0d\u662f\u767d\u7576\u7684\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				},
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 1,
+					"delay": 0.2,
+					"x": 2250
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u2026\u2026\u2026\u59d0\u59b9\u55ce",
+			"actor": 405020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u9435\u5fc5\u5236\uff1f",
+					"flag": 1
+				}
+			],
+			"say": "\u9435\u5fc5\u5236\u770b\u5411\u5e0c\u4f69\u723e\u548c\u6b50\u6839\u96e2\u958b\u7684\u65b9\u5411\uff0c\u9732\u51fa\u82e5\u6709\u6240\u601d\u7684\u8868\u60c5",
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u2026\u2026\u2026\u2026\u55ef\uff1f",
+			"actor": 405020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"say": "\u6c92\u4ec0\u9ebc\uff0c\u6211\u53ea\u662f\u5728\u60f3\uff0c\u59d0\u59b9\u4e4b\u9593\uff0c\u539f\u4f86\u662f\u9019\u6a23\u7684\u611f\u89ba\u554a\u2026\u2026",
+			"actor": 405020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_nepu1"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u9435\u5fc5\u5236\u7684\u81c9\u4e0a\uff0c\u6d6e\u73fe\u51fa\u4e86\u660e\u986f\u7684\u5bc2\u5bde\u611f\u3002",
+			"blackBg": true,
+			"bgName": "bg_story_nepu1"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "TIERBICI3",
+	"once": true
 }

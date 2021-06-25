@@ -1,275 +1,275 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "bgm": "hunhe-battle",
-      "soundeffect": "event:/battle/plane",
-      "side": 2,
-      "say": "웅---------",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "effects": [
-        {
-          "name": "miwu_01",
-          "active": true
-        }
-      ]
-    },
-    {
-      "actor": 107170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "세이렌 폭격기? 언제 돌아온 거지?!"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "그렇게는 안 돼! 받아라!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 102260
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "안개를 틈타 폭격기가 벙커힐을 기습하려고 했다. 하지만 때마침 발사한 리노의 대공 폭격에 재가 되어 사라졌다."
-    },
-    {
-      "say": "고맙다. 전투가 끝날 때 기습으로 부상을 당하면 계산이 맞질 않지.",
-      "actor": 107170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "나도 한 건 했어! 방금은 엄청 멋있었다고, 리노!",
-      "actor": 103240,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "say": "대공에 특화된 애틀란타급이라고? 히어로의 등 뒤는 나에게 맡겨줘.",
-      "actor": 102260,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "say": "주변에 더 다가오는 세이렌의 흔적은 없네요. 이걸로 전투는 잠시 끝인 것 같아요. 일단 요새로 돌아가 보급을 할까요?",
-      "actor": 106550,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "actor": 107170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "안개가 아직 남아있다. 그렇게 쉽지는 않을 것 같은데… 잠깐."
-    },
-    {
-      "say": "어, 이 목소리는… 최종 보스가 나오는 소리인가?",
-      "actor": 102260,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 5
-    },
-    {
-      "actor": 107170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "아니, 소리가 점점 커진다. 이 소리는… 파도 소리! 모두 진정해. 큰 파도가 온다!"
-    },
-    {
-      "actor": 106550,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "에에?! 아무런 이유도 없이 큰 파도가 온다니요!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "shake": {
-        "speed": 1,
-        "number": 3
-      }
-    },
-    {
-      "actor": 103240,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "어쨌든 우리에게 다가오는 것 같아. 다들 조심해서 피해! 말려 들어 가면 큰일이야!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "shake": {
-        "speed": 1,
-        "number": 3
-      }
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "집채만한 파도와 짙은 바다 안개 탓인지 온 바다가 적이 된 것 같은 기분이었다. 일행은 포식자의 입에 떨어진 것 마냥 전력을 다해 삼켜질 운명에 저항했다…"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "WEICENGHUNHE22",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"bgm": "hunhe-battle",
+			"soundeffect": "event:/battle/plane",
+			"side": 2,
+			"say": "\uc6c5---------",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"effects": [
+				{
+					"name": "miwu_01",
+					"active": true
+				}
+			]
+		},
+		{
+			"actor": 107170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc138\uc774\ub80c \ud3ed\uaca9\uae30? \uc5b8\uc81c \ub3cc\uc544\uc628 \uac70\uc9c0?!"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\uadf8\ub807\uac8c\ub294 \uc548 \ub3fc! \ubc1b\uc544\ub77c!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 102260
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc548\uac1c\ub97c \ud2c8\ud0c0 \ud3ed\uaca9\uae30\uac00 \ubc99\ucee4\ud790\uc744 \uae30\uc2b5\ud558\ub824\uace0 \ud588\ub2e4. \ud558\uc9c0\ub9cc \ub54c\ub9c8\uce68 \ubc1c\uc0ac\ud55c \ub9ac\ub178\uc758 \ub300\uacf5 \ud3ed\uaca9\uc5d0 \uc7ac\uac00 \ub418\uc5b4 \uc0ac\ub77c\uc84c\ub2e4."
+		},
+		{
+			"say": "\uace0\ub9d9\ub2e4. \uc804\ud22c\uac00 \ub05d\ub0a0 \ub54c \uae30\uc2b5\uc73c\ub85c \ubd80\uc0c1\uc744 \ub2f9\ud558\uba74 \uacc4\uc0b0\uc774 \ub9de\uc9c8 \uc54a\uc9c0.",
+			"actor": 107170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\ub098\ub3c4 \ud55c \uac74 \ud588\uc5b4! \ubc29\uae08\uc740 \uc5c4\uccad \uba4b\uc788\uc5c8\ub2e4\uace0, \ub9ac\ub178!",
+			"actor": 103240,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"say": "\ub300\uacf5\uc5d0 \ud2b9\ud654\ub41c \uc560\ud2c0\ub780\ud0c0\uae09\uc774\ub77c\uace0? \ud788\uc5b4\ub85c\uc758 \ub4f1 \ub4a4\ub294 \ub098\uc5d0\uac8c \ub9e1\uaca8\uc918.",
+			"actor": 102260,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"say": "\uc8fc\ubcc0\uc5d0 \ub354 \ub2e4\uac00\uc624\ub294 \uc138\uc774\ub80c\uc758 \ud754\uc801\uc740 \uc5c6\ub124\uc694. \uc774\uac78\ub85c \uc804\ud22c\ub294 \uc7a0\uc2dc \ub05d\uc778 \uac83 \uac19\uc544\uc694. \uc77c\ub2e8 \uc694\uc0c8\ub85c \ub3cc\uc544\uac00 \ubcf4\uae09\uc744 \ud560\uae4c\uc694?",
+			"actor": 106550,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"actor": 107170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc548\uac1c\uac00 \uc544\uc9c1 \ub0a8\uc544\uc788\ub2e4. \uadf8\ub807\uac8c \uc27d\uc9c0\ub294 \uc54a\uc744 \uac83 \uac19\uc740\ub370\u2026 \uc7a0\uae50."
+		},
+		{
+			"say": "\uc5b4, \uc774 \ubaa9\uc18c\ub9ac\ub294\u2026 \ucd5c\uc885 \ubcf4\uc2a4\uac00 \ub098\uc624\ub294 \uc18c\ub9ac\uc778\uac00?",
+			"actor": 102260,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 5
+		},
+		{
+			"actor": 107170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc544\ub2c8, \uc18c\ub9ac\uac00 \uc810\uc810 \ucee4\uc9c4\ub2e4. \uc774 \uc18c\ub9ac\ub294\u2026 \ud30c\ub3c4 \uc18c\ub9ac! \ubaa8\ub450 \uc9c4\uc815\ud574. \ud070 \ud30c\ub3c4\uac00 \uc628\ub2e4!"
+		},
+		{
+			"actor": 106550,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uc5d0\uc5d0?! \uc544\ubb34\ub7f0 \uc774\uc720\ub3c4 \uc5c6\uc774 \ud070 \ud30c\ub3c4\uac00 \uc628\ub2e4\ub2c8\uc694!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"shake": {
+				"speed": 1,
+				"number": 3
+			}
+		},
+		{
+			"actor": 103240,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\uc5b4\uca0c\ub4e0 \uc6b0\ub9ac\uc5d0\uac8c \ub2e4\uac00\uc624\ub294 \uac83 \uac19\uc544. \ub2e4\ub4e4 \uc870\uc2ec\ud574\uc11c \ud53c\ud574! \ub9d0\ub824 \ub4e4\uc5b4 \uac00\uba74 \ud070\uc77c\uc774\uc57c!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"shake": {
+				"speed": 1,
+				"number": 3
+			}
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc9d1\ucc44\ub9cc\ud55c \ud30c\ub3c4\uc640 \uc9d9\uc740 \ubc14\ub2e4 \uc548\uac1c \ud0d3\uc778\uc9c0 \uc628 \ubc14\ub2e4\uac00 \uc801\uc774 \ub41c \uac83 \uac19\uc740 \uae30\ubd84\uc774\uc5c8\ub2e4. \uc77c\ud589\uc740 \ud3ec\uc2dd\uc790\uc758 \uc785\uc5d0 \ub5a8\uc5b4\uc9c4 \uac83 \ub9c8\ub0e5 \uc804\ub825\uc744 \ub2e4\ud574 \uc0bc\ucf1c\uc9c8 \uc6b4\uba85\uc5d0 \uc800\ud56d\ud588\ub2e4\u2026"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "WEICENGHUNHE22",
+	"once": true
 }

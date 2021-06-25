@@ -1,319 +1,319 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "榮光的間奏曲\n\n<size=45>五 和驅逐艦們一起</size>",
-          1
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "side": 2,
-      "bgm": "story-1",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "港區·工廠",
-      "dir": 1,
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "今天接到{namecode:98}的委託，來工廠整理備用品和裝備。",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "阿卡司塔，不要偷懶，快來幫忙啦！我們答應了光榮要幫忙不是嘛！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 22.5,
-          "type": "shake",
-          "dur": 0.1,
-          "delay": 0,
-          "number": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201020,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "呵啊……我有在做啊……這邊的灰塵也太多了……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "等一下，那邊我自己打掃就好，熱心和阿卡司塔先檢查一下備用品清單吧。",
-      "actor": 207060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201020,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "感覺全都是光榮一個人在忙……明明我們是來幫忙的，這算幫忙嗎……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "妳們不用在意。這邊本來就是髒活，我來幹就好了。再說還有指揮官呢。",
-      "actor": 207060,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201030,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "光榮妳真的不要緊嗎？這活可不輕啊。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "自己和光榮兩個人就能解決",
-          "flag": 1
-        },
-        {
-          "content": "還是拜託驅逐艦們幫忙",
-          "flag": 2
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 207060,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "optionFlag": 1,
-      "say": "沒事，妳看指揮官不也說了嗎。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201030,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "optionFlag": 1,
-      "say": "不過……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201020,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "optionFlag": 1,
-      "say": "交給指揮官就行了吧。熱心，咱們可以先忙完那邊再回來啊。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 207060,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "optionFlag": 2,
-      "say": "指揮官，她們還有那邊要忙，這裡有我們倆就夠了吧……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201030,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "optionFlag": 2,
-      "say": "我們沒事的！本來就是我們自己說要給光榮幫忙的……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "actor": 201020,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "optionFlag": 2,
-      "say": "熱心妳過來……（竊竊私語）……好了，我們就先去收拾那邊了。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "拜託妳們啦。……好了，指揮官我們也幹活吧！",
-      "actor": 207060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "要做的事情本身並沒有難度，但是這麼多的大型裝備，就算是航母光榮也有些吃不消。……感覺驅逐艦們確實幫不上什麼忙。",
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "say": "唔……好、好沉……哈……哈……",
-      "actor": 207060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_outdoor"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "光榮她沒事吧……",
-      "blackBg": true,
-      "bgName": "bg_story_outdoor"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "GUANGRONG5",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"\u69ae\u5149\u7684\u9593\u594f\u66f2\n\n<size=45>\u4e94 \u548c\u9a45\u9010\u8266\u5011\u4e00\u8d77</size>",
+					1
+				]
+			],
+			"mode": 1
+		},
+		{
+			"side": 2,
+			"bgm": "story-1",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u6e2f\u5340\u00b7\u5de5\u5ee0",
+			"dir": 1,
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4eca\u5929\u63a5\u5230{namecode:98}\u7684\u59d4\u8a17\uff0c\u4f86\u5de5\u5ee0\u6574\u7406\u5099\u7528\u54c1\u548c\u88dd\u5099\u3002",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u963f\u5361\u53f8\u5854\uff0c\u4e0d\u8981\u5077\u61f6\uff0c\u5feb\u4f86\u5e6b\u5fd9\u5566\uff01\u6211\u5011\u7b54\u61c9\u4e86\u5149\u69ae\u8981\u5e6b\u5fd9\u4e0d\u662f\u561b\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 22.5,
+					"type": "shake",
+					"dur": 0.1,
+					"delay": 0,
+					"number": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201020,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u5475\u554a\u2026\u2026\u6211\u6709\u5728\u505a\u554a\u2026\u2026\u9019\u908a\u7684\u7070\u5875\u4e5f\u592a\u591a\u4e86\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u7b49\u4e00\u4e0b\uff0c\u90a3\u908a\u6211\u81ea\u5df1\u6253\u6383\u5c31\u597d\uff0c\u71b1\u5fc3\u548c\u963f\u5361\u53f8\u5854\u5148\u6aa2\u67e5\u4e00\u4e0b\u5099\u7528\u54c1\u6e05\u55ae\u5427\u3002",
+			"actor": 207060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201020,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u611f\u89ba\u5168\u90fd\u662f\u5149\u69ae\u4e00\u500b\u4eba\u5728\u5fd9\u2026\u2026\u660e\u660e\u6211\u5011\u662f\u4f86\u5e6b\u5fd9\u7684\uff0c\u9019\u7b97\u5e6b\u5fd9\u55ce\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u59b3\u5011\u4e0d\u7528\u5728\u610f\u3002\u9019\u908a\u672c\u4f86\u5c31\u662f\u9ad2\u6d3b\uff0c\u6211\u4f86\u5e79\u5c31\u597d\u4e86\u3002\u518d\u8aaa\u9084\u6709\u6307\u63ee\u5b98\u5462\u3002",
+			"actor": 207060,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201030,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u5149\u69ae\u59b3\u771f\u7684\u4e0d\u8981\u7dca\u55ce\uff1f\u9019\u6d3b\u53ef\u4e0d\u8f15\u554a\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u81ea\u5df1\u548c\u5149\u69ae\u5169\u500b\u4eba\u5c31\u80fd\u89e3\u6c7a",
+					"flag": 1
+				},
+				{
+					"content": "\u9084\u662f\u62dc\u8a17\u9a45\u9010\u8266\u5011\u5e6b\u5fd9",
+					"flag": 2
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 207060,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"optionFlag": 1,
+			"say": "\u6c92\u4e8b\uff0c\u59b3\u770b\u6307\u63ee\u5b98\u4e0d\u4e5f\u8aaa\u4e86\u55ce\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201030,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"optionFlag": 1,
+			"say": "\u4e0d\u904e\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201020,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"optionFlag": 1,
+			"say": "\u4ea4\u7d66\u6307\u63ee\u5b98\u5c31\u884c\u4e86\u5427\u3002\u71b1\u5fc3\uff0c\u54b1\u5011\u53ef\u4ee5\u5148\u5fd9\u5b8c\u90a3\u908a\u518d\u56de\u4f86\u554a\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 207060,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"optionFlag": 2,
+			"say": "\u6307\u63ee\u5b98\uff0c\u5979\u5011\u9084\u6709\u90a3\u908a\u8981\u5fd9\uff0c\u9019\u88e1\u6709\u6211\u5011\u5006\u5c31\u5920\u4e86\u5427\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201030,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"optionFlag": 2,
+			"say": "\u6211\u5011\u6c92\u4e8b\u7684\uff01\u672c\u4f86\u5c31\u662f\u6211\u5011\u81ea\u5df1\u8aaa\u8981\u7d66\u5149\u69ae\u5e6b\u5fd9\u7684\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"actor": 201020,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"optionFlag": 2,
+			"say": "\u71b1\u5fc3\u59b3\u904e\u4f86\u2026\u2026\uff08\u7aca\u7aca\u79c1\u8a9e\uff09\u2026\u2026\u597d\u4e86\uff0c\u6211\u5011\u5c31\u5148\u53bb\u6536\u62fe\u90a3\u908a\u4e86\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u62dc\u8a17\u59b3\u5011\u5566\u3002\u2026\u2026\u597d\u4e86\uff0c\u6307\u63ee\u5b98\u6211\u5011\u4e5f\u5e79\u6d3b\u5427\uff01",
+			"actor": 207060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u8981\u505a\u7684\u4e8b\u60c5\u672c\u8eab\u4e26\u6c92\u6709\u96e3\u5ea6\uff0c\u4f46\u662f\u9019\u9ebc\u591a\u7684\u5927\u578b\u88dd\u5099\uff0c\u5c31\u7b97\u662f\u822a\u6bcd\u5149\u69ae\u4e5f\u6709\u4e9b\u5403\u4e0d\u6d88\u3002\u2026\u2026\u611f\u89ba\u9a45\u9010\u8266\u5011\u78ba\u5be6\u5e6b\u4e0d\u4e0a\u4ec0\u9ebc\u5fd9\u3002",
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"say": "\u5514\u2026\u2026\u597d\u3001\u597d\u6c89\u2026\u2026\u54c8\u2026\u2026\u54c8\u2026\u2026",
+			"actor": 207060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_outdoor"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5149\u69ae\u5979\u6c92\u4e8b\u5427\u2026\u2026",
+			"blackBg": true,
+			"bgName": "bg_story_outdoor"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "GUANGRONG5",
+	"once": true
 }

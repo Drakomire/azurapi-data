@@ -1,337 +1,337 @@
 {
-  "jumpto": "LINKPREHEAT10-1",
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "bgm": "level-uta",
-      "actor": 312010,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "有谁能把那玩意儿引开一段时间吗喵"
-    },
-    {
-      "say": "引开……佯攻作战吗？",
-      "actor": 301050,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      }
-    },
-    {
-      "actor": 401230,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "{namecode:98}小姐，你一定有什么妙策了吧"
-    },
-    {
-      "actor": 312010,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "是的喵，虽然原理还没搞清楚，不过这个“结界”也会受到我们的干扰的影响喵。持续干扰的话没准能和另一个世界的人一起把塞壬的“结界”破坏掉呢喵"
-    },
-    {
-      "actor": 312010,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "顺利的话，也许能打烂塞壬的算盘喵"
-    },
-    {
-      "actor": 101170,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "好的……那拉菲来引开她吧"
-    },
-    {
-      "actor": 201210,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "标枪也来帮忙！"
-    },
-    {
-      "actor": 312010,
-      "side": 0,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "不……这个作战我想交给久远队伍的人喵"
-    },
-    {
-      "actor": 10300010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "我们吗？"
-    },
-    {
-      "actor": 312010,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "塞壬比起我们更重视来自异世界的你们喵。大概是想要获取你们的数据吧喵"
-    },
-    {
-      "actor": 10300020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "所以我们更适合佯攻的意思吗"
-    },
-    {
-      "actor": 312010,
-      "side": 2,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "say": "虽然我也知道这很强人所难……不过能拜托你们吗喵",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "compulsory": true,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "options": [
-        {
-          "content": "选择久远进行作战",
-          "flag": 1
-        },
-        {
-          "content": "选择猫音进行作战",
-          "flag": 2
-        },
-        {
-          "content": "选择露露缇耶进行作战",
-          "flag": 3
-        },
-        {
-          "content": "选择乌璐露进行作战",
-          "flag": 4
-        },
-        {
-          "content": "选择萨拉娜进行作战",
-          "flag": 5
-        },
-        {
-          "content": "选择芙米露露进行作战",
-          "flag": 6
-        }
-      ]
-    },
-    {
-      "optionFlag": 1,
-      "side": 2,
-      "dir": 1,
-      "jumpto": "LINKPREHEAT10-1",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "say": "选择久远"
-    },
-    {
-      "optionFlag": 2,
-      "side": 2,
-      "dir": 1,
-      "jumpto": "LINKPREHEAT12-1",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "say": "选择猫音"
-    },
-    {
-      "optionFlag": 3,
-      "side": 2,
-      "dir": 1,
-      "jumpto": "LINKPREHEAT11-1",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "say": "选择露露缇耶"
-    },
-    {
-      "optionFlag": 4,
-      "side": 2,
-      "dir": 1,
-      "jumpto": "LINKPREHEAT13-1",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "say": "选择乌璐露"
-    },
-    {
-      "optionFlag": 5,
-      "side": 2,
-      "dir": 1,
-      "jumpto": "LINKPREHEAT14-1",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "say": "选择萨拉娜"
-    },
-    {
-      "optionFlag": 6,
-      "side": 2,
-      "dir": 1,
-      "jumpto": "LINKPREHEAT15-1",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "say": "选择芙米露露"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "LINKPREHEAT9-2",
-  "once": true
+	"jumpto": "LINKPREHEAT10-1",
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"bgm": "level-uta",
+			"actor": 312010,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6709\u8c01\u80fd\u628a\u90a3\u73a9\u610f\u513f\u5f15\u5f00\u4e00\u6bb5\u65f6\u95f4\u5417\u55b5"
+		},
+		{
+			"say": "\u5f15\u5f00\u2026\u2026\u4f6f\u653b\u4f5c\u6218\u5417\uff1f",
+			"actor": 301050,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			}
+		},
+		{
+			"actor": 401230,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "{namecode:98}\u5c0f\u59d0\uff0c\u4f60\u4e00\u5b9a\u6709\u4ec0\u4e48\u5999\u7b56\u4e86\u5427"
+		},
+		{
+			"actor": 312010,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u662f\u7684\u55b5\uff0c\u867d\u7136\u539f\u7406\u8fd8\u6ca1\u641e\u6e05\u695a\uff0c\u4e0d\u8fc7\u8fd9\u4e2a\u201c\u7ed3\u754c\u201d\u4e5f\u4f1a\u53d7\u5230\u6211\u4eec\u7684\u5e72\u6270\u7684\u5f71\u54cd\u55b5\u3002\u6301\u7eed\u5e72\u6270\u7684\u8bdd\u6ca1\u51c6\u80fd\u548c\u53e6\u4e00\u4e2a\u4e16\u754c\u7684\u4eba\u4e00\u8d77\u628a\u585e\u58ec\u7684\u201c\u7ed3\u754c\u201d\u7834\u574f\u6389\u5462\u55b5"
+		},
+		{
+			"actor": 312010,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u987a\u5229\u7684\u8bdd\uff0c\u4e5f\u8bb8\u80fd\u6253\u70c2\u585e\u58ec\u7684\u7b97\u76d8\u55b5"
+		},
+		{
+			"actor": 101170,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u597d\u7684\u2026\u2026\u90a3\u62c9\u83f2\u6765\u5f15\u5f00\u5979\u5427"
+		},
+		{
+			"actor": 201210,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6807\u67aa\u4e5f\u6765\u5e2e\u5fd9\uff01"
+		},
+		{
+			"actor": 312010,
+			"side": 0,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u4e0d\u2026\u2026\u8fd9\u4e2a\u4f5c\u6218\u6211\u60f3\u4ea4\u7ed9\u4e45\u8fdc\u961f\u4f0d\u7684\u4eba\u55b5"
+		},
+		{
+			"actor": 10300010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6211\u4eec\u5417\uff1f"
+		},
+		{
+			"actor": 312010,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u585e\u58ec\u6bd4\u8d77\u6211\u4eec\u66f4\u91cd\u89c6\u6765\u81ea\u5f02\u4e16\u754c\u7684\u4f60\u4eec\u55b5\u3002\u5927\u6982\u662f\u60f3\u8981\u83b7\u53d6\u4f60\u4eec\u7684\u6570\u636e\u5427\u55b5"
+		},
+		{
+			"actor": 10300020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6240\u4ee5\u6211\u4eec\u66f4\u9002\u5408\u4f6f\u653b\u7684\u610f\u601d\u5417"
+		},
+		{
+			"actor": 312010,
+			"side": 2,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"say": "\u867d\u7136\u6211\u4e5f\u77e5\u9053\u8fd9\u5f88\u5f3a\u4eba\u6240\u96be\u2026\u2026\u4e0d\u8fc7\u80fd\u62dc\u6258\u4f60\u4eec\u5417\u55b5",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"compulsory": true,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"options": [
+				{
+					"content": "\u9009\u62e9\u4e45\u8fdc\u8fdb\u884c\u4f5c\u6218",
+					"flag": 1
+				},
+				{
+					"content": "\u9009\u62e9\u732b\u97f3\u8fdb\u884c\u4f5c\u6218",
+					"flag": 2
+				},
+				{
+					"content": "\u9009\u62e9\u9732\u9732\u7f07\u8036\u8fdb\u884c\u4f5c\u6218",
+					"flag": 3
+				},
+				{
+					"content": "\u9009\u62e9\u4e4c\u7490\u9732\u8fdb\u884c\u4f5c\u6218",
+					"flag": 4
+				},
+				{
+					"content": "\u9009\u62e9\u8428\u62c9\u5a1c\u8fdb\u884c\u4f5c\u6218",
+					"flag": 5
+				},
+				{
+					"content": "\u9009\u62e9\u8299\u7c73\u9732\u9732\u8fdb\u884c\u4f5c\u6218",
+					"flag": 6
+				}
+			]
+		},
+		{
+			"optionFlag": 1,
+			"side": 2,
+			"dir": 1,
+			"jumpto": "LINKPREHEAT10-1",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"say": "\u9009\u62e9\u4e45\u8fdc"
+		},
+		{
+			"optionFlag": 2,
+			"side": 2,
+			"dir": 1,
+			"jumpto": "LINKPREHEAT12-1",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"say": "\u9009\u62e9\u732b\u97f3"
+		},
+		{
+			"optionFlag": 3,
+			"side": 2,
+			"dir": 1,
+			"jumpto": "LINKPREHEAT11-1",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"say": "\u9009\u62e9\u9732\u9732\u7f07\u8036"
+		},
+		{
+			"optionFlag": 4,
+			"side": 2,
+			"dir": 1,
+			"jumpto": "LINKPREHEAT13-1",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"say": "\u9009\u62e9\u4e4c\u7490\u9732"
+		},
+		{
+			"optionFlag": 5,
+			"side": 2,
+			"dir": 1,
+			"jumpto": "LINKPREHEAT14-1",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"say": "\u9009\u62e9\u8428\u62c9\u5a1c"
+		},
+		{
+			"optionFlag": 6,
+			"side": 2,
+			"dir": 1,
+			"jumpto": "LINKPREHEAT15-1",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"say": "\u9009\u62e9\u8299\u7c73\u9732\u9732"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "LINKPREHEAT9-2",
+	"once": true
 }

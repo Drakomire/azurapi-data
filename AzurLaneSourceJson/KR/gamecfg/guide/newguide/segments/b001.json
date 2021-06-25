@@ -1,145 +1,145 @@
 {
-  "id": "B001",
-  "events": [
-    {
-      "hideui": [
-        {
-          "ishide": true,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
-        },
-        {
-          "ishide": true,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
-        },
-        {
-          "ishide": true,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
-        }
-      ],
-      "alpha": 0.34,
-      "code": [
-        "HideSkillUI"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "신병, 지금부터 아마존이 함대 운영을 가르쳐 주겠어!",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowStick"
-      ]
-    },
-    {
-      "ui": {
-        "triggerType": [
-          4
-        ],
-        "path": "/UICamera/Canvas/UIMain/CombatUI(Clone)/Stick/Area"
-      },
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "우선 <color=#ff7d36>스틱을 당겨서</color> 함선을 움직여 보도록!",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowStick"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "전열의 <color=#ff7d36>선봉함대</color>는 함포를 사용해서 <color=#ff7d36>자동으로 공격</color>해.",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_2"
-      ]
-    },
-    {
-      "hideui": [
-        {
-          "ishide": false,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
-        }
-      ],
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_2"
-      ]
-    },
-    {
-      "ui": {
-        "triggerType": [
-          3
-        ],
-        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl"
-      },
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "다음은 버튼을 눌러서 <color=#ff7d36>어뢰를 발사</color> 해보자!",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_2"
-      ]
-    },
-    {
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "방어력이 높은 적을 상대할 땐 후열 주력함대의 <color=#ff7d36>주포</color>로 공격하는 게 효과적이야!",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_1"
-      ]
-    },
-    {
-      "hideui": [
-        {
-          "ishide": false,
-          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
-        }
-      ],
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_1"
-      ]
-    },
-    {
-      "ui": {
-        "triggerType": [
-          3
-        ],
-        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl"
-      },
-      "style": {
-        "posY": 0,
-        "dir": 1,
-        "text": "버튼을 누르면 주포를 발사할 수 있어! <color=#ff7d36>버튼을 누르고 있으면</color>수동 조준도 가능하다고!",
-        "posX": 0,
-        "mode": 2
-      },
-      "alpha": 0.34,
-      "code": [
-        "ShowSkill_1"
-      ]
-    }
-  ]
+	"id": "B001",
+	"events": [
+		{
+			"hideui": [
+				{
+					"ishide": true,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+				},
+				{
+					"ishide": true,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+				},
+				{
+					"ishide": true,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+				}
+			],
+			"alpha": 0.34,
+			"code": [
+				"HideSkillUI"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\uc2e0\ubcd1, \uc9c0\uae08\ubd80\ud130 \uc544\ub9c8\uc874\uc774 \ud568\ub300 \uc6b4\uc601\uc744 \uac00\ub974\uccd0 \uc8fc\uaca0\uc5b4!",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowStick"
+			]
+		},
+		{
+			"ui": {
+				"triggerType": [
+					4
+				],
+				"path": "/UICamera/Canvas/UIMain/CombatUI(Clone)/Stick/Area"
+			},
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\uc6b0\uc120 <color=#ff7d36>\uc2a4\ud2f1\uc744 \ub2f9\uaca8\uc11c</color> \ud568\uc120\uc744 \uc6c0\uc9c1\uc5ec \ubcf4\ub3c4\ub85d!",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowStick"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\uc804\uc5f4\uc758 <color=#ff7d36>\uc120\ubd09\ud568\ub300</color>\ub294 \ud568\ud3ec\ub97c \uc0ac\uc6a9\ud574\uc11c <color=#ff7d36>\uc790\ub3d9\uc73c\ub85c \uacf5\uaca9</color>\ud574.",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_2"
+			]
+		},
+		{
+			"hideui": [
+				{
+					"ishide": false,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+				}
+			],
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_2"
+			]
+		},
+		{
+			"ui": {
+				"triggerType": [
+					3
+				],
+				"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl"
+			},
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\ub2e4\uc74c\uc740 \ubc84\ud2bc\uc744 \ub20c\ub7ec\uc11c <color=#ff7d36>\uc5b4\ub8b0\ub97c \ubc1c\uc0ac</color> \ud574\ubcf4\uc790!",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_2"
+			]
+		},
+		{
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\ubc29\uc5b4\ub825\uc774 \ub192\uc740 \uc801\uc744 \uc0c1\ub300\ud560 \ub550 \ud6c4\uc5f4 \uc8fc\ub825\ud568\ub300\uc758 <color=#ff7d36>\uc8fc\ud3ec</color>\ub85c \uacf5\uaca9\ud558\ub294 \uac8c \ud6a8\uacfc\uc801\uc774\uc57c!",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_1"
+			]
+		},
+		{
+			"hideui": [
+				{
+					"ishide": false,
+					"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+				}
+			],
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_1"
+			]
+		},
+		{
+			"ui": {
+				"triggerType": [
+					3
+				],
+				"path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl"
+			},
+			"style": {
+				"posY": 0,
+				"dir": 1,
+				"text": "\ubc84\ud2bc\uc744 \ub204\ub974\uba74 \uc8fc\ud3ec\ub97c \ubc1c\uc0ac\ud560 \uc218 \uc788\uc5b4! <color=#ff7d36>\ubc84\ud2bc\uc744 \ub204\ub974\uace0 \uc788\uc73c\uba74</color>\uc218\ub3d9 \uc870\uc900\ub3c4 \uac00\ub2a5\ud558\ub2e4\uace0!",
+				"posX": 0,
+				"mode": 2
+			},
+			"alpha": 0.34,
+			"code": [
+				"ShowSkill_1"
+			]
+		}
+	]
 }

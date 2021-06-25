@@ -1,46 +1,46 @@
 {
-  "picture": "",
-  "id": 60015,
-  "desc": "舰队之眼-标记",
-  "last_effect": "",
-  "time": 10,
-  "icon": 60015,
-  "effect_list": [
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "group": 60015,
-        "attr": "injureRatio",
-        "number": 0.5
-      }
-    },
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "group": 60015,
-        "attr": "injureRatioByShipID_109",
-        "number": 0.333
-      }
-    },
-    {
-      "trigger": [
-        "onBeHit"
-      ],
-      "type": "BattleBuffCancelBuff",
-      "arg_list": {
-        "count": 1
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "Darkness",
-  "name": "测试-海伦娜-标记"
+	"picture": "",
+	"id": 60015,
+	"desc": "\u8230\u961f\u4e4b\u773c-\u6807\u8bb0",
+	"last_effect": "",
+	"time": 10,
+	"icon": 60015,
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach",
+				"onRemove"
+			],
+			"type": "BattleBuffAddAttr",
+			"arg_list": {
+				"group": 60015,
+				"attr": "injureRatio",
+				"number": 0.5
+			}
+		},
+		{
+			"trigger": [
+				"onAttach",
+				"onRemove"
+			],
+			"type": "BattleBuffAddAttr",
+			"arg_list": {
+				"group": 60015,
+				"attr": "injureRatioByShipID_109",
+				"number": 0.333
+			}
+		},
+		{
+			"trigger": [
+				"onBeHit"
+			],
+			"type": "BattleBuffCancelBuff",
+			"arg_list": {
+				"count": 1
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "Darkness",
+	"name": "\u6d4b\u8bd5-\u6d77\u4f26\u5a1c-\u6807\u8bb0"
 }

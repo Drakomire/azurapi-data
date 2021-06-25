@@ -1,39 +1,39 @@
 {
-  "1": {},
-  "picture": "",
-  "id": 29452,
-  "desc": "主武器每进行10次攻击，触发专属弹幕-克利夫兰μII",
-  "color": "red",
-  "last_effect": "",
-  "time": 0,
-  "icon": 29450,
-  "effect_list": [
-    {
-      "trigger": [
-        "onFire"
-      ],
-      "type": "BattleBuffCount",
-      "arg_list": {
-        "countTarget": 10,
-        "countType": 29450,
-        "index": [
-          1
-        ]
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "countType": 29450,
-        "skill_id": 29452
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "专属弹幕"
+	"1": [],
+	"picture": "",
+	"id": 29452,
+	"desc": "\u4e3b\u6b66\u5668\u6bcf\u8fdb\u884c10\u6b21\u653b\u51fb\uff0c\u89e6\u53d1\u4e13\u5c5e\u5f39\u5e55-\u514b\u5229\u592b\u5170\u03bcII",
+	"color": "red",
+	"last_effect": "",
+	"time": 0,
+	"icon": 29450,
+	"effect_list": [
+		{
+			"trigger": [
+				"onFire"
+			],
+			"type": "BattleBuffCount",
+			"arg_list": {
+				"countTarget": 10,
+				"countType": 29450,
+				"index": [
+					1
+				]
+			}
+		},
+		{
+			"trigger": [
+				"onBattleBuffCount"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"target": "TargetSelf",
+				"countType": 29450,
+				"skill_id": 29452
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u4e13\u5c5e\u5f39\u5e55"
 }

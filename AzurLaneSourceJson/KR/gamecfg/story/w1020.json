@@ -1,51 +1,51 @@
 {
-  "skipTip": false,
-  "scripts": [
-    {
-      "say": "세이렌 신호 발생 장치를 발견했다. 에너지가 고갈되어 정상 운행은 불가능하지만, 부숴버린다면 약간의 재료를 회수할 수 있다.",
-      "actor": 900284,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#a9f548"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "설비 가동",
-          "flag": 0
-        },
-        {
-          "content": "설비 파괴",
-          "flag": 1
-        },
-        {
-          "content": "설비 종료",
-          "flag": 2
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "설비 가동 시 [세이렌 에너지 저장 장치] 1개를 소모합니다. 가동하시겠습니까?"
-    }
-  ],
-  "id": "W1020",
-  "mode": 2,
-  "once": true
+	"skipTip": false,
+	"scripts": [
+		{
+			"say": "\uc138\uc774\ub80c \uc2e0\ud638 \ubc1c\uc0dd \uc7a5\uce58\ub97c \ubc1c\uacac\ud588\ub2e4. \uc5d0\ub108\uc9c0\uac00 \uace0\uac08\ub418\uc5b4 \uc815\uc0c1 \uc6b4\ud589\uc740 \ubd88\uac00\ub2a5\ud558\uc9c0\ub9cc, \ubd80\uc234\ubc84\ub9b0\ub2e4\uba74 \uc57d\uac04\uc758 \uc7ac\ub8cc\ub97c \ud68c\uc218\ud560 \uc218 \uc788\ub2e4.",
+			"actor": 900284,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#a9f548"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\uc124\ube44 \uac00\ub3d9",
+					"flag": 0
+				},
+				{
+					"content": "\uc124\ube44 \ud30c\uad34",
+					"flag": 1
+				},
+				{
+					"content": "\uc124\ube44 \uc885\ub8cc",
+					"flag": 2
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc124\ube44 \uac00\ub3d9 \uc2dc [\uc138\uc774\ub80c \uc5d0\ub108\uc9c0 \uc800\uc7a5 \uc7a5\uce58] 1\uac1c\ub97c \uc18c\ubaa8\ud569\ub2c8\ub2e4. \uac00\ub3d9\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"
+		}
+	],
+	"id": "W1020",
+	"mode": 2,
+	"once": true
 }

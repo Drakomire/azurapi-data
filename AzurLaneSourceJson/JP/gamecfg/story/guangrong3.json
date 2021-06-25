@@ -1,290 +1,290 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "栄光なる間奏曲\n\n<size=45>その三　女王事案Ⅰ</size>",
-          1
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "actor": 207060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "指揮官、すみません、アーク・ロイヤルさんを探すのを手伝ってもらっちゃって…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 207060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "…あ、あそこにいるのは！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.2,
-          "delay": 0,
-          "number": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 207020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.4,
-          "delay": 0,
-          "number": 2
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "陛下、これは無実です！私はあくまで委託に出かけた駆逐艦の妹たちが心配でこっそり母港まで護衛していただけで、別にウォースパイト様を尾行していたわけではありません！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 205020,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "私もそう思いますね…いくらアーク・ロイヤルでもそのような不埒なことはしないはず…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 205010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "黙りなさい！私は見たわ！あなたが妙な笑いを浮かべてウォースパイトの後ろにこっそり付いていくところ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "delay": 0,
-          "number": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 207020,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "ですからそれはウォースパイト様ではなく、その後ろで一緒に出撃していた駆逐艦たちをび…じゃなくて、護衛していただけです！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "陛下、一介のメイドにすぎない私が進言するなど大変恐縮ではございますが、ここはアーク・ロイヤルの証言が真実かどうか調査したほうが良いかと……",
-      "actor": 202120,
-      "side": 1,
-      "dir": -1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "いらないわ！これは状況証拠よ！普段のこともあるし今回は絶対に逃さないわ！",
-      "actor": 205010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "陛下！こ、今回は話が別です！考え直してください！",
-      "actor": 207020,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "見なかったことにする",
-          "flag": 1
-        },
-        {
-          "content": "遠巻きから観察する",
-          "flag": 2
-        }
-      ],
-      "say": "なんか面倒事が起きているな……",
-      "bgName": "bg_story_school"
-    },
-    {
-      "say": "……陛下、お待ち下さい！",
-      "actor": 207060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 205010,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "グロリアス！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    },
-    {
-      "actor": 207060,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "お言葉ですが、私はアーク・ロイヤルさんが無実だと証明することができます！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_school"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "GUANGRONG3",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"\u6804\u5149\u306a\u308b\u9593\u594f\u66f2\n\n<size=45>\u305d\u306e\u4e09\u3000\u5973\u738b\u4e8b\u6848\u2160</size>",
+					1
+				]
+			],
+			"mode": 1
+		},
+		{
+			"actor": 207060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u6307\u63ee\u5b98\u3001\u3059\u307f\u307e\u305b\u3093\u3001\u30a2\u30fc\u30af\u30fb\u30ed\u30a4\u30e4\u30eb\u3055\u3093\u3092\u63a2\u3059\u306e\u3092\u624b\u4f1d\u3063\u3066\u3082\u3089\u3063\u3061\u3083\u3063\u3066\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 207060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u2026\u3042\u3001\u3042\u305d\u3053\u306b\u3044\u308b\u306e\u306f\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.2,
+					"delay": 0,
+					"number": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 207020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.4,
+					"delay": 0,
+					"number": 2
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u965b\u4e0b\u3001\u3053\u308c\u306f\u7121\u5b9f\u3067\u3059\uff01\u79c1\u306f\u3042\u304f\u307e\u3067\u59d4\u8a17\u306b\u51fa\u304b\u3051\u305f\u99c6\u9010\u8266\u306e\u59b9\u305f\u3061\u304c\u5fc3\u914d\u3067\u3053\u3063\u305d\u308a\u6bcd\u6e2f\u307e\u3067\u8b77\u885b\u3057\u3066\u3044\u305f\u3060\u3051\u3067\u3001\u5225\u306b\u30a6\u30a9\u30fc\u30b9\u30d1\u30a4\u30c8\u69d8\u3092\u5c3e\u884c\u3057\u3066\u3044\u305f\u308f\u3051\u3067\u306f\u3042\u308a\u307e\u305b\u3093\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 205020,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u79c1\u3082\u305d\u3046\u601d\u3044\u307e\u3059\u306d\u2026\u3044\u304f\u3089\u30a2\u30fc\u30af\u30fb\u30ed\u30a4\u30e4\u30eb\u3067\u3082\u305d\u306e\u3088\u3046\u306a\u4e0d\u57d2\u306a\u3053\u3068\u306f\u3057\u306a\u3044\u306f\u305a\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 205010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u9ed9\u308a\u306a\u3055\u3044\uff01\u79c1\u306f\u898b\u305f\u308f\uff01\u3042\u306a\u305f\u304c\u5999\u306a\u7b11\u3044\u3092\u6d6e\u304b\u3079\u3066\u30a6\u30a9\u30fc\u30b9\u30d1\u30a4\u30c8\u306e\u5f8c\u308d\u306b\u3053\u3063\u305d\u308a\u4ed8\u3044\u3066\u3044\u304f\u3068\u3053\u308d\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"delay": 0,
+					"number": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 207020,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3067\u3059\u304b\u3089\u305d\u308c\u306f\u30a6\u30a9\u30fc\u30b9\u30d1\u30a4\u30c8\u69d8\u3067\u306f\u306a\u304f\u3001\u305d\u306e\u5f8c\u308d\u3067\u4e00\u7dd2\u306b\u51fa\u6483\u3057\u3066\u3044\u305f\u99c6\u9010\u8266\u305f\u3061\u3092\u3073\u2026\u3058\u3083\u306a\u304f\u3066\u3001\u8b77\u885b\u3057\u3066\u3044\u305f\u3060\u3051\u3067\u3059\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u965b\u4e0b\u3001\u4e00\u4ecb\u306e\u30e1\u30a4\u30c9\u306b\u3059\u304e\u306a\u3044\u79c1\u304c\u9032\u8a00\u3059\u308b\u306a\u3069\u5927\u5909\u6050\u7e2e\u3067\u306f\u3054\u3056\u3044\u307e\u3059\u304c\u3001\u3053\u3053\u306f\u30a2\u30fc\u30af\u30fb\u30ed\u30a4\u30e4\u30eb\u306e\u8a3c\u8a00\u304c\u771f\u5b9f\u304b\u3069\u3046\u304b\u8abf\u67fb\u3057\u305f\u307b\u3046\u304c\u826f\u3044\u304b\u3068\u2026\u2026",
+			"actor": 202120,
+			"side": 1,
+			"dir": -1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u3044\u3089\u306a\u3044\u308f\uff01\u3053\u308c\u306f\u72b6\u6cc1\u8a3c\u62e0\u3088\uff01\u666e\u6bb5\u306e\u3053\u3068\u3082\u3042\u308b\u3057\u4eca\u56de\u306f\u7d76\u5bfe\u306b\u9003\u3055\u306a\u3044\u308f\uff01",
+			"actor": 205010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u965b\u4e0b\uff01\u3053\u3001\u4eca\u56de\u306f\u8a71\u304c\u5225\u3067\u3059\uff01\u8003\u3048\u76f4\u3057\u3066\u304f\u3060\u3055\u3044\uff01",
+			"actor": 207020,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\u898b\u306a\u304b\u3063\u305f\u3053\u3068\u306b\u3059\u308b",
+					"flag": 1
+				},
+				{
+					"content": "\u9060\u5dfb\u304d\u304b\u3089\u89b3\u5bdf\u3059\u308b",
+					"flag": 2
+				}
+			],
+			"say": "\u306a\u3093\u304b\u9762\u5012\u4e8b\u304c\u8d77\u304d\u3066\u3044\u308b\u306a\u2026\u2026",
+			"bgName": "bg_story_school"
+		},
+		{
+			"say": "\u2026\u2026\u965b\u4e0b\u3001\u304a\u5f85\u3061\u4e0b\u3055\u3044\uff01",
+			"actor": 207060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 205010,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u30b0\u30ed\u30ea\u30a2\u30b9\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		},
+		{
+			"actor": 207060,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\u304a\u8a00\u8449\u3067\u3059\u304c\u3001\u79c1\u306f\u30a2\u30fc\u30af\u30fb\u30ed\u30a4\u30e4\u30eb\u3055\u3093\u304c\u7121\u5b9f\u3060\u3068\u8a3c\u660e\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_school"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "GUANGRONG3",
+	"once": true
 }

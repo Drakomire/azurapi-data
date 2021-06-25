@@ -1,125 +1,125 @@
 {
-  "id": "WorldG016_2",
-  "events": [
-    {
-      "stories": [
-        "WNG08"
-      ],
-      "alpha": 0,
-      "code": [
-        "playStory"
-      ]
-    },
-    {
-      "notifies": [
-        {
-          "body": {
-            "row": 7,
-            "column": 3
-          },
-          "notify": "world get slg tile pos"
-        }
-      ],
-      "delay": 0.2,
-      "alpha": 0.3,
-      "code": [
-        "getSlgTilePos"
-      ]
-    },
-    {
-      "style": {
-        "posY": -320,
-        "dir": -1,
-        "text": "대상을 길게 눌러 분석 모듈 전환 가능",
-        "posX": 9.1,
-        "mode": 2
-      },
-      "showSign": {
-        "clickArea": [
-          160,
-          140
-        ],
-        "longPress": 1,
-        "signList": [
-          {
-            "signType": 4,
-            "pos": "useCachePos"
-          }
-        ],
-        "type": 2
-      },
-      "alpha": 0.3,
-      "code": [
-        "ShowClickArea"
-      ]
-    },
-    {
-      "notifies": [
-        {
-          "body": {
-            "column": 3,
-            "row": 7,
-            "open": 1
-          },
-          "notify": "world scanner display"
-        }
-      ],
-      "alpha": 0,
-      "code": [
-        "openDetail"
-      ]
-    },
-    {
-      "notifies": [
-        {
-          "notify": "world get scanner pos"
-        }
-      ],
-      "delay": 0.4,
-      "alpha": 0.3,
-      "code": [
-        "getCompassDangerousPos"
-      ]
-    },
-    {
-      "style": {
-        "posY": -200,
-        "dir": 1,
-        "text": "분석기 모듈에서 전투 대상 또는 조사 포인트의 정보 확인 가능.",
-        "posX": 357,
-        "mode": 2
-      },
-      "showSign": {
-        "clickArea": [
-          548,
-          561
-        ],
-        "type": 3,
-        "signList": [
-          {
-            "signType": 5,
-            "pos": "useCachePos"
-          }
-        ]
-      },
-      "alpha": 0.3,
-      "code": [
-        "explainDetail"
-      ]
-    },
-    {
-      "notifies": [
-        {
-          "body": {
-            "open": 0
-          },
-          "notify": "world scanner display"
-        }
-      ],
-      "alpha": 0,
-      "code": [
-        "closeDetail"
-      ]
-    }
-  ]
+	"id": "WorldG016_2",
+	"events": [
+		{
+			"stories": [
+				"WNG08"
+			],
+			"alpha": 0,
+			"code": [
+				"playStory"
+			]
+		},
+		{
+			"notifies": [
+				{
+					"body": {
+						"row": 7,
+						"column": 3
+					},
+					"notify": "world get slg tile pos"
+				}
+			],
+			"delay": 0.2,
+			"alpha": 0.3,
+			"code": [
+				"getSlgTilePos"
+			]
+		},
+		{
+			"style": {
+				"posY": -320,
+				"dir": -1,
+				"text": "\ub300\uc0c1\uc744 \uae38\uac8c \ub20c\ub7ec \ubd84\uc11d \ubaa8\ub4c8 \uc804\ud658 \uac00\ub2a5",
+				"posX": 9.1,
+				"mode": 2
+			},
+			"showSign": {
+				"clickArea": [
+					160,
+					140
+				],
+				"longPress": 1,
+				"signList": [
+					{
+						"signType": 4,
+						"pos": "useCachePos"
+					}
+				],
+				"type": 2
+			},
+			"alpha": 0.3,
+			"code": [
+				"ShowClickArea"
+			]
+		},
+		{
+			"notifies": [
+				{
+					"body": {
+						"column": 3,
+						"row": 7,
+						"open": 1
+					},
+					"notify": "world scanner display"
+				}
+			],
+			"alpha": 0,
+			"code": [
+				"openDetail"
+			]
+		},
+		{
+			"notifies": [
+				{
+					"notify": "world get scanner pos"
+				}
+			],
+			"delay": 0.4,
+			"alpha": 0.3,
+			"code": [
+				"getCompassDangerousPos"
+			]
+		},
+		{
+			"style": {
+				"posY": -200,
+				"dir": 1,
+				"text": "\ubd84\uc11d\uae30 \ubaa8\ub4c8\uc5d0\uc11c \uc804\ud22c \ub300\uc0c1 \ub610\ub294 \uc870\uc0ac \ud3ec\uc778\ud2b8\uc758 \uc815\ubcf4 \ud655\uc778 \uac00\ub2a5.",
+				"posX": 357,
+				"mode": 2
+			},
+			"showSign": {
+				"clickArea": [
+					548,
+					561
+				],
+				"type": 3,
+				"signList": [
+					{
+						"signType": 5,
+						"pos": "useCachePos"
+					}
+				]
+			},
+			"alpha": 0.3,
+			"code": [
+				"explainDetail"
+			]
+		},
+		{
+			"notifies": [
+				{
+					"body": {
+						"open": 0
+					},
+					"notify": "world scanner display"
+				}
+			],
+			"alpha": 0,
+			"code": [
+				"closeDetail"
+			]
+		}
+	]
 }

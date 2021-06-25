@@ -1,89 +1,89 @@
 {
-  "id": "WorldG191",
-  "events": [
-    {
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": -42,
-          "posX": 128.2,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "OverlayCamera/Overlay/UIMain/top/adapt/bottom_chapter/button/btn_boss",
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": -279.2,
-        "dir": 1,
-        "text": "ほかの指揮官と共闘し、META艦船に挑む新コンテンツ「META戦」が開放されました。",
-        "posX": 498.7,
-        "mode": 2
-      }
-    },
-    {
-      "stories": [
-        "GWORLD109A"
-      ],
-      "delay": 1,
-      "code": [
-        "playStory"
-      ]
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 294,
-        "dir": 1,
-        "ui": {
-          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
-        },
-        "text": "META戦は不定期で開催します。ここには今回の開催時間が表示されます。",
-        "posX": -448.3,
-        "mode": 2
-      },
-      "alpha": 0.4,
-      "waitScene": "WorldBossScene"
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": 1.5,
-        "dir": 1,
-        "ui": {
-          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
-        },
-        "text": "開催終了すると、「META座標」を消費して解放したMETA戦はなくなります。また、セイレーン作戦でMETA座標を新た入手できなくなります。",
-        "posX": -402.4,
-        "mode": 2
-      }
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": -284,
-        "dir": 1,
-        "text": "「解析」をタップし、「META戦」を開放しましょう。",
-        "posX": -495,
-        "mode": 2
-      },
-      "ui": {
-        "fingerPos": {
-          "rotateX": 0,
-          "posY": 0,
-          "posX": 0,
-          "rotateY": 0,
-          "rotateZ": 0
-        },
-        "path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/useItem/list/tpl",
-        "triggerType": [
-          1
-        ]
-      }
-    }
-  ]
+	"id": "WorldG191",
+	"events": [
+		{
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": -42,
+					"posX": 128.2,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "OverlayCamera/Overlay/UIMain/top/adapt/bottom_chapter/button/btn_boss",
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": -279.2,
+				"dir": 1,
+				"text": "\u307b\u304b\u306e\u6307\u63ee\u5b98\u3068\u5171\u95d8\u3057\u3001META\u8266\u8239\u306b\u6311\u3080\u65b0\u30b3\u30f3\u30c6\u30f3\u30c4\u300cMETA\u6226\u300d\u304c\u958b\u653e\u3055\u308c\u307e\u3057\u305f\u3002",
+				"posX": 498.7,
+				"mode": 2
+			}
+		},
+		{
+			"stories": [
+				"GWORLD109A"
+			],
+			"delay": 1,
+			"code": [
+				"playStory"
+			]
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 294,
+				"dir": 1,
+				"ui": {
+					"path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+				},
+				"text": "META\u6226\u306f\u4e0d\u5b9a\u671f\u3067\u958b\u50ac\u3057\u307e\u3059\u3002\u3053\u3053\u306b\u306f\u4eca\u56de\u306e\u958b\u50ac\u6642\u9593\u304c\u8868\u793a\u3055\u308c\u307e\u3059\u3002",
+				"posX": -448.3,
+				"mode": 2
+			},
+			"alpha": 0.4,
+			"waitScene": "WorldBossScene"
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": 1.5,
+				"dir": 1,
+				"ui": {
+					"path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+				},
+				"text": "\u958b\u50ac\u7d42\u4e86\u3059\u308b\u3068\u3001\u300cMETA\u5ea7\u6a19\u300d\u3092\u6d88\u8cbb\u3057\u3066\u89e3\u653e\u3057\u305fMETA\u6226\u306f\u306a\u304f\u306a\u308a\u307e\u3059\u3002\u307e\u305f\u3001\u30bb\u30a4\u30ec\u30fc\u30f3\u4f5c\u6226\u3067META\u5ea7\u6a19\u3092\u65b0\u305f\u5165\u624b\u3067\u304d\u306a\u304f\u306a\u308a\u307e\u3059\u3002",
+				"posX": -402.4,
+				"mode": 2
+			}
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": -284,
+				"dir": 1,
+				"text": "\u300c\u89e3\u6790\u300d\u3092\u30bf\u30c3\u30d7\u3057\u3001\u300cMETA\u6226\u300d\u3092\u958b\u653e\u3057\u307e\u3057\u3087\u3046\u3002",
+				"posX": -495,
+				"mode": 2
+			},
+			"ui": {
+				"fingerPos": {
+					"rotateX": 0,
+					"posY": 0,
+					"posX": 0,
+					"rotateY": 0,
+					"rotateZ": 0
+				},
+				"path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/useItem/list/tpl",
+				"triggerType": [
+					1
+				]
+			}
+		}
+	]
 }

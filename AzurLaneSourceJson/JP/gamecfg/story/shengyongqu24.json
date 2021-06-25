@@ -1,515 +1,515 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "side": 2,
-      "say": "ラ・ガリソニエールの突撃により、空母艦隊は被害を受け、制空権を失ってしまう―――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "level-french2",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "dir": 1
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "アルジェリーの計画では、そうなるはずだった。"
-    },
-    {
-      "soundeffect": "event:/battle/plane",
-      "side": 2,
-      "say": "だが…………",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "dir": 1
-    },
-    {
-      "actor": 902010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "expression": 2,
-      "say": "この艦載機たち…直掩機がなぜこんなにいるの！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "say": "リシュリューの勘が当たっていましたね。近づけさせませんよ",
-      "actor": 807010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "事前に待機していた直掩機隊によりヴィシアの量産艦は次々と火柱を上げた。"
-    },
-    {
-      "say": "アルジェリー、こういう状況になったときはどうすべきか言ってなかったな…",
-      "actor": 902010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "say": "…と、考えても仕方ないでしょ。なったからには楽しまないと",
-      "actor": 902010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 807010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "まだやるつもりですか？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "ラ・ガリソニエールさん、これ以上戦っても勝てないのにどうして……"
-    },
-    {
-      "say": "ん？だって楽しいもん。それにできれば空母を無力化してってアルジェリーに言われたし",
-      "actor": 902010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "まあお互い沈まず大怪我で済む程度に、そっちも楽しもうよ！ほら！",
-      "actor": 902010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "actor": 807010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "あー、また暴走し始めましたか……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 902010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "expression": 1,
-      "say": "イラストリアスさんだっけ？まずはあなたに遊んで貰うよ！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 0.5,
-          "delay": 0.8,
-          "x": 2500
-        }
-      ]
-    },
-    {
-      "soundeffect": "event:/battle/plane",
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "…………っ！"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "通信機",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "――――！"
-    },
-    {
-      "actor": 903020,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "ラ・ガリソニエール！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "アルジェリー",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#ff5c5c"
-    },
-    {
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "say": "イラストリアスさん！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "リシュリュー",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#a9f548"
-    },
-    {
-      "bgm": "hunhe-battle",
-      "actor": 902010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "アルジェリー？どうしたの？"
-    },
-    {
-      "say": "どうしたのって、奇襲が失敗したら早く撤退するに決まってるじゃない！相手と刺し違えるつもり？",
-      "actor": 903020,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#ff5c5c"
-    },
-    {
-      "say": "そんなの聞いてないよ…死ぬ気で空母を倒してきてってことだと思ってたのに",
-      "actor": 902010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "はいはい、「神穹の壁」を通って早く戻ってきなさい。まだ勝算があるから無駄に戦力を消耗しないで",
-      "actor": 903020,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#ff5c5c"
-    },
-    {
-      "actor": 902010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "expression": 2,
-      "say": "…そういうこと。イラストリアス、ベアルン、またあとでね？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "move",
-          "dur": 0.5,
-          "delay": 0.8,
-          "x": -2500
-        }
-      ]
-    },
-    {
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "………"
-    },
-    {
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 0.25,
-        "dur": 0.25
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "dur": 0.25,
-        "alpha": [
-          0,
-          1
-        ]
-      },
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "ラ・ガリソニエールは残り少ない量産艦と共に「神穹の壁」をすり抜けて、戦場から離脱した。"
-    },
-    {
-      "say": "イラストリアスさん、ベアルン、ここは追撃せず合流しましょう。アルジェリーたちとの決戦の時は近いです",
-      "actor": 805010,
-      "side": 2,
-      "dir": 1,
-      "paintingNoise": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "nameColor": "#a9f548"
-    },
-    {
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "はい、わかりました"
-    },
-    {
-      "actor": 207030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "リシュリュー様もきっと、アイリスの子たちで悩んでいたのですね…ふふふ"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "SHENGYONGQU24",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"side": 2,
+			"say": "\u30e9\u30fb\u30ac\u30ea\u30bd\u30cb\u30a8\u30fc\u30eb\u306e\u7a81\u6483\u306b\u3088\u308a\u3001\u7a7a\u6bcd\u8266\u968a\u306f\u88ab\u5bb3\u3092\u53d7\u3051\u3001\u5236\u7a7a\u6a29\u3092\u5931\u3063\u3066\u3057\u307e\u3046\u2015\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "level-french2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"dir": 1
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u306e\u8a08\u753b\u3067\u306f\u3001\u305d\u3046\u306a\u308b\u306f\u305a\u3060\u3063\u305f\u3002"
+		},
+		{
+			"soundeffect": "event:/battle/plane",
+			"side": 2,
+			"say": "\u3060\u304c\u2026\u2026\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"dir": 1
+		},
+		{
+			"actor": 902010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"expression": 2,
+			"say": "\u3053\u306e\u8266\u8f09\u6a5f\u305f\u3061\u2026\u76f4\u63a9\u6a5f\u304c\u306a\u305c\u3053\u3093\u306a\u306b\u3044\u308b\u306e\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"say": "\u30ea\u30b7\u30e5\u30ea\u30e5\u30fc\u306e\u52d8\u304c\u5f53\u305f\u3063\u3066\u3044\u307e\u3057\u305f\u306d\u3002\u8fd1\u3065\u3051\u3055\u305b\u307e\u305b\u3093\u3088",
+			"actor": 807010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u4e8b\u524d\u306b\u5f85\u6a5f\u3057\u3066\u3044\u305f\u76f4\u63a9\u6a5f\u968a\u306b\u3088\u308a\u30f4\u30a3\u30b7\u30a2\u306e\u91cf\u7523\u8266\u306f\u6b21\u3005\u3068\u706b\u67f1\u3092\u4e0a\u3052\u305f\u3002"
+		},
+		{
+			"say": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u3001\u3053\u3046\u3044\u3046\u72b6\u6cc1\u306b\u306a\u3063\u305f\u3068\u304d\u306f\u3069\u3046\u3059\u3079\u304d\u304b\u8a00\u3063\u3066\u306a\u304b\u3063\u305f\u306a\u2026",
+			"actor": 902010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"say": "\u2026\u3068\u3001\u8003\u3048\u3066\u3082\u4ed5\u65b9\u306a\u3044\u3067\u3057\u3087\u3002\u306a\u3063\u305f\u304b\u3089\u306b\u306f\u697d\u3057\u307e\u306a\u3044\u3068",
+			"actor": 902010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 807010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u307e\u3060\u3084\u308b\u3064\u3082\u308a\u3067\u3059\u304b\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u30e9\u30fb\u30ac\u30ea\u30bd\u30cb\u30a8\u30fc\u30eb\u3055\u3093\u3001\u3053\u308c\u4ee5\u4e0a\u6226\u3063\u3066\u3082\u52dd\u3066\u306a\u3044\u306e\u306b\u3069\u3046\u3057\u3066\u2026\u2026"
+		},
+		{
+			"say": "\u3093\uff1f\u3060\u3063\u3066\u697d\u3057\u3044\u3082\u3093\u3002\u305d\u308c\u306b\u3067\u304d\u308c\u3070\u7a7a\u6bcd\u3092\u7121\u529b\u5316\u3057\u3066\u3063\u3066\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u306b\u8a00\u308f\u308c\u305f\u3057",
+			"actor": 902010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u307e\u3042\u304a\u4e92\u3044\u6c88\u307e\u305a\u5927\u602a\u6211\u3067\u6e08\u3080\u7a0b\u5ea6\u306b\u3001\u305d\u3063\u3061\u3082\u697d\u3057\u3082\u3046\u3088\uff01\u307b\u3089\uff01",
+			"actor": 902010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"actor": 807010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u3042\u30fc\u3001\u307e\u305f\u66b4\u8d70\u3057\u59cb\u3081\u307e\u3057\u305f\u304b\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 902010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"expression": 1,
+			"say": "\u30a4\u30e9\u30b9\u30c8\u30ea\u30a2\u30b9\u3055\u3093\u3060\u3063\u3051\uff1f\u307e\u305a\u306f\u3042\u306a\u305f\u306b\u904a\u3093\u3067\u8cb0\u3046\u3088\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 0.5,
+					"delay": 0.8,
+					"x": 2500
+				}
+			]
+		},
+		{
+			"soundeffect": "event:/battle/plane",
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u2026\u2026\u2026\u2026\u3063\uff01"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "\u901a\u4fe1\u6a5f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u2015\u2015\u2015\u2015\uff01"
+		},
+		{
+			"actor": 903020,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u30e9\u30fb\u30ac\u30ea\u30bd\u30cb\u30a8\u30fc\u30eb\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#ff5c5c"
+		},
+		{
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"say": "\u30a4\u30e9\u30b9\u30c8\u30ea\u30a2\u30b9\u3055\u3093\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u30ea\u30b7\u30e5\u30ea\u30e5\u30fc",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#a9f548"
+		},
+		{
+			"bgm": "hunhe-battle",
+			"actor": 902010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\uff1f\u3069\u3046\u3057\u305f\u306e\uff1f"
+		},
+		{
+			"say": "\u3069\u3046\u3057\u305f\u306e\u3063\u3066\u3001\u5947\u8972\u304c\u5931\u6557\u3057\u305f\u3089\u65e9\u304f\u64a4\u9000\u3059\u308b\u306b\u6c7a\u307e\u3063\u3066\u308b\u3058\u3083\u306a\u3044\uff01\u76f8\u624b\u3068\u523a\u3057\u9055\u3048\u308b\u3064\u3082\u308a\uff1f",
+			"actor": 903020,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#ff5c5c"
+		},
+		{
+			"say": "\u305d\u3093\u306a\u306e\u805e\u3044\u3066\u306a\u3044\u3088\u2026\u6b7b\u306c\u6c17\u3067\u7a7a\u6bcd\u3092\u5012\u3057\u3066\u304d\u3066\u3063\u3066\u3053\u3068\u3060\u3068\u601d\u3063\u3066\u305f\u306e\u306b",
+			"actor": 902010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u306f\u3044\u306f\u3044\u3001\u300c\u795e\u7a79\u306e\u58c1\u300d\u3092\u901a\u3063\u3066\u65e9\u304f\u623b\u3063\u3066\u304d\u306a\u3055\u3044\u3002\u307e\u3060\u52dd\u7b97\u304c\u3042\u308b\u304b\u3089\u7121\u99c4\u306b\u6226\u529b\u3092\u6d88\u8017\u3057\u306a\u3044\u3067",
+			"actor": 903020,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#ff5c5c"
+		},
+		{
+			"actor": 902010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"expression": 2,
+			"say": "\u2026\u305d\u3046\u3044\u3046\u3053\u3068\u3002\u30a4\u30e9\u30b9\u30c8\u30ea\u30a2\u30b9\u3001\u30d9\u30a2\u30eb\u30f3\u3001\u307e\u305f\u3042\u3068\u3067\u306d\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "move",
+					"dur": 0.5,
+					"delay": 0.8,
+					"x": -2500
+				}
+			]
+		},
+		{
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u2026\u2026\u2026"
+		},
+		{
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"delay": 0.25,
+				"dur": 0.25
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"dur": 0.25,
+				"alpha": [
+					0,
+					1
+				]
+			},
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u30e9\u30fb\u30ac\u30ea\u30bd\u30cb\u30a8\u30fc\u30eb\u306f\u6b8b\u308a\u5c11\u306a\u3044\u91cf\u7523\u8266\u3068\u5171\u306b\u300c\u795e\u7a79\u306e\u58c1\u300d\u3092\u3059\u308a\u629c\u3051\u3066\u3001\u6226\u5834\u304b\u3089\u96e2\u8131\u3057\u305f\u3002"
+		},
+		{
+			"say": "\u30a4\u30e9\u30b9\u30c8\u30ea\u30a2\u30b9\u3055\u3093\u3001\u30d9\u30a2\u30eb\u30f3\u3001\u3053\u3053\u306f\u8ffd\u6483\u305b\u305a\u5408\u6d41\u3057\u307e\u3057\u3087\u3046\u3002\u30a2\u30eb\u30b8\u30a7\u30ea\u30fc\u305f\u3061\u3068\u306e\u6c7a\u6226\u306e\u6642\u306f\u8fd1\u3044\u3067\u3059",
+			"actor": 805010,
+			"side": 2,
+			"dir": 1,
+			"paintingNoise": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"nameColor": "#a9f548"
+		},
+		{
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u306f\u3044\u3001\u308f\u304b\u308a\u307e\u3057\u305f"
+		},
+		{
+			"actor": 207030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u30ea\u30b7\u30e5\u30ea\u30e5\u30fc\u69d8\u3082\u304d\u3063\u3068\u3001\u30a2\u30a4\u30ea\u30b9\u306e\u5b50\u305f\u3061\u3067\u60a9\u3093\u3067\u3044\u305f\u306e\u3067\u3059\u306d\u2026\u3075\u3075\u3075"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "SHENGYONGQU24",
+	"once": true
 }

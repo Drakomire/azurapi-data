@@ -1,512 +1,512 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "dir": 1,
-      "effects": [
-        {
-          "name": "miwu_01",
-          "active": true
-        }
-      ],
-      "side": 2,
-      "say": "運河要塞・東部？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-6",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "soundeffect": "event:/battle/dididi",
-      "side": 2,
-      "say": "――・――・――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "あ……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "みんな！今レーダーに何かが映ったわ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "レーダーが機能しないんじゃなかったの？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "soundeffect": "event:/battle/dididi",
-      "side": 2,
-      "say": "――・――・――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "ああ、こっちも確認した。反応は弱いが確かに信号があったぞ",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "しかも識別波形は友軍艦…私たちと同じように巻き込まれた輸送艦なの？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "その可能性は薄いな。この海域で活動中の輸送船団はいないはずだ",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "それに通信機能が無事なら、たとえはぐれたとしても救援信号を発信するはずだ",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "となると、セイレーンの罠である可能性は――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "高いということね……",
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "よし、様子を見に行こうか",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "ええ、様子を見て……って行くの？！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "ボルチモアはなにか考えがあるの？",
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "ああ、今取れる方針は２つ――要塞へと直行するか、こっちの餌に「敢えて」食いつくか",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "要塞へ直行するにもこの異常気象を放っておくわけにはいかないし、そもそもこっちの計器が必ずしも合っているとは限らない",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "となると、セイレーンの動向を目印にするしか無いわね…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "もちろんこのまま罠を踏むつもりはない。ヘレナ、こっちの様子をNYシティ側に連絡しよう。支援を要請する",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "はい！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "直感だが、セイレーンがそんな単純な誘いをするわけがない",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "ここは一歩踏み込んで、その陰謀を暴こうじゃないか",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "こういう駆け引きは得意じゃないけど、やっぱりこれは危険すぎない？一回要塞に向かったほうが…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "正直そっちもありだと思うけど、本当に味方の輸送艦だった。ということになったら？",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "……見殺しにするわけにはいかないわね",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 102050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "でもセイレーンが本当にそこで待ち伏せしていたら…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "say": "警戒して動くしかない。相手が霧で隠れている以上、どっちにしても同じだ",
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    },
-    {
-      "actor": 103160,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "expression": 1,
-      "say": "さあ、みんな、出発するぞ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_battle_night"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "MIWUZHIXIA3",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"dir": 1,
+			"effects": [
+				{
+					"name": "miwu_01",
+					"active": true
+				}
+			],
+			"side": 2,
+			"say": "\u904b\u6cb3\u8981\u585e\u30fb\u6771\u90e8\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-6",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"soundeffect": "event:/battle/dididi",
+			"side": 2,
+			"say": "\u2015\u2015\u30fb\u2015\u2015\u30fb\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u3042\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u307f\u3093\u306a\uff01\u4eca\u30ec\u30fc\u30c0\u30fc\u306b\u4f55\u304b\u304c\u6620\u3063\u305f\u308f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u30ec\u30fc\u30c0\u30fc\u304c\u6a5f\u80fd\u3057\u306a\u3044\u3093\u3058\u3083\u306a\u304b\u3063\u305f\u306e\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"soundeffect": "event:/battle/dididi",
+			"side": 2,
+			"say": "\u2015\u2015\u30fb\u2015\u2015\u30fb\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u3042\u3042\u3001\u3053\u3063\u3061\u3082\u78ba\u8a8d\u3057\u305f\u3002\u53cd\u5fdc\u306f\u5f31\u3044\u304c\u78ba\u304b\u306b\u4fe1\u53f7\u304c\u3042\u3063\u305f\u305e",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u3057\u304b\u3082\u8b58\u5225\u6ce2\u5f62\u306f\u53cb\u8ecd\u8266\u2026\u79c1\u305f\u3061\u3068\u540c\u3058\u3088\u3046\u306b\u5dfb\u304d\u8fbc\u307e\u308c\u305f\u8f38\u9001\u8266\u306a\u306e\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u305d\u306e\u53ef\u80fd\u6027\u306f\u8584\u3044\u306a\u3002\u3053\u306e\u6d77\u57df\u3067\u6d3b\u52d5\u4e2d\u306e\u8f38\u9001\u8239\u56e3\u306f\u3044\u306a\u3044\u306f\u305a\u3060",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u305d\u308c\u306b\u901a\u4fe1\u6a5f\u80fd\u304c\u7121\u4e8b\u306a\u3089\u3001\u305f\u3068\u3048\u306f\u3050\u308c\u305f\u3068\u3057\u3066\u3082\u6551\u63f4\u4fe1\u53f7\u3092\u767a\u4fe1\u3059\u308b\u306f\u305a\u3060",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3068\u306a\u308b\u3068\u3001\u30bb\u30a4\u30ec\u30fc\u30f3\u306e\u7f60\u3067\u3042\u308b\u53ef\u80fd\u6027\u306f\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u9ad8\u3044\u3068\u3044\u3046\u3053\u3068\u306d\u2026\u2026",
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u3088\u3057\u3001\u69d8\u5b50\u3092\u898b\u306b\u884c\u3053\u3046\u304b",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u3048\u3048\u3001\u69d8\u5b50\u3092\u898b\u3066\u2026\u2026\u3063\u3066\u884c\u304f\u306e\uff1f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u30dc\u30eb\u30c1\u30e2\u30a2\u306f\u306a\u306b\u304b\u8003\u3048\u304c\u3042\u308b\u306e\uff1f",
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u3042\u3042\u3001\u4eca\u53d6\u308c\u308b\u65b9\u91dd\u306f\uff12\u3064\u2015\u2015\u8981\u585e\u3078\u3068\u76f4\u884c\u3059\u308b\u304b\u3001\u3053\u3063\u3061\u306e\u990c\u306b\u300c\u6562\u3048\u3066\u300d\u98df\u3044\u3064\u304f\u304b",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u8981\u585e\u3078\u76f4\u884c\u3059\u308b\u306b\u3082\u3053\u306e\u7570\u5e38\u6c17\u8c61\u3092\u653e\u3063\u3066\u304a\u304f\u308f\u3051\u306b\u306f\u3044\u304b\u306a\u3044\u3057\u3001\u305d\u3082\u305d\u3082\u3053\u3063\u3061\u306e\u8a08\u5668\u304c\u5fc5\u305a\u3057\u3082\u5408\u3063\u3066\u3044\u308b\u3068\u306f\u9650\u3089\u306a\u3044",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3068\u306a\u308b\u3068\u3001\u30bb\u30a4\u30ec\u30fc\u30f3\u306e\u52d5\u5411\u3092\u76ee\u5370\u306b\u3059\u308b\u3057\u304b\u7121\u3044\u308f\u306d\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u3082\u3061\u308d\u3093\u3053\u306e\u307e\u307e\u7f60\u3092\u8e0f\u3080\u3064\u3082\u308a\u306f\u306a\u3044\u3002\u30d8\u30ec\u30ca\u3001\u3053\u3063\u3061\u306e\u69d8\u5b50\u3092NY\u30b7\u30c6\u30a3\u5074\u306b\u9023\u7d61\u3057\u3088\u3046\u3002\u652f\u63f4\u3092\u8981\u8acb\u3059\u308b",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u306f\u3044\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u76f4\u611f\u3060\u304c\u3001\u30bb\u30a4\u30ec\u30fc\u30f3\u304c\u305d\u3093\u306a\u5358\u7d14\u306a\u8a98\u3044\u3092\u3059\u308b\u308f\u3051\u304c\u306a\u3044",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u3053\u3053\u306f\u4e00\u6b69\u8e0f\u307f\u8fbc\u3093\u3067\u3001\u305d\u306e\u9670\u8b00\u3092\u66b4\u3053\u3046\u3058\u3083\u306a\u3044\u304b",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u3053\u3046\u3044\u3046\u99c6\u3051\u5f15\u304d\u306f\u5f97\u610f\u3058\u3083\u306a\u3044\u3051\u3069\u3001\u3084\u3063\u3071\u308a\u3053\u308c\u306f\u5371\u967a\u3059\u304e\u306a\u3044\uff1f\u4e00\u56de\u8981\u585e\u306b\u5411\u304b\u3063\u305f\u307b\u3046\u304c\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u6b63\u76f4\u305d\u3063\u3061\u3082\u3042\u308a\u3060\u3068\u601d\u3046\u3051\u3069\u3001\u672c\u5f53\u306b\u5473\u65b9\u306e\u8f38\u9001\u8266\u3060\u3063\u305f\u3002\u3068\u3044\u3046\u3053\u3068\u306b\u306a\u3063\u305f\u3089\uff1f",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u2026\u2026\u898b\u6bba\u3057\u306b\u3059\u308b\u308f\u3051\u306b\u306f\u3044\u304b\u306a\u3044\u308f\u306d",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 102050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u3067\u3082\u30bb\u30a4\u30ec\u30fc\u30f3\u304c\u672c\u5f53\u306b\u305d\u3053\u3067\u5f85\u3061\u4f0f\u305b\u3057\u3066\u3044\u305f\u3089\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"say": "\u8b66\u6212\u3057\u3066\u52d5\u304f\u3057\u304b\u306a\u3044\u3002\u76f8\u624b\u304c\u9727\u3067\u96a0\u308c\u3066\u3044\u308b\u4ee5\u4e0a\u3001\u3069\u3063\u3061\u306b\u3057\u3066\u3082\u540c\u3058\u3060",
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		},
+		{
+			"actor": 103160,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"expression": 1,
+			"say": "\u3055\u3042\u3001\u307f\u3093\u306a\u3001\u51fa\u767a\u3059\u308b\u305e\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_battle_night"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "MIWUZHIXIA3",
+	"once": true
 }

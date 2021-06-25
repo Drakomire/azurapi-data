@@ -1,295 +1,295 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "도이칠란트의 우울\n\n<size=45>상실감</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……도이칠란트가 근무 시간이 되었는데도 집무실에 오지 않아, 그녀를 찾아보고자 메탈 블러드 숙소로 향했다.",
-      "bgName": "bg_story_task"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "메탈 블러드 숙소",
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "하인인가. 무슨 일이냐?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-2",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "방문이 열어보니, 방 한구석에 쭈그리고 있는 도이칠란트의 모습이 보였다.",
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "도이칠란트가 걱정된다…",
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "비서함 따위…다른 녀석에게 시키면 되잖아.",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "……내버려둬. 나는 네게 도움도 안 되잖아?",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "메탈 블러드의 모두가 그렇게나 눈치를 줬는데도 혼자만 모르고 있었어. 정말 바보 같지.",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "도이칠란트는 강하다고 다들 말해주니까 정말 강한 줄 알고, 누구보다도 뛰어나다 혼자 착각해선 남들한테 으스댔으니……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "도이칠란트의 머리를 쓰다듬는다.",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "withoutActorName": true,
-      "say": "……도이칠란트는 내 손을 뿌리쳤다.",
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "만지지 마!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 3,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "여기 왔을 때부터 어렴풋이는 알고 있었어. 다른 진영 애들은 좀 다르다는 걸 말야.",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "……그래. 나와는 다르게 말이지.",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "say": "지휘관도 그렇지? 도움이 되니까가 아니라, 그냥 내가 바보짓을 했을 때 비웃으려고 비서함으로 둔 거 아니야?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "options": [
-        {
-          "content": "부정한다.",
-          "flag": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "say": "……어차피 거짓말이면서.",
-      "actor": 403040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#92fc63",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "이미 토라진 도이칠란트는 지금 무슨 말을 한다 해도 이해해주지 못할 것 같다.",
-      "bgName": "bg_story_room"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "……대체 무슨 일이 있었던 거지, 메탈 블러드의 동료들에게 물어볼 수밖에 없나.",
-      "blackBg": true,
-      "bgName": "bg_story_room"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "DEYIZHI4",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\ub3c4\uc774\uce60\ub780\ud2b8\uc758 \uc6b0\uc6b8\n\n<size=45>\uc0c1\uc2e4\uac10</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\ub3c4\uc774\uce60\ub780\ud2b8\uac00 \uadfc\ubb34 \uc2dc\uac04\uc774 \ub418\uc5c8\ub294\ub370\ub3c4 \uc9d1\ubb34\uc2e4\uc5d0 \uc624\uc9c0 \uc54a\uc544, \uadf8\ub140\ub97c \ucc3e\uc544\ubcf4\uace0\uc790 \uba54\ud0c8 \ube14\ub7ec\ub4dc \uc219\uc18c\ub85c \ud5a5\ud588\ub2e4.",
+			"bgName": "bg_story_task"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uba54\ud0c8 \ube14\ub7ec\ub4dc \uc219\uc18c",
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\ud558\uc778\uc778\uac00. \ubb34\uc2a8 \uc77c\uc774\ub0d0?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ubc29\ubb38\uc774 \uc5f4\uc5b4\ubcf4\ub2c8, \ubc29 \ud55c\uad6c\uc11d\uc5d0 \ucb48\uadf8\ub9ac\uace0 \uc788\ub294 \ub3c4\uc774\uce60\ub780\ud2b8\uc758 \ubaa8\uc2b5\uc774 \ubcf4\uc600\ub2e4.",
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ub3c4\uc774\uce60\ub780\ud2b8\uac00 \uac71\uc815\ub41c\ub2e4\u2026",
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\ube44\uc11c\ud568 \ub530\uc704\u2026\ub2e4\ub978 \ub140\uc11d\uc5d0\uac8c \uc2dc\ud0a4\uba74 \ub418\uc796\uc544.",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u2026\u2026\ub0b4\ubc84\ub824\ub46c. \ub098\ub294 \ub124\uac8c \ub3c4\uc6c0\ub3c4 \uc548 \ub418\uc796\uc544?",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\uba54\ud0c8 \ube14\ub7ec\ub4dc\uc758 \ubaa8\ub450\uac00 \uadf8\ub807\uac8c\ub098 \ub208\uce58\ub97c \uc92c\ub294\ub370\ub3c4 \ud63c\uc790\ub9cc \ubaa8\ub974\uace0 \uc788\uc5c8\uc5b4. \uc815\ub9d0 \ubc14\ubcf4 \uac19\uc9c0.",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\ub3c4\uc774\uce60\ub780\ud2b8\ub294 \uac15\ud558\ub2e4\uace0 \ub2e4\ub4e4 \ub9d0\ud574\uc8fc\ub2c8\uae4c \uc815\ub9d0 \uac15\ud55c \uc904 \uc54c\uace0, \ub204\uad6c\ubcf4\ub2e4\ub3c4 \ub6f0\uc5b4\ub098\ub2e4 \ud63c\uc790 \ucc29\uac01\ud574\uc120 \ub0a8\ub4e4\ud55c\ud14c \uc73c\uc2a4\ub314\uc73c\ub2c8\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\ub3c4\uc774\uce60\ub780\ud2b8\uc758 \uba38\ub9ac\ub97c \uc4f0\ub2e4\ub4ec\ub294\ub2e4.",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"withoutActorName": true,
+			"say": "\u2026\u2026\ub3c4\uc774\uce60\ub780\ud2b8\ub294 \ub0b4 \uc190\uc744 \ubfcc\ub9ac\ucce4\ub2e4.",
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\ub9cc\uc9c0\uc9c0 \ub9c8!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 3,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\uc5ec\uae30 \uc654\uc744 \ub54c\ubd80\ud130 \uc5b4\ub834\ud48b\uc774\ub294 \uc54c\uace0 \uc788\uc5c8\uc5b4. \ub2e4\ub978 \uc9c4\uc601 \uc560\ub4e4\uc740 \uc880 \ub2e4\ub974\ub2e4\ub294 \uac78 \ub9d0\uc57c.",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u2026\u2026\uadf8\ub798. \ub098\uc640\ub294 \ub2e4\ub974\uac8c \ub9d0\uc774\uc9c0.",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"say": "\uc9c0\ud718\uad00\ub3c4 \uadf8\ub807\uc9c0? \ub3c4\uc6c0\uc774 \ub418\ub2c8\uae4c\uac00 \uc544\ub2c8\ub77c, \uadf8\ub0e5 \ub0b4\uac00 \ubc14\ubcf4\uc9d3\uc744 \ud588\uc744 \ub54c \ube44\uc6c3\uc73c\ub824\uace0 \ube44\uc11c\ud568\uc73c\ub85c \ub454 \uac70 \uc544\ub2c8\uc57c?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"options": [
+				{
+					"content": "\ubd80\uc815\ud55c\ub2e4.",
+					"flag": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"say": "\u2026\u2026\uc5b4\ucc28\ud53c \uac70\uc9d3\ub9d0\uc774\uba74\uc11c.",
+			"actor": 403040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#92fc63",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\uc774\ubbf8 \ud1a0\ub77c\uc9c4 \ub3c4\uc774\uce60\ub780\ud2b8\ub294 \uc9c0\uae08 \ubb34\uc2a8 \ub9d0\uc744 \ud55c\ub2e4 \ud574\ub3c4 \uc774\ud574\ud574\uc8fc\uc9c0 \ubabb\ud560 \uac83 \uac19\ub2e4.",
+			"bgName": "bg_story_room"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u2026\u2026\ub300\uccb4 \ubb34\uc2a8 \uc77c\uc774 \uc788\uc5c8\ub358 \uac70\uc9c0, \uba54\ud0c8 \ube14\ub7ec\ub4dc\uc758 \ub3d9\ub8cc\ub4e4\uc5d0\uac8c \ubb3c\uc5b4\ubcfc \uc218\ubc16\uc5d0 \uc5c6\ub098.",
+			"blackBg": true,
+			"bgName": "bg_story_room"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "DEYIZHI4",
+	"once": true
 }

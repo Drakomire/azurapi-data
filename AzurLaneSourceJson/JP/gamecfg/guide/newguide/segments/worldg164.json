@@ -1,100 +1,100 @@
 {
-  "id": "WorldG164",
-  "events": [
-    {
-      "style": {
-        "char": "1",
-        "posY": -250,
-        "dir": -1,
-        "text": "サルベージポイントは【オフニャ】を派遣して資源を回収できます。レアリティとレベルが高ければ報酬も良くなる可能性があります。",
-        "posX": -300,
-        "mode": 2
-      }
-    },
-    {
-      "ui": {
-        "fingerPos": {
-          "posY": -30,
-          "posX": 50
-        },
-        "path": "OverlayCamera/Overlay/UIMain/top/adapt/left_stage/other/salvage_list",
-        "pathIndex": -999,
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": -250,
-        "dir": -1,
-        "text": "サルベージゲージは艦隊が行動するたびに進捗します。こちらでオフニャサルベージの進捗情報を確認できます。",
-        "posX": -300,
-        "mode": 2
-      }
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": -100,
-        "dir": -1,
-        "text": "サルベージ途中いつでもオフニャを呼び戻すことができ、呼び戻すまでの進捗分の報酬を入手できます。",
-        "posX": 500,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/SVSalvageResult(Clone)/window/button_container/custom_button_1"
-        }
-      }
-    },
-    {
-      "style": {
-        "char": "1",
-        "posY": -200,
-        "dir": 1,
-        "text": "ここをタップすると、サルベージで入手できるアイテム一覧を確認できます。",
-        "posX": 0,
-        "mode": 2
-      },
-      "showSign": {
-        "type": 2,
-        "signList": [
-          {
-            "signType": 4
-          }
-        ],
-        "clickUI": {
-          "path": "OverlayCamera/Overlay/UIMain/SVSalvageResult(Clone)/window/display_panel/info/items_btn"
-        }
-      }
-    },
-    {
-      "ui": {
-        "fingerPos": {
-          "posY": -30,
-          "posX": 50
-        },
-        "path": "OverlayCamera/Overlay/UIMain/SVSalvageResult(Clone)/window/display_panel/info/help",
-        "triggerType": [
-          1
-        ]
-      },
-      "alpha": 0.4,
-      "style": {
-        "char": "1",
-        "posY": 100,
-        "dir": 1,
-        "text": "ここをタップすると、オフニャサルベージのヘルプを確認できます。",
-        "posX": 200,
-        "mode": 2
-      }
-    }
-  ]
+	"id": "WorldG164",
+	"events": [
+		{
+			"style": {
+				"char": "1",
+				"posY": -250,
+				"dir": -1,
+				"text": "\u30b5\u30eb\u30d9\u30fc\u30b8\u30dd\u30a4\u30f3\u30c8\u306f\u3010\u30aa\u30d5\u30cb\u30e3\u3011\u3092\u6d3e\u9063\u3057\u3066\u8cc7\u6e90\u3092\u56de\u53ce\u3067\u304d\u307e\u3059\u3002\u30ec\u30a2\u30ea\u30c6\u30a3\u3068\u30ec\u30d9\u30eb\u304c\u9ad8\u3051\u308c\u3070\u5831\u916c\u3082\u826f\u304f\u306a\u308b\u53ef\u80fd\u6027\u304c\u3042\u308a\u307e\u3059\u3002",
+				"posX": -300,
+				"mode": 2
+			}
+		},
+		{
+			"ui": {
+				"fingerPos": {
+					"posY": -30,
+					"posX": 50
+				},
+				"path": "OverlayCamera/Overlay/UIMain/top/adapt/left_stage/other/salvage_list",
+				"pathIndex": -999,
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": -250,
+				"dir": -1,
+				"text": "\u30b5\u30eb\u30d9\u30fc\u30b8\u30b2\u30fc\u30b8\u306f\u8266\u968a\u304c\u884c\u52d5\u3059\u308b\u305f\u3073\u306b\u9032\u6357\u3057\u307e\u3059\u3002\u3053\u3061\u3089\u3067\u30aa\u30d5\u30cb\u30e3\u30b5\u30eb\u30d9\u30fc\u30b8\u306e\u9032\u6357\u60c5\u5831\u3092\u78ba\u8a8d\u3067\u304d\u307e\u3059\u3002",
+				"posX": -300,
+				"mode": 2
+			}
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": -100,
+				"dir": -1,
+				"text": "\u30b5\u30eb\u30d9\u30fc\u30b8\u9014\u4e2d\u3044\u3064\u3067\u3082\u30aa\u30d5\u30cb\u30e3\u3092\u547c\u3073\u623b\u3059\u3053\u3068\u304c\u3067\u304d\u3001\u547c\u3073\u623b\u3059\u307e\u3067\u306e\u9032\u6357\u5206\u306e\u5831\u916c\u3092\u5165\u624b\u3067\u304d\u307e\u3059\u3002",
+				"posX": 500,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/SVSalvageResult(Clone)/window/button_container/custom_button_1"
+				}
+			}
+		},
+		{
+			"style": {
+				"char": "1",
+				"posY": -200,
+				"dir": 1,
+				"text": "\u3053\u3053\u3092\u30bf\u30c3\u30d7\u3059\u308b\u3068\u3001\u30b5\u30eb\u30d9\u30fc\u30b8\u3067\u5165\u624b\u3067\u304d\u308b\u30a2\u30a4\u30c6\u30e0\u4e00\u89a7\u3092\u78ba\u8a8d\u3067\u304d\u307e\u3059\u3002",
+				"posX": 0,
+				"mode": 2
+			},
+			"showSign": {
+				"type": 2,
+				"signList": [
+					{
+						"signType": 4
+					}
+				],
+				"clickUI": {
+					"path": "OverlayCamera/Overlay/UIMain/SVSalvageResult(Clone)/window/display_panel/info/items_btn"
+				}
+			}
+		},
+		{
+			"ui": {
+				"fingerPos": {
+					"posY": -30,
+					"posX": 50
+				},
+				"path": "OverlayCamera/Overlay/UIMain/SVSalvageResult(Clone)/window/display_panel/info/help",
+				"triggerType": [
+					1
+				]
+			},
+			"alpha": 0.4,
+			"style": {
+				"char": "1",
+				"posY": 100,
+				"dir": 1,
+				"text": "\u3053\u3053\u3092\u30bf\u30c3\u30d7\u3059\u308b\u3068\u3001\u30aa\u30d5\u30cb\u30e3\u30b5\u30eb\u30d9\u30fc\u30b8\u306e\u30d8\u30eb\u30d7\u3092\u78ba\u8a8d\u3067\u304d\u307e\u3059\u3002",
+				"posX": 200,
+				"mode": 2
+			}
+		}
+	]
 }

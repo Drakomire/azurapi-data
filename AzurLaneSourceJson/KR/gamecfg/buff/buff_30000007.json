@@ -1,28 +1,28 @@
 {
-  "picture": "",
-  "id": 30000007,
-  "desc": "战斗对象的血量下降到X%时，召唤特殊怪物",
-  "color": "red",
-  "last_effect": "",
-  "time": 0,
-  "icon": 73500,
-  "effect_list": [
-    {
-      "trigger": [
-        "onHPRatioUpdate"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "hpLowerBound": 0.95,
-        "check_target": "TargetSelf",
-        "minTargetNumber": 1,
-        "hpOutInterval": true,
-        "target": "TargetSelf",
-        "skill_id": 30000007
-      }
-    }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "name": "瞬移的前置"
+	"picture": "",
+	"id": 30000007,
+	"desc": "\u6218\u6597\u5bf9\u8c61\u7684\u8840\u91cf\u4e0b\u964d\u5230X%\u65f6\uff0c\u53ec\u5524\u7279\u6b8a\u602a\u7269",
+	"color": "red",
+	"last_effect": "",
+	"time": 0,
+	"icon": 73500,
+	"effect_list": [
+		{
+			"trigger": [
+				"onHPRatioUpdate"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"hpLowerBound": 0.95,
+				"check_target": "TargetSelf",
+				"minTargetNumber": 1,
+				"hpOutInterval": true,
+				"target": "TargetSelf",
+				"skill_id": 30000007
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u77ac\u79fb\u7684\u524d\u7f6e"
 }

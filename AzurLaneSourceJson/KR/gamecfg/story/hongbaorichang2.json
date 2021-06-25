@@ -1,484 +1,484 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "각자의 설날\n\n<size=45>2. 새해를 맞이하는 지휘실</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "actor": 307072,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "(후후후… 크리스마스와 정월을 건너뛰면서까지 기다려온 이스트 글림의 설날…)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-china",
-      "bgmDelay": 2,
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 307072,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "(반드시 지휘관님의 눈을 사로잡고 말겠어요! 지휘관님. 다이호가 준비한 공연, 기대해주세요♡)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "say": "지휘관님! (벌컥)",
-      "actor": 307072,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_night"
-    },
-    {
-      "actor": 202232,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hideOther": true,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "subActors": [
-        {
-          "pos": {
-            "x": 600
-          },
-          "actor": 202242
-        },
-        {
-          "pos": {
-            "x": 1500
-          },
-          "actor": 202203
-        }
-      ],
-      "actorPosition": {
-        "y": 0,
-        "x": 0
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "……?!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "스위프트슈어&블랙 프린스&시리우스",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 307072,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "……에?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202101,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "say": "어라? 문은 분명히 잠궜습니다만…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 307072,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "say": "이, 이게 무슨 일이죠? 지휘관님은요?!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 207035,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "후후, 다이호. 안녕하세요. 지휘관님이 안 계신 틈을 타 지휘실에 설날 장식을 하던 중이랍니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202101,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 1,
-      "say": "그렇습니다. 보시는 것 같이 굉장히 바쁘니 다이호님도 도와주신다면 감사하겠습니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 307072,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "그, 그렇군요…(지휘관님을 위해서…!!) 꼭 도와드리도록 하지요!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202232,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "음… 이 ‘복’자는…… 거꾸로 붙인 게 아닐까요?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202101,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "say": "그건 거꾸로 붙이는 것이 맞습니다. 이스트 글림에서는 특별한 의미가 있다고 합니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202203,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "이건… 여기에 두는 거겠…지요?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202101,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 2,
-      "say": "시리우스. 그건 의자에 두는 것은 아닐 것 같습니다… 대체 어떻게 생각해야 등불을 의자에 두는 건지……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202101,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 1,
-      "say": "그리고 블랙 프린스, 그 레코드를 손에 든지 시간이 굉장히 오래 지났습니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202242,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "죄송해요. 저도 모르게……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 207035,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "글로스터가 있어서 정말 다행이네요.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202101,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "say": "무, 무슨 말씀을… 해야 할 일일 뿐입니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "say": "문의 정리와 장식은 다이호에게 맡겨주세요!",
-      "actor": 307072,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 202101,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 1,
-      "say": "아… 그럼 다이호님, 부탁드립니다.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 307072,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "(이걸로 지휘관님이 돌아오셨을 때 처음 보는 건 이 다이호일 거예요…!)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "모두의 노력 덕분에 지휘실은 점점 설날 분위기로 가득 차올랐다——",
-      "blackBg": true,
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "HONGBAORICHANG2",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\uac01\uc790\uc758 \uc124\ub0a0\n\n<size=45>2. \uc0c8\ud574\ub97c \ub9de\uc774\ud558\ub294 \uc9c0\ud718\uc2e4</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"actor": 307072,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "(\ud6c4\ud6c4\ud6c4\u2026 \ud06c\ub9ac\uc2a4\ub9c8\uc2a4\uc640 \uc815\uc6d4\uc744 \uac74\ub108\ub6f0\uba74\uc11c\uae4c\uc9c0 \uae30\ub2e4\ub824\uc628 \uc774\uc2a4\ud2b8 \uae00\ub9bc\uc758 \uc124\ub0a0\u2026)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-china",
+			"bgmDelay": 2,
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 307072,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "(\ubc18\ub4dc\uc2dc \uc9c0\ud718\uad00\ub2d8\uc758 \ub208\uc744 \uc0ac\ub85c\uc7a1\uace0 \ub9d0\uaca0\uc5b4\uc694! \uc9c0\ud718\uad00\ub2d8. \ub2e4\uc774\ud638\uac00 \uc900\ube44\ud55c \uacf5\uc5f0, \uae30\ub300\ud574\uc8fc\uc138\uc694\u2661)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"say": "\uc9c0\ud718\uad00\ub2d8! (\ubc8c\ucee5)",
+			"actor": 307072,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_night"
+		},
+		{
+			"actor": 202232,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hideOther": true,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"subActors": [
+				{
+					"pos": {
+						"x": 600
+					},
+					"actor": 202242
+				},
+				{
+					"pos": {
+						"x": 1500
+					},
+					"actor": 202203
+				}
+			],
+			"actorPosition": {
+				"y": 0,
+				"x": 0
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u2026\u2026?!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc2a4\uc704\ud504\ud2b8\uc288\uc5b4&\ube14\ub799 \ud504\ub9b0\uc2a4&\uc2dc\ub9ac\uc6b0\uc2a4",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 307072,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u2026\u2026\uc5d0?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202101,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"say": "\uc5b4\ub77c? \ubb38\uc740 \ubd84\uba85\ud788 \uc7a0\uad9c\uc2b5\ub2c8\ub2e4\ub9cc\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 307072,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\uc774, \uc774\uac8c \ubb34\uc2a8 \uc77c\uc774\uc8e0? \uc9c0\ud718\uad00\ub2d8\uc740\uc694?!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 207035,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ud6c4\ud6c4, \ub2e4\uc774\ud638. \uc548\ub155\ud558\uc138\uc694. \uc9c0\ud718\uad00\ub2d8\uc774 \uc548 \uacc4\uc2e0 \ud2c8\uc744 \ud0c0 \uc9c0\ud718\uc2e4\uc5d0 \uc124\ub0a0 \uc7a5\uc2dd\uc744 \ud558\ub358 \uc911\uc774\ub78d\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202101,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 1,
+			"say": "\uadf8\ub807\uc2b5\ub2c8\ub2e4. \ubcf4\uc2dc\ub294 \uac83 \uac19\uc774 \uad49\uc7a5\ud788 \ubc14\uc058\ub2c8 \ub2e4\uc774\ud638\ub2d8\ub3c4 \ub3c4\uc640\uc8fc\uc2e0\ub2e4\uba74 \uac10\uc0ac\ud558\uaca0\uc2b5\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 307072,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\uadf8, \uadf8\ub807\uad70\uc694\u2026(\uc9c0\ud718\uad00\ub2d8\uc744 \uc704\ud574\uc11c\u2026!!) \uaf2d \ub3c4\uc640\ub4dc\ub9ac\ub3c4\ub85d \ud558\uc9c0\uc694!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202232,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\uc74c\u2026 \uc774 \u2018\ubcf5\u2019\uc790\ub294\u2026\u2026 \uac70\uafb8\ub85c \ubd99\uc778 \uac8c \uc544\ub2d0\uae4c\uc694?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202101,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"say": "\uadf8\uac74 \uac70\uafb8\ub85c \ubd99\uc774\ub294 \uac83\uc774 \ub9de\uc2b5\ub2c8\ub2e4. \uc774\uc2a4\ud2b8 \uae00\ub9bc\uc5d0\uc11c\ub294 \ud2b9\ubcc4\ud55c \uc758\ubbf8\uac00 \uc788\ub2e4\uace0 \ud569\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202203,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\uc774\uac74\u2026 \uc5ec\uae30\uc5d0 \ub450\ub294 \uac70\uaca0\u2026\uc9c0\uc694?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202101,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 2,
+			"say": "\uc2dc\ub9ac\uc6b0\uc2a4. \uadf8\uac74 \uc758\uc790\uc5d0 \ub450\ub294 \uac83\uc740 \uc544\ub2d0 \uac83 \uac19\uc2b5\ub2c8\ub2e4\u2026 \ub300\uccb4 \uc5b4\ub5bb\uac8c \uc0dd\uac01\ud574\uc57c \ub4f1\ubd88\uc744 \uc758\uc790\uc5d0 \ub450\ub294 \uac74\uc9c0\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202101,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 1,
+			"say": "\uadf8\ub9ac\uace0 \ube14\ub799 \ud504\ub9b0\uc2a4, \uadf8 \ub808\ucf54\ub4dc\ub97c \uc190\uc5d0 \ub4e0\uc9c0 \uc2dc\uac04\uc774 \uad49\uc7a5\ud788 \uc624\ub798 \uc9c0\ub0ac\uc2b5\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202242,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\uc8c4\uc1a1\ud574\uc694. \uc800\ub3c4 \ubaa8\ub974\uac8c\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 207035,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\uae00\ub85c\uc2a4\ud130\uac00 \uc788\uc5b4\uc11c \uc815\ub9d0 \ub2e4\ud589\uc774\ub124\uc694.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202101,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"say": "\ubb34, \ubb34\uc2a8 \ub9d0\uc500\uc744\u2026 \ud574\uc57c \ud560 \uc77c\uc77c \ubfd0\uc785\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\ubb38\uc758 \uc815\ub9ac\uc640 \uc7a5\uc2dd\uc740 \ub2e4\uc774\ud638\uc5d0\uac8c \ub9e1\uaca8\uc8fc\uc138\uc694!",
+			"actor": 307072,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 202101,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 1,
+			"say": "\uc544\u2026 \uadf8\ub7fc \ub2e4\uc774\ud638\ub2d8, \ubd80\ud0c1\ub4dc\ub9bd\ub2c8\ub2e4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 307072,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "(\uc774\uac78\ub85c \uc9c0\ud718\uad00\ub2d8\uc774 \ub3cc\uc544\uc624\uc168\uc744 \ub54c \ucc98\uc74c \ubcf4\ub294 \uac74 \uc774 \ub2e4\uc774\ud638\uc77c \uac70\uc608\uc694\u2026!)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\ubaa8\ub450\uc758 \ub178\ub825 \ub355\ubd84\uc5d0 \uc9c0\ud718\uc2e4\uc740 \uc810\uc810 \uc124\ub0a0 \ubd84\uc704\uae30\ub85c \uac00\ub4dd \ucc28\uc62c\ub790\ub2e4\u2014\u2014",
+			"blackBg": true,
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "HONGBAORICHANG2",
+	"once": true
 }

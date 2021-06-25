@@ -1,95 +1,95 @@
 {
-  "1": {},
-  "2": {},
-  "3": {},
-  "4": {},
-  "5": {},
-  "6": {},
-  "7": {},
-  "8": {},
-  "9": {},
-  "10": {},
-  "picture": "",
-  "id": 11650,
-  "effect_list": [
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "nationality": 1,
-        "buff_id": 11651,
-        "minTargetNumber": 1,
-        "ship_type_list": [
-          6,
-          7
-        ],
-        "check_target": [
-          "TargetNationalityFriendly",
-          "TargetShipTypeFriendly"
-        ],
-        "isBuffStackByCheckTarget": true
-      }
-    },
-    {
-      "trigger": [
-        "onStartGame"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "nationality": 1,
-        "check_target": [
-          "TargetNationalityFriendly",
-          "TargetShipTypeFriendly"
-        ],
-        "minTargetNumber": 1,
-        "ship_type_list": [
-          6,
-          7
-        ],
-        "skill_id": 11650
-      }
-    },
-    {
-      "trigger": [
-        "onFoeAircraftDying"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "killer": "child",
-        "skill_id": 11651
-      }
-    },
-    {
-      "trigger": [
-        "onFoeAircraftDying"
-      ],
-      "type": "BattleBuffCount",
-      "arg_list": {
-        "countTarget": 5,
-        "killer": "child",
-        "countType": 11650
-      }
-    },
-    {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCancelBuff",
-      "arg_list": {
-        "count": 1,
-        "countType": 11650
-      }
-    }
-  ],
-  "desc": "出击时，队友中每有一个白鹰联邦正航或轻母，自身航空、防空属性上升$1,自身舰载机击落敌方飞机时，自身航空额外提高$2（该效果最高叠加5层）",
-  "icon": 11650,
-  "last_effect": "",
-  "name": "航空阵列",
-  "color": "yellow",
-  "desc_get": "出击时，队友中每有一个白鹰联邦正航或轻母，自身航空、防空属性上升$1,自身舰载机击落敌方飞机时，自身航空额外提高$2（该效果最高叠加5层）",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+	"1": [],
+	"2": [],
+	"3": [],
+	"4": [],
+	"5": [],
+	"6": [],
+	"7": [],
+	"8": [],
+	"9": [],
+	"10": [],
+	"picture": "",
+	"id": 11650,
+	"effect_list": [
+		{
+			"trigger": [
+				"onStartGame"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"nationality": 1,
+				"buff_id": 11651,
+				"minTargetNumber": 1,
+				"ship_type_list": [
+					6,
+					7
+				],
+				"check_target": [
+					"TargetNationalityFriendly",
+					"TargetShipTypeFriendly"
+				],
+				"isBuffStackByCheckTarget": true
+			}
+		},
+		{
+			"trigger": [
+				"onStartGame"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"nationality": 1,
+				"check_target": [
+					"TargetNationalityFriendly",
+					"TargetShipTypeFriendly"
+				],
+				"minTargetNumber": 1,
+				"ship_type_list": [
+					6,
+					7
+				],
+				"skill_id": 11650
+			}
+		},
+		{
+			"trigger": [
+				"onFoeAircraftDying"
+			],
+			"type": "BattleBuffCastSkill",
+			"arg_list": {
+				"killer": "child",
+				"skill_id": 11651
+			}
+		},
+		{
+			"trigger": [
+				"onFoeAircraftDying"
+			],
+			"type": "BattleBuffCount",
+			"arg_list": {
+				"countTarget": 5,
+				"killer": "child",
+				"countType": 11650
+			}
+		},
+		{
+			"trigger": [
+				"onBattleBuffCount"
+			],
+			"type": "BattleBuffCancelBuff",
+			"arg_list": {
+				"count": 1,
+				"countType": 11650
+			}
+		}
+	],
+	"desc": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u6b63\u822a\u6216\u8f7b\u6bcd\uff0c\u81ea\u8eab\u822a\u7a7a\u3001\u9632\u7a7a\u5c5e\u6027\u4e0a\u5347$1,\u81ea\u8eab\u8230\u8f7d\u673a\u51fb\u843d\u654c\u65b9\u98de\u673a\u65f6\uff0c\u81ea\u8eab\u822a\u7a7a\u989d\u5916\u63d0\u9ad8$2\uff08\u8be5\u6548\u679c\u6700\u9ad8\u53e0\u52a05\u5c42\uff09",
+	"icon": 11650,
+	"last_effect": "",
+	"name": "\u822a\u7a7a\u9635\u5217",
+	"color": "yellow",
+	"desc_get": "\u51fa\u51fb\u65f6\uff0c\u961f\u53cb\u4e2d\u6bcf\u6709\u4e00\u4e2a\u767d\u9e70\u8054\u90a6\u6b63\u822a\u6216\u8f7b\u6bcd\uff0c\u81ea\u8eab\u822a\u7a7a\u3001\u9632\u7a7a\u5c5e\u6027\u4e0a\u5347$1,\u81ea\u8eab\u8230\u8f7d\u673a\u51fb\u843d\u654c\u65b9\u98de\u673a\u65f6\uff0c\u81ea\u8eab\u822a\u7a7a\u989d\u5916\u63d0\u9ad8$2\uff08\u8be5\u6548\u679c\u6700\u9ad8\u53e0\u52a05\u5c42\uff09",
+	"stack": 1,
+	"init_effect": "",
+	"time": 0
 }

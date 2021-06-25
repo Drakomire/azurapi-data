@@ -1,36 +1,36 @@
 {
-  "picture": "",
-  "id": 47,
-  "desc": "每堆叠1层，伤害、装填提高5%",
-  "icon": 47,
-  "last_effect": "",
-  "time": 0,
-  "limit": {},
-  "effect_list": [
-    {
-      "trigger": [
-        "onAttach",
-        "onStack"
-      ],
-      "type": "BattleBuffAddAttrRatio",
-      "arg_list": {
-        "number": 500,
-        "attr": "loadSpeed"
-      }
-    },
-    {
-      "trigger": [
-        "onAttach",
-        "onStack"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "number": 0.05,
-        "attr": "damageRatioBullet"
-      }
-    }
-  ],
-  "stack": 5,
-  "init_effect": "",
-  "name": "绝地反击"
+	"picture": "",
+	"id": 47,
+	"desc": "\u6bcf\u5806\u53e01\u5c42\uff0c\u4f24\u5bb3\u3001\u88c5\u586b\u63d0\u9ad85%",
+	"icon": 47,
+	"last_effect": "",
+	"time": 0,
+	"limit": [],
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach",
+				"onStack"
+			],
+			"type": "BattleBuffAddAttrRatio",
+			"arg_list": {
+				"number": 500,
+				"attr": "loadSpeed"
+			}
+		},
+		{
+			"trigger": [
+				"onAttach",
+				"onStack"
+			],
+			"type": "BattleBuffAddAttr",
+			"arg_list": {
+				"number": 0.05,
+				"attr": "damageRatioBullet"
+			}
+		}
+	],
+	"stack": 5,
+	"init_effect": "",
+	"name": "\u7edd\u5730\u53cd\u51fb"
 }

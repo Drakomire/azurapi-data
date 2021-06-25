@@ -1,505 +1,505 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "bgm": "battle-boss-italy",
-      "hidePaintObj": true,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "轰——————————！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "hidePaintObj": true,
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "「海妖之歌」功率调整至70%————该让这场实验结束了。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 900011,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 602010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 5,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "维内托大人，战况不妙。测试者本身并不麻烦，但是强烈的干扰大幅降低了我们的战斗能力。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 602010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "say": "如果不解决掉干扰装置的话，继续战斗下去舰队将会遭受重大损失。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "我正在尽力寻找干扰装置，但是目前还没有发现任何疑似目标……！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "区域太广阔了，而装置可能在那些立场墙内，可能在水下，也可能在测试者那巨大的舰装中……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 5,
-      "say": "如果有能找到并破坏干扰装置的能力，我们也能一并连测试者一起解决了……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 4,
-      "say": "还需要投入强大的火力……不只一艘航空母舰，而是五艘，甚至十艘的量……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "要呼叫空军支援么……？只要沿着我们进来的路径飞行空军就能进入镜面海域之中吧！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 4,
-      "say": "空军啊……伯罗奔尼撒半岛上确实有不少我们的空军基地，不过要求助空军啊……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 1,
-      "say": "……那铁血的呢？附近应该也有不少铁血的航空基地…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 7,
-      "say": "也不行……现在呼叫铁血的支援，日后还不知道又会被它们拿走多少利益作为回报……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 1,
-      "say": "利托里奥，现在不是纠结面子问题的时候。只要能够取得胜利，就算将一小部分战果让与空军又如何？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "我决定了，我们将会要求空军前来支援。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 4,
-      "say": "既然你决定了的话，我也没意见。不过空军那边很有可能会视而不见啊……算啦，试试再说。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 8,
-      "say": "天鹰，立刻派遣你状态最完好的战斗机队突出镜面海域前往伯罗奔尼撒半岛上的空军司令部，把我们的援军带回来！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "是！不过好像没有这个必要了……！一支庞大的机群正在从西南方向快速接近！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 607010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 2,
-      "say": "西北方向也有！维内托大人、利托里奥大人，我们的空军支援已经在赶来的路上了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 7,
-      "say": "怪了……这里是与外界通讯阻隔的镜面海域，空军是怎么进来的？而且还能准确找到我们位置……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "expression": 3,
-      "say": "一向与我们不和的空军居然主动安排了这种规模的支援机群，这股反常的行动力是怎么回事……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "say": "我也没什么头绪……不过确实是非常及时的支援，这样一来胜利就毫无疑问属于我们了。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    },
-    {
-      "actor": 605010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "hidePaintObj": true,
-      "blackBg": true,
-      "expression": 3,
-      "say": "就是希望那些飞机别又连我们一起炸………各舰立刻和测试者舰队拉开距离，大规模空袭就要来了！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_italyv2_3"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "FUXINGDEZANMEISHI31",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"bgm": "battle-boss-italy",
+			"hidePaintObj": true,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u8f70\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dir": 1,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"hidePaintObj": true,
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\u300c\u6d77\u5996\u4e4b\u6b4c\u300d\u529f\u7387\u8c03\u6574\u81f370%\u2014\u2014\u2014\u2014\u8be5\u8ba9\u8fd9\u573a\u5b9e\u9a8c\u7ed3\u675f\u4e86\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 900011,
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 602010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 5,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u7ef4\u5185\u6258\u5927\u4eba\uff0c\u6218\u51b5\u4e0d\u5999\u3002\u6d4b\u8bd5\u8005\u672c\u8eab\u5e76\u4e0d\u9ebb\u70e6\uff0c\u4f46\u662f\u5f3a\u70c8\u7684\u5e72\u6270\u5927\u5e45\u964d\u4f4e\u4e86\u6211\u4eec\u7684\u6218\u6597\u80fd\u529b\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 602010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"say": "\u5982\u679c\u4e0d\u89e3\u51b3\u6389\u5e72\u6270\u88c5\u7f6e\u7684\u8bdd\uff0c\u7ee7\u7eed\u6218\u6597\u4e0b\u53bb\u8230\u961f\u5c06\u4f1a\u906d\u53d7\u91cd\u5927\u635f\u5931\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "\u6211\u6b63\u5728\u5c3d\u529b\u5bfb\u627e\u5e72\u6270\u88c5\u7f6e\uff0c\u4f46\u662f\u76ee\u524d\u8fd8\u6ca1\u6709\u53d1\u73b0\u4efb\u4f55\u7591\u4f3c\u76ee\u6807\u2026\u2026\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "\u533a\u57df\u592a\u5e7f\u9614\u4e86\uff0c\u800c\u88c5\u7f6e\u53ef\u80fd\u5728\u90a3\u4e9b\u7acb\u573a\u5899\u5185\uff0c\u53ef\u80fd\u5728\u6c34\u4e0b\uff0c\u4e5f\u53ef\u80fd\u5728\u6d4b\u8bd5\u8005\u90a3\u5de8\u5927\u7684\u8230\u88c5\u4e2d\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 5,
+			"say": "\u5982\u679c\u6709\u80fd\u627e\u5230\u5e76\u7834\u574f\u5e72\u6270\u88c5\u7f6e\u7684\u80fd\u529b\uff0c\u6211\u4eec\u4e5f\u80fd\u4e00\u5e76\u8fde\u6d4b\u8bd5\u8005\u4e00\u8d77\u89e3\u51b3\u4e86\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 4,
+			"say": "\u8fd8\u9700\u8981\u6295\u5165\u5f3a\u5927\u7684\u706b\u529b\u2026\u2026\u4e0d\u53ea\u4e00\u8258\u822a\u7a7a\u6bcd\u8230\uff0c\u800c\u662f\u4e94\u8258\uff0c\u751a\u81f3\u5341\u8258\u7684\u91cf\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "\u8981\u547c\u53eb\u7a7a\u519b\u652f\u63f4\u4e48\u2026\u2026\uff1f\u53ea\u8981\u6cbf\u7740\u6211\u4eec\u8fdb\u6765\u7684\u8def\u5f84\u98de\u884c\u7a7a\u519b\u5c31\u80fd\u8fdb\u5165\u955c\u9762\u6d77\u57df\u4e4b\u4e2d\u5427\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 4,
+			"say": "\u7a7a\u519b\u554a\u2026\u2026\u4f2f\u7f57\u5954\u5c3c\u6492\u534a\u5c9b\u4e0a\u786e\u5b9e\u6709\u4e0d\u5c11\u6211\u4eec\u7684\u7a7a\u519b\u57fa\u5730\uff0c\u4e0d\u8fc7\u8981\u6c42\u52a9\u7a7a\u519b\u554a\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 1,
+			"say": "\u2026\u2026\u90a3\u94c1\u8840\u7684\u5462\uff1f\u9644\u8fd1\u5e94\u8be5\u4e5f\u6709\u4e0d\u5c11\u94c1\u8840\u7684\u822a\u7a7a\u57fa\u5730\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 7,
+			"say": "\u4e5f\u4e0d\u884c\u2026\u2026\u73b0\u5728\u547c\u53eb\u94c1\u8840\u7684\u652f\u63f4\uff0c\u65e5\u540e\u8fd8\u4e0d\u77e5\u9053\u53c8\u4f1a\u88ab\u5b83\u4eec\u62ff\u8d70\u591a\u5c11\u5229\u76ca\u4f5c\u4e3a\u56de\u62a5\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 1,
+			"say": "\u5229\u6258\u91cc\u5965\uff0c\u73b0\u5728\u4e0d\u662f\u7ea0\u7ed3\u9762\u5b50\u95ee\u9898\u7684\u65f6\u5019\u3002\u53ea\u8981\u80fd\u591f\u53d6\u5f97\u80dc\u5229\uff0c\u5c31\u7b97\u5c06\u4e00\u5c0f\u90e8\u5206\u6218\u679c\u8ba9\u4e0e\u7a7a\u519b\u53c8\u5982\u4f55\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "\u6211\u51b3\u5b9a\u4e86\uff0c\u6211\u4eec\u5c06\u4f1a\u8981\u6c42\u7a7a\u519b\u524d\u6765\u652f\u63f4\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 4,
+			"say": "\u65e2\u7136\u4f60\u51b3\u5b9a\u4e86\u7684\u8bdd\uff0c\u6211\u4e5f\u6ca1\u610f\u89c1\u3002\u4e0d\u8fc7\u7a7a\u519b\u90a3\u8fb9\u5f88\u6709\u53ef\u80fd\u4f1a\u89c6\u800c\u4e0d\u89c1\u554a\u2026\u2026\u7b97\u5566\uff0c\u8bd5\u8bd5\u518d\u8bf4\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 8,
+			"say": "\u5929\u9e70\uff0c\u7acb\u523b\u6d3e\u9063\u4f60\u72b6\u6001\u6700\u5b8c\u597d\u7684\u6218\u6597\u673a\u961f\u7a81\u51fa\u955c\u9762\u6d77\u57df\u524d\u5f80\u4f2f\u7f57\u5954\u5c3c\u6492\u534a\u5c9b\u4e0a\u7684\u7a7a\u519b\u53f8\u4ee4\u90e8\uff0c\u628a\u6211\u4eec\u7684\u63f4\u519b\u5e26\u56de\u6765\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "\u662f\uff01\u4e0d\u8fc7\u597d\u50cf\u6ca1\u6709\u8fd9\u4e2a\u5fc5\u8981\u4e86\u2026\u2026\uff01\u4e00\u652f\u5e9e\u5927\u7684\u673a\u7fa4\u6b63\u5728\u4ece\u897f\u5357\u65b9\u5411\u5feb\u901f\u63a5\u8fd1\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 607010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 2,
+			"say": "\u897f\u5317\u65b9\u5411\u4e5f\u6709\uff01\u7ef4\u5185\u6258\u5927\u4eba\u3001\u5229\u6258\u91cc\u5965\u5927\u4eba\uff0c\u6211\u4eec\u7684\u7a7a\u519b\u652f\u63f4\u5df2\u7ecf\u5728\u8d76\u6765\u7684\u8def\u4e0a\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 7,
+			"say": "\u602a\u4e86\u2026\u2026\u8fd9\u91cc\u662f\u4e0e\u5916\u754c\u901a\u8baf\u963b\u9694\u7684\u955c\u9762\u6d77\u57df\uff0c\u7a7a\u519b\u662f\u600e\u4e48\u8fdb\u6765\u7684\uff1f\u800c\u4e14\u8fd8\u80fd\u51c6\u786e\u627e\u5230\u6211\u4eec\u4f4d\u7f6e\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"expression": 3,
+			"say": "\u4e00\u5411\u4e0e\u6211\u4eec\u4e0d\u548c\u7684\u7a7a\u519b\u5c45\u7136\u4e3b\u52a8\u5b89\u6392\u4e86\u8fd9\u79cd\u89c4\u6a21\u7684\u652f\u63f4\u673a\u7fa4\uff0c\u8fd9\u80a1\u53cd\u5e38\u7684\u884c\u52a8\u529b\u662f\u600e\u4e48\u56de\u4e8b\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"say": "\u6211\u4e5f\u6ca1\u4ec0\u4e48\u5934\u7eea\u2026\u2026\u4e0d\u8fc7\u786e\u5b9e\u662f\u975e\u5e38\u53ca\u65f6\u7684\u652f\u63f4\uff0c\u8fd9\u6837\u4e00\u6765\u80dc\u5229\u5c31\u6beb\u65e0\u7591\u95ee\u5c5e\u4e8e\u6211\u4eec\u4e86\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		},
+		{
+			"actor": 605010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"hidePaintObj": true,
+			"blackBg": true,
+			"expression": 3,
+			"say": "\u5c31\u662f\u5e0c\u671b\u90a3\u4e9b\u98de\u673a\u522b\u53c8\u8fde\u6211\u4eec\u4e00\u8d77\u70b8\u2026\u2026\u2026\u5404\u8230\u7acb\u523b\u548c\u6d4b\u8bd5\u8005\u8230\u961f\u62c9\u5f00\u8ddd\u79bb\uff0c\u5927\u89c4\u6a21\u7a7a\u88ad\u5c31\u8981\u6765\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_italyv2_3"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "FUXINGDEZANMEISHI31",
+	"once": true
 }

@@ -1,558 +1,558 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 301050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "say": "祭，前面没路了",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgm": "holo-fbk"
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "轨道的终点建筑是一个…饭团？"
-    },
-    {
-      "actor": 10500030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "饭团…？！！！不妙，不妙，不妙，不妙！那个不是饭团而是岩浆湖啊！！！！！！！！！！！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 4,
-          "delay": 0.5,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "say": "哎？刚才的地图上看到线路不是通向这里的，祭还以为是因为服务器变化导致的呢！",
-      "actor": 10500040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "敌人的连环陷阱么…！如果在这种高度和速度跳车的话…",
-      "actor": 10500010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "{namecode:96}！"
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "舰载机还需要准备时间！"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 900021,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "净化亲",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "啧，大家不要慌，抓住我的舰装，准备跳车！"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "众人",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！"
-    },
-    {
-      "actor": 10500070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 0.5
-      },
-      "say": "舰装变成了巨大飞行器接住了所有人？！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "bgmDelay": 1,
-      "bgm": "holo-inochi-inst"
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 900021,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "净化亲",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "本来是之前给妳们制作舰装的时候，突发奇想做的改造，没想到能在这里派上用场。"
-    },
-    {
-      "actor": 101170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "净化亲，了不起"
-    },
-    {
-      "actor": 900021,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "哼哼哼，再多夸夸我也不要紧哦~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "净化亲",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.3,
-          "number": 2,
-          "delay": 0,
-          "x": 40
-        }
-      ]
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "居然被塞壬给救了…这下回去要怎么写报告才好啊…"
-    },
-    {
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "空中移动，过于危险…大家都没事吧？"
-    },
-    {
-      "say": "大家都没事哦，不过过山车已经彻底消失在岩浆里了…",
-      "actor": 10500020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "从现在地图上来看，前方是一堵巨大的壁画…墙？再之后就是本社大楼的位置了"
-    },
-    {
-      "actor": 10500030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "那个壁画，是不是和之前服务器里的不太一样？"
-    },
-    {
-      "actor": 10500050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "图案变成了穿戴舰装的空前辈？！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "say": "塞壬那边的“祭”，在这方面的细节上很讲究呢",
-      "actor": 10500040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "果然，和迄今为止我们遭遇过的“棋子”都不一样"
-    },
-    {
-      "say": "把她们当成单纯的兵器果然还是很微妙啊…",
-      "actor": 10500060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "消灭塞壬是我们作为舰船的职责，不会强迫妳们动手的。"
-    },
-    {
-      "say": "唔…是余等的态度一直不够坚定，是时候正视一下这个问题了……",
-      "actor": 10500050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "往好处想的话，如果只要打倒塞壬头目就能解决问题的话，也许还有避开和她们的战斗，直捣黄龙的可能性！",
-      "actor": 10500070,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "actor": 301490,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "我之前说过，带着这种迷茫和侥幸的心情和塞壬战斗，是很危险的"
-    },
-    {
-      "say": "虽然我也有些犹豫……但是我不会迷茫了。如果将她们彻底击败是带领大家平安离开的必要条件，我会…动手",
-      "actor": 10500020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    },
-    {
-      "say": "哼哼哼，不过是敌人心理战的一环，我早就在游戏里身经百战了，余裕余裕~如果大家下不了手的话，就交给本阿库娅大人去做吧！",
-      "actor": 10500030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 5
-    },
-    {
-      "say": "如果大家下不了手的话，就交给本阿库娅大人去做吧！",
-      "actor": 10500030,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "say": "我的话……咦，祭酱？",
-      "actor": 10500010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "say": "唔唔…祭也许有一个想法",
-      "actor": 10500040,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 2
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "HOLOGUANQIA42",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 301050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"say": "\u796d\uff0c\u524d\u9762\u6ca1\u8def\u4e86",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgm": "holo-fbk"
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u8f68\u9053\u7684\u7ec8\u70b9\u5efa\u7b51\u662f\u4e00\u4e2a\u2026\u996d\u56e2\uff1f"
+		},
+		{
+			"actor": 10500030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u996d\u56e2\u2026\uff1f\uff01\uff01\uff01\u4e0d\u5999\uff0c\u4e0d\u5999\uff0c\u4e0d\u5999\uff0c\u4e0d\u5999\uff01\u90a3\u4e2a\u4e0d\u662f\u996d\u56e2\u800c\u662f\u5ca9\u6d46\u6e56\u554a\uff01\uff01\uff01\uff01\uff01\uff01\uff01\uff01\uff01\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 4,
+					"delay": 0.5,
+					"x": 0
+				}
+			]
+		},
+		{
+			"say": "\u54ce\uff1f\u521a\u624d\u7684\u5730\u56fe\u4e0a\u770b\u5230\u7ebf\u8def\u4e0d\u662f\u901a\u5411\u8fd9\u91cc\u7684\uff0c\u796d\u8fd8\u4ee5\u4e3a\u662f\u56e0\u4e3a\u670d\u52a1\u5668\u53d8\u5316\u5bfc\u81f4\u7684\u5462\uff01",
+			"actor": 10500040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u654c\u4eba\u7684\u8fde\u73af\u9677\u9631\u4e48\u2026\uff01\u5982\u679c\u5728\u8fd9\u79cd\u9ad8\u5ea6\u548c\u901f\u5ea6\u8df3\u8f66\u7684\u8bdd\u2026",
+			"actor": 10500010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "{namecode:96}\uff01"
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u8230\u8f7d\u673a\u8fd8\u9700\u8981\u51c6\u5907\u65f6\u95f4\uff01"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 900021,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "\u51c0\u5316\u4eb2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5567\uff0c\u5927\u5bb6\u4e0d\u8981\u614c\uff0c\u6293\u4f4f\u6211\u7684\u8230\u88c5\uff0c\u51c6\u5907\u8df3\u8f66\uff01"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "\u4f17\u4eba",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u54c7\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\u554a\uff01"
+		},
+		{
+			"actor": 10500070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 0.5
+			},
+			"say": "\u8230\u88c5\u53d8\u6210\u4e86\u5de8\u5927\u98de\u884c\u5668\u63a5\u4f4f\u4e86\u6240\u6709\u4eba\uff1f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"bgmDelay": 1,
+			"bgm": "holo-inochi-inst"
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 900021,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "\u51c0\u5316\u4eb2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u672c\u6765\u662f\u4e4b\u524d\u7ed9\u59b3\u4eec\u5236\u4f5c\u8230\u88c5\u7684\u65f6\u5019\uff0c\u7a81\u53d1\u5947\u60f3\u505a\u7684\u6539\u9020\uff0c\u6ca1\u60f3\u5230\u80fd\u5728\u8fd9\u91cc\u6d3e\u4e0a\u7528\u573a\u3002"
+		},
+		{
+			"actor": 101170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u51c0\u5316\u4eb2\uff0c\u4e86\u4e0d\u8d77"
+		},
+		{
+			"actor": 900021,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u54fc\u54fc\u54fc\uff0c\u518d\u591a\u5938\u5938\u6211\u4e5f\u4e0d\u8981\u7d27\u54e6~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\u51c0\u5316\u4eb2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.3,
+					"number": 2,
+					"delay": 0,
+					"x": 40
+				}
+			]
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u5c45\u7136\u88ab\u585e\u58ec\u7ed9\u6551\u4e86\u2026\u8fd9\u4e0b\u56de\u53bb\u8981\u600e\u4e48\u5199\u62a5\u544a\u624d\u597d\u554a\u2026"
+		},
+		{
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u7a7a\u4e2d\u79fb\u52a8\uff0c\u8fc7\u4e8e\u5371\u9669\u2026\u5927\u5bb6\u90fd\u6ca1\u4e8b\u5427\uff1f"
+		},
+		{
+			"say": "\u5927\u5bb6\u90fd\u6ca1\u4e8b\u54e6\uff0c\u4e0d\u8fc7\u8fc7\u5c71\u8f66\u5df2\u7ecf\u5f7b\u5e95\u6d88\u5931\u5728\u5ca9\u6d46\u91cc\u4e86\u2026",
+			"actor": 10500020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u4ece\u73b0\u5728\u5730\u56fe\u4e0a\u6765\u770b\uff0c\u524d\u65b9\u662f\u4e00\u5835\u5de8\u5927\u7684\u58c1\u753b\u2026\u5899\uff1f\u518d\u4e4b\u540e\u5c31\u662f\u672c\u793e\u5927\u697c\u7684\u4f4d\u7f6e\u4e86"
+		},
+		{
+			"actor": 10500030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u90a3\u4e2a\u58c1\u753b\uff0c\u662f\u4e0d\u662f\u548c\u4e4b\u524d\u670d\u52a1\u5668\u91cc\u7684\u4e0d\u592a\u4e00\u6837\uff1f"
+		},
+		{
+			"actor": 10500050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u56fe\u6848\u53d8\u6210\u4e86\u7a7f\u6234\u8230\u88c5\u7684\u7a7a\u524d\u8f88\uff1f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"say": "\u585e\u58ec\u90a3\u8fb9\u7684\u201c\u796d\u201d\uff0c\u5728\u8fd9\u65b9\u9762\u7684\u7ec6\u8282\u4e0a\u5f88\u8bb2\u7a76\u5462",
+			"actor": 10500040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u679c\u7136\uff0c\u548c\u8fc4\u4eca\u4e3a\u6b62\u6211\u4eec\u906d\u9047\u8fc7\u7684\u201c\u68cb\u5b50\u201d\u90fd\u4e0d\u4e00\u6837"
+		},
+		{
+			"say": "\u628a\u5979\u4eec\u5f53\u6210\u5355\u7eaf\u7684\u5175\u5668\u679c\u7136\u8fd8\u662f\u5f88\u5fae\u5999\u554a\u2026",
+			"actor": 10500060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6d88\u706d\u585e\u58ec\u662f\u6211\u4eec\u4f5c\u4e3a\u8230\u8239\u7684\u804c\u8d23\uff0c\u4e0d\u4f1a\u5f3a\u8feb\u59b3\u4eec\u52a8\u624b\u7684\u3002"
+		},
+		{
+			"say": "\u5514\u2026\u662f\u4f59\u7b49\u7684\u6001\u5ea6\u4e00\u76f4\u4e0d\u591f\u575a\u5b9a\uff0c\u662f\u65f6\u5019\u6b63\u89c6\u4e00\u4e0b\u8fd9\u4e2a\u95ee\u9898\u4e86\u2026\u2026",
+			"actor": 10500050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u5f80\u597d\u5904\u60f3\u7684\u8bdd\uff0c\u5982\u679c\u53ea\u8981\u6253\u5012\u585e\u58ec\u5934\u76ee\u5c31\u80fd\u89e3\u51b3\u95ee\u9898\u7684\u8bdd\uff0c\u4e5f\u8bb8\u8fd8\u6709\u907f\u5f00\u548c\u5979\u4eec\u7684\u6218\u6597\uff0c\u76f4\u6363\u9ec4\u9f99\u7684\u53ef\u80fd\u6027\uff01",
+			"actor": 10500070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"actor": 301490,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\u6211\u4e4b\u524d\u8bf4\u8fc7\uff0c\u5e26\u7740\u8fd9\u79cd\u8ff7\u832b\u548c\u4fa5\u5e78\u7684\u5fc3\u60c5\u548c\u585e\u58ec\u6218\u6597\uff0c\u662f\u5f88\u5371\u9669\u7684"
+		},
+		{
+			"say": "\u867d\u7136\u6211\u4e5f\u6709\u4e9b\u72b9\u8c6b\u2026\u2026\u4f46\u662f\u6211\u4e0d\u4f1a\u8ff7\u832b\u4e86\u3002\u5982\u679c\u5c06\u5979\u4eec\u5f7b\u5e95\u51fb\u8d25\u662f\u5e26\u9886\u5927\u5bb6\u5e73\u5b89\u79bb\u5f00\u7684\u5fc5\u8981\u6761\u4ef6\uff0c\u6211\u4f1a\u2026\u52a8\u624b",
+			"actor": 10500020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		},
+		{
+			"say": "\u54fc\u54fc\u54fc\uff0c\u4e0d\u8fc7\u662f\u654c\u4eba\u5fc3\u7406\u6218\u7684\u4e00\u73af\uff0c\u6211\u65e9\u5c31\u5728\u6e38\u620f\u91cc\u8eab\u7ecf\u767e\u6218\u4e86\uff0c\u4f59\u88d5\u4f59\u88d5~\u5982\u679c\u5927\u5bb6\u4e0b\u4e0d\u4e86\u624b\u7684\u8bdd\uff0c\u5c31\u4ea4\u7ed9\u672c\u963f\u5e93\u5a05\u5927\u4eba\u53bb\u505a\u5427\uff01",
+			"actor": 10500030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 5
+		},
+		{
+			"say": "\u5982\u679c\u5927\u5bb6\u4e0b\u4e0d\u4e86\u624b\u7684\u8bdd\uff0c\u5c31\u4ea4\u7ed9\u672c\u963f\u5e93\u5a05\u5927\u4eba\u53bb\u505a\u5427\uff01",
+			"actor": 10500030,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"say": "\u6211\u7684\u8bdd\u2026\u2026\u54a6\uff0c\u796d\u9171\uff1f",
+			"actor": 10500010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"say": "\u5514\u5514\u2026\u796d\u4e5f\u8bb8\u6709\u4e00\u4e2a\u60f3\u6cd5",
+			"actor": 10500040,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 2
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "HOLOGUANQIA42",
+	"once": true
 }

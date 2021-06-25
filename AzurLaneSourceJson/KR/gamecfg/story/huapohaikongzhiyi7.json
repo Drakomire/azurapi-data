@@ -1,346 +1,346 @@
 {
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "say": "즈이카쿠, 다이호가 방금 어뢰에 당했어. 하지만 큰 부상은 아니라 금방 다시 전선에 복귀했다고 해.",
-      "actor": 307050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "stopbgm": true
-    },
-    {
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "이글 유니온의 잠수함이 여기까지 들어오다니… 쇼카쿠 언니, 구축함대에게 잠수함 경계를 높이라고 해줘!"
-    },
-    {
-      "actor": 307050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "응, 이미 그렇게 했어. 다이호가 습격 받기 전에 우리 비행장을 파괴하는 소대를 하나 발견했는데, 어떻게 생각해?"
-    },
-    {
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 307060,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "목표로 삼기에 완벽하지! 쇼카쿠 언니, 어서 공격하자!"
-    },
-    {
-      "actor": 307050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "후후… 같은 생각이네. 이글 유니온에게 이 진혼곡을 바치겠어!"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "사이판 섬 서쪽 해역, 프린스턴 함대",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "level",
-      "bgmDelay": 1,
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "actor": 107230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "버밍햄, 방금 저와 몬트필리어가 비슷하다는 말은…?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "actor": 102230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "아! 나오는 대로 한 말일 뿐이니 신경 쓰지 마.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "say": "그런 뜻이 아니예요. 아시다시피 저도 클리블랜드급의 일원이 될 가능성이 있었으니까요.",
-      "actor": 107230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "actor": 107230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "생각해보면 클리블랜드급의 여러분에 대해서 잘 알지 못하네요. 소개해 주실 수 있나요?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "actor": 102230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "음…… 전부 다 소개하려면 시간이 좀 걸릴 텐데?",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "actor": 102230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "일단 우리 큰언니, 클리블랜드야. 항상 햇빛과 자신감에 싸여있어서, 그 모습을 본 사람들에게 강렬한 인상을 남기곤 하지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "say": "네, 이번 작전에서 클리블랜드에게 깊은 인상을 받았어요.",
-      "actor": 107230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "actor": 102230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "그리고 컬럼비아는 큰언니보다 좀 더 털털한 느낌이지. 항상 껌을 씹고 있어.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "actor": 102230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "몬트필리어는 너도 만났을 거야. 큰언니를 정말 좋아해. 항상 큰언니를 목표로, 언니의 뒤를 따라다니곤 하지.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "say": "그리고——",
-      "actor": 102230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "actor": 107230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "(몬트필리어는 클리블랜드를 목표로, 그 뒤를 따라다닌다… 나라면 역시 새러토가 선배겠지……)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    },
-    {
-      "actor": 107230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "expression": 3,
-      "say": "(후후, 아무래도 이야기를 나눠봐야겠네.)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_maliyana"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "HUAPOHAIKONGZHIYI7",
-  "once": true
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"say": "\uc988\uc774\uce74\ucfe0, \ub2e4\uc774\ud638\uac00 \ubc29\uae08 \uc5b4\ub8b0\uc5d0 \ub2f9\ud588\uc5b4. \ud558\uc9c0\ub9cc \ud070 \ubd80\uc0c1\uc740 \uc544\ub2c8\ub77c \uae08\ubc29 \ub2e4\uc2dc \uc804\uc120\uc5d0 \ubcf5\uadc0\ud588\ub2e4\uace0 \ud574.",
+			"actor": 307050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"stopbgm": true
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc774\uae00 \uc720\ub2c8\uc628\uc758 \uc7a0\uc218\ud568\uc774 \uc5ec\uae30\uae4c\uc9c0 \ub4e4\uc5b4\uc624\ub2e4\ub2c8\u2026 \uc1fc\uce74\ucfe0 \uc5b8\ub2c8, \uad6c\ucd95\ud568\ub300\uc5d0\uac8c \uc7a0\uc218\ud568 \uacbd\uacc4\ub97c \ub192\uc774\ub77c\uace0 \ud574\uc918!"
+		},
+		{
+			"actor": 307050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc751, \uc774\ubbf8 \uadf8\ub807\uac8c \ud588\uc5b4. \ub2e4\uc774\ud638\uac00 \uc2b5\uaca9 \ubc1b\uae30 \uc804\uc5d0 \uc6b0\ub9ac \ube44\ud589\uc7a5\uc744 \ud30c\uad34\ud558\ub294 \uc18c\ub300\ub97c \ud558\ub098 \ubc1c\uacac\ud588\ub294\ub370, \uc5b4\ub5bb\uac8c \uc0dd\uac01\ud574?"
+		},
+		{
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ubaa9\ud45c\ub85c \uc0bc\uae30\uc5d0 \uc644\ubcbd\ud558\uc9c0! \uc1fc\uce74\ucfe0 \uc5b8\ub2c8, \uc5b4\uc11c \uacf5\uaca9\ud558\uc790!"
+		},
+		{
+			"actor": 307050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ud6c4\ud6c4\u2026 \uac19\uc740 \uc0dd\uac01\uc774\ub124. \uc774\uae00 \uc720\ub2c8\uc628\uc5d0\uac8c \uc774 \uc9c4\ud63c\uace1\uc744 \ubc14\uce58\uaca0\uc5b4!"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\uc0ac\uc774\ud310 \uc12c \uc11c\ucabd \ud574\uc5ed, \ud504\ub9b0\uc2a4\ud134 \ud568\ub300",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "level",
+			"bgmDelay": 1,
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"actor": 107230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ubc84\ubc0d\ud584, \ubc29\uae08 \uc800\uc640 \ubaac\ud2b8\ud544\ub9ac\uc5b4\uac00 \ube44\uc2b7\ud558\ub2e4\ub294 \ub9d0\uc740\u2026?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"actor": 102230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uc544! \ub098\uc624\ub294 \ub300\ub85c \ud55c \ub9d0\uc77c \ubfd0\uc774\ub2c8 \uc2e0\uacbd \uc4f0\uc9c0 \ub9c8.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"say": "\uadf8\ub7f0 \ub73b\uc774 \uc544\ub2c8\uc608\uc694. \uc544\uc2dc\ub2e4\uc2dc\ud53c \uc800\ub3c4 \ud074\ub9ac\ube14\ub79c\ub4dc\uae09\uc758 \uc77c\uc6d0\uc774 \ub420 \uac00\ub2a5\uc131\uc774 \uc788\uc5c8\uc73c\ub2c8\uae4c\uc694.",
+			"actor": 107230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"actor": 107230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\uc0dd\uac01\ud574\ubcf4\uba74 \ud074\ub9ac\ube14\ub79c\ub4dc\uae09\uc758 \uc5ec\ub7ec\ubd84\uc5d0 \ub300\ud574\uc11c \uc798 \uc54c\uc9c0 \ubabb\ud558\ub124\uc694. \uc18c\uac1c\ud574 \uc8fc\uc2e4 \uc218 \uc788\ub098\uc694?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"actor": 102230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\uc74c\u2026\u2026 \uc804\ubd80 \ub2e4 \uc18c\uac1c\ud558\ub824\uba74 \uc2dc\uac04\uc774 \uc880 \uac78\ub9b4 \ud150\ub370?",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"actor": 102230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uc77c\ub2e8 \uc6b0\ub9ac \ud070\uc5b8\ub2c8, \ud074\ub9ac\ube14\ub79c\ub4dc\uc57c. \ud56d\uc0c1 \ud587\ube5b\uacfc \uc790\uc2e0\uac10\uc5d0 \uc2f8\uc5ec\uc788\uc5b4\uc11c, \uadf8 \ubaa8\uc2b5\uc744 \ubcf8 \uc0ac\ub78c\ub4e4\uc5d0\uac8c \uac15\ub82c\ud55c \uc778\uc0c1\uc744 \ub0a8\uae30\uace4 \ud558\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"say": "\ub124, \uc774\ubc88 \uc791\uc804\uc5d0\uc11c \ud074\ub9ac\ube14\ub79c\ub4dc\uc5d0\uac8c \uae4a\uc740 \uc778\uc0c1\uc744 \ubc1b\uc558\uc5b4\uc694.",
+			"actor": 107230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"actor": 102230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\uadf8\ub9ac\uace0 \uceec\ub7fc\ube44\uc544\ub294 \ud070\uc5b8\ub2c8\ubcf4\ub2e4 \uc880 \ub354 \ud138\ud138\ud55c \ub290\ub08c\uc774\uc9c0. \ud56d\uc0c1 \uaecc\uc744 \uc539\uace0 \uc788\uc5b4.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"actor": 102230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ubaac\ud2b8\ud544\ub9ac\uc5b4\ub294 \ub108\ub3c4 \ub9cc\ub0ac\uc744 \uac70\uc57c. \ud070\uc5b8\ub2c8\ub97c \uc815\ub9d0 \uc88b\uc544\ud574. \ud56d\uc0c1 \ud070\uc5b8\ub2c8\ub97c \ubaa9\ud45c\ub85c, \uc5b8\ub2c8\uc758 \ub4a4\ub97c \ub530\ub77c\ub2e4\ub2c8\uace4 \ud558\uc9c0.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"say": "\uadf8\ub9ac\uace0\u2014\u2014",
+			"actor": 102230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"actor": 107230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "(\ubaac\ud2b8\ud544\ub9ac\uc5b4\ub294 \ud074\ub9ac\ube14\ub79c\ub4dc\ub97c \ubaa9\ud45c\ub85c, \uadf8 \ub4a4\ub97c \ub530\ub77c\ub2e4\ub2cc\ub2e4\u2026 \ub098\ub77c\uba74 \uc5ed\uc2dc \uc0c8\ub7ec\ud1a0\uac00 \uc120\ubc30\uaca0\uc9c0\u2026\u2026)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		},
+		{
+			"actor": 107230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"expression": 3,
+			"say": "(\ud6c4\ud6c4, \uc544\ubb34\ub798\ub3c4 \uc774\uc57c\uae30\ub97c \ub098\ub220\ubd10\uc57c\uaca0\ub124.)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_maliyana"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "HUAPOHAIKONGZHIYI7",
+	"once": true
 }

@@ -1,374 +1,374 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.2,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "…看到了！那就是{namecode:98}报告里提到的新岛了吧！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "doa_story1",
-      "bgmDelay": 2,
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "虽然确实只是个小岛，不过…距离港区这么近的海域，竟然有之前没有发现的岛屿？也太奇怪了…",
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "前方发现船影！是……皮筏艇的说？",
-      "actor": 301050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "敌人…？先来两发鱼雷问候一下？",
-      "actor": 101170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "好像没看到武装…啊，对面好像也发现我们了……",
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "看来不是要开战的样子，先了解下情况看看吧！",
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "1": 5,
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0,
-        "dur": 0.5
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "actor": 900302,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "太好了，总算遇到其他人了！我叫做霞，请问…你们是附近的居民吗？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "？？？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "霞…小姐？我是Z23，这边的分别是{namecode:6}、拉菲、标枪，我们是奉命前来进行海域调查的“舰船”…",
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "舰…船？啊，这么说起来，你们好像直接在海上漂着呢…这难道是某种忍术…？",
-      "actor": 900302,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "“忍术”…哈哈哈，像是重樱的小伙伴们会说的话呢！",
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "{namecode:6}…可不会忍术的说。",
-      "actor": 301050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "不知道舰船…莫非……",
-      "actor": 101170,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "看来这就是谜之信里说的“新的邂逅”了…那个，霞小姐，你是从那个岛出来的吗？",
-      "actor": 401230,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "actor": 900302,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "是的，具体的情况有些一言难尽…总之就是在不明所以的情况下，我和几位同伴突然被带到了这里…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "啊，难道各位就是“绿色猫娘的愉快伙伴们”？",
-      "actor": 900302,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "say": "是在讲…{namecode:98}的说？",
-      "actor": 301050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "actor": 201210,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "咦？霞认识{namecode:98}吗？！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    },
-    {
-      "actor": 900302,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "expression": 2,
-      "say": "唔…还真的跟那东西上写的一样啊…总、总之，先请各位跟我到我的伙伴们那里吧。具体的情况，之后慢慢再聊——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_map_doa"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "JIARIHANGXIAN2",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.2,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u2026\u770b\u5230\u4e86\uff01\u90a3\u5c31\u662f{namecode:98}\u62a5\u544a\u91cc\u63d0\u5230\u7684\u65b0\u5c9b\u4e86\u5427\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "doa_story1",
+			"bgmDelay": 2,
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u867d\u7136\u786e\u5b9e\u53ea\u662f\u4e2a\u5c0f\u5c9b\uff0c\u4e0d\u8fc7\u2026\u8ddd\u79bb\u6e2f\u533a\u8fd9\u4e48\u8fd1\u7684\u6d77\u57df\uff0c\u7adf\u7136\u6709\u4e4b\u524d\u6ca1\u6709\u53d1\u73b0\u7684\u5c9b\u5c7f\uff1f\u4e5f\u592a\u5947\u602a\u4e86\u2026",
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u524d\u65b9\u53d1\u73b0\u8239\u5f71\uff01\u662f\u2026\u2026\u76ae\u7b4f\u8247\u7684\u8bf4\uff1f",
+			"actor": 301050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u654c\u4eba\u2026\uff1f\u5148\u6765\u4e24\u53d1\u9c7c\u96f7\u95ee\u5019\u4e00\u4e0b\uff1f",
+			"actor": 101170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u597d\u50cf\u6ca1\u770b\u5230\u6b66\u88c5\u2026\u554a\uff0c\u5bf9\u9762\u597d\u50cf\u4e5f\u53d1\u73b0\u6211\u4eec\u4e86\u2026\u2026",
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u770b\u6765\u4e0d\u662f\u8981\u5f00\u6218\u7684\u6837\u5b50\uff0c\u5148\u4e86\u89e3\u4e0b\u60c5\u51b5\u770b\u770b\u5427\uff01",
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"1": 5,
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0,
+				"dur": 0.5
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"actor": 900302,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u592a\u597d\u4e86\uff0c\u603b\u7b97\u9047\u5230\u5176\u4ed6\u4eba\u4e86\uff01\u6211\u53eb\u505a\u971e\uff0c\u8bf7\u95ee\u2026\u4f60\u4eec\u662f\u9644\u8fd1\u7684\u5c45\u6c11\u5417\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uff1f\uff1f\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u971e\u2026\u5c0f\u59d0\uff1f\u6211\u662fZ23\uff0c\u8fd9\u8fb9\u7684\u5206\u522b\u662f{namecode:6}\u3001\u62c9\u83f2\u3001\u6807\u67aa\uff0c\u6211\u4eec\u662f\u5949\u547d\u524d\u6765\u8fdb\u884c\u6d77\u57df\u8c03\u67e5\u7684\u201c\u8230\u8239\u201d\u2026",
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u8230\u2026\u8239\uff1f\u554a\uff0c\u8fd9\u4e48\u8bf4\u8d77\u6765\uff0c\u4f60\u4eec\u597d\u50cf\u76f4\u63a5\u5728\u6d77\u4e0a\u6f02\u7740\u5462\u2026\u8fd9\u96be\u9053\u662f\u67d0\u79cd\u5fcd\u672f\u2026\uff1f",
+			"actor": 900302,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u201c\u5fcd\u672f\u201d\u2026\u54c8\u54c8\u54c8\uff0c\u50cf\u662f\u91cd\u6a31\u7684\u5c0f\u4f19\u4f34\u4eec\u4f1a\u8bf4\u7684\u8bdd\u5462\uff01",
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "{namecode:6}\u2026\u53ef\u4e0d\u4f1a\u5fcd\u672f\u7684\u8bf4\u3002",
+			"actor": 301050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u4e0d\u77e5\u9053\u8230\u8239\u2026\u83ab\u975e\u2026\u2026",
+			"actor": 101170,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u770b\u6765\u8fd9\u5c31\u662f\u8c1c\u4e4b\u4fe1\u91cc\u8bf4\u7684\u201c\u65b0\u7684\u9082\u9005\u201d\u4e86\u2026\u90a3\u4e2a\uff0c\u971e\u5c0f\u59d0\uff0c\u4f60\u662f\u4ece\u90a3\u4e2a\u5c9b\u51fa\u6765\u7684\u5417\uff1f",
+			"actor": 401230,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"actor": 900302,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u662f\u7684\uff0c\u5177\u4f53\u7684\u60c5\u51b5\u6709\u4e9b\u4e00\u8a00\u96be\u5c3d\u2026\u603b\u4e4b\u5c31\u662f\u5728\u4e0d\u660e\u6240\u4ee5\u7684\u60c5\u51b5\u4e0b\uff0c\u6211\u548c\u51e0\u4f4d\u540c\u4f34\u7a81\u7136\u88ab\u5e26\u5230\u4e86\u8fd9\u91cc\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u554a\uff0c\u96be\u9053\u5404\u4f4d\u5c31\u662f\u201c\u7eff\u8272\u732b\u5a18\u7684\u6109\u5feb\u4f19\u4f34\u4eec\u201d\uff1f",
+			"actor": 900302,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"say": "\u662f\u5728\u8bb2\u2026{namecode:98}\u7684\u8bf4\uff1f",
+			"actor": 301050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"actor": 201210,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u54a6\uff1f\u971e\u8ba4\u8bc6{namecode:98}\u5417\uff1f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		},
+		{
+			"actor": 900302,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"expression": 2,
+			"say": "\u5514\u2026\u8fd8\u771f\u7684\u8ddf\u90a3\u4e1c\u897f\u4e0a\u5199\u7684\u4e00\u6837\u554a\u2026\u603b\u3001\u603b\u4e4b\uff0c\u5148\u8bf7\u5404\u4f4d\u8ddf\u6211\u5230\u6211\u7684\u4f19\u4f34\u4eec\u90a3\u91cc\u5427\u3002\u5177\u4f53\u7684\u60c5\u51b5\uff0c\u4e4b\u540e\u6162\u6162\u518d\u804a\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_map_doa"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "JIARIHANGXIAN2",
+	"once": true
 }

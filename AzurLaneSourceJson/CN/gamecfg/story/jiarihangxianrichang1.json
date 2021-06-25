@@ -1,640 +1,640 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "blackBg": true,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "新伙伴的到来，也给港区带来了不太一样的欢乐氛围，以下，便是点缀在《维纳斯挑战赛》期间的几段愉快插曲——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "sequence": [
-        [
-          "假日航线-日常篇\n\n<size=45>一 要来一点可丽饼吗？</size>",
-          1
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "actor": 900303,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "bgm": "doa_story1",
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "期间限定{namecode:98}甜品摊绝赞开张中~有各种口味的可丽饼哦~走过路过不要错过~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "呼喵~卖得不错喵~今天也是大丰收喵~",
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900303,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "做可丽饼的主意能派上用场，真是太好了呢，{namecode:98}~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "海咲有做生意的天赋喵~是可以赚大钱的孩子喵~",
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "嘻嘻~也没有那么厉害啦~",
-      "actor": 900303,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "欢迎光临喵！呼喵？是指挥官喵？今天没有和标枪她们一起喵？",
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900303,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "欢迎光临！咦？姐姐和指挥官在一起？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "只、只是碰巧而已！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "没错，今天和凪咲一起来到了{namecode:98}和海咲的露天小摊，至于个中缘由——",
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "expression": 3,
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "笨狗，要不要吃可丽饼？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": true
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      }
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "……？"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "blackBg": true,
-      "say": "就是那个…{namecode:98}不是开了个期间限定的甜品摊位吗？海咲也在那里打工…"
-    },
-    {
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "expression": 3,
-      "say": "咳…就是突然想吃她们的可丽饼了！一句话，你去还是不去啦！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "blackBg": true,
-      "say": "原来如此，果然是关心妹妹的姐姐呢。"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "effects": [
-        {
-          "name": "memoryFog",
-          "active": false
-        }
-      ],
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "如此这般，最后和凪咲来到了这里。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "来得正好喵！现在有活动喵！一次买两个有优惠喵！",
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900303,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "每个口味都很好吃哦~不过，我的个人推荐还是香草芒果味呢~",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "那个确实是很好吃…",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "既、既然海咲都这么强力推荐了……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "options": [
-        {
-          "content": "买两个香草芒果味可丽饼",
-          "flag": 1
-        }
-      ],
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "看来只能选这个了呢——",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900303,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "嘿嘿~感谢支持~嗯~？姐姐？我脸上有什么东西吗？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "…没什么，可丽饼很好吃哦，这个是海咲的主意吧？",
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "想把好吃的东西也分享给大家嘛~嘻嘻，也希望姐姐“约会”愉快哦~",
-      "actor": 900303,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 2,
-      "say": "都说了只是碰巧啦！打工要加油哦！走了啦，笨狗！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 45,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "谢谢惠顾喵~",
-      "actor": 312010,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "告别了海咲她们，与凪咲又稍微同行了一段路——",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "虽说没遇上什么太险峻的情况，不过突然来到陌生的地方，本来还有点担心…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "say": "看到海咲这么有精神地在打工，看来是没什么问题了呢……",
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "actor": 900304,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "干嘛又露出那副恶心的笑容看着我啦！笨狗！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_106"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "果然，是一位关心妹妹的好姐姐啊。",
-      "blackBg": true,
-      "bgName": "star_level_bg_106"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "JIARIHANGXIANRICHANG1",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"blackBg": true,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u65b0\u4f19\u4f34\u7684\u5230\u6765\uff0c\u4e5f\u7ed9\u6e2f\u533a\u5e26\u6765\u4e86\u4e0d\u592a\u4e00\u6837\u7684\u6b22\u4e50\u6c1b\u56f4\uff0c\u4ee5\u4e0b\uff0c\u4fbf\u662f\u70b9\u7f00\u5728\u300a\u7ef4\u7eb3\u65af\u6311\u6218\u8d5b\u300b\u671f\u95f4\u7684\u51e0\u6bb5\u6109\u5feb\u63d2\u66f2\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"sequence": [
+				[
+					"\u5047\u65e5\u822a\u7ebf-\u65e5\u5e38\u7bc7\n\n<size=45>\u4e00 \u8981\u6765\u4e00\u70b9\u53ef\u4e3d\u997c\u5417\uff1f</size>",
+					1
+				]
+			],
+			"mode": 1
+		},
+		{
+			"actor": 900303,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"bgm": "doa_story1",
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u671f\u95f4\u9650\u5b9a{namecode:98}\u751c\u54c1\u644a\u7edd\u8d5e\u5f00\u5f20\u4e2d~\u6709\u5404\u79cd\u53e3\u5473\u7684\u53ef\u4e3d\u997c\u54e6~\u8d70\u8fc7\u8def\u8fc7\u4e0d\u8981\u9519\u8fc7~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u547c\u55b5~\u5356\u5f97\u4e0d\u9519\u55b5~\u4eca\u5929\u4e5f\u662f\u5927\u4e30\u6536\u55b5~",
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900303,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u505a\u53ef\u4e3d\u997c\u7684\u4e3b\u610f\u80fd\u6d3e\u4e0a\u7528\u573a\uff0c\u771f\u662f\u592a\u597d\u4e86\u5462\uff0c{namecode:98}~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u6d77\u54b2\u6709\u505a\u751f\u610f\u7684\u5929\u8d4b\u55b5~\u662f\u53ef\u4ee5\u8d5a\u5927\u94b1\u7684\u5b69\u5b50\u55b5~",
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u563b\u563b~\u4e5f\u6ca1\u6709\u90a3\u4e48\u5389\u5bb3\u5566~",
+			"actor": 900303,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u6b22\u8fce\u5149\u4e34\u55b5\uff01\u547c\u55b5\uff1f\u662f\u6307\u6325\u5b98\u55b5\uff1f\u4eca\u5929\u6ca1\u6709\u548c\u6807\u67aa\u5979\u4eec\u4e00\u8d77\u55b5\uff1f",
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900303,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\u6b22\u8fce\u5149\u4e34\uff01\u54a6\uff1f\u59d0\u59d0\u548c\u6307\u6325\u5b98\u5728\u4e00\u8d77\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u53ea\u3001\u53ea\u662f\u78b0\u5de7\u800c\u5df2\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u6ca1\u9519\uff0c\u4eca\u5929\u548c\u51ea\u54b2\u4e00\u8d77\u6765\u5230\u4e86{namecode:98}\u548c\u6d77\u54b2\u7684\u9732\u5929\u5c0f\u644a\uff0c\u81f3\u4e8e\u4e2a\u4e2d\u7f18\u7531\u2014\u2014",
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"expression": 3,
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u7b28\u72d7\uff0c\u8981\u4e0d\u8981\u5403\u53ef\u4e3d\u997c\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			}
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\u2026\u2026\uff1f"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"blackBg": true,
+			"say": "\u5c31\u662f\u90a3\u4e2a\u2026{namecode:98}\u4e0d\u662f\u5f00\u4e86\u4e2a\u671f\u95f4\u9650\u5b9a\u7684\u751c\u54c1\u644a\u4f4d\u5417\uff1f\u6d77\u54b2\u4e5f\u5728\u90a3\u91cc\u6253\u5de5\u2026"
+		},
+		{
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"expression": 3,
+			"say": "\u54b3\u2026\u5c31\u662f\u7a81\u7136\u60f3\u5403\u5979\u4eec\u7684\u53ef\u4e3d\u997c\u4e86\uff01\u4e00\u53e5\u8bdd\uff0c\u4f60\u53bb\u8fd8\u662f\u4e0d\u53bb\u5566\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"blackBg": true,
+			"say": "\u539f\u6765\u5982\u6b64\uff0c\u679c\u7136\u662f\u5173\u5fc3\u59b9\u59b9\u7684\u59d0\u59d0\u5462\u3002"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u5982\u6b64\u8fd9\u822c\uff0c\u6700\u540e\u548c\u51ea\u54b2\u6765\u5230\u4e86\u8fd9\u91cc\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u6765\u5f97\u6b63\u597d\u55b5\uff01\u73b0\u5728\u6709\u6d3b\u52a8\u55b5\uff01\u4e00\u6b21\u4e70\u4e24\u4e2a\u6709\u4f18\u60e0\u55b5\uff01",
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900303,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u6bcf\u4e2a\u53e3\u5473\u90fd\u5f88\u597d\u5403\u54e6~\u4e0d\u8fc7\uff0c\u6211\u7684\u4e2a\u4eba\u63a8\u8350\u8fd8\u662f\u9999\u8349\u8292\u679c\u5473\u5462~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u90a3\u4e2a\u786e\u5b9e\u662f\u5f88\u597d\u5403\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u65e2\u3001\u65e2\u7136\u6d77\u54b2\u90fd\u8fd9\u4e48\u5f3a\u529b\u63a8\u8350\u4e86\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"options": [
+				{
+					"content": "\u4e70\u4e24\u4e2a\u9999\u8349\u8292\u679c\u5473\u53ef\u4e3d\u997c",
+					"flag": 1
+				}
+			],
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u770b\u6765\u53ea\u80fd\u9009\u8fd9\u4e2a\u4e86\u5462\u2014\u2014",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900303,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u563f\u563f~\u611f\u8c22\u652f\u6301~\u55ef~\uff1f\u59d0\u59d0\uff1f\u6211\u8138\u4e0a\u6709\u4ec0\u4e48\u4e1c\u897f\u5417\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u2026\u6ca1\u4ec0\u4e48\uff0c\u53ef\u4e3d\u997c\u5f88\u597d\u5403\u54e6\uff0c\u8fd9\u4e2a\u662f\u6d77\u54b2\u7684\u4e3b\u610f\u5427\uff1f",
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u60f3\u628a\u597d\u5403\u7684\u4e1c\u897f\u4e5f\u5206\u4eab\u7ed9\u5927\u5bb6\u561b~\u563b\u563b\uff0c\u4e5f\u5e0c\u671b\u59d0\u59d0\u201c\u7ea6\u4f1a\u201d\u6109\u5feb\u54e6~",
+			"actor": 900303,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u90fd\u8bf4\u4e86\u53ea\u662f\u78b0\u5de7\u5566\uff01\u6253\u5de5\u8981\u52a0\u6cb9\u54e6\uff01\u8d70\u4e86\u5566\uff0c\u7b28\u72d7\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u8c22\u8c22\u60e0\u987e\u55b5~",
+			"actor": 312010,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u544a\u522b\u4e86\u6d77\u54b2\u5979\u4eec\uff0c\u4e0e\u51ea\u54b2\u53c8\u7a0d\u5fae\u540c\u884c\u4e86\u4e00\u6bb5\u8def\u2014\u2014",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u867d\u8bf4\u6ca1\u9047\u4e0a\u4ec0\u4e48\u592a\u9669\u5cfb\u7684\u60c5\u51b5\uff0c\u4e0d\u8fc7\u7a81\u7136\u6765\u5230\u964c\u751f\u7684\u5730\u65b9\uff0c\u672c\u6765\u8fd8\u6709\u70b9\u62c5\u5fc3\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"say": "\u770b\u5230\u6d77\u54b2\u8fd9\u4e48\u6709\u7cbe\u795e\u5730\u5728\u6253\u5de5\uff0c\u770b\u6765\u662f\u6ca1\u4ec0\u4e48\u95ee\u9898\u4e86\u5462\u2026\u2026",
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"actor": 900304,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u5e72\u561b\u53c8\u9732\u51fa\u90a3\u526f\u6076\u5fc3\u7684\u7b11\u5bb9\u770b\u7740\u6211\u5566\uff01\u7b28\u72d7\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_106"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u679c\u7136\uff0c\u662f\u4e00\u4f4d\u5173\u5fc3\u59b9\u59b9\u7684\u597d\u59d0\u59d0\u554a\u3002",
+			"blackBg": true,
+			"bgName": "star_level_bg_106"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "JIARIHANGXIANRICHANG1",
+	"once": true
 }

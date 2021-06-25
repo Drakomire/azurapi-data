@@ -1,546 +1,546 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "sequenceSpd": 2,
-      "mode": 1,
-      "sequence": [
-        [
-          "<size=45>新たに大講堂が開放されたことを記念し、</size>",
-          2
-        ],
-        [
-          "",
-          4
-        ],
-        [
-          "<size=45>みんなで一日、学園の役割慣熟訓練に――</size>",
-          6
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "sequence": [
-        [
-          "桜華爛漫新学期\n\n<size=45>その一　遅刻5分前</size>",
-          1
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "actor": 301011,
-      "side": 2,
-      "dir": 1,
-      "actorScale": 0.6,
-      "effects": [
-        {
-          "name": "speed",
-          "active": true
-        }
-      ],
-      "action": [
-        {
-          "y": 15,
-          "type": "shake",
-          "dur": 0.1,
-          "delay": 0,
-          "number": 3
-        },
-        {
-          "to": [
-            0.8,
-            0.8,
-            0.8
-          ],
-          "type": "zoom",
-          "delay": 1,
-          "dur": 0.35
-        },
-        {
-          "y": 15,
-          "type": "shake",
-          "dur": 0.1,
-          "delay": 1.5,
-          "number": 3
-        },
-        {
-          "to": [
-            1,
-            1,
-            1
-          ],
-          "type": "zoom",
-          "delay": 2.5,
-          "dur": 0.35
-        },
-        {
-          "y": 15,
-          "type": "shake",
-          "dur": 0.1,
-          "delay": 3,
-          "number": 3
-        }
-      ],
-      "bgm": "story-1",
-      "nameColor": "#a9f548",
-      "say": "うわあああ！！遅刻遅刻ぅ――！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:2}",
-      "painting": {
-        "alpha": 1,
-        "time": 0
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 301011,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 15,
-          "type": "shake",
-          "dur": 0.1,
-          "delay": 0,
-          "number": 4
-        }
-      ],
-      "say": "うぅ…なんで妹たちは誰も私を起こしてくれないんだぁぁ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:2}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 0.5,
-        "dur": 0.5
-      },
-      "say": "うん…不良といえば正々堂々と授業をサボる、とか…？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "いいや、やっぱりダメですね…姉様が怒りますし。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "で、でも姉様が風紀委員役でしたら、ここは不良少女らしく…！うん！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 0.5
-      },
-      "say": "あれ？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ]
-        ]
-      },
-      "say": "うわっ！",
-      "subActors": [
-        {
-          "pos": {
-            "x": 1125
-          },
-          "actor": 301011
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:2}&{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 1
-        }
-      ],
-      "say": "コホン！誰だ！どこに目をつけて…い、いやがる！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 301011,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 0
-      },
-      "say": "いたた…ひゃう！？す、すみません…",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:2}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "って、吹雪じゃないですか！なにを急いでるんですか？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 301011,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "遅刻しちゃうんですよ！……って飛龍さん！？その格好は……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:2}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 301011,
-      "side": 1,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "もしかしてグレたんですか――！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:2}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "ふふん、どうですか！結構それらしく見えるんじゃないですか？これで姉様も――",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307032,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "ひ～～りゅう～～！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:93}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "わっ！姉様！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307032,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "妙高さんから一日預かった風紀委員として、妹でも、いいえ、妹だからこそちゃんと更生してあげるわ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:93}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 0,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "そんな――",
-      "subActors": [
-        {
-          "pos": {
-            "x": 1125
-          },
-          "actor": 301011
-        }
-      ],
-      "hideOther": true,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:2}&{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307032,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "うん？なんで吹雪もここにいるの？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:93}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307032,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "もうこんな時間…と、とにかく学園に急ぎなさい！遅刻しないように！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:93}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307032,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "say": "飛龍！あとで説教するわよ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:93}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    },
-    {
-      "actor": 307041,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "blackBg": true,
-      "say": "はぃ……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "{namecode:94}",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "star_level_bg_103"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "KAIXUE01",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"sequenceSpd": 2,
+			"mode": 1,
+			"sequence": [
+				[
+					"<size=45>\u65b0\u305f\u306b\u5927\u8b1b\u5802\u304c\u958b\u653e\u3055\u308c\u305f\u3053\u3068\u3092\u8a18\u5ff5\u3057\u3001</size>",
+					2
+				],
+				[
+					"",
+					4
+				],
+				[
+					"<size=45>\u307f\u3093\u306a\u3067\u4e00\u65e5\u3001\u5b66\u5712\u306e\u5f79\u5272\u6163\u719f\u8a13\u7df4\u306b\u2015\u2015</size>",
+					6
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"sequence": [
+				[
+					"\u685c\u83ef\u721b\u6f2b\u65b0\u5b66\u671f\n\n<size=45>\u305d\u306e\u4e00\u3000\u9045\u523b5\u5206\u524d</size>",
+					1
+				]
+			],
+			"mode": 1
+		},
+		{
+			"actor": 301011,
+			"side": 2,
+			"dir": 1,
+			"actorScale": 0.6,
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"action": [
+				{
+					"y": 15,
+					"type": "shake",
+					"dur": 0.1,
+					"delay": 0,
+					"number": 3
+				},
+				{
+					"to": [
+						0.8,
+						0.8,
+						0.8
+					],
+					"type": "zoom",
+					"delay": 1,
+					"dur": 0.35
+				},
+				{
+					"y": 15,
+					"type": "shake",
+					"dur": 0.1,
+					"delay": 1.5,
+					"number": 3
+				},
+				{
+					"to": [
+						1,
+						1,
+						1
+					],
+					"type": "zoom",
+					"delay": 2.5,
+					"dur": 0.35
+				},
+				{
+					"y": 15,
+					"type": "shake",
+					"dur": 0.1,
+					"delay": 3,
+					"number": 3
+				}
+			],
+			"bgm": "story-1",
+			"nameColor": "#a9f548",
+			"say": "\u3046\u308f\u3042\u3042\u3042\uff01\uff01\u9045\u523b\u9045\u523b\u3045\u2015\u2015\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:2}",
+			"painting": {
+				"alpha": 1,
+				"time": 0
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 301011,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 15,
+					"type": "shake",
+					"dur": 0.1,
+					"delay": 0,
+					"number": 4
+				}
+			],
+			"say": "\u3046\u3045\u2026\u306a\u3093\u3067\u59b9\u305f\u3061\u306f\u8ab0\u3082\u79c1\u3092\u8d77\u3053\u3057\u3066\u304f\u308c\u306a\u3044\u3093\u3060\u3041\u3041\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:2}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u3046\u3093\u2026\u4e0d\u826f\u3068\u3044\u3048\u3070\u6b63\u3005\u5802\u3005\u3068\u6388\u696d\u3092\u30b5\u30dc\u308b\u3001\u3068\u304b\u2026\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3044\u3044\u3084\u3001\u3084\u3063\u3071\u308a\u30c0\u30e1\u3067\u3059\u306d\u2026\u59c9\u69d8\u304c\u6012\u308a\u307e\u3059\u3057\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3067\u3001\u3067\u3082\u59c9\u69d8\u304c\u98a8\u7d00\u59d4\u54e1\u5f79\u3067\u3057\u305f\u3089\u3001\u3053\u3053\u306f\u4e0d\u826f\u5c11\u5973\u3089\u3057\u304f\u2026\uff01\u3046\u3093\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 0.5,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 0.5
+			},
+			"say": "\u3042\u308c\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					]
+				]
+			},
+			"say": "\u3046\u308f\u3063\uff01",
+			"subActors": [
+				{
+					"pos": {
+						"x": 1125
+					},
+					"actor": 301011
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:2}&{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 1
+				}
+			],
+			"say": "\u30b3\u30db\u30f3\uff01\u8ab0\u3060\uff01\u3069\u3053\u306b\u76ee\u3092\u3064\u3051\u3066\u2026\u3044\u3001\u3044\u3084\u304c\u308b\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 301011,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 0
+			},
+			"say": "\u3044\u305f\u305f\u2026\u3072\u3083\u3046\uff01\uff1f\u3059\u3001\u3059\u307f\u307e\u305b\u3093\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:2}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3063\u3066\u3001\u5439\u96ea\u3058\u3083\u306a\u3044\u3067\u3059\u304b\uff01\u306a\u306b\u3092\u6025\u3044\u3067\u308b\u3093\u3067\u3059\u304b\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 301011,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u9045\u523b\u3057\u3061\u3083\u3046\u3093\u3067\u3059\u3088\uff01\u2026\u2026\u3063\u3066\u98db\u9f8d\u3055\u3093\uff01\uff1f\u305d\u306e\u683c\u597d\u306f\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:2}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 301011,
+			"side": 1,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3082\u3057\u304b\u3057\u3066\u30b0\u30ec\u305f\u3093\u3067\u3059\u304b\u2015\u2015\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:2}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3075\u3075\u3093\u3001\u3069\u3046\u3067\u3059\u304b\uff01\u7d50\u69cb\u305d\u308c\u3089\u3057\u304f\u898b\u3048\u308b\u3093\u3058\u3083\u306a\u3044\u3067\u3059\u304b\uff1f\u3053\u308c\u3067\u59c9\u69d8\u3082\u2015\u2015",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307032,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3072\uff5e\uff5e\u308a\u3085\u3046\uff5e\uff5e\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:93}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u308f\u3063\uff01\u59c9\u69d8\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307032,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u5999\u9ad8\u3055\u3093\u304b\u3089\u4e00\u65e5\u9810\u304b\u3063\u305f\u98a8\u7d00\u59d4\u54e1\u3068\u3057\u3066\u3001\u59b9\u3067\u3082\u3001\u3044\u3044\u3048\u3001\u59b9\u3060\u304b\u3089\u3053\u305d\u3061\u3083\u3093\u3068\u66f4\u751f\u3057\u3066\u3042\u3052\u308b\u308f\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:93}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 0,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u305d\u3093\u306a\u2015\u2015",
+			"subActors": [
+				{
+					"pos": {
+						"x": 1125
+					},
+					"actor": 301011
+				}
+			],
+			"hideOther": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:2}&{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307032,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3046\u3093\uff1f\u306a\u3093\u3067\u5439\u96ea\u3082\u3053\u3053\u306b\u3044\u308b\u306e\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:93}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307032,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u3082\u3046\u3053\u3093\u306a\u6642\u9593\u2026\u3068\u3001\u3068\u306b\u304b\u304f\u5b66\u5712\u306b\u6025\u304e\u306a\u3055\u3044\uff01\u9045\u523b\u3057\u306a\u3044\u3088\u3046\u306b\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:93}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307032,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u98db\u9f8d\uff01\u3042\u3068\u3067\u8aac\u6559\u3059\u308b\u308f\u3088\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:93}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307041,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"say": "\u306f\u3043\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "{namecode:94}",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "KAIXUE01",
+	"once": true
 }

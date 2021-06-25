@@ -1,462 +1,462 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "<size=51>다시 어두운 숲으로 돌아와버렸다.</size>",
-          1
-        ],
-        [
-          "<size=51>축축한 진흙에 양 발이 파묻혔다.</size>",
-          3
-        ],
-        [
-          "<size=51>나는 계속해서 아래로 꺼지고 있었다.</size>",
-          5
-        ],
-        [
-          "<size=51>야윈 그림자에 눈길이 쏠렸다.</size> ",
-          7
-        ],
-        [
-          "<size=51>오랫동안 그 자리에 서있던 그는 아무 말이 없었다.</size>",
-          9
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "stopbgm": true,
-      "sequence": [
-        [
-          "<size=51>베르길리우스,</size>",
-          1
-        ],
-        [
-          "<size=51>아, 그대는 감동적인 시구의 원천이다. </size>",
-          3
-        ],
-        [
-          "<size=51>베르길리우스,</size>",
-          5
-        ],
-        [
-          "<size=51>영원한 나라의 길잡이.</size>",
-          7
-        ],
-        [
-          "<size=51>베르길리우스,</size>",
-          9
-        ]
-      ],
-      "mode": 1
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "bgm": "battle-italy",
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "say": "번쩍(폭발)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "dir": 1
-    },
-    {
-      "actor": 603020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "expression": 1,
-      "say": "폴라!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 2,
-          "delay": 0,
-          "x": 0
-        }
-      ]
-    },
-    {
-      "actor": 900197,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "괘… 괜찮아. 긁힌 것 뿐이야."
-    },
-    {
-      "say": "세계 최강의 장갑을 자랑하는 차라급 중순양함은 이렇게 쉽게 지지 않아…",
-      "actor": 900197,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 3
-    },
-    {
-      "actor": 603020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "Tenacemente! 역시 믿음직한 동생이에요~"
-    },
-    {
-      "say": "제국의 중순양함… 역시 언니 말 대로 튼튼하네요. 마음에 안들어요.",
-      "actor": 207050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 4
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 205029,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "워스파이트",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "포미더블, 여기는 나에게 맡겨. 명령을 기억해."
-    },
-    {
-      "say": "으… ‘자정 12:00 전 까지 칼리브리아의 보석을 차지할 것.’",
-      "actor": 207050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "actor": 205029,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "늦어선 안돼. 어서 오리온과 함께 출발해. 너희의 항속은 나보다 빠르니까 늦지 마.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "워스파이트",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "action": [
-        {
-          "y": -40,
-          "type": "shake",
-          "dur": 0.25,
-          "number": 1,
-          "delay": 0,
-          "x": 0
-        }
-      ],
-      "actor": 207050,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "알았어요~ 그러면 포미더블, 먼저 출발합니다~ 행운을 빌어요. God bless the queen!"
-    },
-    {
-      "actor": 603020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "도망칠 생각인가요! 발사——"
-    },
-    {
-      "dir": 1,
-      "soundeffect": "event:/battle/boom2",
-      "side": 2,
-      "say": "(용감하게 앞으로 나선 워스파이트는 포미더블을 대신해 포격을 막았다.)",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "actor": 205029,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 5,
-      "say": "너희의 상대는 나야. 포미더블에게 손가락 하나 댈 생각 하지 마!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "워스파이트",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "actor": 603020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "영웅 출현인가요~ 신사의 기백이 있네요."
-    },
-    {
-      "actor": 205029,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "expression": 6,
-      "say": "아니… 그저 포미더블이 화를 내면 나도 무사하지 못해.",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actorName": "워스파이트",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      }
-    },
-    {
-      "say": "에?",
-      "actor": 603020,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#ff5c5c",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "expression": 1
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "[기함님, 동생을 잘 부탁드려요. 첫 출진이랍니다. 만약 무슨 일이 일어나도 양해해주세요.]"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "[——일러스트리어스 배상]"
-    },
-    {
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "워스파이트는 자신이 받은 전보를 생각하면서 몸서리를 쳤다."
-    },
-    {
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "actor": 205029,
-      "side": 2,
-      "dir": 1,
-      "nameColor": "#a9f548",
-      "actorName": "워스파이트",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "say": "별거 아냐. 자, 함포로 공평하게 대결해보자고! Belli dura despicio!"
-    }
-  ],
-  "fadeType": 1,
-  "mode": 2,
-  "id": "SHENSHENGDEBEIXIJU17",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"<size=51>\ub2e4\uc2dc \uc5b4\ub450\uc6b4 \uc232\uc73c\ub85c \ub3cc\uc544\uc640\ubc84\ub838\ub2e4.</size>",
+					1
+				],
+				[
+					"<size=51>\ucd95\ucd95\ud55c \uc9c4\ud759\uc5d0 \uc591 \ubc1c\uc774 \ud30c\ubb3b\ud614\ub2e4.</size>",
+					3
+				],
+				[
+					"<size=51>\ub098\ub294 \uacc4\uc18d\ud574\uc11c \uc544\ub798\ub85c \uaebc\uc9c0\uace0 \uc788\uc5c8\ub2e4.</size>",
+					5
+				],
+				[
+					"<size=51>\uc57c\uc708 \uadf8\ub9bc\uc790\uc5d0 \ub208\uae38\uc774 \uc3e0\ub838\ub2e4.</size> ",
+					7
+				],
+				[
+					"<size=51>\uc624\ub7ab\ub3d9\uc548 \uadf8 \uc790\ub9ac\uc5d0 \uc11c\uc788\ub358 \uadf8\ub294 \uc544\ubb34 \ub9d0\uc774 \uc5c6\uc5c8\ub2e4.</size>",
+					9
+				]
+			],
+			"mode": 1
+		},
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"<size=51>\ubca0\ub974\uae38\ub9ac\uc6b0\uc2a4,</size>",
+					1
+				],
+				[
+					"<size=51>\uc544, \uadf8\ub300\ub294 \uac10\ub3d9\uc801\uc778 \uc2dc\uad6c\uc758 \uc6d0\ucc9c\uc774\ub2e4. </size>",
+					3
+				],
+				[
+					"<size=51>\ubca0\ub974\uae38\ub9ac\uc6b0\uc2a4,</size>",
+					5
+				],
+				[
+					"<size=51>\uc601\uc6d0\ud55c \ub098\ub77c\uc758 \uae38\uc7a1\uc774.</size>",
+					7
+				],
+				[
+					"<size=51>\ubca0\ub974\uae38\ub9ac\uc6b0\uc2a4,</size>",
+					9
+				]
+			],
+			"mode": 1
+		},
+		{
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"bgm": "battle-italy",
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"say": "\ubc88\uca4d(\ud3ed\ubc1c)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"dir": 1
+		},
+		{
+			"actor": 603020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"expression": 1,
+			"say": "\ud3f4\ub77c!!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			]
+		},
+		{
+			"actor": 900197,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uad18\u2026 \uad1c\ucc2e\uc544. \uae01\ud78c \uac83 \ubfd0\uc774\uc57c."
+		},
+		{
+			"say": "\uc138\uacc4 \ucd5c\uac15\uc758 \uc7a5\uac11\uc744 \uc790\ub791\ud558\ub294 \ucc28\ub77c\uae09 \uc911\uc21c\uc591\ud568\uc740 \uc774\ub807\uac8c \uc27d\uac8c \uc9c0\uc9c0 \uc54a\uc544\u2026",
+			"actor": 900197,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 3
+		},
+		{
+			"actor": 603020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "Tenacemente! \uc5ed\uc2dc \ubbff\uc74c\uc9c1\ud55c \ub3d9\uc0dd\uc774\uc5d0\uc694~"
+		},
+		{
+			"say": "\uc81c\uad6d\uc758 \uc911\uc21c\uc591\ud568\u2026 \uc5ed\uc2dc \uc5b8\ub2c8 \ub9d0 \ub300\ub85c \ud2bc\ud2bc\ud558\ub124\uc694. \ub9c8\uc74c\uc5d0 \uc548\ub4e4\uc5b4\uc694.",
+			"actor": 207050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 4
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 205029,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "\uc6cc\uc2a4\ud30c\uc774\ud2b8",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ud3ec\ubbf8\ub354\ube14, \uc5ec\uae30\ub294 \ub098\uc5d0\uac8c \ub9e1\uaca8. \uba85\ub839\uc744 \uae30\uc5b5\ud574."
+		},
+		{
+			"say": "\uc73c\u2026 \u2018\uc790\uc815 12:00 \uc804 \uae4c\uc9c0 \uce7c\ub9ac\ube0c\ub9ac\uc544\uc758 \ubcf4\uc11d\uc744 \ucc28\uc9c0\ud560 \uac83.\u2019",
+			"actor": 207050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"actor": 205029,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\ub2a6\uc5b4\uc120 \uc548\ub3fc. \uc5b4\uc11c \uc624\ub9ac\uc628\uacfc \ud568\uaed8 \ucd9c\ubc1c\ud574. \ub108\ud76c\uc758 \ud56d\uc18d\uc740 \ub098\ubcf4\ub2e4 \ube60\ub974\ub2c8\uae4c \ub2a6\uc9c0 \ub9c8.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc6cc\uc2a4\ud30c\uc774\ud2b8",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"action": [
+				{
+					"y": -40,
+					"type": "shake",
+					"dur": 0.25,
+					"number": 1,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"actor": 207050,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc54c\uc558\uc5b4\uc694~ \uadf8\ub7ec\uba74 \ud3ec\ubbf8\ub354\ube14, \uba3c\uc800 \ucd9c\ubc1c\ud569\ub2c8\ub2e4~ \ud589\uc6b4\uc744 \ube4c\uc5b4\uc694. God bless the queen!"
+		},
+		{
+			"actor": 603020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ub3c4\ub9dd\uce60 \uc0dd\uac01\uc778\uac00\uc694! \ubc1c\uc0ac\u2014\u2014"
+		},
+		{
+			"dir": 1,
+			"soundeffect": "event:/battle/boom2",
+			"side": 2,
+			"say": "(\uc6a9\uac10\ud558\uac8c \uc55e\uc73c\ub85c \ub098\uc120 \uc6cc\uc2a4\ud30c\uc774\ud2b8\ub294 \ud3ec\ubbf8\ub354\ube14\uc744 \ub300\uc2e0\ud574 \ud3ec\uaca9\uc744 \ub9c9\uc558\ub2e4.)",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"dialogShake": {
+				"speed": 0.09,
+				"x": 8.5,
+				"number": 2
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"actor": 205029,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 5,
+			"say": "\ub108\ud76c\uc758 \uc0c1\ub300\ub294 \ub098\uc57c. \ud3ec\ubbf8\ub354\ube14\uc5d0\uac8c \uc190\uac00\ub77d \ud558\ub098 \ub308 \uc0dd\uac01 \ud558\uc9c0 \ub9c8!",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc6cc\uc2a4\ud30c\uc774\ud2b8",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"actor": 603020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc601\uc6c5 \ucd9c\ud604\uc778\uac00\uc694~ \uc2e0\uc0ac\uc758 \uae30\ubc31\uc774 \uc788\ub124\uc694."
+		},
+		{
+			"actor": 205029,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 6,
+			"say": "\uc544\ub2c8\u2026 \uadf8\uc800 \ud3ec\ubbf8\ub354\ube14\uc774 \ud654\ub97c \ub0b4\uba74 \ub098\ub3c4 \ubb34\uc0ac\ud558\uc9c0 \ubabb\ud574.",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actorName": "\uc6cc\uc2a4\ud30c\uc774\ud2b8",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			}
+		},
+		{
+			"say": "\uc5d0?",
+			"actor": 603020,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#ff5c5c",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"expression": 1
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "[\uae30\ud568\ub2d8, \ub3d9\uc0dd\uc744 \uc798 \ubd80\ud0c1\ub4dc\ub824\uc694. \uccab \ucd9c\uc9c4\uc774\ub78d\ub2c8\ub2e4. \ub9cc\uc57d \ubb34\uc2a8 \uc77c\uc774 \uc77c\uc5b4\ub098\ub3c4 \uc591\ud574\ud574\uc8fc\uc138\uc694.]"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "[\u2014\u2014\uc77c\ub7ec\uc2a4\ud2b8\ub9ac\uc5b4\uc2a4 \ubc30\uc0c1]"
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\uc6cc\uc2a4\ud30c\uc774\ud2b8\ub294 \uc790\uc2e0\uc774 \ubc1b\uc740 \uc804\ubcf4\ub97c \uc0dd\uac01\ud558\uba74\uc11c \ubab8\uc11c\ub9ac\ub97c \ucce4\ub2e4."
+		},
+		{
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"actor": 205029,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"actorName": "\uc6cc\uc2a4\ud30c\uc774\ud2b8",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"say": "\ubcc4\uac70 \uc544\ub0d0. \uc790, \ud568\ud3ec\ub85c \uacf5\ud3c9\ud558\uac8c \ub300\uacb0\ud574\ubcf4\uc790\uace0! Belli dura despicio!"
+		}
+	],
+	"fadeType": 1,
+	"mode": 2,
+	"id": "SHENSHENGDEBEIXIJU17",
+	"once": true
 }

@@ -1,357 +1,357 @@
 {
-  "fadeOut": 1.5,
-  "fadein": 1.5,
-  "scripts": [
-    {
-      "mode": 1,
-      "sequence": [
-        [
-          "哈曼观察日志\n\n<size=45>四 不高兴的理由·下</size>",
-          1
-        ]
-      ],
-      "stopbgm": true
-    },
-    {
-      "dir": 1,
-      "actor": 101250,
-      "side": 2,
-      "say": "被看到了…哈曼…被人看到了……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "dir": 1,
-      "actor": 101240,
-      "side": 0,
-      "say": "虽然不是故意要看的…你那是在干吗？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "paintingFadeOut": {
-        "time": 0.5,
-        "side": 1
-      },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "dir": 1,
-      "actor": 101250,
-      "side": 1,
-      "say": "事情是这样的——",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101250,
-      "side": 1,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "…刚才的事快忘掉！一定要忘掉哦！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "action": [
-        {
-          "y": 0,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 4,
-          "x": 30
-        }
-      ],
-      "actor": 101240,
-      "side": 0,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "啊啊别摇我啦！也不是什么大事嘛……",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101250,
-      "side": 1,
-      "dir": 1,
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "number": 3
-        }
-      ],
-      "say": "就是很大的事啦！指挥官…不知道现在在怎么样了……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "bgm": "story-1",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101240,
-      "side": 0,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "话说回来，不就是因为哈曼不肯老实道歉，才搞得事情这么复杂的吗？",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "action": [
-        {
-          "y": -30,
-          "type": "shake",
-          "dur": 0.5,
-          "number": 1
-        },
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "delay": 0.5,
-          "number": 3
-        }
-      ],
-      "actor": 101250,
-      "side": 1,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "说是这么说…可是道歉什么的…哈曼一个人做不到啊！西姆斯你要帮我啦！",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101240,
-      "side": 0,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "不不就算你找我也没用啊…对了，去问问约克城吧！",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.1,
-          "number": 1
-        }
-      ],
-      "actor": 101250,
-      "side": 1,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "对哦！约克城姐姐的话…！谢了西姆斯！帮我看会指挥室！",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "side": 0,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "哈曼一溜烟地跑掉了。",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101240,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "啊……又这么慌慌张张的…",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101240,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "不过刚才哈曼那表情我都录下来了，这就算是必要的投入吧～",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "options": [
-        {
-          "content": "绕到指挥室里的西姆斯身后警告她",
-          "flag": 1
-        }
-      ],
-      "actor": 101240,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "等下要怎么耍她呢~嘿嘿嘿♪",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "actor": 101240,
-      "side": 2,
-      "dir": 1,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 1,
-        "black": true
-      },
-      "flashin": {
-        "alpha": [
-          1,
-          0
-        ],
-        "black": true,
-        "delay": 1,
-        "dur": 1
-      },
-      "say": "吓！？指挥官，什么时候出现的！？",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "action": [
-        {
-          "y": 30,
-          "type": "shake",
-          "dur": 0.15,
-          "delay": 2,
-          "number": 1
-        }
-      ],
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "bgName": "bg_story_task"
-    },
-    {
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "actor": 101240,
-      "side": 2,
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "say": "带你去约克城那里？可以是可以——还要把刚才录的视频删掉？！怎么这样——",
-      "blackBg": true,
-      "bgName": "bg_story_task"
-    }
-  ],
-  "fadeType": 2,
-  "mode": 2,
-  "id": "HAMAN4",
-  "once": true
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"mode": 1,
+			"sequence": [
+				[
+					"\u54c8\u66fc\u89c2\u5bdf\u65e5\u5fd7\n\n<size=45>\u56db \u4e0d\u9ad8\u5174\u7684\u7406\u7531\u00b7\u4e0b</size>",
+					1
+				]
+			],
+			"stopbgm": true
+		},
+		{
+			"dir": 1,
+			"actor": 101250,
+			"side": 2,
+			"say": "\u88ab\u770b\u5230\u4e86\u2026\u54c8\u66fc\u2026\u88ab\u4eba\u770b\u5230\u4e86\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"dir": 1,
+			"actor": 101240,
+			"side": 0,
+			"say": "\u867d\u7136\u4e0d\u662f\u6545\u610f\u8981\u770b\u7684\u2026\u4f60\u90a3\u662f\u5728\u5e72\u5417\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"paintingFadeOut": {
+				"time": 0.5,
+				"side": 1
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"dir": 1,
+			"actor": 101250,
+			"side": 1,
+			"say": "\u4e8b\u60c5\u662f\u8fd9\u6837\u7684\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101250,
+			"side": 1,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u2026\u521a\u624d\u7684\u4e8b\u5feb\u5fd8\u6389\uff01\u4e00\u5b9a\u8981\u5fd8\u6389\u54e6\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"action": [
+				{
+					"y": 0,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 4,
+					"x": 30
+				}
+			],
+			"actor": 101240,
+			"side": 0,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u554a\u554a\u522b\u6447\u6211\u5566\uff01\u4e5f\u4e0d\u662f\u4ec0\u4e48\u5927\u4e8b\u561b\u2026\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101250,
+			"side": 1,
+			"dir": 1,
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 3
+				}
+			],
+			"say": "\u5c31\u662f\u5f88\u5927\u7684\u4e8b\u5566\uff01\u6307\u6325\u5b98\u2026\u4e0d\u77e5\u9053\u73b0\u5728\u5728\u600e\u4e48\u6837\u4e86\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101240,
+			"side": 0,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u8bdd\u8bf4\u56de\u6765\uff0c\u4e0d\u5c31\u662f\u56e0\u4e3a\u54c8\u66fc\u4e0d\u80af\u8001\u5b9e\u9053\u6b49\uff0c\u624d\u641e\u5f97\u4e8b\u60c5\u8fd9\u4e48\u590d\u6742\u7684\u5417\uff1f",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"action": [
+				{
+					"y": -30,
+					"type": "shake",
+					"dur": 0.5,
+					"number": 1
+				},
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"delay": 0.5,
+					"number": 3
+				}
+			],
+			"actor": 101250,
+			"side": 1,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u8bf4\u662f\u8fd9\u4e48\u8bf4\u2026\u53ef\u662f\u9053\u6b49\u4ec0\u4e48\u7684\u2026\u54c8\u66fc\u4e00\u4e2a\u4eba\u505a\u4e0d\u5230\u554a\uff01\u897f\u59c6\u65af\u4f60\u8981\u5e2e\u6211\u5566\uff01",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101240,
+			"side": 0,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4e0d\u4e0d\u5c31\u7b97\u4f60\u627e\u6211\u4e5f\u6ca1\u7528\u554a\u2026\u5bf9\u4e86\uff0c\u53bb\u95ee\u95ee\u7ea6\u514b\u57ce\u5427\uff01",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.1,
+					"number": 1
+				}
+			],
+			"actor": 101250,
+			"side": 1,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5bf9\u54e6\uff01\u7ea6\u514b\u57ce\u59d0\u59d0\u7684\u8bdd\u2026\uff01\u8c22\u4e86\u897f\u59c6\u65af\uff01\u5e2e\u6211\u770b\u4f1a\u6307\u6325\u5ba4\uff01",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"side": 0,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u54c8\u66fc\u4e00\u6e9c\u70df\u5730\u8dd1\u6389\u4e86\u3002",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101240,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u554a\u2026\u2026\u53c8\u8fd9\u4e48\u614c\u614c\u5f20\u5f20\u7684\u2026",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101240,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u4e0d\u8fc7\u521a\u624d\u54c8\u66fc\u90a3\u8868\u60c5\u6211\u90fd\u5f55\u4e0b\u6765\u4e86\uff0c\u8fd9\u5c31\u7b97\u662f\u5fc5\u8981\u7684\u6295\u5165\u5427\uff5e",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"options": [
+				{
+					"content": "\u7ed5\u5230\u6307\u6325\u5ba4\u91cc\u7684\u897f\u59c6\u65af\u8eab\u540e\u8b66\u544a\u5979",
+					"flag": 1
+				}
+			],
+			"actor": 101240,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u7b49\u4e0b\u8981\u600e\u4e48\u800d\u5979\u5462~\u563f\u563f\u563f\u266a",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 101240,
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"dur": 1,
+				"black": true
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u5413\uff01\uff1f\u6307\u6325\u5b98\uff0c\u4ec0\u4e48\u65f6\u5019\u51fa\u73b0\u7684\uff01\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 30,
+					"type": "shake",
+					"dur": 0.15,
+					"delay": 2,
+					"number": 1
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"actor": 101240,
+			"side": 2,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"say": "\u5e26\u4f60\u53bb\u7ea6\u514b\u57ce\u90a3\u91cc\uff1f\u53ef\u4ee5\u662f\u53ef\u4ee5\u2014\u2014\u8fd8\u8981\u628a\u521a\u624d\u5f55\u7684\u89c6\u9891\u5220\u6389\uff1f\uff01\u600e\u4e48\u8fd9\u6837\u2014\u2014",
+			"blackBg": true,
+			"bgName": "bg_story_task"
+		}
+	],
+	"fadeType": 2,
+	"mode": 2,
+	"id": "HAMAN4",
+	"once": true
 }

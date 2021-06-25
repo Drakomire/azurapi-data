@@ -1,0 +1,89 @@
+{
+  "id": "WorldG191",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -42,
+          "posX": 128.2,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/adapt/bottom_chapter/button/btn_boss",
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.4,
+      "style": {
+        "char": "1",
+        "posY": -279.2,
+        "dir": 1,
+        "text": "비콘·애쉬 작전 오픈. 다른 유저들과 함께 전투를 진행할 수 있습니다.",
+        "posX": 498.7,
+        "mode": 2
+      }
+    },
+    {
+      "stories": [
+        "GWORLD109A"
+      ],
+      "delay": 1,
+      "code": [
+        "playStory"
+      ]
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": 294,
+        "dir": 1,
+        "ui": {
+          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+        },
+        "text": "비콘·애쉬 작전은 주기적으로 개방되며, 여기에 현재 비콘·애쉬 작전 지속 시간이 나타납니다.",
+        "posX": -448.3,
+        "mode": 2
+      },
+      "alpha": 0.4,
+      "waitScene": "WorldBossScene"
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": 1.5,
+        "dir": 1,
+        "ui": {
+          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+        },
+        "text": "기간 종료 후 분석하지 않은 비콘은 사라지며, 대형 작전에서 새로운 비콘 데이터를 획득할 수 없습니다.",
+        "posX": -402.4,
+        "mode": 2
+      }
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": -284,
+        "dir": 1,
+        "text": "정보 분석 버튼 터치. 분석하여 획득한 애쉬 비콘 데이터",
+        "posX": -495,
+        "mode": 2
+      },
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": 0,
+          "posX": 0,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/useItem/list/tpl",
+        "triggerType": [
+          1
+        ]
+      }
+    }
+  ]
+}

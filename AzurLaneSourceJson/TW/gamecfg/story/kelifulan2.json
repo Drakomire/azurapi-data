@@ -1,0 +1,348 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "stopbgm": true,
+      "sequence": [
+        [
+          "騎士與獎賞\n\n<size=45>二 騎士團結成！ </size>",
+          1
+        ]
+      ],
+      "mode": 1
+    },
+    {
+      "side": 2,
+      "say": "傍晚·體育館的一角",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "dir": 1,
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "我把隊員找齊了！ …雖然其實就是我那些妹妹吧。咳，“海上騎士團”，全體集合！",
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102150,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "噢——！",
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 1,
+          "x": 0
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 102140,
+          "pos": {
+            "x": -1125
+          },
+          "dir": -1
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "丹佛&蒙彼利埃",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "……噗。 ……噢——！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 1,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "看來是由克里夫蘭級輕巡四人組成了隊伍。",
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "好了，這次就由我們四個人組隊參賽！指揮官來擔任我們的教練！大家一起努力爭取冠軍吧！",
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "我先來說一下這次事情的經過和比賽規則！指揮官如果有什麼要補充的也儘管說吧！",
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102140,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "……明白了。只要大姐頭一聲令下，就算只有我一個人也會去幹掉對方全隊的",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102090,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "不是啦！不是幹掉對方，是要靠比賽贏過她們啊！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "懂了，大家一起比賽一起揮灑汗水，既能促進團隊精神，更有利於消除勢力間的隔閡對吧！不愧是大姐頭！",
+      "actor": 102150,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "我倒是沒想那麼遠……唉……哥倫比亞應該明白我的意思吧？",
+      "actor": 102090,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "重點我倒是明白啦……（小聲）說白了就是大姐頭讓指揮官看到自己的優點嘛？",
+      "actor": 102100,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102090,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "……什麼！ ？ ///（臉紅）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "x": 15
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "克里夫蘭瞬間變得滿臉通紅。",
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "懂了！和指揮官確定戀愛關係的話，整個艦隊的戰力也能提高對吧！為了大姐頭和艦隊的幸福，我會全力支持你們的！",
+      "actor": 102150,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102140,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "我明白了。……喂，大姐頭為了討你喜歡都做到這份上了，以後不許你離開她半步聽見沒有。你要把她的一言一行都牢牢記住。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "不——是——啦！ ！你們倒是好好聽人說話啊——！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "KELIFULAN2",
+  "once": true
+}

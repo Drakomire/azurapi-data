@@ -1,0 +1,48 @@
+{
+  "1": {},
+  "2": {},
+  "3": {},
+  "4": {},
+  "5": {},
+  "6": {},
+  "7": {},
+  "8": {},
+  "9": {},
+  "10": {},
+  "picture": "",
+  "id": 22261,
+  "desc": "主炮每进行6次攻击，触发全弹发射-{namecode:66}级I",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 20200,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 6,
+        "countType": 22260,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 22260,
+        "skill_id": 22261
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "全弹发射"
+}

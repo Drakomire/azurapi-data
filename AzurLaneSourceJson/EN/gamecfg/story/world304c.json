@@ -1,0 +1,633 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "voice": "event:/tb/32/tb-32",
+      "say": "Communications request received. Its sender could not be identified.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "xinnong-3"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Hidden caller ID? I think we all know better than to answer that."
+    },
+    {
+      "say": "Sending a communications request out of nowhere and refusing to identify themselves... Sounds like the work of the Sirens' Omitter.",
+      "actor": 102160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "I agree. TB, deny the communications request.",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "voice": "event:/tb/12/tb-12",
+      "say": "Orders received. Incoming communications request has been rejected.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "Communicator",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Brrzzzt..."
+    },
+    {
+      "actor": 900286,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "You cannot reject me.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "？？？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "actor": 900286,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "expression": 2,
+      "say": "Hear my word, all you within this region. I am Arbiter. Lay down your arms and surrender. Resistance is futile.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "？？？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": false,
+      "expression": 1,
+      "say": "Arbiter?! So you're with the Sirens, huh?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 900286,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "expression": 3,
+      "say": "Sirens? I've heard of that name before... But I prefer to be known as \"Antiochus.\"",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "？？？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "actor": 107380,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": false,
+      "expression": 3,
+      "say": "Antiochus? The Ashes have used that word before...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 900286,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "In full, my name is Arbiter: Temperance ⅩⅣ. If you insist on titles, then call me by this one.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "？？？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "say": "What a mouthful... You're the one jamming TB's systems, aren't you?!",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": false,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 900286,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "expression": 3,
+      "say": "Her anti-jamming measures were an amusing little puzzle. But I have had enough with puzzles.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "actor": 900286,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "expression": 2,
+      "say": "This is your last warning. Lay down your arms and surrender. Resistance is futile.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": false,
+      "expression": 2,
+      "say": "Yeah, like we're going to do what some random voice over the radio tells us!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "We're not surrendering to anyone! Now show yourself, \"Arbiter\"!"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "You're tired of puzzles, are you? Then come out and fight us on equal terms!"
+    },
+    {
+      "actor": 900286,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "expression": 3,
+      "say": "I offered you the easy way, and you rejected it. If I must beat you into submission, then I shall.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "say": "But... fight you on equal terms? Don't make me laugh. There is no fairness in war.",
+      "actor": 900286,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "say": "Sender has closed the communications channel.",
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "say": "TB, can you check the mainframe's database for info on Antiochus and this \"Arbiter\"?",
+      "actor": 107380,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "voice": "event:/tb/12/tb-12",
+      "say": "Orders received. Mainframe database is unavailable in offline mode. Searching through local database...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "voice": "event:/tb/7/tb-7",
+      "say": "No results found in local database. Attempting to reconnect with mainframe...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "voice": "event:/tb/45/tb-45",
+      "say": "Connection could not be established due to electronic interference. Order could not be executed.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "voice": "event:/tb/16/tb-16",
+      "say": "Warning: Multiple Siren signals have been detected.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "say": "Again? How long are they gonna keep messing with us like this?",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "No... This time, they're not messing around. Look, we have a visual on them."
+    },
+    {
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Say what?! Do the Sirens have fricking optical camouflage now or something?!"
+    },
+    {
+      "say": "Well... this disproves that whole theory about Mirror Seas being the only thing that can dimensionally displace organic matter.",
+      "actor": 102160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "Or maybe they've already formed a Mirror Sea around us...",
+      "actor": 102160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "In any case, we have to deal with these Sirens to secure the zone. Everyone, try to contact other fleets in the region and request backup!"
+    },
+    {
+      "say": "...Not happening. Our signals aren't coming through due to Arbiter's jamming...",
+      "actor": 102160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "That doesn't leave us with much choice but to locate and destroy the jammer, then...!",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "voice": "event:/tb/58/tb-58",
+      "say": "I apologize for this...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "say": "It's not your fault, TB. Besides, it's not the first time we've been in this sort of situation.",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "We'll be fine, don't worry. Now let's show these Sirens what we're really made of!"
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "WORLD304C",
+  "once": true
+}

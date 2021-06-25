@@ -1,0 +1,515 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "side": 2,
+      "say": "La Galissonnière's sudden attack left the carrier fleet damaged with no way of maintaining air superiority.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "level-french2",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Piece by piece, Algérie's plan was falling into place."
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "say": "However, just then...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 2,
+      "say": "What...?! Where did all these planes suddenly come from?!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "Richelieu's intuition was correct. I won't let you come a step closer.",
+      "actor": 807010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "The Vichya's mass-produced ships were engulfed in pillars of flame one after another as the reserve corps that had been lying in wait sprung into action."
+    },
+    {
+      "say": "Algérie, you never told me what I was supposed to do in this kind of situation...!",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "say": "...W-well, thinking's never been my strong suit. Let's just enjoy this as much as we can!",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 807010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "You're not going to give up?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "You can't win anymore, so why...?"
+    },
+    {
+      "say": "Hmm? For the fun of it, why else? Algérie told me to neutralize the carrier fleet, so I'm gonna do it.",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "Now let's see how much we can hurt each other without sinking! It'll be fun, c'mon!",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 807010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "Ugh... She's giving in to her bloodlust again...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 1,
+      "say": "So you're the only one left, Illustrious? Guess I'll start by playing with you!!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0.8,
+          "x": 2500
+        }
+      ]
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Ngh...!"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "stopbgm": true,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "Radio Message",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "*beep beep*"
+    },
+    {
+      "actor": 903020,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "La Galissonnière!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Algérie",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "actor": 805010,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "Illustrious!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Richelieu",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "bgm": "hunhe-battle",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Algérie? What's the matter?"
+    },
+    {
+      "say": "What's the matter? I told you to retreat if the surprise attack failed! Are you trying to get yourself killed?",
+      "actor": 903020,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "say": "I don't remember anything like that... I thought I was supposed to trade my life for all their carriers...",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "That's enough. Come back through the barrier. We still have a chance to win, so don't burn your life out here.",
+      "actor": 903020,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 2,
+      "say": "...Fine then. Well, guess we'll have to play later.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0.8,
+          "x": -2500
+        }
+      ]
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "......"
+    },
+    {
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "delay": 0.25,
+        "dur": 0.25
+      },
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "dur": 0.25,
+        "alpha": [
+          0,
+          1
+        ]
+      },
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "La Galissonnière retreated from the battlefield almost as quickly as she appeared, taking the remnants of the mass-produced fleet through the Skybound Wall with her."
+    },
+    {
+      "say": "Illustrious, Béarn, don't chase after them. We need to regroup and prepare for the decisive battle against Algérie's fleet.",
+      "actor": 805010,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "As you wish."
+    },
+    {
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Richelieu, you're a lot more compassionate and caring than you let on, aren't you... Hehe~"
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "SHENGYONGQU24",
+  "once": true
+}

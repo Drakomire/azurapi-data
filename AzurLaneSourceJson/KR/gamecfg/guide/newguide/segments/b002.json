@@ -1,0 +1,56 @@
+{
+  "id": "B002",
+  "events": [
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "주력함대의 <color=#ff7d36>공중 지원</color> 준비 OK야!",
+        "posX": 0,
+        "mode": 2
+      },
+      "hideui": [
+        {
+          "ishide": false,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+        }
+      ],
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill3"
+      ]
+    },
+    {
+      "ui": {
+        "triggerType": [
+          3
+        ],
+        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl"
+      },
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "적을 쓸어버리자고! <color=#ff7d36>공중 지원</color> 버튼을 눌러봐!",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill3"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "공중 지원의 힘을 봤지! 긴급 상황에서 사용하면 <color=#ff7d36>적의 탄막</color>을 없애는 효과도 있어!",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ReleaseAfter"
+      ]
+    }
+  ]
+}

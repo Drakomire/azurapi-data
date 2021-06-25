@@ -1,0 +1,42 @@
+{
+  "picture": "",
+  "id": 11011,
+  "desc": "南达触发效果",
+  "last_effect": "",
+  "time": 0,
+  "icon": 11011,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          6751
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "hpUpperBound": 0.3,
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "ship_tag_list": [
+          "Washington"
+        ],
+        "quota": 1,
+        "skill_id": 11010
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "铁底湾之夜"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "B001",
+  "events": [
+    {
+      "hideui": [
+        {
+          "ishide": true,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+        },
+        {
+          "ishide": true,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+        },
+        {
+          "ishide": true,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+        }
+      ],
+      "alpha": 0.34,
+      "code": [
+        "HideSkillUI"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "新兵，讓我來教你如何控制艦隊吧",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowStick"
+      ]
+    },
+    {
+      "ui": {
+        "triggerType": [
+          4
+        ],
+        "path": "/UICamera/Canvas/UIMain/CombatUI(Clone)/Stick/Area"
+      },
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "首先，<color=#ff7d36>拖動搖桿</color>試著讓艦隊移動起來吧！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowStick"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "角色會<color=#ff7d36>自動使用武器</color>攻擊，但還有更厲害的武器哦~",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_2"
+      ]
+    },
+    {
+      "hideui": [
+        {
+          "ishide": false,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+        }
+      ],
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_2"
+      ]
+    },
+    {
+      "ui": {
+        "triggerType": [
+          3
+        ],
+        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl"
+      },
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "點擊下方按鈕<color=#ff7d36>發射魚雷</color>！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_2"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "面對敵方護盾防禦時，就可以使用主力艦隊<color=#ff7d36>主炮跨射</color>",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_1"
+      ]
+    },
+    {
+      "hideui": [
+        {
+          "ishide": false,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+        }
+      ],
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_1"
+      ]
+    },
+    {
+      "ui": {
+        "triggerType": [
+          3
+        ],
+        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl"
+      },
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "點擊主炮按鈕發射主炮，<color=#ff7d36>長按主炮並拖動搖桿</color>可調整攻擊位置",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_1"
+      ]
+    }
+  ]
+}

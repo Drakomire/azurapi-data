@@ -1,0 +1,167 @@
+{
+  "scripts": [
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "miaoMove",
+          "active": true
+        }
+      ],
+      "say": "————！~~~",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 0,
+          "x": 750,
+          "dur": 0.5,
+          "type": "move"
+        }
+      ],
+      "say": "喵啊啊啊啊！不可以亂跑喵！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorPosition": {
+        "y": 0,
+        "x": -750
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "呼喵？指揮官回來了喵？來的正好喵！快幫{namecode:98}抓住這小東西喵！",
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "miaoMove",
+          "active": false
+        }
+      ],
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "呼喵…指揮官幫大忙了喵。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "這個是什麼喵？哼哼，問得好！這些小傢伙正是{namecode:98}和港區的研究小組們最新的心血結晶——",
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "miaoShow",
+          "active": true
+        }
+      ],
+      "say": "——指揮喵！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "withoutPainting": true,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "effects": [
+        {
+          "name": "miaoShow",
+          "active": false
+        }
+      ],
+      "say": "就讓{namecode:98}來給你介紹介紹喵！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    }
+  ],
+  "id": "ZHIHUIMIAO1",
+  "mode": 2,
+  "fadein": 1.5,
+  "once": true
+}

@@ -15,7 +15,7 @@ WARNING: THIS CAN TAKE A VERY LONG TIME (~3 minutes on my PC, ~10 minutes on my 
 ## Dependencies
 ```
 Python 3.9
-  pip install git-python
+  pip install GitPython
 Lua 5.1
   sudo luarocks install lua-cjson
 Nodejs

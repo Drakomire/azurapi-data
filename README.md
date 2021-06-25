@@ -7,4 +7,7 @@ The code will update but skills will not parse correctly. Still wip.
 
 ## Dependencies
 Python 3.9
-Lua 5.1 (with cjson)
+  git-python
+Lua 5.1
+  CJson
+Nodejs

@@ -135,15 +135,14 @@ function readFilesFromLanguage(lang = "EN") {
         compiled[ship.group_type].stars = ship.star_max
         //Add skills
         let skills = [];
-        try {for (i of ship.buff_list_display){
+        for (i of ship.buff_list_display){
           skills.push({
             "id" : i,
-            "name" : skill_data_display[i].name,
-            "desc" : skill_data_template[skill_data_display[i].id].desc,
-            "desc_add" : skill_data_template[skill_data_display[i].id].desc_add
+            "name" : skill_data_template[i].name,
+            "desc" : skill_data_template[i].desc,
+            "desc_add" : skill_data_template[i].desc_add
           })
-        }}
-        catch {}
+        }
         if (compiled[ship.group_type].skills == undefined)
         compiled[ship.group_type].skills = skills
 

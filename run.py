@@ -19,7 +19,3 @@ f.write(json.dumps(checksums,indent=4,sort_keys=True))
 f.close()
 
 print("Checksums written!")
-
-if ('final' in sys.argv):
-    os.system('git commit -m "database update"')
-    os.system('git push')

@@ -99,7 +99,8 @@ function readFilesFromLanguage(lang = "EN") {
           armor: null,
           slots: null,
           nationality: group.nationality,
-          data: {}
+          data: {},
+          limit_break_text: {}
         };
 
       }
@@ -126,8 +127,9 @@ function readFilesFromLanguage(lang = "EN") {
 
         //Add ship to lookup table. Only use first occurance.
         if (lookup_table[stat.name.toLowerCase()] === undefined){
+          //Remove the faction text from the code
           lookup_table[stat.name.toLowerCase()] = (id-id%10)/10;
-          lookup_table[stat.english_name.toLowerCase()] = (id-id%10)/10;
+          lookup_table[stat.english_name.replace(/^.[A-Z]+ /,'').toLowerCase()] = (id-id%10)/10;
         }
 
         // compiled[ship.group_type].rarity.push(rarity[stat.rarity])
@@ -214,12 +216,14 @@ function readFilesFromLanguage(lang = "EN") {
         //Gets the amount of baes from either the statistic list or limit break list depending on if it is defined correctly
         //Make base list dictionary
         let dict = {}
+        compiled[ship.group_type].limit_break_text[lang.toLowerCase()] = []
         try{
           ;dict = (getBreakoutID = (breakout_id,dict) => {
             if (breakout_id == 0) return dict
             let temp_dict = {}
             //Add items to dict
             let this_ship = ship_data_breakout[breakout_id]
+            
             for (weapon of this_ship.weapon_ids){
               if (temp_dict[weapon] !== undefined){
                 temp_dict[weapon]++
@@ -227,6 +231,7 @@ function readFilesFromLanguage(lang = "EN") {
                 temp_dict[weapon] = 1
               }
             }
+            compiled[ship.group_type].limit_break_text[lang.toLowerCase()].push(this_ship.breakout_view)
             //take the highest value for the weapon in each dictionary
             dict = Object.assign({},temp_dict,dict)
             //Call function with pre id

@@ -130,7 +130,7 @@ function readFilesFromLanguage(lang = "EN") {
         if (lookup_table[stat.name.toLowerCase()] === undefined){
           //Remove the faction text from the code
           lookup_table[stat.name.toLowerCase()] = (id-id%10)/10;
-          if (!stat.tag_list.includes("special")) lookup_table[stat.english_name.replace(/^.[A-Z]+ /,'').toLowerCase()] = (id-id%10)/10;
+          if (!stat.tag_list.includes("special") && lookup_table[stat.english_name] !== undefined) lookup_table[stat.english_name.replace(/^.[A-Z]+ /,'').toLowerCase()] = (id-id%10)/10;
         }
 
         // compiled[ship.group_type].rarity.push(rarity[stat.rarity])

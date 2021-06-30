@@ -424,6 +424,9 @@ function parseShips() {
     let retrofit = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", "CN", "sharecfg", "transform_data_template.json")).toString());
     fs.writeFileSync(path.join(__dirname, "../dist/ships/retrofit.json"), stringify(retrofit));
 
+    let equip_data_by_type = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", "CN", "sharecfg", "equip_data_by_type.json")).toString());
+    fs.writeFileSync(path.join(__dirname, "../dist/ships/equip_types.json"), stringify(equip_data_by_type));
+
 }
 
 module.exports = {parseShips};

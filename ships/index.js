@@ -360,7 +360,7 @@ function readFilesFromLanguage(lang = "EN") {
         }
 
         //Add ship images
-        if (compiled[ship.group_type].skin_thumbnails === undefined){
+        if (compiled[ship.group_type].skins === undefined){
           let skin_ids = ship_skin_template["get_id_list_by_ship_group"][(id - id % 10)/10]
           let skin_portaits = []
 
@@ -375,8 +375,6 @@ function readFilesFromLanguage(lang = "EN") {
               
             })
           }
-
-
           compiled[ship.group_type].skins = skin_portaits
         }
 

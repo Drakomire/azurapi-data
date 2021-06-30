@@ -159,7 +159,7 @@ function readFilesFromLanguage(lang = "EN") {
                   "x" : parseInt(i),
                   "y" :  l[i][j][0]-2,
                   "recurrence" :transform_data_template[l[i][j][1]].effect.length,
-                  "icon" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/modicon/${transform_data_template[l[i][j][1]].icon}.png`,
+                  "icon" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/modicon/${transform_data_template[l[i][j][1]].icon.toLowerCase()}.png`,
                   "next_nodes" : [],
                   "required_nodes" : transform_data_template[l[i][j][1]].condition_id,
                   "letter" : String.fromCharCode(l[i][j][1]%100 + 64) //Convert number to ascii code for the letter

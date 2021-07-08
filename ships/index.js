@@ -415,11 +415,11 @@ function readFilesFromLanguage(lang = "EN") {
 }
 
 function parseShips() {
-    readFilesFromLanguage("CN");
+    readFilesFromLanguage("EN");
     //Make sure to turn off after first version is parsed
     PR_calculated = true
     META_calculated = true
-    readFilesFromLanguage("EN");
+    readFilesFromLanguage("CN");
     readFilesFromLanguage("JP");
     // readFilesFromLanguage("KR");
     // readFilesFromLanguage("TW");

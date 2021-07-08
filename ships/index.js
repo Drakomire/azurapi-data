@@ -131,8 +131,9 @@ function readFilesFromLanguage(lang = "EN") {
           //Remove the faction text from the code
           lookup_table[stat.name.toLowerCase()] = (id-id%10)/10;
 
-          if (!stat.tag_list.includes("special")){
-            lookup_table[stat.english_name.replace(/^.[A-Z]+ /,'').toLowerCase()] = (id-id%10)/10;
+          let name = stat.english_name.replace(/^.[A-Z]+ /,'').toLowerCase()
+          if (!stat.tag_list.includes("special") && lookup_table[name] == undefined){
+            lookup_table[name] = (id-id%10)/10;
             if (stat.english_name == "RN Marco Polo"){
               console.log("here")
             }

@@ -134,9 +134,6 @@ function readFilesFromLanguage(lang = "EN") {
           let name = stat.english_name.replace(/^.[A-Z]+ /,'').toLowerCase()
           if (!stat.tag_list.includes("special") && lookup_table[name] == undefined){
             lookup_table[name] = (id-id%10)/10;
-            if (stat.english_name == "RN Marco Polo"){
-              console.log("here")
-            }
           }
         }
 
@@ -418,11 +415,11 @@ function readFilesFromLanguage(lang = "EN") {
 }
 
 function parseShips() {
-    readFilesFromLanguage("EN");
+    readFilesFromLanguage("CN");
     //Make sure to turn off after first version is parsed
     PR_calculated = true
     META_calculated = true
-    readFilesFromLanguage("CN");
+    readFilesFromLanguage("EN");
     readFilesFromLanguage("JP");
     // readFilesFromLanguage("KR");
     // readFilesFromLanguage("TW");

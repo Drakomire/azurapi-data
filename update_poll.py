@@ -8,6 +8,7 @@ perseus = Repo(".")
 
 while True:
     #Poll source JSON
+    os.system("git submodule update")
     res = source_lua.git.diff()
     if (len(res) == 0):
         print(f"Repo is up to date as of {int(time.time())}")

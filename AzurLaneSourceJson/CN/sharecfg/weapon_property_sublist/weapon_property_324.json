@@ -237,20 +237,20 @@
 		"base": 1000,
 		"damage": 18
 	},
-	"692804": {
+	"692803": {
 		"fire_sfx": "battle/cannon-main",
-		"id": 692804,
+		"id": 692803,
+		"suppress": 1,
 		"barrage_ID": [
-			690105,
-			690106
+			690104
 		],
 		"queue": 3,
-		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u56f0\u96beT3\u3011BOSS \u68a6\u5883\u585e\u58ec\u7834\u5c40\u8005 \u4e3b\u70ae\u7ad6\u6392\u5f39\u5e55",
 		"bullet_ID": [
-			835,
-			835
+			760059
 		],
-		"reload_max": 1200,
+		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u56f0\u96beT3\u3011BOSS \u68a6\u5883\u585e\u58ec\u7834\u5c40\u8005 \u4e3b\u70ae\u4e2d\u5fc3\u5f39\u5e55",
+		"reload_max": 1000,
+		"aim_type": 1,
 		"fire_fx": "CAFire",
 		"base": 1000,
 		"damage": 24
@@ -297,23 +297,31 @@
 		"effect_move": 1,
 		"axis_angle": 0
 	},
-	"692803": {
+	"692802": {
 		"fire_sfx": "battle/cannon-main",
-		"id": 692803,
-		"suppress": 1,
+		"type": 19,
+		"precast_param": {
+			"alertTime": 2,
+			"time": 1,
+			"fx": "jinengenemy"
+		},
 		"barrage_ID": [
-			690104
+			20017
 		],
-		"queue": 3,
+		"id": 692802,
+		"suppress": 1,
+		"range": 150,
+		"queue": 1,
 		"bullet_ID": [
-			760059
+			834
 		],
-		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u56f0\u96beT3\u3011BOSS \u68a6\u5883\u585e\u58ec\u7834\u5c40\u8005 \u4e3b\u70ae\u4e2d\u5fc3\u5f39\u5e55",
-		"reload_max": 1000,
+		"spawn_bound": "cannon3",
+		"min_range": 85,
+		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u56f0\u96beT3\u3011BOSS \u68a6\u5883\u585e\u58ec\u7834\u5c40\u8005 \u540e\u6392\u8de8\u5c04",
 		"aim_type": 1,
 		"fire_fx": "CAFire",
 		"base": 1000,
-		"damage": 24
+		"damage": 32
 	},
 	"691807": {
 		"search_type": 1,
@@ -357,7 +365,7 @@
 		"effect_move": 1,
 		"axis_angle": 0
 	},
-	"692802": {
+	"692801": {
 		"fire_sfx": "battle/cannon-main",
 		"type": 19,
 		"precast_param": {
@@ -366,22 +374,22 @@
 			"fx": "jinengenemy"
 		},
 		"barrage_ID": [
-			20017
+			399912
 		],
-		"id": 692802,
+		"id": 692801,
 		"suppress": 1,
-		"range": 150,
+		"range": 75,
 		"queue": 1,
 		"bullet_ID": [
-			834
+			400000
 		],
-		"spawn_bound": "cannon3",
-		"min_range": 85,
-		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u56f0\u96beT3\u3011BOSS \u68a6\u5883\u585e\u58ec\u7834\u5c40\u8005 \u540e\u6392\u8de8\u5c04",
+		"spawn_bound": "cannon2",
+		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u56f0\u96beT3\u3011BOSS \u68a6\u5883\u585e\u58ec\u7834\u5c40\u8005 \u524d\u6392\u8de8\u5c04",
+		"reload_max": 1500,
 		"aim_type": 1,
 		"fire_fx": "CAFire",
 		"base": 1000,
-		"damage": 32
+		"damage": 28
 	},
 	"691808": {
 		"search_type": 1,
@@ -425,31 +433,27 @@
 		"effect_move": 1,
 		"axis_angle": 0
 	},
-	"692801": {
-		"fire_sfx": "battle/cannon-main",
-		"type": 19,
-		"precast_param": {
-			"alertTime": 2,
-			"time": 1,
-			"fx": "jinengenemy"
-		},
-		"barrage_ID": [
-			399912
-		],
-		"id": 692801,
+	"691814": {
+		"action_index": "skill2",
+		"id": 691814,
 		"suppress": 1,
-		"range": 75,
+		"range": 120,
 		"queue": 1,
-		"bullet_ID": [
-			400000
+		"barrage_ID": [
+			770028,
+			770028,
+			770028
 		],
-		"spawn_bound": "cannon2",
-		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u56f0\u96beT3\u3011BOSS \u68a6\u5883\u585e\u58ec\u7834\u5c40\u8005 \u524d\u6392\u8de8\u5c04",
-		"reload_max": 1500,
+		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u666e\u901aT6\u3011BOSS \u6d4b\u8bd5\u8005 \u4e8c\u9636\u6bb5\u84dd\u8272\u5b50\u5f39\u6269\u6563",
+		"bullet_ID": [
+			760025,
+			760026,
+			760027
+		],
 		"aim_type": 1,
-		"fire_fx": "CAFire",
+		"fire_sfx": "",
 		"base": 1000,
-		"damage": 28
+		"reload_max": 300
 	},
 	"691809": {
 		"type": 2,
@@ -571,30 +575,23 @@
 		"effect_move": 1,
 		"axis_angle": 0
 	},
-	"691811": {
+	"690803": {
 		"fire_sfx": "battle/cannon-main",
-		"type": 19,
-		"precast_param": {
-			"alertTime": 2,
-			"time": 1,
-			"fx": "jinengenemy"
-		},
-		"id": 691811,
+		"id": 690803,
 		"suppress": 1,
-		"range": 150,
-		"bullet_ID": [
-			1530
-		],
 		"barrage_ID": [
-			20017
+			690104
 		],
-		"reload_max": 9999,
-		"min_range": 75,
-		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u666e\u901aT6\u3011BOSS \u6d4b\u8bd5\u8005 \u4e00\u5f62\u6001\u7b2c\u4e8c\u6ce2 \u540e\u6392\u8de8\u5c04",
+		"queue": 3,
+		"bullet_ID": [
+			760059
+		],
+		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u666e\u901aT3\u3011BOSS \u68a6\u5883\u585e\u58ec\u7834\u5c40\u8005 \u4e3b\u70ae\u4e2d\u5fc3\u5f39\u5e55",
+		"reload_max": 1000,
 		"aim_type": 1,
 		"fire_fx": "CAFire",
 		"base": 1000,
-		"damage": 38
+		"damage": 20
 	},
 	"692611": {
 		"action_index": "",
@@ -1208,27 +1205,24 @@
 		"base": 1001,
 		"damage": 40
 	},
-	"691814": {
-		"action_index": "skill2",
-		"id": 691814,
+	"691813": {
+		"action_index": "skill",
+		"type": 2,
+		"id": 691813,
 		"suppress": 1,
 		"range": 120,
 		"queue": 1,
 		"barrage_ID": [
-			770028,
-			770028,
-			770028
+			770025
 		],
-		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u666e\u901aT6\u3011BOSS \u6d4b\u8bd5\u8005 \u4e8c\u9636\u6bb5\u84dd\u8272\u5b50\u5f39\u6269\u6563",
+		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u666e\u901aT6\u3011BOSS \u6d4b\u8bd5\u8005 \u4e8c\u9636\u6bb5\u9ec4\u8272\u5b50\u6bcd\u5f39",
 		"bullet_ID": [
-			760025,
-			760026,
-			760027
+			760014
 		],
 		"aim_type": 1,
 		"fire_sfx": "",
 		"base": 1000,
-		"reload_max": 300
+		"reload_max": 9999
 	},
 	"691606": {
 		"id": 691606,
@@ -1393,41 +1387,6 @@
 		"base": 1000,
 		"damage": 16
 	},
-	"691813": {
-		"action_index": "skill",
-		"type": 2,
-		"id": 691813,
-		"suppress": 1,
-		"range": 120,
-		"queue": 1,
-		"barrage_ID": [
-			770025
-		],
-		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u666e\u901aT6\u3011BOSS \u6d4b\u8bd5\u8005 \u4e8c\u9636\u6bb5\u9ec4\u8272\u5b50\u6bcd\u5f39",
-		"bullet_ID": [
-			760014
-		],
-		"aim_type": 1,
-		"fire_sfx": "",
-		"base": 1000,
-		"reload_max": 9999
-	},
-	"691705": {
-		"id": 691705,
-		"suppress": 1,
-		"barrage_ID": [
-			920061
-		],
-		"queue": 5,
-		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u666e\u901aT5\u3011BOSS \u62c9\u83f2\u73af\u7ed5\u84dd\u8272\u5b50\u5f39",
-		"bullet_ID": [
-			760042
-		],
-		"aim_type": 1,
-		"reload_max": 450,
-		"base": 1000,
-		"damage": 16
-	},
 	"691812": {
 		"action_index": "",
 		"id": 691812,
@@ -1447,5 +1406,46 @@
 		"reload_max": 9999,
 		"base": 1001,
 		"damage": 42
+	},
+	"691705": {
+		"id": 691705,
+		"suppress": 1,
+		"barrage_ID": [
+			920061
+		],
+		"queue": 5,
+		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u666e\u901aT5\u3011BOSS \u62c9\u83f2\u73af\u7ed5\u84dd\u8272\u5b50\u5f39",
+		"bullet_ID": [
+			760042
+		],
+		"aim_type": 1,
+		"reload_max": 450,
+		"base": 1000,
+		"damage": 16
+	},
+	"691811": {
+		"fire_sfx": "battle/cannon-main",
+		"type": 19,
+		"precast_param": {
+			"alertTime": 2,
+			"time": 1,
+			"fx": "jinengenemy"
+		},
+		"id": 691811,
+		"suppress": 1,
+		"range": 150,
+		"bullet_ID": [
+			1530
+		],
+		"barrage_ID": [
+			20017
+		],
+		"reload_max": 9999,
+		"min_range": 75,
+		"name": "\u30102020\u4fe1\u6d53\u6d3b\u52a8\u666e\u901aT6\u3011BOSS \u6d4b\u8bd5\u8005 \u4e00\u5f62\u6001\u7b2c\u4e8c\u6ce2 \u540e\u6392\u8de8\u5c04",
+		"aim_type": 1,
+		"fire_fx": "CAFire",
+		"base": 1000,
+		"damage": 38
 	}
 }

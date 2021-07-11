@@ -419,8 +419,8 @@ function parseShips() {
     //Make sure to turn off after first version is parsed
     PR_calculated = true
     META_calculated = true
-    readFilesFromLanguage("CN");
     readFilesFromLanguage("JP");
+    readFilesFromLanguage("CN");
     // readFilesFromLanguage("KR");
     // readFilesFromLanguage("TW");
     fs.writeFileSync(path.join(__dirname, "../dist/ships/ships.json"), stringify(compiled));

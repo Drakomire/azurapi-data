@@ -1,47 +1,37 @@
-#This file downloads the required images from the Azur Lane Wiki
-#In the future this will be automated by decompiling the game
-#But I didn't get to that yet
-
-import urllib.request
-import json
 import os
-import io
-from PIL import Image
-from bs4 import BeautifulSoup
+import UnityPy
 
-f = open("dist/ships.json","r");
-ships = json.loads(f.read());
+def unpack_all_assets(source_folder : str, destination_folder : str):
+    item_number = 1
+    # iterate over all files in source folder
+    for root, dirs, files in os.walk(source_folder):
+        for file_name in files:
+            # generate file_path
+            file_path = os.path.join(root, file_name)
+            # load that file via UnityPy.load
+            env = UnityPy.load(file_path)
 
-exists = 0
-added = 0
+            # alternative way which keeps the original path
+            for path,obj in env.container.items():
+                if obj.type in ["Texture2D", "Sprite"]:
+                    try:
+                        # create dest based on original path
+                        dest = os.path.join(destination_folder, *path.split("/"))
+                        if os.path.isfile(dest + ".png"):
+                            continue
+                        # make sure that the dir of that path exists
+                        os.makedirs(os.path.dirname(dest), exist_ok = True)
+                        data = obj.read()
+                        # correct extension
+                        dest, ext = os.path.splitext(dest)
+                        dest = dest + ".png"
+                        data.image.save(dest)
+                        # print(f"{item_number=}")
+                        item_number+=1
+                    except:
+                        dest = os.path.join(destination_folder, *path.split("/"))
+                        print(f"{item_number=} Failed")
+                        print(dest)
+                        item_number+=1
 
-for ship in ships:
-    ship = ships[ship]
-    try:
-        name = ship["name"]["en"].replace(" ","_")
-        #Check if file has been downloaded
-        downloads = ["Icon","ShipyardIcon"]
-        #Check if the ship has a retrofit
-        if "retrofit" in ship:
-            downloads += ["KaiIcon"]
-
-        for download in downloads:
-            if (os.path.exists(f"dist/shipIcon/{name}/{downloads}.png")):
-                exists += 1
-            else:
-                d = urllib.request.urlopen(f"https://azurlane.koumakan.jp/File:{name}{download}.png#/media/File:{name}{download}.png")
-                image = Image.open(io.BytesIO(d.read()))
-                print(image.decode("utf-8"))
-                image.save(f"dist/shipIcon/{name}/{downloads}.png")
-                added += 1
-
-    except KeyError:
-        print("Ship has been skipped due to no EN name")
-    except Exception as e:
-        print(f"https://azurlane.koumakan.jp/File:{name}{download}.png#/media/File:{name}{download}.png")
-        print(e)
-        break
-
-
-print(exists, "images unchanged")
-print(added, "images downloaded")
+unpack_all_assets("AzurLane.obb/main.51010.com.YoStarEN.AzurLane/assets/AssetBundles", "AzurLaneImages")

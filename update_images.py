@@ -17,7 +17,7 @@ def unpack_all_assets(source_folder : str, destination_folder : str):
                     try:
                         # create dest based on original path
                         dest = os.path.join(destination_folder, *path.split("/"))
-                        if os.path.isfile(dest):
+                        if os.path.isfile(dest + ".png"):
                             continue
                         # make sure that the dir of that path exists
                         os.makedirs(os.path.dirname(dest), exist_ok = True)
@@ -26,10 +26,12 @@ def unpack_all_assets(source_folder : str, destination_folder : str):
                         dest, ext = os.path.splitext(dest)
                         dest = dest + ".png"
                         data.image.save(dest)
-                        print(f"{item_number=}")
+                        # print(f"{item_number=}")
                         item_number+=1
                     except:
+                        dest = os.path.join(destination_folder, *path.split("/"))
                         print(f"{item_number=} Failed")
+                        print(dest)
                         item_number+=1
 
 unpack_all_assets("AzurLane.obb/main.51010.com.YoStarEN.AzurLane/assets/AssetBundles", "AzurLaneImages")

@@ -126,12 +126,18 @@ function readFilesFromLanguage(lang = "EN") {
         if (stat.english_name.length === 0) continue; // unknown ship
         if (FAKE_SHIPS.includes(id)) continue;
 
+        //Fuck Kasumi DOA. She makes me do this weird thing to change her name.
+        if (stat.name == "Kasumi" && stat.tag_list.includes("DOAXVV")){
+          stat.name = "Kasumi (DOA)"
+        }
+
         //Add ship to lookup table. Only use first occurance.
         if (lookup_table[stat.name.toLowerCase()] === undefined){
           //Remove the faction text from the code
           lookup_table[stat.name.toLowerCase()] = (id-id%10)/10;
 
           let name = stat.english_name.replace(/^.[A-Z]+ /,'').toLowerCase()
+
           if (!stat.tag_list.includes("special") && lookup_table[name] == undefined){
             lookup_table[name] = (id-id%10)/10;
           }

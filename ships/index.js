@@ -141,62 +141,109 @@ function readFilesFromLanguage(lang = "EN") {
         if (compiled[ship.group_type].nationality !== stat.nationality) continue; // pseudo ship
         compiled[ship.group_type].stars = ship.star_max
         //Add skills
-        let skills = [];
-        for (i of ship.buff_list_display){
-          skills.push({
-            "id" : i,
-            "name" : skill_data_template[i].name,
-            "desc" : skill_data_template[i].desc,
-            "desc_add" : skill_data_template[i].desc_add
-          })
+        if (compiled[ship.group_type].skills == undefined){
+          let skills = [];
+          for (i of ship.buff_list_display){
+            skills.push({
+              "id" : i,
+              "name" : {},
+              "desc" : {},
+              "desc_add" : skill_data_template[i].desc_add
+            })
+          }
+          compiled[ship.group_type].skills = skills
         }
-        if (compiled[ship.group_type].skills == undefined)
-        compiled[ship.group_type].skills = skills
+        
+        for (i in ship.buff_list_display){
+          buff_id = ship.buff_list_display[i]
+          //Crashed on San Diego's AoA. No idea why.
+          try{
+            compiled[ship.group_type].skills[i].name[lang.toLowerCase()] = skill_data_template[buff_id].name
+            compiled[ship.group_type].skills[i].desc[lang.toLowerCase()] = skill_data_template[buff_id].desc
+          }catch{}
+
+        }
+        
 
         //Add retrofit info
         if (retrofit[ship.group_type] !== undefined){
-           let l = retrofit[ship.group_type].transform_list;
-           let o = []
-           for (i in l){
-             for (j in l[i]){
-               o.push({
-                 "node" : l[i][j][1],
-                  "x" : parseInt(i),
-                  "y" :  l[i][j][0]-2,
-                  "recurrence" :transform_data_template[l[i][j][1]].effect.length,
-                  "icon" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/modicon/${transform_data_template[l[i][j][1]].icon.toLowerCase()}.png`,
-                  "next_nodes" : [],
-                  "required_nodes" : transform_data_template[l[i][j][1]].condition_id,
-                  "letter" : String.fromCharCode(l[i][j][1]%100 + 64) //Convert number to ascii code for the letter
-               })
-             }
-           }
+          //Only generates list once to prevent overwriting names
+          if (compiled[ship.group_type].retrofit === undefined){
+            let l = retrofit[ship.group_type].transform_list;
+            let o = []
+            for (i in l){
+              for (j in l[i]){
+                node = l[i][j][1]
+                this_node = transform_data_template[node]
 
-           //Calculate the next nodes
-           for (i in o){
-             nodes = o[i].required_nodes
-            for (n of nodes){
-              o[n%100-1].next_nodes.push(o[i].node)
+                o.push({
+                    "node" : node,
+                    "x" : parseInt(i),
+                    "y" :  l[i][j][0]-2,
+                    "recurrence" : this_node.effect.length,
+                    "icon" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/modicon/${transform_data_template[l[i][j][1]].icon.toLowerCase()}.png`,
+                    "next_nodes" : [],
+                    "required_nodes" : this_node.condition_id,
+                    "letter" : String.fromCharCode(l[i][j][1]%100 + 64), //Convert number to ascii code for the letter
+
+                    //Built in info
+                    "max_level" : this_node.max_level,
+                    "use_ship"  : this_node.use_ship,
+                    "gear_score": this_node.gear_score,
+                    "use_gold": this_node.use_gold,
+                    "skin_id": this_node.skin_id,
+                    "description": {"en": "","jp":"","cn":""},
+                    "use_item": this_node.use_item,
+                    "skill_id": this_node.skill_id,
+                    "effect": this_node.effect,
+                    "ship_id": this_node.ship_id,
+                    "name": {"en": "","jp":"","cn":""},
+                    "condition_id": this_node.condition_id,
+                    "star_limit": this_node.star_limit,
+                    "level_limit": this_node.level_limit
+                })
+              }
             }
-           }
 
-           compiled[ship.group_type].retrofit = o;
-           let retroArr = o;
+            //Calculate the next nodes
+            for (i in o){
+              nodes = o[i].required_nodes
+              for (n of nodes){
+                o[n%100-1].next_nodes.push(o[i].node)
+              }
+            }
 
-           //Get ships retrofit ID
-           for (i of o){
-             let t_data = transform_data_template[i.node];
-             
-             if (t_data.ship_id.length != 0){
-               let retrofit_id = compiled[ship.group_type].retrofit_id = t_data.ship_id[0][1];
-               let old_id = t_data.ship_id[0][0];
+            compiled[ship.group_type].retrofit = o;
+            let retroArr = o;
 
-               retrofit_id_lookup_table[(retrofit_id-retrofit_id%10)/10] = (old_id-old_id%10)/10;
-             }
+            //Get ships retrofit ID
+            for (i of o){
+              let t_data = transform_data_template[i.node];
+              
+              if (t_data.ship_id.length != 0){
+                let retrofit_id = compiled[ship.group_type].retrofit_id = t_data.ship_id[0][1];
+                let old_id = t_data.ship_id[0][0];
 
-           }
+                retrofit_id_lookup_table[(retrofit_id-retrofit_id%10)/10] = (old_id-old_id%10)/10;
+              }
+
+            }
+          }
+
+          //Add the name and description to retrofit nodes
+          let l = retrofit[ship.group_type].transform_list;
+          for (i in l){
+            for (j in l[i]){
+            n = l[i][j][1]
+            this_node = transform_data_template[n]
+
+            compiled[ship.group_type].retrofit[n%100-1].name[lang.toLowerCase()] = this_node.name
+            compiled[ship.group_type].retrofit[n%100-1].description[lang.toLowerCase()] = this_node.descrip
+
+
+            }
+          }
         }
-
 
 
 

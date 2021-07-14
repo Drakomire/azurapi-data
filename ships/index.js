@@ -30,6 +30,13 @@ const STAT_KEYWORDS = {
   "hit" : "acc"
 }
 
+const ARMOR_TYPES = {
+  1 : "Light",
+  2 : "Medium",
+  3 : "Heavy"
+
+}
+
 let TYPES = {};
 let PR_calculated = false;
 let META_calculated = false;
@@ -261,6 +268,9 @@ function readFilesFromLanguage(lang = "EN") {
             id: ship.id,
             tags: stat.tag_list.length > 0 ? stat.tag_list : undefined, // save space
             type: ship.type,
+            type_name: {},
+            team_type: types[ship.type].team_type,
+
             rarity: stat.rarity,
             stars: ship.star,
             oil: ship.oil_at_end,
@@ -268,8 +278,9 @@ function readFilesFromLanguage(lang = "EN") {
             stats: {hp, fp, trp, aa, avi, rld, acc, eva, spd, luk, asw},
             efficiency : stat.equipment_proficiency,
             preloads : stat.preload_count
-
         }
+        
+        compiled[ship.group_type].data[ship.id].type_name[lang.toLowerCase()] = types[ship.type].type_name
 
         //Gets the amount of baes from either the statistic list or limit break list depending on if it is defined correctly
         //Make base list dictionary

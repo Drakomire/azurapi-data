@@ -18,4 +18,8 @@ f = open("./dist/checksums.json","w")
 f.write(json.dumps(checksums,indent=4,sort_keys=True))
 f.close()
 
+f = open("./dist/version","w")
+f.write(hashlib.md5(open("./dist/checksums.json","rb").read()).hexdigest())
+f.close()
+
 print("Checksums written!")

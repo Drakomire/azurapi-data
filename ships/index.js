@@ -108,7 +108,9 @@ function readFilesFromLanguage(lang = "EN") {
           slots: null,
           nationality: group.nationality,
           data: {},
-          limit_break_text: {}
+          limit_break_text: {},
+          skills: [],
+          all_out_assaults: [],
         };
 
       }
@@ -154,26 +156,61 @@ function readFilesFromLanguage(lang = "EN") {
         if (compiled[ship.group_type].nationality !== stat.nationality) continue; // pseudo ship
         compiled[ship.group_type].stars = ship.star_max
         //Add skills
-        if (compiled[ship.group_type].skills == undefined){
-          let skills = [];
-          for (i of ship.buff_list_display){
-            skills.push({
-              "id" : i,
-              "name" : {},
-              "desc" : {},
-              "desc_add" : skill_data_template[i].desc_add
-            })
-          }
-          compiled[ship.group_type].skills = skills
+
+        skillIsAoA = (buff_id) =>{
+          let name = skill_data_template[buff_id].name
+          return (name.includes("All Out Assault") || name.includes("特殊弾幕-") || name.includes("专属弹幕") || name.includes("全弹发射")) && name != "All Out Assault, Open Fire!"
         }
-        
+
+        aoaIncludesID = (list, id) =>{
+          for (i of list){
+            if (i.id == id){
+              return true
+            }
+          }
+          return false
+        }
+
+        for (let i = compiled[ship.group_type].skills.length; i<ship.buff_list_display.length; i++){
+          //AoAs will be added to a different list to make parsing easier
+          buff_id = ship.buff_list_display[i]
+          if (skillIsAoA(buff_id)){
+            //Skill is an AoA
+            if (!aoaIncludesID(compiled[ship.group_type].all_out_assaults, ship.buff_list_display[i])){
+              compiled[ship.group_type].all_out_assaults.push(
+                {
+                  id: ship.buff_list_display[i],
+                  name: {},
+                  desc: {}
+                }
+              )
+            }
+          }else{
+            //Skill is not an AoA
+            compiled[ship.group_type].skills.push(
+              {
+                id: ship.buff_list_display[i],
+                name: {},
+                desc: {},
+                desc_add: []
+              }
+            )
+          }
+        }
+
         for (i in ship.buff_list_display){
           buff_id = ship.buff_list_display[i]
-          //Crashed on San Diego's AoA. No idea why.
-          try{
+          if (!skillIsAoA(buff_id)){
             compiled[ship.group_type].skills[i].name[lang.toLowerCase()] = skill_data_template[buff_id].name
             compiled[ship.group_type].skills[i].desc[lang.toLowerCase()] = skill_data_template[buff_id].desc
-          }catch{}
+            compiled[ship.group_type].skills[i].desc_add = skill_data_template[buff_id].desc_add
+          }
+        }
+
+        for (i in compiled[ship.group_type].all_out_assaults){
+          buff_id = compiled[ship.group_type].all_out_assaults[i].id
+          compiled[ship.group_type].all_out_assaults[i].name[lang.toLowerCase()] = skill_data_template[buff_id].name
+          compiled[ship.group_type].all_out_assaults[i].desc[lang.toLowerCase()] = skill_data_template[buff_id].desc
 
         }
         
@@ -279,7 +316,7 @@ function readFilesFromLanguage(lang = "EN") {
             efficiency : stat.equipment_proficiency,
             preloads : stat.preload_count
         }
-        
+
         compiled[ship.group_type].data[ship.id].type_name[lang.toLowerCase()] = types[ship.type].type_name
 
         //Gets the amount of baes from either the statistic list or limit break list depending on if it is defined correctly

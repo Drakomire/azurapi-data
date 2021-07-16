@@ -118,13 +118,14 @@ function readFilesFromLanguage(lang = "EN") {
       for (let id of Object.keys(ships)) {
 
         if (id === "all") continue;
-        //Attempt to remove NPCs
-        if (id >= 900000 && id < 1000000) continue
         let ship = ships[id];
         let stat = stats[id];
         let strengthen = ship_strengthen[Math.floor(id/10)]
 
         if (!ship || !stat) continue; // ship not here / not complete
+
+        //Attempt to remove NPCs
+        if (id > 900000 && id < 901000) continue
 
         stat.english_name = stat.english_name.trim()
             .replace('Ultra Bulin MKIII', 'Specialized Bulin Custom MKIII')

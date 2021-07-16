@@ -160,7 +160,7 @@ function readFilesFromLanguage(lang = "EN") {
 
         skillIsAoA = (buff_id) =>{
           let name = skill_data_template[buff_id].name
-          return (name.includes("All Out Assault") || name.includes("特殊弾幕-") || name.includes("专属弹幕") || name.includes("全弹发射") || name.includes("全弾発射")) && name != "All Out Assault, Open Fire!"
+          return buff_id > 20000 && buff_id < 30000
         }
 
         aoaIncludesID = (list, id) =>{

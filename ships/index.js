@@ -88,7 +88,19 @@ function readFilesFromLanguage(lang = "EN") {
     let ship_skin_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_skin_template.json")).toString());
 
 
-    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 17, 18, 19].forEach(type => {
+    let equip_data_statistics = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics.json")).toString());
+    files = fs.readdirSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics_sublist"))
+    let equip_data_statistics_sublist = Array(files.length)
+
+    files.forEach((file) => {
+      // Do whatever you want to do with the file
+      let index = file.split("_")[3].split(".")[0]-1
+      equip_data_statistics_sublist[index] = (JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics_sublist", file)).toString()))
+    })
+    
+
+
+    ;[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 17, 18, 19].forEach(type => {
         if (!TYPES[type]) TYPES[type] = {};
         if (!TYPES[type][lang.toLowerCase()]) TYPES[type][lang.toLowerCase()] = types[type].type_name.trim();
     })
@@ -157,7 +169,6 @@ function readFilesFromLanguage(lang = "EN") {
         if (compiled[ship.group_type].nationality !== stat.nationality) continue; // pseudo ship
         compiled[ship.group_type].stars = ship.star_max
         //Add skills
-
         skillIsAoA = (buff_id) =>{
           let name = skill_data_template[buff_id].name
           return buff_id > 20000 && buff_id < 30000
@@ -324,56 +335,47 @@ function readFilesFromLanguage(lang = "EN") {
         //Make base list dictionary
         let dict = {}
         compiled[ship.group_type].limit_break_text[lang.toLowerCase()] = []
-        try{
-          ;dict = (getBreakoutID = (breakout_id,dict) => {
-            if (breakout_id == 0) return dict
-            let temp_dict = {}
-            //Add items to dict
-            let this_ship = ship_data_breakout[breakout_id]
-            
-            for (weapon of this_ship.weapon_ids){
-              if (temp_dict[weapon] !== undefined){
-                temp_dict[weapon]++
-              }else{
-                temp_dict[weapon] = 1
-              }
+        ;dict = (getBreakoutID = (breakout_id,dict) => {
+          if (breakout_id == 0) return dict
+          let temp_dict = {}
+          //Add items to dict
+          let this_ship = ship_data_breakout[breakout_id]
+          if (this_ship == undefined) return dict
+          for (weapon of this_ship.weapon_ids){
+            if (temp_dict[weapon] !== undefined){
+              temp_dict[weapon]++
+            }else{
+              temp_dict[weapon] = 1
             }
-            compiled[ship.group_type].limit_break_text[lang.toLowerCase()].push(this_ship.breakout_view)
-            //take the highest value for the weapon in each dictionary
-            dict = Object.assign({},temp_dict,dict)
-            //Call function with pre id
-            return getBreakoutID(this_ship.pre_id,dict)
-          })(ship.id-1,{})
-        }catch{
+          }
+          compiled[ship.group_type].limit_break_text[lang.toLowerCase()].push(this_ship.breakout_view)
+          //take the highest value for the weapon in each dictionary
+          dict = Object.assign({},temp_dict,dict)
+          //Call function with pre id
+          return getBreakoutID(this_ship.pre_id,dict)
+        })(ship.id-1,{})
 
-        }
-        
-        //calculate base list
-        bases = [
+        let base_list = [
           stat.base_list[0],
           stat.base_list[1],
-          stat.base_list[2]
+          stat.base_list[2],
         ]
 
-        //I probably shoudln't repeat 3 times but whatever
-        //Retrofits cant do this so try catch again :yep:
-
-        try{
-          if (ships[ship.id - ship.id%10 + 1].equip_id_1 != 0){
-            bases[0] = dict[ships[ship.id - ship.id%10 + 1].equip_id_1] || bases[0]
+        for (let weapon in dict){
+          let sublist_index = equip_data_statistics.indexs[weapon] - 1
+          let type = equip_data_statistics_sublist[sublist_index][weapon].type
+          //Undefined weapons are barrages
+          if (type !== undefined){
+            for (i in compiled[ship.group_type].slots){
+              if (compiled[ship.group_type].slots[i].includes(type)){
+                base_list[i] = Math.max(dict[weapon],base_list[i])
+              }
+            }
           }
-          if (ships[ship.id - ship.id%10 + 1].equip_id_2 != 0){
-            bases[1] = dict[ships[ship.id - ship.id%10 + 1].equip_id_2] || bases[1]
-          }
-          if (ships[ship.id - ship.id%10 + 1].equip_id_3 != 0){
-            bases[2] = dict[ships[ship.id - ship.id%10 + 1].equip_id_3] || bases[2]
-          }
-        }catch{
-          //Should only catch san diego
         }
 
-        compiled[ship.group_type].data[ship.id].base_list = bases
-
+        // console.log(base_list)
+        compiled[ship.group_type].data[ship.id].base_list = base_list
         compiled[ship.group_type].data[ship.id].stats.oxy = stat.oxy_max
 
         if (stat.hunting_range.length > 1){

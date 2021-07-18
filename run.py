@@ -5,7 +5,9 @@ import json
 import sys
 
 os.system("node .")
-print("Parsing complete!")
+print("Parsing data complete!")
+os.system("python3 ships/ship_images.py")
+print("Parsing ship skins complete!")
 
 checksums = {}
 

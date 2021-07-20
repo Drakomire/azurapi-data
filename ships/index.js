@@ -331,6 +331,12 @@ function readFilesFromLanguage(lang = "EN") {
             preloads : stat.preload_count
         }
 
+        //For some reason BBVs have incorrect slot 2s on retrofit
+        //It has to be changed to Seaplane only manually
+        if (specificShip.type == 10){
+          specificShip.slots[1] = [12]
+        }
+
         compiled[ship.group_type].data[ship.id].type_name[lang.toLowerCase()] = types[ship.type].type_name
 
         //Gets the amount of baes from either the statistic list or limit break list depending on if it is defined correctly

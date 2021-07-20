@@ -117,7 +117,6 @@ function readFilesFromLanguage(lang = "EN") {
           
           type: group.type,
           armor: null,
-          slots: null,
           nationality: group.nationality,
           data: {},
           limit_break_text: {},
@@ -186,12 +185,14 @@ function readFilesFromLanguage(lang = "EN") {
         for (let i = compiled[ship.group_type].skills.length; i<ship.buff_list_display.length; i++){
           //AoAs will be added to a different list to make parsing easier
           buff_id = ship.buff_list_display[i]
+          let icon = `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/skillicon/${Math.floor(buff_id/10)*10}.png`
           if (skillIsAoA(buff_id)){
             //Skill is an AoA
-            if (!aoaIncludesID(compiled[ship.group_type].all_out_assaults, ship.buff_list_display[i])){
+            if (!aoaIncludesID(compiled[ship.group_type].all_out_assaults, buff_id)){
               compiled[ship.group_type].all_out_assaults.push(
                 {
-                  id: ship.buff_list_display[i],
+                  id: buff_id,
+                  icon: icon,
                   name: {},
                   desc: {}
                 }
@@ -201,7 +202,8 @@ function readFilesFromLanguage(lang = "EN") {
             //Skill is not an AoA
             compiled[ship.group_type].skills.push(
               {
-                id: ship.buff_list_display[i],
+                id: buff_id,
+                icon: icon,
                 name: {},
                 desc: {},
                 desc_add: []
@@ -319,9 +321,9 @@ function readFilesFromLanguage(lang = "EN") {
             type: ship.type,
             type_name: {},
             team_type: types[ship.type].team_type,
-
             rarity: stat.rarity,
             stars: ship.star,
+            slots: [1, 2, 3, 4, 5].map(i => ship["equip_" + i]),
             oil: ship.oil_at_end,
             max_level: ship.max_level,
             stats: {hp, fp, trp, aa, avi, rld, acc, eva, spd, luk, asw},
@@ -493,12 +495,6 @@ function readFilesFromLanguage(lang = "EN") {
 
 
         if (specificShip.type !== ship.type) console.log("SHIP TYPE NOT MATCH ", id, ship.group_type, stat.name, lang);
-
-        // collapse, maybe the collapse algo can be collapsed later
-
-        let slots = [1, 2, 3, 4, 5].map(i => ship["equip_" + i]);
-        if (!compiled[ship.group_type].slots) compiled[ship.group_type].slots = slots;
-        if (JSON.stringify(compiled[ship.group_type].slots) !== JSON.stringify(slots)) specificShip.slots = slots;
 
         let armor = stat.armor_type;
         if (!compiled[ship.group_type].armor) compiled[ship.group_type].armor = armor;

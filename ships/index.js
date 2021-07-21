@@ -8,15 +8,22 @@ const RARITY = {
     2: "Common",
     3: "Rare",
     4: "Elite",
-    5: "Super Rare/Priority",
-    6: "Decisive"
+    5: "Super Rare",
+    6: "Ultra Rare"
 };
+
+const RESEARCH_RARITY = {
+  5: "Priority",
+  6: "Decisive"
+}
+
 const NATIONALITY = {
     0: "Universal", 1: "Eagle Union", 2: "Royal Navy",
     3: "Sakura Empire", 4: "Iron Blood", 5: "Dragon Empery",
     6: "Sardegna Empire", 7: "Northern Parliament", 8: "Iris Libre",
     9: "Vichya Dominion", 98: "Universal", 101: "Neptunia",
-    104: "Kizuna AI", 105: "Hololive", 106: "Venus Vacation"
+    104: "Kizuna AI", 105: "Hololive", 106: "Venus Vacation",
+    107: "Idolm@ster"
 };
 
 const STAT_KEYWORDS = {
@@ -35,6 +42,25 @@ const ARMOR_TYPES = {
   2 : "Medium",
   3 : "Heavy"
 
+}
+
+const EQUIP_TYPE_NAMES = {
+  1 : "DD Gun",
+  2 : "CL Gun",
+  3 : "CA Gun",
+  4 : "BB Gun",
+  5 : "Torpedo",
+  6 : "AA Gun",
+  7 : "Fighter",
+  8 : "Torpedo Bomber",
+  9 : "Dive Bomber",
+  10 : "Auxiliary",
+  11 : "CB Gun",
+  12 : "Seaplane",
+  13 : "Submarine Torpedo",
+  14 : "ASW Gear",
+  15 : "ASW Bomber",
+  18 : "Cargo"
 }
 
 let TYPES = {};
@@ -117,7 +143,9 @@ function readFilesFromLanguage(lang = "EN") {
           
           type: group.type,
           armor: null,
+          armor_name: null,
           nationality: group.nationality,
+          nationality_name: NATIONALITY[group.nationality] || "Unknown",
           data: {},
           limit_break_text: {},
           skills: [],
@@ -322,8 +350,10 @@ function readFilesFromLanguage(lang = "EN") {
             type_name: {},
             team_type: types[ship.type].team_type,
             rarity: stat.rarity,
+            rarity_name: (stat.tag_list.includes("Plan-Class"))? RESEARCH_RARITY[stat.rarity] : RARITY[stat.rarity],
             stars: ship.star,
             slots: [1, 2, 3, 4, 5].map(i => ship["equip_" + i]),
+            slot_names: [1, 2, 3, 4, 5].map(i => ship["equip_" + i].map(number => EQUIP_TYPE_NAMES[number])),
             oil: ship.oil_at_end,
             max_level: ship.max_level,
             stats: {hp, fp, trp, aa, avi, rld, acc, eva, spd, luk, asw},
@@ -505,6 +535,7 @@ function readFilesFromLanguage(lang = "EN") {
         let armor = stat.armor_type;
         if (!compiled[ship.group_type].armor) compiled[ship.group_type].armor = armor;
         if (compiled[ship.group_type].armor !== armor) specificShip.armor = armor;
+        compiled[ship.group_type].armor_name = ARMOR_TYPES[armor]
 
         stat.name = stat.name.trim();
         if (!compiled[ship.group_type].name[lang.toLowerCase()]) compiled[ship.group_type].name[lang.toLowerCase()] = stat.name.trim();

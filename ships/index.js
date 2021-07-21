@@ -406,8 +406,8 @@ function readFilesFromLanguage(lang = "EN") {
           let type = equip_data_statistics_sublist[sublist_index][weapon].type
           //Undefined weapons are barrages
           if (type !== undefined){
-            for (i in compiled[ship.group_type].slots){
-              if (compiled[ship.group_type].slots[i].includes(type)){
+            for (i in specificShip.slots){
+              if (specificShip.slots[i].includes(type)){
                 base_list[i] = Math.max(dict[weapon],base_list[i])
               }
             }

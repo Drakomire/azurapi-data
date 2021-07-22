@@ -1,0 +1,36 @@
+{
+	"picture": "",
+	"id": 8526,
+	"effect_list": [
+		{
+			"trigger": [
+				"onHPRatioUpdate"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"target": "TargetSelf",
+				"hpUpperBound": 0.01,
+				"buff_id": 8527
+			}
+		},
+		{
+			"trigger": [
+				"onAttach",
+				"onTakeDamage"
+			],
+			"type": "BattleBuffLockHealth",
+			"arg_list": {
+				"value": 1
+			}
+		}
+	],
+	"desc": "",
+	"icon": 8526,
+	"last_effect": "",
+	"name": "\u65e0\u654c\u9501\u8840\u64a4\u9000",
+	"color": "blue",
+	"desc_get": "\u65e0\u654c\u9501\u8840\u64a4\u9000",
+	"stack": 1,
+	"init_effect": "",
+	"time": 0
+}

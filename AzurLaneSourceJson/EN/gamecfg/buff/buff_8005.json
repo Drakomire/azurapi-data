@@ -1,0 +1,44 @@
+{
+	"picture": "",
+	"id": 8005,
+	"desc": "\u81ea\u7206\u8239\u51b2\u649e\u81ea\u6740buff\u52a0\u901f\u7b49\u6548\u679c",
+	"last_effect": "",
+	"time": 10,
+	"icon": 8005,
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffFixVelocity",
+			"arg_list": {
+				"group": 8003,
+				"mul": 8000,
+				"add": 0
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffNewAI",
+			"arg_list": {
+				"ai_onAttach": 80007
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffAddAttr",
+			"arg_list": {
+				"group": 60037,
+				"attr": "immuneMaxAreaLimit",
+				"number": 1
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"name": "\u81ea\u7206\u8239\u51b2\u649e\u81ea\u6740buff\u52a0\u901f\u7b49\u6548\u679c"
+}

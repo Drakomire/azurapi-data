@@ -89,6 +89,11 @@ function makeArray(w, h, val) {
   return arr;
 }
 
+let TYPES_EN = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", "EN", "sharecfg", "ship_data_by_type.json")).toString());
+let TYPES_JP = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", "JP", "sharecfg", "ship_data_by_type.json")).toString());
+let TYPES_CN = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", "CN", "sharecfg", "ship_data_by_type.json")).toString());
+
+
 
 function readFilesFromLanguage(lang = "EN") {
     let groups = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_data_group.json")).toString());
@@ -112,7 +117,6 @@ function readFilesFromLanguage(lang = "EN") {
     let skill_data_display = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "skill_data_display.json")).toString());
     let skill_data_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "skill_data_template.json")).toString());
     let ship_skin_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_skin_template.json")).toString());
-
 
     let equip_data_statistics = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics.json")).toString());
     files = fs.readdirSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "equip_data_statistics_sublist"))
@@ -370,7 +374,10 @@ function readFilesFromLanguage(lang = "EN") {
           specificShip.slots[1] = [12]
         }
 
-        compiled[ship.group_type].data[ship.id].type_name[lang.toLowerCase()] = types[ship.type].type_name
+        compiled[ship.group_type].data[ship.id].type_name["en"] = TYPES_EN[ship.type].type_name
+        compiled[ship.group_type].data[ship.id].type_name["jp"] = TYPES_JP[ship.type].type_name
+        compiled[ship.group_type].data[ship.id].type_name["cn"] = TYPES_CN[ship.type].type_name
+
 
         //Gets the amount of baes from either the statistic list or limit break list depending on if it is defined correctly
         //Make base list dictionary

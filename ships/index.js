@@ -22,8 +22,8 @@ const NATIONALITY = {
     3: "Sakura Empire", 4: "Iron Blood", 5: "Dragon Empery",
     6: "Sardegna Empire", 7: "Northern Parliament", 8: "Iris Libre",
     9: "Vichya Dominion", 98: "Universal", 101: "Neptunia",
-    104: "Kizuna AI", 105: "Hololive", 106: "Venus Vacation",
-    107: "Idolm@ster"
+    104: "Kizuna AI", 105: "Hololive", 106: "DOAX11",
+    107: "IMAS"
 };
 
 const STAT_KEYWORDS = {
@@ -179,16 +179,17 @@ function readFilesFromLanguage(lang = "EN") {
         if (stat.name == "Kasumi" && stat.tag_list.includes("DOAXVV")){
           stat.name = "Kasumi (DOA)"
         }
-
+        
+        let code_name_to_english_name = ""
         //Add ship to lookup table. Only use first occurance.
         if (lookup_table[stat.name.toLowerCase()] === undefined){
           //Remove the faction text from the code
           lookup_table[stat.name.toLowerCase()] = (id-id%10)/10;
 
-          let name = stat.english_name.replace(/^.[A-Z]+ /,'').toLowerCase()
+          code_name_to_english_name = stat.english_name.replace(/^.[A-Z]+ /,'')
 
-          if (!stat.tag_list.includes("special") && lookup_table[name] == undefined){
-            lookup_table[name] = (id-id%10)/10;
+          if (!stat.tag_list.includes("special") && lookup_table[code_name_to_english_name] == undefined){
+            lookup_table[code_name_to_english_name.toLowerCase()] = (id-id%10)/10;
           }
         }
 
@@ -553,6 +554,7 @@ function readFilesFromLanguage(lang = "EN") {
             }
         }
         compiled[ship.group_type].name.code = stat.english_name;
+        if (compiled[ship.group_type].name.en == undefined) compiled[ship.group_type].name.en = code_name_to_english_name
     }
 }
 

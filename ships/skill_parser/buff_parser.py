@@ -13,7 +13,7 @@ class BuffParser():
         self.frm = frm
         self.valid = True
         try:
-            f = open(Path("..","AzurLaneSourceJson","CN","gamecfg","buff",f"buff_{id}.json"))
+            f = open(Path("AzurLaneSourceJson","CN","gamecfg","buff",f"buff_{id}.json"))
             self.data = json.loads(f.read())
             f.close()
         except:

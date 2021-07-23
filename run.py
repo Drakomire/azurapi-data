@@ -6,10 +6,10 @@ import sys
 
 os.system("node .")
 print("Parsing data complete!")
-os.system("python3 ships/skill_parse_wrapper.py")
-print("Parsing ship skills complete!")
 os.system("python3 ships/ship_images.py")
 print("Parsing ship skins complete!")
+os.system("python3 ships/skill_parse_wrapper.py")
+print("Parsing ship skills complete!")
 
 checksums = {}
 

@@ -31,26 +31,29 @@ class BuffParser():
         out = []
         try:
             effect_array = self.data[str(self.level)]
+            if type(effect_array) == dict: effect_array = effect_array["effect_list"]
+            if len(effect_array) == 0: raise
+            if type(effect_array) != list: raise
         except:
             effect_array = self.data["effect_list"]
 
         for effects in effect_array:
             triggers = effects["trigger"]
-            type = effects["type"]
+            _type = effects["type"]
             arg_list = effects["arg_list"]
 
             end = None
-            if type == "BattleBuffCastSkill":
+            if _type == "BattleBuffCastSkill":
                 b = SkillParser(arg_list["skill_id"],level=self.level,frm=self.frm)
                 end = b.wrapper()
-            elif type == "BattleBuffAddBuff":
+            elif _type == "BattleBuffAddBuff":
                 b = BuffParser(arg_list["buff_id"],level=self.level,frm=self.frm)
                 end = b.wrapper()
-            elif type == "BattleBuffField":
+            elif _type == "BattleBuffField":
                 b = BuffParser(arg_list["buff_id"],level=self.level,frm=self.frm)
                 end = b.wrapper()
 
-            out += (triggers,type,arg_list),(end),
+            out += (triggers,_type,arg_list),(end),
 
         return out
 
@@ -60,7 +63,7 @@ class SkillParser():
         self.frm = frm
         self.level = level
         try:
-            f = open(Path("..","AzurLaneSourceJson","CN","gamecfg","skill",f"skill_{id}.json"))
+            f = open(Path("AzurLaneSourceJson","CN","gamecfg","skill",f"skill_{id}.json"))
             self.data = json.loads(f.read())
             f.close()
         except:
@@ -80,19 +83,21 @@ class SkillParser():
 
         try:
             effect_array = self.data[str(self.level)]
+            if len(effect_array) == 0: raise
+            if type(effect_array) != list: raise
         except:
             effect_array = self.data["effect_list"]
 
         for effects in effect_array:
-            type = effects["type"]
+            _type = effects["type"]
             arg_list = effects["arg_list"]
 
             end = None
 
-            if type == "BattleSkillAddBuff":
+            if _type == "BattleSkillAddBuff":
                 s = BuffParser(arg_list["buff_id"],level=self.level,frm=self.frm)
                 end = s.wrapper()
 
-            out += [(type,arg_list),(end),]
+            out += [(_type,arg_list),(end),]
 
         return out

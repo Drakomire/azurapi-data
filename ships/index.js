@@ -466,14 +466,26 @@ function readFilesFromLanguage(lang = "EN") {
 
         if (specificShip.tags !== undefined){
           //PR limit break strengthening
-          if (specificShip.tags.includes("Research") && !PR_calculated){
+          if (specificShip.tags.includes("Research")){
             //Open the PR file
             blueprints = ship_data_blueprint[ship.group_type].strengthen_effect
 
             for (let i = 4; i <= ((specificShip.id%10)-1)*10; i+=5){
+              if (!PR_calculated){
+                proficiency = ship_strengthen_blueprint[blueprints[i]].effect_equipment_proficiency
+                if (proficiency !== ""){
+                  specificShip.efficiency[proficiency[0]-1] += proficiency[1]
+                  specificShip.efficiency[proficiency[0]-1] = Number.parseFloat(Number.parseFloat(specificShip.efficiency[proficiency[0]-1]).toFixed(2))
+                }
+              }
+
+              
+
               //Every 5 prints has a limit break
               for (j of ship_strengthen_blueprint[blueprints[i]].effect_attr){
-                specificShip.stats[STAT_KEYWORDS[j[0]]] += j[1]
+                if (!PR_calculated){
+                  specificShip.stats[STAT_KEYWORDS[j[0]]] += j[1]
+                }
               }
             }
           }

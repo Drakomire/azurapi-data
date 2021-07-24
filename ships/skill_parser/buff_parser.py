@@ -53,7 +53,7 @@ class BuffParser():
                 b = BuffParser(arg_list["buff_id"],level=self.level,frm=self.frm)
                 end = b.wrapper()
 
-            out += [(triggers,_type,arg_list),(end,)]
+            out += [(triggers,_type,arg_list),[end]]
 
         return out
 
@@ -98,6 +98,6 @@ class SkillParser():
                 s = BuffParser(arg_list["buff_id"],level=self.level,frm=self.frm)
                 end = s.wrapper()
 
-            out += [(_type,arg_list),(end,)]
+            out += [(_type,arg_list),[end]]
 
         return out

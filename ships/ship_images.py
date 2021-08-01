@@ -38,8 +38,8 @@ for ship in ships:
             new_end["wedding"] = copy.deepcopy(skin)
             ships[ship]["skins"].pop(index)
 
-    if "wedding" in new_end: ships[ship]["skins"] += [new_end["wedding"]]
     if "retrofit" in new_end: ships[ship]["skins"] += [new_end["retrofit"]]
+    if "wedding" in new_end: ships[ship]["skins"] += [new_end["wedding"]]
 
     try:
         for skin in api_ship["skins"]:

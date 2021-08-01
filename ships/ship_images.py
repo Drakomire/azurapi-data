@@ -1,5 +1,6 @@
 import json
 import requests
+import copy
 
 f = open("dist/ships/ships.json")
 ships = json.loads(f.read())
@@ -19,6 +20,26 @@ def getShipByID(id):
 for ship in ships:
     skins = ships[ship]["skins"]
     api_ship = getShipByID(ships[ship]["id"])
+
+    #Reorder the ship's skins
+
+    new_end = {
+
+    }
+
+    for index,skin in enumerate(skins):
+        if "_h" in skin["id"]:
+            #Skin is a Retrfofit skin
+            new_end["retrofit"] = copy.deepcopy(skin)
+            ships[ship]["skins"].pop(index)
+    for index,skin in enumerate(skins):
+        if "_g" in skin["id"]:
+            #Skin is a wedding skin
+            new_end["wedding"] = copy.deepcopy(skin)
+            ships[ship]["skins"].pop(index)
+
+    if "wedding" in new_end: ships[ship]["skins"] += [new_end["wedding"]]
+    if "retrofit" in new_end: ships[ship]["skins"] += [new_end["retrofit"]]
 
     try:
         for skin in api_ship["skins"]:

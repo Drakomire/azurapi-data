@@ -1,6 +1,8 @@
 import os
 import UnityPy
 
+#adb pull /storage/emulated/0/Android/obb/com.YoStarEN.AzurLane AzurLane.obb
+
 def unpack_all_assets(source_folder : str, destination_folder : str):
     item_number = 1
     # iterate over all files in source folder
@@ -24,7 +26,12 @@ def unpack_all_assets(source_folder : str, destination_folder : str):
                         data = obj.read()
                         # correct extension
                         dest, ext = os.path.splitext(dest)
+
+
                         dest = dest + ".png"
+                        if not os.path.isfile(dest):
+                            print(f"New file: {dest}")
+
                         data.image.save(dest)
                         # print(f"{item_number=}")
                         item_number+=1
@@ -34,4 +41,7 @@ def unpack_all_assets(source_folder : str, destination_folder : str):
                         print(dest)
                         item_number+=1
 
-unpack_all_assets("AzurLane.obb/main.51010.com.YoStarEN.AzurLane/assets/AssetBundles", "AzurLaneImages")
+# unpack_all_assets("com.YoStarEN.AzurLane/main.51010.com.YoStarEN.AzurLane/assets/AssetBundles", "AzurLaneImages")
+unpack_all_assets("AzurLane/AssetBundles", "AzurLaneImages")
+
+# unpack_all_assets("com.YoStarEN.AzurLane/main.51010.com.YoStarEN.AzurLane/assets/bin/Data","AzurLaneImagesV2")

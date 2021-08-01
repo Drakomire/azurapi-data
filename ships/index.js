@@ -9,7 +9,8 @@ const RARITY = {
     3: "Rare",
     4: "Elite",
     5: "Super Rare",
-    6: "Ultra Rare"
+    6: "Ultra Rare",
+    7: "DNE"
 };
 
 const RESEARCH_RARITY = {
@@ -349,15 +350,17 @@ function readFilesFromLanguage(lang = "EN") {
 
         let specificShip = compiled[ship.group_type].data[ship.id];
         //The game does not automatically increase a ship's rarity by one when its retrofitted
-        let real_ratity = stat.rarity + ((compiled[ship.group_type].retrofit_id == stat.id)? 1:0)
+        // let real_ratity = stat.rarity + ((compiled[ship.group_type].retrofit_id == stat.id)? 1:0)
         if (!specificShip) compiled[ship.group_type].data[ship.id] = specificShip = {
             id: ship.id,
             tags: stat.tag_list.length > 0 ? stat.tag_list : undefined, // save space
             type: ship.type,
             type_name: {},
             team_type: types[ship.type].team_type,
-            rarity: real_ratity,
-            rarity_name: (stat.tag_list.includes("Plan-Class"))? RESEARCH_RARITY[real_ratity] : RARITY[real_ratity],
+            rarity: stat.rarity,
+            rarity_name: (stat.tag_list.includes("Plan-Class"))? RESEARCH_RARITY[stat.rarity] : RARITY[stat.rarity],
+            retrofit_rarity: stat.rarity + 1,
+            retrofit_rarity_name: RARITY[stat.rarity + 1],
             stars: ship.star,
             slots: [1, 2, 3, 4, 5].map(i => ship["equip_" + i]),
             slot_names: [1, 2, 3, 4, 5].map(i => ship["equip_" + i].map(number => EQUIP_TYPE_NAMES[number])),
@@ -538,6 +541,7 @@ function readFilesFromLanguage(lang = "EN") {
             let sublist = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "AzurLaneSourceJson", lang, "sharecfg", "ship_skin_template_sublist",`ship_skin_template_${ship_skin_template.indexs[skin_id]}.json`)).toString());
             let skin = sublist[skin_id]
             skin_portaits.push({
+              "id" : skin.painting,
               "name" : skin.name,
               "description" : skin.desc,
               "image" : undefined,

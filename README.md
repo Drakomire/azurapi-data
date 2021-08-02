@@ -7,6 +7,8 @@ Currently doesn't work<br>
 ~~The Repo polls [Dimbreath's Azur Lane Lua Code](https://github.com/Dimbreath/AzurLaneData) every 5 minutes. It takes a little over 10 to generate the JSON files and Perseus distribution files on the device im running it on. That should give a good idea of how quick updates will be.
 Images still have to be done manually but Im working on automating it.~~
 
+## Azur Lane Asset Dump
+This repo has an asset dump of all the azur lane files in `AzurLangeImages` .
 
 ## Running the code
 `./run.sh`<br>

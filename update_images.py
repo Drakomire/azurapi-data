@@ -42,6 +42,7 @@ def unpack_all_assets(source_folder : str, destination_folder : str):
                         item_number+=1
 
 # unpack_all_assets("com.YoStarEN.AzurLane/main.51010.com.YoStarEN.AzurLane/assets/AssetBundles", "AzurLaneImages")
-unpack_all_assets("AzurLane/AssetBundles", "AzurLaneImages")
+if __name__ == "__main__":
+    unpack_all_assets("AzurLane/AssetBundles", "AzurLaneImages")
 
 # unpack_all_assets("com.YoStarEN.AzurLane/main.51010.com.YoStarEN.AzurLane/assets/bin/Data","AzurLaneImagesV2")

@@ -3,10 +3,10 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"bgm": "battle-boss-4",
+			"say": "\u201c\u62a5\u544a\u53f8\u4ee4\u90e8\uff0c\u7279\u653b\u8230\u961f\u572830\u5206\u949f\u524d\u906d\u5230\u585e\u58ec\u548c\u4e0d\u660e\u6b66\u5668\u7684\u653b\u51fb\u2026\u9635\u578b\u88ab\u6253\u6563\u201d",
 			"actor": 205070,
 			"side": 2,
-			"dir": 1,
+			"bgm": "battle-boss-4",
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
@@ -16,7 +16,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u201c\u62a5\u544a\u53f8\u4ee4\u90e8\uff0c\u7279\u653b\u8230\u961f\u572830\u5206\u949f\u524d\u906d\u5230\u585e\u58ec\u548c\u4e0d\u660e\u6b66\u5668\u7684\u653b\u51fb\u2026\u9635\u578b\u88ab\u6253\u6563\u201d"
+			"dir": 1
 		},
 		{
 			"actor": 205070,
@@ -173,7 +173,7 @@
 			"say": "\u5bf9\u4e86\uff0c\u6211\u4e5f\u7ed9\u5979\u51c6\u5907\u4e86\u4ece\u4e16\u754c\u53e6\u4e00\u5934\u5e26\u6765\u7684\u793c\u7269\u54e6\u2014\u2014"
 		},
 		{
-			"stopbgm": true,
+			"actor": 900021,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#ff0000",
@@ -183,8 +183,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -205,7 +205,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 900021
+			"stopbgm": true
 		},
 		{
 			"actor": 900021,
@@ -242,8 +242,8 @@
 			}
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "LINGDONG12",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

@@ -3,10 +3,10 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"bgm": "story-8",
+			"say": "\u60c5\u51b5\u4e0d\u5999\u2026\u867d\u7136\u51fb\u7834\u4e862\u8258\u65b0\u578b\u8230\u2026\u4f46\u662f\u8fd8\u6709\u5927\u91cf\u7684\u4fe1\u53f7\u6e90\u5728\u671d\u6211\u4eec\u9760\u8fd1",
 			"actor": 102050,
 			"side": 2,
-			"dir": 1,
+			"bgm": "story-8",
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
@@ -16,7 +16,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u60c5\u51b5\u4e0d\u5999\u2026\u867d\u7136\u51fb\u7834\u4e862\u8258\u65b0\u578b\u8230\u2026\u4f46\u662f\u8fd8\u6709\u5927\u91cf\u7684\u4fe1\u53f7\u6e90\u5728\u671d\u6211\u4eec\u9760\u8fd1"
+			"dir": 1
 		},
 		{
 			"actor": 102050,
@@ -100,13 +100,13 @@
 		{
 			"soundeffect": "event:/battle/boom1",
 			"side": 2,
-			"say": "\u2026\u2026\u2014\u2014\u2014\u2014",
+			"dir": 1,
 			"dialogShake": {
 				"speed": 0.09,
 				"x": 8.5,
 				"number": 2
 			},
-			"dir": 1,
+			"say": "\u2026\u2026\u2014\u2014\u2014\u2014",
 			"blackBg": true,
 			"flash": {
 				"number": 3,
@@ -250,13 +250,13 @@
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u2026\u2026\u2014\u2014\u2014\u2014",
+			"dir": 1,
 			"dialogShake": {
 				"speed": 0.09,
 				"x": 8.5,
 				"number": 2
 			},
-			"dir": 1,
+			"say": "\u2026\u2026\u2014\u2014\u2014\u2014",
 			"blackBg": true,
 			"flash": {
 				"number": 1,
@@ -574,7 +574,7 @@
 			"say": "\u4e0d\u2026\u4f60\u8ba4\u9519\u4eba\u4e86"
 		},
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"<size=51> </size>",
@@ -601,7 +601,7 @@
 					14.5
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"sequence": [
@@ -621,8 +621,8 @@
 			"mode": 1
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "DONGHUO11",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

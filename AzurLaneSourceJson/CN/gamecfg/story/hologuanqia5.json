@@ -45,7 +45,7 @@
 			"expression": 2
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 900215,
 			"side": 0,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -106,7 +106,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 900215
+			"soundeffect": "event:/battle/boom2"
 		},
 		{
 			"actor": 900209,
@@ -211,7 +211,7 @@
 			"expression": 1
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"stopbgm": true,
 			"sequence": [
 				[
 					"",
@@ -272,13 +272,13 @@
 				"delay": 1.5,
 				"dur": 1
 			},
-			"stopbgm": true
+			"soundeffect": "event:/battle/boom2"
 		},
 		{
-			"bgm": "nagato-map",
+			"say": "\u73b0\u5728\u653e\u5f03\u8fd8\u592a\u65e9\u4e86\uff01\u4f60\u4eec\u5feb\u53bb\u907f\u96be\uff0c\u8fd9\u91cc\u4ea4\u7ed9\u6211",
 			"actor": 301490,
 			"side": 2,
-			"dir": 1,
+			"bgm": "nagato-map",
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
@@ -288,7 +288,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u73b0\u5728\u653e\u5f03\u8fd8\u592a\u65e9\u4e86\uff01\u4f60\u4eec\u5feb\u53bb\u907f\u96be\uff0c\u8fd9\u91cc\u4ea4\u7ed9\u6211"
+			"dir": 1
 		},
 		{
 			"actor": 301490,
@@ -306,8 +306,8 @@
 			"say": "\u91cd\u6a31\u6240\u5c5e\uff0c\u9a71\u9010\u8230{namecode:158}\uff0c\u53c2\u4e0a\uff01"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "HOLOGUANQIA5",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

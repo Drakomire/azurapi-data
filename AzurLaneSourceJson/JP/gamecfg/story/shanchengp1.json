@@ -3,23 +3,23 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"\u96e8\u306e\u3061\u6674\u308c\n\n<size=45>\u305d\u306e\u4e00\u3000\u660e\u65e5\u306e\u5929\u6c17\u306f\u2026</size>",
 					1
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"side": 2,
-			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4",
 			"dir": 1,
 			"bgName": "bg_story_task"
 		},
@@ -130,8 +130,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -298,8 +298,8 @@
 			"bgName": "bg_story_task"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "SHANCHENGP1",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

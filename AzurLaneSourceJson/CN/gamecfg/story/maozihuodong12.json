@@ -3,10 +3,10 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"bgm": "bgm-cccp3",
+			"say": "\u5567\u2026\u4fdd\u6301\u8ddd\u79bb\u4f1a\u6536\u5230\u5149\u675f\u653b\u51fb\uff0c\u8bd5\u56fe\u8fd1\u8eab\u53c8\u4f1a\u88ab\u8303\u56f4\u51b2\u51fb\u51fb\u9000\uff0c\u771f\u662f\u68d8\u624b\u2026\uff01",
 			"actor": 102140,
 			"side": 2,
-			"dir": 1,
+			"bgm": "bgm-cccp3",
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
@@ -16,7 +16,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u5567\u2026\u4fdd\u6301\u8ddd\u79bb\u4f1a\u6536\u5230\u5149\u675f\u653b\u51fb\uff0c\u8bd5\u56fe\u8fd1\u8eab\u53c8\u4f1a\u88ab\u8303\u56f4\u51b2\u51fb\u51fb\u9000\uff0c\u771f\u662f\u68d8\u624b\u2026\uff01"
+			"dir": 1
 		},
 		{
 			"say": "\u90a3\u4e2a\u5149\u675f\u2026\u96be\u9053\u662f\u95ea\u7535\u5417\u2026\uff1f\u8fd9\u91cc\u8be5\u4e0d\u4f1a\u662f\u585e\u58ec\u7684\u79d8\u5bc6\u5175\u5668\u8bd5\u9a8c\u573a\u5427\uff01\uff1f",
@@ -123,10 +123,10 @@
 			}
 		},
 		{
-			"bgm": "story-masazhusai",
+			"say": "\u6307\u6325\u5b98\uff0c\u7535\u529b\u7cfb\u7edf\u5df2\u7ecf\u4fee\u590d\u5b8c\u6bd5\uff0c\u5357\u8fbe\u79d1\u4ed6\u73b0\u5728\u91cd\u65b0\u52a0\u5165\u6218\u6597\u5e8f\u5217",
 			"actor": 105140,
 			"side": 2,
-			"dir": 1,
+			"bgm": "story-masazhusai",
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
@@ -136,7 +136,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u6307\u6325\u5b98\uff0c\u7535\u529b\u7cfb\u7edf\u5df2\u7ecf\u4fee\u590d\u5b8c\u6bd5\uff0c\u5357\u8fbe\u79d1\u4ed6\u73b0\u5728\u91cd\u65b0\u52a0\u5165\u6218\u6597\u5e8f\u5217"
+			"dir": 1
 		},
 		{
 			"actor": 105140,
@@ -191,12 +191,12 @@
 			},
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u9ad8\u901f\u98de\u884c\u7684\u70ae\u5f39\uff0c\u6495\u5f00\u4e86\u654c\u4eba\u7684\u9632\u5fa1\u7f51\uff0c\u968f\u7740\u4e00\u8fde\u4e32\u5267\u70c8\u7684\u7206\u70b8\uff0c\u6d77\u9762\u4e0a\u7684\u585e\u58ec\u8230\u8239\u5316\u6210\u4e86\u71c3\u70e7\u7740\u7684\u6b8b\u9ab8",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"say": "\u9ad8\u901f\u98de\u884c\u7684\u70ae\u5f39\uff0c\u6495\u5f00\u4e86\u654c\u4eba\u7684\u9632\u5fa1\u7f51\uff0c\u968f\u7740\u4e00\u8fde\u4e32\u5267\u70c8\u7684\u7206\u70b8\uff0c\u6d77\u9762\u4e0a\u7684\u585e\u58ec\u8230\u8239\u5316\u6210\u4e86\u71c3\u70e7\u7740\u7684\u6b8b\u9ab8",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -255,7 +255,7 @@
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u2026\u2026\u2026\u2026\u2026\u55ef\uff1f\u7206\u70b8\u58f0\u8fd8\u6ca1\u505c\u6b62\uff1f",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -264,7 +264,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"dir": 1
+			"say": "\u2026\u2026\u2026\u2026\u2026\u55ef\uff1f\u7206\u70b8\u58f0\u8fd8\u6ca1\u505c\u6b62\uff1f"
 		},
 		{
 			"say": "\u8fd9\u3001\u8fd9\u662f\u2014\u2014\uff01\uff1f",
@@ -283,7 +283,7 @@
 			"expression": 5
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"stopbgm": true,
 			"side": 2,
 			"dir": 1,
 			"blackBg": true,
@@ -301,7 +301,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"stopbgm": true
+			"soundeffect": "event:/battle/boom2"
 		},
 		{
 			"soundeffect": "event:/battle/boom2",
@@ -376,8 +376,8 @@
 			"say": "\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "MAOZIHUODONG12",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

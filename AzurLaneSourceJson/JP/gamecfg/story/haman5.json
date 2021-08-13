@@ -3,25 +3,25 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u30cf\u30e0\u30de\u30f3\u89b3\u5bdf\u8a18\u9332\n\n<size=45>\u305d\u306e\u4e94 \u30cf\u30e0\u30de\u30f3\u3068\u30e8\u30fc\u30af\u30bf\u30a6\u30f3</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"dir": 1,
 			"actor": 101250,
 			"side": 2,
-			"say": "\u2026\u2026\u3067\u306d\u3001\u30cf\u30e0\u30de\u30f3\u6307\u63ee\u5b98\u3092\u57f7\u52d9\u5ba4\u304b\u3089\u8ffd\u3044\u51fa\u3057\u3061\u3083\u3063\u305f\u306e\u2026\u2026",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u2026\u2026\u3067\u306d\u3001\u30cf\u30e0\u30de\u30f3\u6307\u63ee\u5b98\u3092\u57f7\u52d9\u5ba4\u304b\u3089\u8ffd\u3044\u51fa\u3057\u3061\u3083\u3063\u305f\u306e\u2026\u2026",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -29,10 +29,10 @@
 			"bgName": "bg_story_room"
 		},
 		{
-			"dir": 1,
+			"say": "\u3046\u3093\u3046\u3093\u3002",
 			"actor": 107050,
 			"side": 0,
-			"say": "\u3046\u3093\u3046\u3093\u3002",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -267,10 +267,10 @@
 			},
 			"action": [
 				{
-					"y": 30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.15,
-					"number": 1
+					"y": 30
 				}
 			],
 			"painting": {
@@ -280,8 +280,8 @@
 			"bgName": "bg_story_room"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "HAMAN5",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

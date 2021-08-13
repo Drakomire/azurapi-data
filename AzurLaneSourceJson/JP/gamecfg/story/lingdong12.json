@@ -3,10 +3,10 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"bgm": "battle-boss-4",
+			"say": "\u304f\u3063\u2026\u300c\u672c\u90e8\u306b\u7dca\u6025\u9023\u7d61\u3001\u30bb\u30a4\u30ec\u30fc\u30f3\u53ca\u3073\u6b63\u4f53\u4e0d\u660e\u306e\u8d85\u5175\u5668\u306e\u5947\u8972\u3092\u53d7\u3051\u3001\u4e00\u6642\u7684\u306b\u8266\u968a\u9663\u5f62\u306e\u5d29\u58ca\u304c\u767a\u751f\u3001",
 			"actor": 205070,
 			"side": 2,
-			"dir": 1,
+			"bgm": "battle-boss-4",
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
@@ -16,7 +16,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u304f\u3063\u2026\u300c\u672c\u90e8\u306b\u7dca\u6025\u9023\u7d61\u3001\u30bb\u30a4\u30ec\u30fc\u30f3\u53ca\u3073\u6b63\u4f53\u4e0d\u660e\u306e\u8d85\u5175\u5668\u306e\u5947\u8972\u3092\u53d7\u3051\u3001\u4e00\u6642\u7684\u306b\u8266\u968a\u9663\u5f62\u306e\u5d29\u58ca\u304c\u767a\u751f\u3001"
+			"dir": 1
 		},
 		{
 			"actor": 205070,
@@ -173,7 +173,7 @@
 			"say": "\u305d\u308c\u306b\u3001\u3042\u306e\u5b50\u306e\u305f\u3081\u306b\u7279\u5225\u306a\u3082\u306e\u3082\u7528\u610f\u3057\u305f\u3093\u3060\u304b\u3089\uff01"
 		},
 		{
-			"stopbgm": true,
+			"actor": 900021,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#ff0000",
@@ -183,8 +183,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -205,7 +205,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 900021
+			"stopbgm": true
 		},
 		{
 			"actor": 900021,
@@ -242,8 +242,8 @@
 			}
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "LINGDONG12",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

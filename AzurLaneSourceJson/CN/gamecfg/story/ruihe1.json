@@ -3,23 +3,23 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u5e78\u8fd0\u4e4b\u9e64\n\n<size=45>\u4e00  {namecode:96}\u7684\u65e9\u6668</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
-			"say": "\u5f80\u5e38\u7684\u8fd9\u4e2a\u65f6\u95f4\uff0c\u4f5c\u4e3a\u79d8\u4e66\u8230\u7684{namecode:96}\u5e94\u8be5\u5df2\u7ecf\u524d\u6765\u8fdb\u884c\u65e9\u6668\u7684\u62a5\u544a\u4e86\u3002\u4e0d\u8fc7\u4eca\u5929\u2026\u4f3c\u4e4e\u8fd8\u6ca1\u6765\u7684\u6837\u5b50",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u5f80\u5e38\u7684\u8fd9\u4e2a\u65f6\u95f4\uff0c\u4f5c\u4e3a\u79d8\u4e66\u8230\u7684{namecode:96}\u5e94\u8be5\u5df2\u7ecf\u524d\u6765\u8fdb\u884c\u65e9\u6668\u7684\u62a5\u544a\u4e86\u3002\u4e0d\u8fc7\u4eca\u5929\u2026\u4f3c\u4e4e\u8fd8\u6ca1\u6765\u7684\u6837\u5b50",
 			"dir": 1,
 			"bgName": "bg_story_task"
 		},
@@ -28,7 +28,7 @@
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
-			"withoutPainting": true,
+			"say": "\u2026\u2026",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -39,7 +39,7 @@
 					"flag": 1
 				}
 			],
-			"say": "\u2026\u2026",
+			"withoutPainting": true,
 			"bgName": "bg_story_task"
 		},
 		{
@@ -47,14 +47,14 @@
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
-			"say": "\u547c\u2026\u54c8\u554a\u2026\u5495\u2026Zzzzzzz",
+			"withoutPainting": true,
 			"flashout": {
 				"alpha": [
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -65,7 +65,7 @@
 				"delay": 1,
 				"dur": 1
 			},
-			"withoutPainting": true,
+			"say": "\u547c\u2026\u54c8\u554a\u2026\u5495\u2026Zzzzzzz",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -242,8 +242,8 @@
 			"bgName": "bg_story_room"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "RUIHE1",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

@@ -3,10 +3,10 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"bgm": "level",
+			"say": "\u54c8\u554a\u2026\u662f\u6211\u4eec\u8f93\u4e86",
 			"actor": 205060,
 			"side": 1,
-			"dir": -1,
+			"bgm": "level",
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
@@ -16,7 +16,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u54c8\u554a\u2026\u662f\u6211\u4eec\u8f93\u4e86"
+			"dir": -1
 		},
 		{
 			"actor": 207020,
@@ -169,7 +169,7 @@
 			"say": "\u613f\u80dc\u5229\u5973\u795e\u5e38\u4f34\u8bf8\u4f4d\u8eab\u8fb9"
 		},
 		{
-			"stopbgm": true,
+			"actor": 205060,
 			"side": 2,
 			"dir": -1,
 			"nameColor": "#a9f548",
@@ -192,14 +192,14 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 205060
+			"stopbgm": true
 		},
 		{
 			"actor": 205060,
@@ -217,8 +217,8 @@
 			"say": "\u8d70\u5427\uff0c\u6211\u4eec\u4e5f\u8981\u5411\u5973\u738b\u965b\u4e0b\u6c47\u62a5\u4e86"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "FENGBAOQIANXI10",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

@@ -3,15 +3,15 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"say": "\u539f\u6765\u5f53\u65f6\u771f\u7684\u53ea\u8981\u4e0a\u53bb\u8bf4\u4e0d\u5b9a\u5c31\u80fd\u628a\u5979\u62cd\u9192\u4e48\uff0c\u771f\u662f\u8e0f\u7834\u94c1\u978b\u65e0\u89c5\u5904...",
+			"dir": 1,
 			"actor": 307060,
 			"side": 2,
-			"dir": 1,
+			"bgm": "nagato-boss",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "nagato-boss",
+			"say": "\u539f\u6765\u5f53\u65f6\u771f\u7684\u53ea\u8981\u4e0a\u53bb\u8bf4\u4e0d\u5b9a\u5c31\u80fd\u628a\u5979\u62cd\u9192\u4e48\uff0c\u771f\u662f\u8e0f\u7834\u94c1\u978b\u65e0\u89c5\u5904...",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -482,7 +482,7 @@
 			"say": "..."
 		},
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u8bb0\u4f4f\uff0c\u4e0d\u8981\u8f7b\u6613\u53bb\u63a5\u89e6\u90a3\u4e9b\u51e1\u4eba\uff0c\u8fd9\u6837\u4f1a\u6709\u5931\u4f60\u7684\u795e\u683c",
@@ -497,7 +497,7 @@
 					6
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"actor": 305050,
@@ -547,16 +547,16 @@
 		{
 			"actor": 305050,
 			"side": 2,
-			"dir": 1,
+			"bgm": "nagato-boss",
 			"flashout": {
 				"alpha": [
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
-			"bgm": "nagato-boss",
+			"dir": 1,
 			"flashin": {
 				"alpha": [
 					1,
@@ -566,12 +566,12 @@
 				"delay": 1,
 				"dur": 1
 			},
-			"withoutPainting": true,
+			"say": "\u6765\u5427\uff01\u5c31\u7b97\u6ca1\u6709\u5b9e\u6218\u7ecf\u9a8c\uff0c\u8fd9\u4e00\u6b21\u6211\u4e5f\u4f1a\u5168\u529b\u4ee5\u8d74\uff01",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"say": "\u6765\u5427\uff01\u5c31\u7b97\u6ca1\u6709\u5b9e\u6218\u7ecf\u9a8c\uff0c\u8fd9\u4e00\u6b21\u6211\u4e5f\u4f1a\u5168\u529b\u4ee5\u8d74\uff01",
+			"withoutPainting": true,
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -582,12 +582,12 @@
 			"dir": 1,
 			"actor": 305050,
 			"side": 2,
-			"withoutPainting": true,
+			"say": "\u6765\u81ea\u4e1c\u65b9\u7684BIG7\u2014\u2014{namecode:74}\u7ea7\u6218\u5217\u8230\uff0c\u53c2\u4e0a\uff01",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"say": "\u6765\u81ea\u4e1c\u65b9\u7684BIG7\u2014\u2014{namecode:74}\u7ea7\u6218\u5217\u8230\uff0c\u53c2\u4e0a\uff01",
+			"withoutPainting": true,
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -595,8 +595,8 @@
 			"bgName": "bg_story_nagato4"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "YINGHUA12",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

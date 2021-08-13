@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u7948\u613f\u4e0e\u795d\u798f\u4e4b\u5bb4\n\n<size=45>\u4e94\u3000\u4eab\u53d7\u5bb4\u4f1a\u7684\u65b9\u5f0f</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"actor": 403053,
@@ -26,8 +26,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -181,8 +181,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -371,7 +371,7 @@
 			"bgName": "star_level_bg_115"
 		},
 		{
-			"soundeffect": "event:/battle/firework",
+			"actor": 301152,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -391,7 +391,7 @@
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"actor": 301152,
+			"soundeffect": "event:/battle/firework",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -399,8 +399,8 @@
 			"bgName": "star_level_bg_115"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "XIMULIFU5",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

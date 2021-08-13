@@ -3,23 +3,23 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u30d9\u30b9\u30c8\u30d4\u30af\u30c1\u30e3\u30fc\u30ba\uff01\n\n<size=45>\u305d\u306e\u4e00\u3000\u6fc0\u5199\uff01\u96a3\u306e\u30b5\u30e9\u30c8\u30ac\u3061\u3083\u3093</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
-			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4",
 			"dir": 1,
 			"bgName": "bg_story_task"
 		},
@@ -72,10 +72,10 @@
 			"nameColor": "#a9f548",
 			"action": [
 				{
-					"y": 30,
+					"number": 2,
 					"type": "shake",
 					"dur": 0.1,
-					"number": 2
+					"y": 30
 				}
 			],
 			"flashout": {
@@ -83,8 +83,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -114,10 +114,10 @@
 			"nameColor": "#a9f548",
 			"action": [
 				{
-					"y": 30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.1,
-					"number": 1
+					"y": 30
 				}
 			],
 			"say": "\u6307\u63ee\u5b98\u52a9\u3051\u3066\u30fc\u30fc\uff01\u30b5\u30e9\u30c8\u30ac\u3061\u3083\u3093\u306e\u9b45\u529b\u3092\u5e03\u6559\u3057\u305f\u3044\u3060\u3051\u3060\u3088\u30fc\uff01\u2026\u3063\u3066\u3042\u306e\u30b3\u30d4\u30fc\u6a5f\u306f\u660e\u77f3\u306e\u306a\u306e\uff01\uff1f",
@@ -164,10 +164,10 @@
 			},
 			"action": [
 				{
-					"y": -30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.4,
-					"number": 1
+					"y": -30
 				}
 			],
 			"painting": {
@@ -188,8 +188,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -256,8 +256,8 @@
 			"bgName": "bg_story_task"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "SALATUOJIA1",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

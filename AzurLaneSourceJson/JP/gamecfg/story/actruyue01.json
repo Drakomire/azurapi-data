@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u590f\u306e\u934b\u5927\u4f1a\uff01\uff1f\n\n<size=45>\u4e00  \u934b\u5927\u4f1a\u306b\u3083\uff01</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"typewriter": {
@@ -27,16 +27,16 @@
 				"dur": 1
 			},
 			"side": 2,
-			"bgm": "story-1",
+			"say": "\u3042\u308b\u65e5\u30fb\u6bcd\u6e2f\u306b\u3066",
 			"flashout": {
 				"alpha": [
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
-			"say": "\u3042\u308b\u65e5\u30fb\u6bcd\u6e2f\u306b\u3066",
+			"bgm": "story-1",
 			"dir": 1,
 			"bgName": "bg_story_task"
 		},
@@ -324,8 +324,8 @@
 			"bgName": "bg_story_task"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "ACTRUYUE01",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

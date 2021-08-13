@@ -3,7 +3,7 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"<size=51>\u5206\u304b\u3063\u3066\u3044\u308b\u3002</size>",
@@ -34,7 +34,7 @@
 					14
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"side": 1,
@@ -50,8 +50,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -368,8 +368,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			}
 		},
 		{
@@ -503,7 +503,7 @@
 			"say": "\u6f6e\u98a8\u3092\u6d74\u3073\u306a\u304c\u3089\u3001\u7a7a\u6bcd\u30fb\u9cf3\u7fd4\u306f\u7247\u624b\u3092\u66c7\u308a\u7a7a\u306b\u8986\u308f\u308c\u308b\u6c34\u5e73\u7dda\u306b\u5411\u304b\u3063\u3066\u4f38\u3070\u3057\u3066\u2015\u2015"
 		},
 		{
-			"soundeffect": "event:/battle/plane",
+			"say": "\u8266\u8f09\u6a5f\u305f\u3061\u3001\u304a\u9858\u3044\u3057\u307e\u3059\u3002\u305d\u306e\u7ffc\u3092\u6d77\u98a8\u306b\u4e57\u305b\u3066\u2015\u2015",
 			"actor": 306030,
 			"side": 2,
 			"dir": 1,
@@ -516,7 +516,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u8266\u8f09\u6a5f\u305f\u3061\u3001\u304a\u9858\u3044\u3057\u307e\u3059\u3002\u305d\u306e\u7ffc\u3092\u6d77\u98a8\u306b\u4e57\u305b\u3066\u2015\u2015"
+			"soundeffect": "event:/battle/plane"
 		},
 		{
 			"side": 2,
@@ -590,7 +590,7 @@
 		{
 			"soundeffect": "event:/battle/plane",
 			"side": 2,
-			"say": "\u9cf3\u7fd4\u306e\u6307\u793a\u3092\u53d7\u3051\u3001\u8266\u8f09\u6a5f\u306f\u6247\u3092\u63cf\u304f\u3088\u3046\u306b7\u3064\u306e\u65b9\u5411\u306b\u5411\u3044\u3001\u305d\u3057\u3066\u9060\u304f\u306e\u7a7a\u306b\u6d88\u3048\u3066\u3044\u3063\u305f\u3002",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -599,7 +599,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"dir": 1
+			"say": "\u9cf3\u7fd4\u306e\u6307\u793a\u3092\u53d7\u3051\u3001\u8266\u8f09\u6a5f\u306f\u6247\u3092\u63cf\u304f\u3088\u3046\u306b7\u3064\u306e\u65b9\u5411\u306b\u5411\u3044\u3001\u305d\u3057\u3066\u9060\u304f\u306e\u7a7a\u306b\u6d88\u3048\u3066\u3044\u3063\u305f\u3002"
 		},
 		{
 			"actor": 304050,
@@ -748,8 +748,8 @@
 			"say": "\u81ea\u8eab\u3082\u96a0\u3057\u304d\u308c\u306a\u3044\u7126\u308a\u3068\u4e0d\u5b89\u3092\u3001\u59b9\u306b\u5bdf\u305b\u3089\u308c\u306a\u3044\u3088\u3046\u306b\u2015\u2015"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "TIANCHENGHUODONG10",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

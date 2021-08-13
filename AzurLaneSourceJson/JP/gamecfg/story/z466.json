@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u767d\u304d\u8a69\n\n<size=45>\u516d\u3000\u7f88\u7d46</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"typewriter": {
@@ -90,16 +90,16 @@
 				"delay": 1,
 				"dur": 1
 			},
-			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4",
+			"bgm": "story-1",
 			"flashout": {
 				"alpha": [
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
-			"bgm": "story-1",
+			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4",
 			"bgmDelay": 2,
 			"bgName": "bg_story_task"
 		},
@@ -259,8 +259,8 @@
 			"say": "\u79c1\u306b\u8272\u3092\u3001\u304f\u3060\u3055\u3044\u3002"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "Z466",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

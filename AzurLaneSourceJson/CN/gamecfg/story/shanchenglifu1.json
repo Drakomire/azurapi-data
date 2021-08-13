@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u6e2f\u533a\u7684\u7279\u522b\u5bb4\u4f1a\n\n<size=45>\u4e00\u3000\u51c6\u5907\u5b8c\u6210\u55b5\uff01</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
@@ -20,8 +20,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -425,9 +425,9 @@
 			"action": [
 				{
 					"y": 0,
-					"x": 675,
+					"type": "move",
 					"dur": 0.7,
-					"type": "move"
+					"x": 675
 				}
 			],
 			"say": "\u4e3a\u4ec0\u4e48\u55b5\uff01\u6211\u4eec\u96be\u9053\u4e0d\u662f\u597d\u670b\u53cb\u55b5\uff1f\uff01",
@@ -706,8 +706,8 @@
 			"bgName": "bg_night"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "SHANCHENGLIFU1",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

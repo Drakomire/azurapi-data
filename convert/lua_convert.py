@@ -45,7 +45,7 @@ def convert_lua(filepath: Path, savedest: Path):
 
         # convert the file
         try:
-            result = subprocess.check_output(["lua", "serializer.lua",
+            result = subprocess.check_output(["lua5.1", "serializer.lua",
                 str(filepath.with_suffix("")), filepath.stem], stderr=subprocess.DEVNULL)
         except: return
         finally:
@@ -57,9 +57,10 @@ def convert_lua(filepath: Path, savedest: Path):
     # convert non-sharecfg files with other lua serializer script
     else:
         try:
-            result = subprocess.check_output(["lua", "serializer2.lua",
+            result = subprocess.check_output(["lua5.1", "serializer2.lua",
                 str(filepath.with_suffix(""))], stderr=subprocess.DEVNULL)
-        except: return
+        except Exception as e: 
+            return
 
 
     json_string = result.decode("utf8")

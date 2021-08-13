@@ -6,13 +6,13 @@
 		{
 			"stopbgm": true,
 			"side": 2,
-			"say": "\u2015\u2015\u8b66\u544a\uff1a\u5468\u8fba\u6d77\u57df\u306b\u6575\u822a\u7a7a\u5175\u529b\u304c\u6765\u8972\u3002\u5404\u54e1\u901f\u3084\u304b\u306b\u6226\u95d8\u614b\u52e2\u306b\u79fb\u884c\u3055\u308c\u305f\u3057\u2015\u2015",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"soundeffect": "event:/ui/alarm",
-			"dir": 1
+			"say": "\u2015\u2015\u8b66\u544a\uff1a\u5468\u8fba\u6d77\u57df\u306b\u6575\u822a\u7a7a\u5175\u529b\u304c\u6765\u8972\u3002\u5404\u54e1\u901f\u3084\u304b\u306b\u6226\u95d8\u614b\u52e2\u306b\u79fb\u884c\u3055\u308c\u305f\u3057\u2015\u2015",
+			"soundeffect": "event:/ui/alarm"
 		},
 		{
 			"typewriter": {
@@ -32,8 +32,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -44,12 +44,12 @@
 				"delay": 1,
 				"dur": 1
 			},
-			"say": "\u3064\u3044\u306b\u6765\u305f\u306a\uff01\u300c\u5927\u6d0b\u306e\u5411\u3053\u3046\u306e\u5d50\u300d\u3068\u3084\u3089\uff01\u968f\u5206\u3068\u5f85\u305f\u305b\u3066\u304f\u308c\u305f\u3058\u3083\u306d\u3048\u304b\uff01",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"withoutPainting": true,
+			"say": "\u3064\u3044\u306b\u6765\u305f\u306a\uff01\u300c\u5927\u6d0b\u306e\u5411\u3053\u3046\u306e\u5d50\u300d\u3068\u3084\u3089\uff01\u968f\u5206\u3068\u5f85\u305f\u305b\u3066\u304f\u308c\u305f\u3058\u3083\u306d\u3048\u304b\uff01",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -60,12 +60,12 @@
 			"dir": 1,
 			"actor": 905010,
 			"side": 0,
-			"say": "\u2026\u2026\u30ea\u30b7\u30e5\u30ea\u30e5\u30fc\u59c9\u3001\u3053\u308c\u304c\u3042\u306a\u305f\u304c\u671b\u3093\u3060\u7d50\u679c\u304b\u2026\u2026\uff1f",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"withoutPainting": true,
+			"say": "\u2026\u2026\u30ea\u30b7\u30e5\u30ea\u30e5\u30fc\u59c9\u3001\u3053\u308c\u304c\u3042\u306a\u305f\u304c\u671b\u3093\u3060\u7d50\u679c\u304b\u2026\u2026\uff1f",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -80,8 +80,8 @@
 					0,
 					1
 				],
-				"dur": 1.5,
-				"black": true
+				"black": true,
+				"dur": 1.5
 			},
 			"effects": [
 				{
@@ -385,7 +385,7 @@
 			}
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 101300,
 			"side": 0,
 			"dir": 1,
 			"effects": [
@@ -435,65 +435,65 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 101300
+			"soundeffect": "event:/battle/boom2"
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
-			"actor": 102030,
-			"side": 1,
 			"say": "\u640d\u50b7\u751a\u5927\uff01\u652f\u63f4\u3092\u6c42\u3080\uff01",
-			"typewriter": {
-				"speed": 0.05,
-				"speedUp": 0.01
-			},
-			"dir": 1,
-			"painting": {
-				"alpha": 0.3,
-				"time": 1
-			},
-			"flashN": {
-				"color": [
-					1,
-					1,
-					1
-				],
-				"alpha": [
-					[
-						0,
-						1,
-						0.2
-					],
-					[
-						1,
-						0,
-						0.2,
-						0.2
-					],
-					[
-						0,
-						1,
-						0.2,
-						0.4
-					],
-					[
-						1,
-						0,
-						0.2,
-						0.6
-					]
-				]
-			}
-		},
-		{
-			"soundeffect": "event:/battle/boom2",
 			"actor": 102030,
 			"side": 1,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"soundeffect": "event:/battle/boom2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
 			"say": "\u7e70\u308a\u8fd4\u3057\u307e\u3059\uff01\u640d\u50b7\u751a\u5927\uff01\u652f\u63f4\u3092\u6c42\u3080\uff01",
+			"actor": 102030,
+			"side": 1,
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"soundeffect": "event:/battle/boom2",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -532,15 +532,15 @@
 			}
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
-			"actor": 107040,
-			"side": 1,
 			"say": "\u4e00\u7b4b\u7e04\u306b\u306f\u884c\u304b\u306a\u3044\u3088\u3046\u306d\u2026\u2026",
+			"actor": 107040,
+			"side": 1,
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"soundeffect": "event:/battle/boom2",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -579,62 +579,62 @@
 			}
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
-			"actor": 107040,
-			"side": 1,
 			"say": "\u5468\u8fba\u6d77\u57df\u3067\u5c55\u958b\u4e2d\u306e\u8266\u8f09\u6a5f\u306b\u901a\u9054\u3002\u3053\u308c\u3088\u308a\u4efb\u52d9\u3092\u5909\u66f4\u3057\u307e\u3059\u3002",
-			"typewriter": {
-				"speed": 0.05,
-				"speedUp": 0.01
-			},
-			"dir": 1,
-			"painting": {
-				"alpha": 0.3,
-				"time": 1
-			},
-			"flashN": {
-				"color": [
-					1,
-					1,
-					1
-				],
-				"alpha": [
-					[
-						0,
-						1,
-						0.2
-					],
-					[
-						1,
-						0,
-						0.2,
-						0.2
-					],
-					[
-						0,
-						1,
-						0.2,
-						0.4
-					],
-					[
-						1,
-						0,
-						0.2,
-						0.6
-					]
-				]
-			}
-		},
-		{
-			"soundeffect": "event:/battle/boom2",
 			"actor": 107040,
 			"side": 1,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"soundeffect": "event:/battle/boom2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
 			"say": "\u6cbf\u5cb8\u7832\u306e\u6392\u9664\u3092\u512a\u5148\u3057\u3001\u4e0a\u9678\u306e\u63f4\u8b77\u306b\u96c6\u4e2d\u3057\u3066\u304f\u3060\u3055\u3044\uff01",
+			"actor": 107040,
+			"side": 1,
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"soundeffect": "event:/battle/boom2",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -673,62 +673,15 @@
 			}
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
-			"actor": 102090,
-			"side": 1,
 			"say": "\u3084\u3063\u3071\u308a\u6226\u95d8\u306b\u306a\u3063\u305f\u304b\u2026\u2026\u6575\u306e\u822a\u7a7a\u6a5f\u304c\u306a\u3044\u3068\u79c1\u306f\u4e2d\u3005\u6d3b\u8e8d\u3067\u304d\u306a\u3044\u3093\u3060\u3051\u3069\u306a\u2026\u2026",
-			"typewriter": {
-				"speed": 0.05,
-				"speedUp": 0.01
-			},
-			"dir": 1,
-			"painting": {
-				"alpha": 0.3,
-				"time": 1
-			},
-			"flashN": {
-				"color": [
-					1,
-					1,
-					1
-				],
-				"alpha": [
-					[
-						0,
-						1,
-						0.2
-					],
-					[
-						1,
-						0,
-						0.2,
-						0.2
-					],
-					[
-						0,
-						1,
-						0.2,
-						0.4
-					],
-					[
-						1,
-						0,
-						0.2,
-						0.6
-					]
-				]
-			}
-		},
-		{
-			"soundeffect": "event:/battle/boom2",
 			"actor": 102090,
 			"side": 1,
-			"say": "\u3042\u308f\u308f\u308f\uff01\u30bb\u30a4\u30ec\u30fc\u30f3\u306e\u8266\u8f09\u6a5f\uff01\uff1f",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"soundeffect": "event:/battle/boom2",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -767,15 +720,62 @@
 			}
 		},
 		{
+			"say": "\u3042\u308f\u308f\u308f\uff01\u30bb\u30a4\u30ec\u30fc\u30f3\u306e\u8266\u8f09\u6a5f\uff01\uff1f",
+			"actor": 102090,
+			"side": 1,
+			"dir": 1,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
 			"soundeffect": "event:/battle/boom2",
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"flashN": {
+				"color": [
+					1,
+					1,
+					1
+				],
+				"alpha": [
+					[
+						0,
+						1,
+						0.2
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.2
+					],
+					[
+						0,
+						1,
+						0.2,
+						0.4
+					],
+					[
+						1,
+						0,
+						0.2,
+						0.6
+					]
+				]
+			}
+		},
+		{
+			"say": "\u6cb9\u65ad\u3059\u308b\u306a\uff01\u3053\u306e\u3042\u305f\u308a\u306e\u9632\u7a7a\u306f\u304a\u524d\u306b\u4efb\u305b\u305f\uff01\u3053\u3063\u3061\u306f\u30bb\u30a4\u30ec\u30fc\u30f3\u306e\u65b0\u578b\u7a7a\u6bcd\u3092\u53e9\u304f\uff01",
 			"actor": 103110,
 			"side": 1,
-			"say": "\u6cb9\u65ad\u3059\u308b\u306a\uff01\u3053\u306e\u3042\u305f\u308a\u306e\u9632\u7a7a\u306f\u304a\u524d\u306b\u4efb\u305b\u305f\uff01\u3053\u3063\u3061\u306f\u30bb\u30a4\u30ec\u30fc\u30f3\u306e\u65b0\u578b\u7a7a\u6bcd\u3092\u53e9\u304f\uff01",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"soundeffect": "event:/battle/boom2",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -814,8 +814,8 @@
 			}
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "FAXI07",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

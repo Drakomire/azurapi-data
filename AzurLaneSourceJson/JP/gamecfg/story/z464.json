@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u767d\u304d\u8a69\n\n<size=45>\u56db\u3000\u601d\u7d22</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"sequence": [
@@ -51,16 +51,16 @@
 				"delay": 1,
 				"dur": 1
 			},
-			"say": "\u6bcd\u6e2f\u30fb\u57e0\u982d",
+			"bgm": "story-1",
 			"flashout": {
 				"alpha": [
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
-			"bgm": "story-1",
+			"say": "\u6bcd\u6e2f\u30fb\u57e0\u982d",
 			"bgmDelay": 2,
 			"bgName": "bg_story_outdoor"
 		},
@@ -268,8 +268,8 @@
 			"bgName": "bg_story_outdoor"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "Z464",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

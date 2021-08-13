@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u201c\u732e\u8eab\u201d\u7684{namecode:97}\n\n<size=45>\u4e94 \u52b2\u654c(?)\u76f8\u9047</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
@@ -20,8 +20,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -149,13 +149,13 @@
 		{
 			"stopbgm": true,
 			"side": 2,
-			"say": "\uff08\u5657\u54df)\u2014\u2014\u624b\u81c2\u611f\u53d7\u5230\u67d4\u8f6f\u7684\u89e6\u611f\uff0c\u5927\u3001{namecode:97}\uff1f",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
+			"say": "\uff08\u5657\u54df)\u2014\u2014\u624b\u81c2\u611f\u53d7\u5230\u67d4\u8f6f\u7684\u89e6\u611f\uff0c\u5927\u3001{namecode:97}\uff1f",
 			"soundeffect": "event:/ui/boat_drag",
-			"dir": 1,
 			"bgName": "bg_story_school"
 		},
 		{
@@ -289,8 +289,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -386,8 +386,8 @@
 			"bgName": "bg_story_school"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "DAFENG5",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

@@ -2,10 +2,10 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"bgm": "story-french1",
+			"say": "\uff08\u30a6\u30a7\u30fc\u30eb\u30ba\u3001\u79c1\u305f\u3061\u3001\u8ab0\u304b\u306b\u76e3\u8996\u3055\u308c\u3066\u3044\u307e\u3059\u308f\uff09",
 			"actor": 207050,
 			"side": 2,
-			"dir": 1,
+			"bgm": "story-french1",
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
@@ -15,7 +15,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\uff08\u30a6\u30a7\u30fc\u30eb\u30ba\u3001\u79c1\u305f\u3061\u3001\u8ab0\u304b\u306b\u76e3\u8996\u3055\u308c\u3066\u3044\u307e\u3059\u308f\uff09"
+			"dir": 1
 		},
 		{
 			"actor": 205060,
@@ -59,7 +59,7 @@
 			]
 		},
 		{
-			"soundeffect": "event:/battle/plane",
+			"actor": 207050,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -73,7 +73,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 207050
+			"soundeffect": "event:/battle/plane"
 		},
 		{
 			"actor": 205060,
@@ -149,8 +149,8 @@
 			"expression": 2
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "WORLD203C",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

@@ -3,23 +3,23 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u53eb\u6211{namecode:22}\u5927\u4eba\uff01\n\n<size=45>\u4e03\u3000\u4e00\u5982\u65e2\u5f80\uff1f\u7684{namecode:22}\u5927\u4eba</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
-			"say": "\u5728\u90a3\u4e4b\u540e\uff0c\u67d0\u4e00\u5929\u7684\u6e2f\u533a\u2014\u2014",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u5728\u90a3\u4e4b\u540e\uff0c\u67d0\u4e00\u5929\u7684\u6e2f\u533a\u2014\u2014",
 			"dir": 1,
 			"bgName": "bg_story_outdoor"
 		},
@@ -30,10 +30,10 @@
 			"nameColor": "#a9f548",
 			"action": [
 				{
-					"y": 30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.2,
-					"number": 1
+					"y": 30
 				},
 				{
 					"y": 30,
@@ -185,8 +185,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"flashin": {
 				"alpha": [
@@ -295,8 +295,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -320,8 +320,8 @@
 			"bgName": "bg_story_outdoor"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "XUEFENG7",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

@@ -4,32 +4,32 @@
 	"noWaitFade": true,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"\u6625\u98ce\u7684\u5341\u5b57\u661f\n\n<size=45>\u4e00 \u67d0\u4e2a\u65e9\u6668\u7684\u7a81\u53d1\u4e8b\u4ef6</size>",
 					1
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"actor": 201101,
 			"side": 2,
-			"dir": 1,
+			"bgm": "story-1",
 			"nameColor": "#a9f548",
 			"blackBg": true,
+			"withoutPainting": true,
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
 			"say": "\u547c\u6b38\uff1f\uff01\uff01\u4e0d\u3001\u4e0d\u89c1\u4e86\uff1f\uff01\u600e\u3001\u600e\u4e48\u529e\u2026",
-			"typewriter": {
-				"speed": 0.05,
-				"speedUp": 0.01
-			},
-			"withoutPainting": true,
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
 			},
-			"bgm": "story-1"
+			"dir": 1
 		},
 		{
 			"actor": 201101,
@@ -37,7 +37,7 @@
 			"dir": 1,
 			"nameColor": "#a9f548",
 			"blackBg": true,
-			"withoutPainting": true,
+			"say": "\u545c\u545c\u2026\u53ea\u3001\u53ea\u80fd\u8fd9\u6837\u4e86\u5417\u2014\u2014",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -46,7 +46,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u545c\u545c\u2026\u53ea\u3001\u53ea\u80fd\u8fd9\u6837\u4e86\u5417\u2014\u2014"
+			"withoutPainting": true
 		},
 		{
 			"actor": 201080,
@@ -72,8 +72,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -141,8 +141,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"painting": {
 				"alpha": 0.3,

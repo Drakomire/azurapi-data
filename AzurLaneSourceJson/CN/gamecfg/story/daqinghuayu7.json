@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u5927\u9752\u82b1\u9c7c\u7684\u201c\u9677\u9631\u201d\n\n<size=45>\u4e03\u3000\u665a\u5b89\uff0c\u8fd8\u6709\u2026\u65e9\u4e0a\u597d\uff01</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"typewriter": {
@@ -24,8 +24,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -52,13 +52,13 @@
 		{
 			"soundeffect": "event:/ui/boat_drag",
 			"side": 2,
-			"say": "\uff08\u6233\u2014\u2014\u6233\u2014\u2014\uff09",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
 			"blackBg": true,
-			"dir": 1
+			"say": "\uff08\u6233\u2014\u2014\u6233\u2014\u2014\uff09"
 		},
 		{
 			"side": 2,
@@ -316,8 +316,8 @@
 					0,
 					1
 				],
-				"dur": 0.7,
-				"black": true
+				"black": true,
+				"dur": 0.7
 			},
 			"flashin": {
 				"alpha": [
@@ -443,8 +443,8 @@
 			"bgName": "bg_story_school"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "DAQINGHUAYU7",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

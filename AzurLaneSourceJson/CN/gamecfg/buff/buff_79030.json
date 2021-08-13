@@ -1,10 +1,10 @@
 {
 	"picture": "",
-	"id": 79030,
-	"desc": "\u51cf\u901f\uff0c\u964d\u4f4e\u70ae\u51fb\uff0c\u9020\u6210dot\u4f24\u5bb3",
 	"color": "yellow",
+	"desc": "\u51cf\u901f\uff0c\u964d\u4f4e\u70ae\u51fb\uff0c\u9020\u6210dot\u4f24\u5bb3",
+	"id": 79030,
 	"last_effect": "poison_buff",
-	"time": 0,
+	"name": "\u6bd2\u96fedebuff",
 	"icon": 4971,
 	"effect_list": [
 		{
@@ -29,8 +29,8 @@
 			],
 			"type": "BattleBuffAddAttr",
 			"arg_list": {
-				"number": -15,
-				"attr": "cannonPower"
+				"attr": "cannonPower",
+				"number": -15
 			}
 		},
 		{
@@ -39,16 +39,16 @@
 			],
 			"type": "BattleBuffDOT",
 			"arg_list": {
-				"attr": "cannonPower",
-				"time": 1.2,
 				"number": 20,
 				"currentHPRatio": 0.01,
+				"attr": "cannonPower",
 				"k": 0.3,
+				"time": 1.2,
 				"dotType": 1
 			}
 		}
 	],
 	"stack": 1,
 	"init_effect": "",
-	"name": "\u6bd2\u96fedebuff"
+	"time": 0
 }

@@ -3,23 +3,23 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u30cf\u30e0\u30de\u30f3\u89b3\u5bdf\u8a18\u9332\n\n<size=45>\u305d\u306e\u4e00  \u6012\u308a\u3093\u574a\u306e\u79d8\u66f8\u8266</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4",
 			"bgName": "bg_story_school",
-			"say": "\u6bcd\u6e2f\u30fb\u57f7\u52d9\u5ba4"
+			"bgm": "story-1"
 		},
 		{
 			"actor": 101250,
@@ -27,10 +27,10 @@
 			"dir": 1,
 			"action": [
 				{
-					"y": 30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.2,
-					"number": 1
+					"y": 30
 				}
 			],
 			"say": "\u304a\u3044\uff01\u3042\u3093\u305f\uff01",
@@ -47,12 +47,12 @@
 		},
 		{
 			"actor": 0,
-			"say": "\u306f\u3044\u2026\uff1f",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"withoutPainting": true,
+			"say": "\u306f\u3044\u2026\uff1f",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -63,12 +63,12 @@
 			"dir": 1,
 			"actor": 101250,
 			"side": 2,
-			"say": "\u30cf\u30e0\u30de\u30f3\u306e\u63d0\u51fa\u3057\u305f\u5831\u544a\u66f8\u3001\u307e\u3060\u30c1\u30a7\u30c3\u30af\u3057\u3066\u3044\u306a\u3044\u306e\uff1f",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u30cf\u30e0\u30de\u30f3\u306e\u63d0\u51fa\u3057\u305f\u5831\u544a\u66f8\u3001\u307e\u3060\u30c1\u30a7\u30c3\u30af\u3057\u3066\u3044\u306a\u3044\u306e\uff1f",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -107,10 +107,10 @@
 			"dir": 1,
 			"action": [
 				{
-					"y": 30,
+					"number": 3,
 					"type": "shake",
 					"dur": 0.2,
-					"number": 3
+					"y": 30
 				}
 			],
 			"say": "\u8a00\u3044\u8a33\u3092\u8a00\u3046\u3067\u306a\u3044\uff01",
@@ -129,12 +129,12 @@
 			"dir": 1,
 			"actor": 101250,
 			"side": 2,
-			"say": "\u78ba\u8a8d\u3057\u3066\u3044\u306a\u3044\u3068\u8a00\u3063\u305f\u3089\u78ba\u8a8d\u3057\u3066\u3044\u306a\u3044\u306e\u3060\uff01\u30cf\u30e0\u30de\u30f3\u304c\u305b\u3063\u304b\u304f\u9811\u5f35\u3063\u3066\u4f5c\u3063\u3066\u3042\u3052\u305f\u306e\u306b\u3069\u3046\u3057\u3066\u304f\u308c\u308b\u3093\u3060\uff01",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u78ba\u8a8d\u3057\u3066\u3044\u306a\u3044\u3068\u8a00\u3063\u305f\u3089\u78ba\u8a8d\u3057\u3066\u3044\u306a\u3044\u306e\u3060\uff01\u30cf\u30e0\u30de\u30f3\u304c\u305b\u3063\u304b\u304f\u9811\u5f35\u3063\u3066\u4f5c\u3063\u3066\u3042\u3052\u305f\u306e\u306b\u3069\u3046\u3057\u3066\u304f\u308c\u308b\u3093\u3060\uff01",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -145,12 +145,12 @@
 			"dir": 1,
 			"actor": 101250,
 			"side": 2,
-			"say": "\uff08\u5c0f\u58f0\uff09\u3061\u3083\u3001\u3061\u3083\u3093\u3068\u78ba\u8a8d\u3057\u3066\u304f\u308c\u305f\u3089\u3054\u8912\u7f8e\u3092\u3042\u3052\u3088\u3046\u3068\u601d\u3063\u3066\u305f\u306e\u306b\u2026\u2026",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\uff08\u5c0f\u58f0\uff09\u3061\u3083\u3001\u3061\u3083\u3093\u3068\u78ba\u8a8d\u3057\u3066\u304f\u308c\u305f\u3089\u3054\u8912\u7f8e\u3092\u3042\u3052\u3088\u3046\u3068\u601d\u3063\u3066\u305f\u306e\u306b\u2026\u2026",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -161,12 +161,12 @@
 			"dir": 1,
 			"actor": 0,
 			"side": 2,
-			"say": "\u4eca\u6025\u306b\u58f0\u304c\u3059\u3054\u304f\u5c0f\u3055\u304f\u306a\u3063\u305f\u304c\u2026",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"withoutPainting": true,
+			"say": "\u4eca\u6025\u306b\u58f0\u304c\u3059\u3054\u304f\u5c0f\u3055\u304f\u306a\u3063\u305f\u304c\u2026",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -240,10 +240,10 @@
 			"say": "<size=60>\u30d0\u30ab\uff01</size>",
 			"action": [
 				{
-					"y": 30,
+					"number": 3,
 					"type": "shake",
 					"dur": 0.1,
-					"number": 3
+					"y": 30
 				}
 			],
 			"painting": {
@@ -283,8 +283,8 @@
 			"bgName": "bg_story_task"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "HAMAN1",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

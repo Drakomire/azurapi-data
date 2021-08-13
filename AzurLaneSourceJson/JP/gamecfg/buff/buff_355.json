@@ -1,0 +1,33 @@
+{
+	"picture": "",
+	"id": 355,
+	"desc": "",
+	"last_effect": "",
+	"name": "\u9632\u7a7a\u964d\u4f4e",
+	"icon": 355,
+	"effect_list": [
+		{
+			"trigger": [
+				"onAttach",
+				"onRemove"
+			],
+			"type": "BattleBuffAddAttrRatio",
+			"arg_list": {
+				"attr": "antiAirPower",
+				"number": -800
+			}
+		},
+		{
+			"trigger": [
+				"onAttach"
+			],
+			"type": "BattleBuffAddBuff",
+			"arg_list": {
+				"buff_id": 356
+			}
+		}
+	],
+	"stack": 1,
+	"init_effect": "",
+	"time": 5
+}

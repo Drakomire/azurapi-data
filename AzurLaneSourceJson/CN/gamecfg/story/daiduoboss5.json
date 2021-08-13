@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u6218\u6597\uff01\u7687\u5bb6\u5973\u4ec6\u961f2nd\n\n<size=45>\u4e94\u3000\u5bf9\u5979\u7684\u8d5e\u7f8e</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
@@ -20,8 +20,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -369,7 +369,7 @@
 			"bgName": "bg_story_task"
 		},
 		{
-			"actor": 202040,
+			"stopbgm": true,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -380,7 +380,7 @@
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"stopbgm": true,
+			"actor": 202040,
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -519,12 +519,12 @@
 			"dir": 1,
 			"optionFlag": 3,
 			"side": 2,
-			"say": "\u62fc\u547d\u5b89\u6170\u9edb\u6735\uff0c\u7ec8\u4e8e\u8ba9\u5979\u51b7\u9759\u4e86\u4e0b\u6765",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u62fc\u547d\u5b89\u6170\u9edb\u6735\uff0c\u7ec8\u4e8e\u8ba9\u5979\u51b7\u9759\u4e86\u4e0b\u6765",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -554,8 +554,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -609,8 +609,8 @@
 			"bgName": "bg_story_task"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "DAIDUOBOSS5",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

@@ -3,7 +3,7 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u8bb0\u4f4f\uff0c\u4e0d\u8981\u8f7b\u6613\u53bb\u63a5\u89e6\u90a3\u4e9b\u51e1\u4eba\uff0c\u8fd9\u6837\u4f1a\u6709\u5931\u4f60\u7684\u795e\u683c",
@@ -18,7 +18,7 @@
 					6
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"typewriter": {
@@ -35,12 +35,12 @@
 			},
 			"actor": 305050,
 			"side": 2,
-			"say": "{namecode:75}\uff0c\u5feb\u5e2e\u6211\u770b\u770b\uff0c\u7b49\u4f1a\u7528\u8fd9\u6837\u7684\u7ad9\u59ff\u5982\u4f55\uff1f",
+			"bgm": "story-2",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-2",
+			"say": "{namecode:75}\uff0c\u5feb\u5e2e\u6211\u770b\u770b\uff0c\u7b49\u4f1a\u7528\u8fd9\u6837\u7684\u7ad9\u59ff\u5982\u4f55\uff1f",
 			"blackBg": true,
 			"dir": 1
 		},
@@ -51,12 +51,12 @@
 			},
 			"actor": 305060,
 			"side": 0,
-			"say": "\u6069\u2026\u6709\u70b9\u6b7b\u677f\u5462\uff0c\u4e0d\u5982\u8bd5\u8bd5\u628a\u4e24\u624b\u4f38\u76f4\u6765\u770b\u770b\uff1f",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"say": "\u6069\u2026\u6709\u70b9\u6b7b\u677f\u5462\uff0c\u4e0d\u5982\u8bd5\u8bd5\u628a\u4e24\u624b\u4f38\u76f4\u6765\u770b\u770b\uff1f",
 			"blackBg": true,
 			"paintingFadeOut": {
 				"time": 0.5,
@@ -162,8 +162,8 @@
 			"say": "\u6211\u53ef\u80fd\u5df2\u7ecf\u5fd8\u4e86\u600e\u4e48\u7b11\u4e86\u2026"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "YINGHUA5",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

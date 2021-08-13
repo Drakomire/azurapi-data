@@ -3,7 +3,7 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"<size=51>\u300c\u305f\u3057\u304b\u300e\u30e2\u30d3\u30fc\u30fb\u30c7\u30a3\u30c3\u30af\u300f\u3068\u3044\u3046\u540d\u306e\u5b50\u304c\u3044\u305f\u304b\u3057\u3089\u3001\u767d\u9be8\u2026\u767d\u3044\u30af\u30b8\u30e9\u306e\u300d</size>",
@@ -26,7 +26,7 @@
 					15
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"stopbgm": true,
@@ -82,12 +82,12 @@
 			"bgName": "bg_xiangting_3"
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 107090,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
 			"expression": 1,
-			"actor": 107090,
+			"soundeffect": "event:/battle/boom2",
 			"dialogShake": {
 				"speed": 0.09,
 				"x": 8.5,
@@ -154,7 +154,7 @@
 			"bgName": "bg_xiangting_3"
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 207040,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -200,7 +200,7 @@
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"actor": 207040,
+			"soundeffect": "event:/battle/boom2",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -299,8 +299,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -805,8 +805,8 @@
 			"bgName": "bg_xiangting_2"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "XIANGTINGLIAOFA16",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

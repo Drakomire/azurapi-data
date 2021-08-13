@@ -3,7 +3,7 @@
 	"occlusion": 2,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"<size=51>\u5728\u6211\u4eec\u6570\u5343\u5e74\u7684\u5149\u9c9c\u6587\u660e\u80cc\u540e\uff0c\u6218\u4e89\u4e00\u76f4\u4f5c\u4e3a\u5f71\u5b50\u4f34\u968f\u7740\u6bcf\u4e00\u6b21\u65f6\u4ee3\u7684\u53d8\u8fc1</size>",
@@ -26,7 +26,7 @@
 					12.5
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"flashout": {
@@ -34,8 +34,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"mode": 1,
 			"flashin": {
@@ -80,8 +80,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"mode": 1,
 			"flashin": {
@@ -102,13 +102,13 @@
 		},
 		{
 			"side": 2,
-			"say": "\u201cM\u00e9diterran\u00e9e\u201d\uff0c\u8fd9\u91cc\u662f\u4e16\u754c\u4e0a\u6700\u5927\u7684\u9646\u95f4\u6d77\uff0c\u6c14\u5019\u51ac\u96e8\u590f\u5e72\uff0c\u5728\u4e16\u754c\u5404\u7c7b\u6c14\u5019\u4e2d\u72ec\u6811\u4e00\u5e1c",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "level03",
-			"dir": 1
+			"say": "\u201cM\u00e9diterran\u00e9e\u201d\uff0c\u8fd9\u91cc\u662f\u4e16\u754c\u4e0a\u6700\u5927\u7684\u9646\u95f4\u6d77\uff0c\u6c14\u5019\u51ac\u96e8\u590f\u5e72\uff0c\u5728\u4e16\u754c\u5404\u7c7b\u6c14\u5019\u4e2d\u72ec\u6811\u4e00\u5e1c",
+			"bgm": "level03"
 		},
 		{
 			"typewriter": {
@@ -177,12 +177,12 @@
 		{
 			"actor": 204030,
 			"side": 1,
-			"say": "\u53f8\u4ee4\u90e8\u81ea\u7136\u6709\u81ea\u5df1\u7684\u60f3\u6cd5\uff0c\u5728\u5979\u4eec\u7684\u56fd\u571f\u88ab\u94c1\u8840\u653b\u5360\u4e4b\u523b\u8d77\uff0c\u5979\u4eec\u5c31\u5df2\u7ecf\u4e0d\u518d\u662f\u66fe\u7ecf\u5e76\u80a9\u4f5c\u6218\u7684\u76df\u53cb\u4e86",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"say": "\u53f8\u4ee4\u90e8\u81ea\u7136\u6709\u81ea\u5df1\u7684\u60f3\u6cd5\uff0c\u5728\u5979\u4eec\u7684\u56fd\u571f\u88ab\u94c1\u8840\u653b\u5360\u4e4b\u523b\u8d77\uff0c\u5979\u4eec\u5c31\u5df2\u7ecf\u4e0d\u518d\u662f\u66fe\u7ecf\u5e76\u80a9\u4f5c\u6218\u7684\u76df\u53cb\u4e86",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -279,17 +279,17 @@
 		{
 			"actor": 202130,
 			"side": 0,
-			"say": "\u62a5\u544a\uff0c\u524d\u53d1\u6d77\u57df\u53d1\u73b0\u585e\u58ec\u5355\u4f4d\u7684\u4fe1\u53f7\uff0c\u5224\u65ad\u4e3a\u6267\u884c\u8005\u7cfb\u5217\u65b0\u578b\u673a",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"soundeffect": "event:/ui/alarm",
+			"say": "\u62a5\u544a\uff0c\u524d\u53d1\u6d77\u57df\u53d1\u73b0\u585e\u58ec\u5355\u4f4d\u7684\u4fe1\u53f7\uff0c\u5224\u65ad\u4e3a\u6267\u884c\u8005\u7cfb\u5217\u65b0\u578b\u673a",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
 			},
-			"dir": 1
+			"soundeffect": "event:/ui/alarm"
 		},
 		{
 			"actor": 204030,
@@ -306,8 +306,8 @@
 			"say": "H\u8230\u961f\u542c\u4ee4\uff01\u5168\u5458\u4e00\u7ea7\u4f5c\u6218\u6212\u5907\uff0c\u76ee\u6807\u2014\u2014\u5341\u4e8c\u70b9\u949f\u65b9\u5411\uff0c\u585e\u58ec\u8230\u961f\uff01"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "FAXI01",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

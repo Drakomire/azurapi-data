@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u5922\u5e7b\u306e\u9082\u9005-\u65e5\u5e38\u7de8\n\n<size=45>\u305d\u306e\u4e03\u3000\u6bcd\u306a\u308b\u3082\u306e</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"actor": 312010,
@@ -26,8 +26,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -280,13 +280,13 @@
 			},
 			"stopbgm": true,
 			"side": 2,
-			"say": "\u2500\u2500\u30ba\u30c9\u30a9\u30a9\u30a9\u30a9\u30f3\uff01\u30c9\u30ab\u30c3\u2026\u2026\u30c9\u30ab\u30a2\u30a2\u30a2\u30a2\u30a2\u30a1\u30a1\u30a1\u30f3\uff01\u3000",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
+			"say": "\u2500\u2500\u30ba\u30c9\u30a9\u30a9\u30a9\u30a9\u30f3\uff01\u30c9\u30ab\u30c3\u2026\u2026\u30c9\u30ab\u30a2\u30a2\u30a2\u30a2\u30a2\u30a1\u30a1\u30a1\u30f3\uff01\u3000",
 			"soundeffect": "event:/battle/boom2",
-			"dir": 1,
 			"bgName": "bg_story_chuansong"
 		},
 		{
@@ -445,7 +445,7 @@
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u2500\u2500\u30c9\u30c9\u30c9\u30c9\u30c9\u30c3\uff01",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -482,7 +482,7 @@
 					]
 				]
 			},
-			"dir": 1,
+			"say": "\u2500\u2500\u30c9\u30c9\u30c9\u30c9\u30c9\u30c3\uff01",
 			"bgName": "bg_story_chuansong"
 		},
 		{
@@ -531,7 +531,7 @@
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u30ad\u30a3\u30a3\u30a3\u30a3\u30a3\u30f3\u2026\u2026\u30ba\u30c9\u30c3\uff01\u30ba\u30c9\u30c3\uff01\u30ba\u30c9\u30c3\uff01\u2500\u2500\u30c9\u30b4\u30a9\u30a9\u30a9\u30a9\u30a9\u30a9\u30a9\u30f3\uff01\uff01",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -568,7 +568,7 @@
 					]
 				]
 			},
-			"dir": 1,
+			"say": "\u30ad\u30a3\u30a3\u30a3\u30a3\u30a3\u30f3\u2026\u2026\u30ba\u30c9\u30c3\uff01\u30ba\u30c9\u30c3\uff01\u30ba\u30c9\u30c3\uff01\u2500\u2500\u30c9\u30b4\u30a9\u30a9\u30a9\u30a9\u30a9\u30a9\u30a9\u30f3\uff01\uff01",
 			"bgName": "bg_story_chuansong"
 		},
 		{
@@ -749,8 +749,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -1187,8 +1187,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -1304,8 +1304,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -1413,8 +1413,8 @@
 			"bgName": "bg_story_chuansong"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "LINKPREHEAT24",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

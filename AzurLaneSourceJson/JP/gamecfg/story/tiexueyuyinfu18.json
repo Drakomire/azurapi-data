@@ -146,12 +146,12 @@
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 0,
-			"say": "\u2014\u2014",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"say": "\u2014\u2014",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -178,7 +178,7 @@
 			}
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 205050,
 			"side": 0,
 			"dir": -1,
 			"nameColor": "#a9f548",
@@ -224,7 +224,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 205050
+			"soundeffect": "event:/battle/boom2"
 		},
 		{
 			"actor": 205050,
@@ -522,10 +522,10 @@
 			"expression": 4
 		},
 		{
-			"dir": 1,
+			"say": "\u30ed\u30a4\u30e4\u30eb\u8266\u968a\u306e\u3044\u308b\u65b9\u5411\u306b\u5411\u3051\u3066\u3001\u30d3\u30b9\u30de\u30eb\u30af\u306e\u6700\u5f8c\u306e\u4e3b\u7832\u304c\u9cf4\u308a\u97ff\u304f\u3002",
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u30ed\u30a4\u30e4\u30eb\u8266\u968a\u306e\u3044\u308b\u65b9\u5411\u306b\u5411\u3051\u3066\u3001\u30d3\u30b9\u30de\u30eb\u30af\u306e\u6700\u5f8c\u306e\u4e3b\u7832\u304c\u9cf4\u308a\u97ff\u304f\u3002",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -835,8 +835,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -1395,10 +1395,10 @@
 			"bgName": "bg_bsm_3"
 		},
 		{
-			"dir": 1,
+			"say": "\u3082\u3057\u304b\u3057\u305f\u3089\u79c1\u3001\u5c11\u3057\u75b2\u308c\u305f\u306e\u304b\u3057\u3089\u2026\u2026",
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u3082\u3057\u304b\u3057\u305f\u3089\u79c1\u3001\u5c11\u3057\u75b2\u308c\u305f\u306e\u304b\u3057\u3089\u2026\u2026",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -1479,8 +1479,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			}
 		},
 		{
@@ -1667,8 +1667,8 @@
 			]
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "TIEXUEYUYINFU18",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

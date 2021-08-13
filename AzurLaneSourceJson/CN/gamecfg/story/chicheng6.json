@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"\u5f7c\u5cb8\u82b1\u4e4b\u604b\uff1f\n\n<size=45>\u516d \u9ed1\u6697\u4e4b\u4e2d\u7684\u544a\u767d</size>",
 					1
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"actor": 307010,
@@ -80,7 +80,7 @@
 			"dir": 1,
 			"nameColor": "#a9f548",
 			"blackBg": true,
-			"withoutPainting": true,
+			"say": "\u2026\u2026\u2026\u2026\uff01\uff1f",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -89,7 +89,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u2026\u2026\u2026\u2026\uff01\uff1f"
+			"withoutPainting": true
 		},
 		{
 			"side": 2,
@@ -131,8 +131,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			}
 		},
 		{
@@ -240,7 +240,7 @@
 			"nameColor": "#a9f548",
 			"blackBg": true,
 			"optionFlag": 1,
-			"withoutPainting": true,
+			"say": "\u2026\u2026",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -249,7 +249,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u2026\u2026"
+			"withoutPainting": true
 		},
 		{
 			"actor": 307010,
@@ -324,8 +324,8 @@
 			"say": "\u88ab{namecode:91}\u7d27\u7d27\u62b1\u4f4f\u3002"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "CHICHENG6",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

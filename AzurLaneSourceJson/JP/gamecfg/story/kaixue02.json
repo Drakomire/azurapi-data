@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u685c\u83ef\u721b\u6f2b\u65b0\u5b66\u671f\n\n<size=45>\u305d\u306e\u4e8c\u3000\u904b\u52d5\u5834\u306e\u554f\u984c\u5150\u305f\u3061</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"actor": 401011,
@@ -143,10 +143,10 @@
 			},
 			"action": [
 				{
-					"y": 37.5,
+					"number": 2,
 					"type": "shake",
 					"dur": 0.15,
-					"number": 2
+					"y": 37.5
 				}
 			],
 			"painting": {
@@ -410,10 +410,10 @@
 			"blackBg": true,
 			"action": [
 				{
-					"y": -45,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.8,
-					"number": 1
+					"y": -45
 				}
 			],
 			"say": "\u306f\u3044\u2026\u2026",
@@ -444,8 +444,8 @@
 			"bgName": "bg_story_school"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "KAIXUE02",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

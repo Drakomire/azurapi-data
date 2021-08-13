@@ -35,7 +35,7 @@
 			},
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"dir": 1,
+			"say": "\u543c\u2014\u2014\u2014\u2014\u2014\u2014\u2014",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -45,7 +45,7 @@
 				"time": 1
 			},
 			"blackBg": true,
-			"say": "\u543c\u2014\u2014\u2014\u2014\u2014\u2014\u2014"
+			"dir": 1
 		},
 		{
 			"side": 2,
@@ -100,7 +100,7 @@
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"dir": 1,
+			"say": "\u543c\u2014\u2014\u2014\u2014",
 			"dialogShake": {
 				"speed": 0.09,
 				"x": 8.5,
@@ -111,7 +111,7 @@
 				"time": 1
 			},
 			"blackBg": true,
-			"say": "\u543c\u2014\u2014\u2014\u2014"
+			"dir": 1
 		},
 		{
 			"painting": {
@@ -211,7 +211,7 @@
 			}
 		},
 		{
-			"stopbgm": true,
+			"actor": 900192,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -227,8 +227,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"flashin": {
 				"alpha": [
@@ -249,7 +249,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 900192
+			"stopbgm": true
 		},
 		{
 			"actor": 900192,
@@ -276,8 +276,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"blackBg": true,
 			"flashin": {
@@ -813,12 +813,12 @@
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u4e00\u53d1\u70ae\u5f39\u7cbe\u786e\u7684\u843d\u5728\u4e86\u89c2\u5bdf\u8005\u5934\u4e0a\uff0c\u70b8\u6bc1\u4e86\u4eea\u5f0f\u5385\u7684\u5927\u90e8\u5206\u6728\u7ed3\u6784\u5efa\u7b51",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"say": "\u4e00\u53d1\u70ae\u5f39\u7cbe\u786e\u7684\u843d\u5728\u4e86\u89c2\u5bdf\u8005\u5934\u4e0a\uff0c\u70b8\u6bc1\u4e86\u4eea\u5f0f\u5385\u7684\u5927\u90e8\u5206\u6728\u7ed3\u6784\u5efa\u7b51",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -1063,8 +1063,8 @@
 			"say": "\u62dc\u6258\u4f60\u4eec\u4e86\uff01"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "FUYINGYINGHUA22",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

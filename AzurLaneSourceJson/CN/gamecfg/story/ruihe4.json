@@ -3,23 +3,23 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u5e78\u8fd0\u4e4b\u9e64\n\n<size=45>\u56db  {namecode:96}\u4e0e\u5927\u524d\u8f88</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
-			"say": "\u508d\u665a\u00b7\u6f14\u4e60\u6d77\u57df",
+			"bgm": "battle-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "battle-1",
+			"say": "\u508d\u665a\u00b7\u6f14\u4e60\u6d77\u57df",
 			"dir": 1,
 			"bgName": "bg_story_nepu1"
 		},
@@ -64,12 +64,12 @@
 		{
 			"soundeffect": "event:/battle/plane",
 			"side": 2,
-			"say": "{namecode:96}\u7684\u8230\u8f7d\u673a\u6295\u4e0b\u7684\u6a21\u62df\u5f39\u6f02\u4eae\u5730\u51fb\u4e2d\u4e86{namecode:82}",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"say": "{namecode:96}\u7684\u8230\u8f7d\u673a\u6295\u4e0b\u7684\u6a21\u62df\u5f39\u6f02\u4eae\u5730\u51fb\u4e2d\u4e86{namecode:82}",
 			"bgName": "bg_story_nepu1"
 		},
 		{
@@ -143,10 +143,10 @@
 			"nameColor": "#a9f548",
 			"action": [
 				{
-					"y": 30,
+					"number": 3,
 					"type": "shake",
 					"dur": 0.15,
-					"number": 3
+					"y": 30
 				}
 			],
 			"say": "\u975e\u5e38\u611f\u8c22\uff01\u2026\u6307\u6325\u5b98\u89c9\u5f97\u521a\u624d\u6211\u7684\u8868\u73b0\u600e\u4e48\u6837\uff01",
@@ -215,8 +215,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -314,10 +314,10 @@
 			},
 			"actor": 0,
 			"side": 0,
-			"withoutPainting": true,
-			"nameColor": "#a9f548",
-			"say": "\u2026\u2026",
 			"dir": 1,
+			"nameColor": "#a9f548",
+			"withoutPainting": true,
+			"say": "\u2026\u2026",
 			"bgName": "bg_story_nepu1"
 		},
 		{
@@ -339,8 +339,8 @@
 			"bgName": "bg_story_nepu1"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "RUIHE4",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

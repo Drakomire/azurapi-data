@@ -2,7 +2,7 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 999010,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#ff5c5c",
@@ -53,7 +53,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 999010
+			"soundeffect": "event:/battle/boom2"
 		},
 		{
 			"say": "\u6642\u9593\u3092\u7a3c\u304c\u308c\u307e\u3057\u305f\u306d\u3002\u524d\u885b\u8266\u968a\u306e\u307b\u3046\u306f\u3069\u3046\u3057\u3066\u3044\u308b\u3067\u3057\u3087\u3046\u304b",
@@ -847,7 +847,7 @@
 			"bgName": "bg_qiongding_7"
 		},
 		{
-			"stopbgm": true,
+			"actor": 900239,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#ffff4d",
@@ -857,8 +857,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -879,11 +879,11 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 900239
+			"stopbgm": true
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "SHENGYONGQU30-2",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

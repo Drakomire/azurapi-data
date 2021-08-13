@@ -4,14 +4,14 @@
 	"noWaitFade": true,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u661f\u306e\u6b4c\u59eb\u3068\u5c0f\u3055\u306a\u52c7\u6c17\n\n<size=45>\u305d\u306e\u4e8c  Quadimension</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"mode": 2,
@@ -23,21 +23,21 @@
 			"side": 0,
 			"bgm": "star",
 			"nameColor": "#a9f548",
-			"actorName": "\u30d5\u30a1\u30f3A",
+			"mode": 2,
 			"effects": [
 				{
 					"name": "sanjiao",
 					"active": true
 				}
 			],
-			"withoutPainting": true,
+			"say": "\u3046\u304a\u304a\u304a\u304a\u304a\u304a\u304a\u304a\u304a\u304a\uff01\uff01\u30b5\u30a4\u30b3\u30a9\u30a9\u30a9\u30a9\u30a9\u30a9\uff01\uff01",
 			"flashout": {
 				"alpha": [
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -48,12 +48,12 @@
 				"delay": 1,
 				"dur": 1
 			},
-			"say": "\u3046\u304a\u304a\u304a\u304a\u304a\u304a\u304a\u304a\u304a\u304a\uff01\uff01\u30b5\u30a4\u30b3\u30a9\u30a9\u30a9\u30a9\u30a9\u30a9\uff01\uff01",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"mode": 2,
+			"actorName": "\u30d5\u30a1\u30f3A",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -64,14 +64,14 @@
 			"actor": 0,
 			"side": 1,
 			"nameColor": "#a9f548",
-			"mode": 2,
-			"withoutPainting": true,
+			"actorName": "\u30d5\u30a1\u30f3B",
 			"say": "\u611b\u3057\u3066\u308b\u305e\u30a9\u30a9\u30a9\u30a9\u30a9\u30a9\uff01\uff01\uff01",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"actorName": "\u30d5\u30a1\u30f3B",
+			"mode": 2,
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -82,14 +82,14 @@
 			"actor": 0,
 			"side": 0,
 			"nameColor": "#a9f548",
-			"mode": 2,
-			"withoutPainting": true,
+			"actorName": "\u30d5\u30a1\u30f3C",
 			"say": "\uff8a\uff67\u2026\u2026\uff8a\uff67\u2026\u2026",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"actorName": "\u30d5\u30a1\u30f3C",
+			"mode": 2,
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -101,8 +101,8 @@
 			"side": 0,
 			"nameColor": "#a9f548",
 			"blackBg": true,
-			"say": "\u5fdc\u63f4\u3042\u308a\u304c\u3068\u30fc\uff01\u3082\u3063\u3068\u76db\u308a\u4e0a\u304c\u3063\u3066\u3044\u304d\u307e\u3057\u3087\u30fc\uff01\uff01",
 			"withoutPainting": true,
+			"say": "\u5fdc\u63f4\u3042\u308a\u304c\u3068\u30fc\uff01\u3082\u3063\u3068\u76db\u308a\u4e0a\u304c\u3063\u3066\u3044\u304d\u307e\u3057\u3087\u30fc\uff01\uff01",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -116,7 +116,7 @@
 			"side": 1,
 			"nameColor": "#a9f548",
 			"blackBg": true,
-			"say": "\u3046\u304a\u304a\u304a\u304a\uff01L\u30fbO\u30fbV\u30fbE\uff01L\u30fbO\u30fbV\u30fbE\uff01\uff01",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -126,7 +126,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u3046\u304a\u304a\u304a\u304a\uff01L\u30fbO\u30fbV\u30fbE\uff01L\u30fbO\u30fbV\u30fbE\uff01\uff01"
 		},
 		{
 			"actor": 206030,
@@ -150,14 +150,14 @@
 			},
 			"actor": 0,
 			"side": 1,
-			"say": "\uff01\uff01\uff01",
+			"withoutPainting": true,
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
 			"blackBg": true,
-			"withoutPainting": true
+			"say": "\uff01\uff01\uff01"
 		},
 		{
 			"actor": 206030,
@@ -199,8 +199,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -211,7 +211,7 @@
 				"delay": 1,
 				"dur": 1
 			},
-			"say": "\u307f\u3093\u306a\u3042\u308a\u304c\u3068\u30fc\uff01\u79c1\u306e\u6b4c\u3001\u307f\u3093\u306a\u306b\u4f1d\u308f\u3063\u305f\u304b\u306a\uff5e\uff1f\u6b21\u56de\u306e\u30e9\u30a4\u30d6\u3067\u307e\u305f\u4f1a\u3044\u307e\u3057\u3087\u3046\uff01\uff01",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -221,14 +221,14 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u307f\u3093\u306a\u3042\u308a\u304c\u3068\u30fc\uff01\u79c1\u306e\u6b4c\u3001\u307f\u3093\u306a\u306b\u4f1d\u308f\u3063\u305f\u304b\u306a\uff5e\uff1f\u6b21\u56de\u306e\u30e9\u30a4\u30d6\u3067\u307e\u305f\u4f1a\u3044\u307e\u3057\u3087\u3046\uff01\uff01"
 		},
 		{
 			"actor": 0,
 			"side": 1,
 			"nameColor": "#a9f548",
 			"blackBg": true,
-			"say": "\u3046\u304a\u304a\u304a\u304a\u304a\u304a\u304a\u304a\uff01\uff01\uff01\uff01",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -238,14 +238,14 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u3046\u304a\u304a\u304a\u304a\u304a\u304a\u304a\u304a\uff01\uff01\uff01\uff01"
 		},
 		{
 			"actor": 0,
 			"side": 1,
 			"nameColor": "#a9f548",
 			"blackBg": true,
-			"say": "\u3075\u3045\u2026\u2026\u3084\u3063\u3071\u6700\u9ad8\u3063\u3059\u308f\u2026\u2026",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -255,14 +255,14 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u3075\u3045\u2026\u2026\u3084\u3063\u3071\u6700\u9ad8\u3063\u3059\u308f\u2026\u2026"
 		},
 		{
 			"actor": 0,
 			"side": 1,
 			"nameColor": "#a9f548",
 			"blackBg": true,
-			"say": "\u30aa\u30a4\u30e9\u2026\u2026\u3082\u3046\u6b7b\u3093\u3067\u3082\u3044\u3044\u2026\u2026",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -272,7 +272,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u30aa\u30a4\u30e9\u2026\u2026\u3082\u3046\u6b7b\u3093\u3067\u3082\u3044\u3044\u2026\u2026"
 		},
 		{
 			"actor": 0,
@@ -285,7 +285,7 @@
 					"active": false
 				}
 			],
-			"say": "\u6b21\u306e\u30e9\u30a4\u30d6\u307e\u3067\u751f\u304d\u308d\uff01\u30ef\u30a4\u9811\u5f35\u308b\u305e\uff01",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -295,7 +295,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u6b21\u306e\u30e9\u30a4\u30d6\u307e\u3067\u751f\u304d\u308d\uff01\u30ef\u30a4\u9811\u5f35\u308b\u305e\uff01"
 		},
 		{
 			"actor": 206030,
@@ -326,8 +326,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			}
 		},
 		{

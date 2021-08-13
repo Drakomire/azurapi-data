@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u7279\u522b\u5c0f\u6545\u4e8b\n\n<size=45>\u590f\u591c\u796d\u5178\u7684\u7f8e\u5473\u56de\u5fc6</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"actor": 301140,
@@ -36,8 +36,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -253,8 +253,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"flashin": {
 				"alpha": [
@@ -480,9 +480,9 @@
 			"actor": 301140,
 			"side": 2,
 			"dir": 1,
-			"actorScale": 1.6,
-			"withoutActorName": true,
 			"nameColor": "#a9f548",
+			"withoutActorName": true,
+			"actorScale": 1.6,
 			"say": "{namecode:16}\u4e00\u8fb9\u8bf4\u7740\u4e00\u8fb9\u51d1\u4e0a\u6765\u8214\u4e86\u4e0b\u8138\u988a",
 			"typewriter": {
 				"speed": 0.05,
@@ -586,8 +586,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"flashin": {
 				"alpha": [
@@ -607,12 +607,12 @@
 		{
 			"soundeffect": "event:/battle/firework",
 			"side": 2,
-			"say": "\uff08\u7830\u2014\u7830\u2014\u2014\uff09",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"say": "\uff08\u7830\u2014\u7830\u2014\u2014\uff09",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -666,7 +666,7 @@
 			"bgName": "star_level_bg_114"
 		},
 		{
-			"soundeffect": "event:/battle/firework",
+			"actor": 301140,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -675,7 +675,7 @@
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"actor": 301140,
+			"soundeffect": "event:/battle/firework",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -825,12 +825,12 @@
 		{
 			"soundeffect": "event:/battle/firework",
 			"side": 2,
-			"say": "\uff08\u7830\u2014\u7830\u2014\u2014\uff09",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"say": "\uff08\u7830\u2014\u7830\u2014\u2014\uff09",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -897,8 +897,8 @@
 			"bgName": "star_level_bg_114"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "RENQIXILI",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

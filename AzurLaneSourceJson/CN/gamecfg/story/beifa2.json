@@ -3,23 +3,23 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"\u660e\u65e5\u7684\u6dd1\u5973\n\n<size=45>\u4e8c \u610f\u5916\u7684\u6210\u679c</size>",
 					1
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"side": 2,
-			"say": "\u51e0\u65e5\u524d\u00b7\u6e2f\u533a",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u51e0\u65e5\u524d\u00b7\u6e2f\u533a",
 			"dir": 1,
 			"bgName": "bg_story_task"
 		},
@@ -451,16 +451,16 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": false
+				"black": false,
+				"dur": 1
 			},
 			"mode": 3,
 			"blackBg": true,
 			"bgName": "bg_story_task"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "BEIFA2",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

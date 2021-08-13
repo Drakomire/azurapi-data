@@ -3,20 +3,20 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"<size=45>\u300e\u5f02\u8272\u6d77\u57dfWHITE\u300f</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
-			"bgm": "level-nep",
+			"say": "\u7b2c\u4e8c\u5173\uff0c\u987a\u5229\u8fc7\u5173\uff01\u8fd9\u56de\u7684\u4e8b\u4ef6\u770b\u6765\u9a6c\u4e0a\u5c31\u80fd\u89e3\u51b3\u4e86\u5427\uff01\uff1f",
 			"actor": 10100010,
 			"side": 2,
-			"dir": -1,
+			"bgm": "level-nep",
 			"nameColor": "#a9f548",
 			"typewriter": {
 				"speed": 0.05,
@@ -26,14 +26,14 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u7b2c\u4e8c\u5173\uff0c\u987a\u5229\u8fc7\u5173\uff01\u8fd9\u56de\u7684\u4e8b\u4ef6\u770b\u6765\u9a6c\u4e0a\u5c31\u80fd\u89e3\u51b3\u4e86\u5427\uff01\uff1f"
+			"dir": -1
 		},
 		{
 			"actor": 0,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
-			"say": "\u600e\u4e48\u53ef\u80fd\u6709\u8fd9\u79cd\u597d\u4e8b\u2026",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -43,7 +43,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u600e\u4e48\u53ef\u80fd\u6709\u8fd9\u79cd\u597d\u4e8b\u2026"
 		},
 		{
 			"actor": 10100010,
@@ -115,7 +115,7 @@
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
-			"say": "\u55ef\uff0c\u6b63\u786e\u3002\u6570\u636e\u8fd8\u5b8c\u5168\u4e0d\u591f\u5462",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -125,7 +125,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u55ef\uff0c\u6b63\u786e\u3002\u6570\u636e\u8fd8\u5b8c\u5168\u4e0d\u591f\u5462"
 		},
 		{
 			"actor": 10100030,
@@ -147,7 +147,7 @@
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
-			"say": "\u4e5f\u6709\u8fd9\u4e2a\u95ee\u9898\uff0c\u4e0d\u8fc7\u2026\u2026\u8fd9\u8fb9\u521a\u624d\u5df2\u7ecf\u786e\u8ba4\u4e86\uff0c\u6253\u5f00\u866b\u6d1e\u9700\u8981\u66f4\u591a\u5192\u724c\u5973\u795e\u7684\u6570\u636e",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -157,7 +157,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u4e5f\u6709\u8fd9\u4e2a\u95ee\u9898\uff0c\u4e0d\u8fc7\u2026\u2026\u8fd9\u8fb9\u521a\u624d\u5df2\u7ecf\u786e\u8ba4\u4e86\uff0c\u6253\u5f00\u866b\u6d1e\u9700\u8981\u66f4\u591a\u5192\u724c\u5973\u795e\u7684\u6570\u636e"
 		},
 		{
 			"actor": 10100040,
@@ -179,7 +179,7 @@
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
-			"say": "\u5c31\u662f\u8fd9\u6837\u2026\u2026\u9ebb\u70e6\u5927\u5bb6\u7ee7\u7eed\u4fa6\u67e5\u955c\u9762\u6d77\u57df\uff0c\u8ba8\u4f10\u5192\u724c\u5973\u795e\u4eec\u5427\u3002\u518d\u89c1",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -189,7 +189,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"withoutPainting": true
+			"say": "\u5c31\u662f\u8fd9\u6837\u2026\u2026\u9ebb\u70e6\u5927\u5bb6\u7ee7\u7eed\u4fa6\u67e5\u955c\u9762\u6d77\u57df\uff0c\u8ba8\u4f10\u5192\u724c\u5973\u795e\u4eec\u5427\u3002\u518d\u89c1"
 		},
 		{
 			"actor": 101170,
@@ -361,8 +361,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			}
 		},
 		{
@@ -417,8 +417,8 @@
 			}
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "NEPU_STAGE301",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

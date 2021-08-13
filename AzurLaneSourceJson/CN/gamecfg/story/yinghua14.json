@@ -4,10 +4,10 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"bgm": "nagato-boss",
+			"say": "\u554a~\u554a\u2014\u2014\u4e3a\u4ec0\u4e48\u603b\u662f\u4e22\u8fd9\u4e9b\u9ebb\u70e6\u7684\u5dee\u4e8b\u7ed9\u6211\u5462\uff0c\u6211\u660e\u660e\u53ea\u60f3\u5b89\u5b89\u9759\u9759\u7684\u770b\u770b\u4f20\u8bf4\u4e2d\u5de8\u5927\u7684\u6a31\u82b1\u6811\u800c\u5df2\u5440\u2014\u2014",
 			"actor": 900021,
 			"side": 2,
-			"dir": 1,
+			"bgm": "nagato-boss",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -17,12 +17,12 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u554a~\u554a\u2014\u2014\u4e3a\u4ec0\u4e48\u603b\u662f\u4e22\u8fd9\u4e9b\u9ebb\u70e6\u7684\u5dee\u4e8b\u7ed9\u6211\u5462\uff0c\u6211\u660e\u660e\u53ea\u60f3\u5b89\u5b89\u9759\u9759\u7684\u770b\u770b\u4f20\u8bf4\u4e2d\u5de8\u5927\u7684\u6a31\u82b1\u6811\u800c\u5df2\u5440\u2014\u2014"
+			"dir": 1
 		},
 		{
 			"soundeffect": "event:/battle/boom1",
 			"side": 2,
-			"say": "\u8f70\u2014\u2014",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -32,7 +32,7 @@
 				"x": 8.5,
 				"number": 2
 			},
-			"dir": 1,
+			"say": "\u8f70\u2014\u2014",
 			"flash": {
 				"number": 1,
 				"dur": 0.5,
@@ -235,8 +235,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"blackBg": true,
 			"flashin": {
@@ -313,8 +313,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"blackBg": true,
 			"flashin": {
@@ -337,8 +337,8 @@
 			}
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "YINGHUA14",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

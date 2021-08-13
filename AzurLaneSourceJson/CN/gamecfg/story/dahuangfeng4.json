@@ -1,0 +1,561 @@
+{
+	"fadeOut": 1.5,
+	"fadein": 1.5,
+	"scripts": [
+		{
+			"stopbgm": true,
+			"sequence": [
+				[
+					"\u50cf\u725b\u4ed4\u4e00\u6837\uff01\n\n<size=45>\u56db\u3000\u5bf9\u51b3</size>",
+					1
+				]
+			],
+			"mode": 1
+		},
+		{
+			"side": 2,
+			"dir": 1,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"black": true,
+				"dur": 1
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 1,
+				"dur": 1
+			},
+			"say": "\u6e2f\u533a\u00b7\u6307\u6325\u5ba4",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"bgm": "story-1",
+			"bgmDelay": 2,
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"dialogShake": {
+				"speed": 0.08,
+				"x": 15,
+				"number": 2
+			},
+			"say": "\u6307\u6325\u5b98\uff0c\u4e0d\u597d\u4e86\u4e0d\u597d\u4e86\uff01\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u2014\u2014\u2014\u2014\uff1f\uff01",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"options": [
+				{
+					"content": "\u53d1\u751f\u4ec0\u4e48\u4e8b\u4e86\uff1f",
+					"flag": 1
+				}
+			],
+			"say": "\u4eca\u5929\uff0c\u79d8\u4e66\u8230\u5927\u9ec4\u5cf0\u518d\u6b21\u98ce\u98ce\u706b\u706b\u7684\u95ef\u5165\u4e86\u6307\u6325\u5ba4\u3002",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u4f60\u542c\u6211\u8bf4\u554a\uff0c\u4e8b\u60c5\u662f\u8fd9\u6837\u7684\u2014\u2014",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"black": true,
+				"dur": 0.5
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u8fd9\u51e0\u5929\u6307\u6325\u5b98\u548c\u79d8\u4e66\u8230\u4f11\u5047\uff0c\u4e5f\u6ca1\u6709\u6f14\u4e60\u7684\u5b89\u6392\uff01\u563f\u563f\uff0c\u5f97\u597d\u597d\u73a9\u4e0a\u4e00\u756a\u624d\u884c~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": true
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"say": "\u554a\uff01\u4f60\u662f\u90a3\u4e2a\u4f01\u4e1a\u7684\u59b9\u59b9\uff0c\u7ea6\u514b\u57ce\u7ea7\u7684\u2026\u2026\u5927\u9ec4\u8702\u5bf9\u5427\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u662f\u6211\u554a\uff1f\u4f60\u662f\u2026\u91cd\u6a31\u7684{namecode:96}\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"effects": [
+				{
+					"name": "speed",
+					"active": true
+				}
+			],
+			"say": "\u6765\u7684\u6b63\u597d\uff01\u6211\u4e00\u76f4\u5728\u627e\u90a3\u4e2a\u7070\u8272\u5e7d\u7075\u2014\u2014\u554a\u5c31\u662f\u4f60\u90a3\u4e2a\u4f01\u4e1a\u59d0\u3002\u4f60\u77e5\u9053\u5979\u73b0\u5728\u54ea\u91cc\u5417\uff1f",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 4,
+			"say": "\u2026\u2026\u4f60\u8bf4\u4f01\u4e1a\u59d0\u554a~\u5979\u521a\u6709\u4e2a\u7d27\u6025\u59d4\u6258\uff0c\u8981\u660e\u5929\u665a\u4e0a\u624d\u80fd\u5f52\u6765\uff0c\u73b0\u5728\u4e0d\u5728\u6e2f\u533a\u54e6\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "speed",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"say": "\u6b38\uff0c\u8fd9\u6837\u554a\u2026\u2026\u672c\u6765\u8bf4\u597d\u4e86\u4eca\u5929\u8981\u6bd4\u8bd5\u6bd4\u8bd5\u7684\u2026\u770b\u6765\u53ea\u6709\u53e6\u627e\u673a\u4f1a\u4e86\u2026",
+			"actor": 307060,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"say": "\u8981\u662f\u6f14\u4e60\u5bf9\u624b\u7684\u8bdd\u8fd9\u91cc\u4e5f\u6709\u5594\uff01\u8fd9\u51e0\u5929\u6211\u53ef\u662f\u8d85\u6709\u65f6\u95f4~\u8981\u4e0d\uff0c\u8ba9\u6211\u6765\u5f53\u4f60\u7684\u5bf9\u624b\u5427\uff1f",
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "star_level_bg_103"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"flashout": {
+				"alpha": [
+					0,
+					1
+				],
+				"black": true,
+				"dur": 0.5
+			},
+			"flashin": {
+				"alpha": [
+					1,
+					0
+				],
+				"black": true,
+				"delay": 0.5,
+				"dur": 0.5
+			},
+			"say": "\u6211\u5f53\u65f6\u4e0d\u77e5\u4e3a\u4ec0\u4e48\u5c31\u8bf4\u4e86\u90a3\u79cd\u8bdd\u2026\u2026\u7136\u540e{namecode:96}\u5c31\u771f\u7684\u7b54\u5e94\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"effects": [
+				{
+					"name": "memoryFog",
+					"active": false
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u7a81\u7136\u5b89\u6392\u7684\u6f14\u4e60\u554a\u2026\u2026\u662f\u60f3\u786e\u8ba4\u4e00\u4e0b\u6709\u6ca1\u6709\u7a7a\u7f6e\u7684\u6f14\u4e60\u533a\u57df\u4e48\uff1f",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u8fd9\u4ef6\u4e8b\u5f53\u7136\u4e5f\u662f\u6765\u627e\u6307\u6325\u5b98\u7684\u539f\u56e0\u4e4b\u4e00\uff01\u4e0d\u8fc7\u8fd8\u6709\u4ef6\u66f4\u6839\u672c\u7684\u4e8b\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"say": "\u62c5\u5fc3\u4f1a\u8f93\uff1f",
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u5f53\u7136\u4e0d\u662f\uff01\u6f14\u4e60\u672c\u6765\u5c31\u662f\u6709\u8f93\u6709\u8d62\u7684\u53cb\u597d\u5207\u78cb\uff0c\u6211\u5927\u9ec4\u8702\u53ef\u4e0d\u4f1a\u5728\u8fd9\u79cd\u4e8b\u4e0a\u65a4\u65a4\u8ba1\u8f83\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"say": "\u6211\u4e5f\u65e9\u5c31\u60f3\u548c{namecode:96}\u5207\u78cb\u4e00\u4e0b\uff0c\u8bd5\u8bd5\u81ea\u5df1\u7684\u5b9e\u529b\u4e86\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 1,
+			"say": "\u53ea\u4e0d\u8fc7\u2026\u2026\u8fd9\u6b21\u5207\u78cb\uff0c\u6211\u662f\u4f5c\u4e3a\u4f01\u4e1a\u59d0\u7684\u66ff\u8865\u53bb\u8ddf{namecode:96}\u6bd4\u7684\u3002",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 3,
+			"say": "\u600e\u4e48\u8bf4\u5462\u2026\u2026\u8981\u662f\u8f93\u4e86\u7684\u8bdd\uff0c\u4e0d\u592a\u597d\u5427\u2026\u2026",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"options": [
+				{
+					"content": "\u539f\u6765\u5982\u6b64\uff0c\u6ca1\u95ee\u9898\u3002",
+					"flag": 1
+				},
+				{
+					"content": "{namecode:96}\u53ef\u6ca1\u6765\u5bfb\u6c42\u5e2e\u52a9\u54e6\uff1f",
+					"flag": 2
+				}
+			],
+			"say": "\u6240\u4ee5\u6307\u6325\u5b98\uff0c\u4e3a\u4e86\u53d6\u5f97\u80dc\u5229\uff01\u8bf7\u7ed9\u6211\u4e00\u4e9b\u5efa\u8bae\u5427\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"action": [
+				{
+					"y": 45,
+					"type": "shake",
+					"dur": 0.15,
+					"number": 2,
+					"delay": 0,
+					"x": 0
+				}
+			],
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"expression": 2,
+			"optionFlag": 1,
+			"say": "\u563f\u563f\u563f\uff0c\u6211\u5c31\u77e5\u9053\u4f60\u4e00\u5b9a\u4f1a\u5e2e\u5fd9\u7684\uff01",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		},
+		{
+			"actor": 107070,
+			"side": 2,
+			"dir": 1,
+			"nameColor": "#a9f548",
+			"blackBg": true,
+			"optionFlag": 2,
+			"say": "\u8c01\u8ba9\u5979\u6700\u8fd1\u4e0d\u662f\u79d8\u4e66\u8230\u54af~\u8fd1\u6c34\u697c\u53f0\u5148\u5f97\u6708\uff01\u5c31\u4ea4\u7ed9\u4f60\u4e86\uff0c\u6307\u6325\u5b98~",
+			"typewriter": {
+				"speed": 0.05,
+				"speedUp": 0.01
+			},
+			"painting": {
+				"alpha": 0.3,
+				"time": 1
+			},
+			"bgName": "bg_story_task"
+		}
+	],
+	"id": "DAHUANGFENG4",
+	"mode": 2,
+	"fadeType": 2,
+	"once": true
+}

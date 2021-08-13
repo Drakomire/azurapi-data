@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u30ab\u30aa\u30c6\u30a3\u30c3\u30af\u30fb\u30cf\u30ed\u30a6\u30a3\u30f3\u30ca\u30a4\u30c8\n\n<size=45>\u4e00 \u307e\u3060\u6df7\u6c8c\u306b\u306a\u3089\u306a\u304b\u3063\u305f\u9803</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"actor": 404020,
@@ -26,8 +26,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -414,7 +414,7 @@
 			"bgName": "bg_story_task"
 		},
 		{
-			"stopbgm": true,
+			"actor": 900202,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -438,18 +438,18 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 900202
+			"stopbgm": true
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "MENGFEISIWANSHENG1",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

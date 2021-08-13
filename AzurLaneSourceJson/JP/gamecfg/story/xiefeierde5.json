@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u9283\u5f3e\u3068\u3001\u611b\u3092\u8fbc\u3081\u3066\n\n<size=45>\u4e94 \u304a\u6383\u9664\u4ee3\u884c</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"painting": {
@@ -28,8 +28,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -120,12 +120,12 @@
 				"number": 2
 			},
 			"side": 2,
-			"say": "\u3066\u3001\u6575\u8972\u304b\uff01\uff1f\uff01\uff1f\uff01\uff1f",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u3066\u3001\u6575\u8972\u304b\uff01\uff1f\uff01\uff1f\uff01\uff1f",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -387,8 +387,8 @@
 			"bgName": "bg_story_task"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "XIEFEIERDE5",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

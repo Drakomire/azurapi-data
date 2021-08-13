@@ -4,7 +4,7 @@
 	"scripts": [
 		{
 			"sequenceSpd": 2,
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"<size=45>\u65b0\u305f\u306b\u5927\u8b1b\u5802\u304c\u958b\u653e\u3055\u308c\u305f\u3053\u3068\u3092\u8a18\u5ff5\u3057\u3001</size>",
@@ -19,7 +19,7 @@
 					6
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"sequence": [
@@ -34,7 +34,7 @@
 			"actor": 301011,
 			"side": 2,
 			"dir": 1,
-			"actorScale": 0.6,
+			"nameColor": "#a9f548",
 			"effects": [
 				{
 					"name": "speed",
@@ -84,8 +84,8 @@
 					"number": 3
 				}
 			],
+			"actorScale": 0.6,
 			"bgm": "story-1",
-			"nameColor": "#a9f548",
 			"say": "\u3046\u308f\u3042\u3042\u3042\uff01\uff01\u9045\u523b\u9045\u523b\u3045\u2015\u2015\uff01",
 			"typewriter": {
 				"speed": 0.05,
@@ -140,8 +140,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"flashin": {
 				"alpha": [
@@ -208,8 +208,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"flashin": {
 				"alpha": [
@@ -285,10 +285,10 @@
 			"nameColor": "#a9f548",
 			"action": [
 				{
-					"y": 30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.1,
-					"number": 1
+					"y": 30
 				}
 			],
 			"say": "\u30b3\u30db\u30f3\uff01\u8ab0\u3060\uff01\u3069\u3053\u306b\u76ee\u3092\u3064\u3051\u3066\u2026\u3044\u3001\u3044\u3084\u304c\u308b\uff01",
@@ -539,8 +539,8 @@
 			"bgName": "star_level_bg_103"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "KAIXUE01",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

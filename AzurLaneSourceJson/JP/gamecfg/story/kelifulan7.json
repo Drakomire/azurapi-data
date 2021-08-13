@@ -3,23 +3,23 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"\u30ca\u30a4\u30c8\uff06\u30a2\u30ef\u30fc\u30c9\n\n<size=45>\u305d\u306e\u4e03\u3000\u6700\u9ad8\u306e\u512a\u52dd\u8cde</size>",
 					1
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"side": 2,
-			"say": "\u6bcd\u6e2f\u30fb\u4f53\u80b2\u9928",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u6bcd\u6e2f\u30fb\u4f53\u80b2\u9928",
 			"dir": 1,
 			"bgName": "star_level_bg_103"
 		},
@@ -131,8 +131,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -303,8 +303,8 @@
 			"bgName": "star_level_bg_103"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "KELIFULAN7",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

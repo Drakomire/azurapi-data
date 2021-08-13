@@ -3,25 +3,25 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u54c8\u66fc\u89c2\u5bdf\u65e5\u5fd7\n\n<size=45>\u4e03 \u5766\u7387\u53ea\u6709\u2026\u4e00\u77ac\u95f4\uff01</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"dir": 1,
 			"actor": 107050,
 			"side": 2,
-			"say": "\u54c8\u66fc\uff0c\u6307\u6325\u5b98\u4eba\u5c31\u5728\u8fd9\u91cc\uff0c\u4f60\u5c31\u4e3a\u521a\u624d\u7684\u4e8b\u8bda\u5b9e\u9053\u4e2a\u6b49\u5427\uff1f",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u54c8\u66fc\uff0c\u6307\u6325\u5b98\u4eba\u5c31\u5728\u8fd9\u91cc\uff0c\u4f60\u5c31\u4e3a\u521a\u624d\u7684\u4e8b\u8bda\u5b9e\u9053\u4e2a\u6b49\u5427\uff1f",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -61,10 +61,10 @@
 		{
 			"action": [
 				{
-					"y": 30,
+					"number": 2,
 					"type": "shake",
 					"dur": 0.2,
-					"number": 2
+					"y": 30
 				}
 			],
 			"actor": 101250,
@@ -114,10 +114,10 @@
 		{
 			"action": [
 				{
-					"y": -30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.5,
-					"number": 1
+					"y": -30
 				}
 			],
 			"actor": 101250,
@@ -240,10 +240,10 @@
 		{
 			"action": [
 				{
-					"y": 30,
+					"number": 2,
 					"type": "shake",
 					"dur": 0.1,
-					"number": 2
+					"y": 30
 				}
 			],
 			"actor": 101240,
@@ -287,10 +287,10 @@
 		{
 			"action": [
 				{
-					"y": 30,
+					"number": 3,
 					"type": "shake",
 					"dur": 0.5,
-					"number": 3
+					"y": 30
 				}
 			],
 			"actor": 101250,
@@ -340,10 +340,10 @@
 		{
 			"action": [
 				{
-					"y": 30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.15,
-					"number": 1
+					"y": 30
 				}
 			],
 			"actor": 101250,
@@ -376,8 +376,8 @@
 			"bgName": "bg_story_room"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "HAMAN7",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

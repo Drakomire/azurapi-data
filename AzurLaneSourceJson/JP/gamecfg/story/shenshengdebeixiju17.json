@@ -3,7 +3,7 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"<size=51>\u300c\u305d\u308c\u306f\u592a\u967d\u3082\u6c88\u9ed9\u3059\u308b\u8352\u6dbc\u306a\u308b\u95c7\u3001\u7948\u308a\u3082\u5c4a\u304b\u306a\u3044\u7d76\u671b\u306e\u7aaa\u307f\u300d</size>",
@@ -26,10 +26,10 @@
 					9
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"<size=51>\u300c\u7114\u306e\u6d77\u3067\u8eab\u3092\u713c\u304b\u308c\u3088\u3046\u3068\u3001\u305d\u306e\u6b69\u307f\u306f\u6b62\u307e\u308b\u3053\u3068\u3092\u77e5\u3089\u305a\u300d</size>",
@@ -52,12 +52,12 @@
 					9
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"bgm": "battle-italy",
+			"dir": 1,
 			"nameColor": "#ff5c5c",
 			"expression": 1,
 			"action": [
@@ -70,7 +70,7 @@
 					"x": 0
 				}
 			],
-			"actor": 603020,
+			"bgm": "battle-italy",
 			"dialogShake": {
 				"speed": 0.09,
 				"x": 8.5,
@@ -117,7 +117,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"dir": 1
+			"actor": 603020
 		},
 		{
 			"actor": 900197,
@@ -271,10 +271,10 @@
 			"say": "\u7c21\u5358\u306b\u306f\u884c\u304b\u305b\u306a\u3044\u308f\u3088\uff1f"
 		},
 		{
-			"dir": 1,
+			"say": "\u30a6\u30a9\u30fc\u30b9\u30d1\u30a4\u30c8\u306e\u59a8\u5bb3\u3067\u30b6\u30e9\u306e\u653b\u6483\u304c\u5c04\u7dda\u304b\u3089\u5927\u304d\u304f\u5916\u308c\u305f\u3002",
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u30a6\u30a9\u30fc\u30b9\u30d1\u30a4\u30c8\u306e\u59a8\u5bb3\u3067\u30b6\u30e9\u306e\u653b\u6483\u304c\u5c04\u7dda\u304b\u3089\u5927\u304d\u304f\u5916\u308c\u305f\u3002",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -442,8 +442,8 @@
 			"say": "\u306a\u3093\u3067\u3082\u306a\u3044\u308f\u3002\u3055\u3042\u3001\u304a\u4e92\u3044\u306e\u8266\u7832\u3067\u52dd\u8ca0\u3059\u308b\u308f\u3088\uff01Belli dura despicio\uff01"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "SHENSHENGDEBEIXIJU17",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

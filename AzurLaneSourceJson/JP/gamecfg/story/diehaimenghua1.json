@@ -3,7 +3,7 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"<size=51>\u91cd\u685c\u306e\u795e\u77f3\u3010\u30ef\u30bf\u30c4\u30df\u3011\u3092\u7940\u308b\u5100\u5f0f\u304c\u7121\u4e8b\u7d42\u4e86\u3057\u305f\u3002</size>",
@@ -22,7 +22,7 @@
 					7
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"stopbgm": true,
@@ -244,19 +244,19 @@
 			"bgName": "bg_xinnong2_2"
 		},
 		{
-			"stopbgm": true,
+			"soundeffect": "event:/ui/fengling",
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
 			"blackBg": true,
 			"expression": 5,
-			"soundeffect": "event:/ui/fengling",
+			"actor": 307080,
 			"say": "\u62fe\u3044\u96c6\u3081\u308c\u3070\u3001\u304d\u3063\u3068\u2026\u2026",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"actor": 307080,
+			"stopbgm": true,
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -264,8 +264,8 @@
 			"bgName": "bg_xinnong2_1"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "DIEHAIMENGHUA1",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

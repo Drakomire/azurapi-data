@@ -2,9 +2,9 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"soundeffect": "event:/battle/plane",
+			"actor": 305110,
 			"side": 2,
-			"bgm": "cw-battle-boss",
+			"dir": 1,
 			"nameColor": "#a9f548",
 			"action": [
 				{
@@ -21,12 +21,12 @@
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"actor": 305110,
+			"bgm": "cw-battle-boss",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
 			},
-			"dir": 1
+			"soundeffect": "event:/battle/plane"
 		},
 		{
 			"say": "\u6211\u4ece\u8d44\u6599\u4e0a\u770b\u5230\u8fc7\u54e6\uff0c\u5927\u524d\u8f88\u7684\u8230\u88c5\u4f3c\u4e4e\u7f3a\u4e4f\u5bf9\u7a7a\u4f5c\u6218\u7684\u8bbe\u5907\u2014\u2014",
@@ -106,8 +106,8 @@
 			"say": "\u8bbe\u5907\u867d\u7136\u662f\u65e7\u5f0f\u7684\uff0c\u4f46\u5982\u679c\u8ba4\u4e3a\u6211\u7684\u6218\u672f\u4e5f\u662f\u65e7\u5f0f\u7684\uff0c\u53ef\u5c31\u5927\u9519\u7279\u9519\u4e86\u54e6\uff01"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "FUYINGYINGHUA7",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

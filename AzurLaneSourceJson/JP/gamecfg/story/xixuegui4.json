@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u767d\u8863\u306e\u5929\u4f7for\u60aa\u9b54\uff1f\n\n<size=45>\u56db\u3000\u7dca\u6025\u72b6\u6cc1\uff1f</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
@@ -20,8 +20,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -54,10 +54,10 @@
 			},
 			"action": [
 				{
-					"y": 30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.2,
-					"number": 1
+					"y": 30
 				}
 			],
 			"painting": {
@@ -246,10 +246,10 @@
 			},
 			"action": [
 				{
-					"y": 30,
+					"number": 1,
 					"type": "shake",
 					"dur": 0.2,
-					"number": 1
+					"y": 30
 				},
 				{
 					"y": 30,
@@ -376,8 +376,8 @@
 			"bgName": "bg_story_task"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "XIXUEGUI4",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

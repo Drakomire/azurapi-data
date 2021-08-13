@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u5fc3\u8840\u6765\u6f6e\u7684\u591c\u5bb4\n\n<size=45>\u56db \u5b9a\u756a\u7684\u5c3e\u58f0</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
@@ -20,8 +20,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -401,7 +401,7 @@
 			"bgName": "star_level_bg_115"
 		},
 		{
-			"soundeffect": "event:/battle/firework",
+			"actor": 403033,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -411,7 +411,7 @@
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"actor": 403033,
+			"soundeffect": "event:/battle/firework",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -527,18 +527,18 @@
 			},
 			"soundeffect": "event:/battle/firework",
 			"side": 2,
-			"say": "\u5728\u7eda\u70c2\u7684\u70df\u82b1\u6620\u886c\u4e0b\uff0c\u8fd9\u573a\u5fc3\u8840\u6765\u6f6e\u7684\u5bb4\u4f1a\u4e5f\u7b97\u662f\u6b65\u5411\u4e86\u5c3e\u58f0\u3002\u55ef\uff0c\u4e0b\u6b21\u6709\u673a\u4f1a\uff0c\u518d\u6765\u529e\u4e00\u6b21\u8fd9\u6837\u7684\u5bb4\u4f1a\u5427\u2014\u2014",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"dir": 1,
+			"say": "\u5728\u7eda\u70c2\u7684\u70df\u82b1\u6620\u886c\u4e0b\uff0c\u8fd9\u573a\u5fc3\u8840\u6765\u6f6e\u7684\u5bb4\u4f1a\u4e5f\u7b97\u662f\u6b65\u5411\u4e86\u5c3e\u58f0\u3002\u55ef\uff0c\u4e0b\u6b21\u6709\u673a\u4f1a\uff0c\u518d\u6765\u529e\u4e00\u6b21\u8fd9\u6837\u7684\u5bb4\u4f1a\u5427\u2014\u2014",
 			"blackBg": true,
 			"bgName": "star_level_bg_115"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "DACHAOLIFU4",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

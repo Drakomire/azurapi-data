@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u68a6\u5e7b\u7684\u4ea4\u6c47-\u65e5\u5e38\u7bc7\n\n<size=45>\u4e03\u3000\u50cf\u6bcd\u4eb2\u4e00\u6837\u7684\u4eba</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"actor": 312010,
@@ -26,8 +26,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -280,13 +280,13 @@
 			},
 			"stopbgm": true,
 			"side": 2,
-			"say": "\u2014\u2014\u55d6\u55d6\uff01\u8f70\u9686\uff01\u556a\u54d0\u549a\u5494\u2014\u2014\u8f70\u9686\u9686\u9686\uff01",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
+			"say": "\u2014\u2014\u55d6\u55d6\uff01\u8f70\u9686\uff01\u556a\u54d0\u549a\u5494\u2014\u2014\u8f70\u9686\u9686\u9686\uff01",
 			"soundeffect": "event:/battle/boom2",
-			"dir": 1,
 			"bgName": "bg_story_chuansong"
 		},
 		{
@@ -445,7 +445,7 @@
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u2014\u2014\u549a\u549a\u549a\u549a\uff01",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -482,7 +482,7 @@
 					]
 				]
 			},
-			"dir": 1,
+			"say": "\u2014\u2014\u549a\u549a\u549a\u549a\uff01",
 			"bgName": "bg_story_chuansong"
 		},
 		{
@@ -531,7 +531,7 @@
 		{
 			"soundeffect": "event:/battle/boom2",
 			"side": 2,
-			"say": "\u54bb\u54bb\u2014\u2014\u54d0\uff01\u54d0\uff01\u562d\uff01\u2014\u2014\u8f70\u9686\u9686\u9686\uff01",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -568,7 +568,7 @@
 					]
 				]
 			},
-			"dir": 1,
+			"say": "\u54bb\u54bb\u2014\u2014\u54d0\uff01\u54d0\uff01\u562d\uff01\u2014\u2014\u8f70\u9686\u9686\u9686\uff01",
 			"bgName": "bg_story_chuansong"
 		},
 		{
@@ -749,8 +749,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -1187,8 +1187,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -1304,8 +1304,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"painting": {
 				"alpha": 0.3,
@@ -1413,8 +1413,8 @@
 			"bgName": "bg_story_chuansong"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "LINKPREHEAT24",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

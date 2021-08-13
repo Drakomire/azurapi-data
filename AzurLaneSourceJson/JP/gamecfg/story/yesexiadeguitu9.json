@@ -3,10 +3,10 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"bgm": "battle-boss-italy",
+			"say": "\u901f\u529b\u304c\u2026\u3084\u3063\u3071\u308a\u591c\u6226\u3067\u306f\u5c0f\u56de\u308a\u304c\u52b9\u304b\u306a\u3044\u308f\u306d\u2026\u2026\uff01",
 			"actor": 205030,
 			"side": 2,
-			"dir": 1,
+			"bgm": "battle-boss-italy",
 			"nameColor": "#ffff4d",
 			"typewriter": {
 				"speed": 0.05,
@@ -16,7 +16,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"say": "\u901f\u529b\u304c\u2026\u3084\u3063\u3071\u308a\u591c\u6226\u3067\u306f\u5c0f\u56de\u308a\u304c\u52b9\u304b\u306a\u3044\u308f\u306d\u2026\u2026\uff01"
+			"dir": 1
 		},
 		{
 			"say": "\u306f\u306f\u306f\uff01\u9b5a\u96f7\u547d\u4e2d\uff01\u30f4\u30a3\u30b7\u30a2\u8b77\u6559\u9a0e\u58eb\u306e\u529b\u3092\u898b\u305f\u304b\uff01",
@@ -212,8 +212,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			}
 		},
 		{
@@ -349,7 +349,7 @@
 			"say": "\u591c\u9670\u306e\u6d77\u8def\u3092\u6e21\u3063\u3066\u3001\u5de1\u6d0b\u6226\u8266\u30c0\u30f3\u30b1\u30eb\u30af\u4ee5\u4e0b\u6570\u96bb\u3001\u30f4\u30a3\u30b7\u30a2\u306e\u30c8\u30a5\u30fc\u30ed\u30f3\u306b\u5230\u7740\u3057\u305f\u3002\u305d\u3057\u3066\u2015\u2015"
 		},
 		{
-			"stopbgm": true,
+			"actor": 900012,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#ff5c5c",
@@ -373,14 +373,14 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			},
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 900012
+			"stopbgm": true
 		},
 		{
 			"painting": {
@@ -431,8 +431,8 @@
 			"say": "\u3075\u3075\u3075\u3001\u5f15\u304d\u7d9a\u304d\u300c\u89b3\u5bdf\u300d\u3055\u305b\u3066\u3082\u3089\u3046\u308f\u3088"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "YESEXIADEGUITU9",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

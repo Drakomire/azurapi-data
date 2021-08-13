@@ -36,6 +36,7 @@ def convert_all_files(client: Client):
             for file in CONVERT_FROM.rglob("*.lua"):
                 target = Path(CONVERT_TO, file.relative_to(CONVERT_FROM).with_suffix(".json"))
                 pool.apply_async(convert_lua, (file, target,))
+
         pool.close()
         pool.join()
 

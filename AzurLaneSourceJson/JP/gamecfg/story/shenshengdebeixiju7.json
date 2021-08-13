@@ -2,20 +2,20 @@
 	"scripts": [
 		{
 			"side": 2,
-			"say": "\u591c\u2015\u2015",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "battle-boss-italy",
+			"say": "\u591c\u2015\u2015",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
 			},
-			"dir": 1
+			"bgm": "battle-boss-italy"
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 203070,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -65,7 +65,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 203070
+			"soundeffect": "event:/battle/boom2"
 		},
 		{
 			"actor": 603020,
@@ -288,7 +288,7 @@
 			"say": "\u3053\u306e\u9b54\u5c0e\u91cd\u5de1\u6d0b\u8266\u30fb\u30e8\u30fc\u30af\u306e\u529b\uff08\u2020\u30d5\u30a9\u30fc\u30b9\u2020\uff09\u3067\u3001\u4ef2\u9593\u305f\u3061\u306b\u72b6\u6cc1\u3092\u77e5\u3089\u305b\u308b\u3053\u3068\u2015\u2015\u3068\u306d\uff01"
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 203070,
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
@@ -338,7 +338,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"actor": 203070
+			"soundeffect": "event:/battle/boom2"
 		},
 		{
 			"side": 2,
@@ -427,8 +427,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			}
 		},
 		{
@@ -508,8 +508,8 @@
 					0,
 					1
 				],
-				"dur": 0.5,
-				"black": true
+				"black": true,
+				"dur": 0.5
 			}
 		},
 		{
@@ -595,6 +595,6 @@
 	],
 	"id": "SHENSHENGDEBEIXIJU7",
 	"mode": 2,
-	"fadein": 1.5,
-	"once": true
+	"once": true,
+	"fadein": 1.5
 }

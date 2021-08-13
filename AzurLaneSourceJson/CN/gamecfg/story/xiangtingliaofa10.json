@@ -3,12 +3,12 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 102230,
 			"side": 2,
-			"dir": 1,
+			"bgm": "battle-boss-4",
 			"nameColor": "#a9f548",
 			"expression": 1,
-			"actor": 102230,
+			"soundeffect": "event:/battle/boom2",
 			"dialogShake": {
 				"speed": 0.09,
 				"x": 8.5,
@@ -55,7 +55,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"bgm": "battle-boss-4"
+			"dir": 1
 		},
 		{
 			"action": [
@@ -99,7 +99,7 @@
 			"say": "\u8fd9\u6b21\u5c45\u7136\u8981\u626e\u6f14\u90a3\u4e9b\u4e1c\u897f\u3002\u542c\u6211\u8bf4\u554a\uff0c\u6700\u8fd1\u662f\u4e0d\u662f\u8d8a\u6765\u8d8a\u79bb\u8c31\u4e86\uff1f"
 		},
 		{
-			"soundeffect": "event:/battle/boom2",
+			"actor": 102070,
 			"side": 0,
 			"dir": -1,
 			"nameColor": "#a9f548",
@@ -145,7 +145,7 @@
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"actor": 102070,
+			"soundeffect": "event:/battle/boom2",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -382,8 +382,8 @@
 			"say": "\u73b0\u5728\u914d\u89d2\u4eec\u90fd\u5230\u9f50\uff0c\u5c31\u5dee\u4e3b\u89d2\u767b\u573a\u4e86\u3002\u65f6\u95f4\u8fd8\u6709\u5f97\u662f\uff0c\u4e0d\u5982\u5148\u6765\u966a\u6211\u6d88\u9063\u4e00\u4e0b\u5427~"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "XIANGTINGLIAOFA10",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

@@ -3,23 +3,23 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u5e78\u904b\u306e\u9db4\n\n<size=45>\u305d\u306e\u4e00  \u745e\u9db4\u306e\u671d</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"side": 2,
-			"say": "\u6bcd\u6e2f\u30fb\u671d",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u6bcd\u6e2f\u30fb\u671d",
 			"dir": 1,
 			"bgName": "bg_story_task"
 		},
@@ -38,7 +38,7 @@
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
-			"withoutPainting": true,
+			"say": "\u2026\u2026",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -49,7 +49,7 @@
 					"flag": 1
 				}
 			],
-			"say": "\u2026\u2026",
+			"withoutPainting": true,
 			"bgName": "bg_story_task"
 		},
 		{
@@ -57,14 +57,14 @@
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
-			"say": "\u3050\u3046\u2026\u306f\u3041\u2026\u3050\u3046\u2026Zzzzzzz",
+			"withoutPainting": true,
 			"flashout": {
 				"alpha": [
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -75,7 +75,7 @@
 				"delay": 1,
 				"dur": 1
 			},
-			"withoutPainting": true,
+			"say": "\u3050\u3046\u2026\u306f\u3041\u2026\u3050\u3046\u2026Zzzzzzz",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -136,8 +136,8 @@
 			"side": 2,
 			"dir": 1,
 			"nameColor": "#a9f548",
-			"withoutPainting": true,
 			"say": "\u2026\u7fd4\u9db4\u59c9\u2026\u3050\u3045\u3046\u3046\u2026\u4eca\u5ea6\u3053\u305d\u2026\u305c\u3063\u305f\u30fc\u3044\u306b\u2026",
+			"withoutPainting": true,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -287,8 +287,8 @@
 			"bgName": "bg_story_room"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "RUIHE1",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

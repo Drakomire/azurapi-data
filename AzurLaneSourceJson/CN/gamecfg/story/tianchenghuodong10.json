@@ -3,7 +3,7 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"stopbgm": true,
+			"mode": 1,
 			"sequence": [
 				[
 					"<size=51>\u6211\u660e\u767d\u7684</size>",
@@ -34,7 +34,7 @@
 					14
 				]
 			],
-			"mode": 1
+			"stopbgm": true
 		},
 		{
 			"side": 1,
@@ -50,8 +50,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -368,8 +368,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			}
 		},
 		{
@@ -505,7 +505,7 @@
 		{
 			"soundeffect": "event:/battle/plane",
 			"side": 2,
-			"say": "\u8bdd\u97f3\u843d\u4e0b\uff0c\u5341\u6570\u67b6\u8230\u8f7d\u673a\u9010\u6b21\u4ece{namecode:89}\u7684\u7532\u677f\u4e0a\u5347\u5165\u7a7a\u4e2d\uff0c\u5e76\u5728\u5979\u7684\u8eab\u8fb9\u76d8\u65cb\u7740\u3002",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -514,7 +514,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"dir": 1
+			"say": "\u8bdd\u97f3\u843d\u4e0b\uff0c\u5341\u6570\u67b6\u8230\u8f7d\u673a\u9010\u6b21\u4ece{namecode:89}\u7684\u7532\u677f\u4e0a\u5347\u5165\u7a7a\u4e2d\uff0c\u5e76\u5728\u5979\u7684\u8eab\u8fb9\u76d8\u65cb\u7740\u3002"
 		},
 		{
 			"side": 2,
@@ -575,7 +575,7 @@
 		{
 			"soundeffect": "event:/battle/plane",
 			"side": 2,
-			"say": "\u8230\u8f7d\u673a\u4eec\u5728\u7a7a\u4e2d\u7ec4\u6210\u7f16\u961f\uff0c\u5206\u4e3a7\u4e2a\u65b9\u5411\u7740\u955c\u9762\u6d77\u57df\u98de\u53bb\uff0c\u5f88\u5feb\u4fbf\u6d88\u5931\u5728\u5929\u7a7a\u4e2d\u3002",
+			"dir": 1,
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
@@ -584,7 +584,7 @@
 				"alpha": 0.3,
 				"time": 1
 			},
-			"dir": 1
+			"say": "\u8230\u8f7d\u673a\u4eec\u5728\u7a7a\u4e2d\u7ec4\u6210\u7f16\u961f\uff0c\u5206\u4e3a7\u4e2a\u65b9\u5411\u7740\u955c\u9762\u6d77\u57df\u98de\u53bb\uff0c\u5f88\u5feb\u4fbf\u6d88\u5931\u5728\u5929\u7a7a\u4e2d\u3002"
 		},
 		{
 			"actor": 304050,
@@ -733,8 +733,8 @@
 			"say": "\u6ca1\u6709\u4eba\u6ce8\u610f\u5230\u8fd9\u4efd\u7b11\u5bb9\u91cc\u9690\u85cf\u7740\u7684\u7126\u8651\u3001\u4e0e\u4e0d\u5b89\u2014\u2014"
 		}
 	],
-	"fadeType": 1,
-	"mode": 2,
 	"id": "TIANCHENGHUODONG10",
+	"mode": 2,
+	"fadeType": 1,
 	"once": true
 }

@@ -3,14 +3,14 @@
 	"fadein": 1.5,
 	"scripts": [
 		{
-			"mode": 1,
+			"stopbgm": true,
 			"sequence": [
 				[
 					"\u6e2f\u533a\u9003\u79bb\u5927\u4f5c\u6218\uff01\n\n<size=45>\u4e00\u3000\u8fd9\u91cc\u662f\u54ea\u91cc\uff1f</size>",
 					1
 				]
 			],
-			"stopbgm": true
+			"mode": 1
 		},
 		{
 			"painting": {
@@ -28,8 +28,8 @@
 					0,
 					1
 				],
-				"dur": 1,
-				"black": true
+				"black": true,
+				"dur": 1
 			},
 			"flashin": {
 				"alpha": [
@@ -46,12 +46,12 @@
 		{
 			"dir": 1,
 			"side": 2,
-			"say": "\u6e2f\u533a\u00b7\u4ed3\u5e93",
+			"bgm": "story-1",
 			"typewriter": {
 				"speed": 0.05,
 				"speedUp": 0.01
 			},
-			"bgm": "story-1",
+			"say": "\u6e2f\u533a\u00b7\u4ed3\u5e93",
 			"painting": {
 				"alpha": 0.3,
 				"time": 1
@@ -401,8 +401,8 @@
 			"bgName": "bg_story_task"
 		}
 	],
-	"fadeType": 2,
-	"mode": 2,
 	"id": "GANGQUTAOLI1",
+	"mode": 2,
+	"fadeType": 2,
 	"once": true
 }

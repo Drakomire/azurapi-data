@@ -483,8 +483,6 @@ function readFilesFromLanguage(lang = "EN") {
                 }
               }
 
-              
-
               //Every 5 prints has a limit break
               for (j of ship_strengthen_blueprint[blueprints[i]].effect_attr){
                 if (!PR_calculated){

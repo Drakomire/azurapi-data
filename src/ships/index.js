@@ -203,7 +203,6 @@ function readFilesFromLanguage(lang = "EN") {
         compiled[ship.group_type].stars = ship.star_max
         //Add skills
         skillIsAoA = (buff_id) =>{
-          let name = skill_data_template[buff_id].name
           return buff_id > 20000 && buff_id < 30000
         }
 

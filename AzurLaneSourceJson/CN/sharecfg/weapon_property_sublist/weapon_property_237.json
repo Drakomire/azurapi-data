@@ -1,90 +1,95 @@
 {
-	"471901": {
+	"471145": {
 		"search_type": 1,
-		"attack_attribute": 4,
+		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 400,
+		"angle": 360,
+		"reload_max": 2000,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u7a7a\u88ad\u8f70\u70b8\u673a\u6b66\u5668",
-		"fire_fx": "",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5fb7\u610f\u5fd7-Q\u7248\u91cd\u5de1\u8054\u88c5\u4e3b\u70aex6-\u6563\u5c04II",
+		"fire_fx": "CAFire",
 		"charge_param": "",
 		"suppress": 0,
-		"range": 10,
+		"range": 100,
 		"recover_time": 0,
 		"fire_fx_loop_type": 1,
 		"precast_param": [],
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 38,
-		"action_index": "",
-		"type": 2,
+		"damage": 18,
+		"action_index": "attack",
+		"type": 1,
 		"search_condition": [
 			1
 		],
 		"oxy_type": [
 			1
 		],
-		"id": 471901,
+		"id": 471145,
 		"spawn_bound": "cannon",
 		"barrage_ID": [
-			10001
+			200102
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			10012
+			1403
 		],
 		"min_range": 0,
-		"fire_sfx": "",
+		"fire_sfx": "battle/cannon-main",
 		"aim_type": 0,
 		"initial_over_heat": 0,
-		"effect_move": 1,
+		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"472043": {
+	"471161": {
 		"search_type": 1,
-		"attack_attribute": 4,
+		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 2600,
+		"angle": 80,
+		"reload_max": 2000,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u585e\u58ec\u822a\u6bcd\u86cb\u8239\u8f70\u70b8\u673aT1 (\u98de\u673a",
-		"fire_fx": "",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u63d0\u5c14\u6bd4\u8328-\u5e73\u5c04",
+		"fire_fx": "CAFire",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 100,
-		"recover_time": 5,
+		"range": 70,
+		"recover_time": 0.5,
 		"fire_fx_loop_type": 1,
-		"precast_param": [],
+		"precast_param": {
+			"alertTime": 1,
+			"time": 0.5,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 45,
+		"damage": 35,
 		"action_index": "attack",
-		"type": 11,
+		"type": 19,
 		"search_condition": [
 			1
 		],
 		"oxy_type": [
 			1
 		],
-		"id": 472043,
-		"spawn_bound": "plane",
+		"id": 471161,
+		"spawn_bound": "cannon",
 		"barrage_ID": [
-			12015
+			10015
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			30019
+			30063
 		],
 		"min_range": 0,
-		"fire_sfx": "",
+		"fire_sfx": "battle/cannon-main",
 		"aim_type": 1,
 		"initial_over_heat": 0,
-		"effect_move": 1,
+		"effect_move": 0,
 		"axis_angle": 0
 	},
 	"471303": {
@@ -133,70 +138,79 @@
 		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"472012": {
+	"471130": {
 		"search_type": 1,
 		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 120,
-		"reload_max": 2100,
+		"angle": 180,
+		"reload_max": 800,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u91cf\u4ea7\u578b\u585e\u58ec\u8f7b\u5de1\u8054\u88c5\u70aex6\u6563\u5c04III",
-		"fire_fx": "CLFire",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5361\u5c14\u65af\u9c81\u5384-Q\u7248\u7a7f\u900f\u5f39\u4ea4\u53c9\u4e09\u6a2a\u5c04",
+		"fire_fx": "",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 65,
-		"recover_time": 0.5,
+		"range": 90,
+		"recover_time": 0,
 		"fire_fx_loop_type": 1,
-		"precast_param": [],
+		"precast_param": {
+			"alertTime": 2,
+			"time": 0.5,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 14,
+		"damage": 15,
 		"action_index": "attack",
-		"type": 2,
+		"type": 1,
 		"search_condition": [
 			1
 		],
 		"oxy_type": [
 			1
 		],
-		"id": 472012,
+		"id": 471130,
 		"spawn_bound": "cannon",
 		"barrage_ID": [
-			1102
+			300112,
+			300113,
+			300114
 		],
-		"corrected": 105,
+		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			802
+			300112,
+			300113,
+			300114
 		],
 		"min_range": 0,
-		"fire_sfx": "battle/cannon-155mm",
+		"fire_sfx": "battle/cannon-main",
 		"aim_type": 0,
 		"initial_over_heat": 0,
 		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"471902": {
+	"471146": {
 		"search_type": 1,
-		"attack_attribute": 4,
+		"attack_attribute": 2,
 		"shakescreen": 0,
-		"angle": 35,
-		"reload_max": 11954,
+		"angle": 60,
+		"reload_max": 2200,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u7a7a\u88ad\u9c7c\u96f7\u673a\u6b66\u5668",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5fb7\u610f\u5fd7-Q\u7248\u4e09\u8054\u88c5\u9c7c\u96f7II",
 		"fire_fx": "",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 40,
-		"recover_time": 0,
+		"range": 60,
+		"recover_time": 0.5,
 		"fire_fx_loop_type": 1,
 		"precast_param": [],
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 30,
-		"action_index": "",
+		"damage": 35,
+		"action_index": "attack",
 		"type": 3,
 		"search_condition": [
 			1
@@ -204,65 +218,70 @@
 		"oxy_type": [
 			1
 		],
-		"id": 471902,
+		"id": 471146,
 		"spawn_bound": "torpedo",
 		"barrage_ID": [
-			12001
+			1402
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			30067
+			1801
 		],
-		"min_range": 22,
+		"min_range": 0,
 		"fire_sfx": "",
 		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
+		"initial_over_heat": 1,
+		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"472044": {
+	"471162": {
 		"search_type": 1,
-		"attack_attribute": 4,
+		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 3000,
+		"angle": 40,
+		"reload_max": 1900,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u585e\u58ec\u822a\u6bcd\u86cb\u8239\u6218\u6597\u673aT1 (\u98de\u673a",
-		"fire_fx": "zhupao",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u63d0\u5c14\u6bd4\u8328-\u6218\u5217\u8de8\u5c04\u653b\u51fb\u540e\u6392\u6b66\u56682x3\u8f6e-\u56f0\u96be",
+		"fire_fx": "CAFire",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 120,
-		"recover_time": 5,
+		"range": 150,
+		"recover_time": 0,
 		"fire_fx_loop_type": 1,
-		"precast_param": [],
+		"precast_param": {
+			"alertTime": 2,
+			"time": 1,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 28,
+		"damage": 45,
 		"action_index": "attack",
-		"type": 11,
+		"type": 19,
 		"search_condition": [
 			1
 		],
 		"oxy_type": [
 			1
 		],
-		"id": 472044,
-		"spawn_bound": "plane",
+		"id": 471162,
+		"spawn_bound": "cannon",
 		"barrage_ID": [
-			12015
+			20016
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			30013
+			1531
 		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
+		"min_range": 80,
+		"fire_sfx": "battle/cannon-main",
 		"aim_type": 1,
 		"initial_over_heat": 0,
-		"effect_move": 1,
+		"effect_move": 0,
 		"axis_angle": 0
 	},
 	"471304": {
@@ -309,107 +328,7 @@
 		"effect_move": 1,
 		"axis_angle": 0
 	},
-	"471931": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 1650,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011BOSS\u9f50\u67cf\u6797BF109T\u6218\u6597\u673a\u5f39\u5e55",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 85,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 9,
-		"action_index": "",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471931,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			101,
-			102,
-			103,
-			104
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			20001,
-			20001,
-			20001,
-			20001
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"471903": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 1650,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u7a7a\u88ad\u6218\u6597\u673a\u5f39\u5e55\u6b66\u5668",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 85,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 5,
-		"action_index": "",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471903,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			101,
-			102,
-			103,
-			104
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			20001,
-			20001,
-			20001,
-			20001
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"472102": {
+	"471131": {
 		"search_type": 1,
 		"attack_attribute": 1,
 		"shakescreen": 0,
@@ -417,17 +336,17 @@
 		"reload_max": 1000,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u4eba\u578b\u3011Z1-\u4e13\u7528\u6b66\u5668",
-		"fire_fx": "CAFire",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5361\u5c14\u65af\u9c81\u5384-Q\u7248\u65cb\u8f6c\u5b50\u5f39\u6563\u5c048\u8fde\u5faa\u73af3\u6b21",
+		"fire_fx": "CLFire",
 		"charge_param": "",
-		"suppress": 0,
-		"range": 90,
+		"suppress": 1,
+		"range": 80,
 		"recover_time": 0,
 		"fire_fx_loop_type": 1,
 		"precast_param": [],
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 10,
+		"damage": 8,
 		"action_index": "attack",
 		"type": 1,
 		"search_condition": [
@@ -436,78 +355,32 @@
 		"oxy_type": [
 			1
 		],
-		"id": 472102,
+		"id": 471131,
 		"spawn_bound": "cannon",
 		"barrage_ID": [
-			200034,
-			200035
+			300203
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			20005,
-			20005
+			300203
 		],
 		"min_range": 0,
 		"fire_sfx": "battle/cannon-main",
-		"aim_type": 0,
+		"aim_type": 1,
 		"initial_over_heat": 0,
 		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"471305": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 3200,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u9f50\u67cf\u6797-JU87C",
-		"fire_fx": "",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 100,
-		"recover_time": 5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 48,
-		"action_index": "attack",
-		"type": 11,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471305,
-		"spawn_bound": "plane",
-		"barrage_ID": [
-			12015
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			30019
-		],
-		"min_range": 0,
-		"fire_sfx": "",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"472101": {
+	"471147": {
 		"search_type": 1,
 		"attack_attribute": 1,
 		"shakescreen": 0,
 		"angle": 360,
-		"reload_max": 1000,
+		"reload_max": 1500,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u4eba\u578b\u3011Z1-\u4e13\u7528\u6b66\u5668",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u6b27\u6839\u4eb2\u738b-\u4e13\u7528\u6b66\u5668",
 		"fire_fx": "CAFire",
 		"charge_param": "",
 		"suppress": 0,
@@ -517,7 +390,7 @@
 		"precast_param": [],
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 10,
+		"damage": 15,
 		"action_index": "attack",
 		"type": 1,
 		"search_condition": [
@@ -526,17 +399,17 @@
 		"oxy_type": [
 			1
 		],
-		"id": 472101,
+		"id": 471147,
 		"spawn_bound": "cannon",
 		"barrage_ID": [
-			200034,
-			200035
+			200142,
+			200143
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			20005,
-			20005
+			20003,
+			20003
 		],
 		"min_range": 0,
 		"fire_sfx": "battle/cannon-main",
@@ -589,46 +462,186 @@
 		"effect_move": 1,
 		"axis_angle": 0
 	},
-	"472052": {
+	"471305": {
 		"search_type": 1,
-		"attack_attribute": 2,
+		"attack_attribute": 4,
 		"shakescreen": 0,
 		"angle": 360,
-		"reload_max": 200,
+		"reload_max": 3200,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u81ea\u7206\u8239\u81ea\u7206",
-		"fire_fx": "CAFire",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u9f50\u67cf\u6797-JU87C",
+		"fire_fx": "",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 8,
-		"recover_time": 0.5,
+		"range": 100,
+		"recover_time": 5,
 		"fire_fx_loop_type": 1,
 		"precast_param": [],
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 65,
+		"damage": 48,
 		"action_index": "attack",
-		"type": 18,
+		"type": 11,
 		"search_condition": [
 			1
 		],
 		"oxy_type": [
 			1
 		],
-		"id": 472052,
-		"spawn_bound": "cannon",
-		"barrage_ID": [],
+		"id": 471305,
+		"spawn_bound": "plane",
+		"barrage_ID": [
+			12015
+		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			80001
+			30019
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 1,
+		"axis_angle": 0
+	},
+	"471132": {
+		"search_type": 1,
+		"attack_attribute": 2,
+		"shakescreen": 0,
+		"angle": 180,
+		"reload_max": 1500,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5361\u5c14\u65af\u9c81\u5384-Q\u7248\u6563\u578b3\u53d1\u5feb\u901f\u9c7c\u96f7",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 72,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 35,
+		"action_index": "",
+		"type": 3,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471132,
+		"spawn_bound": "torpedo",
+		"barrage_ID": [
+			300506
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			300506
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471148": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 3000,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u6b27\u6839\u4eb2\u738b-\u4e13\u7528\u6b66\u5668",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 90,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 18,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471148,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			200122
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			20003
 		],
 		"min_range": 0,
 		"fire_sfx": "battle/cannon-main",
 		"aim_type": 1,
 		"initial_over_heat": 0,
 		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471903": {
+		"search_type": 1,
+		"attack_attribute": 4,
+		"shakescreen": 0,
+		"angle": 180,
+		"reload_max": 1650,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u7a7a\u88ad\u6218\u6597\u673a\u5f39\u5e55\u6b66\u5668",
+		"fire_fx": "fangkongpaohuoshe2",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 85,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 5,
+		"action_index": "",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471903,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			101,
+			102,
+			103,
+			104
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			20001,
+			20001,
+			20001,
+			20001
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/air-atk",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 1,
 		"axis_angle": 0
 	},
 	"471306": {
@@ -675,25 +688,124 @@
 		"effect_move": 1,
 		"axis_angle": 0
 	},
-	"472051": {
+	"471133": {
 		"search_type": 1,
-		"attack_attribute": 2,
+		"attack_attribute": 1,
 		"shakescreen": 0,
 		"angle": 180,
-		"reload_max": 2400,
+		"reload_max": 1000,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u9c7c\u96f7\u8247\u9c7c\u96f73\u8fde",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u83b1\u6bd4\u9521-Q\u7248\u7a7f\u900f\u5f39\u4e09\u6a2a\u8ffd\u8e2a\u5f39",
 		"fire_fx": "",
 		"charge_param": "",
 		"suppress": 1,
 		"range": 90,
 		"recover_time": 0,
 		"fire_fx_loop_type": 1,
+		"precast_param": {
+			"alertTime": 2,
+			"time": 0.5,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 12,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471133,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			300115,
+			300116,
+			300117
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			300115,
+			300116,
+			300117
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471149": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 1500,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u6b27\u6839\u4eb2\u738b-\u4e13\u7528\u6b66\u5668",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 0,
+		"range": 90,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
 		"precast_param": [],
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 40,
+		"damage": 15,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471149,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			200112,
+			200113
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			20003,
+			20003
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 0,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471902": {
+		"search_type": 1,
+		"attack_attribute": 4,
+		"shakescreen": 0,
+		"angle": 35,
+		"reload_max": 11954,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u7a7a\u88ad\u9c7c\u96f7\u673a\u6b66\u5668",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 40,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 30,
 		"action_index": "",
 		"type": 3,
 		"search_condition": [
@@ -702,18 +814,553 @@
 		"oxy_type": [
 			1
 		],
-		"id": 472051,
+		"id": 471902,
 		"spawn_bound": "torpedo",
 		"barrage_ID": [
-			350102
+			12001
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			350105
+			30067
+		],
+		"min_range": 22,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 1,
+		"axis_angle": 0
+	},
+	"471901": {
+		"search_type": 1,
+		"attack_attribute": 4,
+		"shakescreen": 0,
+		"angle": 180,
+		"reload_max": 400,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u7a7a\u88ad\u8f70\u70b8\u673a\u6b66\u5668",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 0,
+		"range": 10,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 38,
+		"action_index": "",
+		"type": 2,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471901,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			10001
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			10012
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 0,
+		"initial_over_heat": 0,
+		"effect_move": 1,
+		"axis_angle": 0
+	},
+	"471134": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 1000,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u83b1\u6bd4\u9521-Q\u7248\u65cb\u8f6c\u5b50\u5f39\u6563\u5c048\u8fde",
+		"fire_fx": "CLFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 80,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 8,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471134,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			300201
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			300201
 		],
 		"min_range": 0,
 		"fire_sfx": "battle/cannon-main",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471150": {
+		"search_type": 1,
+		"attack_attribute": 2,
+		"shakescreen": 0,
+		"angle": 180,
+		"reload_max": 1500,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u6b27\u6839\u4eb2\u738b-Q\u7248\u6563\u578b3\u53d1\u5feb\u901f\u9c7c\u96f7",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 72,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 35,
+		"action_index": "",
+		"type": 3,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471150,
+		"spawn_bound": "torpedo",
+		"barrage_ID": [
+			300506
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			300506
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471506": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 40,
+		"reload_max": 2400,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u6d4b\u8bd5\u8005\u03b2\u578b-\u6218\u5217\u8de8\u5c04\u653b\u51fb\u540e\u6392\u6b66\u56683x2\u8f6e-\u7b80\u5355",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 150,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": {
+			"alertTime": 2,
+			"time": 1,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 52,
+		"action_index": "attack",
+		"type": 19,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471506,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			20018
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			1530
+		],
+		"min_range": 75,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471505": {
+		"search_type": 1,
+		"attack_attribute": 2,
+		"shakescreen": 0,
+		"angle": 60,
+		"reload_max": 2500,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u6d4b\u8bd5\u8005\u03b2\u578b-8\u8054\u88c5533mm\u78c1\u6027\u9c7c\u96f7",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 52,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 42,
+		"action_index": "attack",
+		"type": 3,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471505,
+		"spawn_bound": "torpedo",
+		"barrage_ID": [
+			399987
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			1803
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 0,
+		"initial_over_heat": 1,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471135": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 180,
+		"reload_max": 1200,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u83b1\u6bd4\u9521-Q\u7248\u5206\u88c2\u6563\u5f39",
+		"fire_fx": "zhupao",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 80,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 10,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471135,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			300601
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			300601
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471151": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 600,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u6c99\u6069\u970d\u65af\u7279-Q\u7248\u8fd1\u7a0b\u81ea\u536b\u706b\u70aeII",
+		"fire_fx": "CLFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 38,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 8,
+		"action_index": "attack",
+		"type": 2,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471151,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			12
+		],
+		"corrected": 125,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			999
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-155mm",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471205": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 1000,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011Z46-\u4e13\u7528\u6b66\u5668",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 0,
+		"range": 90,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 90,
+		"damage": 10,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471205,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			200034,
+			200035
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			20005,
+			20005
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 0,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471301": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 600,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u9f50\u67cf\u6797-Q\u7248\u8fd1\u7a0b\u81ea\u536b\u706b\u70aeII",
+		"fire_fx": "CLFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 38,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 9,
+		"action_index": "attack",
+		"type": 2,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471301,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			12
+		],
+		"corrected": 125,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			999
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-155mm",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471136": {
+		"search_type": 1,
+		"attack_attribute": 2,
+		"shakescreen": 0,
+		"angle": 180,
+		"reload_max": 1500,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u83b1\u6bd4\u9521-Q\u7248\u6563\u578b3\u53d1\u5feb\u901f\u9c7c\u96f7",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 72,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 35,
+		"action_index": "",
+		"type": 3,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471136,
+		"spawn_bound": "torpedo",
+		"barrage_ID": [
+			300506
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			300506
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471152": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 2400,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u6c99\u6069\u970d\u65af\u7279-Q\u7248\u91cd\u5de1\u8054\u88c5\u4e3b\u70aex6-\u8f6e\u5c04II",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 0,
+		"range": 90,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 22,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471152,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			1203
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			1403
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 0,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471302": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 1100,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u9f50\u67cf\u6797-Q\u7248\u8f7b\u5de1\u5355\u53d1x6\u968f\u673aII",
+		"fire_fx": "CLFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 60,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 12,
+		"action_index": "attack",
+		"type": 2,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471302,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			1106
+		],
+		"corrected": 125,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			1201
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-155mm",
 		"aim_type": 0,
 		"initial_over_heat": 0,
 		"effect_move": 0,
@@ -755,687 +1402,6 @@
 		"auto_aftercast": 0,
 		"bullet_ID": [
 			999
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-155mm",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471921": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 35,
-		"reload_max": 11954,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u9f50\u67cf\u6797\u9c7c\u96f7\u673aT1",
-		"fire_fx": "",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 40,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 34,
-		"action_index": "",
-		"type": 3,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471921,
-		"spawn_bound": "torpedo",
-		"barrage_ID": [
-			12001
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			10031
-		],
-		"min_range": 22,
-		"fire_sfx": "",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"471932": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 48,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011BOSS\u9f50\u67cf\u6797BF109T\u6218\u6597\u673a\u7a7a\u4e2d",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 200,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 28,
-		"action_index": "",
-		"type": 4,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471932,
-		"spawn_bound": "antiaircraft",
-		"barrage_ID": [
-			5
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			10004
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"471934": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 1250,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011BOSS\u9f50\u67cf\u6797JU87C\u5f39\u5e55",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 85,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 9,
-		"action_index": "",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471934,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			399991
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			399991
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"471402": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 2400,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u63d0\u5c14\u6bd4\u8328-Q\u7248\u91cd\u5de1\u8054\u88c5\u4e3b\u70aex6-\u8f6e\u5c04II",
-		"fire_fx": "CAFire",
-		"charge_param": "",
-		"suppress": 0,
-		"range": 90,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 18,
-		"action_index": "attack",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471402,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			1203
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			1403
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-main",
-		"aim_type": 0,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471922": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 1650,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u9f50\u67cf\u6797BF109T\u6218\u6597\u673a\u5f39\u5e55",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 85,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 7,
-		"action_index": "",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471922,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			101,
-			102,
-			103,
-			104
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			20001,
-			20001,
-			20001,
-			20001
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"472001": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 1200,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u91cf\u4ea7\u578b\u585e\u58ec\u9a71\u9010\u5355\u53d1\u7784\u51c6x3\u968f\u673aIII",
-		"fire_fx": "CLFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 60,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 10,
-		"action_index": "attack",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472001,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			1005
-		],
-		"corrected": 125,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			801
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-155mm",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"472033": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 40,
-		"reload_max": 2400,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u585e\u58ec\u6218\u5217\u8de8\u5c04\u653b\u51fb\u540e\u6392\u6b66\u56683x2\u8f6e-\u7b80\u5355",
-		"fire_fx": "CAFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 150,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": {
-			"alertTime": 2,
-			"time": 1,
-			"fx": "jinengenemy",
-			"isBound": true
-		},
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 55,
-		"action_index": "attack",
-		"type": 19,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472033,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			20018
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			1530
-		],
-		"min_range": 75,
-		"fire_sfx": "battle/cannon-main",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471403": {
-		"search_type": 1,
-		"attack_attribute": 2,
-		"shakescreen": 0,
-		"angle": 60,
-		"reload_max": 3830,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u63d0\u5c14\u6bd4\u8328-6\u8054\u88c5533mm\u78c1\u6027\u9c7c\u96f7",
-		"fire_fx": "",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 52,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 42,
-		"action_index": "attack",
-		"type": 3,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471403,
-		"spawn_bound": "torpedo",
-		"barrage_ID": [
-			1410
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			1803
-		],
-		"min_range": 0,
-		"fire_sfx": "",
-		"aim_type": 1,
-		"initial_over_heat": 1,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471923": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 48,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u9f50\u67cf\u6797BF109T\u6218\u6597\u673a\u7a7a\u4e2d",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 200,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 24,
-		"action_index": "",
-		"type": 4,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471923,
-		"spawn_bound": "antiaircraft",
-		"barrage_ID": [
-			5
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			10004
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"472002": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 60,
-		"reload_max": 2600,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u585e\u58ec\u5355\u88c5\u9c7c\u96f7II",
-		"fire_fx": "",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 72,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 40,
-		"action_index": "",
-		"type": 3,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472002,
-		"spawn_bound": "torpedo",
-		"barrage_ID": [
-			1400
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			30067
-		],
-		"min_range": 0,
-		"fire_sfx": "",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"472032": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 302,
-		"angle": 80,
-		"reload_max": 2500,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u585e\u58ec\u6218\u5217\u8230\u86cb\u8239\u4e3b\u70ae",
-		"fire_fx": "CAFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 25,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": {
-			"alertTime": 1,
-			"time": 0.5,
-			"fx": "jinengenemy",
-			"isBound": true
-		},
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 28,
-		"action_index": "attack",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472032,
-		"spawn_bound": "cannon1",
-		"barrage_ID": [
-			10015
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			1530
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-main",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471404": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 60,
-		"reload_max": 1250,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u63d0\u5c14\u6bd4\u8328-\u6bcf10\u79d2\u8de8\u5c04\u6b66\u5668",
-		"fire_fx": "CAFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 90,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": {
-			"alertTime": 2,
-			"time": 1,
-			"fx": "jinengenemy",
-			"isBound": true
-		},
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 38,
-		"action_index": "attack",
-		"type": 19,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471404,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			399961
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			399988
-		],
-		"min_range": 20,
-		"fire_sfx": "battle/cannon-main",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471924": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 400,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u9f50\u67cf\u6797JU87C\u8f70\u70b8\u673a",
-		"fire_fx": "",
-		"charge_param": "",
-		"suppress": 0,
-		"range": 10,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 85,
-		"damage": 42,
-		"action_index": "",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471924,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			10001
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			10012
-		],
-		"min_range": 0,
-		"fire_sfx": "",
-		"aim_type": 0,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"472003": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 2100,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u9a71\u9010\u65cb\u8f6c\u5b50\u5f393\u53d1\u6b66\u5668",
-		"fire_fx": "CLFire",
-		"charge_param": "",
-		"suppress": 0,
-		"range": 80,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 8,
-		"action_index": "attack",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472003,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			10003
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			41003
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-main",
-		"aim_type": 0,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"472031": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 600,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u585e\u58ec\u6218\u5217\u8230\u86cb\u8239\u526f\u70ae",
-		"fire_fx": "CLFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 38,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 8,
-		"action_index": "attack",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472031,
-		"spawn_bound": "cannon1",
-		"barrage_ID": [
-			11
-		],
-		"corrected": 125,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			802
 		],
 		"min_range": 0,
 		"fire_sfx": "battle/cannon-155mm",
@@ -1493,92 +1459,146 @@
 		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"471925": {
+	"471153": {
 		"search_type": 1,
-		"attack_attribute": 4,
+		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 1250,
+		"angle": 80,
+		"reload_max": 2000,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u9f50\u67cf\u6797JU87C\u5f39\u5e55",
-		"fire_fx": "fangkongpaohuoshe2",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u6c99\u6069\u970d\u65af\u7279-\u5e73\u5c04",
+		"fire_fx": "CAFire",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 85,
-		"recover_time": 0,
+		"range": 70,
+		"recover_time": 0.5,
 		"fire_fx_loop_type": 1,
-		"precast_param": [],
+		"precast_param": {
+			"alertTime": 1,
+			"time": 0.5,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 7,
-		"action_index": "",
-		"type": 1,
+		"damage": 35,
+		"action_index": "attack",
+		"type": 19,
 		"search_condition": [
 			1
 		],
 		"oxy_type": [
 			1
 		],
-		"id": 471925,
+		"id": 471153,
 		"spawn_bound": "cannon",
 		"barrage_ID": [
-			399991
+			10015
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			399991
+			30063
 		],
 		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
+		"fire_sfx": "battle/cannon-main",
 		"aim_type": 1,
 		"initial_over_heat": 0,
-		"effect_move": 1,
+		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"471941": {
+	"471404": {
 		"search_type": 1,
-		"attack_attribute": 4,
+		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 180,
+		"angle": 60,
 		"reload_max": 1250,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011BOSS\u9b54\u9b3c\u9c7c\u6d6e\u6e38\u70ae\u4e00\u578b",
-		"fire_fx": "fangkongpaohuoshe2",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u63d0\u5c14\u6bd4\u8328-\u6bcf10\u79d2\u8de8\u5c04\u6b66\u5668",
+		"fire_fx": "CAFire",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 85,
+		"range": 90,
 		"recover_time": 0,
 		"fire_fx_loop_type": 1,
-		"precast_param": [],
+		"precast_param": {
+			"alertTime": 2,
+			"time": 1,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 15,
-		"action_index": "",
-		"type": 1,
+		"damage": 38,
+		"action_index": "attack",
+		"type": 19,
 		"search_condition": [
 			1
 		],
 		"oxy_type": [
 			1
 		],
-		"id": 471941,
+		"id": 471404,
 		"spawn_bound": "cannon",
 		"barrage_ID": [
-			399990
+			399961
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			399990
+			399988
 		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
+		"min_range": 20,
+		"fire_sfx": "battle/cannon-main",
 		"aim_type": 1,
 		"initial_over_heat": 0,
-		"effect_move": 1,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471403": {
+		"search_type": 1,
+		"attack_attribute": 2,
+		"shakescreen": 0,
+		"angle": 60,
+		"reload_max": 3830,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u63d0\u5c14\u6bd4\u8328-6\u8054\u88c5533mm\u78c1\u6027\u9c7c\u96f7",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 52,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 42,
+		"action_index": "attack",
+		"type": 3,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471403,
+		"spawn_bound": "torpedo",
+		"barrage_ID": [
+			1410
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			1803
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 1,
+		"effect_move": 0,
 		"axis_angle": 0
 	},
 	"471201": {
@@ -1625,70 +1645,75 @@
 		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"472023": {
+	"471154": {
 		"search_type": 1,
-		"attack_attribute": 2,
+		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 60,
-		"reload_max": 2800,
+		"angle": 40,
+		"reload_max": 2400,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u585e\u58ec\u53cc\u8054\u88c5\u9c7c\u96f7II",
-		"fire_fx": "",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u6c99\u6069\u970d\u65af\u7279-\u6218\u5217\u8de8\u5c04\u653b\u51fb\u540e\u6392\u6b66\u56683x2\u8f6e-\u7b80\u5355",
+		"fire_fx": "CAFire",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 60,
-		"recover_time": 0.5,
+		"range": 150,
+		"recover_time": 0,
 		"fire_fx_loop_type": 1,
-		"precast_param": [],
+		"precast_param": {
+			"alertTime": 2,
+			"time": 1,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 40,
+		"damage": 45,
 		"action_index": "attack",
-		"type": 3,
+		"type": 19,
 		"search_condition": [
 			1
 		],
 		"oxy_type": [
 			1
 		],
-		"id": 472023,
-		"spawn_bound": "torpedo",
+		"id": 471154,
+		"spawn_bound": "cannon",
 		"barrage_ID": [
-			1401
+			20018
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			30067
+			30063
 		],
-		"min_range": 0,
-		"fire_sfx": "",
+		"min_range": 75,
+		"fire_sfx": "battle/cannon-main",
 		"aim_type": 1,
-		"initial_over_heat": 1,
+		"initial_over_heat": 0,
 		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"471926": {
+	"471402": {
 		"search_type": 1,
-		"attack_attribute": 4,
+		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 1650,
+		"angle": 360,
+		"reload_max": 2400,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u9f50\u67cf\u6797Me155A\u6218\u6597\u673a\u5f39\u5e55",
-		"fire_fx": "fangkongpaohuoshe2",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u63d0\u5c14\u6bd4\u8328-Q\u7248\u91cd\u5de1\u8054\u88c5\u4e3b\u70aex6-\u8f6e\u5c04II",
+		"fire_fx": "CAFire",
 		"charge_param": "",
-		"suppress": 1,
-		"range": 85,
+		"suppress": 0,
+		"range": 90,
 		"recover_time": 0,
 		"fire_fx_loop_type": 1,
 		"precast_param": [],
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 8,
-		"action_index": "",
+		"damage": 18,
+		"action_index": "attack",
 		"type": 1,
 		"search_condition": [
 			1
@@ -1696,27 +1721,21 @@
 		"oxy_type": [
 			1
 		],
-		"id": 471926,
+		"id": 471402,
 		"spawn_bound": "cannon",
 		"barrage_ID": [
-			101,
-			102,
-			103,
-			104
+			1203
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			20001,
-			20001,
-			20001,
-			20001
+			1403
 		],
 		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 0,
 		"initial_over_heat": 0,
-		"effect_move": 1,
+		"effect_move": 0,
 		"axis_angle": 0
 	},
 	"471501": {
@@ -1809,26 +1828,26 @@
 		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"471911": {
+	"471155": {
 		"search_type": 1,
-		"attack_attribute": 4,
+		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 400,
+		"angle": 360,
+		"reload_max": 600,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u585e\u58ec\u822a\u6bcd\u86cb\u8239\u8f70\u70b8\u673a\u6b66\u5668T1",
-		"fire_fx": "",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u683c\u5948\u68ee\u7459-Q\u7248\u8fd1\u7a0b\u81ea\u536b\u706b\u70aeII",
+		"fire_fx": "CLFire",
 		"charge_param": "",
-		"suppress": 0,
-		"range": 10,
-		"recover_time": 0,
+		"suppress": 1,
+		"range": 38,
+		"recover_time": 0.5,
 		"fire_fx_loop_type": 1,
 		"precast_param": [],
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 38,
-		"action_index": "",
+		"damage": 8,
+		"action_index": "attack",
 		"type": 2,
 		"search_condition": [
 			1
@@ -1836,65 +1855,65 @@
 		"oxy_type": [
 			1
 		],
-		"id": 471911,
+		"id": 471155,
 		"spawn_bound": "cannon",
 		"barrage_ID": [
-			10001
+			12
 		],
-		"corrected": 100,
+		"corrected": 125,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			10012
+			999
 		],
 		"min_range": 0,
-		"fire_sfx": "",
-		"aim_type": 0,
+		"fire_sfx": "battle/cannon-155mm",
+		"aim_type": 1,
 		"initial_over_heat": 0,
-		"effect_move": 1,
+		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"471927": {
+	"471171": {
 		"search_type": 1,
-		"attack_attribute": 4,
+		"attack_attribute": 1,
 		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 48,
+		"angle": 360,
+		"reload_max": 600,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u9f50\u67cf\u6797Me155A\u6218\u6597\u673a\u7a7a\u4e2d",
-		"fire_fx": "fangkongpaohuoshe2",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u9f50\u67cf\u6797-Q\u7248\u8fd1\u7a0b\u81ea\u536b\u706b\u70aeII",
+		"fire_fx": "CLFire",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 200,
-		"recover_time": 0,
+		"range": 38,
+		"recover_time": 0.5,
 		"fire_fx_loop_type": 1,
 		"precast_param": [],
 		"expose": 0,
 		"attack_attribute_ratio": 100,
-		"damage": 26,
-		"action_index": "",
-		"type": 4,
+		"damage": 8,
+		"action_index": "attack",
+		"type": 2,
 		"search_condition": [
 			1
 		],
 		"oxy_type": [
 			1
 		],
-		"id": 471927,
-		"spawn_bound": "antiaircraft",
+		"id": 471171,
+		"spawn_bound": "cannon",
 		"barrage_ID": [
-			5
+			12
 		],
-		"corrected": 100,
+		"corrected": 125,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			10004
+			999
 		],
 		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
+		"fire_sfx": "battle/cannon-155mm",
 		"aim_type": 1,
 		"initial_over_heat": 0,
-		"effect_move": 1,
+		"effect_move": 0,
 		"axis_angle": 0
 	},
 	"471502": {
@@ -1985,69 +2004,19 @@
 		"effect_move": 0,
 		"axis_angle": 0
 	},
-	"471912": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 1650,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u585e\u58ec\u822a\u6bcd\u86cb\u8239\u6218\u6597\u673a\u5f39\u5e55",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 85,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 5,
-		"action_index": "",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471912,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			101,
-			102,
-			103,
-			104
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			20001,
-			20001,
-			20001,
-			20001
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"472022": {
+	"471156": {
 		"search_type": 1,
 		"attack_attribute": 1,
 		"shakescreen": 0,
 		"angle": 360,
-		"reload_max": 1100,
+		"reload_max": 1400,
 		"torpedo_ammo": 0,
 		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u91cf\u4ea7\u578b\u585e\u58ec\u91cd\u5de1\u8054\u88c5\u4e3b\u70aex2-\u6563\u5c04III",
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u683c\u5948\u68ee\u7459-Q\u7248\u91cd\u5de1\u5355\u53d1\u4e3b\u70aex4-\u7784\u51c6II",
 		"fire_fx": "CAFire",
 		"charge_param": "",
 		"suppress": 1,
-		"range": 80,
+		"range": 90,
 		"recover_time": 0,
 		"fire_fx_loop_type": 1,
 		"precast_param": [],
@@ -2062,19 +2031,63 @@
 		"oxy_type": [
 			1
 		],
-		"id": 472022,
+		"id": 471156,
 		"spawn_bound": "cannon",
 		"barrage_ID": [
-			200100
+			200091
 		],
 		"corrected": 100,
 		"auto_aftercast": 0,
 		"bullet_ID": [
-			803
+			1403
 		],
 		"min_range": 0,
 		"fire_sfx": "battle/cannon-main",
 		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471172": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 1100,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u9f50\u67cf\u6797-Q\u7248\u5355\u53d1x6\u968f\u673aII",
+		"fire_fx": "CLFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 60,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 10,
+		"action_index": "attack",
+		"type": 2,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471172,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			1106
+		],
+		"corrected": 125,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			802
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-155mm",
+		"aim_type": 0,
 		"initial_over_heat": 0,
 		"effect_move": 0,
 		"axis_angle": 0
@@ -2129,6 +2142,725 @@
 		"effect_move": 0,
 		"axis_angle": 0
 	},
+	"471141": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 600,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5e0c\u4f69\u5c14-Q\u7248\u8fd1\u7a0b\u81ea\u536b\u706b\u70aeII",
+		"fire_fx": "CLFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 38,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 8,
+		"action_index": "attack",
+		"type": 2,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471141,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			12
+		],
+		"corrected": 125,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			999
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-155mm",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471157": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 80,
+		"reload_max": 2000,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u683c\u5948\u68ee\u7459-\u5e73\u5c04",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 70,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": {
+			"alertTime": 1,
+			"time": 0.5,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 35,
+		"action_index": "attack",
+		"type": 19,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471157,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			10015
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			30063
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471173": {
+		"search_type": 1,
+		"attack_attribute": 4,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 3000,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u9f50\u67cf\u6797-\u9c7c\u96f7\u673aT1",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 110,
+		"recover_time": 5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 34,
+		"action_index": "attack",
+		"type": 11,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471173,
+		"spawn_bound": "plane",
+		"barrage_ID": [
+			12015
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			30014
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 1,
+		"axis_angle": 0
+	},
+	"471504": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 180,
+		"reload_max": 2500,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u6d4b\u8bd5\u8005\u03b2\u578b-\u70ae\u51fb\u4e8c\u578b",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 0,
+		"range": 90,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 90,
+		"damage": 18,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471504,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			399993
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			399993
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 0,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471142": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 1400,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5e0c\u4f69\u5c14-Q\u7248\u91cd\u5de1\u5355\u53d1\u4e3b\u70aex4-\u7784\u51c6II",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 90,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 18,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471142,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			200091
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			1403
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471158": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 40,
+		"reload_max": 2400,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u683c\u5948\u68ee\u7459-\u6218\u5217\u8de8\u5c04\u653b\u51fb\u540e\u6392\u6b66\u56683x2\u8f6e-\u7b80\u5355",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 150,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": {
+			"alertTime": 2,
+			"time": 1,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 45,
+		"action_index": "attack",
+		"type": 19,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471158,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			20018
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			30063
+		],
+		"min_range": 75,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471174": {
+		"search_type": 1,
+		"attack_attribute": 4,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 1400,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u9f50\u67cf\u6797-BF109T",
+		"fire_fx": "zhupao",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 120,
+		"recover_time": 5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 24,
+		"action_index": "attack",
+		"type": 11,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471174,
+		"spawn_bound": "plane",
+		"barrage_ID": [
+			12015
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			30013
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/air-atk",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 1,
+		"axis_angle": 0
+	},
+	"471127": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 1000,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u79d1\u9686-Q\u7248\u65cb\u8f6c\u5b50\u5f39\u6563\u5c048\u8fde",
+		"fire_fx": "CLFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 80,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 8,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471127,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			300202
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			300202
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471143": {
+		"search_type": 1,
+		"attack_attribute": 2,
+		"shakescreen": 0,
+		"angle": 60,
+		"reload_max": 1800,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5e0c\u4f69\u5c14-Q\u7248\u53cc\u8054\u88c5\u9c7c\u96f7II",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 60,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 35,
+		"action_index": "attack",
+		"type": 3,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471143,
+		"spawn_bound": "torpedo",
+		"barrage_ID": [
+			1401
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			1801
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 1,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471159": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 600,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u63d0\u5c14\u6bd4\u8328-Q\u7248\u8fd1\u7a0b\u81ea\u536b\u706b\u70aeII",
+		"fire_fx": "CLFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 38,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 8,
+		"action_index": "attack",
+		"type": 2,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471159,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			12
+		],
+		"corrected": 125,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			999
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-155mm",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471175": {
+		"search_type": 1,
+		"attack_attribute": 4,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 3200,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u9f50\u67cf\u6797-JU87C",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 100,
+		"recover_time": 5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 42,
+		"action_index": "attack",
+		"type": 11,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471175,
+		"spawn_bound": "plane",
+		"barrage_ID": [
+			12015
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			30019
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 1,
+		"axis_angle": 0
+	},
+	"471128": {
+		"search_type": 1,
+		"attack_attribute": 2,
+		"shakescreen": 0,
+		"angle": 180,
+		"reload_max": 1500,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u79d1\u9686-Q\u7248\u6563\u578b3\u53d1\u5feb\u901f\u9c7c\u96f7",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 72,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 35,
+		"action_index": "",
+		"type": 3,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471128,
+		"spawn_bound": "torpedo",
+		"barrage_ID": [
+			300506
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			300506
+		],
+		"min_range": 0,
+		"fire_sfx": "",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471144": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 600,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5fb7\u610f\u5fd7-Q\u7248\u8fd1\u7a0b\u81ea\u536b\u706b\u70aeII",
+		"fire_fx": "CLFire",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 38,
+		"recover_time": 0.5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 8,
+		"action_index": "attack",
+		"type": 2,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471144,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			12
+		],
+		"corrected": 125,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			999
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-155mm",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471160": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 2400,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u63d0\u5c14\u6bd4\u8328-Q\u7248\u91cd\u5de1\u8054\u88c5\u4e3b\u70aex6-\u8f6e\u5c04II",
+		"fire_fx": "CAFire",
+		"charge_param": "",
+		"suppress": 0,
+		"range": 90,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 22,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471160,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			1203
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			1403
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 0,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
+	"471176": {
+		"search_type": 1,
+		"attack_attribute": 4,
+		"shakescreen": 0,
+		"angle": 360,
+		"reload_max": 2200,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u9f50\u67cf\u6797-Me155A",
+		"fire_fx": "zhupao",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 120,
+		"recover_time": 5,
+		"fire_fx_loop_type": 1,
+		"precast_param": [],
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 26,
+		"action_index": "attack",
+		"type": 11,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471176,
+		"spawn_bound": "plane",
+		"barrage_ID": [
+			12015
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			30013
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/air-atk",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 1,
+		"axis_angle": 0
+	},
+	"471129": {
+		"search_type": 1,
+		"attack_attribute": 1,
+		"shakescreen": 0,
+		"angle": 180,
+		"reload_max": 1500,
+		"torpedo_ammo": 0,
+		"queue": 1,
+		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u5361\u5c14\u65af\u9c81\u5384-Q\u7248\u7a7f\u900f\u5f39\u5ef6\u8fdf\u6563\u5c044\u8fde",
+		"fire_fx": "",
+		"charge_param": "",
+		"suppress": 1,
+		"range": 90,
+		"recover_time": 0,
+		"fire_fx_loop_type": 1,
+		"precast_param": {
+			"alertTime": 2,
+			"time": 0.5,
+			"fx": "jinengenemy",
+			"isBound": true
+		},
+		"expose": 0,
+		"attack_attribute_ratio": 100,
+		"damage": 12,
+		"action_index": "attack",
+		"type": 1,
+		"search_condition": [
+			1
+		],
+		"oxy_type": [
+			1
+		],
+		"id": 471129,
+		"spawn_bound": "cannon",
+		"barrage_ID": [
+			300102
+		],
+		"corrected": 100,
+		"auto_aftercast": 0,
+		"bullet_ID": [
+			300102
+		],
+		"min_range": 0,
+		"fire_sfx": "battle/cannon-main",
+		"aim_type": 1,
+		"initial_over_heat": 0,
+		"effect_move": 0,
+		"axis_angle": 0
+	},
 	"471204": {
 		"search_type": 1,
 		"attack_attribute": 1,
@@ -2177,727 +2909,6 @@
 		"aim_type": 0,
 		"initial_over_heat": 0,
 		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471913": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 48,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011\u585e\u58ec\u822a\u6bcd\u86cb\u8239\u6218\u6597\u673a\u7a7a\u4e2d",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 200,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 22,
-		"action_index": "",
-		"type": 4,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471913,
-		"spawn_bound": "antiaircraft",
-		"barrage_ID": [
-			5
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			10004
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"472021": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 2200,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u91cf\u4ea7\u578b\u5927\u8239\u901a\u7528\u526f\u70aeII",
-		"fire_fx": "CLFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 60,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 8,
-		"action_index": "",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472021,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			1008
-		],
-		"corrected": 125,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			999
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-155mm",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471504": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 2500,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u6d4b\u8bd5\u8005\u03b2\u578b-\u70ae\u51fb\u4e8c\u578b",
-		"fire_fx": "CAFire",
-		"charge_param": "",
-		"suppress": 0,
-		"range": 90,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 90,
-		"damage": 18,
-		"action_index": "attack",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471504,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			399993
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			399993
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-main",
-		"aim_type": 0,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471205": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 1000,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011Z46-\u4e13\u7528\u6b66\u5668",
-		"fire_fx": "CAFire",
-		"charge_param": "",
-		"suppress": 0,
-		"range": 90,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 90,
-		"damage": 10,
-		"action_index": "attack",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471205,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			200034,
-			200035
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			20005,
-			20005
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-main",
-		"aim_type": 0,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"472103": {
-		"search_type": 1,
-		"attack_attribute": 2,
-		"shakescreen": 0,
-		"angle": 60,
-		"reload_max": 2500,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u4eba\u578b\u3011Z1-\u9c7c\u96f7",
-		"fire_fx": "",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 50,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 43,
-		"action_index": "attack",
-		"type": 3,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472103,
-		"spawn_bound": "torpedo",
-		"barrage_ID": [
-			1403
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			10007
-		],
-		"min_range": 0,
-		"fire_sfx": "",
-		"aim_type": 1,
-		"initial_over_heat": 1,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471936": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 48,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011BOSS\u9f50\u67cf\u6797Me155A\u6218\u6597\u673a\u7a7a\u4e2d",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 200,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 33,
-		"action_index": "",
-		"type": 4,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471936,
-		"spawn_bound": "antiaircraft",
-		"barrage_ID": [
-			5
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			10004
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"471505": {
-		"search_type": 1,
-		"attack_attribute": 2,
-		"shakescreen": 0,
-		"angle": 60,
-		"reload_max": 2500,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u6d4b\u8bd5\u8005\u03b2\u578b-8\u8054\u88c5533mm\u78c1\u6027\u9c7c\u96f7",
-		"fire_fx": "",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 52,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 42,
-		"action_index": "attack",
-		"type": 3,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471505,
-		"spawn_bound": "torpedo",
-		"barrage_ID": [
-			399987
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			1803
-		],
-		"min_range": 0,
-		"fire_sfx": "",
-		"aim_type": 0,
-		"initial_over_heat": 1,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471935": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 1650,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011BOSS\u9f50\u67cf\u6797Me155A\u6218\u6597\u673a\u5f39\u5e55",
-		"fire_fx": "fangkongpaohuoshe2",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 85,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 11,
-		"action_index": "",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471935,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			101,
-			102,
-			103,
-			104
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			20001,
-			20001,
-			20001,
-			20001
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"472041": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 600,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u585e\u58ec\u822a\u6bcd\u86cb\u8239\u8fd1\u7a0b\u81ea\u536b\u706b\u70aeII",
-		"fire_fx": "CLFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 38,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 8,
-		"action_index": "attack",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472041,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			12
-		],
-		"corrected": 125,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			999
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-155mm",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471301": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 600,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u9f50\u67cf\u6797-Q\u7248\u8fd1\u7a0b\u81ea\u536b\u706b\u70aeII",
-		"fire_fx": "CLFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 38,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 9,
-		"action_index": "attack",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471301,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			12
-		],
-		"corrected": 125,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			999
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-155mm",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471506": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 40,
-		"reload_max": 2400,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u6d4b\u8bd5\u8005\u03b2\u578b-\u6218\u5217\u8de8\u5c04\u653b\u51fb\u540e\u6392\u6b66\u56683x2\u8f6e-\u7b80\u5355",
-		"fire_fx": "CAFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 150,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": {
-			"alertTime": 2,
-			"time": 1,
-			"fx": "jinengenemy",
-			"isBound": true
-		},
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 52,
-		"action_index": "attack",
-		"type": 19,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471506,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			20018
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			1530
-		],
-		"min_range": 75,
-		"fire_sfx": "battle/cannon-main",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471933": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 400,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u98de\u673a\u3011BOSS\u9f50\u67cf\u6797JU87C\u8f70\u70b8\u673a",
-		"fire_fx": "",
-		"charge_param": "",
-		"suppress": 0,
-		"range": 10,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 85,
-		"damage": 48,
-		"action_index": "",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471933,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			10001
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			10012
-		],
-		"min_range": 0,
-		"fire_sfx": "",
-		"aim_type": 0,
-		"initial_over_heat": 0,
-		"effect_move": 1,
-		"axis_angle": 0
-	},
-	"472042": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 1100,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011\u585e\u58ec\u822a\u6bcd\u86cb\u8239\u5355\u53d1x6\u968f\u673aII",
-		"fire_fx": "CLFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 60,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 10,
-		"action_index": "attack",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472042,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			1106
-		],
-		"corrected": 125,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			802
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-155mm",
-		"aim_type": 0,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471302": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 1100,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010BOSS\u3011\u9f50\u67cf\u6797-Q\u7248\u8f7b\u5de1\u5355\u53d1x6\u968f\u673aII",
-		"fire_fx": "CLFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 60,
-		"recover_time": 0.5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 12,
-		"action_index": "attack",
-		"type": 2,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471302,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			1106
-		],
-		"corrected": 125,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			1201
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-155mm",
-		"aim_type": 0,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"472011": {
-		"search_type": 1,
-		"attack_attribute": 1,
-		"shakescreen": 0,
-		"angle": 180,
-		"reload_max": 1000,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cC\u3011\u3010\u6742\u5175\u3011Q\u7248\u65cb\u8f6c\u5b50\u5f39\u5ef6\u8fdf3\u8fde\u5f39\u2014\u2014\u9a71\u9010\uff08\u629b\u7269\u7ebf\uff09",
-		"fire_fx": "CAFire",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 100,
-		"recover_time": 0,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 18,
-		"action_index": "attack",
-		"type": 1,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 472011,
-		"spawn_bound": "cannon",
-		"barrage_ID": [
-			300109,
-			300110,
-			300111
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			300109,
-			300110,
-			300111
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/cannon-main",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 0,
-		"axis_angle": 0
-	},
-	"471176": {
-		"search_type": 1,
-		"attack_attribute": 4,
-		"shakescreen": 0,
-		"angle": 360,
-		"reload_max": 2200,
-		"torpedo_ammo": 0,
-		"queue": 1,
-		"name": "\u3010\u5f02\u8272\u683cB\u3011\u3010\u4eba\u578b\u3011\u9f50\u67cf\u6797-Me155A",
-		"fire_fx": "zhupao",
-		"charge_param": "",
-		"suppress": 1,
-		"range": 120,
-		"recover_time": 5,
-		"fire_fx_loop_type": 1,
-		"precast_param": [],
-		"expose": 0,
-		"attack_attribute_ratio": 100,
-		"damage": 26,
-		"action_index": "attack",
-		"type": 11,
-		"search_condition": [
-			1
-		],
-		"oxy_type": [
-			1
-		],
-		"id": 471176,
-		"spawn_bound": "plane",
-		"barrage_ID": [
-			12015
-		],
-		"corrected": 100,
-		"auto_aftercast": 0,
-		"bullet_ID": [
-			30013
-		],
-		"min_range": 0,
-		"fire_sfx": "battle/air-atk",
-		"aim_type": 1,
-		"initial_over_heat": 0,
-		"effect_move": 1,
 		"axis_angle": 0
 	}
 }

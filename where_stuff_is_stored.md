@@ -1,7 +1,7 @@
 ## Ship data template
 
 
-```json
+```js
 "305062": {                         //This is the ship's ID. The last number is limit break. IDs 900000-901000 are NPC ships.
     "english_name": "IJN Mutsu",    //Ship's name. /^.[A-Z]+ / will target just the ship prefix.
     "armor_type": 3,                //1 = Light, 2 = Medium, 3 = Heavy.
@@ -130,7 +130,7 @@
 ```
 
 ## Ship data template
-```json
+```js
 "303014": {                         //ID
     "max_level": 100,               //This is useless
     "oil_at_end": 9,

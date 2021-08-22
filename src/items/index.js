@@ -21,7 +21,7 @@ function readFilesFromLanguage(lang = "EN") {
             compiled[id].names = {}
             compiled[id].display = {}
             let icon = item.icon
-            compiled[id].icon = "https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/" + icon.toLowerCase() + ".png"
+            compiled[id].icon = "https://raw.githubusercontent.com/Lunarmagpie/AzurLaneAssetDump/master/assets/artresource/atlas/" + icon.toLowerCase() + ".png"
             compiled[id].rarity = item.rarity
         }
 

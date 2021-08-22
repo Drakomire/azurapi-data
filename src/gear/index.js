@@ -16,78 +16,46 @@ function open_sublist(file,lang){
   return out
 }
 
+function get_most_recent(statistics, gear_level, val){
+  if (gear_level < 0){
+    return undefined
+  }
+
+  if (statistics[gear_level][val] !== undefined){
+    return statistics[gear_level][val]
+  }
+  return get_most_recent(statistics, gear_level-1, val)
+
+}
+
+CLASS_TYPES = {
+    1 : "cannon",
+    2 : "cannon",
+    3 : "cannon",
+    4 : "cannon",
+    5 : "torpedo",
+    6 : "cannon",
+    7 : "air",
+    8 : "air",
+    9 : "air",
+    10 : "gear",
+    11 : "cannon",
+    12 : "plane", //Sea plane
+    13 : "cannon",
+    14 : "gear",
+    15 : "gear",
+    18 : "Cargo"
+  }
+  
+
 function readFilesFromLanguage(lang = "EN") {
   let equip_data_statistics = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "AzurLaneSourceJson", lang, "sharecfg", `equip_data_statistics.json`)).toString())
   let equip_data_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "AzurLaneSourceJson", lang, "sharecfg", `equip_data_template.json`)).toString())
   let weapon_property = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "AzurLaneSourceJson", lang, "sharecfg", `weapon_property.json`)).toString())
 
-  let barrage_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "AzurLaneSourceJson", lang, "sharecfg", `barrage_template.json`)).toString())
-  let bullet_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "AzurLaneSourceJson", lang, "sharecfg", `bullet_template.json`)).toString())
-
   let template_sublist = open_sublist("equip_data_template",lang)
   let statistics_sublist = open_sublist("equip_data_statistics",lang)
   let weapon_property_sublist = open_sublist("weapon_property",lang)
-
-  function parse_weapon(id, ammo_info){
-    //Open the file
-    let base_id = id-id%20
-    console.log(ammo_info)
-
-    try{
-      cur_weapon = weapon_property_sublist[weapon_property["indexs"][id]][id]
-      base_weapon = weapon_property_sublist[weapon_property["indexs"][base_id]][base_id]
-    }catch{
-      return {}
-    }
-
-    out = {
-      "reload" : (cur_weapon.reload_max || base_weapon.reload_max),
-
-      "coefficient" : base_weapon.corrected,
-
-      //Other info
-      "spawn" : base_weapon.spawn_bound,
-
-      "_debug" : `${weapon_property["indexs"][id]}/${id}`,
-
-    }
-
-    if (base_weapon["spawn_bound"] == "cannon"){
-      //Only factoring first one rn
-      barrage = barrage_template[base_weapon.barrage_ID[0]]
-      shell = bullet_template[base_weapon.bullet_ID[0]]
-
-      out.damage = cur_weapon.damage
-      out.volley_time = barrage.senior_repeat*barrage.senior_delay
-      out.volley_size = [barrage.senior_repeat+1,barrage.primal_repeat+1]
-      out.angle = base_weapon.angle
-      out.range = {
-        "firing": base_weapon.range,
-        "shell" : shell.range
-       }
-       out.velocity = shell.velocity
-       out.ammo = shell.type
-    }
-
-    if (base_weapon["spawn_bound"] == "torpedo"){
-      barrage = barrage_template[base_weapon.barrage_ID[0]]
-      shell = bullet_template[base_weapon.bullet_ID[0]]
-
-      out.damage = cur_weapon.damage
-      shell = bullet_template[base_weapon.bullet_ID[0]]
-      out.angle = base_weapon.angle
-      out.ammo = shell.type
-      out.range = {
-        "firing": base_weapon.range,
-        "shell" : shell.range
-       }
-       out.velocity = shell.velocity
-
-       out._shell = shell.id
-    }
-
-    return out
-  }
 
   function parse_gear(id){
     //Data that is part of statistics
@@ -110,22 +78,23 @@ function readFilesFromLanguage(lang = "EN") {
     let out = compiled[id/10] || {}
 
     out.id = id
-    out.attribute = this_statistics[0].attribute_2
     out.rarity = this_statistics[0].rarity
     out.nationality = this_statistics[0].nationality
     out.type = this_statistics[0].type
-    out[`name_${lang}`] = this_statistics[0]["name"]
-    out.image = `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/equips/${this_statistics[0]["icon"]}.png`
+
+    out.class_type = CLASS_TYPES[out.type] || "gear"
+
+    out[`name_${lang}`] = this_statistics[0]["name"].trim()
+    out.image = `https://raw.githubusercontent.com/Lunarmagpie/AzurLaneAssetDump/master/assets/artresource/atlas/equips/${this_statistics[0]["icon"]}.png`
 
     //Weapons and damage are calculated for ships with a weapon
     if (this_statistics[0].weapon_id.length != 0){
       out.weapons = []
       for (stat of this_statistics){
         let weapons = []
-        for (weapon of stat.weapon_id){
-          weapons.push(parse_weapon(weapon))
+        for (let weapon of stat.weapon_id){
+          weapons.push(weapon)
         }
-
         out.weapons.push(weapons)
       }
 
@@ -139,6 +108,26 @@ function readFilesFromLanguage(lang = "EN") {
         }
       }
     }
+
+    out.stat_boost = []
+    for (let gear_level = 0; gear_level<=MAX_GEAR_LEVEL; gear_level++){
+      if (this_statistics[gear_level] === undefined){
+        continue
+      }
+
+      out.stat_boost.push([])
+      for (let i = 1; i <= 3; i++){
+        out.stat_boost[gear_level].push(parseInt(get_most_recent(this_statistics,gear_level,`value_${i}`)))
+      }
+    }
+
+    out.stat_boost_types = [
+      this_statistics[0]["attribute_1"],
+      this_statistics[0]["attribute_2"],
+      this_statistics[0]["attribute_3"]
+
+
+    ]
 
     //Data that is part of template
     out.ship_type_forbidden = this_template[0].ship_type_forbidden

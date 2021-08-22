@@ -1,17 +1,12 @@
 /*
 Entry point!
  */
-const ships = require("./ships");
-// const {parseSkills} = require("./ships/parseSkills.js");
+const ships = require("./ships")
+const gear = require("./gear")
+const barrage = require("./gear/barrage")
+const items = require("./items")
 
-
-const gear = require("./gear");
-const items = require("./items");
-
-
-items.parseItems();
-ships.parseShips();
-gear.parseGear();
-
-// parseSkills();
-// gear.parseShips();
+items.parseItems()
+ships.parseShips()
+gear.parseGear()
+barrage.parseBarrages()

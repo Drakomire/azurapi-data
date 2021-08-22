@@ -28,6 +28,26 @@ function get_most_recent(statistics, gear_level, val){
 
 }
 
+CLASS_TYPES = {
+    1 : "cannon",
+    2 : "cannon",
+    3 : "cannon",
+    4 : "cannon",
+    5 : "torpedo",
+    6 : "cannon",
+    7 : "air",
+    8 : "air",
+    9 : "air",
+    10 : "gear",
+    11 : "cannon",
+    12 : "plane", //Sea plane
+    13 : "cannon",
+    14 : "gear",
+    15 : "gear",
+    18 : "Cargo"
+  }
+  
+
 function readFilesFromLanguage(lang = "EN") {
   let equip_data_statistics = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "AzurLaneSourceJson", lang, "sharecfg", `equip_data_statistics.json`)).toString())
   let equip_data_template = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "AzurLaneSourceJson", lang, "sharecfg", `equip_data_template.json`)).toString())
@@ -58,11 +78,13 @@ function readFilesFromLanguage(lang = "EN") {
     let out = compiled[id/10] || {}
 
     out.id = id
-    out.attribute = this_statistics[0].attribute_2
     out.rarity = this_statistics[0].rarity
     out.nationality = this_statistics[0].nationality
     out.type = this_statistics[0].type
-    out[`name_${lang}`] = this_statistics[0]["name"]
+
+    out.class_type = CLASS_TYPES[out.type] || "gear"
+
+    out[`name_${lang}`] = this_statistics[0]["name"].trim()
     out.image = `https://raw.githubusercontent.com/Lunarmagpie/AzurLaneAssetDump/master/assets/artresource/atlas/equips/${this_statistics[0]["icon"]}.png`
 
     //Weapons and damage are calculated for ships with a weapon

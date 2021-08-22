@@ -218,7 +218,7 @@ function readFilesFromLanguage(lang = "EN") {
         for (let i = compiled[ship.group_type].skills.length; i<ship.buff_list_display.length; i++){
           //AoAs will be added to a different list to make parsing easier
           buff_id = ship.buff_list_display[i]
-          let icon = `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/skillicon/${Math.floor(buff_id/10)*10}.png`
+          let icon = `https://raw.githubusercontent.com/Lunarmagpie/AzurLaneAssetDump/master/assets/artresource/atlas/skillicon/${Math.floor(buff_id/10)*10}.png`
           if (skillIsAoA(buff_id)){
             //Skill is an AoA
             if (!aoaIncludesID(compiled[ship.group_type].all_out_assaults, buff_id)){
@@ -278,7 +278,7 @@ function readFilesFromLanguage(lang = "EN") {
                     "x" : parseInt(i),
                     "y" :  l[i][j][0]-2,
                     "recurrence" : this_node.effect.length,
-                    "icon" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/modicon/${transform_data_template[l[i][j][1]].icon.toLowerCase()}.png`,
+                    "icon" : `https://raw.githubusercontent.com/Lunarmagpie/AzurLaneAssetDump/master/assets/artresource/atlas/modicon/${transform_data_template[l[i][j][1]].icon.toLowerCase()}.png`,
                     "next_nodes" : [],
                     "required_nodes" : this_node.condition_id,
                     "letter" : String.fromCharCode(l[i][j][1]%100 + 64), //Convert number to ascii code for the letter
@@ -543,8 +543,8 @@ function readFilesFromLanguage(lang = "EN") {
               "name" : skin.name,
               "description" : skin.desc,
               "image" : undefined,
-              "thumbnail" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/squareicon/${skin.painting.toLowerCase()}.png`,
-              "chibi" : `https://raw.githubusercontent.com/Drakomire/perseus-data/master/AzurLaneImages/assets/artresource/atlas/shipmodels/${skin.painting.toLowerCase()}.png`
+              "thumbnail" : `https://raw.githubusercontent.com/Lunarmagpie/AzurLaneAssetDump/master/assets/artresource/atlas/squareicon/${skin.painting.toLowerCase()}.png`,
+              "chibi" : `https://raw.githubusercontent.com/Lunarmagpie/AzurLaneAssetDump/master/assets/artresource/atlas/shipmodels/${skin.painting.toLowerCase()}.png`
             })
           }
           compiled[ship.group_type].skins = skin_portaits

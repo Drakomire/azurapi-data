@@ -1,3 +1,6 @@
+REPO IS DEPRECATED
+Im redoing the entire system in rust
+
 # perseus-data
 This is the main data collection for my API.
 - The ship stats extractor is forked from AzurAPI.
